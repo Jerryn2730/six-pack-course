@@ -6,8 +6,8 @@ This folder is ready to open in Claude Code. **Budget rule: zero cost except you
 | --- | --- |
 | `CLAUDE.md` | Standing rules Claude Code reads automatically, including the zero-cost rule |
 | `COURSE_MASTER.md` | Current work product, production guide, free toolchain, Claude Code task playbook (Tasks 0–8), and the full course blueprint |
-| `site/index.html` | The working study app (open it in a browser) |
-| `content/course-data.json` | Every lesson, slide script and question as structured data |
+| `site/index.html` | The working study app (open it in a browser). Built by `npm run build`; don't edit by hand |
+| `content/course-data.json` | Every lesson, slide script and question: the source of truth. Edit this, then run `npm run build` |
 | `.env.example` | Local voice settings (no paid keys) |
 
 ## The free toolchain
@@ -39,8 +39,9 @@ All content is AI-drafted and must be fact-checked against official sources befo
 | Path | Purpose |
 | --- | --- |
 | `site/` | Deployable static site (`site/index.html`, `site/audio/` for MP3s) |
-| `content/` | Lesson, script and question data (`course-data.json` snapshot) |
-| `scripts/` | Node tooling; `npm run validate`, `audio`, `video`, `deploy`, `export` are stubs for now |
+| `content/` | `course-data.json` (source of truth) and `archive/` (superseded drafts) |
+| `src/app.html` | App code template; the build inserts the content at `/*@@CONTENT@@*/` |
+| `scripts/` | Node tooling: `npm run validate` and `npm run build` work; `audio`, `video`, `deploy` are stubs |
 | `config/` | Voice settings (Task 2) |
 | `media/` | Generated narration, captions, diagrams, thumbnails; `media/video/` is gitignored |
 | `QA/`, `SOURCES/` | Pronunciation dictionary, fact-check logs, source register, asset licenses |

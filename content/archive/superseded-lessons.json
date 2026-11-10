@@ -1,0 +1,1356 @@
+{
+ "note": "Archived content not used by the app. Kept for reference only; not validated, not narrated. Extracted from site/index.html during the switch to content/course-data.json as the source of truth.",
+ "archived": "2026-11-10",
+ "preLectureVersions": {
+  "note": "Original (non-lecture) slides of the pilot lessons, replaced by the approved-pilot lecture versions.",
+  "lessons": [
+   {
+    "id": "rules-01",
+    "module": "R",
+    "title": "Where the rules apply",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "How this course works",
+      "visual": {
+       "k": "points",
+       "items": [
+        "15 lessons covering Rules 1 to 37 and the annexes",
+        "Each lesson ends with a short lesson check",
+        "The exam needs 90%: about 45 of 50 right",
+        "Keep the free USCG Navigation Rules handbook beside you"
+       ]
+      },
+      "script": "Welcome to the Rules of the Road course. This is the module that fails more captain candidates than any other, because you need ninety percent to pass, which means missing no more than about five questions out of fifty. Over fifteen lessons we will work through every rule from one to thirty-seven, plus the annexes the exam draws from. Each lesson ends with a short lesson check. Before you start, download the Coast Guard’s Navigation Rules and Regulations Handbook, free from the Navigation Center website. It prints the International and Inland text side by side, and exam questions are written straight from its wording."
+     },
+     {
+      "n": 2,
+      "heading": "Two sets of rules",
+      "visual": {
+       "k": "table",
+       "head": [
+        "",
+        "International (COLREGS)",
+        "Inland"
+       ],
+       "rows": [
+        [
+         "Where",
+         "High seas and connected waters, seaward of the demarcation lines",
+         "U.S. inland waters, shoreward of the demarcation lines"
+        ],
+        [
+         "Source",
+         "1972 international convention",
+         "U.S. law, 33 CFR Part 83"
+        ],
+        [
+         "Applies to",
+         "All vessels on those waters",
+         "All vessels on U.S. inland waters, and U.S. vessels on Canadian Great Lakes waters"
+        ]
+       ]
+      },
+      "script": "There are two sets of rules. The International rules, usually called the COLREGS, come from a 1972 convention and apply on the high seas and connected waters. The Inland rules are American law and apply on the inland waters of the United States. The boundary between them is the COLREGS demarcation line, a dashed magenta line printed on your chart. In Florida, these lines generally run across the mouths of harbors and inlets, so you cross from Inland to International rules every time you run out an inlet to fish offshore. The Intracoastal Waterway, the bays and the rivers are all Inland waters."
+     },
+     {
+      "n": 3,
+      "heading": "Rule 1: what can modify the rules",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Special local rules for harbors, rivers and lakes, conforming as closely as possible",
+        "Extra station or signal lights for warships, convoys and fishing fleets",
+        "Traffic separation schemes adopted by IMO",
+        "Vessels of special construction comply as closely as possible"
+       ]
+      },
+      "script": "Rule one also explains what can sit alongside the rules. Local authorities may make special rules for roadsteads, harbors, rivers, lakes and inland waterways, but those rules must conform as closely as possible to the Navigation Rules. Governments may allow additional station or signal lights, shapes or whistle signals for warships, vessels in convoy, or fishing vessels fishing as a fleet. The International Maritime Organization may adopt traffic separation schemes. And a vessel of special construction or purpose that can’t fully comply with the light and sound rules may use the closest possible alternative her government approves. Inland, the Coast Guard calls that a certificate of alternative compliance."
+     },
+     {
+      "n": 4,
+      "heading": "Rule 2: responsibility",
+      "visual": {
+       "k": "points",
+       "items": [
+        "No rule excuses neglect of ordinary seamanship",
+        "Have due regard to all dangers and special circumstances",
+        "Depart from the rules when needed to avoid immediate danger",
+        "The rules say who keeps clear, not who has a “right of way”"
+       ]
+      },
+      "script": "Rule two is the rule of good seamanship, and it sits above everything else. Nothing in the rules excuses any vessel, owner, master or crew from the consequences of neglecting any precaution required by the ordinary practice of seamen. You must also have due regard to all dangers of navigation and collision, and to any special circumstances, including the limitations of the vessels involved. That may make a departure from the rules necessary to avoid immediate danger. So being the stand-on vessel is never a defense if you hold your course into a collision. Notice that the rules rarely mention right of way. They talk about who keeps out of the way, and who stands on."
+     },
+     {
+      "n": 5,
+      "heading": "The annexes",
+      "visual": {
+       "k": "table",
+       "head": [
+        "Annex",
+        "Covers"
+       ],
+       "rows": [
+        [
+         "I",
+         "Positioning and technical details of lights and shapes"
+        ],
+        [
+         "II",
+         "Extra signals for fishing vessels fishing close together"
+        ],
+        [
+         "III",
+         "Technical details of sound signal appliances"
+        ],
+        [
+         "IV",
+         "Distress signals"
+        ],
+        [
+         "V",
+         "Inland only: pilot rules, such as law enforcement lights and special anchorage areas"
+        ]
+       ]
+      },
+      "script": "The rules end with annexes, and the exam asks about them. Annex one covers the positioning and technical details of lights and shapes, such as how far apart lights must be. Annex two gives additional signals for fishing vessels fishing in close proximity to each other. Annex three covers the technical details of whistles, bells and gongs. Annex four lists the distress signals, which we’ll study in lesson fourteen. Inland rules add Annex five, the pilot rules, which cover things like law enforcement lights and special anchorage areas."
+     },
+     {
+      "n": 6,
+      "heading": "Reading exam questions",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Find INLAND, INTERNATIONAL or BOTH first",
+        "Watch vessel lengths: 7, 12, 20, 50 and 100 m",
+        "“In sight of one another” or restricted visibility?",
+        "Choose the answer that matches the rule’s wording"
+       ]
+      },
+      "script": "A few habits will save you points throughout this course. First, find the word Inland, International or Both at the start of every question, and answer for that set of rules. Second, watch vessel lengths. Many rules change at seven, twelve, twenty, fifty and one hundred meters, and the exam loves to test those thresholds. Third, notice whether vessels are in sight of one another or in restricted visibility, because different steering rules apply. Finally, when two answers both sound reasonable, choose the one that matches the rule’s actual wording. The exam is written from the rule book, not from common practice."
+     }
+    ]
+   },
+   {
+    "id": "rules-02",
+    "module": "R",
+    "title": "Definitions that decide answers",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "Kinds of vessels",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Vessel: every watercraft, including non-displacement craft, WIG craft and seaplanes",
+        "Power-driven vessel: propelled by machinery",
+        "Sailing vessel: under sail, with any engine not being used",
+        "Seaplane: an aircraft designed to maneuver on the water"
+       ]
+      },
+      "script": "Rule three defines the words the rest of the rules depend on, and the exam tests these definitions directly. The word vessel includes every description of watercraft used or capable of being used as transportation on water, including non-displacement craft like hovercraft, wing-in-ground craft, and seaplanes. A power-driven vessel is any vessel propelled by machinery. A sailing vessel is any vessel under sail, provided that propelling machinery, if fitted, is not being used. So the moment a sailboat starts her engine, even with every sail up, she is a power-driven vessel under the rules. A seaplane is any aircraft designed to maneuver on the water."
+     },
+     {
+      "n": 2,
+      "heading": "“Engaged in fishing”",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Nets, lines, trawls or other gear that restrict maneuverability",
+        "Does NOT include trolling lines",
+        "A charter boat trolling or drifting with rods out is power-driven",
+        "A trawler heading home with gear stowed is power-driven"
+       ]
+      },
+      "script": "Engaged in fishing has a narrow meaning. It means fishing with nets, lines, trawls or other fishing apparatus that restrict maneuverability. It does not include fishing with trolling lines or other apparatus that don’t restrict maneuverability. This matters for charter captains. A sportfishing boat trolling lines, or drifting with rods out, is not engaged in fishing under the rules. She is an ordinary power-driven vessel, with no special privileges. A commercial trawler with her gear down is engaged in fishing. The same trawler steaming home with her gear stowed is just a power-driven vessel."
+     },
+     {
+      "n": 3,
+      "heading": "Not under command or restricted?",
+      "visual": {
+       "k": "table",
+       "head": [
+        "",
+        "Not under command",
+        "Restricted in ability to maneuver"
+       ],
+       "rows": [
+        [
+         "Cause",
+         "An exceptional circumstance",
+         "The nature of her work"
+        ],
+        [
+         "Think",
+         "Breakdown",
+         "Job"
+        ],
+        [
+         "Examples",
+         "Engine failure, jammed rudder",
+         "Dredging; buoy, cable or pipeline work; surveying; diving; replenishment at sea; aircraft operations; mine clearance; a tow that limits her course"
+        ]
+       ]
+      },
+      "script": "Two definitions get confused all the time. A vessel not under command is one that, through some exceptional circumstance, is unable to maneuver as the rules require, and so can’t keep out of the way. Think breakdown: a failed engine or a jammed rudder. A vessel restricted in her ability to maneuver is one that, from the nature of her work, can’t maneuver as required and can’t keep out of the way. Think job: laying or servicing buoys, cables or pipelines, dredging, surveying, underwater operations, replenishment at sea, launching or recovering aircraft, mine clearance, or a towing operation that severely restricts her ability to change course."
+     },
+     {
+      "n": 4,
+      "heading": "Draft, underway and making way",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Constrained by draft: International only; a power-driven vessel limited by depth and width of water",
+        "Underway: not at anchor, made fast to the shore, or aground",
+        "Making way: moving through the water under her own propulsion",
+        "A drifting boat is underway but not making way"
+       ]
+      },
+      "script": "Constrained by her draft exists only in the International rules. It means a power-driven vessel that, because of her draft in relation to the available depth and width of navigable water, is severely restricted in her ability to deviate from her course. There is no such category Inland. Next, underway. A vessel is underway whenever she is not at anchor, made fast to the shore, or aground. That means a boat drifting with her engine off is still underway. Making way means actually moving through the water under her own propulsion. So a drifting boat is underway but not making way, and the rules often treat those two states differently."
+     },
+     {
+      "n": 5,
+      "heading": "Length, sight and visibility",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Length and breadth: length overall and greatest breadth",
+        "In sight of one another: only when one can be seen visually from the other",
+        "Restricted visibility: fog, mist, falling snow, heavy rain, sandstorms and similar",
+        "Radar or AIS contact alone is not “in sight”"
+       ]
+      },
+      "script": "Length and breadth mean length overall and greatest breadth. Vessels are deemed to be in sight of one another only when one can be observed visually from the other. A radar contact or an AIS target on your screen does not mean you are in sight. Restricted visibility means any condition in which visibility is restricted by fog, mist, falling snow, heavy rainstorms, sandstorms or similar causes. Darkness alone is not restricted visibility. A clear night is not restricted visibility, even though all you can see are lights."
+     },
+     {
+      "n": 6,
+      "heading": "Inland-only definitions",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Inland waters: navigable U.S. waters shoreward of the demarcation lines",
+        "Great Lakes: including connecting and tributary waters",
+        "Western Rivers: the Mississippi system, with the Atchafalaya and Red Rivers",
+        "Special rules often apply on these waters"
+       ]
+      },
+      "script": "The Inland rules add definitions of their own. Inland waters are the navigable waters of the United States shoreward of the demarcation lines. The Great Lakes include their connecting and tributary waters. The Western Rivers are the Mississippi River and its tributaries, plus certain connected rivers such as the Atchafalaya and the Red River. Several Inland rules apply only on the Great Lakes, the Western Rivers or other waters the Coast Guard specifies, so when a question mentions those waters, expect a special rule. You may never navigate the Western Rivers from Florida, but the exam will still ask about them."
+     }
+    ]
+   },
+   {
+    "id": "rules-03",
+    "module": "R",
+    "title": "Lookout, safe speed and risk of collision",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "Rules 4 and 5: lookout",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Rules 4 to 10 apply in any condition of visibility",
+        "Lookout by sight and hearing, at all times",
+        "Use every available means: radar, AIS, radio",
+        "Purpose: a full appraisal of the situation and the risk"
+       ]
+      },
+      "script": "Rules four through ten apply in any condition of visibility, whether it’s clear, foggy or dark. Rule five requires every vessel, at all times, to maintain a proper lookout by sight and hearing, and by all available means appropriate to the circumstances, so as to make a full appraisal of the situation and of the risk of collision. All available means includes radar, AIS and your VHF radio if you have them. On a busy charter, with passengers asking questions and lines in the water, keeping a real lookout is the duty captains most often neglect. Courts find a poor lookout at fault in almost every collision case."
+     },
+     {
+      "n": 2,
+      "heading": "Rule 6: safe speed, every vessel",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Visibility",
+        "Traffic density, including fishing vessels",
+        "Your stopping distance and turning ability",
+        "Background lights at night",
+        "Wind, sea, current and nearby hazards",
+        "Draft compared to available depth"
+       ]
+      },
+      "script": "Rule six requires every vessel to proceed at a safe speed at all times, so that she can take proper and effective action to avoid collision and be stopped within a distance appropriate to the circumstances. The factors every vessel must consider are: the state of visibility; the traffic density, including concentrations of fishing vessels; the maneuverability of your vessel, especially stopping distance and turning ability; at night, background light from shore lights or your own lights; the state of wind, sea and current, and nearby navigational hazards; and the draft in relation to the available depth of water. There is no speed in knots anywhere in Rule six."
+     },
+     {
+      "n": 3,
+      "heading": "Rule 6: extra factors with radar",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Radar’s characteristics, efficiency and limitations",
+        "Limits of the range scale in use",
+        "Sea state, weather and interference hiding targets",
+        "Small vessels and ice may go undetected",
+        "The number, location and movement of radar targets",
+        "Radar ranges can measure visibility more exactly"
+       ]
+      },
+      "script": "Vessels with operational radar must also weigh six more factors. These are: the characteristics, efficiency and limitations of the radar; any constraints from the range scale in use; the effect of sea state, weather and interference on detection; the possibility that small vessels, ice and other floating objects won’t be detected at an adequate range; the number, location and movement of vessels detected by radar; and the more exact assessment of visibility that radar can give by measuring the range of nearby vessels or objects. A common exam trap is assuming radar lets you go faster. It only gives you more information to judge safe speed."
+     },
+     {
+      "n": 4,
+      "heading": "Rule 7: risk of collision",
+      "visual": {
+       "k": "dg",
+       "f": "bearing"
+      },
+      "script": "Rule seven requires every vessel to use all available means to determine whether risk of collision exists. If there is any doubt, the risk is deemed to exist. Radar, if fitted, must be used properly, including long-range scanning for early warning, and radar plotting or equivalent systematic observation of detected objects. Assumptions shall not be made on the basis of scanty information, especially scanty radar information. The key test is in this picture. If the compass bearing of an approaching vessel does not appreciably change, risk of collision exists. But risk may exist even with an appreciable bearing change, particularly when approaching a very large vessel, a tow, or any vessel at close range."
+     },
+     {
+      "n": 5,
+      "heading": "Rule 8: action to avoid collision",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Positive, made in ample time, with good seamanship",
+        "Large enough to be readily apparent by eye or radar",
+        "Avoid a series of small alterations",
+        "A course change alone may be best, if early, substantial and safe"
+       ]
+      },
+      "script": "Rule eight tells you how to act. Any action to avoid collision must follow the steering rules and, if circumstances admit, be positive, made in ample time, and with due regard to good seamanship. Any change of course or speed should be large enough to be readily apparent to another vessel observing by eye or by radar. A succession of small alterations should be avoided, because the other captain can’t tell what you’re doing. If there is sufficient sea room, an alteration of course alone may be the most effective action, provided it is made in good time, is substantial, and does not result in another close-quarters situation."
+     },
+     {
+      "n": 6,
+      "heading": "Rule 8 continued: passing clear and “not to impede”",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Pass at a safe distance; keep checking until finally past and clear",
+        "Slacken speed, stop or reverse to gain time",
+        "A vessel required not to impede acts early to leave sea room",
+        "That duty continues even when risk of collision develops"
+       ]
+      },
+      "script": "Action taken must result in passing at a safe distance, and you must keep checking its effectiveness until the other vessel is finally past and clear. If necessary to avoid collision or allow more time to assess the situation, a vessel shall slacken her speed or take all way off by stopping or reversing. Rule eight also explains the phrase not to impede, which appears in several rules. A vessel required not to impede another must take early action to leave enough sea room for the other’s safe passage. She is not relieved of that obligation if risk of collision develops, and she must then also follow the steering rules. The vessel that is not to be impeded must still follow the steering rules too."
+     }
+    ]
+   }
+  ]
+ },
+ "lessonsOld": {
+  "note": "LESSONS_OLD: an earlier draft lesson set, already unused by the app.",
+  "lessons": [
+   {
+    "id": "r1",
+    "module": "R",
+    "title": "How the Navigation Rules work",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "Two sets of rules",
+      "visual": {
+       "k": "points",
+       "items": [
+        "International rules (COLREGS) apply on the high seas",
+        "Inland rules apply inside the demarcation lines on your chart",
+        "Most rules are identical; the exam targets the differences",
+        "Every question says INLAND, INTERNATIONAL or BOTH"
+       ]
+      },
+      "script": "Welcome to Rules of the Road. This is the module that fails more captain candidates than any other, because you need ninety percent to pass. There are two sets of rules. The International rules, called the COLREGS, apply on the high seas. The Inland rules apply inside the demarcation lines printed on your chart, which in Florida generally run across the mouths of harbors and inlets. Most of the rules are word for word the same. The exam loves the few places where they differ, so every rules question begins by telling you whether it is asking about Inland, International, or both. Read that first word every time."
+     },
+     {
+      "n": 2,
+      "heading": "How the rule book is organized",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Rules 1 to 3: where the rules apply, responsibility, definitions",
+        "Rules 4 to 19: steering and sailing",
+        "Rules 20 to 31: lights and shapes",
+        "Rules 32 to 37: sound and light signals"
+       ]
+      },
+      "script": "The rules are organized into parts. Rules one through three cover where the rules apply, your responsibility, and the definitions. Rules four through nineteen are the steering and sailing rules, which decide who keeps clear. Rules twenty through thirty-one cover lights and day shapes. Rules thirty-two through thirty-seven cover sound and light signals. Download the Coast Guard’s Navigation Rules handbook for free and keep it next to you while you study. It prints the Inland and International text side by side."
+     },
+     {
+      "n": 3,
+      "heading": "Rule 2: good seamanship comes first",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Following the rules is no excuse for ignoring obvious danger",
+        "You may depart from the rules to avoid immediate danger",
+        "No rule lets you hold course into a collision"
+       ]
+      },
+      "script": "Rule two is the rule of good seamanship. Nothing in the rules excuses you from the consequences of neglecting any precaution an ordinary seaman would take. It also lets you depart from the rules when that is necessary to avoid immediate danger. In other words, being the stand-on vessel is never a defense if you hold your course straight into a collision. Notice that the rules don’t really talk about right of way. They talk about who must keep clear, and who must stand on."
+     },
+     {
+      "n": 4,
+      "heading": "Rules 5 and 6: lookout and safe speed",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Lookout by sight and hearing, at all times, by all available means",
+        "Safe speed lets you stop or avoid collision in the conditions",
+        "Factors: visibility, traffic, maneuverability, background lights, wind, sea, current, depth",
+        "There is no fixed number for safe speed"
+       ]
+      },
+      "script": "Rule five requires a proper lookout by sight and hearing at all times, using every available means, including radar if you have it. Rule six requires a safe speed, meaning a speed at which you can take proper action to avoid collision and stop within an appropriate distance. The factors you weigh include visibility, traffic density, how your boat maneuvers, background lights at night, wind, sea and current, and how much water is under your keel. Notice there’s no number. Safe speed always depends on the conditions."
+     },
+     {
+      "n": 5,
+      "heading": "Rule 7: risk of collision",
+      "visual": {
+       "k": "dg",
+       "f": "bearing"
+      },
+      "script": "Rule seven tells you how to decide whether risk of collision exists. Take compass bearings of the approaching vessel. If the bearing doesn’t change appreciably while the range is closing, risk of collision exists. You can see it in this picture. Each bearing line is parallel to the last, and the two boats arrive at the same spot. Be careful with very large ships and tows at close range, because the bearing can change and risk can still exist. And if you are in any doubt, the rule says to assume the risk is real."
+     },
+     {
+      "n": 6,
+      "heading": "Rules 8 and 9: action and narrow channels",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Action to avoid collision: early, large, obvious",
+        "Avoid a series of small course changes",
+        "Slow, stop or reverse if you need more time",
+        "Narrow channels: keep to the starboard side",
+        "Under 20 m or sailing: don’t impede vessels confined to the channel"
+       ]
+      },
+      "script": "Rule eight says any action to avoid collision should be positive, made in ample time, and large enough to be readily apparent to the other vessel. A series of small course changes is exactly what not to do, because the other captain can’t tell what you’re doing. If you need more time, slow down, stop, or reverse. Rule nine covers narrow channels. Keep as near to the starboard edge as is safe. A vessel under twenty meters, or any sailing vessel, must not impede a vessel that can only navigate safely inside the channel. That describes most charter boats near a ship channel like Tampa Bay’s."
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "module": "R",
+    "title": "Who gives way",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "Rule 13: overtaking comes first",
+      "visual": {
+       "k": "dg",
+       "f": "overtake"
+      },
+      "script": "Now we get to the heart of the rules: who gives way. Start with overtaking, because it overrides everything else. You’re overtaking when you come up on another vessel from more than twenty-two and a half degrees abaft her beam. That’s the shaded zone in this picture. At night, you’d be able to see only her sternlight. The overtaking vessel keeps clear until she is finally past and clear. This applies to every vessel, so even a sailboat overtaking a fishing boat must keep out of the way."
+     },
+     {
+      "n": 2,
+      "heading": "Rule 14: head-on",
+      "visual": {
+       "k": "dg",
+       "f": "headon"
+      },
+      "script": "Rule fourteen covers two power-driven vessels meeting head-on or nearly head-on. By day, you see the other boat’s masts in line. At night, you see both of her sidelights, or her masthead lights in line. Each vessel alters course to starboard, and they pass port to port. Neither vessel stands on here. Both of you have a duty to turn. If you’re in doubt whether it’s a head-on situation, assume it is and act accordingly."
+     },
+     {
+      "n": 3,
+      "heading": "Rule 15: crossing",
+      "visual": {
+       "k": "dg",
+       "f": "crossing"
+      },
+      "script": "Rule fifteen covers two power-driven vessels crossing. The vessel that has the other on her own starboard side is the give-way vessel. She keeps out of the way and, if possible, avoids crossing ahead. In practice, the give-way boat usually turns to starboard and passes astern, like the arrow in this picture. Here’s a memory aid. If you see the other boat’s red sidelight, you are the give-way vessel. Red means stop."
+     },
+     {
+      "n": 4,
+      "heading": "Rules 16 and 17: give-way and stand-on duties",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Give-way vessel: early and substantial action",
+        "Stand-on vessel: keep course and speed",
+        "Stand-on may act once the give-way vessel clearly isn’t",
+        "Stand-on must act when the give-way vessel alone can’t avoid collision",
+        "In a crossing, stand-on avoids turning to port for a vessel on her port side"
+       ]
+      },
+      "script": "Rule sixteen tells the give-way vessel to take early and substantial action to keep well clear. Rule seventeen tells the stand-on vessel to keep her course and speed. That matters, because a predictable stand-on boat makes the give-way boat’s job possible. However, the stand-on vessel may act once it becomes apparent the give-way vessel isn’t taking appropriate action. And she must act when collision can no longer be avoided by the give-way vessel alone. In a crossing, the stand-on vessel should avoid turning to port for a vessel on her own port side."
+     },
+     {
+      "n": 5,
+      "heading": "Rule 18: the pecking order",
+      "visual": {
+       "k": "dg",
+       "f": "ladder"
+      },
+      "script": "Rule eighteen sets the pecking order between different kinds of vessels. Read this ladder from the bottom up. A power-driven vessel keeps clear of everything above it: a vessel not under command, a vessel restricted in her ability to maneuver, a vessel constrained by her draft, which exists only under International rules, a vessel engaged in fishing, and a sailing vessel. Engaged in fishing means gear that restricts maneuverability, like nets or trawls. A charter boat trolling lines does not count. Remember that overtaking still overrides this ladder."
+     },
+     {
+      "n": 6,
+      "heading": "Sailboats and rivers",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Wind on different sides: the one with wind on port keeps clear",
+        "Wind on the same side: the windward boat keeps clear",
+        "A sailboat under power is a power-driven vessel",
+        "Inland, Great Lakes and Western Rivers: downbound has right of way"
+       ]
+      },
+      "script": "Rule twelve covers two sailing vessels. When they have the wind on different sides, the one with the wind on her port side keeps clear. When they have the wind on the same side, the boat to windward keeps clear. If a port-tack boat can’t tell which side the other has the wind on, she keeps clear. And remember, a sailboat motoring, even with her sails up, counts as a power-driven vessel. One more Inland rule to know: on the Great Lakes, the Western Rivers and other specified waters, a power-driven vessel going downbound with the current has the right of way over an upbound vessel."
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "module": "R",
+    "title": "Lights and day shapes",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "Light arcs",
+      "visual": {
+       "k": "dg",
+       "f": "arcs"
+      },
+      "script": "Lights are where most points are won or lost, so we’ll go slowly. Lights are required from sunset to sunrise and in restricted visibility. This diagram shows the arcs. The white masthead light shines forward over two hundred twenty-five degrees. Each sidelight covers one hundred twelve and a half degrees, red on the port side and green on starboard. The white sternlight covers the remaining one hundred thirty-five degrees aft. A towing vessel adds a yellow towing light, with the same arc as the sternlight, mounted above it. A power-driven vessel under twelve meters may combine the masthead light and sternlight into one all-round white light."
+     },
+     {
+      "n": 2,
+      "heading": "Reading a power vessel’s aspect",
+      "visual": {
+       "k": "lights",
+       "items": [
+        [
+         [
+          [
+           "w",
+           100,
+           40
+          ],
+          [
+           "g",
+           70,
+           112
+          ],
+          [
+           "r",
+           130,
+           112
+          ]
+         ],
+         "Head-on"
+        ],
+        [
+         [
+          [
+           "w",
+           85,
+           42
+          ],
+          [
+           "r",
+           125,
+           112
+          ]
+         ],
+         "Port side"
+        ],
+        [
+         [
+          [
+           "w",
+           115,
+           42
+          ],
+          [
+           "g",
+           75,
+           112
+          ]
+         ],
+         "Starboard side"
+        ],
+        [
+         [
+          [
+           "w",
+           100,
+           96
+          ]
+         ],
+         "Stern, or at anchor"
+        ]
+       ]
+      },
+      "script": "Here’s how to read what you see. Both sidelights under a masthead light means she’s pointing right at you. A single red sidelight means you’re looking at her port side. A single green means her starboard side. A lone white light could be the sternlight of a vessel you’re overtaking, or a vessel at anchor. Picture yourself standing on her deck, and the colors will tell you which way she’s heading."
+     },
+     {
+      "n": 3,
+      "heading": "Vessels that can’t get out of your way",
+      "visual": {
+       "k": "lights",
+       "items": [
+        [
+         [
+          [
+           "r",
+           100,
+           45
+          ],
+          [
+           "r",
+           100,
+           68
+          ]
+         ],
+         "Not under command"
+        ],
+        [
+         [
+          [
+           "w",
+           100,
+           20
+          ],
+          [
+           "r",
+           100,
+           48
+          ],
+          [
+           "w",
+           100,
+           70
+          ],
+          [
+           "r",
+           100,
+           92
+          ],
+          [
+           "g",
+           70,
+           122
+          ],
+          [
+           "r",
+           130,
+           122
+          ]
+         ],
+         "Restricted in ability to maneuver"
+        ],
+        [
+         [
+          [
+           "r",
+           100,
+           35
+          ],
+          [
+           "r",
+           100,
+           58
+          ],
+          [
+           "r",
+           100,
+           81
+          ]
+         ],
+         "Constrained by draft"
+        ]
+       ]
+      },
+      "script": "Special vessels use all-round lights stacked vertically. Two all-round reds means not under command: red over red, the captain is dead. Red, white, red means restricted in her ability to maneuver, such as a dredge, a cable layer, or a boat servicing a buoy. Three all-round reds means constrained by her draft, which only exists under International rules. When any of these vessels is making way, she also shows her sidelights and sternlight."
+     },
+     {
+      "n": 4,
+      "heading": "Fishing and pilot vessels",
+      "visual": {
+       "k": "lights",
+       "items": [
+        [
+         [
+          [
+           "g",
+           100,
+           40
+          ],
+          [
+           "w",
+           100,
+           63
+          ],
+          [
+           "g",
+           70,
+           115
+          ],
+          [
+           "r",
+           130,
+           115
+          ]
+         ],
+         "Trawling"
+        ],
+        [
+         [
+          [
+           "r",
+           100,
+           40
+          ],
+          [
+           "w",
+           100,
+           63
+          ],
+          [
+           "r",
+           125,
+           115
+          ]
+         ],
+         "Fishing, other gear"
+        ],
+        [
+         [
+          [
+           "w",
+           100,
+           40
+          ],
+          [
+           "r",
+           100,
+           63
+          ],
+          [
+           "g",
+           70,
+           115
+          ],
+          [
+           "r",
+           130,
+           115
+          ]
+         ],
+         "Pilot on duty"
+        ]
+       ]
+      },
+      "script": "Fishing and pilot lights come in pairs. Green over white means trawling: green over white, trawling tonight. Red over white means fishing with other gear, such as nets or longlines: red over white, fishing tonight. White over red means a pilot vessel on duty: white over red, pilot ahead. Again, sidelights are added only when they’re making way."
+     },
+     {
+      "n": 5,
+      "heading": "Towing, aground and sail",
+      "visual": {
+       "k": "lights",
+       "items": [
+        [
+         [
+          [
+           "y",
+           100,
+           72
+          ],
+          [
+           "w",
+           100,
+           95
+          ]
+         ],
+         "Towing, from astern"
+        ],
+        [
+         [
+          [
+           "w",
+           85,
+           30
+          ],
+          [
+           "w",
+           85,
+           53
+          ],
+          [
+           "w",
+           85,
+           76
+          ],
+          [
+           "g",
+           125,
+           118
+          ]
+         ],
+         "Tow over 200 m"
+        ],
+        [
+         [
+          [
+           "w",
+           45,
+           62
+          ],
+          [
+           "r",
+           105,
+           40
+          ],
+          [
+           "r",
+           105,
+           63
+          ],
+          [
+           "w",
+           160,
+           82
+          ]
+         ],
+         "Aground"
+        ],
+        [
+         [
+          [
+           "g",
+           70,
+           115
+          ],
+          [
+           "r",
+           130,
+           115
+          ]
+         ],
+         "Sail, head-on"
+        ]
+       ]
+      },
+      "script": "A few more. From astern, a towing vessel shows her yellow towing light above the white sternlight. A tow longer than two hundred meters gets three masthead lights in a vertical line, and a shorter tow gets two. A vessel aground shows her anchor lights plus two all-round reds. And a sailboat under sail alone shows sidelights and a sternlight but no masthead light. If you see a masthead light on a sailboat, she’s motoring, and she’s a power-driven vessel."
+     },
+     {
+      "n": 6,
+      "heading": "Day shapes",
+      "visual": {
+       "k": "shapes",
+       "items": [
+        [
+         [
+          "ball"
+         ],
+         "At anchor"
+        ],
+        [
+         [
+          "ball",
+          "ball"
+         ],
+         "Not under command"
+        ],
+        [
+         [
+          "ball",
+          "diamond",
+          "ball"
+         ],
+         "Restricted"
+        ],
+        [
+         [
+          "coneDown",
+          "coneUp"
+         ],
+         "Fishing"
+        ],
+        [
+         [
+          "coneDown"
+         ],
+         "Sail using engine"
+        ],
+        [
+         [
+          "diamond"
+         ],
+         "Tow over 200 m"
+        ]
+       ]
+      },
+      "script": "By day, vessels use black shapes instead of lights. One ball means at anchor. Two balls, not under command. Ball, diamond, ball, restricted in her ability to maneuver. Two cones with their points together, engaged in fishing. A single cone point down, a sailboat that is also using her engine. A diamond marks a tow longer than two hundred meters. Notice how the shapes echo the lights. Two red lights match two balls. Red, white, red matches ball, diamond, ball."
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "module": "R",
+    "title": "Sound signals",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "Whistles and blasts",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Short blast: about 1 second",
+        "Prolonged blast: 4 to 6 seconds",
+        "12 m and over: whistle required; 20 m and over: whistle and bell",
+        "Under 12 m: some means of making an efficient sound signal"
+       ]
+      },
+      "script": "Rules thirty-two through thirty-seven cover sound signals. A short blast lasts about one second. A prolonged blast lasts four to six seconds. A vessel twelve meters or longer must carry a whistle, and at twenty meters you also need a bell. A boat under twelve meters needs some other means of making an efficient sound signal, which on most small charter boats means the horn."
+     },
+     {
+      "n": 2,
+      "heading": "Maneuvering signals",
+      "visual": {
+       "k": "sounds",
+       "items": [
+        [
+         "S",
+         "One short"
+        ],
+        [
+         "SS",
+         "Two short"
+        ],
+        [
+         "SSS",
+         "Three short"
+        ]
+       ]
+      },
+      "script": "These maneuvering signals are used when vessels are in sight of each other. Here’s the most tested difference in the whole module. Under International rules, signals announce what you are doing right now. One short blast means I am altering my course to starboard. Two short means I am altering my course to port. Under Inland rules, the same signals state an intention and need an answer. One short means I intend to leave you on my port side. Two short means I intend to leave you on my starboard side. The other vessel replies with the same signal to agree. Three short blasts mean I am operating astern propulsion, under both rules. Inland, you may make these agreements by radio on channel thirteen instead."
+     },
+     {
+      "n": 3,
+      "heading": "Danger and blind bends",
+      "visual": {
+       "k": "sounds",
+       "items": [
+        [
+         "SSSSS",
+         "Danger or doubt"
+        ],
+        [
+         "P",
+         "Blind bend; Inland, leaving a dock"
+        ]
+       ]
+      },
+      "script": "Five or more short and rapid blasts is the danger or doubt signal. Use it when you don’t understand what the other vessel is doing, or doubt she’s taking enough action. One prolonged blast is sounded when approaching a bend or an area where other vessels may be hidden. Inland, a power-driven vessel also sounds one prolonged blast when leaving a dock or berth."
+     },
+     {
+      "n": 4,
+      "heading": "Overtaking in a narrow channel",
+      "visual": {
+       "k": "sounds",
+       "items": [
+        [
+         "PPS",
+         "Overtake on your starboard side"
+        ],
+        [
+         "PPSS",
+         "Overtake on your port side"
+        ],
+        [
+         "PSPS",
+         "Agreement"
+        ]
+       ]
+      },
+      "script": "Overtaking in a narrow channel uses different signals under each set of rules. Under International rules, two prolonged followed by one short means I intend to overtake you on your starboard side. Two prolonged followed by two short means on your port side. The vessel being overtaken agrees with prolonged, short, prolonged, short. Under Inland rules, overtaking uses the simpler signals: one short to pass on her starboard side, two short to pass on her port side, and she answers the same way to agree."
+     },
+     {
+      "n": 5,
+      "heading": "Restricted visibility",
+      "visual": {
+       "k": "sounds",
+       "items": [
+        [
+         "P",
+         "Power, making way"
+        ],
+        [
+         "PP",
+         "Power, stopped"
+        ],
+        [
+         "PSS",
+         "Sail, fishing, towing, NUC, RAM"
+        ],
+        [
+         "PSSS",
+         "Vessel being towed"
+        ]
+       ]
+      },
+      "script": "In restricted visibility, vessels sound signals at intervals of not more than two minutes. A power-driven vessel making way sounds one prolonged blast. Underway but stopped, two prolonged. Sailing, fishing, towing, not under command, and restricted vessels all sound one prolonged followed by two short. A manned vessel being towed sounds one prolonged followed by three short, right after the tug’s signal. A vessel at anchor rings the bell rapidly for about five seconds every minute. A vessel aground adds three separate strokes of the bell before and after."
+     }
+    ]
+   },
+   {
+    "id": "n1",
+    "module": "N",
+    "title": "Aids to navigation and charts",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "Red, right, returning",
+      "visual": {
+       "k": "dg",
+       "f": "channel"
+      },
+      "script": "Welcome to Navigation General. We’ll start with buoys. The lateral system used in the United States is built on one phrase: red, right, returning. When you return from sea, keep red marks on your right, or starboard side, and green marks on your left. Red buoys are nuns, with a pointed top, and carry even numbers. Green buoys are cans and carry odd numbers. Numbers increase as you head in from sea. Daybeacons follow the same logic: red triangles and green squares. Lights on lateral marks match the color of the mark."
+     },
+     {
+      "n": 2,
+      "heading": "Marks that aren’t about sides",
+      "visual": {
+       "k": "dg",
+       "f": "special"
+      },
+      "script": "Some marks aren’t about the sides of the channel. A safe water mark has red and white vertical stripes, often a red ball on top, and a white light flashing Morse code A. It means open water all around, often the start of a channel. An isolated danger mark is black with red bands and two black balls on top. It sits right on a small hazard with navigable water around it. A preferred channel mark has horizontal bands. Treat it as the color of its top band. Yellow special marks show things like anchorages, cable areas and spoil areas."
+     },
+     {
+      "n": 3,
+      "heading": "The Intracoastal Waterway",
+      "visual": {
+       "k": "dg",
+       "f": "icw"
+      },
+      "script": "The Intracoastal Waterway is a big part of Florida boating, and it has its own symbols. Its marks carry a yellow stripe, triangle or square. A yellow triangle means treat the mark as red. A yellow square means treat it as green, no matter what color the mark itself is. That matters where the waterway crosses an inlet channel and shares its buoys. On the Intracoastal Waterway, returning means traveling clockwise around the country: south along the Atlantic coast and around the Keys, then up and west along the Gulf coast."
+     },
+     {
+      "n": 4,
+      "heading": "Light characteristics",
+      "visual": {
+       "k": "dg",
+       "f": "lightchar"
+      },
+      "script": "Lighted aids have a characteristic, which is the pattern they flash. Fixed means steady. Flashing means the light is dark longer than lit. Quick means about sixty flashes a minute. Isophase means equal light and dark. Occulting means lit longer than dark, with brief eclipses. Group flashing shows flashes in groups. Morse A shows a short and a long. On the chart, a label reading flashing green, four seconds, sixteen feet, five miles, means a green light flashing every four seconds, sixteen feet above the water, visible five nautical miles."
+     },
+     {
+      "n": 5,
+      "heading": "Chart basics",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Chart depths are measured from mean lower low water (MLLW)",
+        "Check the title block: feet, fathoms or meters",
+        "Bridge clearances use mean high water",
+        "Chart No. 1 explains every symbol",
+        "Keep charts corrected with the Local Notice to Mariners"
+       ]
+      },
+      "script": "A few chart basics. Depths on American charts are measured from mean lower low water, the average of the lower of the two daily low tides. Actual depth is usually a bit more than charted, but extreme low tides can go below it. Always check the title block to see whether depths are in feet, fathoms or meters. Bridge clearances, on the other hand, are measured from mean high water. Chart Number One explains every symbol and abbreviation, and the Local Notice to Mariners tells you about changes."
+     }
+    ]
+   },
+   {
+    "id": "n2",
+    "module": "N",
+    "title": "Tides, currents and weather",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "The rule of twelfths",
+      "visual": {
+       "k": "dg",
+       "f": "tide"
+      },
+      "script": "Tide is the vertical rise and fall of the water. Florida’s Atlantic coast sees two highs and two lows a day, while much of the Gulf coast has mixed or once-daily tides. The rule of twelfths estimates how much the tide rises each hour of a roughly six-hour tide. In hour one, one twelfth of the range. Hour two, two twelfths. Hours three and four, three twelfths each. Hour five, two twelfths, and hour six, one twelfth. So the water moves fastest in the middle of the tide."
+     },
+     {
+      "n": 2,
+      "heading": "Spring and neap tides",
+      "visual": {
+       "k": "dg",
+       "f": "springneap"
+      },
+      "script": "The range of the tide follows the moon. At new and full moon, the sun and moon line up, and you get spring tides, with the biggest range. Spring has nothing to do with the season. At the first and third quarter moons, the sun and moon pull at right angles, and you get neap tides, with the smallest range. Tide predictions come from NOAA. They give times and heights at reference stations, plus corrections you apply for nearby subordinate stations."
+     },
+     {
+      "n": 3,
+      "heading": "Currents",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Tide is vertical; current is horizontal",
+        "Flood runs toward land, ebb runs away, slack is no flow",
+        "Strongest near mid-tide, and in inlets and passes",
+        "Wind against current builds steep, dangerous seas",
+        "Set is the direction current flows toward; drift is its speed"
+       ]
+      },
+      "script": "Current is the horizontal movement of water. A flood current runs toward the land, an ebb current runs away from it, and slack water is the brief period of no current. Current is usually strongest around mid-tide and is concentrated in inlets and passes. When strong wind blows against a strong ebb in an inlet, you get short, steep, dangerous seas, which is a real concern on Florida inlets. The direction a current flows toward is called its set, and its speed in knots is its drift."
+     },
+     {
+      "n": 4,
+      "heading": "Weather",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Falling barometer: worsening weather; a rapid fall: strong system",
+        "Back to the wind, low pressure on your left",
+        "Afternoon sea breeze, night land breeze",
+        "Summer thunderstorms build over land in the afternoon",
+        "Fog forms when warm moist air crosses cooler water"
+       ]
+      },
+      "script": "Weather questions are mostly practical. A falling barometer means worsening weather, and a rapid fall means a strong system is approaching. In the Northern Hemisphere, if you stand with your back to the wind, low pressure is on your left. That’s Buys Ballot’s law. On Florida coasts, land heats faster than water, so a sea breeze blows onshore most afternoons and a land breeze blows offshore at night. Summer thunderstorms build over land in the afternoon and often drift toward the coast. Advection fog forms when warm, moist air moves over cooler water."
+     }
+    ]
+   },
+   {
+    "id": "n3",
+    "module": "N",
+    "title": "The magnetic compass",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "True, magnetic, compass",
+      "visual": {
+       "k": "dg",
+       "f": "chain"
+      },
+      "script": "Compass correction appears on both the navigation and plotting exams, so let’s master it. There are three ways to express a direction: true, magnetic and compass. Variation is the difference between true and magnetic. Deviation is the difference between magnetic and compass. Remember the order with the phrase True Virgins Make Dull Companions: true, variation, magnetic, deviation, compass. Going from compass toward true is called correcting, and you add easterly errors. Going from true toward compass is called uncorrecting, and you add westerly errors."
+     },
+     {
+      "n": 2,
+      "heading": "Variation and deviation",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Variation comes from Earth’s magnetic field and depends on location",
+        "Read it from the compass rose; update it for annual change",
+        "Deviation comes from your boat’s own magnetism and changes with heading",
+        "Read it from your boat’s deviation card",
+        "Florida variation is a few degrees west"
+       ]
+      },
+      "script": "Variation is caused by the earth’s magnetic field. It depends on where you are, not where your boat is pointed. You read it from the center of the compass rose on your chart, and you update it for the annual change printed there. Deviation is caused by your own boat’s magnetism: engines, electronics, even speakers. It changes with your heading, so you read it from your boat’s deviation card. In Florida waters, variation is a few degrees west."
+     },
+     {
+      "n": 3,
+      "heading": "Worked example: compass to true",
+      "visual": {
+       "k": "script",
+       "lines": [
+        "Compass course 090°",
+        "Deviation 3°W: subtract, giving magnetic 087°",
+        "Variation 6°W: subtract, giving true 081°"
+       ]
+      },
+      "script": "Let’s correct a course. Your compass reads zero nine zero. Deviation is three degrees west and variation is six degrees west. We’re going from compass toward true, so we add east and subtract west. Zero nine zero minus three gives a magnetic course of zero eight seven. Zero eight seven minus six gives a true course of zero eight one. Another memory aid for this direction is Can Dead Men Vote Twice At Elections: compass, deviation, magnetic, variation, true, add east."
+     },
+     {
+      "n": 4,
+      "heading": "Worked example: true to compass",
+      "visual": {
+       "k": "script",
+       "lines": [
+        "True course 215°",
+        "Variation 15°W: add, giving magnetic 230°",
+        "Deviation 2°E: subtract, giving compass 228°"
+       ]
+      },
+      "script": "Now go the other way. You’ve laid a true course of two one five on the chart. Variation is fifteen degrees west and deviation is two degrees east. Going from true toward compass, we do the opposite: add west and subtract east. Two one five plus fifteen gives a magnetic course of two three zero. Two three zero minus two gives a compass course of two two eight. That’s the number you’d steer. Practice these in the plotting drills until they’re automatic."
+     }
+    ]
+   },
+   {
+    "id": "d1",
+    "module": "D",
+    "title": "Fire and emergencies",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "How fire works",
+      "visual": {
+       "k": "dg",
+       "f": "fire"
+      },
+      "script": "Welcome to Deck General and Safety. Fire is the emergency every captain dreads, so start with how it works. A fire needs heat, fuel and oxygen, plus the chemical chain reaction that keeps it going. Remove any one and the fire goes out. Fires are classed by what’s burning. Class A is ordinary combustibles like wood, paper and line. Class B is flammable liquids like gasoline and oil, the most common boat fire. Class C is energized electrical equipment. Class D is combustible metals."
+     },
+     {
+      "n": 2,
+      "heading": "Fighting a fire",
+      "visual": {
+       "k": "points",
+       "items": [
+        "PASS: Pull, Aim at the base, Squeeze, Sweep",
+        "Class B: dry chemical, CO2 or foam; never a solid water stream",
+        "Class C: de-energize first, then CO2 or dry chemical",
+        "Engine fire: shut down engines, fuel and ventilation",
+        "Turn the boat so wind carries smoke and flame away"
+       ]
+      },
+      "script": "Using a portable extinguisher, remember PASS: pull the pin, aim at the base of the fire, squeeze the handle, and sweep side to side. For a fuel fire, use dry chemical, carbon dioxide or foam. A solid stream of water just spreads burning fuel. For an electrical fire, cut the power first. For an engine compartment fire, shut down the engines, the fuel and the ventilation to starve it of air before you open anything. And maneuver the boat so the wind carries smoke and flames away from your passengers."
+     },
+     {
+      "n": 3,
+      "heading": "Calling for help",
+      "visual": {
+       "k": "script",
+       "lines": [
+        "VHF channel 16, or the DSC distress button",
+        "“Mayday, Mayday, Mayday”",
+        "“This is Reel Time, Reel Time, Reel Time”",
+        "Position, nature of distress, help needed",
+        "Number aboard, boat description, then listen"
+       ]
+      },
+      "script": "Know your radio calls. Mayday means grave and imminent danger to life or the vessel. Pan-pan means an urgent situation without immediate danger, like a disabled engine drifting offshore. Securité is a safety message, such as a navigation hazard. Use VHF channel sixteen, or press the red distress button on a DSC radio, which sends your identity and GPS position on channel seventy. A modern EPIRB transmits on four hundred six megahertz and should be registered with NOAA. Practice the mayday script on screen until you can say it without thinking."
+     },
+     {
+      "n": 4,
+      "heading": "Man overboard and first aid",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Man overboard: shout, point, keep eyes on them, throw flotation, hit MOB",
+        "Turn toward the side they fell; Williamson turn at night",
+        "Hypothermia: dry them, warm the core gently, no alcohol",
+        "Heat stroke: hot, red skin and confusion; cool them now and get help",
+        "Shock: lay flat, raise legs if no head or chest injury, keep warm"
+       ]
+      },
+      "script": "If someone goes overboard, shout man overboard, point and keep your eyes on them, throw flotation, and press the MOB button on your GPS. Turn toward the side they fell from to swing the propellers away. At night or in poor visibility, a Williamson turn brings you back down your own track. For hypothermia, get them out of the water, remove wet clothes, and warm the body’s core gently. Don’t rub arms and legs and don’t give alcohol. In Florida, heat illness is more common. Hot, red skin with confusion is heat stroke, a true emergency. Cool them right away and call for help."
+     }
+    ]
+   },
+   {
+    "id": "d2",
+    "module": "D",
+    "title": "Stability, pollution and regulations",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "Stability: G, B and M",
+      "visual": {
+       "k": "dg",
+       "f": "stability"
+      },
+      "script": "Stability is about where the weight is. G is the center of gravity, which pulls down. B is the center of buoyancy, the center of the underwater hull, which pushes up. When the boat heels, B moves toward the low side, and the two forces create a righting arm, labeled G Z, that pushes the boat back upright. M, the metacenter, is where the vertical line through B crosses the centerline. The distance from G up to M is called G M. A bigger G M means more initial stability."
+     },
+     {
+      "n": 2,
+      "heading": "What hurts stability",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Weight added high raises G and reduces stability",
+        "Free surface: sloshing liquid acts like raising G",
+        "Keep tanks full or empty, and bilges pumped",
+        "Quick, snappy roll: stiff, large GM",
+        "Slow, lazy roll: tender, small GM"
+       ]
+      },
+      "script": "Anything that raises G reduces stability: passengers crowding a tower, gear stacked high, a heavy load on the cabin top. Free surface effect is just as dangerous. Liquid sloshing in a half-full tank, or water in the bilge, shifts to the low side and acts like raising G. Keep tanks full or empty, and keep bilges dry. You can feel stability in the roll. A quick, snappy roll means a stiff boat with a large G M. A slow, lazy roll means a tender boat with a small G M."
+     },
+     {
+      "n": 3,
+      "heading": "Pollution rules",
+      "visual": {
+       "k": "points",
+       "items": [
+        "No oil discharge; report spills to 1-800-424-8802",
+        "26 ft and over: oil and garbage placards",
+        "40 ft and over, ocean-going, galley and berths: waste plan",
+        "Plastic overboard: never, anywhere",
+        "No untreated sewage within 3 nm; the Keys are a no-discharge zone"
+       ]
+      },
+      "script": "Pollution rules are tested heavily. Discharging oil into the water is prohibited, and any spill must be reported to the National Response Center at one, eight hundred, four two four, eight eight zero two. Boats twenty-six feet and over must post the oil discharge placard and the garbage placard. Ocean-going boats forty feet and over with a galley and berthing need a written waste management plan. Plastic can never go overboard, anywhere. Untreated sewage can’t be discharged within three miles of shore, and the Florida Keys are a no-discharge zone."
+     },
+     {
+      "n": 4,
+      "heading": "Rules for charter captains",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Passenger for hire: anyone who contributes anything for the trip",
+        "OUPV: up to 6 passengers on uninspected vessels",
+        "7 or more: inspected vessel, COI and Master license",
+        "Type I life jacket for each person, plus a throwable",
+        "Casualty: report at once, CG-2692 within 5 days, drug and alcohol testing"
+       ]
+      },
+      "script": "Now the rules that define your business. A passenger for hire is anyone who contributes anything as a condition of the trip, even gas money. An OUPV license lets you carry up to six of them on an uninspected vessel. Carry seven or more and you need an inspected vessel with a Certificate of Inspection, and a Master license. Uninspected passenger vessels need a Coast Guard approved Type one life jacket for each person, plus a throwable device. If there’s a marine casualty, like a grounding, a serious injury or a death, notify the Coast Guard immediately, file form twenty-six ninety-two within five days, and complete post-accident drug and alcohol testing."
+     },
+     {
+      "n": 5,
+      "heading": "Anchoring and scope",
+      "visual": {
+       "k": "dg",
+       "f": "scope"
+      },
+      "script": "Finally, anchoring. Scope is the ratio of rode you let out to the distance from your bow to the bottom, which is the water depth plus the height of your bow above the water. Five to one is the minimum and seven to one is preferred, with more in heavy weather. For example, in twelve feet of water with a bow three feet high, seven to one scope means fifteen times seven, or one hundred five feet of rode. Nylon line is the usual choice because it stretches and absorbs shock."
+     }
+    ]
+   },
+   {
+    "id": "p1",
+    "module": "P",
+    "title": "Chart plotting",
+    "slides": [
+     {
+      "n": 1,
+      "heading": "Tools and the latitude scale",
+      "visual": {
+       "k": "dg",
+       "f": "dividers"
+      },
+      "script": "Welcome to chart plotting, the hands-on part of the exam. You’ll need parallel rulers or a plotter, dividers, a sharp pencil, and the training chart your school uses, usually NOAA chart twelve ten T R. The most important rule: one minute of latitude equals one nautical mile. Always measure distance on the latitude scale, the one running up the side of the chart, and use the part of the scale beside where you’re working. Never use the longitude scale across the top. Label every course line with the course above it and the speed below it."
+     },
+     {
+      "n": 2,
+      "heading": "Speed, time and distance",
+      "visual": {
+       "k": "formula",
+       "f": "60 × D = S × T",
+       "rows": [
+        "Time (minutes) = 60 × D ÷ S",
+        "Distance (nm) = S × T ÷ 60",
+        "Speed (knots) = 60 × D ÷ T"
+       ],
+       "ex": "Example: 12 nm at 8 knots takes 60 × 12 ÷ 8 = 90 minutes"
+      },
+      "script": "Speed, time and distance problems are free points if you know one formula. Sixty times distance equals speed times time. Remember it as sixty D street. Distance is in nautical miles, speed in knots, and time in minutes. To find time, multiply sixty by distance and divide by speed. To find distance, multiply speed by time and divide by sixty. To find speed, multiply sixty by distance and divide by time. For example, twelve miles at eight knots takes sixty times twelve, divided by eight, or ninety minutes."
+     },
+     {
+      "n": 3,
+      "heading": "Fixes and dead reckoning",
+      "visual": {
+       "k": "dg",
+       "f": "fix"
+      },
+      "script": "A fix is your position from two or more lines of position crossing, such as compass bearings to two charted landmarks. Mark it with a circle and the time. The best fixes come from objects about sixty to ninety degrees apart, because shallow angles magnify small errors. A dead reckoning position is plotted from course, speed and time alone, and is marked with a half circle. A running fix uses one landmark twice: take a bearing, run a known distance, advance the first line along your course, and cross it with a second bearing."
+     },
+     {
+      "n": 4,
+      "heading": "Set and drift",
+      "visual": {
+       "k": "dg",
+       "f": "setdrift"
+      },
+      "script": "When your fix doesn’t match your dead reckoning position, the difference is current. Set is the direction from your DR position to your fix. Drift is the distance between them divided by the hours since your last fix. In this example, the fix is three nautical miles from the DR after two hours, so the drift is one and a half knots. Another quick technique is the bow and beam bearing. When a light is forty-five degrees off your bow and then abeam, the distance you ran between those bearings equals your distance off when abeam."
+     },
+     {
+      "n": 5,
+      "heading": "Exam strategy",
+      "visual": {
+       "k": "points",
+       "items": [
+        "Write T or M beside every course",
+        "Update variation to the current year",
+        "Fuel: one third out, one third back, one third reserve",
+        "Work neatly; a sloppy line becomes a wrong answer",
+        "If an answer looks odd, check it against the chart"
+       ]
+      },
+      "script": "Some exam strategy. Write true or magnetic beside every course so you never mix them up. Update the chart’s variation to the current year using the annual change. For fuel questions, use the rule of thirds: one third out, one third back, one third reserve. Keep your pencil sharp and work neatly, since a sloppy line can put you outside the answer choices. And if an answer looks strange, check it against the chart. That’s the end of the lessons. Head to the quiz and practice test to lock it all in. Good luck, Captain."
+     }
+    ]
+   }
+  ]
+ }
+}

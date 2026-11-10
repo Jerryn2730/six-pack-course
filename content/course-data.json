@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "exported": "2026-11-10",
- "note": "Snapshot exported from index.html. In the app, options[0] is always the correct answer; the UI shuffles them. Script markers: [+] = reveal next on-screen item, [pause] = ~0.75 s beat.",
+ "note": "Source of truth for all course content; npm run build embeds it into site/index.html. In the app, options[0] is always the correct answer; the UI shuffles them. Script markers: [+] = reveal next on-screen item, [pause] = ~0.75 s beat.",
  "modules": {
   "R": {
    "name": "Rules of the Road",

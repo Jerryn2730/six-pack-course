@@ -1,0 +1,711 @@
+<!doctype html>
+<!-- Built by scripts/build.js from src/app.html + content/course-data.json. Edit those, not this file. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Six-Pack Captain Exam Prep</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEF4F6; --shoal:#D6E7EF; --surface:#FFFFFF; --ink:#14283A; --muted:#506475; --line:#B8CCD7;
+  --mag:#A3195B; --mag-ink:#FFFFFF; --mag-soft:#F6E0EB;
+  --ok:#1C6E45; --ok-soft:#DCEFE4; --bad:#A8231C; --bad-soft:#F8E0DE;
+  color-scheme: light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0B141B; --shoal:#14242F; --surface:#111D27; --ink:#DCE7EE; --muted:#97AAB8; --line:#28404F;
+    --mag:#E2649F; --mag-ink:#1A0610; --mag-soft:#3A1529;
+    --ok:#62C995; --ok-soft:#133224; --bad:#F2877F; --bad-soft:#3A1715;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0B141B; --shoal:#14242F; --surface:#111D27; --ink:#DCE7EE; --muted:#97AAB8; --line:#28404F;
+  --mag:#E2649F; --mag-ink:#1A0610; --mag-soft:#3A1529;
+  --ok:#62C995; --ok-soft:#133224; --bad:#F2877F; --bad-soft:#3A1715;
+  color-scheme: dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Serif 4",Georgia,"Times New Roman",serif;font-size:1.0625rem;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+h1,h2,h3,.ui,button,.btn,nav{font-family:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif}
+h1{font-size:clamp(2.1rem,6vw,3.4rem);line-height:1.02;font-weight:700;margin:0 0 .5rem;letter-spacing:-.01em}
+h2{font-size:1.6rem;line-height:1.15;font-weight:600;margin:0 0 .6rem}
+h3{font-size:1.2rem;font-weight:600;margin:0 0 .3rem}
+p{margin:0 0 1rem}
+a{color:var(--mag)}
+:focus-visible{outline:3px solid var(--mag);outline-offset:2px}
+
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+.bar-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:1rem;padding:.55rem 1rem}
+.brand{display:flex;align-items:center;gap:.5rem;font-weight:700;font-size:1.2rem;color:var(--ink);text-decoration:none;white-space:nowrap}
+.brand svg{width:26px;height:26px;color:var(--mag)}
+nav{display:flex;gap:.25rem;overflow-x:auto;scrollbar-width:none;flex:1}
+nav::-webkit-scrollbar{display:none}
+nav a{font-weight:600;font-size:1.02rem;color:var(--muted);text-decoration:none;padding:.4rem .65rem;border-radius:6px;white-space:nowrap}
+nav a:hover{color:var(--ink);background:var(--shoal)}
+nav a[aria-current="page"]{color:var(--ink);background:var(--shoal)}
+.badge{display:inline-block;min-width:1.3em;padding:0 .35em;margin-left:.3em;border-radius:99px;background:var(--mag);color:var(--mag-ink);font-size:.8rem;text-align:center}
+
+main{max-width:960px;margin:0 auto;padding:1.75rem 1rem 4rem}
+.lede{font-size:1.15rem;color:var(--muted);max-width:60ch}
+.muted{color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;font-weight:600;font-size:1.08rem;border:2px solid var(--mag);background:var(--mag);color:var(--mag-ink);padding:.55rem 1.1rem;border-radius:8px;cursor:pointer;text-decoration:none;min-height:44px}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--mag)}
+.btn[disabled]{opacity:.4;cursor:default}
+.link{background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;font-size:.95rem;padding:0}
+
+.hero{display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center;padding:1rem 0 2.5rem;border-bottom:1px solid var(--line);margin-bottom:2rem}
+.rose{width:220px;height:220px;color:var(--mag)}
+.rose text{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-size:9px;fill:currentColor;text-anchor:middle}
+@media (max-width:680px){.hero{grid-template-columns:1fr}.rose{width:150px;height:150px;order:-1}}
+
+.mods{display:grid;gap:0;border-top:1px solid var(--line);margin-bottom:2.5rem}
+.mod{display:grid;grid-template-columns:1fr auto;gap:.4rem 1rem;align-items:center;padding:1rem 0;border-bottom:1px solid var(--line)}
+.mod .meta{color:var(--muted);font-size:.95rem}
+.track{grid-column:1 / -1;height:8px;background:var(--shoal);border-radius:4px;overflow:hidden}
+.track span{display:block;height:100%;background:var(--mag)}
+
+.tips ul{padding-left:1.2rem;max-width:62ch}
+.tips li{margin-bottom:.5rem}
+
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1.2rem}
+.chip{font-weight:600;font-size:1rem;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);padding:.4rem .85rem;border-radius:99px;cursor:pointer;min-height:40px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.field-label{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:var(--muted);margin:0 0 .4rem}
+
+.session{max-width:680px}
+.sess-top{display:flex;justify-content:space-between;gap:1rem;font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:var(--muted);margin-bottom:.5rem}
+.clock{color:var(--ink);font-variant-numeric:tabular-nums}
+.progress{height:4px;background:var(--shoal);border-radius:2px;margin-bottom:1.6rem;overflow:hidden}
+.progress span{display:block;height:100%;background:var(--mag)}
+.tag{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:var(--mag);margin:0 0 .3rem}
+.qtext{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:1.3rem;line-height:1.4;margin-bottom:1.2rem}
+.opts{display:grid;gap:.55rem}
+.opt{display:flex;gap:.8rem;align-items:flex-start;text-align:left;width:100%;font-family:"Source Serif 4",Georgia,serif;font-size:1.05rem;line-height:1.45;background:var(--surface);color:var(--ink);border:1.5px solid var(--line);border-radius:10px;padding:.75rem .9rem;cursor:pointer}
+.opt:hover:not([disabled]){border-color:var(--mag)}
+.opt .key{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;color:var(--muted);min-width:1.1em}
+.opt.picked{border-color:var(--mag);background:var(--mag-soft)}
+.opt.correct{border-color:var(--ok);background:var(--ok-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt[disabled]{cursor:default}
+.fb{margin-top:1.1rem}
+.verdict{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;font-size:1.2rem;margin:0 0 .3rem}
+.verdict.ok{color:var(--ok)} .verdict.bad{color:var(--bad)}
+.sess-nav{display:flex;justify-content:flex-end;gap:.6rem;margin-top:1.4rem}
+
+.score{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-size:clamp(2.6rem,9vw,4rem);font-weight:700;line-height:1;margin:.2rem 0 .4rem}
+table{width:100%;border-collapse:collapse;margin:1rem 0 2rem;font-size:1rem}
+th,td{text-align:left;padding:.55rem .4rem;border-bottom:1px solid var(--line)}
+th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:var(--muted)}
+.pass{color:var(--ok);font-weight:600}.fail{color:var(--bad);font-weight:600}
+.miss{padding:1rem 0;border-bottom:1px solid var(--line)}
+.miss p{margin:.2rem 0}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem;max-width:520px}
+.stage{background:#04070B;border-radius:10px;display:flex;justify-content:center;align-items:center;padding:.5rem}
+.stage.day{background:linear-gradient(#B9D3E2,#DCE9F0)}
+.stage svg{width:100%;max-width:340px;height:auto;display:block}
+.ctx{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:var(--muted);margin:.7rem 0 0}
+.back{margin-top:.9rem}
+.back h2{font-size:1.4rem}
+.card-actions{display:flex;gap:.6rem;margin-top:1rem}
+.card-actions .btn{flex:1}
+
+.problem{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.2rem;max-width:620px}
+.problem .qtext{margin-bottom:1rem}
+.answer-row{display:flex;gap:.6rem;flex-wrap:wrap}
+.answer-row input{font:inherit;font-size:1.2rem;width:9rem;padding:.5rem .7rem;border:1.5px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);min-height:44px}
+.steps{margin-top:1rem;line-height:1.75}
+.streak{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:var(--muted);margin:1rem 0 0}
+.formula{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-size:1.1rem;background:var(--shoal);border-radius:8px;padding:.6rem .9rem;display:inline-block;margin-bottom:1rem}
+.les-list{list-style:none;padding:0;margin:0 0 2rem;border-top:1px solid var(--line)}
+.les-list a{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:.2rem 1rem;padding:.85rem .2rem;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
+.les-list a:hover .lt{color:var(--mag)}
+.lt{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;font-size:1.2rem}
+.lm{color:var(--muted);font-size:.95rem}
+.lm .fin{color:var(--ok);font-weight:600}
+.mod-h{margin-top:1.6rem}
+.player{max-width:900px}
+.back-link{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;text-decoration:none}
+.les-title{font-size:clamp(1.8rem,5vw,2.6rem);margin-bottom:1rem}
+.slide{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem;display:flex;flex-direction:column;min-height:320px}
+@media (min-width:720px){.slide{aspect-ratio:16/9}}
+.slide h2{font-size:1.5rem;margin-bottom:.5rem}
+.visual{flex:1;display:flex;align-items:center;justify-content:center;min-height:0}
+.visual svg.dg{width:100%;height:100%;max-height:440px}
+.vpoints,.vscript{margin:0;font-size:clamp(1.05rem,2.2vw,1.35rem);line-height:1.45;align-self:stretch;display:flex;flex-direction:column;justify-content:center;gap:.55rem;max-width:62ch}
+.vpoints{padding-left:1.3rem}.vscript{padding-left:1.6rem}
+.vpoints li::marker,.vscript li::marker{color:var(--mag);font-weight:700}
+.vrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.8rem;width:100%}
+.vrow figure{margin:0}
+.vrow figcaption{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;text-align:center;margin-top:.35rem;font-size:1rem;line-height:1.25}
+.vformula{text-align:center}
+.vformula .big{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;font-size:clamp(2.2rem,7vw,3.6rem);color:var(--mag);margin-bottom:.7rem;line-height:1}
+.vformula p{margin:.2rem 0;font-size:1.15rem}
+.vformula .ex{margin-top:1rem;color:var(--muted)}
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;margin:1rem 0 .7rem}
+.ctl{min-width:6.5rem}
+.count{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:var(--muted);margin-left:auto}
+.opts-row{display:flex;flex-wrap:wrap;gap:1rem;font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:var(--muted)}
+.opts-row select{font:inherit;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:6px;padding:.25rem .4rem;margin-left:.3rem;max-width:15rem}
+.tr-h{font-size:1.2rem;margin-top:1.6rem}
+.transcript{max-width:68ch}
+.snt{cursor:pointer;border-radius:3px}
+.snt:hover{text-decoration:underline;text-decoration-color:var(--line)}
+.snt.on{background:var(--mag-soft);box-shadow:0 0 0 3px var(--mag-soft)}
+.endbox{margin-top:1.5rem;padding:1.2rem;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.dg text{font-family:"Barlow Semi Condensed",Arial,sans-serif}
+.s-ink{fill:var(--ink)}.s-mut{fill:var(--muted)}.s-mag{fill:var(--mag)}.s-on{fill:var(--mag-ink)}.s-bg{fill:var(--shoal)}
+.s-surfb{fill:var(--surface);stroke:var(--line);stroke-width:1.5}
+.s-magst{stroke:var(--mag);fill:none}.s-st{stroke:var(--ink);fill:none}.s-lst{stroke:var(--line);fill:none}
+.s-lt{fill:#e9f0f4}.s-hull{fill:#7f95a6}.s-rd{fill:#ff8a80}.s-gn{fill:#7ee2a0}
+.vtable-wrap{width:100%;overflow-x:auto;align-self:stretch;display:flex;align-items:center}
+.vtable{margin:0;font-size:clamp(.88rem,1.7vw,1.08rem);line-height:1.35}
+.vtable th,.vtable td{padding:.45rem .55rem;vertical-align:top}
+.vtable td:first-child{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600}
+.rv-item{transition:opacity .45s ease}
+.rv-item.dim{opacity:.12}
+.callout{align-self:stretch;display:flex;flex-direction:column;justify-content:center;padding:1rem 1.4rem;border-left:5px solid var(--mag);background:var(--mag-soft);border-radius:10px}
+.ctag{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--mag);font-size:.95rem;margin:0 0 .7rem}
+.callout ul{margin:0;padding-left:1.2rem;font-size:clamp(1.1rem,2.4vw,1.5rem);line-height:1.5}
+.callout li{margin-bottom:.45rem}
+@media (prefers-reduced-motion: no-preference){.opt,.btn,.chip{transition:background-color .15s,border-color .15s}}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar-inner">
+    <a class="brand" href="#home"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.5"/><polygon points="12,3 14.2,12 12,21 9.8,12" fill="currentColor"/></svg>Six-Pack Prep</a>
+    <nav aria-label="Sections">
+      <a href="#lessons">Lessons</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#test">Practice test</a>
+      <a href="#cards">Lights &amp; signals</a>
+      <a href="#drills">Plotting drills</a>
+      <a href="#misses">Misses<span class="badge" id="badge" hidden></span></a>
+    </nav>
+  </div>
+</header>
+<main id="main"></main>
+
+<script>
+/* ---------- Course content ----------
+   Generated by scripts/build.js from content/course-data.json (the source of truth).
+   Edit the JSON and run `npm run build`; never edit this block in site/index.html. */
+/*@@CONTENT@@*/
+
+/* ---------- Flashcard decks ---------- */
+const LIGHTS=[
+ {d:[["w",100,40],["g",70,112],["r",130,112]],a:"Power-driven vessel, head-on",n:"Masthead light plus both sidelights. You both alter course to starboard (Rule 14)."},
+ {d:[["w",85,42],["r",125,112]],a:"Power-driven vessel, showing her port side",n:"Masthead plus red sidelight. If she’s on your starboard side and the bearing is steady, you’re the give-way vessel."},
+ {d:[["w",115,42],["g",75,112]],a:"Power-driven vessel, showing her starboard side",n:"Masthead plus green sidelight. If she’s crossing from your port side, you’re usually the stand-on vessel."},
+ {d:[["w",100,96]],a:"One white light: a vessel at anchor, or the sternlight of a vessel ahead",n:"If it’s a sternlight, you’re overtaking and must keep clear."},
+ {d:[["r",100,45],["r",100,68]],a:"Not under command, not making way",n:"“Red over red, the captain is dead.” No sidelights means she’s stopped."},
+ {d:[["r",100,40],["r",100,63],["g",125,115]],a:"Not under command, making way, starboard side",n:"Sidelights and sternlight are added when she’s making way."},
+ {d:[["w",100,20],["r",100,48],["w",100,70],["r",100,92],["g",70,122],["r",130,122]],a:"Restricted in ability to maneuver, making way, head-on",n:"Red-white-red all-round, plus masthead and sidelights while making way."},
+ {d:[["g",100,40],["w",100,63],["g",70,115],["r",130,115]],a:"Trawling, making way, head-on",n:"“Green over white, trawling tonight.”"},
+ {d:[["r",100,40],["w",100,63],["r",125,115]],a:"Fishing (not trawling), making way, port side",n:"“Red over white, fishing tonight.”"},
+ {d:[["w",100,40],["r",100,63],["g",70,115],["r",130,115]],a:"Pilot vessel on duty, underway, head-on",n:"“White over red, pilot ahead.”"},
+ {d:[["g",70,115],["r",130,115]],a:"Sailing vessel under sail, head-on",n:"Sidelights only, no masthead light. Power gives way to sail."},
+ {d:[["r",100,32],["g",100,55],["g",70,115],["r",130,115]],a:"Sailing vessel with optional masthead lights, head-on",n:"“Red over green, sailing machine.”"},
+ {d:[["r",100,35],["r",100,58],["r",100,81]],a:"Constrained by her draft (International only)",n:"Three all-round reds. Day shape: a cylinder."},
+ {d:[["w",45,62],["r",105,40],["r",105,63],["w",160,82]],a:"Vessel aground",n:"Anchor lights plus two all-round reds. Day shape: three balls."},
+ {d:[["y",100,72],["w",100,95]],a:"Power vessel towing astern, seen from behind",n:"The yellow towing light sits above the white sternlight."},
+ {d:[["w",85,30],["w",85,53],["w",85,76],["g",125,118]],a:"Towing astern, tow over 200 m, starboard side",n:"Three masthead lights in a vertical line. Day shape: a diamond."},
+ {d:[["w",85,45],["w",85,68],["g",125,118]],a:"Towing astern, tow 200 m or less, starboard side",n:"Two masthead lights in a vertical line."}
+];
+const SHAPES=[
+ {s:["ball"],a:"Vessel at anchor",n:"One ball, in the fore part of the vessel."},
+ {s:["ball","ball"],a:"Not under command",n:"Two balls. At night: red over red."},
+ {s:["ball","ball","ball"],a:"Vessel aground",n:"Three balls. At night: anchor lights plus two reds."},
+ {s:["ball","diamond","ball"],a:"Restricted in ability to maneuver",n:"Ball, diamond, ball. At night: red, white, red."},
+ {s:["cyl"],a:"Constrained by her draft (International only)",n:"A cylinder. At night: three reds."},
+ {s:["coneDown","coneUp"],a:"Vessel engaged in fishing",n:"Two cones with points together, for trawling and other fishing alike."},
+ {s:["diamond"],a:"Towing, tow over 200 m",n:"Shown by both the tug and the tow."},
+ {s:["coneDown"],a:"Sailing vessel also using her engine",n:"A cone, point down. She counts as a power-driven vessel."}
+];
+const SOUNDS=[
+ {p:"S",ctx:"In sight of each other",a:"One short blast",n:"International: I am altering course to starboard. Inland: I intend to leave you on my port side."},
+ {p:"SS",ctx:"In sight of each other",a:"Two short blasts",n:"International: I am altering course to port. Inland: I intend to leave you on my starboard side."},
+ {p:"SSS",ctx:"In sight of each other",a:"Three short blasts",n:"I am operating astern propulsion (both rules)."},
+ {p:"SSSSS",ctx:"In sight of each other",a:"Five or more short blasts",n:"Danger or doubt: I don’t understand your intentions."},
+ {p:"P",ctx:"In fog, every 2 minutes",a:"Power-driven vessel making way",n:"One prolonged blast. Also used approaching a blind bend, and Inland when leaving a dock."},
+ {p:"PP",ctx:"In fog, every 2 minutes",a:"Power-driven vessel underway but stopped",n:"Two prolonged blasts."},
+ {p:"PSS",ctx:"In fog, every 2 minutes",a:"Sailing, fishing, towing, NUC, RAM or constrained by draft",n:"One prolonged plus two short."},
+ {p:"PSSS",ctx:"In fog, right after the tug’s signal",a:"Manned vessel being towed",n:"One prolonged plus three short."},
+ {p:"PPS",ctx:"International, narrow channel",a:"I intend to overtake you on your starboard side",n:"Two prolonged plus one short."},
+ {p:"PPSS",ctx:"International, narrow channel",a:"I intend to overtake you on your port side",n:"Two prolonged plus two short."},
+ {p:"PSPS",ctx:"International, narrow channel",a:"Agreement to be overtaken",n:"Prolonged, short, prolonged, short."}
+];
+
+/* ---------- Storage (per-browser) ---------- */
+let store={stats:{},misses:[]};
+try{const s=localStorage.getItem("oupv-v1");if(s){const p=JSON.parse(s);if(p&&p.stats)store=p;}}catch(e){}
+function save(){try{localStorage.setItem("oupv-v1",JSON.stringify(store));}catch(e){}updateBadge();}
+function record(id,ok){
+  const s=store.stats[id]||[0,0,0];s[0]++;if(ok)s[1]++;s[2]=ok?1:0;store.stats[id]=s;
+  const i=store.misses.indexOf(id);
+  if(!ok&&i<0)store.misses.push(id);
+  if(ok&&i>=0)store.misses.splice(i,1);
+  save();
+}
+function updateBadge(){const b=document.getElementById("badge");const n=store.misses.filter(id=>BANK.some(x=>x.id===id)).length;b.hidden=!n;b.textContent=n;}
+
+/* ---------- Helpers ---------- */
+const main=document.getElementById("main");
+let timer=null,S=null,quizMod="A",quizLen=10,quizAuto=false;
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function pickQ(m,n){return shuffle(BANK.filter(x=>m==="A"||x.m===m)).slice(0,n);}
+function ri(a,b){return a+Math.floor(Math.random()*(b-a+1));}
+function fmtTime(ms){const s=Math.max(0,Math.round(ms/1000));return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");}
+
+/* ---------- Router ---------- */
+const VIEWS={home,quiz,test,cards,drills,misses,lessons};
+function route(){
+  clearInterval(timer);stopSpeech();
+  let h=(location.hash||"#home").slice(1);S=null;
+  if(h.startsWith("lesson-")&&LESSONS.some(l=>"lesson-"+l.id===h)){player(h.slice(7));h="lessons";}
+  else if(h.startsWith("check-")&&LESSONS.some(l=>"check-"+l.id===h)){const les=LESSONS.find(l=>"check-"+l.id===h);if(!(store.sess&&store.sess.key===h&&resumeSess(store.sess)))startSession(shuffle(BANK.filter(x=>x.tag===les.id)),{mode:"learn",title:"Lesson check: "+les.t,key:h});h="lessons";}
+  else{if(!VIEWS[h])h="home";VIEWS[h]();}
+  document.querySelectorAll("nav a").forEach(a=>a.setAttribute("aria-current",a.getAttribute("href")==="#"+h?"page":"false"));
+  window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",route);
+
+/* ---------- Home ---------- */
+function rose(){
+  let ticks="",labels="";
+  for(let d=0;d<360;d+=5){
+    const r1=d%30===0?86:d%10===0?91:95,a=(d-90)*Math.PI/180;
+    ticks+=`<line x1="${(100+r1*Math.cos(a)).toFixed(1)}" y1="${(100+r1*Math.sin(a)).toFixed(1)}" x2="${(100+100*Math.cos(a)).toFixed(1)}" y2="${(100+100*Math.sin(a)).toFixed(1)}"/>`;
+    if(d%30===0)labels+=`<text x="${(100+76*Math.cos(a)).toFixed(1)}" y="${(100+76*Math.sin(a)+3).toFixed(1)}">${d}</text>`;
+  }
+  return `<svg class="rose" viewBox="-4 -4 208 208" aria-hidden="true"><circle cx="100" cy="100" r="100" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="100" cy="100" r="64" fill="none" stroke="currentColor" stroke-width=".8"/><g stroke="currentColor" stroke-width="1">${ticks}</g>${labels}<polygon points="100,42 108,100 100,158 92,100" fill="currentColor" opacity=".9"/><polygon points="42,100 100,94 158,100 100,106" fill="currentColor" opacity=".35"/><circle cx="100" cy="100" r="3" fill="var(--paper)"/></svg>`;
+}
+function home(){
+  const rows=Object.entries(MODS).map(([m,info])=>{
+    const qs=BANK.filter(x=>x.m===m);const seen=qs.filter(x=>store.stats[x.id]).length;const ok=qs.filter(x=>store.stats[x.id]&&store.stats[x.id][2]).length;
+    return `<div class="mod"><div><h3>${info.name}</h3><div class="meta">${ok} of ${qs.length} answered right on the latest try. ${seen} seen. Pass mark ${info.pass}%.</div></div><button class="btn ghost" data-mod="${m}">Practice</button><div class="track"><span style="width:${(ok/qs.length*100).toFixed(0)}%"></span></div></div>`;
+  }).join("");
+  main.innerHTML=`<section class="hero"><div><h1>Study for your six-pack captain’s exam</h1><p class="lede">Narrated lessons with slides, ${BANK.length} practice questions, light and sound-signal flashcards, and endless plotting drills for all four modules of the Coast Guard OUPV exam. Progress is saved in this browser.</p><div class="row"><a class="btn" href="#lessons">Start the lessons</a><a class="btn ghost" href="#test">Take a practice test</a></div></div>${rose()}</section>
+  <section><h2>Your progress</h2><p class="muted">${LESSONS.filter(l=>(store.done||[]).includes(l.id)).length} of ${LESSONS.length} lessons finished.</p><div class="mods">${rows}</div></section>
+  <section class="tips"><h2>Before exam day</h2><ul>
+  <li>Rules of the Road needs 90%. Drill lights, shapes and sound signals daily until they’re instant.</li>
+  <li>Read the first word of every rules question: INLAND, INTERNATIONAL or BOTH changes the answer.</li>
+  <li>Do plotting on a real training chart with parallel rulers and dividers, not just here.</li>
+  <li>Aim for 90% on Rules and 80% everywhere else on two practice tests in a row before you sit the exam.</li></ul></section>
+  <p><button class="link" id="reset">Clear my progress</button></p>`;
+  main.querySelectorAll("[data-mod]").forEach(b=>b.onclick=()=>{quizMod=b.dataset.mod;quizAuto=true;location.hash="quiz";});
+  const r=document.getElementById("reset");let armed=false;
+  r.onclick=()=>{if(!armed){armed=true;r.textContent="Click again to clear all progress";return;}store={stats:{},misses:[]};save();home();};
+}
+
+/* ---------- Quiz ---------- */
+function quiz(){
+  if(quizAuto){quizAuto=false;return startSession(pickQ(quizMod,quizLen),{mode:"learn",title:quizMod==="A"?"Mixed quiz":MODS[quizMod].name,key:"quiz"});}
+  const mods=[["A","All modules"],...Object.entries(MODS).map(([k,v])=>[k,v.name])];
+  main.innerHTML=`<section><h1>Quiz</h1><p class="lede">Instant feedback and an explanation after every answer. Missed questions are saved for review.</p>${resumeHTML("quiz")}
+  <p class="field-label">Module</p><div class="chips" id="modchips">${mods.map(([k,n])=>`<button class="chip" data-k="${k}" aria-pressed="${k===quizMod}">${n}</button>`).join("")}</div>
+  <p class="field-label">Length</p><div class="chips" id="lenchips">${[10,25].map(n=>`<button class="chip" data-n="${n}" aria-pressed="${n===quizLen}">${n} questions</button>`).join("")}</div>
+  <button class="btn" id="go">Start quiz</button></section>`;
+  main.querySelectorAll("#modchips .chip").forEach(c=>c.onclick=()=>{quizMod=c.dataset.k;quiz();});
+  main.querySelectorAll("#lenchips .chip").forEach(c=>c.onclick=()=>{quizLen=+c.dataset.n;quiz();});
+  document.getElementById("go").onclick=()=>startSession(pickQ(quizMod,quizLen),{mode:"learn",title:quizMod==="A"?"Mixed quiz":MODS[quizMod].name,key:"quiz"});wireResume();
+}
+
+/* ---------- Practice test ---------- */
+function test(){
+  main.innerHTML=`<section class="session"><h1>Practice test</h1><p class="lede">25 questions in exam proportions: 10 Rules of the Road, 6 Navigation General, 5 Deck General, 4 Plotting. You have 45 minutes. Answers are revealed at the end.</p>${resumeHTML("test")}
+  <table><thead><tr><th>Module</th><th>Questions</th><th>Pass mark</th></tr></thead><tbody>
+  <tr><td>Rules of the Road</td><td>10</td><td>90% (9 of 10)</td></tr><tr><td>Navigation General</td><td>6</td><td>70%</td></tr><tr><td>Deck General & Safety</td><td>5</td><td>70%</td></tr><tr><td>Chart Plotting</td><td>4</td><td>70%</td></tr></tbody></table>
+  <button class="btn" id="go">Start the 45-minute test</button></section>`;
+  document.getElementById("go").onclick=()=>startSession([...pickQ("R",10),...pickQ("N",6),...pickQ("D",5),...pickQ("P",4)],{mode:"exam",title:"Practice test",minutes:45,key:"test"});wireResume();
+}
+
+/* ---------- Misses ---------- */
+function misses(){
+  const list=BANK.filter(x=>store.misses.includes(x.id));
+  if(!list.length){main.innerHTML=`<section><h1>Missed questions</h1><p class="lede">Nothing here yet. Questions you get wrong in quizzes and practice tests collect here until you answer them correctly.</p><a class="btn" href="#quiz">Start a quiz</a></section>`;return;}
+  const by=Object.keys(MODS).map(m=>[m,list.filter(x=>x.m===m).length]).filter(x=>x[1]);
+  main.innerHTML=`<section><h1>Missed questions</h1><p class="lede">${list.length} question${list.length>1?"s":""} to review. Answer one correctly and it leaves this list.</p>
+  <table><tbody>${by.map(([m,n])=>`<tr><td>${MODS[m].name}</td><td>${n}</td></tr>`).join("")}</tbody></table>
+  <button class="btn" id="go">Review ${list.length} missed question${list.length>1?"s":""}</button></section>`;
+  document.getElementById("go").onclick=()=>startSession(shuffle(list),{mode:"learn",title:"Reviewing misses",key:"misses"});
+}
+
+/* ---------- Session engine ---------- */
+function tickTimer(){if(!S||!S.end)return;const left=S.end-Date.now();const el=document.getElementById("clock");if(el)el.textContent=fmtTime(left);if(left<=0)finish();}
+function saveSess(){if(!S)return;store.sess=S.done?null:{key:S.key,ids:S.items.map(it=>it.q.id),orders:S.items.map(it=>it.order),picks:S.items.map(it=>it.pick),i:S.i,mode:S.mode,title:S.title,end:S.end};save();}
+function resumeSess(sv){if(!sv||!sv.ids)return false;const items=sv.ids.map((id,k)=>{const q=BANK.find(x=>x.id===id);return q?{q,order:sv.orders[k],pick:sv.picks[k]}:null;});if(items.some(x=>!x)||!items.length)return false;S={items,i:Math.min(sv.i,items.length-1),mode:sv.mode,title:sv.title,end:sv.end,done:false,key:sv.key};clearInterval(timer);if(S.end)timer=setInterval(tickTimer,1000);renderQ();return true;}
+function resumeHTML(key){const s=store.sess;if(!s||s.key!==key||(s.end&&s.end<Date.now()))return "";return `<div class="endbox" style="margin:0 0 1.4rem"><p style="margin:0 0 .6rem">You have an unfinished ${key==="test"?"practice test":"quiz"}, at question ${s.i+1} of ${s.ids.length}.</p><button class="btn" id="resume">Resume where you left off</button></div>`;}
+function wireResume(){const b=document.getElementById("resume");if(b)b.onclick=()=>{if(!resumeSess(store.sess)){store.sess=null;save();}};}
+function startSession(list,opt){
+  S={items:list.map(q=>({q,order:shuffle(q.opts.map((_,i)=>i)),pick:null})),i:0,mode:opt.mode,title:opt.title,end:opt.minutes?Date.now()+opt.minutes*60000:null,done:false,key:opt.key||null};
+  clearInterval(timer);
+  if(S.end)timer=setInterval(tickTimer,1000);
+  renderQ();
+}
+function renderQ(){
+  const it=S.items[S.i],q=it.q,exam=S.mode==="exam",last=S.i===S.items.length-1;
+  main.innerHTML=`<section class="session">
+  <div class="sess-top"><span>${S.title}</span><span>${S.i+1} of ${S.items.length}</span>${S.end?`<span class="clock" id="clock">${fmtTime(S.end-Date.now())}</span>`:""}</div>
+  <div class="progress"><span style="width:${(S.i/S.items.length*100).toFixed(1)}%"></span></div>
+  <p class="tag">${MODS[q.m].name}</p>
+  <h2 class="qtext">${q.text}</h2>
+  <div class="opts">${it.order.map((oi,k)=>`<button class="opt" data-oi="${oi}"><span class="key">${"ABCD"[k]}</span><span>${q.opts[oi]}</span></button>`).join("")}</div>
+  <div class="fb" id="fb" aria-live="polite"></div>
+  <div class="sess-nav">${exam?`<button class="btn ghost" id="prev" ${S.i===0?"disabled":""}>Previous</button>`:""}<button class="btn" id="next" ${!exam&&it.pick===null?"hidden":""}>${last?(exam?"Finish test":"See results"):"Next question"}</button></div></section>`;
+  main.querySelectorAll(".opt").forEach(b=>b.onclick=()=>choose(+b.dataset.oi));
+  document.getElementById("next").onclick=()=>{if(last)finish();else{S.i++;renderQ();}};
+  const p=document.getElementById("prev");if(p)p.onclick=()=>{S.i--;renderQ();};
+  paint();saveSess();
+}
+function paint(){
+  const it=S.items[S.i];
+  main.querySelectorAll(".opt").forEach(b=>{
+    const oi=+b.dataset.oi;b.className="opt";
+    if(S.mode==="exam"){if(it.pick===oi)b.classList.add("picked");}
+    else if(it.pick!==null){if(oi===0)b.classList.add("correct");else if(oi===it.pick)b.classList.add("wrong");b.disabled=true;}
+  });
+  if(S.mode!=="exam"&&it.pick!==null){
+    const ok=it.pick===0;
+    document.getElementById("fb").innerHTML=`<p class="verdict ${ok?"ok":"bad"}">${ok?"Correct.":"Not quite."}</p><p>${ok?"":`The answer is: ${it.q.opts[0]}. `}${it.q.exp}</p>`;
+    document.getElementById("next").hidden=false;
+  }
+}
+function choose(oi){
+  const it=S.items[S.i];
+  if(S.mode!=="exam"){if(it.pick!==null)return;it.pick=oi;record(it.q.id,oi===0);paint();document.getElementById("next").focus();}
+  else{it.pick=oi;paint();}
+  saveSess();
+}
+function finish(){
+  if(!S||S.done)return;
+  clearInterval(timer);S.done=true;saveSess();
+  if(S.mode==="exam")S.items.forEach(it=>record(it.q.id,it.pick===0));
+  const by={};S.items.forEach(it=>{const b=by[it.q.m]||(by[it.q.m]={n:0,c:0});b.n++;if(it.pick===0)b.c++;});
+  const c=S.items.filter(it=>it.pick===0).length,missed=S.items.filter(it=>it.pick!==0),exam=S.mode==="exam";
+  const allPass=Object.entries(by).every(([m,b])=>b.c/b.n*100>=MODS[m].pass);
+  main.innerHTML=`<section class="session"><h1>${exam?(allPass?"You passed every module":"Not there yet"):"Quiz complete"}</h1>
+  <p class="score">${c} of ${S.items.length}</p><p class="muted">${Math.round(c/S.items.length*100)}% correct overall.</p>
+  <table><thead><tr><th>Module</th><th>Score</th>${exam?"<th>Result</th>":""}</tr></thead><tbody>
+  ${Object.entries(by).map(([m,b])=>{const pct=Math.round(b.c/b.n*100);return `<tr><td>${MODS[m].name}</td><td>${b.c} of ${b.n} (${pct}%)</td>${exam?`<td class="${pct>=MODS[m].pass?"pass":"fail"}">${pct>=MODS[m].pass?"Pass":`Below ${MODS[m].pass}%`}</td>`:""}</tr>`;}).join("")}
+  </tbody></table>
+  ${missed.length?`<h2>Review what you missed</h2>${missed.map(it=>`<div class="miss"><p><strong>${it.q.text}</strong></p><p class="muted">Your answer: ${it.pick===null?"none":it.q.opts[it.pick]}</p><p>Correct: ${it.q.opts[0]}. ${it.q.exp}</p></div>`).join("")}`:"<p>A clean sheet. Try a longer quiz or the full practice test.</p>"}
+  <div class="row" style="margin-top:1.5rem"><button class="btn" id="again">${exam?"Take another test":(S.key&&S.key.startsWith("check-"))?"Retake the lesson check":"Start another quiz"}</button>${(S.key&&S.key.startsWith("check-"))?`<a class="btn ghost" href="#lesson-${S.key.slice(6)}">Back to the lesson</a>`:""}${missed.length?`<a class="btn ghost" href="#misses">Go to missed questions</a>`:""}</div></section>`;
+  const K=S.key,T=S.title;
+  document.getElementById("again").onclick=()=>{if(K&&K.startsWith("check-"))startSession(shuffle(BANK.filter(x=>x.tag===K.slice(6))),{mode:"learn",title:T,key:K});else if(exam)test();else quiz();window.scrollTo(0,0);};
+  window.scrollTo(0,0);
+}
+document.addEventListener("keydown",e=>{
+  if(e.target.tagName==="INPUT"||!S||S.done||!document.querySelector(".session .opts"))return;
+  const k=e.key.toLowerCase();let idx="1234".indexOf(k);if(idx<0)idx="abcd".indexOf(k);
+  if(idx>=0&&k.length===1){const b=main.querySelectorAll(".opt")[idx];if(b&&!b.disabled)b.click();}
+  else if(e.key==="Enter"){const n=document.getElementById("next");if(n&&!n.hidden&&document.activeElement!==n){e.preventDefault();n.click();}}
+});
+
+/* ---------- Flashcards ---------- */
+const DECKS={lights:{name:"Lights at night",cards:LIGHTS},shapes:{name:"Day shapes",cards:SHAPES},sounds:{name:"Sound signals",cards:SOUNDS}};
+let C={deck:"lights",order:[],i:0,shown:false,got:0,seen:0};
+const LC={r:"#ff453a",g:"#30d158",w:"#fff4d6",y:"#ffd60a"};
+function drawLights(c){
+  return `<svg viewBox="0 0 200 150" role="img" aria-label="A vessel’s lights at night"><defs><filter id="glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="4.5"/></filter></defs><line x1="0" y1="138" x2="200" y2="138" stroke="#16222d"/>${c.d.map(([k,x,y])=>`<circle cx="${x}" cy="${y}" r="10" fill="${LC[k]}" filter="url(#glow)" opacity=".85"/><circle cx="${x}" cy="${y}" r="4.2" fill="${LC[k]}"/>`).join("")}</svg>`;
+}
+function shp(s,x,y){
+  const f="#101418";
+  if(s==="ball")return `<circle cx="${x}" cy="${y}" r="14" fill="${f}"/>`;
+  if(s==="diamond")return `<polygon points="${x},${y-17} ${x+13},${y} ${x},${y+17} ${x-13},${y}" fill="${f}"/>`;
+  if(s==="cyl")return `<rect x="${x-11}" y="${y-17}" width="22" height="34" fill="${f}"/>`;
+  if(s==="coneDown")return `<polygon points="${x-15},${y-14} ${x+15},${y-14} ${x},${y+15}" fill="${f}"/>`;
+  return `<polygon points="${x-15},${y+15} ${x+15},${y+15} ${x},${y-14}" fill="${f}"/>`;
+}
+function drawShapes(c){
+  const n=c.s.length,h=Math.max(150,46+n*38);let y=36,out="";
+  c.s.forEach(s=>{out+=shp(s,100,y);y+=(s==="coneDown"&&c.s.length===2&&c.s[1]==="coneUp")?30:38;});
+  return `<svg viewBox="0 0 200 ${h}" role="img" aria-label="Day shapes on a mast"><line x1="100" y1="6" x2="100" y2="${h}" stroke="#4a5864" stroke-width="2.5"/><line x1="70" y1="12" x2="130" y2="12" stroke="#4a5864" stroke-width="2"/>${out}</svg>`;
+}
+function drawSound(c){
+  const parts=c.p.split(""),W={P:56,S:18},gap=11,w=parts.reduce((t,p)=>t+W[p],0)+gap*(parts.length-1);let x=(200-w)/2,out="";
+  parts.forEach(p=>{out+=`<rect x="${x}" y="67" width="${W[p]}" height="16" rx="8" fill="#e9f0f4"/>`;x+=W[p]+gap;});
+  return `<svg viewBox="0 0 200 150" role="img" aria-label="${parts.map(p=>p==="P"?"prolonged":"short").join(", ")} blasts">${out}<text x="100" y="118" text-anchor="middle" fill="#7f93a3" font-family="Barlow Semi Condensed, Arial, sans-serif" font-size="11">short ≈ 1 second   prolonged = 4–6 seconds</text></svg>`;
+}
+function cards(){C.order=shuffle(DECKS[C.deck].cards.map((_,i)=>i));C.i=0;C.shown=false;C.got=0;C.seen=0;renderCard();}
+function renderCard(){
+  const deck=DECKS[C.deck],card=deck.cards[C.order[C.i]];
+  const art=C.deck==="lights"?drawLights(card):C.deck==="shapes"?drawShapes(card):drawSound(card);
+  main.innerHTML=`<section><h1>Lights, shapes and sound signals</h1><p class="lede">Name it before you reveal the answer. These make up a big share of the Rules of the Road module.</p>
+  <div class="chips">${Object.entries(DECKS).map(([k,d])=>`<button class="chip" data-deck="${k}" aria-pressed="${k===C.deck}">${d.name}</button>`).join("")}</div>
+  <div class="card"><div class="stage ${C.deck==="shapes"?"day":""}">${art}</div>${card.ctx?`<p class="ctx">${card.ctx}</p>`:""}
+  ${C.shown?`<div class="back"><h2>${card.a}</h2><p>${card.n}</p></div>`:""}
+  <div class="card-actions">${C.shown?`<button class="btn ghost" id="miss">I missed it</button><button class="btn" id="got">I got it</button>`:`<button class="btn" id="flip">Show answer</button>`}</div></div>
+  <p class="muted" style="margin-top:.8rem">Card ${C.i+1} of ${deck.cards.length}. ${C.got} of ${C.seen} right this round.</p></section>`;
+  main.querySelectorAll("[data-deck]").forEach(b=>b.onclick=()=>{C.deck=b.dataset.deck;cards();});
+  const f=document.getElementById("flip");if(f){f.onclick=()=>{C.shown=true;renderCard();document.getElementById("got").focus();};}
+  const adv=ok=>{C.seen++;if(ok)C.got++;C.shown=false;C.i++;if(C.i>=deck.cards.length){C.order=shuffle(C.order);C.i=0;}renderCard();document.getElementById("flip").focus();};
+  const g=document.getElementById("got");if(g)g.onclick=()=>adv(true);
+  const m=document.getElementById("miss");if(m)m.onclick=()=>adv(false);
+}
+
+/* ---------- Plotting drills ---------- */
+let D={type:"ct",streak:0,best:0,prob:null,answered:false};
+const deg=x=>String(x).padStart(3,"0")+"°";
+const corr=x=>`${Math.abs(x)}°${x>=0?"E":"W"}`;
+const sg=x=>x>=0?"+":"−";
+const norm=x=>((x%360)+360)%360;
+function newProb(){
+  D.answered=false;
+  if(D.type==="ct"||D.type==="tc"){
+    const c=ri(0,359),dev=ri(-6,6)||2,v=ri(-14,14)||-5,m=norm(c+dev),t=norm(m+v);
+    D.prob=D.type==="ct"?{ask:`Compass course ${deg(c)}. Deviation ${corr(dev)}. Variation ${corr(v)}. What is the true course?`,ans:t,kind:"deg",unit:"degrees true",
+      steps:`Correcting (compass toward true): add east, subtract west.<br>Compass ${deg(c)} ${sg(dev)} ${Math.abs(dev)}° deviation = magnetic ${deg(m)}.<br>Magnetic ${deg(m)} ${sg(v)} ${Math.abs(v)}° variation = true ${deg(t)}.`}
+     :{ask:`True course ${deg(t)}. Variation ${corr(v)}. Deviation ${corr(dev)}. What compass course do you steer?`,ans:c,kind:"deg",unit:"degrees compass",
+      steps:`Uncorrecting (true toward compass): subtract east, add west.<br>True ${deg(t)} ${sg(-v)} ${Math.abs(v)}° variation = magnetic ${deg(m)}.<br>Magnetic ${deg(m)} ${sg(-dev)} ${Math.abs(dev)}° deviation = compass ${deg(c)}.`};
+  }else if(D.type!=="std"){newProb2();}else{
+    const sp=[6,8,10,12,14,15,16,18,20,22,24,25][ri(0,11)],T=6*ri(2,20),Dd=sp*T/6/10,w=ri(0,2);
+    if(w===0)D.prob={ask:`You run at ${sp} knots for ${T} minutes. How far do you go?`,ans:Dd,tol:.05,kind:"num",unit:"nautical miles",steps:`D = S × T ÷ 60 = ${sp} × ${T} ÷ 60 = ${Dd} nm.`};
+    else if(w===1)D.prob={ask:`How many minutes to run ${Dd} nm at ${sp} knots?`,ans:T,tol:.5,kind:"num",unit:"minutes",steps:`T = 60 × D ÷ S = 60 × ${Dd} ÷ ${sp} = ${T} minutes.`};
+    else D.prob={ask:`You covered ${Dd} nm in ${T} minutes. What was your speed?`,ans:sp,tol:.05,kind:"num",unit:"knots",steps:`S = 60 × D ÷ T = 60 × ${Dd} ÷ ${T} = ${sp} knots.`};
+  }
+}
+function hm(m){m=((Math.round(m)%1440)+1440)%1440;return String(Math.floor(m/60)).padStart(2,"0")+":"+String(m%60).padStart(2,"0");}
+function parseTime(s){const t=String(s).trim().replace(/[^0-9:]/g,"");let h,m;if(t.includes(":")){[h,m]=t.split(":").map(Number);}else if(t.length>=3){h=+t.slice(0,-2);m=+t.slice(-2);}else return NaN;return (isNaN(h)||isNaN(m)||h>23||m>59)?NaN:h*60+m;}
+const FORM={ct:"True → Variation → Magnetic → Deviation → Compass. Correcting toward true: add east.",tc:"Uncorrecting (true toward compass): add west, subtract east.",std:"60 × D = S × T &nbsp;(“60 D Street”: D in nm, S in knots, T in minutes)",eta:"Time = 60 × D ÷ S, then add it to your departure time.",fuel:"Rule of thirds: one third out, one third back, one third reserve.",rel:"True bearing = true heading + relative bearing (subtract 360 if over).",sd:"Set: direction from the DR to the fix. Drift: distance ÷ hours.",var:"Years × annual change, added or subtracted as the rose says.",geo:"Geographic range = 1.17 × (√light height + √eye height), heights in feet.",dbl:"Doubling the angle on the bow: distance run = distance off at the second bearing."};
+function newProb2(){
+ const t=D.type;
+ if(t==="rel"){const H=5*ri(0,71),R=5*ri(1,71),T=norm(H+R);D.prob={ask:`True heading ${deg(H)}. An object bears ${deg(R)} relative. What is its true bearing?`,ans:T,kind:"deg",unit:"degrees true",steps:`True bearing = true heading + relative bearing = ${H} + ${R} = ${H+R}${H+R>=360?` − 360 = ${T}`:""}, so ${deg(T)} true.`};}
+ else if(t==="eta"){const dep=60*ri(6,15)+5*ri(0,11),sp=[8,10,12,14,15,16,18,20,24][ri(0,8)],d=ri(10,80)/2,mins=Math.round(60*d/sp);D.prob={ask:`You depart at ${hm(dep)} and run ${d} nm at ${sp} knots. What is your ETA? (type it like 10:45)`,ans:dep+mins,tol:2,kind:"time",unit:"hh:mm",steps:`T = 60 × D ÷ S = 60 × ${d} ÷ ${sp} ≈ ${mins} minutes (${Math.floor(mins/60)} h ${mins%60} min).<br>ETA = ${hm(dep)} + ${Math.floor(mins/60)}:${String(mins%60).padStart(2,"0")} = ${hm(dep+mins)}.`};}
+ else if(t==="fuel"){const sp=[10,12,15,18,20,24,25,30][ri(0,7)],hrs=[1,1.5,2,2.5,3][ri(0,4)],d=sp*hrs,g=2*ri(3,15),one=hrs*g;D.prob={ask:`Your fishing spot is ${d} nm away. You cruise at ${sp} knots burning ${g} gal/h. By the rule of thirds, how many gallons should you carry?`,ans:3*one,tol:.5,kind:"num",unit:"gallons",steps:`Time one way = ${d} ÷ ${sp} = ${hrs} h. Fuel one way = ${hrs} × ${g} = ${one} gal.<br>Rule of thirds: 3 × ${one} = ${3*one} gal.`};}
+ else if(t==="sd"){const h=[0.5,1,1.5,2,3,4][ri(0,5)],dr=[1,1.5,2,2.4,3,3.6,4.5,6][ri(0,7)],dir=5*ri(0,71),drift=Math.round(dr/h*10)/10,askSet=Math.random()<.5;D.prob={ask:`${h} hours after your last fix, your new fix lies ${dr} nm from your DR position, bearing ${deg(dir)}T from it. What is the ${askSet?"set":"drift, in knots"}?`,ans:askSet?dir:drift,tol:.06,kind:askSet?"deg":"num",unit:askSet?"degrees true":"knots",steps:`Set is the direction from the DR to the fix: ${deg(dir)}T.<br>Drift = distance ÷ time = ${dr} ÷ ${h} ≈ ${drift} knots.`};}
+ else if(t==="var"){const yr=new Date().getFullYear(),y0=yr-ri(5,20),V=ri(4,16),M=5*ri(0,11),ch=ri(1,8),inc=Math.random()<.5,EW=Math.random()<.8?"W":"E",yrs=yr-y0,tot=V*60+M+(inc?1:-1)*ch*yrs,ans=Math.round(tot/60*10)/10;D.prob={ask:`The compass rose shows variation ${V}°${String(M).padStart(2,"0")}′${EW} (${y0}), annual ${inc?"increase":"decrease"} ${ch}′. What variation applies in ${yr}? (degrees; decimals OK)`,ans,tol:.11,kind:"num",unit:"degrees "+EW,steps:`Years: ${yr} − ${y0} = ${yrs}. Change: ${yrs} × ${ch}′ = ${ch*yrs}′ ${inc?"increase":"decrease"}.<br>${V}°${M}′ ${inc?"+":"−"} ${ch*yrs}′ = ${Math.floor(tot/60)}°${tot%60}′${EW} ≈ ${ans}°${EW}.`};}
+ else if(t==="geo"){const H=[16,25,36,49,64,81,100,121,144][ri(0,8)],h=[4,9,16,25][ri(0,3)],g=Math.round(1.17*(Math.sqrt(H)+Math.sqrt(h))*10)/10;D.prob={ask:`A light is ${H} ft above the water and your eye is ${h} ft above the water. What is its geographic range, in nautical miles?`,ans:g,tol:.15,kind:"num",unit:"nautical miles",steps:`Geographic range = 1.17 × (√${H} + √${h}) = 1.17 × (${Math.sqrt(H)} + ${Math.sqrt(h)}) = 1.17 × ${Math.sqrt(H)+Math.sqrt(h)} ≈ ${g} nm.`};}
+ else if(t==="dbl"){const sp=[6,8,10,12,15,20][ri(0,5)],m=3*ri(2,10),run=Math.round(sp*m/60*10)/10,k=ri(0,2),r7=Math.round(run*.7*10)/10;const P=[["45° on the bow, then abeam",run,`Bow and beam: distance off when abeam = distance run = ${run} nm.`],["30° on the bow, then 60° on the bow",run,`Doubling the angle: distance off at the second bearing = distance run = ${run} nm.`],["22.5° on the bow, then 45° on the bow",r7,`7/10 rule: distance off when abeam ≈ 0.7 × ${run} = ${r7} nm.`]][k];D.prob={ask:`At ${sp} knots, a light bears ${P[0]}, ${m} minutes apart. ${k===1?"How far off is it at the second bearing?":"How far off is it (or will it be) when abeam?"} (nm)`,ans:P[1],tol:.11,kind:"num",unit:"nautical miles",steps:`Distance run = ${sp} × ${m} ÷ 60 = ${run} nm.<br>${P[2]}`};}
+}
+function drills(){newProb();renderDrill();}
+function renderDrill(){
+  const types=[["ct","Compass to true"],["tc","True to compass"],["std","Speed, time, distance"],["eta","ETA"],["fuel","Fuel"],["rel","Relative bearings"],["sd","Set and drift"],["var","Variation update"],["geo","Light ranges"],["dbl","Bow angles"]],p=D.prob;
+  main.innerHTML=`<section><h1>Plotting drills</h1><p class="lede">Fresh problems every time. These two calculations show up on nearly every plotting exam.</p>
+  <div class="chips">${types.map(([k,n])=>`<button class="chip" data-t="${k}" aria-pressed="${k===D.type}">${n}</button>`).join("")}</div>
+  <div class="formula">${FORM[D.type]}</div>
+  <div class="problem"><h2 class="qtext">${p.ask}</h2>
+  <div class="answer-row"><input id="ans" inputmode="decimal" autocomplete="off" aria-label="Your answer in ${p.unit}" placeholder="${p.unit}"><button class="btn" id="check">Check answer</button><button class="btn ghost" id="skip">New problem</button></div>
+  <div class="fb" id="fb" aria-live="polite"></div></div>
+  <p class="streak">Streak: ${D.streak}. Best this session: ${D.best}.</p></section>`;
+  main.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>{D.type=b.dataset.t;drills();});
+  const inp=document.getElementById("ans");inp.focus();
+  const check=()=>{
+    if(D.answered){newProb();renderDrill();return;}
+    const v=p.kind==="time"?parseTime(inp.value):parseFloat(inp.value.replace(/[°,]/g,""));if(isNaN(v)){document.getElementById("fb").innerHTML=`<p class="muted">Type a number, then check.</p>`;return;}
+    const ok=p.kind==="deg"?norm(Math.round(v))===p.ans:Math.abs(v-p.ans)<=p.tol;
+    D.answered=true;if(ok){D.streak++;D.best=Math.max(D.best,D.streak);}else D.streak=0;
+    document.getElementById("fb").innerHTML=`<p class="verdict ${ok?"ok":"bad"}">${ok?"Correct.":`Not quite. The answer is ${p.kind==="deg"?deg(p.ans):p.kind==="time"?hm(p.ans):p.ans+" "+p.unit}.`}</p><div class="steps">${p.steps}</div>`;
+    document.getElementById("check").textContent="Next problem";
+    document.querySelector(".streak").textContent=`Streak: ${D.streak}. Best this session: ${D.best}.`;
+  };
+  document.getElementById("check").onclick=check;
+  inp.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();check();}});
+  document.getElementById("skip").onclick=()=>{newProb();renderDrill();};
+}
+
+/* ---------- Lesson diagrams ---------- */
+const DEFS=`<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10z" class="s-mag"/></marker></defs>`;
+const SV=(inner,vb)=>`<svg viewBox="${vb||"0 0 640 360"}" class="dg" role="img" aria-hidden="true">${DEFS}${inner}</svg>`;
+const TX=(x,y,s,o={})=>`<text x="${x}" y="${y}" text-anchor="${o.a||"middle"}" font-size="${o.z||18}" font-weight="${o.w||600}" class="${o.c||"s-ink"}">${s}</text>`;
+const hull=(x,y,h,cls,k)=>`<g transform="translate(${x} ${y}) rotate(${h}) scale(${k||1})"><path d="M0,-28 C10,-14 11,6 9,24 L-9,24 C-11,6 -10,-14 0,-28Z" class="${cls||"s-ink"}"/></g>`;
+const AR=(d,c)=>`<path d="${d}" class="${c||"s-magst"}" stroke-width="3" fill="none" marker-end="url(#ah)"/>`;
+function ptA(cx,cy,r,d){const a=d*Math.PI/180;return [(cx+r*Math.sin(a)).toFixed(1),(cy-r*Math.cos(a)).toFixed(1)];}
+function wedge(cx,cy,r,s,e,fill,op){const[a,b]=ptA(cx,cy,r,s),[c,d]=ptA(cx,cy,r,e);return `<path d="M${cx},${cy} L${a},${b} A${r},${r} 0 ${e-s>180?1:0} 1 ${c},${d} Z" style="fill:${fill}" opacity="${op}"/>`;}
+const nun=(x,y,n,k,extra)=>`<g transform="translate(${x} ${y}) scale(${k||1})"><polygon points="-15,22 15,22 15,-2 0,-24 -15,-2" fill="#C8312A"/><text y="15" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">${n}</text>${extra||""}</g>`;
+const can=(x,y,n,k,extra)=>`<g transform="translate(${x} ${y}) scale(${k||1})"><rect x="-14" y="-22" width="28" height="44" rx="2" fill="#1E8A4C"/><text y="15" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">${n}</text>${extra||""}</g>`;
+const sub=(x,y,s)=>TX(x,y,s,{z:14,c:"s-mut",w:500});
+const DG={
+ bearing(){let s="";[[320,320],[320,260],[320,200]].forEach(([x,y],i)=>{const o=[x+240-60*i,80];s+=`<line x1="${x}" y1="${y}" x2="${o[0]}" y2="${o[1]}" class="s-magst" stroke-width="1.6" stroke-dasharray="6 5" opacity="${.4+.3*i}"/><g opacity="${.3+.35*i}">${hull(x,y,0,"s-ink",.8)}${hull(o[0],o[1],-90,"s-ink",.8)}</g>`;});
+  return SV(s+`<circle cx="320" cy="80" r="16" class="s-magst" stroke-width="2"/>`+TX(320,46,"Collision point",{c:"s-mag"})+TX(480,300,"Bearing steady, range closing",{z:19})+sub(480,324,"= risk of collision"));},
+ overtake(){return SV(`<line x1="100" y1="150" x2="540" y2="150" class="s-lst" stroke-width="1.5" stroke-dasharray="6 6"/>`+sub(560,155,"Beam")+wedge(320,150,170,112.5,247.5,"var(--mag)",.15)+hull(320,150,0,"s-ink",1.5)+hull(320,285,0,"s-mut",.9)+TX(360,290,"Overtaking vessel keeps clear",{a:"start",c:"s-mag",z:17})+TX(320,40,"More than 22.5° abaft the beam = overtaking",{z:18}));},
+ headon(){return SV(hull(320,300,0,"s-ink",1.1)+hull(320,62,180,"s-ink",1.1)+AR("M335,262 C345,215 395,205 405,150")+AR("M305,100 C295,147 245,157 235,212")+TX(450,205,"Both alter to starboard",{a:"start"})+TX(450,229,"and pass port to port",{a:"start",c:"s-mut",z:16,w:500}));},
+ crossing(){return SV(hull(250,290,0,"s-ink",1.1)+hull(520,130,-90,"s-ink",1.1)+`<circle cx="520" cy="146" r="6" fill="#ff453a"/><path d="M480,130 L330,130" class="s-st" stroke-width="2" stroke-dasharray="6 6" opacity=".5"/>`+AR("M262,252 C285,200 430,215 600,195")+TX(250,345,"Give-way: the other boat is on her starboard side",{z:16})+TX(520,88,"Stand-on: course and speed",{z:16})+TX(120,150,"See her red sidelight?",{c:"s-mag",z:16})+TX(120,172,"You give way.",{c:"s-mag",z:16}));},
+ ladder(){const n=["Not under command","Restricted in ability to maneuver","Constrained by draft (International)","Engaged in fishing","Sailing","Power-driven"];let s="";n.forEach((t,i)=>{const y=18+i*55;s+=`<rect x="200" y="${y}" width="370" height="44" rx="8" class="${i===5?"s-mag":"s-bg"}"/>`+TX(385,y+29,t,{z:19,c:i===5?"s-on":"s-ink"});});return SV(s+AR("M165,335 L165,30")+sub(95,175,"Each keeps clear")+sub(95,195,"of those above"));},
+ arcs(){return SV(`<rect width="640" height="360" rx="12" fill="#04070B"/>`+wedge(320,185,165,-112.5,112.5,"#fff4d6",.2)+wedge(320,185,118,-112.5,0,"#ff453a",.5)+wedge(320,185,118,0,112.5,"#30d158",.5)+wedge(320,185,118,112.5,247.5,"#fff4d6",.3)+hull(320,185,0,"s-hull",1.3)+TX(320,15,"Masthead light 225°",{c:"s-lt",z:15})+TX(95,140,"Port sidelight",{c:"s-rd",z:16})+TX(95,160,"112.5°",{c:"s-rd",z:16})+TX(545,140,"Starboard sidelight",{c:"s-gn",z:16})+TX(545,160,"112.5°",{c:"s-gn",z:16})+TX(320,345,"Sternlight 135°",{c:"s-lt",z:16}));},
+ channel(){let s=`<rect width="640" height="360" rx="12" class="s-bg"/>`+AR("M320,322 L320,54")+TX(320,36,"Harbor",{z:16,c:"s-mut"})+TX(320,350,"Returning from sea",{z:16});[[280,2,1],[180,4,3],[80,6,5]].forEach(([y,r,g])=>{s+=nun(430,y,r)+can(210,y,g);});return SV(s+TX(470,186,"Red, even, nuns",{a:"start",z:17})+TX(170,186,"Green, odd, cans",{a:"end",z:17}));},
+ special(){const L=(x,a,b)=>TX(x,295,a,{z:16})+sub(x,316,b);return SV(`<rect x="77" y="165" width="36" height="90" fill="#fff" stroke="#8a9aa6"/><rect x="81" y="165" width="7" height="90" fill="#C8312A"/><rect x="92" y="165" width="7" height="90" fill="#C8312A"/><rect x="103" y="165" width="7" height="90" fill="#C8312A"/><circle cx="95" cy="148" r="11" fill="#C8312A"/>`+L(95,"Safe water","White Mo(A)")+`<rect x="227" y="165" width="36" height="90" fill="#15191d"/><rect x="227" y="198" width="36" height="24" fill="#C8312A"/><circle cx="245" cy="148" r="10" fill="#15191d"/><circle cx="245" cy="124" r="10" fill="#15191d"/>`+L(245,"Isolated danger","White Fl(2)")+`<rect x="378" y="165" width="34" height="30" fill="#1E8A4C"/><rect x="378" y="195" width="34" height="30" fill="#C8312A"/><rect x="378" y="225" width="34" height="30" fill="#1E8A4C"/>`+L(395,"Preferred channel","Treat as its top band")+`<rect x="527" y="165" width="36" height="90" fill="#F2C230"/><path d="M533,126 L557,150 M557,126 L533,150" stroke="#F2C230" stroke-width="6"/>`+L(545,"Special mark","Yellow light"));},
+ icw(){return SV(can(200,130,"",1.8,`<polygon points="0,-14 11,6 -11,6" fill="#F2C230"/>`)+nun(440,130,"",1.8,`<rect x="-8" y="-6" width="16" height="16" fill="#F2C230"/>`)+TX(200,210,"Yellow triangle",{z:18})+TX(200,233,"Treat as red",{z:16,c:"s-mag"})+TX(440,210,"Yellow square",{z:18})+TX(440,233,"Treat as green",{z:16,c:"s-mag"})+TX(320,292,"ICW “returning” runs clockwise around the U.S.",{z:17})+sub(320,318,"Florida: south down the Atlantic coast, then up the Gulf coast"));},
+ lightchar(){const R=[["F","Fixed",[[0,10]]],["Fl","Flashing",[[0,.5],[4,4.5],[8,8.5]]],["Q","Quick",[0,1,2,3,4,5,6,7,8,9].map(i=>[i,i+.35])],["Iso","Isophase",[[0,2],[4,6],[8,10]]],["Oc","Occulting",[[0,3.2],[4,7.2],[8,10]]],["Fl(2)","Group flashing",[[0,.4],[1,1.4],[5,5.4],[6,6.4]]],["Mo(A)","Morse A",[[0,.4],[1,2.6],[8,8.4],[9,10]]]];let s="";R.forEach(([a,b,g],i)=>{const y=22+i*46;s+=TX(30,y+20,a,{a:"start",z:20})+TX(30,y+38,b,{a:"start",z:13,c:"s-mut",w:500})+`<rect x="170" y="${y+6}" width="440" height="26" rx="5" fill="#04070B"/>`+g.map(([p,q])=>`<rect x="${170+p*44}" y="${y+11}" width="${(q-p)*44}" height="16" rx="3" fill="#ffd34d"/>`).join("");});return SV(s+sub(390,354,"10 seconds shown"));},
+ tide(){let p="";for(let i=0;i<=60;i++){const h=i/10,x=100+h*80,y=300-220*(1-Math.cos(Math.PI*h/6))/2;p+=(i?"L":"M")+x.toFixed(1)+","+y.toFixed(1);}let s=`<line x1="100" y1="300" x2="590" y2="300" class="s-lst" stroke-width="1.5"/>`,acc=0;[1,2,3,3,2,1].forEach((f,i)=>{const x=100+i*80,y0=300-acc*220/12;acc+=f;const y1=300-acc*220/12;s+=`<rect x="${x+20}" y="${y1}" width="40" height="${(y0-y1).toFixed(1)}" class="s-mag" opacity=".22"/>`+TX(x+40,y1-8,f+"/12",{z:15,c:"s-mag"})+sub(x+40,322,"Hour "+(i+1));});return SV(s+`<path d="${p}" class="s-st" stroke-width="3"/>`+sub(100,346,"Low water")+TX(585,64,"High water",{z:15,a:"end"}));},
+ springneap(){const sun=(x,y)=>`<circle cx="${x}" cy="${y}" r="26" fill="#F2C230"/>`,earth=(x,y,rx,ry)=>`<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" class="s-magst" stroke-width="2" stroke-dasharray="4 4"/><circle cx="${x}" cy="${y}" r="18" fill="#3C7FB0"/>`,moon=(x,y)=>`<circle cx="${x}" cy="${y}" r="9" fill="#9AA6B0"/>`;return SV(sun(50,150)+earth(190,150,46,24)+moon(268,150)+TX(160,240,"Spring tides",{z:20})+sub(160,264,"New and full moon")+sub(160,286,"Biggest range")+`<line x1="320" y1="40" x2="320" y2="320" class="s-lst"/>`+sun(375,150)+earth(510,150,30,27)+moon(510,82)+TX(480,240,"Neap tides",{z:20})+sub(480,264,"First and third quarter moons")+sub(480,286,"Smallest range"));},
+ chain(){let s="";[["T","True"],["V","Variation"],["M","Magnetic"],["D","Deviation"],["C","Compass"]].forEach(([a,b],i)=>{const x=40+i*120;s+=`<rect x="${x}" y="135" width="80" height="80" rx="10" class="${i%2?"s-bg":"s-surfb"}"/>`+TX(x+40,182,a,{z:34,w:700,c:i%2?"s-mag":"s-ink"})+sub(x+40,204,b);});return SV(s+AR("M560,125 C480,78 160,78 80,125")+TX(320,62,"Correcting: compass to true, add east",{z:17})+AR("M80,225 C160,272 480,272 560,225")+TX(320,302,"Uncorrecting: true to compass, add west",{z:17})+TX(320,340,"True Virgins Make Dull Companions",{z:16,c:"s-mag"}));},
+ fire(){return SV(`<polygon points="170,50 50,290 290,290" class="s-magst" stroke-width="4" stroke-linejoin="round"/>`+TX(100,165,"Heat",{z:20,a:"end"})+TX(240,165,"Oxygen",{z:20,a:"start"})+TX(170,322,"Fuel",{z:20})+sub(170,215,"Chain")+sub(170,235,"reaction")+[["A","Wood, paper, line"],["B","Fuel, oil, grease"],["C","Energized electrical"],["D","Combustible metals"]].map(([a,b],i)=>TX(360,108+i*58,a,{a:"start",z:32,w:700,c:"s-mag"})+TX(400,98+i*58,"Class "+a,{a:"start",z:14,c:"s-mut",w:500})+TX(400,119+i*58,b,{a:"start",z:18})).join(""));},
+ stability(){return SV(`<g transform="rotate(15 320 200)"><path d="M205,125 L435,125 L408,250 Q320,298 232,250 Z" style="fill:var(--shoal);stroke:var(--ink);stroke-width:2"/><line x1="320" y1="60" x2="320" y2="300" class="s-lst" stroke-width="1.5" stroke-dasharray="5 5"/></g><line x1="100" y1="185" x2="540" y2="185" class="s-magst" stroke-width="2" stroke-dasharray="9 6"/>`+TX(100,176,"Waterline",{a:"start",z:14,c:"s-mag"})+`<line x1="352" y1="81" x2="352" y2="228" class="s-st" stroke-width="1.2" stroke-dasharray="4 4"/><line x1="320" y1="200" x2="352" y2="200" class="s-magst" stroke-width="5"/>`+AR("M320,206 L320,286","s-st")+AR("M352,310 L352,240")+`<circle cx="320" cy="200" r="5" class="s-ink"/><circle cx="352" cy="228" r="5" class="s-mag"/><circle cx="352" cy="81" r="5" class="s-ink"/>`+TX(306,196,"G",{a:"end",z:20})+TX(366,234,"B",{a:"start",z:20,c:"s-mag"})+TX(366,87,"M",{a:"start",z:20})+TX(358,194,"Z",{a:"start",z:15})+sub(306,282,"Gravity").replace('text-anchor="middle"','text-anchor="end"')+sub(366,306,"Buoyancy").replace('text-anchor="middle"','text-anchor="start"')+TX(320,346,"GZ is the righting arm. Raise G and it shrinks.",{z:17}));},
+ scope(){return SV(`<rect x="0" y="122" width="640" height="198" class="s-bg"/><line x1="0" y1="320" x2="640" y2="320" class="s-st" stroke-width="2.5"/><path d="M70,104 L220,104 L200,134 L90,134 Z" class="s-ink"/><path d="M214,110 Q430,300 590,316" class="s-magst" stroke-width="3"/><path d="M580,306 L600,322 M590,298 L590,320" class="s-magst" stroke-width="3"/><line x1="245" y1="104" x2="245" y2="320" class="s-st" stroke-width="1.2" stroke-dasharray="4 4"/>`+TX(255,240,"Depth + bow height",{a:"start",z:15})+TX(470,252,"Rode",{z:16,c:"s-mag"})+TX(320,40,"Scope = rode ÷ (depth + bow height)",{z:20})+TX(320,72,"5 : 1 minimum, 7 : 1 preferred",{z:17,c:"s-mag"}));},
+ dividers(){let s=`<rect x="30" y="20" width="580" height="320" rx="6" class="s-surfb"/><rect x="545" y="21" width="64" height="318" class="s-bg"/>`;for(let i=0,y=40;y<=320;y+=6,i++){const big=i%10===0;s+=`<line x1="${big?545:560}" y1="${y}" x2="575" y2="${y}" class="s-st" stroke-width="${big?1.5:.8}"/>`;if(big)s+=TX(594,y+5,(56-i/10)+"′",{z:13,w:500});}
+  return SV(s+`<line x1="470" y1="135" x2="548" y2="100" class="s-st" stroke-width="3"/><line x1="470" y1="135" x2="548" y2="160" class="s-st" stroke-width="3"/><circle cx="470" cy="135" r="6" class="s-ink"/><line x1="80" y1="290" x2="400" y2="90" class="s-magst" stroke-width="2.5"/>`+TX(470,192,"1′ = 1 nm",{z:17,c:"s-mag"})+TX(205,182,"C 058°T",{c:"s-mag",z:16})+TX(305,178,"S 12",{c:"s-mag",z:16})+sub(285,326,"Measure distance on the latitude scale, beside your work"));},
+ fix(){return SV(`<polygon points="120,40 132,72 108,72" class="s-ink"/><circle cx="530" cy="70" r="11" class="s-ink"/><line x1="120" y1="60" x2="380" y2="255" class="s-st" stroke-width="2"/><line x1="530" y1="70" x2="290" y2="258" class="s-st" stroke-width="2"/><circle cx="336" cy="222" r="11" class="s-magst" stroke-width="2.5"/><line x1="336" y1="222" x2="470" y2="300" class="s-st" stroke-width="1.5" stroke-dasharray="6 5"/><path d="M458,300 A12,12 0 0 1 482,300" class="s-magst" stroke-width="2.5"/>`+TX(388,214,"1030 fix",{a:"start",z:16})+TX(492,305,"1100 DR",{a:"start",z:16})+sub(120,92,"Light")+sub(530,100,"Tank")+sub(175,128,"LOP 1")+sub(468,150,"LOP 2")+sub(320,346,"Best fixes: bearings 60° to 90° apart"));},
+ setdrift(){return SV(`<circle cx="110" cy="280" r="10" class="s-magst" stroke-width="2.5"/><line x1="120" y1="274" x2="428" y2="124" class="s-st" stroke-width="2"/><path d="M420,126 A12,12 0 0 1 444,126" class="s-st" stroke-width="2.5"/><circle cx="500" cy="232" r="10" class="s-magst" stroke-width="2.5"/>`+AR("M438,138 L492,218")+sub(110,310,"0800 fix")+TX(432,104,"1000 DR",{z:16})+TX(520,238,"1000 fix",{a:"start",z:16})+TX(40,40,"Set = direction from DR to fix",{a:"start",z:18})+TX(40,66,"Drift = distance between them ÷ hours",{a:"start",z:18})+TX(40,92,"3 nm off after 2 hours = 1.5 knots",{a:"start",z:16,c:"s-mag"}));},
+ r19(){const X=(x,y)=>`<path d="M${x-8},${y-8} L${x+8},${y+8} M${x+8},${y-8} L${x-8},${y+8}" stroke="#d93025" stroke-width="4" stroke-linecap="round"/>`,OK=(x,y)=>`<path d="M${x-9},${y} L${x-3},${y+7} L${x+10},${y-9}" stroke="#1e8a4c" stroke-width="4" fill="none" stroke-linecap="round"/>`;
+  return SV(`<line x1="320" y1="20" x2="320" y2="290" class="s-lst" stroke-width="1.5"/><line x1="60" y1="210" x2="260" y2="210" class="s-lst" stroke-dasharray="5 5"/><line x1="380" y1="190" x2="580" y2="190" class="s-lst" stroke-dasharray="5 5"/>`+hull(160,210,0,"s-ink",1)+`<circle cx="190" cy="62" r="9" class="s-mag"/>`+AR("M152,180 C146,140 125,118 92,112","s-st")+X(80,100)+AR("M168,180 C174,140 195,125 228,122","s-st")+OK(244,106)+hull(480,190,0,"s-ink",1)+`<circle cx="590" cy="250" r="9" class="s-mag"/>`+AR("M488,160 C494,120 515,105 548,100","s-st")+X(562,90)+AR("M472,160 C466,120 445,105 412,100","s-st")+OK(398,88)+sub(190,44,"Radar target")+sub(590,280,"Radar target")+TX(160,318,"Target forward of the beam",{z:16})+TX(160,340,"Avoid altering course to port",{z:15,c:"s-mag"})+TX(480,318,"Target abeam or abaft the beam",{z:16})+TX(480,340,"Avoid altering course toward it",{z:15,c:"s-mag"}));},
+ tss(){return SV(`<rect x="0" y="50" width="640" height="70" class="s-bg"/><rect x="0" y="120" width="640" height="26" class="s-mag" opacity=".22"/><rect x="0" y="146" width="640" height="70" class="s-bg"/><rect x="0" y="236" width="640" height="54" class="s-bg" opacity=".5"/><line x1="0" y1="300" x2="640" y2="300" class="s-st" stroke-width="2.5"/>`+AR("M520,85 L100,85")+AR("M100,181 L520,181")+AR("M590,228 L590,34","s-st")+sub(320,110,"Traffic lane")+TX(320,138,"Separation zone",{z:14,c:"s-mag"})+sub(320,206,"Traffic lane")+sub(300,268,"Inshore traffic zone")+sub(320,324,"Shore")+TX(575,30,"Crossing: at right angles",{a:"end",z:15}));},
+ nchannel(){return SV(`<rect x="210" y="0" width="230" height="360" class="s-bg"/><line x1="325" y1="0" x2="325" y2="360" class="s-lst" stroke-dasharray="8 8"/>`+hull(395,250,0,"s-ink",1.2)+AR("M395,205 L395,70")+hull(255,110,180,"s-ink",1.2)+AR("M255,155 L255,295")+hull(110,262,90,"s-mut",.8)+TX(100,70,"Under 20 m or sailing:",{z:15})+sub(100,92,"don’t impede vessels")+sub(100,112,"that need the channel")+TX(540,190,"Each keeps to",{z:15})+TX(540,210,"her own starboard side",{z:15})+sub(325,350,"Narrow channel"));},
+ latlong(){let s=`<rect x="110" y="50" width="440" height="250" class="s-surfb"/>`;[[80,"28°00′N"],[175,"27°30′N"],[270,"27°00′N"]].forEach(([y,l])=>{s+=`<line x1="110" y1="${y}" x2="550" y2="${y}" class="s-lst" stroke-width="1.5"/>`+TX(104,y+5,l,{a:"end",z:13,w:500,c:"s-mut"});});[[180,"83°00′W"],[330,"82°30′W"],[480,"82°00′W"]].forEach(([x,l])=>{s+=`<line x1="${x}" y1="50" x2="${x}" y2="300" class="s-lst" stroke-width="1.5"/>`+TX(x,42,l,{z:13,w:500,c:"s-mut"});});return SV(s+`<circle cx="380" cy="207" r="7" class="s-mag"/>`+TX(392,200,"27°20′N, 82°20′W",{a:"start",z:15,c:"s-mag"})+sub(330,324,"Latitude: side scales. Longitude: top and bottom scales.")+sub(330,344,"West longitude increases to the left."));},
+ tidetypes(){const C=(f,y0,lab)=>{let p="";for(let i=0;i<=120;i++){const t=i/120*24,x=150+i*3.8,y=y0-f(t);p+=(i?"L":"M")+x.toFixed(1)+","+y.toFixed(1);}return `<line x1="150" y1="${y0}" x2="606" y2="${y0}" class="s-lst"/><path d="${p}" class="s-magst" stroke-width="2.5"/>`+TX(140,y0+5,lab,{a:"end",z:15});};const w=2*Math.PI;return SV(C(t=>28*Math.cos(w*t/12.42),70,"Semidiurnal")+C(t=>28*Math.cos(w*t/24.84),180,"Diurnal")+C(t=>18*Math.cos(w*t/12.42)+12*Math.cos(w*t/24.84+1),290,"Mixed")+sub(378,346,"One day, about 24 hours 50 minutes"));},
+ range(){const board=(x,y,k)=>`<line x1="${x}" y1="${y}" x2="${x}" y2="270" class="s-st" stroke-width="3"/><rect x="${x-14*k}" y="${y-24*k}" width="${28*k}" height="${48*k}" fill="#C8312A"/><rect x="${x-4*k}" y="${y-24*k}" width="${8*k}" height="${48*k}" fill="#fff"/>`;return SV(`<line x1="0" y1="270" x2="640" y2="270" class="s-lst" stroke-width="2"/><line x1="320" y1="20" x2="320" y2="300" class="s-lst" stroke-dasharray="5 5"/>`+board(160,90,.7)+board(160,180,1)+board(510,90,.7)+board(470,180,1)+TX(160,298,"On the range: marks in line",{z:16})+sub(160,320,"Front mark lower, rear mark higher")+TX(490,298,"Rear mark to the right:",{z:16})+TX(490,320,"you’re left of the line, so steer right",{z:15,c:"s-mag"}));},
+ sector(){return SV(`<rect width="640" height="360" rx="12" class="s-bg"/>`+wedge(110,250,430,40,70,"#C8312A",.3)+wedge(110,250,430,70,150,"#fff4d6",.6)+`<ellipse cx="356" cy="80" rx="60" ry="24" fill="#d8c48a" stroke="#a08a50"/><polygon points="102,262 118,262 113,226 107,226" class="s-ink"/><circle cx="110" cy="222" r="7" fill="#ffd34d"/>`+hull(366,295,90,"s-ink",.8)+TX(356,86,"Shoal",{z:14})+TX(300,160,"Red sector covers the shoal",{z:15})+TX(470,240,"White sector: safe water",{z:15})+sub(320,346,"Light List sector bearings are true, from the vessel toward the light"));},
+ horizon(){return SV(`<path d="M20,300 Q320,180 620,300" style="fill:var(--shoal);stroke:var(--ink);stroke-width:2"/><rect x="72" y="140" width="16" height="140" class="s-ink"/><circle cx="80" cy="136" r="7" fill="#ffd34d"/><polygon points="540,276 585,276 578,288 547,288" class="s-ink"/><line x1="562" y1="276" x2="562" y2="262" class="s-st" stroke-width="2"/><line x1="80" y1="136" x2="320" y2="239" class="s-magst" stroke-width="2" stroke-dasharray="6 5"/><line x1="320" y1="239" x2="562" y2="262" class="s-magst" stroke-width="2" stroke-dasharray="6 5"/>`+TX(80,120,"Light, height H",{z:14})+TX(562,250,"Eye, height h",{z:14})+sub(320,266,"Horizon")+TX(320,40,"Distance to horizon (nm) = 1.17 × √(height in feet)",{z:17})+TX(320,68,"Geographic range = 1.17 × (√H + √h)",{z:17,c:"s-mag"})+sub(320,334,"Example: H 64 ft, h 9 ft: 1.17 × (8 + 3) ≈ 12.9 nm"));},
+ currentvector(){return SV(`<line x1="100" y1="280" x2="560" y2="113" class="s-st" stroke-width="2" stroke-dasharray="7 6"/><line x1="100" y1="280" x2="399" y2="171" class="s-magst" stroke-width="6" opacity=".3"/><circle cx="100" cy="280" r="7" class="s-ink"/><circle cx="560" cy="113" r="7" class="s-ink"/>`+AR("M100,280 L195,322","s-st")+AR("M195,322 L399,171")+sub(100,306,"Start")+sub(560,98,"Destination")+TX(470,148,"Intended track",{z:15})+TX(160,346,"Current: set and drift for 1 hour",{z:15})+TX(318,272,"Course to steer (boat speed)",{a:"start",z:15,c:"s-mag"})+TX(240,206,"Speed made good",{z:15,c:"s-mag"}));},
+ relbearing(){let s=`<circle cx="320" cy="180" r="130" class="s-lst" stroke-width="2"/>`;[0,45,90,135,180,225,270,315].forEach(d=>{const[a,b]=ptA(320,180,130,d),[c,e]=ptA(320,180,142,d),[f,g]=ptA(320,180,156,d);s+=`<line x1="${a}" y1="${b}" x2="${c}" y2="${e}" class="s-st" stroke-width="2"/>`+TX(f,+g+5,String(d).padStart(3,"0"),{z:14});});const[tx,ty]=ptA(320,180,100,60);return SV(s+hull(320,180,0,"s-ink",1.4)+`<line x1="320" y1="180" x2="${tx}" y2="${ty}" class="s-magst" stroke-width="2" stroke-dasharray="5 4"/><circle cx="${tx}" cy="${ty}" r="8" class="s-mag"/>`+TX(+tx+14,+ty+5,"Target: 060° relative",{a:"start",z:15,c:"s-mag"})+TX(20,36,"True = heading + relative",{a:"start",z:14})+TX(20,58,"300°T + 090° = 030°T",{a:"start",z:14,c:"s-mag"}));},
+ radar(){const G="#3ddc84",RT=(x,y,t,f)=>`<text x="${x}" y="${y}" font-size="15" font-weight="600" fill="${f}">${t}</text>`;let s=`<rect width="640" height="360" rx="12" fill="#04070B"/><circle cx="320" cy="180" r="160" fill="none" stroke="${G}" stroke-width="2" opacity=".8"/>`;[53,107].forEach(r=>s+=`<circle cx="320" cy="180" r="${r}" fill="none" stroke="${G}" stroke-dasharray="3 5" opacity=".5"/>`);s+=`<line x1="320" y1="180" x2="320" y2="20" stroke="${G}" stroke-width="1.5"/><circle cx="320" cy="180" r="144" fill="none" stroke="#9ad1ff" stroke-width="1.5" stroke-dasharray="8 5"/><line x1="320" y1="180" x2="437" y2="70" stroke="#ff8a80" stroke-width="1.8" stroke-dasharray="6 4"/><line x1="425" y1="81" x2="262" y2="179" stroke="#ffd34d" stroke-width="1.5" stroke-dasharray="4 4" opacity=".8"/><line x1="320" y1="180" x2="304" y2="153" stroke="#fff" stroke-width="2"/>`;[[460,60],[442.5,70.5],[425,81]].forEach(([x,y],i)=>s+=`<circle cx="${x}" cy="${y}" r="${i===2?6:3.5}" fill="#ffd34d" opacity="${.45+.27*i}"/>`);return SV(s+`<circle cx="320" cy="180" r="4" fill="${G}"/>`+RT(328,34,"Heading line",G)+RT(500,100,"EBL: bearing","#ff8a80")+RT(500,124,"VRM: range","#9ad1ff")+RT(500,148,"Target and trail","#ffd34d")+RT(500,172,"CPA","#ffffff"));},
+ fronts(){const B="#2b6cb0",R="#c8312a";let s="";[40,80].forEach(r=>s+=`<ellipse cx="430" cy="140" rx="${r*1.3}" ry="${r}" class="s-lst" stroke-width="1.5"/>`);[40,80].forEach(r=>s+=`<ellipse cx="120" cy="160" rx="${r}" ry="${r*.8}" class="s-lst" stroke-width="1.5"/>`);s+=`<path d="M430,150 L300,320" stroke="${B}" stroke-width="4"/><path d="M430,150 L610,256" stroke="${R}" stroke-width="4"/>`;const L=Math.hypot(130,170),ux=-130/L,uy=170/L,nx=170/L,ny=130/L;for(let i=1;i<=4;i++){const t=i/5,x=430-130*t,y=150+170*t;s+=`<polygon points="${(x-ux*10).toFixed(1)},${(y-uy*10).toFixed(1)} ${(x+ux*10).toFixed(1)},${(y+uy*10).toFixed(1)} ${(x+nx*15).toFixed(1)},${(y+ny*15).toFixed(1)}" fill="${B}"/>`;}const M=Math.hypot(180,106),vx=180/M,vy=106/M;for(let i=1;i<=3;i++){const t=i/4,x=430+180*t,y=150+106*t;s+=`<path d="M${(x-vx*10).toFixed(1)},${(y-vy*10).toFixed(1)} A10,10 0 0 1 ${(x+vx*10).toFixed(1)},${(y+vy*10).toFixed(1)} Z" fill="${R}"/>`;}return SV(s+TX(430,152,"L",{z:34,w:700,c:"s-mag"})+TX(120,172,"H",{z:34,w:700})+`<text x="300" y="345" text-anchor="middle" font-size="16" font-weight="600" fill="${B}">Cold front</text><text x="600" y="290" text-anchor="middle" font-size="16" font-weight="600" fill="${R}">Warm front</text>`+sub(430,40,"Low: counterclockwise, inward")+sub(120,60,"High: clockwise, outward"));},
+ hurricane(){return SV(`<path d="M320,40 A140,140 0 0 1 320,320 Z" class="s-mag" opacity=".2"/><circle cx="320" cy="180" r="140" class="s-st" stroke-width="2"/><circle cx="320" cy="180" r="14" class="s-ink"/>`+AR("M320,350 L320,205","s-st")+AR("M420,180 A100,100 0 0 0 320,80")+AR("M220,180 A100,100 0 0 0 320,280")+TX(472,170,"Dangerous semicircle",{a:"start",z:16,c:"s-mag"})+TX(472,192,"right of the track",{a:"start",z:14,w:500})+TX(168,170,"Navigable semicircle",{a:"end",z:16})+TX(168,192,"left of the track",{a:"end",z:14,w:500})+TX(468,62,"Right front quadrant:",{a:"start",z:14})+TX(468,82,"strongest winds, worst surge",{a:"start",z:13,w:500})+sub(352,340,"Track"));},
+ regmarkers(){const O="#e8762b",body=x=>`<rect x="${x-24}" y="110" width="48" height="130" rx="4" fill="#fff" stroke="#8a9aa6"/><rect x="${x-24}" y="118" width="48" height="10" fill="${O}"/><rect x="${x-24}" y="222" width="48" height="10" fill="${O}"/>`,dia=(x,c)=>`<polygon points="${x},150 ${x+20},175 ${x},200 ${x-20},175" fill="none" stroke="${O}" stroke-width="4"/>`+(c?`<path d="M${x-9},166 L${x+9},184 M${x+9},166 L${x-9},184" stroke="${O}" stroke-width="4"/>`:"");return SV(body(80)+dia(80)+body(200)+dia(200,1)+body(320)+`<circle cx="320" cy="175" r="19" fill="none" stroke="${O}" stroke-width="4"/>`+body(440)+`<rect x="422" y="157" width="36" height="36" fill="none" stroke="${O}" stroke-width="4"/><rect x="536" y="110" width="48" height="130" rx="4" fill="#fff" stroke="#8a9aa6"/><rect x="536" y="160" width="48" height="26" fill="#2b5fa8"/>`+[[80,"Danger"],[200,"Boats keep out"],[320,"Controlled area"],[440,"Information"],[560,"Mooring buoy"]].map(([x,l])=>TX(x,270,l,{z:15})).join("")+sub(320,310,"Uniform State Waterway Marking System: white with orange symbols"));},
+ propwalk(){return SV(TX(320,26,"Right-hand propeller, single screw",{z:16})+`<line x1="320" y1="40" x2="320" y2="300" class="s-lst"/>`+hull(160,160,0,"s-ink",1.6)+AR("M160,110 L160,48","s-st")+AR("M172,205 C198,220 214,212 224,196")+hull(480,160,0,"s-ink",1.6)+AR("M480,205 L480,270","s-st")+AR("M468,205 C442,220 426,212 416,196")+TX(160,318,"Ahead: stern kicks to starboard",{z:15})+sub(160,338,"a slight effect")+TX(480,318,"Astern: stern walks to port",{z:15,c:"s-mag"})+sub(480,338,"a strong effect, so plan for it"));},
+ docklines(){return SV(`<rect x="40" y="60" width="560" height="50" class="s-bg"/><path d="M170,140 L440,140 Q500,165 440,190 L170,190 Z" class="s-surfb"/><line x1="470" y1="150" x2="575" y2="110" class="s-magst" stroke-width="3"/><line x1="180" y1="148" x2="70" y2="110" class="s-magst" stroke-width="3"/><line x1="440" y1="145" x2="290" y2="110" class="s-st" stroke-width="2.5"/><line x1="200" y1="145" x2="350" y2="110" class="s-st" stroke-width="2.5"/><line x1="400" y1="140" x2="400" y2="110" class="s-st" stroke-width="2" stroke-dasharray="4 3"/>`+TX(320,92,"Dock",{z:15,c:"s-mut"})+TX(560,150,"Bow line",{z:15,c:"s-mag"})+TX(85,150,"Stern line",{z:15,c:"s-mag"})+TX(410,130,"Breast",{a:"start",z:12,w:500})+TX(320,172,"Boat, port side to",{z:14,c:"s-mut"})+TX(320,232,"The springs cross. The bow spring leads aft and stops forward surge;",{z:14})+TX(320,254,"the stern spring leads forward and stops the boat moving back.",{z:14}));},
+ williamson(){return SV(`<path d="M320,340 L320,210 C320,170 350,145 385,135 C440,118 445,55 395,38 C345,22 300,55 300,110 L300,300" class="s-magst" stroke-width="3" marker-end="url(#ah)"/><circle cx="334" cy="228" r="8" fill="#ff8a1f"/>`+TX(348,233,"Person in the water",{a:"start",z:13,w:500})+[[332,186,"1"],[437,96,"2"],[292,150,"3"]].map(([x,y,n])=>`<circle cx="${x}" cy="${y}" r="11" class="s-ink"/><text x="${x}" y="${y+5}" text-anchor="middle" font-size="13" font-weight="700" class="s-on" style="fill:var(--paper)">${n}</text>`).join("")+TX(20,60,"1. Rudder hard over toward the person’s side",{a:"start",z:13})+TX(20,82,"2. At 60° off course, hard over the other way",{a:"start",z:13})+TX(20,104,"3. Steady on the reciprocal course",{a:"start",z:13})+sub(500,330,"Best at night or when the person is out of sight"));},
+ towing(){return SV(hull(320,80,0,"s-ink",1.2)+`<path d="M308,108 L320,135 L332,108" class="s-st" stroke-width="2"/><path d="M320,135 C290,190 350,220 320,262" class="s-magst" stroke-width="3"/>`+hull(320,295,0,"s-mut",1.2)+TX(345,70,"Towing boat",{a:"start",z:15})+TX(342,128,"Bridle",{a:"start",z:15})+TX(352,200,"Long towline with a sag",{a:"start",z:15,c:"s-mag"})+TX(345,302,"Disabled boat",{a:"start",z:15})+TX(30,170,"Attach to strong points only",{a:"start",z:13})+TX(30,192,"Keep tow speed low",{a:"start",z:13})+TX(30,214,"Crew clear: a line can snap back",{a:"start",z:13})+TX(30,236,"Keep a knife ready to cut free",{a:"start",z:13}));},
+ anchors(){const S="s-st";return SV(`<line x1="90" y1="70" x2="90" y2="225" class="${S}" stroke-width="5"/><line x1="55" y1="225" x2="125" y2="225" class="${S}" stroke-width="5"/><polygon points="88,225 58,170 78,160" class="s-ink"/><polygon points="92,225 122,170 102,160" class="s-ink"/><circle cx="90" cy="64" r="6" class="${S}" stroke-width="3"/><line x1="250" y1="70" x2="250" y2="200" class="${S}" stroke-width="5"/><polygon points="250,190 212,228 250,252 288,228" class="s-ink"/><circle cx="250" cy="64" r="6" class="${S}" stroke-width="3"/><line x1="400" y1="70" x2="400" y2="205" class="${S}" stroke-width="5"/><path d="M355,200 Q400,262 445,200 Z" class="s-ink"/><circle cx="400" cy="64" r="6" class="${S}" stroke-width="3"/><line x1="550" y1="70" x2="550" y2="235" class="${S}" stroke-width="5"/><path d="M550,235 Q515,235 512,200 M550,235 Q585,235 588,200 M550,235 Q530,222 532,196 M550,235 Q570,222 568,196" class="${S}" stroke-width="4"/><circle cx="550" cy="64" r="6" class="${S}" stroke-width="3"/>`+[[90,"Fluke (Danforth)","Sand and mud"],[250,"Plow","Most bottoms; resets"],[400,"Mushroom","Soft mud moorings"],[550,"Grapnel","Rock and wrecks"]].map(([x,a,b])=>TX(x,292,a,{z:15})+sub(x,314,b)).join(""));},
+ pararulers(){let s=`<circle cx="480" cy="190" r="120" class="s-magst" stroke-width="1.5"/><circle cx="480" cy="190" r="92" class="s-magst" stroke-width="1"/><path d="M472,190 L488,190 M480,182 L480,198" class="s-magst" stroke-width="1.5"/>`;for(let d=0;d<360;d+=10){const[a,b]=ptA(480,190,120,d),[c,e]=ptA(480,190,d%30?113:106,d);s+=`<line x1="${a}" y1="${b}" x2="${c}" y2="${e}" class="s-magst"/>`;if(d%30===0){const[f,g]=ptA(480,190,134,d);s+=TX(f,+g+4,String(d).padStart(3,"0"),{z:11,w:500,c:"s-mag"});}}const[rx,ry]=ptA(480,190,120,58);s+=`<line x1="60" y1="320" x2="272" y2="187" class="s-st" stroke-width="2.5"/><g transform="translate(171 262) rotate(-32)" opacity=".55"><rect x="-140" y="-10" width="280" height="20" rx="3" style="fill:var(--shoal);stroke:var(--ink)"/></g><g transform="translate(485 198) rotate(-32)" opacity=".55"><rect x="-150" y="-10" width="300" height="20" rx="3" style="fill:var(--shoal);stroke:var(--ink)"/></g><line x1="480" y1="190" x2="${rx}" y2="${ry}" class="s-st" stroke-width="2"/><circle cx="${rx}" cy="${ry}" r="6" class="s-mag"/>`;return SV(s+TX(20,30,"1. Line up a ruler edge with the course line",{a:"start",z:14})+TX(20,52,"2. Walk the rulers to the rose’s center",{a:"start",z:14})+TX(20,74,"3. Read the outer ring on your side: 058°T",{a:"start",z:14,c:"s-mag"}));},
+ courselabel(){return SV(`<line x1="70" y1="280" x2="570" y2="80" class="s-st" stroke-width="2.5"/><circle cx="70" cy="280" r="10" class="s-magst" stroke-width="2.5"/><path d="M308,180 A12,12 0 0 1 332,180" class="s-magst" stroke-width="2.5"/><path d="M558,80 A12,12 0 0 1 582,80" class="s-magst" stroke-width="2.5"/><text transform="translate(200 218) rotate(-21.8)" text-anchor="middle" font-size="17" font-weight="600" class="s-mag">C 068 T</text><text transform="translate(212 250) rotate(-21.8)" text-anchor="middle" font-size="17" font-weight="600" class="s-mag">S 12</text>`+TX(70,308,"0800 FIX",{z:14})+TX(342,206,"0900 DR",{a:"start",z:14})+TX(570,112,"1000 DR",{z:14})+sub(320,340,"Course above the line, speed below; time beside each position"));},
+ symbols(){return SV([[90,"Fix","circle"],[240,"Dead reckoning (DR)","half"],[400,"Estimated position (EP)","square"],[550,"Electronic fix","tri"]].map(([x,l,k])=>{const g=k==="circle"?`<circle cx="${x}" cy="150" r="16" class="s-magst" stroke-width="3"/>`:k==="half"?`<path d="M${x-16},156 A16,16 0 0 1 ${x+16},156" class="s-magst" stroke-width="3"/><line x1="${x-30}" y1="156" x2="${x+30}" y2="156" class="s-st" stroke-width="2"/>`:k==="square"?`<rect x="${x-15}" y="135" width="30" height="30" class="s-magst" stroke-width="3"/>`:`<polygon points="${x},132 ${x+18},166 ${x-18},166" class="s-magst" stroke-width="3"/>`;return g+`<circle cx="${x}" cy="${k==="half"?156:150}" r="2.5" class="s-mag"/>`+TX(x,210,l,{z:15});}).join("")+sub(320,262,"Write the time beside every position, such as 1030 FIX or 1100 DR"));},
+ cockedhat(){const L=(a,b,c,d)=>`<line x1="${a}" y1="${b}" x2="${c}" y2="${d}" class="s-st" stroke-width="2"/>`;return SV(`<polygon points="100,40 112,72 88,72" class="s-ink"/><circle cx="560" cy="60" r="11" class="s-ink"/><rect x="309" y="320" width="22" height="22" class="s-ink"/>`+L(100,60,380,219)+L(560,60,290,214)+L(320,330,346,96)+`<circle cx="334" cy="191" r="26" class="s-magst" stroke-width="2" stroke-dasharray="5 4"/>`+sub(100,92,"Light")+sub(560,92,"Tower")+TX(296,340,"Tank",{a:"end",z:13,w:500,c:"s-mut"})+TX(380,256,"Bearings rarely meet exactly.",{a:"start",z:14})+TX(380,278,"Plot the fix mid-triangle.",{a:"start",z:14})+TX(380,300,"A big triangle means a mistake.",{a:"start",z:14,c:"s-mag"}));},
+ runningfix(){return SV(`<line x1="80" y1="320" x2="580" y2="150" class="s-st" stroke-width="1.5" stroke-dasharray="7 6"/><polygon points="430,42 442,74 418,74" class="s-ink"/><line x1="430" y1="60" x2="130" y2="331" class="s-st" stroke-width="2" opacity=".5"/><line x1="505" y1="105" x2="318" y2="275" class="s-magst" stroke-width="2.5" stroke-dasharray="8 5"/><line x1="430" y1="60" x2="365" y2="265" class="s-st" stroke-width="2"/><circle cx="380" cy="218" r="10" class="s-magst" stroke-width="2.5"/>`+AR("M230,241 L420,176")+TX(455,64,"Light",{a:"start",z:14})+TX(150,348,"0900 LOP",{z:14})+TX(372,288,"0930 LOP",{a:"start",z:14})+TX(512,112,"0900 LOP advanced",{a:"start",z:13,c:"s-mag"})+TX(396,226,"0930 R FIX",{a:"start",z:14})+TX(250,206,"Advance by the run",{a:"end",z:13,c:"s-mag"})+TX(575,178,"Your course",{a:"end",z:13,w:500})+TX(20,30,"Advance the earlier LOP parallel to itself,",{a:"start",z:14})+TX(20,52,"by the distance and direction you ran.",{a:"start",z:14}));},
+ doubling(){return SV(AR("M200,345 L200,25","s-st")+`<polygon points="380,124 392,156 368,156" class="s-ink"/><line x1="200" y1="320" x2="380" y2="140" class="s-magst" stroke-width="2" stroke-dasharray="6 5"/><line x1="200" y1="140" x2="380" y2="140" class="s-magst" stroke-width="2" stroke-dasharray="6 5"/><circle cx="200" cy="320" r="5" class="s-ink"/><circle cx="200" cy="140" r="5" class="s-ink"/><line x1="178" y1="140" x2="178" y2="320" class="s-st" stroke-width="1.5"/>`+TX(212,312,"First bearing: 45° on the bow",{a:"start",z:14})+TX(212,128,"Second: abeam",{a:"start",z:14})+TX(170,235,"Run",{a:"end",z:14})+TX(290,162,"Distance off = run",{z:14,c:"s-mag"})+sub(400,118,"Light")+TX(420,220,"Doubling the angle:",{a:"start",z:14})+TX(420,242,"30° → 60°: off at 2nd = run",{a:"start",z:13})+TX(420,268,"22.5° → 45°:",{a:"start",z:14})+TX(420,290,"off when abeam ≈ 0.7 × run",{a:"start",z:13}));}
+};
+
+const words=l=>l.slides.reduce((t,s)=>t+s.say.split(/\s+/).length,0);
+const mins=l=>Math.max(1,Math.round(words(l)/140));
+
+/* ---------- Lesson list and player ---------- */
+const synth=("speechSynthesis" in window)?window.speechSynthesis:null;
+let PL={les:null,i:0,playing:false,sent:0,tok:0,rate:store.rate||1,voice:null,u:null};
+function stopSpeech(){PL.playing=false;PL.tok++;if(synth)try{synth.cancel();}catch(e){}if(PL.audio)try{PL.audio.pause();}catch(e){}}
+function lessons(){
+  const done=store.done||[],total=LESSONS.reduce((t,l)=>t+mins(l),0);
+  main.innerHTML=`<section><h1>Lessons</h1><p class="lede">${LESSONS.length} narrated lessons with slides, about ${total} minutes in all. Press play and each lesson reads itself aloud in your device’s built-in voice, moving through the slides as it goes. You can also read along or tap any sentence to jump to it.</p>
+  ${Object.entries(MODS).map(([m,info])=>{const ls=LESSONS.filter(l=>l.m===m);return `<h2 class="mod-h">${info.name}</h2><ol class="les-list">${ls.map(l=>`<li><a href="#lesson-${l.id}"><span class="lt">${l.t}</span><span class="lm">${l.slides.length} slides, about ${mins(l)} min${BANK.some(x=>x.tag===l.id)?`, ${BANK.filter(x=>x.tag===l.id).length}-question check`:""}${done.includes(l.id)?`. <span class="fin">Finished</span>`:""}</span></a></li>`).join("")}</ol>`;}).join("")}</section>`;
+}
+function visual(v){
+  if(v.k==="points")return `<ul class="vpoints">${v.items.map(i=>`<li class="rv-item">${i}</li>`).join("")}</ul>`;
+  if(v.k==="callout")return `<div class="callout"><p class="ctag">${v.tag}</p><ul>${v.lines.map(l=>`<li class="rv-item">${l}</li>`).join("")}</ul></div>`;
+  if(v.k==="script")return `<ol class="vscript">${v.lines.map(i=>`<li class="rv-item">${i}</li>`).join("")}</ol>`;
+  if(v.k==="table")return `<div class="vtable-wrap"><table class="vtable"><thead><tr>${v.head.map(h=>`<th>${h}</th>`).join("")}</tr></thead><tbody>${v.rows.map(r=>`<tr class="rv-item">${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  if(v.k==="dg")return DG[v.f]();
+  if(v.k==="formula")return `<div class="vformula"><p class="big">${v.f}</p>${v.rows.map(r=>`<p>${r}</p>`).join("")}<p class="ex">${v.ex}</p></div>`;
+  const fig=(art,l,day)=>`<figure class="rv-item"><div class="stage${day?" day":""}">${art}</div><figcaption>${l}</figcaption></figure>`;
+  if(v.k==="lights")return `<div class="vrow">${v.items.map(([d,l])=>fig(drawLights({d}),l)).join("")}</div>`;
+  if(v.k==="shapes")return `<div class="vrow">${v.items.map(([s,l])=>fig(drawShapes({s}),l,true)).join("")}</div>`;
+  if(v.k==="sounds")return `<div class="vrow">${v.items.map(([p,l])=>fig(drawSound({p}),l)).join("")}</div>`;
+  return "";
+}
+function splitS(t){return (t.match(/[^.!?]+(?:[.!?]+[”’"]?|$)/g)||[t]).map(s=>s.trim()).filter(Boolean);}
+function player(id){
+  const les=LESSONS.find(l=>l.id===id);PL.les=les;PL.i=(store.pos&&store.pos[id])||0;if(PL.i>=les.slides.length)PL.i=0;PL.sent=0;PL.playing=false;PL.silent=!!store.silent||!synth;PL.triedDefault=false;
+  const n=LESSONS.filter(l=>l.m===les.m).indexOf(les)+1;
+  main.innerHTML=`<section class="player"><a class="back-link" href="#lessons">All lessons</a><p class="tag" style="margin-top:.8rem">${MODS[les.m].name}, lesson ${n}</p><h1 class="les-title">${les.t}</h1>
+  <div id="slide"></div>
+  <div class="controls"><button class="btn ghost ctl" id="pv">Previous</button><button class="btn ctl" id="pp">Play</button><button class="btn ghost ctl" id="nx">Next</button><span class="count" id="cnt"></span></div>
+  <div class="opts-row" id="vopts"><label>Speed<select id="rate">${[0.8,0.9,1,1.1,1.25,1.5].map(r=>`<option value="${r}" ${r==PL.rate?"selected":""}>${r}×</option>`).join("")}</select></label><label>Voice<select id="voice"><option value="">Device default</option></select></label><label>Mode<select id="mode"><option value="voice">Read aloud</option><option value="silent" ${PL.silent?"selected":""}>Silent, timed</option></select></label></div>
+  <p class="muted" id="nospeech" hidden>This browser can’t read aloud. Read the transcript below instead.</p>
+  <h2 class="tr-h">Transcript</h2><div id="tr" class="transcript"></div><div id="endbox"></div></section>`;
+  if(!synth){notice("This browser can’t read aloud, so Play steps through the slides with the transcript highlighted at reading pace.");document.getElementById("voice").disabled=true;document.getElementById("mode").disabled=true;}
+  document.getElementById("pp").onclick=()=>{if(PL.playing){stopSpeech();setPP();}else{if(PL.sent>=splitS(cur().say).length)PL.sent=0;PL.playing=true;speak();setPP();}};
+  document.getElementById("pv").onclick=()=>go(-1);
+  document.getElementById("nx").onclick=()=>go(1);
+  document.getElementById("rate").onchange=e=>{PL.rate=+e.target.value;store.rate=PL.rate;save();if(PL.playing)speak();};
+  document.getElementById("voice").onchange=e=>{const vs=synth?synth.getVoices():[];PL.voice=vs.find(v=>v.name===e.target.value)||null;store.voice=e.target.value;PL.triedDefault=false;document.getElementById("nospeech").hidden=true;save();if(PL.playing)speak();};
+  document.getElementById("mode").onchange=e=>{PL.silent=e.target.value==="silent";store.silent=PL.silent;document.getElementById("nospeech").hidden=true;save();if(PL.playing)speak();};
+  fillVoices();renderSlide();
+}
+const cur=()=>PL.les.slides[PL.i];
+function setPP(){const b=document.getElementById("pp");if(b)b.textContent=PL.playing?"Pause":"Play";}
+function go(d){const was=PL.playing;PL.tok++;if(synth)synth.cancel();if(PL.audio)try{PL.audio.pause();}catch(e){}PL.i=Math.min(PL.les.slides.length-1,Math.max(0,PL.i+d));PL.sent=0;renderSlide();if(was){PL.playing=true;speak();}}
+function renderSlide(){
+  const les=PL.les,s=cur(),last=PL.i===les.slides.length-1;
+  document.getElementById("slide").innerHTML=`<div class="slide"><h2>${s.h}</h2><div class="visual">${visual(s.v)}</div></div>`;reveal(PL.playing?PL.sent-1:999);
+  document.getElementById("cnt").textContent=`Slide ${PL.i+1} of ${les.slides.length}`;
+  document.getElementById("pv").disabled=PL.i===0;document.getElementById("nx").disabled=last;
+  document.getElementById("tr").innerHTML="<p>"+splitS(s.say).map((t,k)=>`<span class="snt" data-k="${k}">${strip(t)}</span>`).join(" ")+"</p>";
+  document.querySelectorAll(".snt").forEach(sp=>sp.onclick=()=>{if(!synth)return;PL.sent=+sp.dataset.k;PL.playing=true;speak();setPP();});
+  store.pos=store.pos||{};store.pos[les.id]=PL.i;
+  const eb=document.getElementById("endbox");
+  if(last){store.done=store.done||[];if(!store.done.includes(les.id))store.done.push(les.id);
+    const nxt=LESSONS[LESSONS.indexOf(les)+1],nChk=BANK.filter(x=>x.tag===les.id).length;
+    eb.innerHTML=`<div class="endbox"><h2>Lesson complete</h2>${nChk?`<p>Check what you just learned with ${nChk} questions from this lesson.</p><div class="row"><button class="btn" id="lc">Take the lesson check</button><button class="btn ghost" id="qz">Quiz the whole module</button>`:`<p>Lock it in with a quiz on ${MODS[les.m].name}.</p><div class="row"><button class="btn" id="qz">Quiz this module</button>`}${nxt?`<a class="btn ghost" href="#lesson-${nxt.id}">Next lesson: ${nxt.t}</a>`:`<a class="btn ghost" href="#test">Take a practice test</a>`}</div></div>`;
+    document.getElementById("qz").onclick=()=>{quizMod=les.m;quizAuto=true;location.hash="quiz";};
+    const lc=document.getElementById("lc");if(lc)lc.onclick=()=>{stopSpeech();if(store.sess&&store.sess.key==="check-"+les.id){store.sess=null;save();}location.hash="check-"+les.id;};
+  }else eb.innerHTML="";
+  save();hl(-1);
+}
+function hl(k){document.querySelectorAll(".snt").forEach(sp=>sp.classList.toggle("on",+sp.dataset.k===k));}
+function bestVoice(vs){const loc=vs.filter(v=>v.localService),pool=loc.length?loc:vs;return pool.find(v=>/en[-_]US/i.test(v.lang)&&/natural|neural|enhanced|premium/i.test(v.name))||pool.find(v=>/Samantha|Aria|Jenny|Guy|Ava|Allison|Zira|David|Mark/i.test(v.name))||pool.find(v=>/en[-_]US/i.test(v.lang))||pool[0];}
+function fillVoices(){
+  const sel=document.getElementById("voice");if(!sel||!synth)return;
+  const vs=synth.getVoices().filter(v=>/^en/i.test(v.lang));if(!vs.length)return;
+  const pick=store.voice===""?null:((store.voice&&vs.find(v=>v.name===store.voice))||bestVoice(vs));PL.voice=pick;
+  sel.innerHTML=`<option value="" ${pick?"":"selected"}>Device default</option>`+vs.map(v=>`<option value="${v.name.replace(/"/g,"&quot;")}" ${v===pick?"selected":""}>${v.name}${v.localService?"":" (online)"}</option>`).join("");
+}
+if(synth)synth.onvoiceschanged=fillVoices;
+function notice(t){const n=document.getElementById("nospeech");if(n){n.textContent=t;n.hidden=false;}}
+function speechFailed(why){
+  if(PL.voice&&!PL.triedDefault){
+    PL.triedDefault=true;PL.voice=null;store.voice="";save();
+    const sel=document.getElementById("voice");if(sel)sel.value="";
+    notice("That voice didn’t play here, so I switched to your device’s default voice.");
+    speak();return;
+  }
+  PL.playing=false;setPP();
+  notice(`Audio didn’t play in this browser (${why}). Try another voice, or set Mode to “Silent, timed” to step through the slides with the transcript highlighted at reading pace.`);
+}
+const AUDIO_BASE=""; // Set to "audio/" once recorded lecture MP3s named like rules-01-1.mp3 sit in an audio folder beside index.html.
+function strip(t){return t.replace(/\s*\[(\+|pause)\]\s*/g," ").replace(/\s{2,}/g," ").trim();}
+function clean(t){return strip(t).replace(/°/g," degrees").replace(/×/g," times ").replace(/÷/g," divided by ");}
+function reveal(k){const items=[...document.querySelectorAll("#slide .rv-item")];if(!PL.les)return;const say=cur().say;if(!/\[\+\]/.test(say)){items.forEach(el=>el.classList.remove("dim"));return;}const ss=splitS(say);let n=0;if(k>=ss.length)n=items.length;else for(let i=0;i<=k&&i<ss.length;i++)n+=(ss[i].match(/\[\+\]/g)||[]).length;items.forEach((el,i)=>el.classList.toggle("dim",i>=n));}
+function playFile(tok,ss){const a=PL.audio||(PL.audio=new Audio());const words=ss.map(s=>strip(s).split(/\s+/).length),tot=words.reduce((x,y)=>x+y,0);a.src=`${AUDIO_BASE}${PL.les.id}-${PL.i+1}.mp3`;a.playbackRate=PL.rate;
+ a.ontimeupdate=()=>{if(tok!==PL.tok||!a.duration)return;const f=a.currentTime/a.duration*tot;let acc=0,k=0;for(;k<ss.length-1;k++){acc+=words[k];if(acc>f)break;}if(k!==PL.sent){PL.sent=k;hl(k);reveal(k);}};
+ a.onended=()=>{if(tok!==PL.tok)return;hl(-1);reveal(999);if(PL.i<PL.les.slides.length-1){setTimeout(()=>{if(tok!==PL.tok||!PL.playing)return;PL.i++;PL.sent=0;renderSlide();speak();},900);}else{PL.playing=false;setPP();}};
+ const fallback=()=>{if(tok!==PL.tok)return;PL.noFiles=true;speak();};a.onerror=fallback;PL.sent=0;hl(0);reveal(0);a.play().catch(fallback);}
+function speak(){
+  if(!PL.les)return;const tok=++PL.tok;if(synth)synth.cancel();if(PL.audio)try{PL.audio.pause();}catch(e){}
+  const ss=splitS(cur().say);
+  if(AUDIO_BASE&&!PL.silent&&!PL.noFiles){playFile(tok,ss);return;}
+  const next=()=>{if(tok!==PL.tok)return;PL.sent++;step();};
+  const step=()=>{
+    if(tok!==PL.tok||!PL.playing)return;
+    if(PL.sent>=ss.length){hl(-1);reveal(999);
+      if(PL.i<PL.les.slides.length-1){setTimeout(()=>{if(tok!==PL.tok||!PL.playing)return;PL.i++;PL.sent=0;renderSlide();speak();},900);}
+      else{PL.playing=false;setPP();}
+      return;}
+    hl(PL.sent);reveal(PL.sent);
+    if(/\[pause\]/.test(ss[PL.sent])&&PL.pz!==PL.sent+":"+tok){PL.pz=PL.sent+":"+tok;setTimeout(()=>{if(tok===PL.tok)step();},750);return;}
+    const text=clean(ss[PL.sent]);
+    if(PL.silent||!synth){setTimeout(next,Math.max(1500,text.split(/\s+/).length*60000/(160*PL.rate)));return;}
+    const u=new SpeechSynthesisUtterance(text);
+    u.rate=PL.rate;if(PL.voice){u.voice=PL.voice;u.lang=PL.voice.lang;}else u.lang="en-US";
+    let started=false,wd=null;
+    const fail=why=>{if(tok!==PL.tok)return;clearTimeout(wd);PL.tok++;try{synth.cancel();}catch(e){}speechFailed(why);};
+    wd=setTimeout(()=>{if(!started)fail("no sound started");},6000);
+    u.onstart=()=>{started=true;clearTimeout(wd);document.getElementById("nospeech").hidden=true;};
+    u.onend=()=>{if(tok!==PL.tok)return;clearTimeout(wd);if(!started)return fail("voice ended without speaking");next();};
+    u.onerror=e=>{if(tok!==PL.tok)return;if(e.error==="interrupted"||e.error==="canceled")return;fail(e.error||"speech error");};
+    PL.u=u;try{synth.resume();}catch(e){}synth.speak(u);
+  };
+  setTimeout(step,80);
+}
+document.addEventListener("keydown",e=>{
+  if(!document.querySelector(".player")||/INPUT|SELECT|TEXTAREA/.test(e.target.tagName))return;
+  if(e.key==="ArrowRight"){go(1);}else if(e.key==="ArrowLeft"){go(-1);}
+  else if(e.key===" "&&e.target===document.body){e.preventDefault();document.getElementById("pp").click();}
+});
+
+updateBadge();
+route();
+</script>
+</body>
+</html>
