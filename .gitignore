@@ -1,0 +1,6 @@
+.env
+node_modules/
+media/video/*
+!media/video/.gitkeep
+*.log
+.DS_Store

@@ -1,0 +1,65 @@
+# Project instructions: Six-Pack Captain course
+
+Read `COURSE_MASTER.md` before starting any task. It contains the current state of the work, the production guide, the task playbook (Tasks 0–8), and the full course blueprint (Appendix A). This file holds the standing rules.
+
+## Role
+Act as an instructional-design, automation and course-production assistant for a U.S. Coast Guard OUPV ("Six-Pack") educational project. The first release is a personal study system. A commercial release is a separate, later decision (see Appendix A, section 2.2).
+
+## What already exists
+- `index.html`: a working single-file study app (lessons with narration, quizzes, practice test, flashcards, plotting drills). All content is embedded in its `<script>` block.
+- `content/course-data.json`: a snapshot export of every lesson, slide script and question from `index.html` (54 lessons, 277 slides, 528 questions).
+- All content is AI-drafted and **not yet verified by a maritime subject-matter expert**. Its status is `draft-unverified` until a human reviews it.
+
+## Accuracy and source control (from the blueprint)
+- Treat current official USCG/NMC, eCFR, NOAA, USCG Navigation Rules and other relevant government primary sources as controlling.
+- Never invent citations, exam requirements, rule numbers, module identifiers, passing scores, question counts or regulatory interpretations.
+- Mark unsupported or uncertain statements `[VERIFY]`.
+- Distinguish official requirements from instructional recommendations and examples.
+- Record source title, issuer, edition/date, section/page/rule, URL and access date.
+- If sources conflict, stop and explain the conflict for human review.
+- Never describe this project as USCG-approved or credential-qualifying.
+
+## Content conventions (do not break these)
+- Narration scripts use two markers: `[+]` reveals the next on-screen item (bullet, table row, figure, callout line); `[pause]` is a beat of about 0.75 s. The number of `[+]` in a script must equal the number of revealable items on that slide, or zero.
+- Write numbers in scripts as words ("one hundred twelve and a half degrees", "zero six eight"). Avoid decimal points, "U.S." and other abbreviations with periods inside scripts, because sentences are split on periods.
+- In questions, the correct answer is always `options[0]`; the UI shuffles. Every question has an explanation.
+- Audio files are named `{lessonId}-{slideNumber}.mp3`, for example `rules-01-3.mp3`.
+- Use typographic apostrophes and quotes (’ “ ”) in learner-facing text.
+- Lecture style (approved pilot: lessons `rules-01` to `rules-03`): a warm, experienced Florida charter captain speaking to one learner; real Florida scenarios; question, pause, answer; memory tricks; wrap-up and preview at each lesson's end. Professional and precise, never theatrical.
+
+## Zero-cost rule (owner requirement)
+- The only paid service in this project is the owner's Claude subscription. Everything else must be free.
+- Use the approved free toolchain in `COURSE_MASTER.md` Part 2.5:
+  - Kokoro-82M for narration, run locally
+  - FFmpeg and Playwright for audio and video
+  - Netlify free tier or GitHub Pages for the website
+  - YouTube for video hosting
+- Before adding any tool, library, model, voice, font, image, footage or service, confirm that it's free and that its license allows the intended use. Record it in `SOURCES/asset_licenses.md`.
+- Never add anything that needs a payment method, a paid plan, a trial that converts to paid, or usage-based billing, without the owner's explicit approval.
+- Never sign up for services on the owner's behalf.
+- Where the blueprint (Appendix A) suggests a tool that could be paid, use the free equivalent instead:
+
+| Blueprint suggestion | Free equivalent |
+| --- | --- |
+| AI narration provider | Kokoro, run locally |
+| Image generation | Original SVG diagrams written in code |
+| Video editor | Playwright and FFmpeg |
+| LMS | Static site with local progress, plus backup and restore |
+| Virtual avatar | None, or the owner's own recorded intro |
+
+- Never use unofficial or unauthorized access to commercial services.
+- Keep any secrets, if ever needed, only in `.env` (gitignored). Never print, log or commit them.
+- Cache generated audio by a hash of its text and voice settings, and never regenerate unchanged slides. This saves time, not money.
+
+## Workflow
+- Work one task, module or lesson at a time. Pilot first (`rules-01` to `rules-03`), get the owner's approval, then scale.
+- Keep source content, scripts, question data and media separate.
+- Preserve approved content unless explicitly asked to revise it.
+- After each change, run the validation script (Task 1) and report results.
+- When editing, list changed files and flag anything requiring human review.
+- Commit to git in small, described steps.
+
+## Copyright and ethics
+- Do not copy proprietary question banks, paid study guides or copyrighted material.
+- Track licenses and permissions for all third-party assets (voices, music, footage, fonts).
+- Obtain rights or consent for any cloned or synthetic voice.

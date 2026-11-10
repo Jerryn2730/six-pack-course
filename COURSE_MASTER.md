@@ -1,0 +1,1188 @@
+# Six-Pack Captain Course: Master Document
+
+**Contents:** Part 1, current work product. Part 2, production guide. Part 3, Claude Code task playbook. Part 4, decisions for the owner. Appendix A, the course blueprint (v1.0, November 10, 2026), reproduced in full.
+
+**Budget rule: zero cost.** The only paid service in this project is the owner's Claude subscription. Every tool, voice, host and library must be free to use, and its license must allow the intended use. See Part 2.5 for the approved toolchain. Anything that would cost money is out of scope unless the owner explicitly approves it.
+
+**How to use this file:** put it in the project folder with `CLAUDE.md`, `index.html` and `content/course-data.json`, open the folder in Claude Code, and follow the prompts in Part 3 in order. Claude Code reads `CLAUDE.md` automatically. Point it to this file at the start of each task.
+
+---
+
+# Part 1. Current work product
+
+## 1.1 What exists
+
+| Item | Description | Status |
+| --- | --- | --- |
+| `index.html` | Single-file study app, about 460 KB, no build step, no external dependencies except Google Fonts | Working; tested |
+| `content/course-data.json` | Snapshot of every lesson, slide script and question exported from the app | Export of 10 Nov 2026 |
+| Lessons | 54 lessons, 277 slides, about 3 hours 10 minutes of narration | AI-drafted, unverified |
+| Lecture-style lessons | `rules-01`, `rules-02`, `rules-03` (21 slides) | Pilot, awaiting owner review |
+| Question bank | 528 questions; 405 are tagged to a lesson as "lesson checks" | AI-drafted, unverified |
+| Narration text | About 27,300 words, about 158,000 characters | Drives local generation time (no cost) |
+
+| Module | Lessons | Questions |
+| --- | --- | --- |
+| Rules of the Road (`R`) | 15 (`rules-01` to `rules-15`) | 168 |
+| Navigation General (`N`) | 14 (`nav-01` to `nav-14`) | 138 |
+| Deck General & Safety (`D`) | 15 (`deck-01` to `deck-15`) | 144 |
+| Chart Plotting (`P`) | 10 (`plot-01` to `plot-10`) | 78 |
+
+## 1.2 App features
+- **Lessons:** slide player with diagrams, a highlighted transcript, browser speech narration, speed and voice controls, and a "Silent, timed" mode. Slides build progressively, revealing items as the narration reaches each `[+]` marker.
+- **Recorded audio support:** set `const AUDIO_BASE="audio/";` and place MP3s named `{lessonId}-{n}.mp3` in `audio/`. The app plays them, syncs the builds and transcript by word proportion, and falls back to browser speech for missing files.
+- **Lesson checks:** 7–10 questions after each lesson, resumable after a page reload.
+- **Quiz, practice test, misses:** module quizzes; a timed 25-question practice test (10 Rules, 6 Navigation, 5 Deck, 4 Plotting, 45 minutes); missed-question review.
+- **Flashcards:** drawn vessel lights, day shapes and sound signals.
+- **Plotting drills:** 10 generated problem types with worked solutions: compass to true, true to compass, speed-time-distance, ETA, fuel, relative bearings, set and drift, variation update, light ranges, bow angles.
+- **Storage:** all progress is in `localStorage` under the key `oupv-v1`, per browser. There are no accounts yet.
+
+## 1.3 How content is stored inside `index.html`
+- `BANK`: questions created with `q(module, text, options, explanation, tag)`. The correct option is always first. Helper functions `lq`, `nq`, `dq` and `pq` add questions for each module with a lesson tag.
+- `RULES`, `NAV`, `DECK`, `PLOT`: lesson arrays. Each lesson is `{id, m, t, slides:[{h, v, say}]}`.
+- `LECT`: lecture-style replacement slides, keyed by lesson id. Each slide also has `vid`, a suggested video shot. `LECT` overrides the matching lesson's slides.
+- Visual types (`v.k`): `points`, `script`, `table`, `callout`, `formula`, `lights`, `shapes`, `sounds`, `dg` (a named diagram function in `DG`, drawn as inline SVG).
+- Lesson routes use the URL hash: `#lesson-rules-01`, `#check-rules-01`, `#quiz`, `#test`, `#cards`, `#drills`, `#misses`.
+
+## 1.4 Known issues and corrections already made
+- Corrected: voluntary sharing of a trip's actual expenses is **not** "consideration" under 46 U.S.C. 2101, so it doesn't create passengers for hire. Earlier drafts were wrong.
+- Several regulatory details were written from model knowledge and must be verified against primary sources before release, including: life jacket requirements for uninspected passenger vessels; fire extinguisher tables; marine casualty thresholds; serious marine incident testing timelines; Western Rivers lighting exceptions; Light List and Coast Pilot volume coverage; Florida variation ranges; small craft advisory thresholds; and current NMC exam structure, question counts and passing scores. Treat every lesson as `[VERIFY]` until reviewed (Appendix A, sections 7 and 13).
+- The exam module identifiers (Q100, Q170, Q171, Q172) come from the blueprint and must be confirmed against the current NMC guide.
+
+---
+
+# Part 2. Production guide
+
+## 2.1 Instructor voice and script style
+- Persona: an experienced Florida charter captain teaching a small class. Warm, calm, clear and precise. Speaks to one learner as "you." Not theatrical (Appendix A, section 5).
+- Plain spoken sentences, one idea per sentence. Define terms on first use.
+- A real-world scenario in most lessons (Tampa Bay, Port Everglades, the Keys, the Intracoastal).
+- Guided prediction: ask a question, `[pause]`, then answer it.
+- A memory trick for anything memorized ("broken or busy?").
+- End each lesson with a wrap-up and a preview of the next.
+- Narration must describe what changes on screen (blueprint section 5, item 4).
+
+## 2.2 Script notation
+
+| Mark | Meaning | In the app | For a voice service |
+| --- | --- | --- | --- |
+| `[+]` | Reveal the next on-screen item | Triggers a build | Remove |
+| `[pause]` | Beat of about 0.75 s | Delays the next sentence | Convert to the service's pause syntax, or a paragraph break |
+
+## 2.3 Voice direction
+- Pace 145–155 words per minute, slower on numbers and rule numbers.
+- Friendly on explanations; slower and more serious on safety (Rule 2, fire, distress, man overboard).
+- About one second of silence between slides; the video assembly adds this, not the audio files.
+- Stress the contrasting word in pairs: "broken or busy," "Inland or International," "may" versus "shall."
+
+## 2.4 Pronunciation dictionary (starting list)
+
+| Term | Say it |
+| --- | --- |
+| COLREGS | COLE-regs |
+| Egmont Key | EGG-mont |
+| Atchafalaya | uh-CHAF-uh-LIE-uh |
+| Boca Grande | BOH-kuh GRAN-dee |
+| EPIRB | EE-perb |
+| AIS, MMSI, DSC, VHF, GPS | Spell the letters |
+| ARPA, MARPA | AR-puh, MAR-puh |
+| Securité | say-CURE-ee-tay |
+| Vibrio | VIB-ree-oh |
+| 1210-Tr | twelve-ten T R |
+
+Maintain this list in `QA/pronunciation_dictionary.md` and apply it automatically before generating audio (Task 2).
+
+## 2.5 Zero-cost toolchain
+
+| Job | Tool | Cost | License note |
+| --- | --- | --- | --- |
+| Narration voice | **Kokoro-82M**, run locally (Python `kokoro` package, or `kokoro-js` in Node) | Free | Apache 2.0 weights. Confirm the license of the specific voice and any dependency before publishing. |
+| Fallback voice | The browser's built-in speech (already in the app) | Free | Device voices; fine for personal study |
+| Audio processing | FFmpeg | Free | Open source |
+| Captions and timing | Generated from the scripts while synthesizing sentence by sentence (no alignment service needed) | Free | n/a |
+| Slide capture | Playwright | Free | Open source |
+| Video assembly | FFmpeg | Free | Open source |
+| Website hosting | Netlify free tier, or GitHub Pages | Free | Stay within free-tier limits; no paid add-ons |
+| Video hosting | YouTube (unlisted or public) | Free | Large MP4s stay out of git |
+| Version control | git, optionally GitHub (free) | Free | Never commit secrets |
+| Progress across devices | Export and import of a progress file (Task 5) | Free | Replaces paid accounts and databases |
+
+**Not used, because they cost money:** ElevenLabs and other paid voice services, Synthesia and HeyGen presenters, paid stock footage or music, paid course platforms (Teachable, Thinkific), hosted Moodle, paid database or authentication tiers, and paid domains. Stripe isn't needed while the course is free.
+
+**Avoid as well:** free tools whose licenses forbid the intended use. For example, some open voice models restrict commercial use. Unofficial access to commercial voice services is also out.
+
+---
+
+# Part 3. Claude Code task playbook
+
+Run these tasks in order. Each has a prompt to paste into Claude Code and acceptance criteria. Don't start a task until the previous one is accepted.
+
+## Task 0. Set up the project
+
+**Prompt:**
+> Read CLAUDE.md and COURSE_MASTER.md. Set up this folder as a git project using the structure in Appendix A section 10, adapted for what already exists. Keep index.html working exactly as it is. Move it to `site/index.html`. Add a Node-based tooling setup (package.json) with scripts for validate, audio, video and deploy, but leave them as stubs for now. Add .gitignore and .env.example. Commit.
+
+**Acceptance:**
+- `site/index.html` opens in a browser and works exactly as before.
+- Folders exist: `content/`, `scripts/`, `site/audio/`, `media/narration/`, `media/video/`, `media/captions/`, `QA/`, `SOURCES/`.
+- `.env` is gitignored. No paid API keys are needed; `.env.example` only holds local settings (voice name, speed).
+- First git commit made.
+
+**Single source of truth.** Decide this with the owner in Task 0. Recommended: make `content/course-data.json` (or one JSON file per lesson in `content/lessons/`) the source of truth, and change `site/index.html` to load content from it at runtime or at build time. Until then, `index.html` is the source and `course-data.json` is a snapshot; regenerate the snapshot with a script (`npm run export`) that loads the app in jsdom or Playwright and writes the JSON.
+
+## Task 1. Validation script
+
+**Prompt:**
+> Write `scripts/validate.js` (npm run validate) that checks content/course-data.json and reports problems.
+
+**Checks:**
+- Duplicate lesson, slide or question IDs.
+- For each slide, the count of `[+]` markers equals the number of revealable items (points, script lines, table rows, callout lines, lights/shapes/sounds figures), or is zero.
+- Scripts contain no digits with decimal points, no "U.S.", and no unbalanced brackets.
+- Every question has 2–4 options, a non-empty explanation, a valid module, and a lesson tag that exists.
+- No two options in a question are identical.
+- Report each lesson's status (`draft-unverified`, `fact-checked`, `approved`) and every `[VERIFY]` flag.
+
+**Acceptance:** runs in under 10 seconds and prints a clear summary; current data passes or the report lists exact fixes.
+
+## Task 2. Automated narration with a free local voice (Kokoro)
+
+**Prompt:**
+> Read the current Kokoro documentation (the hexgrad/kokoro repository and the Kokoro-82M model card) first. Then write `scripts/narrate` (npm run audio) that generates one MP3 per slide from course-data.json using Kokoro running locally, following COURSE_MASTER.md Part 2 and this task. Nothing may cost money. Install what's needed, test on one slide, and play me a sample before doing the pilot.
+
+**Requirements:**
+- **Engine:** Kokoro-82M on the owner's computer (CPU is fine). Use the official Python package (`pip install kokoro` plus its espeak-ng dependency), or `kokoro-js` in Node if that's simpler on this machine. Download the model weights once and cache them locally.
+- **Voice settings** in `config/voice.json`:
+  - voice id (audition a few American English voices, such as a calm male and a calm female voice)
+  - speed, about 0.95–1.0
+  - pause length for `[pause]`, about 750 ms
+  - gap between sentences, about 250 ms
+- **Sentence-by-sentence synthesis** (this gives exact timing for free):
+  1. Split each slide's script into sentences the same way the app does (the `splitS` function in `index.html`).
+  2. For each sentence: remove `[+]`, apply the pronunciation dictionary, expand the symbols ° × ÷ into words, and synthesize it.
+  3. Insert silence for each `[pause]`, plus the sentence gap.
+  4. Join the sentences with FFmpeg into `media/narration/{lessonId}-{n}.mp3` (mono, 44.1 kHz, about 96–128 kbps), and copy it to `site/audio/`.
+  5. Write `media/narration/{lessonId}-{n}.timing.json` with each sentence's start and end time, and which build (`[+]`) it triggers.
+- **Captions:** write `media/captions/{lessonId}-{n}.vtt` directly from the sentence timings.
+- **Caching:** `media/narration/manifest.json` stores a hash of (prepared sentences + voice settings) per slide. Skip unchanged slides. `--force` regenerates.
+- **Targeting flags:**
+  - `--pilot` (`rules-01` to `rules-03`)
+  - `--module R|N|D|P`
+  - `--lesson rules-02`
+  - `--slide rules-02-4`
+  - `--all`
+  - `--dry-run`
+- **Dry run:** shows how many slides would be generated or skipped, total characters, and estimated generation time on this machine. There's no money cost to estimate.
+- **App sync upgrade:** update `site/index.html` so that when a `.timing.json` file exists, transcript highlighting and builds use the exact sentence times instead of word proportion.
+
+**Pilot procedure:**
+1. Generate one test slide with three or four candidate voices. The owner picks one.
+2. Run `npm run audio -- --pilot`.
+3. Set `AUDIO_BASE="audio/"` in `site/index.html`, then serve the site locally (`npx serve site`) and listen to all 21 pilot slides.
+4. Adjust the voice, speed, pauses or pronunciation dictionary, and regenerate only what changed.
+5. When the owner approves, run modules one at a time: `--module R`, then N, D, P.
+
+**Acceptance:** pilot plays in the app with builds and captions exactly in time; re-running without changes generates nothing; editing one script regenerates exactly one file; no network calls except the one-time model download.
+
+**Quality note:** Kokoro uses fixed preset voices and won't match a premium commercial voice on every sentence. If a word is mispronounced, fix it through the pronunciation dictionary (phonetic respelling) rather than changing the lesson wording.
+
+## Task 3. Video production (Playwright + FFmpeg)
+
+**Prompt:**
+> Add a render mode to site/index.html and write scripts/render-video.js (npm run video) that turns each lesson into an MP4 using Playwright and FFmpeg, following COURSE_MASTER.md Task 3.
+
+**Design (deterministic, not screen recording):**
+1. **Render mode in the app:** a URL like `index.html?render=1#render-rules-01-3-2` shows only slide 3 of `rules-01` with 2 build items revealed. It should render at 1920×1080, with no navigation, controls or transcript, a lower-third lesson title, and the light theme.
+2. **Timing:** for each slide, take each `[+]` time from the slide's `timing.json` (Task 2). Use word proportion only if no timing file exists.
+3. **Frames:** Playwright screenshots one PNG per build state.
+4. **Assembly:** FFmpeg makes a segment per slide from its PNG sequence with durations, plus the slide's MP3 and about 1 s of trailing silence. Then it joins the segments into `media/video/{lessonId}.mp4` using the concat demuxer: 1080p, H.264, AAC, 30 fps, audio normalized to about −16 LUFS.
+5. **Captions:** merge slide VTTs into `media/captions/{lessonId}.vtt` and `.srt` with correct offsets. Optionally add a burned-in version.
+6. **Extras:** an optional intro and outro card (course title, lesson title, "Practice material, not an official Coast Guard examination"), and a YouTube chapter list from slide headings with start times. Use only free assets you have rights to: your own footage, public-domain material, or no music.
+7. **Flags:** `--lesson`, `--module`, `--all`, `--no-captions`. Skip lessons whose inputs haven't changed.
+
+**Acceptance:** `rules-01.mp4` plays with correct builds and captions in sync; chapters are correct; re-running without changes renders nothing.
+
+**Later options (still zero cost):** insert your own footage from charters, using each slide's `video` suggestion, or public-domain government footage after checking its rights. Paid AI presenters (Synthesia, HeyGen) are out of scope under the budget rule. A free alternative is a short intro you record yourself.
+
+## Task 4. Free website hosting
+
+**Prompt:**
+> Make site/ deployable at zero cost with one command. Use the Netlify free tier, or GitHub Pages if I prefer. Add the config, a deploy script, and cache headers for audio. Walk me through the one-time login. Don't enable anything that costs money.
+
+**Requirements:**
+- `npm run deploy` runs validate, then deploys `site/` to the free host. With Netlify: `netlify deploy --prod --dir=site` using the free Netlify CLI. With GitHub Pages: push the site to the Pages branch.
+- Audio served from `site/audio/`. Keep the total size well within the free tier's limits; MP3s at about 96 kbps keep the whole course small.
+- Lesson videos go on YouTube (free), linked from the site. Large MP4s never go in git or on the static host.
+- A free subdomain (for example `something.netlify.app` or `username.github.io`). A custom domain costs money and is out of scope.
+- A visible footer on every page: "Personal study material. Not an official U.S. Coast Guard examination or approved course." (Appendix A, section 2.)
+
+**Acceptance:** the site is live on a free URL; redeploy takes one command; no payment method is required.
+
+## Task 5. Course features at zero cost
+
+Paid accounts, databases, payments and course platforms are out of scope under the budget rule. These free features cover the same needs for a personal study course:
+
+- **Progress across devices without accounts:** add "Back up progress" and "Restore progress" buttons. Backup downloads the `localStorage` data as a small JSON file, and restore loads it on another device. Optionally, also show it as a copyable code.
+- **Completion record:** a printable "course completion" page generated in the browser, using window.print, with lessons finished, lesson-check scores and practice-test history. Its wording must not imply a Coast Guard credential.
+- **Study dashboard:** in place of an admin view, a "My progress" page showing weak topics, lesson-check scores, practice-test trends, and the questions missed most often. It runs entirely in the browser.
+- **Offline use:** make the site installable and usable offline as a Progressive Web App (a service worker caches the page and audio). This is free.
+- **Moodle or SCORM (optional, free to build):** `scripts/package-scorm.js` can build a SCORM 1.2 zip and `scripts/export-moodle.js` can export questions in GIFT format. They're only useful if someone else provides a free LMS, since hosting Moodle yourself costs money.
+
+**If the course is ever sold:** that's a separate, later decision requiring the commercial review in Appendix A, section 2.2. Paid platforms, payment processing fees and accounts would be evaluated then. Don't build any of it now.
+
+## Task 6. Convert the remaining lessons to lecture style
+
+**Prompt:**
+> Convert lesson [id] to lecture style following the pilot lessons rules-01 to rules-03 and COURSE_MASTER.md Part 2. Keep every fact and every topic the lesson check tests. Add a scenario or Captain's example slide where useful, mark anything uncertain [VERIFY], and run validate. Show me the new script before regenerating audio.
+
+**Rules:**
+- One module at a time, in this order: Rules, then Deck, then Navigation, then Plotting. Owner review after each lesson or small batch.
+- Lessons should run about 8–15 minutes (blueprint section 5). Split longer ones.
+- Every `[+]` must match a visual item.
+- Add the blueprint's lesson metadata (objectives, prerequisites, exam mapping, references, review status).
+
+## Task 7. Source register and fact checking
+
+**Prompt:**
+> Build SOURCES/source_register.md and QA/fact_check_log.md per Appendix A section 7. For lesson [id], list every regulatory or numerical claim, find the controlling primary source, record the citation, and flag any claim that is wrong, outdated or unsupported. Don't change content without showing me the evidence.
+
+**Acceptance:** each reviewed lesson moves from `draft-unverified` to `fact-checked`, with a citation for every claim.
+
+## Task 8. Release checks
+
+Use Appendix A, section 13 as the release checklist. `npm run validate` must pass. Content is published only when marked `approved` by a human reviewer.
+
+---
+
+# Part 4. Decisions for the owner
+
+1. **Route:** Inland or Near Coastal (blueprint section 15).
+2. **Voice:** pick one Kokoro voice after hearing the test samples in Task 2.
+3. **Budget:** zero cost except the Claude subscription. Kokoro generation is free; the only cost of narrating all 158,000+ characters is computer time.
+4. **Hosting:** Netlify free tier or GitHub Pages for the site, and YouTube unlisted or public for videos.
+5. **Features:** which Task 5 features to build (backup and restore, completion record, dashboard, offline use).
+6. **Fact-check plan:** who reviews content, and when (blueprint sections 7 and 13). Use free official sources such as eCFR, NMC, USCG NavCen and NOAA.
+
+---
+
+# Appendix A. Six-Pack Captain (OUPV) Educational Course Blueprint (owner-supplied, reproduced in full)
+
+
+**Project blueprint and production specification**\
+**Version:** 1.0\
+**Prepared:** November 10, 2026\
+**Primary learner:** One adult learner preparing for the U.S. Coast
+Guard Operator of Uninspected Passenger Vessels (OUPV / "Six-Pack")
+credential\
+**Future option:** Repackage as a paid educational product, subject to
+applicable Coast Guard approval and consumer-protection requirements.
+
+------------------------------------------------------------------------
+
+## A.1. Executive summary
+
+Build a rigorous, modular, multimedia learning program that prepares the
+learner to understand and apply the knowledge tested for the OUPV
+credential. The course should teach practical seamanship and sound
+judgment---not merely encourage memorization of test answers.
+
+The first release is a **personal study and training system**, not a
+representation that the course is Coast Guard-approved, a substitute for
+required sea service, or a substitute for any Coast Guard examination or
+credential application requirement. A later commercial version must be
+evaluated separately for Coast Guard approval, course-provider
+obligations, copyright/licensing, accessibility, student records, and
+business compliance.
+
+### Recommended production strategy
+
+Use a human-reviewed, AI-assisted pipeline:
+
+1.  **Authoritative-source research:** Collect and version official
+    USCG/NMC requirements, applicable regulations, navigation rules,
+    chart references, and other primary sources.
+2.  **Instructional design and writing:** Use Claude for curriculum
+    mapping, lesson plans, explanations, scripts, worked examples, and
+    question-bank drafts.
+3.  **Visual development:** Create original diagrams, animations,
+    chart-plotting demonstrations, vessel-encounter scenarios, and slide
+    graphics.
+4.  **Narration and video:** Use a consistent AI voice and a video
+    editor/avatar tool where useful; do not make an avatar the default
+    for every lesson.
+5.  **Automation:** Use Claude Code for repeatable file generation,
+    slide/video assembly, quiz formatting, captions, quality checks, and
+    course-site/LMS development.
+6.  **Human verification:** Check all regulatory statements,
+    calculations, chart work, answers, diagrams, and safety procedures
+    against authoritative sources before release.
+
+**Core recommendation:** Start with one complete pilot module---Rules of
+the Road---before producing the entire course. Use the pilot to validate
+teaching quality, narration, graphics, production time, software costs,
+and the repeatability of the workflow.
+
+------------------------------------------------------------------------
+
+## A.2. Scope, credential, and important distinctions
+
+### 2.1 Target credential
+
+The initial target is the U.S. Coast Guard **Operator of Uninspected
+Passenger Vessels (OUPV)** credential, commonly called the Six-Pack
+license. Do not assume that every OUPV applicant seeks the same route,
+route endorsement, or examination method.
+
+At project kickoff, confirm: - Inland, Great Lakes, or Near Coastal
+route sought. - Whether the learner is pursuing an original credential,
+raise in scope, or another endorsement. - Whether the learner will take
+a Coast Guard examination or use an approved course/examination
+pathway. - Current NMC application, medical, sea-service, first-aid/CPR,
+and other applicable requirements. - Which current examination modules
+and module versions apply to the learner's route and pathway.
+
+This blueprint uses the common OUPV examination subject areas as a
+planning framework. The **current official NMC checklist, examination
+guide, regulations, and applicable course-approval requirements
+control**. Do not treat the outline below as a definitive statement of
+current examination scope until it has been checked against current
+official documents.
+
+### 2.2 Personal-use course versus commercial course
+
+**Personal-use release** - A private study aid and learning resource. -
+Can include original explanations, practice problems, and AI-generated
+narration. - Must still use accurate, current information and clearly
+distinguish instructional material from official Coast Guard material. -
+Must not imply that completion itself awards a credential or satisfies
+an approved-course requirement.
+
+**Potential commercial release** Before marketing or selling the program
+as license preparation or credential-qualifying training: - Determine
+whether Coast Guard approval is required for the intended course and
+examination pathway. - Review 46 CFR Part 10, including relevant
+provisions governing approved courses and examinations, and current NMC
+guidance. - Obtain qualified maritime/regulatory review. - Obtain
+permission or licenses for any third-party charts, publications,
+question banks, photographs, video, or other copyrighted content. -
+Establish instructor/SME review, version control, student identity and
+records processes, assessment integrity, accessibility, privacy, refund
+terms, and customer support. - Avoid claims such as "USCG approved,"
+"guaranteed license," or "qualifies you for a license" unless the exact
+claim is authorized and substantiated.
+
+A disclaimer does not replace any approval that may be required.
+
+------------------------------------------------------------------------
+
+## A.3. Learning outcomes
+
+By the end of the program, the learner should be able to:
+
+1.  Explain the responsibilities and duties of a vessel operator,
+    including prudent seamanship and applicable legal obligations.
+2.  Interpret and apply relevant International and Inland Navigation
+    Rules to realistic encounters.
+3.  Recognize vessel lights, day shapes, sound signals, and
+    restricted-visibility situations.
+4.  Explain basic vessel construction, equipment, stability, loading,
+    and operational limitations at an OUPV-appropriate level.
+5.  Apply basic safety, emergency, firefighting, man-overboard, and
+    lifesaving principles.
+6.  Interpret nautical charts, chart symbols, aids to navigation,
+    compass information, and navigational publications.
+7.  Solve navigation problems involving courses, bearings, distance,
+    speed, time, position, and dead reckoning.
+8.  Interpret tide and current information and solve applicable
+    set-and-drift problems.
+9.  Understand marine weather products, forecasts, fronts, wind,
+    visibility, and weather-related risk.
+10. Demonstrate chart-plotting competence using the methods and
+    conventions required by the current applicable examination.
+11. Identify when information is uncertain, outdated, or outside the
+    operator's competence and take a conservative action.
+12. Pass appropriately designed knowledge checks and practice
+    examinations while understanding why each answer is correct.
+
+------------------------------------------------------------------------
+
+## A.4. Curriculum architecture
+
+Use the current NMC examination module structure as the top-level
+assessment map. Common OUPV examination subject areas include:
+
+-   **Rules of the Road** (often identified in NMC materials as Q100)
+-   **Deck General and Safety** (often identified as Q170)
+-   **Navigation General** (often identified as Q171)
+-   **Chart Plotting** (often identified as Q172)
+
+These identifiers and their applicability must be reconfirmed against
+the current NMC guide for the learner's credential, route, and
+examination pathway. Do not assume a module identifier, passing score,
+question count, time limit, or test policy without checking the current
+official source.
+
+### Module A --- Rules of the Road
+
+**Purpose:** Build practical understanding of collision-avoidance rules
+and the ability to apply them to encounters.
+
+Suggested lessons: 1. Purpose, scope, and structure of the Navigation
+Rules. 2. Responsibility, ordinary practice of seamen, risk of
+collision, and safe speed. 3. Lookout, assessment of risk, and action to
+avoid collision. 4. Narrow channels, traffic separation schemes, and
+vessel conduct. 5. Overtaking, head-on, and crossing situations. 6.
+Responsibilities between different classes of vessels. 7. Sailing
+vessels, vessels engaged in fishing, and other special circumstances. 8.
+Restricted visibility and sound signals. 9. Navigation lights, shapes,
+and vessel identification. 10. Inland versus International Rules:
+differences and how to avoid mixing them up. 11. Applied encounter
+scenarios and cumulative review.
+
+**Essential visual assets:** - Animated top-down vessel encounters with
+headings, bearings, and tracks. - Correct/incorrect give-way and
+stand-on actions. - Navigation-light recognition cards and night-view
+scenarios. - Day-shape recognition diagrams. - Sound-signal scenario
+animations. - Inland/International comparison tables, carefully sourced.
+
+**Assessment:** Scenario-based questions requiring the learner to
+identify the applicable rule, vessel responsibilities, and safe
+action---not just name a rule.
+
+### Module B --- Deck General and Safety
+
+**Purpose:** Teach the operator to prepare, operate, and respond safely.
+
+Suggested lessons: 1. Vessel terminology, parts, construction, and basic
+systems. 2. Basic stability, loading, trim, freeboard, and passenger
+distribution. 3. Safe passenger operations and operator
+responsibilities. 4. Required equipment and safety equipment: scope and
+applicability must be verified for vessel and operation. 5. Fire
+prevention, classes of fire, extinguishers, and response. 6. Person
+overboard: prevention, immediate actions, recovery planning. 7.
+Abandon-ship principles, distress communications, and emergency
+priorities. 8. Grounding, flooding, collision, and loss of propulsion.
+9. Anchoring, mooring, and line handling. 10. Basic marlinespike
+seamanship and knots. 11. Marine sanitation, pollution prevention, and
+environmental responsibilities. 12. Practical pre-departure checks,
+passenger briefing, and float-plan concepts.
+
+**Essential visual assets:** - Labeled vessel diagrams. - Fire-response
+decision scenarios. - Man-overboard sequence and recovery diagrams. -
+Safety-equipment identification visuals. - Knot demonstrations from
+multiple camera angles. - Pre-departure checklist and passenger safety
+briefing example.
+
+**Assessment:** Case studies, equipment identification, emergency
+priorities, and operational decision-making.
+
+### Module C --- Navigation General
+
+**Purpose:** Develop the knowledge needed to navigate safely and
+interpret the information used by mariners.
+
+Suggested lessons: 1. Earth, latitude, longitude, directions, and
+nautical miles. 2. Nautical charts, scale, symbols, notes, and chart
+corrections. 3. Aids to navigation and buoyage systems. 4. Compass
+principles, variation, deviation, and compass error. 5. True, magnetic,
+and compass directions. 6. Bearings, courses, and position lines. 7.
+Dead reckoning and estimated position. 8. Fixes and position
+determination. 9. Speed, time, distance, and fuel-range calculations.
+10. Tide tables and tidal predictions. 11. Currents, set, drift, and
+current diagrams. 12. Marine weather observations, forecasts, and
+warnings. 13. Visibility, fog, fronts, thunderstorms, and tropical
+systems. 14. Navigation planning, situational awareness, and electronic
+navigation limitations.
+
+**Essential visual assets:** - Chart-reading walkthroughs. - Compass
+conversion diagrams. - Bearing and fix animations. - Tide/current table
+examples. - Set-and-drift vector diagrams. - Weather-map
+interpretation. - Electronic chart display examples with clear warnings
+about source, scale, datum, updates, and situational-awareness
+limitations.
+
+**Assessment:** Short calculations, chart interpretation, navigation
+decisions, and scenario-based questions.
+
+### Module D --- Chart Plotting
+
+**Purpose:** Make the learner fluent in the exact plotting methods and
+conventions expected by the current applicable examination.
+
+Suggested lessons: 1. Plotting tools, chart orientation, scale, and
+plotting conventions. 2. Measuring distance and reading
+latitude/longitude. 3. Plotting courses and bearings. 4.
+True/magnetic/compass conversions. 5. Speed, time, and distance
+problems. 6. Dead-reckoning positions. 7. Fixes and running fixes, as
+applicable to the current exam. 8. Tides and currents in plotting
+problems. 9. Set and drift. 10. Multi-step chart problems and error
+checking. 11. Timed practice problems. 12. Full-length chart-plotting
+practice assessment.
+
+**Essential visual assets:** - Screen-recorded or animated plotting
+demonstrations. - Overhead view of parallel rulers, dividers, and
+chart. - Step-by-step worked examples. - Common-error demonstrations. -
+Printable practice charts and answer sheets, using properly licensed or
+original chart materials.
+
+**Assessment:** A bank of original, independently checked plotting
+problems with full worked solutions. Use the current official
+examination conventions and permitted materials.
+
+------------------------------------------------------------------------
+
+## A.5. Lesson design standard
+
+Every lesson should follow one repeatable template. Recommended standard
+lesson duration is **8--15 minutes**, with longer demonstrations split
+into parts. Do not stretch content to meet a fixed duration.
+
+### Required lesson components
+
+1.  **Lesson metadata**
+    -   Course/module/lesson ID
+    -   Title
+    -   Version and last-reviewed date
+    -   Estimated duration
+    -   Learning objectives
+    -   Prerequisites
+    -   Applicable examination subject area(s)
+    -   Source references and review status
+2.  **Opening**
+    -   Explain why the topic matters to a vessel operator.
+    -   State two to four measurable learning objectives.
+    -   Preview the practical application.
+3.  **Instruction**
+    -   Explain concepts in plain language.
+    -   Define maritime terms on first use.
+    -   Distinguish a rule, recommendation, common practice, and
+        example.
+    -   Use a real-world situation where possible.
+4.  **Visual demonstration**
+    -   Use original diagrams, animation, chart work, or a worked
+        example.
+    -   Keep diagrams uncluttered and label every important vessel,
+        vector, bearing, light, symbol, or calculation.
+    -   Narration must describe what is changing on screen.
+5.  **Guided practice**
+    -   Ask the learner to predict the next step or answer a question
+        before revealing the solution.
+    -   Explain the reasoning, not just the result.
+6.  **Knowledge check**
+    -   Usually 3--7 questions.
+    -   Provide the correct answer and an explanation.
+    -   Identify why plausible distractors are wrong.
+7.  **Summary**
+    -   Reinforce the key takeaways.
+    -   Provide a short retrieval-practice prompt.
+8.  **References**
+    -   List exact source title, issuing body, edition/date, relevant
+        section/page/rule, URL, and date accessed.
+    -   Identify any content requiring revalidation.
+
+### Instructional style
+
+-   Professional, calm, clear maritime instructor.
+-   Practical and precise, not theatrical.
+-   Define unfamiliar terminology without oversimplifying.
+-   Use U.S. customary units where appropriate while teaching nautical
+    units and conventions accurately.
+-   Avoid unsupported absolutes.
+-   Clearly flag route-specific, vessel-specific, or
+    Inland/International distinctions.
+-   Use examples relevant to small passenger vessels and coastal/inland
+    operations.
+-   Include both the correct procedure and the reason behind it.
+
+------------------------------------------------------------------------
+
+## A.6. Assessment and question-bank design
+
+Create an original question bank mapped to the learning objectives and
+official examination subject areas.
+
+### Question types
+
+-   Multiple choice with one best answer.
+-   Image-based identification.
+-   Vessel encounter scenarios.
+-   Short calculation problems.
+-   Chart interpretation and plotting exercises.
+-   Sequence/order questions.
+-   Short written explanations for self-assessment.
+
+### Required fields for each question
+
+-   Unique question ID.
+-   Module and lesson mapping.
+-   Learning objective.
+-   Question text.
+-   Image/diagram reference, if any.
+-   Answer choices.
+-   Correct answer.
+-   Explanation for the correct answer.
+-   Explanation of why each distractor is incorrect.
+-   Source citation(s).
+-   Difficulty level.
+-   Last verified date.
+-   Reviewer and review status.
+-   Version and change history.
+
+### Quality rules
+
+-   Never copy proprietary commercial question banks.
+-   Do not reproduce protected examination questions or claim that
+    generated questions are actual Coast Guard exam questions.
+-   Create original questions based on public authoritative knowledge
+    and properly licensed materials.
+-   Independently verify all numerical answers and chart plots.
+-   Avoid ambiguous questions and trick wording.
+-   Balance recall, comprehension, application, and judgment.
+-   Track weak areas and generate targeted remediation.
+-   Randomize practice sets only after validating the question and
+    answer records.
+
+### Practice examinations
+
+Create separate practice tests aligned to the current official module
+structure, question formats, time limits, and pass requirements only
+after verifying the current NMC rules. Label them **practice
+examinations---not official Coast Guard examinations**.
+
+------------------------------------------------------------------------
+
+## A.7. Authoritative source hierarchy and research policy
+
+The course must be source-driven. AI-generated content is a draft, never
+the authority.
+
+### Priority 1 --- Official government sources
+
+1.  U.S. Coast Guard National Maritime Center (NMC): credential
+    checklists, examination guides, policy, approved-course information,
+    and current application requirements.
+2.  Electronic Code of Federal Regulations (eCFR): applicable current
+    regulations, including 46 CFR Part 10 and other relevant parts.
+3.  U.S. Coast Guard Navigation Rules and related official publications.
+4.  U.S. Coast Guard / NOAA official aids-to-navigation and navigation
+    information.
+5.  NOAA Office of Coast Survey: nautical charts, chart symbols,
+    notices, and chart-related guidance.
+6.  NOAA tide and current predictions and official explanatory
+    materials.
+7.  National Weather Service / NOAA marine forecasts, warnings, and
+    weather education.
+8.  Other applicable federal or state agency primary sources where the
+    subject requires them.
+
+### Priority 2 --- Authoritative technical and educational references
+
+Use recognized maritime textbooks, training references, and technical
+publications only after verifying the edition, relevance, and copyright
+status. Do not treat a third-party study guide as controlling authority
+when it conflicts with a current government source.
+
+### Source-control rules
+
+-   Maintain a source register with title, issuing organization, URL,
+    edition/publication date, access date, subject, and applicable
+    lessons.
+-   Prefer primary sources over summaries.
+-   Record the exact rule, regulation, page, table, or section
+    supporting each important claim.
+-   When sources conflict, stop and flag the conflict for human review;
+    do not silently choose one.
+-   Check current editions and corrections before publishing.
+-   Revalidate time-sensitive material on a scheduled basis and whenever
+    a source changes.
+-   Never invent a citation, source title, regulation number, exam
+    requirement, or quote.
+-   Keep a list of unresolved questions and assumptions.
+
+### Initial official starting points
+
+-   USCG National Maritime Center: https://www.dco.uscg.mil/nmc/
+-   eCFR, Title 46: https://www.ecfr.gov/current/title-46
+-   NOAA Office of Coast Survey: https://nauticalcharts.noaa.gov/
+-   NOAA Tides and Currents: https://tidesandcurrents.noaa.gov/
+-   National Weather Service Marine: https://www.weather.gov/marine/
+-   USCG Navigation Center: https://www.navcen.uscg.gov/
+
+At project kickoff, locate and download the current OUPV checklist and
+current NMC examination guide. Save copies with retrieval dates in the
+project source library. Confirm exact module identifiers and
+applicability before finalizing assessment mapping.
+
+------------------------------------------------------------------------
+
+## A.8. AI tools and division of labor
+
+Tool capabilities, pricing, plan limits, and licensing change. Recheck
+current vendor terms before purchasing or building a production
+dependency.
+
+### Claude (web/desktop)
+
+Use for: - Curriculum design and lesson sequencing. - Research synthesis
+from supplied authoritative sources. - Drafting lesson plans and
+narration. - Plain-language explanations and worked examples. - Draft
+question generation and answer explanations. - Editorial review and
+consistency checks. - Identifying gaps, ambiguities, and unsupported
+claims.
+
+Avoid repeatedly pasting the entire course into every prompt. Work
+module by module and rely on concise project instructions, source files,
+and lesson templates.
+
+### Claude Code
+
+Use for: - Creating and maintaining the course project structure. -
+Batch processing structured lesson files. - Generating slide decks from
+approved lesson content. - Creating quiz files and answer keys from
+structured question data. - Building a static course site or LMS
+prototype. - Automating captions, transcript formatting, file naming,
+and export checks. - Running scripts that check broken links, missing
+references, inconsistent IDs, and missing lesson components. -
+Assembling repeatable video-production packages.
+
+Do not use Claude Code as the default author for every lesson. Use it
+where code and automation materially reduce repetitive work.
+
+### Image generation
+
+Use for original instructional visuals: - Vessel silhouettes and
+relative positions. - Navigation-light and day-shape teaching
+diagrams. - Safety equipment illustrations. - Weather and ocean-process
+diagrams. - Conceptual illustrations.
+
+Do not use generated images as authoritative nautical charts, official
+navigation products, or exact depictions of regulated equipment unless
+checked by a qualified reviewer. Generated diagrams must be checked for
+vessel orientation, labels, light placement, symbols, and physical
+accuracy.
+
+### Narration
+
+Recommended approach: - Select one professional, neutral U.S. English
+voice. - Test pronunciation of nautical terms, abbreviations,
+coordinates, units, and vessel names. - Maintain a pronunciation
+dictionary. - Generate narration from approved scripts, not directly
+from unreviewed AI drafts. - Keep scripts and audio as separate
+versioned assets. - Include captions and a transcript. - Obtain required
+rights/consents for any cloned or synthetic voice.
+
+### Video production
+
+Use a consistent visual language: - Instructor introduction only where
+it adds value. - Narrated slides for conceptual material. - Animated
+diagrams for vessel encounters and vectors. - Screen/overhead
+demonstrations for plotting and tool use. - Short scenario clips
+followed by learner questions. - Captions, readable labels, and a
+transcript. - Avoid decorative stock footage that does not teach the
+subject.
+
+A virtual avatar is optional. For many technical subjects, clear
+diagrams and a strong voice-over are more effective and less expensive.
+
+### Suggested initial stack
+
+-   Claude: instructional design and writing.
+-   Claude Code: automation and course assembly.
+-   Image generation: original diagrams and illustrations.
+-   One AI narration provider: consistent voice.
+-   One video editor/slide-to-video workflow: editing and final export.
+-   A simple local or private web-based course library initially; defer
+    a full LMS until the course has been validated.
+
+Do not commit to multiple paid narration/video subscriptions until the
+pilot comparison is complete.
+
+------------------------------------------------------------------------
+
+## A.9. Production workflow
+
+### Phase 0 --- Confirm requirements and assemble source library
+
+1.  Confirm learner's route and examination pathway.
+2.  Obtain the current official OUPV checklist and examination guide.
+3.  Build the source register.
+4.  Map current examination requirements to the proposed modules.
+5.  Record all uncertainties and approval questions.
+
+**Exit gate:** No curriculum claim about exam structure, module
+applicability, or credential eligibility remains unverified.
+
+### Phase 1 --- Build the pilot module: Rules of the Road
+
+1.  Select one foundational lesson, such as crossing situations.
+2.  Prepare a source-backed lesson plan.
+3.  Draft a narration script.
+4.  Create original vessel-encounter diagrams and animation storyboard.
+5.  Produce narration and captions.
+6.  Assemble the video.
+7.  Create a short knowledge check and answer explanations.
+8.  Review every rule, diagram, and scenario.
+9.  Test the lesson as a learner.
+
+**Exit gate:** The pilot is accurate, understandable, visually clear,
+and reproducible without excessive manual effort.
+
+### Phase 2 --- Refine the production template
+
+Measure: - Time spent researching and writing. - Time spent reviewing. -
+Cost per finished video minute. - Cost per diagram/animation. -
+Narration correction rate. - Video-editing effort. - Number and severity
+of factual/visual errors. - Learner comprehension and usability.
+
+Adjust the workflow before scaling.
+
+### Phase 3 --- Produce remaining curriculum
+
+Produce one module at a time. Do not generate all videos in a single
+batch before validating content. Keep each lesson independently editable
+and replaceable.
+
+### Phase 4 --- Build assessment and remediation
+
+-   Build and review the question bank.
+-   Create module quizzes and cumulative practice tests.
+-   Add explanations and source links.
+-   Add a learner progress tracker.
+-   Provide targeted review based on missed learning objectives.
+
+### Phase 5 --- Course library and delivery
+
+Initial personal version: - Organized module/lesson navigation. - Video
+player and captions. - Downloadable notes and practice worksheets. -
+Searchable transcript. - Question bank and progress log. - Version and
+source information.
+
+Possible future commercial version: - LMS with student accounts and
+progress. - Enrollment and payment workflow. - Student support and
+course completion records. - Accessibility and privacy controls. -
+Approved-course compliance only if applicable and obtained.
+
+### Phase 6 --- Maintenance
+
+-   Review source updates at least quarterly.
+-   Review immediately after relevant regulatory, NMC, navigation-rule,
+    charting, or official guidance changes.
+-   Flag lessons affected by a source revision.
+-   Revalidate assessments and answer keys.
+-   Publish a version history and change log.
+
+------------------------------------------------------------------------
+
+## A.10. Project file and folder structure
+
+Use Markdown for source content and structured YAML or JSON for metadata
+and question banks. Keep media separate from scripts.
+
+``` text
+six-pack-course/
+├── README.md
+├── PROJECT_BRIEF.md
+├── COURSE_BLUEPRINT.md
+├── CLAUDE.md
+├── SOURCES/
+│   ├── source_register.md
+│   ├── official/
+│   ├── technical_references/
+│   └── source_change_log.md
+├── CURRICULUM/
+│   ├── curriculum_map.md
+│   ├── learning_objectives.md
+│   └── exam_blueprint.md
+├── MODULES/
+│   ├── A_RULES_OF_ROAD/
+│   │   ├── module_overview.md
+│   │   ├── lessons/
+│   │   ├── scripts/
+│   │   ├── storyboards/
+│   │   └── assessments/
+│   ├── B_DECK_GENERAL_SAFETY/
+│   ├── C_NAVIGATION_GENERAL/
+│   └── D_CHART_PLOTTING/
+├── QUESTION_BANK/
+│   ├── questions.json
+│   ├── answer_key.json
+│   └── review_log.md
+├── MEDIA/
+│   ├── diagrams/
+│   ├── narration/
+│   ├── video/
+│   ├── captions/
+│   └── thumbnails/
+├── TEMPLATES/
+│   ├── lesson_template.md
+│   ├── narration_template.md
+│   ├── storyboard_template.md
+│   ├── question_template.json
+│   └── source_register_template.md
+├── QA/
+│   ├── fact_check_log.md
+│   ├── visual_review_log.md
+│   ├── pronunciation_dictionary.md
+│   └── release_checklist.md
+└── RELEASES/
+    ├── personal_study/
+    └── commercial_candidate/
+```
+
+------------------------------------------------------------------------
+
+## A.11. Claude Code project instructions
+
+Create a `CLAUDE.md` file in the project root with these instructions:
+
+``` markdown
+# Project instructions: Six-Pack Captain course
+
+## Role
+Act as an instructional-design, research-assistance, and course-production assistant
+for a U.S. Coast Guard OUPV/Six-Pack educational project.
+
+## Accuracy and source control
+- Treat current official USCG/NMC, eCFR, NOAA, USCG Navigation Rules, and other
+  relevant government primary sources as controlling.
+- Never invent citations, exam requirements, rule numbers, module identifiers,
+  passing scores, question counts, or regulatory interpretations.
+- Mark unsupported or uncertain statements [VERIFY].
+- Distinguish official requirements from instructional recommendations and examples.
+- Record source title, issuer, edition/date, section/page/rule, URL, and access date.
+- If sources conflict, stop and explain the conflict for human review.
+- Do not represent this project as USCG-approved or credential-qualifying unless
+  the owner supplies verified approval and authorizes the exact claim.
+
+## Instructional standards
+- Teach understanding, application, and safe judgment, not rote memorization alone.
+- Use plain English and define nautical terms.
+- Include learning objectives, examples, visual suggestions, guided practice,
+  knowledge checks, explanations, and source references in every lesson.
+- Distinguish Inland and International Navigation Rules wherever relevant.
+- Use practical small-passenger-vessel scenarios where appropriate.
+- Never create ambiguous questions or unverified numerical answers.
+
+## Visual and technical standards
+- Prefer original diagrams and animations for navigation concepts.
+- Do not treat AI-generated charts, symbols, lights, or equipment illustrations
+  as authoritative without human verification.
+- Keep narration synchronized with the actual visual sequence.
+- Provide captions and transcripts.
+- Use consistent terminology, units, filenames, IDs, and version metadata.
+
+## Workflow
+- Work one module and lesson at a time.
+- Do not generate an entire course before the pilot lesson is reviewed.
+- Keep source content, scripts, question data, and media separate.
+- Preserve existing approved content unless explicitly asked to revise it.
+- When editing, explain changed files and flag anything requiring human review.
+- Run validation checks for missing sections, missing sources, broken links,
+  duplicate IDs, and inconsistent metadata.
+
+## Copyright and ethics
+- Do not copy proprietary question banks, paid study guides, or copyrighted
+  instructional material.
+- Create original questions and explanations from authoritative public sources
+  and properly licensed materials.
+- Track licenses and permissions for all third-party assets.
+```
+
+------------------------------------------------------------------------
+
+## A.12. Standard lesson template
+
+Copy this for each lesson:
+
+``` markdown
+# [Module ID].[Lesson ID] — [Lesson title]
+
+## Metadata
+- Module:
+- Lesson ID:
+- Version:
+- Status: Draft / Fact check / Approved / Published
+- Last reviewed:
+- Estimated duration:
+- Examination mapping:
+- Prerequisites:
+
+## Learning objectives
+By the end of this lesson, the learner will be able to:
+1.
+2.
+3.
+
+## Why this matters
+[Practical maritime context]
+
+## Key terms
+| Term | Definition |
+|---|---|
+
+## Source-backed instruction
+[Explain the subject. Cite each important regulatory or technical claim.]
+
+## Visual plan
+| Time | Visual | Narration/action | On-screen labels |
+|---|---|---|---|
+
+## Narration script
+[Complete spoken script]
+
+## Guided example
+[Problem/scenario, learner prompt, worked solution]
+
+## Knowledge check
+[Questions, choices, correct answers, explanations]
+
+## Summary
+[Key takeaways]
+
+## References
+[Exact source details and access dates]
+
+## QA and approval
+- Factual review:
+- Visual review:
+- Calculation review:
+- Script/narration review:
+- Reviewer:
+- Unresolved issues:
+```
+
+------------------------------------------------------------------------
+
+## A.13. Quality assurance and release gates
+
+No lesson should be marked published until all applicable checks pass.
+
+### Factual review
+
+-   [ ] Each regulatory claim has an exact authoritative citation.
+-   [ ] Current edition/date checked.
+-   [ ] Inland/International distinctions are correct.
+-   [ ] Route and vessel applicability are clear.
+-   [ ] No unsupported legal or safety claim remains.
+-   [ ] Uncertainty is explicitly disclosed.
+
+### Navigation and calculation review
+
+-   [ ] All calculations independently recomputed.
+-   [ ] Bearings, courses, directions, and units checked.
+-   [ ] Chart scale and plotting conventions checked.
+-   [ ] Vessel orientation and vectors checked.
+-   [ ] Tide/current examples checked.
+-   [ ] Worked answers agree with the stated method.
+
+### Visual and audio review
+
+-   [ ] Diagram is physically and nautically accurate.
+-   [ ] Lights and shapes are correct for the scenario.
+-   [ ] Labels are readable.
+-   [ ] Narration matches the visual sequence.
+-   [ ] Nautical terms are pronounced correctly.
+-   [ ] Captions and transcript are accurate.
+-   [ ] No misleading AI-generated details remain.
+
+### Assessment review
+
+-   [ ] Question maps to a stated objective.
+-   [ ] Only one best answer where required.
+-   [ ] Distractors are plausible but clearly incorrect.
+-   [ ] Answer and explanation independently verified.
+-   [ ] No copied proprietary question.
+-   [ ] Source references included.
+
+### Release review
+
+-   [ ] Version and review date present.
+-   [ ] Required files included.
+-   [ ] Links work.
+-   [ ] Accessibility basics checked.
+-   [ ] Approval status and intended use accurately described.
+
+------------------------------------------------------------------------
+
+## A.14. First 30-day action plan
+
+### Week 1 --- Foundation
+
+-   Confirm route and examination pathway.
+-   Retrieve current NMC documents and official sources.
+-   Build the source register and examination map.
+-   Create project folders and `CLAUDE.md`.
+-   Select the pilot Rules of the Road lesson.
+
+### Week 2 --- Pilot content
+
+-   Write and review the pilot lesson.
+-   Create storyboard and original diagrams.
+-   Create narration script and pronunciation list.
+-   Draft knowledge-check questions and explanations.
+-   Conduct maritime subject-matter review.
+
+### Week 3 --- Pilot production
+
+-   Generate narration.
+-   Assemble video and captions.
+-   Produce lesson notes and assessment.
+-   Test the lesson from the learner's perspective.
+-   Record production time and tool costs.
+
+### Week 4 --- Evaluate and scale
+
+-   Correct pilot weaknesses.
+-   Finalize reusable templates and automated checks.
+-   Decide whether the selected voice/video tools justify their cost.
+-   Prioritize the next lessons based on exam mapping and learner
+    difficulty.
+-   Establish a source-review and versioning routine.
+
+This is a planning sequence, not a promise that a complete course can be
+responsibly finished in 30 days.
+
+------------------------------------------------------------------------
+
+## A.15. Decisions to confirm with the learner
+
+These items should be resolved before the full curriculum is locked:
+
+1.  **Route:** Inland, Great Lakes, Near Coastal, or more than one?
+2.  **Exam pathway:** Coast Guard examination or a specific
+    approved-course pathway?
+3.  **Starting level:** New to boating, experienced recreational boater,
+    or experienced mariner?
+4.  **Study target:** Exam preparation only, or broader practical
+    captain competency as well?
+5.  **Delivery:** Private local files, web-based course, or both?
+6.  **Presentation style:** Narrated slides and diagrams, AI instructor
+    avatar, or a mixture?
+7.  **Time commitment:** Preferred study hours per week and target
+    examination date?
+8.  **Commercial option:** Keep the architecture reusable, but defer
+    commercial claims and approval decisions until the personal course
+    is validated.
+
+------------------------------------------------------------------------
+
+## A.16. Immediate next steps
+
+Start with these tasks, in order:
+
+1.  Confirm the learner's route and examination pathway.
+2.  Obtain the current official NMC OUPV checklist and examination
+    guide.
+3.  Verify the current module structure and map every learning objective
+    to the applicable official material.
+4.  Build the source register.
+5.  Draft the first Rules of the Road lesson using the lesson template.
+6.  Create a complete pilot video, transcript, notes, and quiz.
+7.  Review the pilot for accuracy, clarity, accessibility, and cost
+    before scaling.
+
+**Definition of success:** A reliable, source-traceable, engaging course
+that helps the learner understand the subject, apply it safely, and
+prepare effectively for the applicable OUPV examination---while
+preserving a clean path to a separately reviewed commercial product if
+that opportunity becomes worthwhile.

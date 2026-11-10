@@ -1,0 +1,15 @@
+{
+  "name": "six-pack-course",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal study course for the USCG OUPV (Six-Pack) exam. Not an official or approved course.",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "audio": "node scripts/audio.js",
+    "video": "node scripts/video.js",
+    "deploy": "node scripts/deploy.js",
+    "export": "node scripts/export.js"
+  }
+}
