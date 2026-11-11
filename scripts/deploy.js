@@ -71,15 +71,63 @@ else {
   if (team) cliArgs.push("--team", team);
 }
 console.log(`Deploying site/ to Netlify (${cfg.siteId ? cfg.siteName : "new site " + siteName})…`);
-const npx = process.platform === "win32" ? "npx.cmd" : "npx";
-const r = spawnSync(npx, cliArgs, { cwd: root, encoding: "utf8", stdio: ["inherit", "pipe", "inherit"], shell: process.platform === "win32" });
-const out = (r.stdout || "").trim();
 let res = null;
-try { res = JSON.parse(out.slice(out.indexOf("{"))); } catch (e) { /* fall through */ }
-if (r.status !== 0 || !res || !res.site_id) {
-  process.stdout.write(out + "\n");
-  console.error("Deploy failed. If it's a login problem, run: npx netlify-cli login");
-  process.exit(1);
+// Behind an HTTPS proxy (for example a Claude cloud session, where the proxy supplies the Netlify token),
+// the CLI's own requests bypass the proxy and fail as "Project not found". curl honours the proxy, so in
+// that case use Netlify's file-digest deploy API directly. Same result, same free plan, no extra tool.
+const viaApi = args.includes("--api") || (!!cfg.siteId && !!(process.env.HTTPS_PROXY || process.env.https_proxy) && !args.includes("--cli"));
+if (viaApi) {
+  if (!cfg.siteId) { console.error("--api needs an existing site (config/deploy.json)."); process.exit(1); }
+  const API = "https://api.netlify.com/api/v1";
+  const token = process.env.NETLIFY_AUTH_TOKEN || "proxy-injected"; // never printed
+  const curl = (extra) => {
+    const c = spawnSync("curl", ["-sS", "--fail-with-body", "--retry", "3", "-H", `Authorization: Bearer ${token}`, ...extra],
+      { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
+    if (c.status !== 0) { console.error(`Netlify API call failed: ${(c.stderr || "").trim()} ${(c.stdout || "").slice(0, 300)}`); process.exit(1); }
+    return c.stdout ? JSON.parse(c.stdout) : {};
+  };
+  const files = {}, bySha = {};
+  const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
+    const p = path.join(d, e.name);
+    if (e.isDirectory()) return walk(p);
+    if (e.name === ".gitkeep" || e.name === ".DS_Store") return;
+    const rel = "/" + path.relative(site, p).split(path.sep).join("/");
+    const sha = crypto.createHash("sha1").update(fs.readFileSync(p)).digest("hex");
+    files[rel] = sha; bySha[sha] = { rel, p };
+  });
+  walk(site);
+  const tmp = path.join(require("os").tmpdir(), `netlify-digest-${process.pid}.json`);
+  fs.writeFileSync(tmp, JSON.stringify({ files, title: message }));
+  let d;
+  try { d = curl(["-X", "POST", "-H", "Content-Type: application/json", "--data-binary", `@${tmp}`, `${API}/sites/${cfg.siteId}/deploys`]); }
+  finally { fs.unlinkSync(tmp); }
+  const need = d.required || [];
+  console.log(`  ${Object.keys(files).length} files, ${need.length} to upload`);
+  for (const sha of need) {
+    const f = bySha[sha];
+    if (!f) continue;
+    curl(["-X", "PUT", "-H", "Content-Type: application/octet-stream", "--data-binary", `@${f.p}`,
+      `${API}/deploys/${d.id}/files${f.rel.split("/").map(encodeURIComponent).join("/")}`]);
+  }
+  let state = d.state;
+  for (let i = 0; i < 60 && state !== "ready"; i++) {
+    spawnSync(process.execPath, ["-e", "setTimeout(()=>{},2000)"]);
+    const st = curl([`${API}/deploys/${d.id}`]);
+    state = st.state;
+    if (state === "error") { console.error(`Deploy failed on Netlify: ${st.error_message || "unknown error"}`); process.exit(1); }
+  }
+  if (state !== "ready") { console.error(`Deploy ${d.id} is still "${state}" after two minutes; check it in Netlify.`); process.exit(1); }
+  res = { site_id: cfg.siteId, site_name: cfg.siteName, deploy_id: d.id, url: cfg.url };
+} else {
+  const npx = process.platform === "win32" ? "npx.cmd" : "npx";
+  const r = spawnSync(npx, cliArgs, { cwd: root, encoding: "utf8", stdio: ["inherit", "pipe", "inherit"], shell: process.platform === "win32" });
+  const out = (r.stdout || "").trim();
+  try { res = JSON.parse(out.slice(out.indexOf("{"))); } catch (e) { /* fall through */ }
+  if (r.status !== 0 || !res || !res.site_id) {
+    process.stdout.write(out + "\n");
+    console.error("Deploy failed. If it's a login problem, run: npx netlify-cli login");
+    process.exit(1);
+  }
 }
 
 // 4. Record where it went.
