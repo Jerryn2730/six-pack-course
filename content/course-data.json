@@ -10456,7 +10456,28 @@
        "Sharp pencils, an eraser, and a calculator if allowed",
        "Training chart 1210-Tr: Martha’s Vineyard to Block Island",
        "Practice with the same tools you’ll use on test day"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "rulers",
+         "Parallel rulers or a course plotter"
+        ],
+        [
+         "dividers",
+         "Dividers"
+        ],
+        [
+         "pencil",
+         "Sharp pencils and an eraser"
+        ],
+        [
+         "chart",
+         "Training chart 1210-Tr"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Welcome to Chart Plotting, the hands-on module. On the exam you’ll work problems on a real training chart, usually NOAA chart twelve ten T R, which covers Martha’s Vineyard to Block Island. Yes, even in Florida. You’ll need parallel rulers or a course plotter, a pair of dividers, sharp pencils, an eraser and, if your exam allows it, a simple calculator. Buy the chart and tools now, bring your own to the exam, and practice with the same ones, so your hands know them by test day.",
@@ -10486,7 +10507,79 @@
        "Center: variation, its year, and the annual change",
        "Use the rose nearest your work",
        "Most exam work is done in true, then converted"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<circle cx='220' cy='200' r='150' class='s-st' stroke-width='1.5'/><circle cx='220' cy='200' r='100' class='s-magst' stroke-width='1.5'/><path d='M220.0,50.0 L220.0,64.0' class='s-st' stroke-width='2'/><path d='M194.1,103.4 L197.2,115.0' class='s-magst' stroke-width='2'/><path d='M246.0,52.3 L244.8,59.2' class='s-st' stroke-width='1'/><path d='M211.3,100.4 L211.8,106.4' class='s-magst' stroke-width='1'/><path d='M271.3,59.0 L268.9,65.6' class='s-st' stroke-width='1'/><path d='M228.7,100.4 L228.2,106.4' class='s-magst' stroke-width='1'/><path d='M295.0,70.1 L288.0,82.2' class='s-st' stroke-width='2'/><path d='M245.9,103.4 L242.8,115.0' class='s-magst' stroke-width='2'/><path d='M316.4,85.1 L311.9,90.5' class='s-st' stroke-width='1'/><path d='M262.3,109.4 L259.7,114.8' class='s-magst' stroke-width='1'/><path d='M334.9,103.6 L329.5,108.1' class='s-st' stroke-width='1'/><path d='M277.4,118.1 L273.9,123.0' class='s-magst' stroke-width='1'/><path d='M349.9,125.0 L337.8,132.0' class='s-st' stroke-width='2'/><path d='M290.7,129.3 L282.2,137.8' class='s-magst' stroke-width='2'/><path d='M361.0,148.7 L354.4,151.1' class='s-st' stroke-width='1'/><path d='M301.9,142.6 L297.0,146.1' class='s-magst' stroke-width='1'/><path d='M367.7,174.0 L360.8,175.2' class='s-st' stroke-width='1'/><path d='M310.6,157.7 L305.2,160.3' class='s-magst' stroke-width='1'/><path d='M370.0,200.0 L356.0,200.0' class='s-st' stroke-width='2'/><path d='M316.6,174.1 L305.0,177.2' class='s-magst' stroke-width='2'/><path d='M367.7,226.0 L360.8,224.8' class='s-st' stroke-width='1'/><path d='M319.6,191.3 L313.6,191.8' class='s-magst' stroke-width='1'/><path d='M361.0,251.3 L354.4,248.9' class='s-st' stroke-width='1'/><path d='M319.6,208.7 L313.6,208.2' class='s-magst' stroke-width='1'/><path d='M349.9,275.0 L337.8,268.0' class='s-st' stroke-width='2'/><path d='M316.6,225.9 L305.0,222.8' class='s-magst' stroke-width='2'/><path d='M334.9,296.4 L329.5,291.9' class='s-st' stroke-width='1'/><path d='M310.6,242.3 L305.2,239.7' class='s-magst' stroke-width='1'/><path d='M316.4,314.9 L311.9,309.5' class='s-st' stroke-width='1'/><path d='M301.9,257.4 L297.0,253.9' class='s-magst' stroke-width='1'/><path d='M295.0,329.9 L288.0,317.8' class='s-st' stroke-width='2'/><path d='M290.7,270.7 L282.2,262.2' class='s-magst' stroke-width='2'/><path d='M271.3,341.0 L268.9,334.4' class='s-st' stroke-width='1'/><path d='M277.4,281.9 L273.9,277.0' class='s-magst' stroke-width='1'/><path d='M246.0,347.7 L244.8,340.8' class='s-st' stroke-width='1'/><path d='M262.3,290.6 L259.7,285.2' class='s-magst' stroke-width='1'/><path d='M220.0,350.0 L220.0,336.0' class='s-st' stroke-width='2'/><path d='M245.9,296.6 L242.8,285.0' class='s-magst' stroke-width='2'/><path d='M194.0,347.7 L195.2,340.8' class='s-st' stroke-width='1'/><path d='M228.7,299.6 L228.2,293.6' class='s-magst' stroke-width='1'/><path d='M168.7,341.0 L171.1,334.4' class='s-st' stroke-width='1'/><path d='M211.3,299.6 L211.8,293.6' class='s-magst' stroke-width='1'/><path d='M145.0,329.9 L152.0,317.8' class='s-st' stroke-width='2'/><path d='M194.1,296.6 L197.2,285.0' class='s-magst' stroke-width='2'/><path d='M123.6,314.9 L128.1,309.5' class='s-st' stroke-width='1'/><path d='M177.7,290.6 L180.3,285.2' class='s-magst' stroke-width='1'/><path d='M105.1,296.4 L110.5,291.9' class='s-st' stroke-width='1'/><path d='M162.6,281.9 L166.1,277.0' class='s-magst' stroke-width='1'/><path d='M90.1,275.0 L102.2,268.0' class='s-st' stroke-width='2'/><path d='M149.3,270.7 L157.8,262.2' class='s-magst' stroke-width='2'/><path d='M79.0,251.3 L85.6,248.9' class='s-st' stroke-width='1'/><path d='M138.1,257.4 L143.0,253.9' class='s-magst' stroke-width='1'/><path d='M72.3,226.0 L79.2,224.8' class='s-st' stroke-width='1'/><path d='M129.4,242.3 L134.8,239.7' class='s-magst' stroke-width='1'/><path d='M70.0,200.0 L84.0,200.0' class='s-st' stroke-width='2'/><path d='M123.4,225.9 L135.0,222.8' class='s-magst' stroke-width='2'/><path d='M72.3,174.0 L79.2,175.2' class='s-st' stroke-width='1'/><path d='M120.4,208.7 L126.4,208.2' class='s-magst' stroke-width='1'/><path d='M79.0,148.7 L85.6,151.1' class='s-st' stroke-width='1'/><path d='M120.4,191.3 L126.4,191.8' class='s-magst' stroke-width='1'/><path d='M90.1,125.0 L102.2,132.0' class='s-st' stroke-width='2'/><path d='M123.4,174.1 L135.0,177.2' class='s-magst' stroke-width='2'/><path d='M105.1,103.6 L110.5,108.1' class='s-st' stroke-width='1'/><path d='M129.4,157.7 L134.8,160.3' class='s-magst' stroke-width='1'/><path d='M123.6,85.1 L128.1,90.5' class='s-st' stroke-width='1'/><path d='M138.1,142.6 L143.0,146.1' class='s-magst' stroke-width='1'/><path d='M145.0,70.1 L152.0,82.2' class='s-st' stroke-width='2'/><path d='M149.3,129.3 L157.8,137.8' class='s-magst' stroke-width='2'/><path d='M168.7,59.0 L171.1,65.6' class='s-st' stroke-width='1'/><path d='M162.6,118.1 L166.1,123.0' class='s-magst' stroke-width='1'/><path d='M194.0,52.3 L195.2,59.2' class='s-st' stroke-width='1'/><path d='M177.7,109.4 L180.3,114.8' class='s-magst' stroke-width='1'/><path d='M220,200 L195.2,107.3' class='s-magst' stroke-width='3' marker-end='url(#ah)'/>"
+        ],
+        [
+         "t",
+         220.0,
+         35.0,
+         "000",
+         "middle",
+         14
+        ],
+        [
+         "t",
+         390.0,
+         205.0,
+         "090",
+         "middle",
+         14
+        ],
+        [
+         "t",
+         220.0,
+         375.0,
+         "180",
+         "middle",
+         14
+        ],
+        [
+         "t",
+         50.0,
+         205.0,
+         "270",
+         "middle",
+         14
+        ],
+        [
+         "t",
+         220,
+         250,
+         "VAR 15°W",
+         "middle",
+         15
+        ],
+        [
+         "m",
+         220,
+         268,
+         "year and annual change"
+        ],
+        [
+         "t",
+         60,
+         384,
+         "Outer ring: true",
+         "start",
+         14
+        ],
+        [
+         "t",
+         380,
+         384,
+         "Inner ring: magnetic",
+         "end",
+         14,
+         "s-mag"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The compass rose has two rings. The outer ring shows true directions, with zero at true north. The inner ring shows magnetic directions, offset by the local variation. The center gives the variation, the year it applied, and the annual change. Reading the inner ring gives you magnetic directions without arithmetic, but the rose may be years out of date, so most captains and most exam problems work in true and convert at the end. Always use the rose nearest the area you’re working in.",
@@ -10516,7 +10609,32 @@
        "Work in true; convert to magnetic or compass at the end",
        "Answer to the nearest degree and tenth of a mile",
        "If your answer isn’t a choice, find the step that went wrong"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "pencil",
+         "Sharp pencils",
+         "A thick line can hide a tenth of a mile"
+        ],
+        [
+         "doc",
+         "Label everything",
+         "As you go"
+        ],
+        [
+         "north",
+         "Work in true",
+         "Convert at the end"
+        ],
+        [
+         "target",
+         "Answer precisely",
+         "Nearest degree and tenth of a mile"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Plotting rewards neatness. Keep your pencil sharp, because a thick line on a coast chart can hide a tenth of a mile. Label every line and position as you draw it, so you can find your work again in a multi-part problem. Work in true directions and convert to magnetic or compass only at the end. Exam answers are usually to the nearest degree and the nearest tenth of a mile, with choices close together. If your answer doesn’t match any choice, go back and find the step that went wrong rather than guessing.",
@@ -10556,7 +10674,95 @@
        "Find 71°35.0′ on the top scale; set dividers from the nearest meridian",
        "Mark where they meet with a dot and a small circle",
        "Write the time beside it"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<rect x='70' y='70' width='330' height='270' class='s-surfb'/><path d='M70,340.0 h-10' class='s-st' stroke-width='1.3'/><path d='M70.0,70 v-10' class='s-st' stroke-width='1.3'/><path d='M70,326.5 h-5' class='s-st' stroke-width='1.3'/><path d='M86.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,313.0 h-5' class='s-st' stroke-width='1.3'/><path d='M103.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,299.5 h-5' class='s-st' stroke-width='1.3'/><path d='M119.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,286.0 h-5' class='s-st' stroke-width='1.3'/><path d='M136.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,272.5 h-10' class='s-st' stroke-width='1.3'/><path d='M152.5,70 v-10' class='s-st' stroke-width='1.3'/><path d='M70,259.0 h-5' class='s-st' stroke-width='1.3'/><path d='M169.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,245.5 h-5' class='s-st' stroke-width='1.3'/><path d='M185.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,232.0 h-5' class='s-st' stroke-width='1.3'/><path d='M202.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,218.5 h-5' class='s-st' stroke-width='1.3'/><path d='M218.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,205.0 h-10' class='s-st' stroke-width='1.3'/><path d='M235.0,70 v-10' class='s-st' stroke-width='1.3'/><path d='M70,191.5 h-5' class='s-st' stroke-width='1.3'/><path d='M251.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,178.0 h-5' class='s-st' stroke-width='1.3'/><path d='M268.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,164.5 h-5' class='s-st' stroke-width='1.3'/><path d='M284.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,151.0 h-5' class='s-st' stroke-width='1.3'/><path d='M301.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,137.5 h-10' class='s-st' stroke-width='1.3'/><path d='M317.5,70 v-10' class='s-st' stroke-width='1.3'/><path d='M70,124.0 h-5' class='s-st' stroke-width='1.3'/><path d='M334.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,110.5 h-5' class='s-st' stroke-width='1.3'/><path d='M350.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,97.0 h-5' class='s-st' stroke-width='1.3'/><path d='M367.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,83.5 h-5' class='s-st' stroke-width='1.3'/><path d='M383.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,70.0 h-10' class='s-st' stroke-width='1.3'/><path d='M400.0,70 v-10' class='s-st' stroke-width='1.3'/>"
+        ],
+        [
+         "m",
+         56,
+         344,
+         "41°15′",
+         "end",
+         12
+        ],
+        [
+         "m",
+         56,
+         74,
+         "41°20′",
+         "end",
+         12
+        ],
+        [
+         "m",
+         56,
+         155.0,
+         "18.5′",
+         "end",
+         12
+        ],
+        [
+         "m",
+         70,
+         52,
+         "71°40′",
+         "middle",
+         12
+        ],
+        [
+         "m",
+         400,
+         52,
+         "71°30′",
+         "middle",
+         12
+        ],
+        [
+         "m",
+         235,
+         52,
+         "35.0′",
+         "middle",
+         12
+        ],
+        [
+         "l",
+         "M70,151.0 H400",
+         "s-magst"
+        ],
+        [
+         "l",
+         "M235,70 V340",
+         "s-magst"
+        ],
+        [
+         "raw",
+         "<circle cx='235' cy='151.0' r='8' class='s-magst' stroke-width='2.5'/><circle cx='235' cy='151.0' r='2.2' class='s-mag'/>"
+        ],
+        [
+         "t",
+         249,
+         139.0,
+         "1015",
+         "start",
+         14
+        ],
+        [
+         "t",
+         235,
+         376,
+         "41°18.5′N, 71°35.0′W",
+         "middle",
+         16,
+         "s-mag"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "To plot a position, start with the latitude. Find forty-one degrees, eighteen and a half minutes on the side scale, and lay a straightedge or one arm of your parallel rulers horizontally across the chart at that latitude. Next, find seventy-one degrees, thirty-five minutes on the top scale, set your dividers from the nearest meridian to that longitude, and carry that distance along your straightedge. Mark the spot with a sharp dot, circle it if it’s a fix, and write the time beside it.",
@@ -10574,7 +10780,14 @@
        "41°18.5′ means 41 degrees, 18 and a half minutes",
        "Don’t confuse 18.5′ with 18′ 50″ in seconds",
        "Write latitude first, with N or S; then longitude, with E or W"
-      ]
+      ],
+      "fig": {
+       "t": "big",
+       "ic": "grid",
+       "v": "1° = 60′",
+       "cap": "41°18.5′ is 41 degrees, 18 and a half minutes",
+       "sub": "Not 18 minutes 50 seconds. Latitude first, then longitude"
+      }
      },
      "video": null,
      "script": "Each degree has sixty minutes. The training chart’s scales divide each minute into tenths, so positions are written in degrees, minutes and tenths of a minute: forty-one degrees, eighteen point five minutes means eighteen and a half minutes. Don’t confuse that with eighteen minutes, fifty seconds, an older format. Count the small tick marks carefully, since scales at different latitudes may be divided differently. Always write latitude first, with north or south, then longitude, with east or west.",
@@ -10592,7 +10805,88 @@
        "Measure from the 71°30′W meridian to the light: 4.6′ west",
        "Longitude: 71°30′ + 4.6′ = 71°34.6′W",
        "Answer: 41°10.2′N, 71°34.6′W"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<rect x='70' y='70' width='330' height='270' class='s-surfb'/><path d='M70,340.0 h-10' class='s-st' stroke-width='1.3'/><path d='M70.0,70 v-10' class='s-st' stroke-width='1.3'/><path d='M70,326.5 h-5' class='s-st' stroke-width='1.3'/><path d='M86.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,313.0 h-5' class='s-st' stroke-width='1.3'/><path d='M103.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,299.5 h-5' class='s-st' stroke-width='1.3'/><path d='M119.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,286.0 h-5' class='s-st' stroke-width='1.3'/><path d='M136.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,272.5 h-10' class='s-st' stroke-width='1.3'/><path d='M152.5,70 v-10' class='s-st' stroke-width='1.3'/><path d='M70,259.0 h-5' class='s-st' stroke-width='1.3'/><path d='M169.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,245.5 h-5' class='s-st' stroke-width='1.3'/><path d='M185.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,232.0 h-5' class='s-st' stroke-width='1.3'/><path d='M202.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,218.5 h-5' class='s-st' stroke-width='1.3'/><path d='M218.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,205.0 h-10' class='s-st' stroke-width='1.3'/><path d='M235.0,70 v-10' class='s-st' stroke-width='1.3'/><path d='M70,191.5 h-5' class='s-st' stroke-width='1.3'/><path d='M251.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,178.0 h-5' class='s-st' stroke-width='1.3'/><path d='M268.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,164.5 h-5' class='s-st' stroke-width='1.3'/><path d='M284.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,151.0 h-5' class='s-st' stroke-width='1.3'/><path d='M301.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,137.5 h-10' class='s-st' stroke-width='1.3'/><path d='M317.5,70 v-10' class='s-st' stroke-width='1.3'/><path d='M70,124.0 h-5' class='s-st' stroke-width='1.3'/><path d='M334.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,110.5 h-5' class='s-st' stroke-width='1.3'/><path d='M350.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,97.0 h-5' class='s-st' stroke-width='1.3'/><path d='M367.0,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,83.5 h-5' class='s-st' stroke-width='1.3'/><path d='M383.5,70 v-5' class='s-st' stroke-width='1.3'/><path d='M70,70.0 h-10' class='s-st' stroke-width='1.3'/><path d='M400.0,70 v-10' class='s-st' stroke-width='1.3'/>"
+        ],
+        [
+         "m",
+         56,
+         344,
+         "41°08′",
+         "end",
+         12
+        ],
+        [
+         "m",
+         56,
+         74,
+         "41°13′",
+         "end",
+         12
+        ],
+        [
+         "m",
+         56,
+         225.2,
+         "10.2′",
+         "end",
+         12
+        ],
+        [
+         "m",
+         70,
+         52,
+         "71°40′",
+         "middle",
+         12
+        ],
+        [
+         "m",
+         400,
+         52,
+         "71°30′",
+         "middle",
+         12
+        ],
+        [
+         "l",
+         "M70,221.2 H248.2",
+         "s-magst"
+        ],
+        [
+         "raw",
+         "<circle cx='248.2' cy='221.2' r='6' class='s-mag'/><circle cx='248.2' cy='221.2' r='12' class='s-mag' opacity='.25'/>"
+        ],
+        [
+         "p",
+         "M248.2,251.2 H400",
+         "s-st",
+         2
+        ],
+        [
+         "t",
+         324,
+         271.2,
+         "4.6′ west of 71°30′",
+         "middle",
+         13
+        ],
+        [
+         "t",
+         235,
+         376,
+         "41°10.2′N, 71°34.6′W",
+         "middle",
+         16,
+         "s-mag"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Let’s read a light’s position. Lay a straightedge from the light horizontally to the side scale, and read forty-one degrees, ten point two minutes north. Next, measure with the dividers from the nearest meridian, seventy-one degrees thirty minutes west, to the light. Carry that to the top scale, and it spans four point six minutes. Because the light is west of the meridian, and west longitude increases to the west, add: seventy-one degrees thirty-four point six minutes west. The answer is forty-one degrees ten point two north, seventy-one degrees thirty-four point six west.",
@@ -10632,7 +10926,28 @@
        "Measure the length with dividers on the latitude scale",
        "Long legs: set dividers to a round distance and step it off",
        "Label course above, speed below; add the ETA at the destination"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "pencil",
+         "Draw the line"
+        ],
+        [
+         "rulers",
+         "Walk to the rose: true course"
+        ],
+        [
+         "dividers",
+         "Measure on the latitude scale"
+        ],
+        [
+         "doc",
+         "Label: course above, speed below"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "To lay a course, draw a straight line from your departure point to your destination, checking that it doesn’t cross land or shoals. Walk the parallel rulers to the nearest rose and read the true course on the outer ring. Measure the length of the line with dividers on the latitude scale. For a leg longer than your dividers can span, set them to a round number like one or five miles and step along the line, then measure the leftover piece. Label the line, and write your estimated time of arrival at the destination.",
@@ -10650,7 +10965,22 @@
        "Never use the longitude scale",
        "Step carefully: small errors add up on long legs",
        "Answers are usually to the nearest tenth of a mile"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "yes",
+        "Latitude scale, at the side",
+        "dividers",
+        "1 minute = 1 nautical mile. Use the part level with your work"
+       ],
+       "b": [
+        "no",
+        "Longitude scale",
+        "no",
+        "Never measure distance on it"
+       ]
+      }
      },
      "video": null,
      "script": "The most common distance errors are measuring on the longitude scale, which gives an answer that’s much too large at Florida or New England latitudes, and using the latitude scale far from where you’re working. A third is careless stepping with the dividers, where small errors add up on a long leg. Work carefully, and give distances to the nearest tenth of a nautical mile.",
@@ -10668,7 +10998,62 @@
        "Dividers span 5.3′ of latitude: 5.3 nm",
        "At 12 knots: 60 × 5.3 ÷ 12 = 26.5 min",
        "Depart 0900: ETA about 0927"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<path d='M408,60 V24 M400,34 L408,22 L416,34' class='s-st' stroke-width='2'/><text x='408' y='76' text-anchor='middle' font-size='13' font-weight='600' class='s-mut'>N</text>"
+        ],
+        [
+         "p",
+         "M80,270 L348.9,161.4",
+         "s-st",
+         2.5
+        ],
+        [
+         "raw",
+         "<circle cx='80' cy='270' r='8' class='s-magst' stroke-width='2.5'/><circle cx='80' cy='270' r='2.2' class='s-mag'/><circle cx='348.9' cy='161.4' r='8' class='s-magst' stroke-width='2.5'/><circle cx='348.9' cy='161.4' r='2.2' class='s-mag'/>"
+        ],
+        [
+         "m",
+         80,
+         300,
+         "Depart 0900"
+        ],
+        [
+         "m",
+         348.9,
+         141.4,
+         "ETA 0927"
+        ],
+        [
+         "raw",
+         "<g transform='rotate(-22 214.4 215.7)'><text x='214.4' y='203.7' text-anchor='middle' font-size='16' font-weight='700' class='s-mag'>C 068°T</text><text x='214.4' y='239.7' text-anchor='middle' font-size='16' font-weight='700' class='s-mag'>S 12</text></g>"
+        ],
+        [
+         "t",
+         220,
+         40,
+         "Buoy “1” to bell “2”"
+        ],
+        [
+         "t",
+         220,
+         340,
+         "5.3 nm at 12 knots",
+         "middle",
+         15
+        ],
+        [
+         "m",
+         220,
+         362,
+         "60 × 5.3 ÷ 12 = 26.5 minutes"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Here’s a complete leg. You’re going from buoy one to bell two. Walking the parallel rulers to the rose gives a true course of zero six eight. The dividers span five point three minutes on the latitude scale beside the line, so the distance is five point three nautical miles. At twelve knots, the time is sixty times five point three, divided by twelve, about twenty-six and a half minutes. Departing at nine hundred, you’ll arrive at about nine twenty-seven.",
@@ -10696,7 +11081,47 @@
        "Distance (nm) = S × T ÷ 60",
        "Speed (knots) = 60 × D ÷ T"
       ],
-      "ex": "Example: 12 nm at 8 knots takes 60 × 12 ÷ 8 = 90 minutes"
+      "ex": "Example: 12 nm at 8 knots takes 60 × 12 ÷ 8 = 90 minutes",
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<circle cx='220' cy='190' r='130' class='s-surfb'/><path d='M90,190 H350 M220,190 V320' class='s-st' stroke-width='2.5'/>"
+        ],
+        [
+         "t",
+         220,
+         150,
+         "60 × D",
+         "middle",
+         40,
+         "s-mag"
+        ],
+        [
+         "t",
+         156,
+         262,
+         "S",
+         "middle",
+         44
+        ],
+        [
+         "t",
+         284,
+         262,
+         "T",
+         "middle",
+         44
+        ],
+        [
+         "m",
+         220,
+         362,
+         "Cover the one you want; the rest is the formula"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Speed, time and distance problems are free points if you know one formula: sixty times distance equals speed times time. Remember it as sixty D street. Distance is in nautical miles, speed in knots, and time in minutes. To find time, multiply sixty by the distance and divide by the speed. To find distance, multiply speed by time and divide by sixty. To find speed, multiply sixty by the distance and divide by the time. Twelve miles at eight knots takes sixty times twelve, divided by eight, or ninety minutes.",
@@ -10714,7 +11139,27 @@
        "1.75 hours = 1 hour 45 minutes",
        "105 minutes = 1 hour 45 minutes",
        "Multi-leg trips: add the time for each leg"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "clock",
+         "24-hour clock",
+         "1:30 p.m. is 1330"
+        ],
+        [
+         "calc",
+         "Carry at 60, not 100",
+         "0945 + 50 minutes = 1035"
+        ],
+        [
+         "clock",
+         "Decimal hours",
+         "1.75 hours = 1 hour 45 minutes"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Many wrong answers come from time arithmetic, not navigation. Use the twenty-four hour clock, so one thirty in the afternoon is thirteen thirty. When you add minutes, remember there are sixty minutes in an hour, not one hundred: nine forty-five plus fifty minutes is ten thirty-five. Convert decimal hours by multiplying the decimal by sixty, so one point seven five hours is one hour forty-five minutes. For trips with several legs, work out each leg’s time separately and add them.",
@@ -10732,7 +11177,78 @@
        "ETA = 0815 + 1:23 = 0938",
        "Speed changes? Recompute from your latest position",
        "Current changes your speed over ground, and your ETA"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "p",
+         "M60,180 H380",
+         "s-st",
+         3
+        ],
+        [
+         "raw",
+         "<circle cx='60' cy='180' r='9' class='s-mag'/><circle cx='380' cy='180' r='9' class='s-mag'/>"
+        ],
+        [
+         "t",
+         60,
+         150,
+         "0815",
+         "middle",
+         20
+        ],
+        [
+         "m",
+         60,
+         214,
+         "Depart"
+        ],
+        [
+         "t",
+         380,
+         150,
+         "0938",
+         "middle",
+         20,
+         "s-mag"
+        ],
+        [
+         "m",
+         380,
+         214,
+         "ETA"
+        ],
+        [
+         "i",
+         "boat",
+         220,
+         160,
+         1.2
+        ],
+        [
+         "t",
+         220,
+         260,
+         "22 nm at 16 knots",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         220,
+         286,
+         "60 × 22 ÷ 16 = 82.5 minutes"
+        ],
+        [
+         "m",
+         220,
+         306,
+         "about 1 hour 23 minutes"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "To find an estimated time of arrival, work out the running time and add it to your departure time. Departing at eight fifteen, running twenty-two miles at sixteen knots takes sixty times twenty-two, divided by sixteen, about eighty-two and a half minutes, or one hour twenty-three minutes. Your ETA is nine thirty-eight. If your speed changes, recompute from your latest position. And remember that current changes your speed over the ground, so a head current makes you late.",
@@ -10750,7 +11266,100 @@
        "Rule of thirds: one third out, one third back, one third reserve",
        "Carry 3 × 54 = 162 gallons",
        "Rough seas and heavy loads burn more: stay conservative"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         50,
+         "Rule of thirds"
+        ],
+        [
+         "x",
+         30,
+         100,
+         124,
+         90,
+         "#A3195B"
+        ],
+        [
+         "x",
+         158,
+         100,
+         124,
+         90,
+         "#D98BB0"
+        ],
+        [
+         "x",
+         286,
+         100,
+         124,
+         90,
+         "#F2C230"
+        ],
+        [
+         "t",
+         92,
+         150,
+         "Out",
+         "middle",
+         18,
+         "s-on"
+        ],
+        [
+         "t",
+         220,
+         150,
+         "Back",
+         "middle",
+         18
+        ],
+        [
+         "t",
+         348,
+         150,
+         "Reserve",
+         "middle",
+         18
+        ],
+        [
+         "m",
+         92,
+         216,
+         "54 gal"
+        ],
+        [
+         "m",
+         220,
+         216,
+         "54 gal"
+        ],
+        [
+         "m",
+         348,
+         216,
+         "54 gal"
+        ],
+        [
+         "t",
+         220,
+         280,
+         "Carry 3 × 54 = 162 gallons",
+         "middle",
+         17,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         306,
+         "3 hours each way at 18 gallons an hour"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Fuel planning uses the rule of thirds: plan to use one third of your fuel going out, one third coming back, and keep one third in reserve. Say your spot is forty-two miles out, you cruise at fourteen knots, and you burn eighteen gallons an hour. The run out takes three hours and uses fifty-four gallons. By the rule of thirds, you need three times fifty-four, or one hundred sixty-two gallons aboard. Rough seas, head winds and heavy loads all burn more fuel, so be conservative.",
@@ -10768,7 +11377,67 @@
        "The difference is current along your track",
        "Exam problems usually give speed through the water",
        "Find speed over ground from successive fixes"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "i",
+         "boat",
+         70,
+         110,
+         1.6
+        ],
+        [
+         "a",
+         "M110,110 H390"
+        ],
+        [
+         "t",
+         250,
+         92,
+         "Speed through the water",
+         "middle",
+         15
+        ],
+        [
+         "m",
+         250,
+         134,
+         "Knotmeter or log"
+        ],
+        [
+         "a",
+         "M390,200 H310",
+         "s-st"
+        ],
+        [
+         "m",
+         350,
+         226,
+         "Current against you"
+        ],
+        [
+         "a",
+         "M110,290 H310"
+        ],
+        [
+         "t",
+         210,
+         272,
+         "Speed over ground",
+         "middle",
+         15,
+         "s-mag"
+        ],
+        [
+         "m",
+         210,
+         314,
+         "What the GPS shows"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Two speeds matter. A knotmeter or log measures your speed through the water. GPS shows your speed over the ground. The difference between them is the current along your track: with a fair current you go faster over the ground, and with a foul current, slower. Exam problems usually give you the boat’s speed through the water, and ask you to find speed over the ground, or speed made good, from fixes or a current diagram.",
@@ -10808,7 +11477,27 @@
        "068 + 14 = 082° magnetic",
        "Deviation on 082° from the card: 2°E",
        "082 − 2 = 080° compass: steer 080"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "north",
+         "True 068°",
+         "The plotted course"
+        ],
+        [
+         "globe",
+         "+ 14°W variation",
+         "082° magnetic"
+        ],
+        [
+         "magnet",
+         "− 2°E deviation",
+         "080° compass: steer 080"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Here’s the most common conversion. You’ve plotted a course of zero six eight true. The training chart area has variation of about fourteen degrees west. Going from true toward magnetic, add west: zero six eight plus fourteen is zero eight two magnetic. Look up the deviation for that heading on the deviation card, two degrees east. Going from magnetic toward compass, subtract east: zero eight two minus two gives zero eight zero. That’s the course you steer.",
@@ -10826,7 +11515,94 @@
        "015 + 2 = 017° magnetic (deviation for your heading)",
        "017 − 14 = 003° true",
        "Draw a line through the light at 003°; you lie along its reciprocal, 183°"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<path d='M408,60 V24 M400,34 L408,22 L416,34' class='s-st' stroke-width='2'/><text x='408' y='76' text-anchor='middle' font-size='13' font-weight='600' class='s-mut'>N</text>"
+        ],
+        [
+         "raw",
+         "<circle cx='236' cy='80' r='6' class='s-mag'/><circle cx='236' cy='80' r='12' class='s-mag' opacity='.25'/>"
+        ],
+        [
+         "p",
+         "M236,80 L222.9,329.7",
+         "s-st",
+         2.5
+        ],
+        [
+         "h",
+         225.0,
+         289.7,
+         80,
+         "s-ink",
+         0.9
+        ],
+        [
+         "m",
+         258,
+         85,
+         "Light",
+         "start"
+        ],
+        [
+         "t",
+         20,
+         150,
+         "015° C + 2°E",
+         "start",
+         15
+        ],
+        [
+         "m",
+         20,
+         170,
+         "= 017° magnetic",
+         "start"
+        ],
+        [
+         "t",
+         20,
+         204,
+         "017° − 14°W",
+         "start",
+         15
+        ],
+        [
+         "m",
+         20,
+         224,
+         "= 003° true",
+         "start"
+        ],
+        [
+         "t",
+         262,
+         200,
+         "LOP 003°T",
+         "start",
+         15,
+         "s-mag"
+        ],
+        [
+         "m",
+         262,
+         220,
+         "You’re on the 183°",
+         "start"
+        ],
+        [
+         "m",
+         262,
+         238,
+         "line from the light",
+         "start"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "To plot a bearing taken with the ship’s compass, first convert it to true, using the deviation for the boat’s heading, not for the bearing. Steering zero eight zero by compass, with two degrees east deviation, you see a light bearing zero one five by compass. Add east: zero one seven magnetic. Subtract fourteen west: zero zero three true. Now draw a line through the light in that direction. Your boat lies somewhere along that line, on the side toward you, which runs from the light along the reciprocal, one eight three.",
@@ -10844,7 +11620,14 @@
        "Change: 16 × 2′ = 32′ increase",
        "14°45′ + 32′ = 15°17′W",
        "Use about 15°W"
-      ]
+      ],
+      "fig": {
+       "t": "big",
+       "ic": "compass",
+       "v": "15°W",
+       "cap": "14°45′W in 2010, plus 16 years × 2′ = 15°17′W",
+       "sub": "Update the rose’s variation to the current year"
+      }
      },
      "video": null,
      "script": "The variation printed in the rose applies to the year shown, so update it. Suppose the rose says fourteen degrees forty-five minutes west in twenty ten, increasing two minutes a year. In twenty twenty-six, sixteen years have passed. Sixteen times two minutes is thirty-two minutes of increase. Fourteen forty-five plus thirty-two minutes is fifteen degrees seventeen minutes west, or about fifteen degrees west. Note that many exam questions simply give you the variation to use, so read the question carefully before doing this step.",
@@ -10862,7 +11645,27 @@
        "Reading the wrong side of the rose: 180° off",
        "Mixing true and magnetic in one problem",
        "Answer in what the question asks: true, magnetic or compass"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "magnet",
+         "Deviation",
+         "Use the boat’s heading, even for bearings"
+        ],
+        [
+         "turn",
+         "180° off?",
+         "You read the wrong side of the rose"
+        ],
+        [
+         "north",
+         "True, magnetic or compass?",
+         "Answer in what the question asks"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Watch for these traps. Use the deviation for the boat’s heading when correcting a bearing. Get the signs right: going toward compass, add west; going toward true, add east. Reading the wrong side of the rose puts your answer exactly one hundred eighty degrees off, and that wrong answer is often one of the choices. Don’t mix true and magnetic in the same calculation. And give your answer in whatever the question asks for: true, magnetic or compass.",
@@ -10890,7 +11693,28 @@
        "A distance circle: a radar range to a charted point",
        "A depth contour: a rough check",
        "Label: time above the line, bearing below"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "eye",
+         "A bearing to a charted object"
+        ],
+        [
+         "flag",
+         "A range: two objects in line"
+        ],
+        [
+         "radar",
+         "A radar distance circle"
+        ],
+        [
+         "depth",
+         "A depth contour: a rough check"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A line of position, or L O P, is a line somewhere along which your boat must be. The most common is a bearing to a charted object, like a lighthouse or tower, converted to true and drawn through the object. Two charted objects in line, a range, give a very accurate L O P with no compass error at all. A radar range to a charted point gives a circle of position around it. Even a depth contour can serve as a rough L O P. Label each one with the time above the line and the true bearing below it.",
@@ -10932,7 +11756,77 @@
        "Through the tower, draw a line toward you: 245°T",
        "They cross at your 1015 fix: circle and label it",
        "Read the fix’s latitude and longitude"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<path d='M408,60 V24 M400,34 L408,22 L416,34' class='s-st' stroke-width='2'/><text x='408' y='76' text-anchor='middle' font-size='13' font-weight='600' class='s-mut'>N</text>"
+        ],
+        [
+         "p",
+         "M135.0,101.5 L215.4,322.3",
+         "s-st",
+         2
+        ],
+        [
+         "p",
+         "M358.6,206.0 L159.2,299.0",
+         "s-st",
+         2
+        ],
+        [
+         "raw",
+         "<circle cx='135.0' cy='101.5' r='6' class='s-mag'/><circle cx='135.0' cy='101.5' r='12' class='s-mag' opacity='.25'/><circle cx='358.6' cy='206.0' r='7' class='s-st' stroke-width='2.5'/><circle cx='358.6' cy='206.0' r='2' class='s-ink'/><circle cx='200' cy='280' r='10' class='s-magst' stroke-width='2.5'/><circle cx='200' cy='280' r='2.2' class='s-mag'/>"
+        ],
+        [
+         "m",
+         119.0,
+         105.5,
+         "Light",
+         "end"
+        ],
+        [
+         "m",
+         358.6,
+         190.0,
+         "Tower"
+        ],
+        [
+         "t",
+         128,
+         190,
+         "160°T",
+         "end",
+         14,
+         "s-mag"
+        ],
+        [
+         "t",
+         300,
+         216,
+         "245°T",
+         "middle",
+         14,
+         "s-mag"
+        ],
+        [
+         "t",
+         218,
+         308,
+         "1015 fix",
+         "start",
+         15
+        ],
+        [
+         "m",
+         220,
+         372,
+         "Draw each line from the object back toward you"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "At ten fifteen you take two bearings: a light bears three four zero true, and a tower bears zero six five true. Through the light, draw a line along the bearing. Your boat is on the side toward you, along the reciprocal, one six zero. Through the tower, draw the second line; your boat is along its reciprocal, two four five. The lines are eighty-five degrees apart, nearly ideal, and they cross at your ten fifteen fix. Circle it, label it, and read its latitude and longitude from the scales.",
@@ -10950,7 +11844,50 @@
        "A range plus a bearing",
        "GPS fix: mark it with a triangle",
        "Cross-check every fix with another source"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<circle cx='150' cy='150' r='7' class='s-st' stroke-width='2.5'/><circle cx='150' cy='150' r='2' class='s-ink'/><circle cx='150' cy='150' r='130' class='s-magst' stroke-width='2' stroke-dasharray='6 5'/><circle cx='262.6' cy='215.0' r='10' class='s-magst' stroke-width='2.5'/><circle cx='262.6' cy='215.0' r='2.2' class='s-mag'/><path d='M330,330 L346,358 H314 Z' class='s-magst' stroke-width='2.5'/><circle cx='330' cy='348' r='2' class='s-mag'/>"
+        ],
+        [
+         "p",
+         "M150,150 L297.2,235.0",
+         "s-st",
+         2
+        ],
+        [
+         "t",
+         20,
+         340,
+         "Bearing + radar range",
+         "start",
+         16
+        ],
+        [
+         "m",
+         20,
+         360,
+         "on one object: an excellent fix",
+         "start"
+        ],
+        [
+         "m",
+         278.6,
+         207.0,
+         "Fix",
+         "start"
+        ],
+        [
+         "m",
+         330,
+         384,
+         "GPS fix: a triangle"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Fixes don’t have to come from two bearings. A bearing and a radar range on the same object make an excellent fix, because the two lines cross at right angles. Radar ranges to two separate objects give two circles that cross. A range line plus a bearing on another object works well. An electronic fix from GPS is marked with a small triangle. Whatever the method, cross-check every fix against another source, like the depth, before you trust it.",
@@ -10990,7 +11927,32 @@
        "At the time of every fix or running fix",
        "At the time of a single line of position",
        "Start a new DR track from every fix"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "clock",
+         "Every hour, on the hour",
+         ""
+        ],
+        [
+         "turn",
+         "At every course or speed change",
+         ""
+        ],
+        [
+         "target",
+         "At every fix or line of position",
+         ""
+        ],
+        [
+         "right",
+         "A new DR track from every fix",
+         ""
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Dead reckoning follows a few standard rules. Plot a DR position every hour on the hour, at every change of course or speed, at the time of every fix or running fix, and at the time you obtain a single line of position. Whenever you get a fix, start a new DR track from it, because the fix is better information than your old DR. These rules come from Bowditch, the standard navigation reference, and exam problems follow them.",
@@ -11008,7 +11970,27 @@
        "EP from one LOP: the point on the LOP nearest the DR",
        "Fix: two or more good LOPs at the same time",
        "Trust a fix over an EP, and an EP over a DR"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "num:1",
+         "Fix",
+         "Two or more good LOPs at one time. Trust it most"
+        ],
+        [
+         "num:2",
+         "Estimated position",
+         "The DR adjusted with other information"
+        ],
+        [
+         "num:3",
+         "DR",
+         "Course and speed only"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Know the difference between these positions. A DR uses only the course steered and the speed through the water, ignoring current and wind. An estimated position improves on the DR with any other information, such as a known current or a single line of position. With one L O P, the E P is the point on that line nearest your DR position. A fix uses two or more good lines of position taken at the same time. In order of reliability: trust a fix over an E P, and an E P over a DR.",
@@ -11026,7 +12008,87 @@
        "0930: change course to 160°T; DR 5 nm further along 125°T",
        "1000 DR: 5 nm from the 0930 DR along 160°T",
        "A fix at any time starts a new DR track"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<path d='M408,60 V24 M400,34 L408,22 L416,34' class='s-st' stroke-width='2'/><text x='408' y='76' text-anchor='middle' font-size='13' font-weight='600' class='s-mut'>N</text>"
+        ],
+        [
+         "p",
+         "M60,90 L244.3,219.0 L270.0,289.5",
+         "s-st",
+         2.5
+        ],
+        [
+         "raw",
+         "<circle cx='60' cy='90' r='8' class='s-magst' stroke-width='2.5'/><circle cx='60' cy='90' r='2.2' class='s-mag'/><path d='M173.9,176.0 A9,9 0 0 1 191.9,176.0' class='s-st' stroke-width='2.5'/><circle cx='182.9' cy='176.0' r='2.2' class='s-ink'/><path d='M235.3,219.0 A9,9 0 0 1 253.3,219.0' class='s-st' stroke-width='2.5'/><circle cx='244.3' cy='219.0' r='2.2' class='s-ink'/><path d='M261.0,289.5 A9,9 0 0 1 279.0,289.5' class='s-st' stroke-width='2.5'/><circle cx='270.0' cy='289.5' r='2.2' class='s-ink'/>"
+        ],
+        [
+         "m",
+         74,
+         78,
+         "0800 fix",
+         "start"
+        ],
+        [
+         "m",
+         196.9,
+         168.0,
+         "0900 DR",
+         "start"
+        ],
+        [
+         "m",
+         258.3,
+         211.0,
+         "0930 DR",
+         "start"
+        ],
+        [
+         "m",
+         284.0,
+         295.5,
+         "1000 DR",
+         "start"
+        ],
+        [
+         "t",
+         70,
+         190,
+         "C 125°T",
+         "start",
+         15,
+         "s-mag"
+        ],
+        [
+         "t",
+         70,
+         210,
+         "S 10",
+         "start",
+         15,
+         "s-mag"
+        ],
+        [
+         "t",
+         180,
+         290,
+         "C 160°T",
+         "start",
+         15,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         380,
+         "A fix at any time starts a new DR track"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Here’s a DR track. You leave an eight hundred fix on course one two five true at ten knots. At nine hundred, plot a DR ten miles along that course. At nine thirty you change course, so plot a DR there, five more miles along one two five. From that nine thirty DR, draw the new course line at one six zero true, and at ten hundred plot a DR five miles along it. Label each position with its time. If you get a fix along the way, start a fresh DR track from the fix.",
@@ -11044,7 +12106,27 @@
        "If GPS fails, your last fix plus DR gets you home",
        "A DR shows how much current is pushing you",
        "Practice on calm days and compare with GPS"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "book",
+         "Keep a log",
+         "Courses, speeds and times"
+        ],
+        [
+         "warn",
+         "If GPS fails",
+         "Your last fix plus DR gets you home"
+        ],
+        [
+         "current",
+         "DR compared with GPS",
+         "Shows how the current is pushing you"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "With GPS on every boat, why learn dead reckoning? Because electronics fail. If your GPS or power quits, your last fix plus a DR from your logged courses and speeds is how you get home. Keep a written log of course, speed and the times of every change. Your chartplotter track only records where you went; it isn’t a DR. And comparing your DR with a GPS fix shows you exactly how much the current is setting you, which helps you plan the rest of the trip.",
@@ -11084,7 +12166,104 @@
        "Run between bearings: 12 × 30 ÷ 60 = 6 nm along 090°T",
        "Advance the 0900 LOP 6 nm toward 090°T, keeping it parallel",
        "The 0930 running fix is where it crosses the 0930 LOP"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<path d='M408,60 V24 M400,34 L408,22 L416,34' class='s-st' stroke-width='2'/><text x='408' y='76' text-anchor='middle' font-size='13' font-weight='600' class='s-mut'>N</text>"
+        ],
+        [
+         "p",
+         "M50,310 H400",
+         "s-st",
+         2.5
+        ],
+        [
+         "p",
+         "M154.9,131.6 L76.2,347.7",
+         "s-st",
+         2
+        ],
+        [
+         "p",
+         "M154.9,131.6 L277.4,343.8",
+         "s-st",
+         2
+        ],
+        [
+         "l",
+         "M322.9,131.6 L244.2,347.7",
+         "s-magst"
+        ],
+        [
+         "raw",
+         "<circle cx='154.9' cy='131.6' r='6' class='s-mag'/><circle cx='154.9' cy='131.6' r='12' class='s-mag' opacity='.25'/><path d='M81,310 A9,9 0 0 1 99,310' class='s-st' stroke-width='2.5'/><circle cx='90' cy='310' r='2.2' class='s-ink'/><circle cx='258' cy='310' r='10' class='s-magst' stroke-width='2.5'/><circle cx='258' cy='310' r='2.2' class='s-mag'/>"
+        ],
+        [
+         "a",
+         "M100,332 H246"
+        ],
+        [
+         "t",
+         174,
+         356,
+         "Run 6 nm",
+         "middle",
+         14,
+         "s-mag"
+        ],
+        [
+         "m",
+         154.9,
+         113.6,
+         "Light"
+        ],
+        [
+         "m",
+         84,
+         214,
+         "0900 LOP"
+        ],
+        [
+         "m",
+         300,
+         200,
+         "0900 LOP,",
+         "start"
+        ],
+        [
+         "m",
+         300,
+         218,
+         "advanced",
+         "start"
+        ],
+        [
+         "m",
+         248,
+         252,
+         "0930",
+         "end"
+        ],
+        [
+         "t",
+         274,
+         300,
+         "0930 running fix",
+         "start",
+         14
+        ],
+        [
+         "m",
+         60,
+         300,
+         "C 090°T",
+         "start"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Let’s work one. At nine hundred, steering zero nine zero true at twelve knots, a light bears zero two zero true. Plot that L O P. At nine thirty, the same light bears three three zero true. Plot the second L O P. In thirty minutes at twelve knots, you ran six miles along zero nine zero. Pick any point on the nine hundred L O P, measure six miles from it in the direction zero nine zero, and draw a line through that point parallel to the original L O P. Where it crosses the nine thirty L O P is your nine thirty running fix, labeled R fix.",
@@ -11134,7 +12313,27 @@
         "Twice that angle",
         "Distance off at the 2nd bearing = distance run"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "txt:45/90",
+         "Bow and beam",
+         "Distance off abeam = distance run"
+        ],
+        [
+         "txt:30/60",
+         "Doubling the angle",
+         "Distance off = distance run"
+        ],
+        [
+         "txt:22½/45",
+         "Seven-tenths rule",
+         "Off abeam ≈ 0.7 × distance run"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Bow and beam is one case of a general rule called doubling the angle on the bow. Whenever an object’s angle on the bow doubles, the distance run between the two bearings equals your distance from the object at the second bearing. With thirty and sixty degrees, the distance run equals your distance off at the sixty degree bearing. A useful extra: with twenty-two and a half and forty-five degrees, your distance off when you pass abeam will be about seven tenths of the distance run, which warns you early if you’ll pass too close.",
@@ -11152,7 +12351,91 @@
        "Run: 18 min at 10 knots = 3 nm",
        "Distance off at 1030 = 3 nm",
        "Plot it: 3 nm from the light along the 1030 bearing line"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "p",
+         "M40,300 H410",
+         "s-st",
+         2.5
+        ],
+        [
+         "p",
+         "M70,300 L295,170.1",
+         "s-st",
+         2
+        ],
+        [
+         "p",
+         "M220,300 L295,170.1",
+         "s-magst",
+         3
+        ],
+        [
+         "raw",
+         "<circle cx='295' cy='170.1' r='6' class='s-mag'/><circle cx='295' cy='170.1' r='12' class='s-mag' opacity='.25'/><path d='M61,300 A9,9 0 0 1 79,300' class='s-st' stroke-width='2.5'/><circle cx='70' cy='300' r='2.2' class='s-ink'/><path d='M211,300 A9,9 0 0 1 229,300' class='s-st' stroke-width='2.5'/><circle cx='220' cy='300' r='2.2' class='s-ink'/>"
+        ],
+        [
+         "m",
+         70,
+         330,
+         "1012"
+        ],
+        [
+         "m",
+         220,
+         330,
+         "1030"
+        ],
+        [
+         "t",
+         126,
+         290,
+         "30°",
+         "middle",
+         15
+        ],
+        [
+         "t",
+         252,
+         290,
+         "60°",
+         "middle",
+         15
+        ],
+        [
+         "t",
+         145,
+         356,
+         "Run: 3 nm",
+         "middle",
+         15
+        ],
+        [
+         "t",
+         290,
+         236,
+         "3 nm off",
+         "start",
+         15,
+         "s-mag"
+        ],
+        [
+         "t",
+         220,
+         44,
+         "Doubling the angle on the bow"
+        ],
+        [
+         "m",
+         220,
+         66,
+         "Distance off = distance run"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Here’s doubling the angle at work. Running at ten knots, you see a light thirty degrees on the bow at ten twelve, and sixty degrees on the bow at ten thirty. In eighteen minutes at ten knots, you ran three miles. So at ten thirty you were three miles from the light. Combine that distance with the ten thirty bearing, and you have a fix: measure three miles from the light along the reciprocal of the bearing, and mark your position.",
@@ -11192,7 +12475,97 @@
        "1000 fix lies 2.4 nm from the DR, bearing 120°T from it",
        "Set 120°T; drift 2.4 ÷ 2 = 1.2 knots",
        "Actual track: measure from the 0800 fix to the 1000 fix"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<path d='M408,60 V24 M400,34 L408,22 L416,34' class='s-st' stroke-width='2'/><text x='408' y='76' text-anchor='middle' font-size='13' font-weight='600' class='s-mut'>N</text>"
+        ],
+        [
+         "p",
+         "M60,330 L286.3,103.7",
+         "s-st",
+         2.5
+        ],
+        [
+         "l",
+         "M60,330 L327.9,127.7",
+         "s-magst"
+        ],
+        [
+         "raw",
+         "<circle cx='60' cy='330' r='8' class='s-magst' stroke-width='2.5'/><circle cx='60' cy='330' r='2.2' class='s-mag'/><path d='M277.3,103.7 A9,9 0 0 1 295.3,103.7' class='s-st' stroke-width='2.5'/><circle cx='286.3' cy='103.7' r='2.2' class='s-ink'/><circle cx='327.9' cy='127.7' r='8' class='s-magst' stroke-width='2.5'/><circle cx='327.9' cy='127.7' r='2.2' class='s-mag'/>"
+        ],
+        [
+         "a",
+         "M295.0,108.7 L319.2,122.7"
+        ],
+        [
+         "m",
+         76,
+         336,
+         "0800 fix",
+         "start"
+        ],
+        [
+         "m",
+         272.3,
+         95.7,
+         "1000 DR",
+         "end"
+        ],
+        [
+         "m",
+         341.9,
+         133.7,
+         "1000 fix",
+         "start"
+        ],
+        [
+         "t",
+         110,
+         200,
+         "C 045°T",
+         "start",
+         15
+        ],
+        [
+         "t",
+         110,
+         220,
+         "S 8",
+         "start",
+         15
+        ],
+        [
+         "t",
+         250,
+         250,
+         "Set 120°T",
+         "start",
+         16,
+         "s-mag"
+        ],
+        [
+         "t",
+         250,
+         272,
+         "Drift 1.2 knots",
+         "start",
+         16,
+         "s-mag"
+        ],
+        [
+         "m",
+         250,
+         292,
+         "2.4 nm ÷ 2 hours",
+         "start"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "You leave an eight hundred fix steering zero four five true at eight knots. At ten hundred your DR is sixteen miles along that course, but a ten hundred fix lies two point four miles from the DR, in the direction one two zero true. The set is one two zero true, the direction from DR to fix. The drift is two point four miles divided by two hours, one point two knots. To find what you actually made good, measure the line from the eight hundred fix to the ten hundred fix: that’s your track and speed over the ground.",
@@ -11222,7 +12595,76 @@
        "Draw 2 nm of current toward 180° from the start",
        "From its end, swing 10 nm to meet the track",
        "Steer about 078°T; speed made good about 9.8 knots"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<path d='M408,60 V24 M400,34 L408,22 L416,34' class='s-st' stroke-width='2'/><text x='408' y='76' text-anchor='middle' font-size='13' font-weight='600' class='s-mut'>N</text>"
+        ],
+        [
+         "l",
+         "M60,150 H410"
+        ],
+        [
+         "a",
+         "M60,150 L60,210",
+         "s-st"
+        ],
+        [
+         "a",
+         "M60,214 L367.5,152"
+        ],
+        [
+         "raw",
+         "<circle cx='60' cy='150' r='8' class='s-magst' stroke-width='2.5'/><circle cx='60' cy='150' r='2.2' class='s-mag'/>"
+        ],
+        [
+         "m",
+         240,
+         138,
+         "Intended track 090°T"
+        ],
+        [
+         "m",
+         72,
+         190,
+         "Current",
+         "start"
+        ],
+        [
+         "m",
+         72,
+         208,
+         "180°T, 2 kn",
+         "start"
+        ],
+        [
+         "t",
+         230,
+         222,
+         "Steer 078°T at 10 knots",
+         "middle",
+         15,
+         "s-mag"
+        ],
+        [
+         "t",
+         220,
+         320,
+         "Speed made good: about 9.8 knots",
+         "middle",
+         15
+        ],
+        [
+         "m",
+         220,
+         344,
+         "Draw the current first, then swing your speed to the track"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Here are numbers. You want to make good a track of zero nine zero true at a boat speed of ten knots, and the current sets one eight zero at two knots, pushing you south. From the start, draw two miles toward one eight zero. From that point, swing ten miles until you hit the track line. The line you just swung runs about zero seven eight true, so you steer zero seven eight, crabbing about twelve degrees into the current. Your speed along the track, the speed made good, is about nine point eight knots.",
@@ -11240,7 +12682,32 @@
        "Across your track: steer up-current",
        "Wind leeway acts like a current",
        "Recheck with fixes and adjust"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "right",
+         "Current with you",
+         "Add the drift to your speed"
+        ],
+        [
+         "current",
+         "Current against you",
+         "Subtract it"
+        ],
+        [
+         "turn",
+         "Across your track",
+         "Steer up-current"
+        ],
+        [
+         "wind",
+         "Wind leeway",
+         "Acts like a current"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A few quick rules. A current directly with you adds its drift to your speed, and one directly against you subtracts it, so ten knots against a two knot current makes eight over the ground. A cross current needs a course correction into the current, found with the vector diagram. Wind pushing the boat sideways, called leeway, acts just like a current. And current predictions are only estimates, so keep taking fixes and adjusting your course to steer.",
@@ -11268,7 +12735,14 @@
        "Questions often build on each other",
        "An early mistake can carry through",
        "Keep a scratch sheet with every step"
-      ]
+      ],
+      "fig": {
+       "t": "big",
+       "ic": "chart",
+       "v": "70%",
+       "cap": "to pass the plotting exam",
+       "sub": "Questions build on each other: keep a scratch sheet of every step"
+      }
      },
      "video": null,
      "script": "The plotting exam is a set of questions you work on the training chart, and you need seventy percent to pass. The questions often build on each other, like a real voyage: you plot a departure, lay a course, take bearings, find a fix, work out the current, and compute an arrival time. That means an early mistake can carry through several answers. Keep a scratch sheet showing every step, so you can find an error quickly. Let’s walk through a complete problem.",
@@ -11286,7 +12760,62 @@
        "Variation 15°W, deviation 2°E: 068 + 15 − 2 = 081° compass",
        "Distance 9.6 nm at 12 knots: 48 minutes",
        "ETA: 0748"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<path d='M408,60 V24 M400,34 L408,22 L416,34' class='s-st' stroke-width='2'/><text x='408' y='76' text-anchor='middle' font-size='13' font-weight='600' class='s-mut'>N</text>"
+        ],
+        [
+         "p",
+         "M80,270 L348.9,161.4",
+         "s-st",
+         2.5
+        ],
+        [
+         "raw",
+         "<circle cx='80' cy='270' r='8' class='s-magst' stroke-width='2.5'/><circle cx='80' cy='270' r='2.2' class='s-mag'/><circle cx='348.9' cy='161.4' r='8' class='s-magst' stroke-width='2.5'/><circle cx='348.9' cy='161.4' r='2.2' class='s-mag'/>"
+        ],
+        [
+         "m",
+         80,
+         300,
+         "0700"
+        ],
+        [
+         "m",
+         348.9,
+         141.4,
+         "ETA 0748"
+        ],
+        [
+         "raw",
+         "<g transform='rotate(-22 214.4 215.7)'><text x='214.4' y='203.7' text-anchor='middle' font-size='16' font-weight='700' class='s-mag'>C 068°T</text><text x='214.4' y='239.7' text-anchor='middle' font-size='16' font-weight='700' class='s-mag'>S 12</text></g>"
+        ],
+        [
+         "t",
+         220,
+         40,
+         "Step 1: the course"
+        ],
+        [
+         "t",
+         220,
+         340,
+         "068 + 15°W − 2°E = 081° compass",
+         "middle",
+         15
+        ],
+        [
+         "m",
+         220,
+         362,
+         "9.6 nm at 12 knots = 48 minutes"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Step one. At seven hundred you depart from a charted buoy, and the first question asks for its latitude and longitude, which you read from the scales. Next, lay a course to the next mark and read zero six eight true from the rose. The question gives variation fifteen west and deviation two east, so the compass course is zero six eight plus fifteen minus two: zero eight one. The leg measures nine point six miles; at twelve knots, that’s forty-eight minutes, for an ETA of seven forty-eight.",
@@ -11304,7 +12833,92 @@
        "Fix lies 0.8 nm from the DR, bearing 160°T from it",
        "Set 160°T; drift 0.8 ÷ 0.5 = 1.6 knots",
        "You’re being set south of your track"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<path d='M408,60 V24 M400,34 L408,22 L416,34' class='s-st' stroke-width='2'/><text x='408' y='76' text-anchor='middle' font-size='13' font-weight='600' class='s-mut'>N</text>"
+        ],
+        [
+         "p",
+         "M50,310 L328.2,197.6",
+         "s-st",
+         2.5
+        ],
+        [
+         "p",
+         "M262.5,101.7 L288.9,289.9",
+         "s-st",
+         1.6
+        ],
+        [
+         "p",
+         "M392.8,285.7 L240.6,236.3",
+         "s-st",
+         1.6
+        ],
+        [
+         "raw",
+         "<circle cx='50' cy='310' r='8' class='s-magst' stroke-width='2.5'/><circle cx='50' cy='310' r='2.2' class='s-mag'/><path d='M263.5,220.1 A9,9 0 0 1 281.5,220.1' class='s-st' stroke-width='2.5'/><circle cx='272.5' cy='220.1' r='2.2' class='s-ink'/><circle cx='283.4' cy='250.2' r='9' class='s-magst' stroke-width='2.5'/><circle cx='283.4' cy='250.2' r='2.2' class='s-mag'/><circle cx='262.5' cy='101.7' r='6' class='s-mag'/><circle cx='262.5' cy='101.7' r='12' class='s-mag' opacity='.25'/><circle cx='392.8' cy='285.7' r='7' class='s-st' stroke-width='2.5'/><circle cx='392.8' cy='285.7' r='2' class='s-ink'/>"
+        ],
+        [
+         "m",
+         54,
+         338,
+         "0700"
+        ],
+        [
+         "m",
+         260.5,
+         210.1,
+         "0730 DR",
+         "end"
+        ],
+        [
+         "m",
+         269.4,
+         266.2,
+         "0730 fix",
+         "end"
+        ],
+        [
+         "m",
+         280.5,
+         105.7,
+         "Light",
+         "start"
+        ],
+        [
+         "m",
+         392.8,
+         309.7,
+         "Tower"
+        ],
+        [
+         "t",
+         220,
+         40,
+         "Step 2: fix and current"
+        ],
+        [
+         "t",
+         220,
+         362,
+         "Set 160°T, drift 1.6 knots",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         384,
+         "0.8 nm in half an hour"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Step two. At seven thirty you take two bearings, a light at three five two true and a tower at one zero eight true, and plot the fix where the lines cross. Your seven thirty DR is six miles along zero six eight from your departure, since you’ve run half an hour at twelve knots. The fix lies point eight miles from the DR, bearing one six zero true from it. So the current sets one six zero true, with a drift of point eight miles divided by half an hour, or one point six knots.",
@@ -11322,7 +12936,16 @@
        "Find the course to steer and speed made good",
        "Convert the course to compass for the helmsman",
        "Recompute the ETA using speed made good"
-      ]
+      ],
+      "fig": {
+       "t": "steps",
+       "items": [
+        "New course from the 0730 fix",
+        "Current diagram: set 160°T, drift 1.6 knots",
+        "Course to steer and speed made good",
+        "Convert to compass; recompute the ETA"
+       ]
+      }
      },
      "video": null,
      "script": "Step three. From the seven thirty fix, lay a new course line to the mark. Then draw a current diagram, with the current setting one six zero at one point six knots, to find the course to steer that keeps you on that line, and your speed made good along it. Convert the course to steer to a compass course, using the variation and the deviation for the new heading. Finally, measure the remaining distance and divide by the speed made good, not your boat speed, to get the new ETA.",
@@ -11340,7 +12963,32 @@
        "Show your work so you can find mistakes",
        "Off by 180°? You read the wrong side of the rose",
        "Drill every day in Plotting drills"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "eye",
+         "Read each question twice",
+         "True, magnetic or compass?"
+        ],
+        [
+         "doc",
+         "Show your work",
+         "So you can find mistakes"
+        ],
+        [
+         "turn",
+         "Off by 180°?",
+         "Wrong side of the rose"
+        ],
+        [
+         "target",
+         "Drill every day",
+         "In Plotting drills"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "That’s the end of the course. A few final tips. Read every question twice and note whether it asks for true, magnetic or compass. Use the variation the question gives you, rather than the chart’s rose, when one is given. Show your work so you can find mistakes. If your answer is off by exactly one hundred eighty degrees, you read the wrong side of the rose or reversed a set. And use the plotting drills in this app every day until the calculations are automatic. You’ve now covered every module of the exam. Good luck, Captain.",

@@ -852,7 +852,7 @@ function icon(n,x,y,k){
     g=P_("M0,-25 V25","s-st",1.6)+A.map((s,i)=>{const cy=(i-(m-1)/2)*st;return s==="ball"?C_(0,cy,r):s==="diamond"?`<polygon points="0,${cy-r-1} ${r},${cy} 0,${cy+r+1} ${-r},${cy}" class="s-ink"/>`:s==="cyl"?`<rect x="${-r*.8}" y="${cy-r}" width="${r*1.6}" height="${r*2}" class="s-ink"/>`:s==="coneDown"?`<polygon points="${-r},${cy-r} ${r},${cy-r} 0,${cy+r}" class="s-ink"/>`:`<polygon points="${-r},${cy+r} ${r},${cy+r} 0,${cy-r}" class="s-ink"/>`;}).join("");}
   else if(a==="snd"){let w=0;const seg=[...b].map(c=>{const l=c==="-"?22:c==="."?7:c==="b"?7:5;const o={c,x:w,l};w+=l+5;return o;});w-=5;const sc=Math.min(1,52/w);
     g=`<g transform="scale(${sc})">`+seg.map(s=>s.c===" "?"":s.c==="b"?`<circle cx="${s.x-w/2+3.5}" cy="0" r="4.5" class="s-ink"/>`:`<rect x="${s.x-w/2}" y="-5" width="${s.l}" height="10" rx="5" class="s-mag"/>`).join("")+`</g>`;}
-  else if(a==="txt"){const z=b.length>6?13:b.length>3?17:24;g=`<rect x="-27" y="-17" width="54" height="34" rx="8" class="s-mag"/><text y="${z*.36}" text-anchor="middle" font-size="${z}" font-weight="700" class="s-on">${b}</text>`;}
+  else if(a==="txt"){const z=b.length>5?13:b.length>3?17:24;g=`<rect x="-27" y="-17" width="54" height="34" rx="8" class="s-mag"/><text y="${z*.36}" text-anchor="middle" font-size="${z}" font-weight="700" class="s-on">${b}</text>`;}
   else if(a==="num")g=`<circle cx="0" cy="0" r="19" class="s-mag"/><text y="9" text-anchor="middle" font-size="${b.length>2?17:25}" font-weight="700" class="s-on">${b}</text>`;
   else g=(IC[a]||IC.q)();
   return `<g transform="translate(${x} ${y}) scale(${k||1})">${g}</g>`;
