@@ -2529,7 +2529,7 @@
     {
      "n": 5,
      "audioFile": "rules-11-5.mp3",
-     "heading": "Annex II: fishing close together",
+     "heading": "Fishing close together: Annex II (International), Rule 26(f) (Inland)",
      "visual": {
       "k": "table",
       "head": [
@@ -14748,7 +14748,7 @@
    "id": "R41",
    "module": "R",
    "lessonTag": "rules-01",
-   "text": "(BOTH) Additional signals for fishing vessels fishing in close proximity are in:",
+   "text": "(INTERNATIONAL) Additional signals for fishing vessels fishing in close proximity are in:",
    "options": [
     "Annex II",
     "Annex I",
@@ -14756,7 +14756,7 @@
     "Annex IV"
    ],
    "correctIndex": 0,
-   "explanation": "Annex II covers trawlers shooting and hauling nets, nets fast on obstructions, and purse seiners.",
+   "explanation": "International Annex II covers trawlers shooting and hauling nets, nets fast on obstructions, and purse seiners. In the Inland rules the same signals are in Rule 26(f), and Inland Annex II is reserved.",
    "status": "draft-unverified"
   },
   {
@@ -15783,7 +15783,7 @@
    "id": "R110",
    "module": "R",
    "lessonTag": "rules-09",
-   "text": "(BOTH) A power-driven vessel under 7 m with a top speed of 7 knots or less may show:",
+   "text": "(INTERNATIONAL) A power-driven vessel under 7 m with a top speed of 7 knots or less may show:",
    "options": [
     "An all-round white light, and sidelights if practicable",
     "No lights at all",
@@ -15791,7 +15791,7 @@
     "A flashing yellow light"
    ],
    "correctIndex": 0,
-   "explanation": "Rule 23.",
+   "explanation": "International Rule 23(d)(ii). The Inland rules have no 7 m / 7 knot option; under Inland Rule 23(d), a power-driven vessel under 12 m may show an all-round white light and sidelights.",
    "status": "draft-unverified"
   },
   {
@@ -16083,7 +16083,7 @@
    "id": "R130",
    "module": "R",
    "lessonTag": "rules-11",
-   "text": "(BOTH) Under Annex II, a trawler hauling her nets may show:",
+   "text": "(BOTH) A trawler fishing close to other fishing vessels, hauling her nets, may show:",
    "options": [
     "White over red",
     "Two white lights",
@@ -16091,7 +16091,7 @@
     "Two yellow flashing lights"
    ],
    "correctIndex": 0,
-   "explanation": "Shooting nets: two white. Net fast: two red.",
+   "explanation": "Shooting nets: two white. Net fast: two red. International Annex II; Inland Rule 26(f).",
    "status": "draft-unverified"
   },
   {

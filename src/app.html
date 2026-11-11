@@ -170,6 +170,7 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .opts-row select{font:inherit;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:6px;padding:.25rem .4rem;margin-left:.3rem;max-width:15rem}
 .tr-h{font-size:1.2rem;margin-top:1.6rem}
 .transcript{max-width:68ch}
+.sq-hint{font-size:.92rem;margin:.5rem 0 0}
 .qstop{margin-top:.8rem;padding:1rem 1.2rem;border:2px solid var(--mag);border-radius:12px;background:var(--mag-soft)}
 .qs-tag{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mag);margin:0 0 .3rem;font-size:.9rem}
 .qs-q{font-size:1.25rem;font-weight:600;margin:0 0 .4rem}
@@ -1004,7 +1005,7 @@ let PL={les:null,i:0,playing:false,sent:0,tok:0,rate:store.rate||1,voice:null,u:
 function stopSpeech(){if(typeof hideStop==="function")hideStop();PL.playing=false;PL.tok++;if(synth)try{synth.cancel();}catch(e){}if(PL.audio)try{PL.audio.pause();}catch(e){}}
 function lessons(){
   const done=store.done||[],total=LESSONS.reduce((t,l)=>t+mins(l),0);
-  main.innerHTML=`<section><h1>Lessons</h1><p class="lede">${LESSONS.length} narrated lessons with slides, about ${total} minutes in all. Press play and each lesson reads itself aloud in your device’s built-in voice, moving through the slides as it goes. You can also read along or tap any sentence to jump to it.</p>
+  main.innerHTML=`<section><h1>Lessons</h1><p class="lede">${LESSONS.length} narrated lessons with slides, about ${total} minutes in all. Press play and each lesson reads itself aloud in your device’s built-in voice, moving through the slides as it goes. You can also read along or tap any sentence to jump to it.</p><p class="muted"><strong>Test yourself as you go:</strong> in the lesson player, set <strong>Questions</strong> to “Stop and ask me” and the lecture will pause at each question it asks, so you can answer before you hear the answer. It’s off unless you turn it on.</p>
   ${Object.entries(MODS).map(([m,info])=>{const ls=LESSONS.filter(l=>l.m===m);return `<h2 class="mod-h">${info.name}</h2><ol class="les-list">${ls.map(l=>`<li><a href="#lesson-${l.id}"><span class="lt">${l.t}${l.c?` <span class="lcov">(${l.c})</span>`:""}</span><span class="lm">${l.slides.length} slides, about ${mins(l)} min${BANK.some(x=>x.tag===l.id)?`, ${BANK.filter(x=>x.tag===l.id).length}-question check`:""}${done.includes(l.id)?`. <span class="fin">Finished</span>`:""}</span></a></li>`).join("")}</ol>`;}).join("")}</section>`;
 }
 function visual(v){
@@ -1033,7 +1034,8 @@ function player(id){
   <div id="slide"></div>
   <div id="qstop" class="qstop" hidden></div>
   <div class="controls"><button class="btn ghost ctl" id="pv">Previous</button><button class="btn ctl" id="pp">Play</button><button class="btn ghost ctl" id="nx">Next</button><button class="btn ghost ctl" id="askb" title="Like raising your hand in class">Ask a question</button><span class="count" id="cnt"></span></div>
-  <div class="opts-row" id="vopts"><label>Speed<select id="rate">${[0.8,0.9,1,1.1,1.25,1.5].map(r=>`<option value="${r}" ${r==PL.rate?"selected":""}>${r}×</option>`).join("")}</select></label><label title="Used only for slides that don’t have recorded narration yet">Device voice<select id="voice"><option value="">Device default</option></select></label><span id="narrsrc" class="narr-src" aria-live="polite"></span><label>Questions<select id="stopq"><option value="1">Stop and ask me</option><option value="0" ${store.stopq===0?"selected":""}>Keep playing</option></select></label><label>Mode<select id="mode"><option value="voice">Read aloud</option><option value="silent" ${PL.silent?"selected":""}>Silent, timed</option></select></label></div>
+  <div class="opts-row" id="vopts"><label>Speed<select id="rate">${[0.8,0.9,1,1.1,1.25,1.5].map(r=>`<option value="${r}" ${r==PL.rate?"selected":""}>${r}×</option>`).join("")}</select></label><label title="Used only for slides that don’t have recorded narration yet">Device voice<select id="voice"><option value="">Device default</option></select></label><span id="narrsrc" class="narr-src" aria-live="polite"></span><label title="Stop at each question the lecture asks so you can answer before you hear the answer">Questions<select id="stopq"><option value="0">Keep playing</option><option value="1" ${store.stopq===1?"selected":""}>Stop and ask me</option></select></label><label>Mode<select id="mode"><option value="voice">Read aloud</option><option value="silent" ${PL.silent?"selected":""}>Silent, timed</option></select></label></div>
+  <p class="muted sq-hint" id="sqhint">${store.stopq===1?SQ_ON:SQ_OFF}</p>
   <div id="ask" class="askbox" hidden></div>
   <p class="muted" id="nospeech" hidden>This browser can’t read aloud. Read the transcript below instead.</p>
   <h2 class="tr-h">Transcript</h2><div id="tr" class="transcript"></div><div id="endbox"></div></section>`;
@@ -1044,7 +1046,7 @@ function player(id){
   document.getElementById("nx").onclick=()=>go(1);
   document.getElementById("rate").onchange=e=>{PL.rate=+e.target.value;store.rate=PL.rate;save();if(PL.playing)speak();};
   document.getElementById("voice").onchange=e=>{const vs=synth?synth.getVoices():[];PL.voice=vs.find(v=>v.name===e.target.value)||null;store.voice=e.target.value;PL.triedDefault=false;document.getElementById("nospeech").hidden=true;save();if(PL.playing)speak();};
-  document.getElementById("stopq").onchange=e=>{store.stopq=+e.target.value;save();hideStop();};
+  document.getElementById("stopq").onchange=e=>{store.stopq=+e.target.value;save();hideStop();const h=document.getElementById("sqhint");if(h)h.innerHTML=store.stopq===1?SQ_ON:SQ_OFF;};
   document.getElementById("mode").onchange=e=>{PL.silent=e.target.value==="silent";store.silent=PL.silent;document.getElementById("nospeech").hidden=true;save();if(PL.playing)speak();};
   fillVoices();renderSlide();
 }
@@ -1096,10 +1098,12 @@ function renderSlide(){
   }else eb.innerHTML="";
   save();hl(-1);
 }
+const SQ_OFF="<strong>Tip:</strong> the lecture asks you questions. To answer each one yourself before you hear the answer, set <strong>Questions</strong> to “Stop and ask me”. Playback will pause at each question until you tap “Hear the answer”.";
+const SQ_ON="<strong>Questions are on:</strong> playback pauses at each question the lecture asks. Say your answer out loud, then tap “Hear the answer”. Set <strong>Questions</strong> to “Keep playing” to turn this off.";
 function hideStop(){const q=document.getElementById("qstop");if(q){q.hidden=true;q.innerHTML="";}}
 // When the lecture asks a question and then pauses, stop and let the learner answer before hearing it.
 function askStop(k,resume){
-  if(store.stopq===0||PL.silent||!PL.les)return false;const ss=splitS(cur().say);
+  if(store.stopq!==1||PL.silent||!PL.les)return false;const ss=splitS(cur().say);
   if(k<1||!/\[pause\]/.test(ss[k])||!/\?[”’"]?$/.test(strip(ss[k-1])))return false;
   const key=`${PL.les.id}-${PL.i}-${k}`;if(PL.asked===key)return false;PL.asked=key;
   const q=document.getElementById("qstop");if(!q)return false;
