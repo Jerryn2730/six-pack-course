@@ -6974,7 +6974,14 @@
        "Near Coastal: up to 100 nm offshore; Inland: inside the boundary line",
        "Valid 5 years; renew through the National Maritime Center",
        "7 or more passengers: inspected vessel and a Master license"
-      ]
+      ],
+      "fig": {
+       "t": "big",
+       "ic": "people",
+       "v": "6",
+       "cap": "Up to six passengers for hire, on uninspected vessels",
+       "sub": "Near Coastal: up to 100 nm offshore"
+      }
      },
      "video": null,
      "script": "Welcome to Deck General and Safety, the module about running a safe, legal operation. It starts with your license. An OUPV credential, the six-pack, lets you carry up to six passengers for hire on an uninspected vessel. A Near Coastal endorsement lets you operate up to one hundred miles offshore, while an Inland endorsement keeps you inside the boundary line. The credential is valid for five years, and you renew it through the National Maritime Center. To carry seven or more passengers for hire, you need an inspected vessel with a Certificate of Inspection, and a Master license.",
@@ -6992,7 +6999,22 @@
        "Voluntary sharing of the trip’s actual expenses is NOT consideration",
        "Owners, crew and true non-paying guests aren’t passengers for hire",
        "Disguised fees (“donations,” required fuel charges) still count"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "yes",
+        "Passenger for hire",
+        "money",
+        "Pays, directly or indirectly, as a condition of the trip"
+       ],
+       "b": [
+        "no",
+        "Not for hire",
+        "people",
+        "Guests, crew, or friends voluntarily sharing actual expenses"
+       ]
+      }
      },
      "video": null,
      "script": "The key legal term is passenger for hire: a passenger for whom consideration is contributed as a condition of carriage, directly or indirectly. Consideration means money or any other economic benefit, inducement, right or profit. Federal law specifically excludes the voluntary sharing of a trip’s actual expenses, like friends splitting fuel and bait. But the moment payment becomes a condition of going, even disguised as a donation, a club membership or a mandatory fuel charge, those people are passengers for hire, and you need a licensed captain and a properly documented or registered boat.",
@@ -7025,7 +7047,27 @@
         "Charterer hires the boat and supplies the captain",
         "Strict rules; a common illegal-charter disguise"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "txt:≤ 6",
+         "Uninspected",
+         "OUPV or Master"
+        ],
+        [
+         "txt:7+",
+         "Inspected",
+         "Master, within the COI limit"
+        ],
+        [
+         "warn",
+         "Bareboat charter",
+         "Strict rules; a common illegal disguise"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Here’s how the categories fit together. An uninspected passenger vessel may carry no more than six passengers for hire, and the operator needs at least an OUPV credential. Carrying more than six requires an inspected small passenger vessel, with a Certificate of Inspection that sets the maximum number of passengers, and a Master license. Bareboat charters, where the charterer hires the boat and supplies an independent captain, are tightly regulated. The Coast Guard regularly fines operators who use fake bareboat arrangements to run illegal charters, so be very careful with anything that looks like one.",
@@ -7042,7 +7084,32 @@
        "Smaller boats: state registration",
        "Florida: the right FWC charter fishing license covers your customers",
        "Carry your credential, the boat’s papers and required placards aboard"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "doc",
+         "5 net tons or more",
+         "Coast Guard documentation, coastwise endorsement"
+        ],
+        [
+         "card",
+         "Smaller boats",
+         "State registration"
+        ],
+        [
+         "fish",
+         "Florida",
+         "FWC charter fishing license"
+        ],
+        [
+         "card",
+         "Carry aboard",
+         "Credential, boat’s papers, placards"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Your boat needs the right paperwork too. A boat of five net tons or more that carries passengers for hire between American points must be documented by the Coast Guard with a coastwise endorsement, which also has requirements about where the boat was built and who owns it. Smaller boats are registered with the state. In Florida, charter fishing operations also need the right saltwater fishing license from the Fish and Wildlife Conservation Commission so your customers are covered. Carry your credential, the boat’s documents and all required placards aboard.",
@@ -7060,7 +7127,27 @@
        "Commercial operators are intoxicated at 0.04% BAC",
        "After a serious marine incident: alcohol test within 2 hours, drugs within 32 hours",
        "Refusing a test can cost you your license"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "bottle",
+         "0.04% BAC",
+         "Intoxicated, for commercial operators"
+        ],
+        [
+         "clock",
+         "After a serious incident",
+         "Alcohol test in 2 hours, drugs in 32"
+        ],
+        [
+         "doc",
+         "Drug testing program",
+         "Pre-employment, random, post-casualty, cause"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "As a licensed captain operating commercially, you must take part in a Department of Transportation drug testing program. Most owner-operators join a consortium that handles random testing. Tests are required before employment, at random, after a serious marine incident, and when there’s reasonable cause. For alcohol, a commercial vessel operator is considered intoxicated at a blood alcohol concentration of zero point zero four percent, half the recreational limit. After a serious marine incident, alcohol testing must be done within two hours and drug testing within thirty-two hours. Refusing a test can cost you your license.",
@@ -7088,7 +7175,27 @@
        "Child sizes for every child",
        "Readily accessible and in good condition",
        "Plus a throwable device, usually a ring buoy"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "vest",
+         "A wearable for every person",
+         "Offshore type on passenger vessels"
+        ],
+        [
+         "person",
+         "Child sizes",
+         "For every child aboard"
+        ],
+        [
+         "ring",
+         "A throwable device",
+         "Usually a ring buoy"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Life jackets come first. Every person aboard needs a Coast Guard approved wearable life jacket of the right size, and uninspected passenger vessels carrying passengers for hire must carry the offshore type, traditionally called Type one, with the most flotation. Carry child sizes for every child. Life jackets must be readily accessible, not locked away or still in their plastic, and in serviceable condition, with no rips, rot or missing straps. Newer life jackets use a labeling system with performance levels and icons, but older Type-labeled jackets remain legal while serviceable. You also need a throwable device, usually a ring buoy, ready at hand. Check the regulations for your route on lights and reflective tape.",
@@ -7125,7 +7232,27 @@
         "Disposable extinguishers",
         "Replace 12 years after manufacture"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "ext",
+         "Under 26 ft",
+         "1 B-I"
+        ],
+        [
+         "ext",
+         "26 to under 40 ft",
+         "2 B-I, or 1 B-II"
+        ],
+        [
+         "ext",
+         "40 to 65 ft",
+         "3 B-I, or 1 B-II plus 1 B-I"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Required portable fire extinguishers depend on boat length. Under twenty-six feet, you need one B-one extinguisher. From twenty-six to under forty feet, two B-ones or one B-two. From forty to sixty-five feet, three B-ones, or one B-two plus one B-one. An approved fixed system in the engine room reduces the requirement by one B-one. Newer extinguishers are labeled five-B and twenty-B instead of B-one and B-two, and boats built in recent years must carry those. Disposable extinguishers must be replaced twelve years after their date of manufacture. Mount them where you can reach them quickly, and check the gauges.",
@@ -7174,7 +7301,32 @@
         "Yes",
         "Non-pyrotechnic"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "flare",
+         "Red flares",
+         "Day and night"
+        ],
+        [
+         "smoke",
+         "Orange smoke",
+         "Day only"
+        ],
+        [
+         "flag",
+         "Orange flag",
+         "Day only"
+        ],
+        [
+         "bulb",
+         "Electric SOS light",
+         "Night only"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Visual distress signals are required on coastal waters, which include the ocean, the Gulf, and connected bays and sounds until they narrow to less than two miles wide. Boats sixteen feet and longer must carry signals for both day and night. You can meet that with three pyrotechnic signals good for day and night, such as red hand flares, or with combinations like an orange distress flag for day and an electric distress light for night. Pyrotechnic signals expire forty-two months after manufacture, so check the dates. Never fire flares except in a real emergency.",
@@ -7192,7 +7344,27 @@
        "Gasoline inboards need a backfire flame arrestor",
        "Keep arrestors clean and secured",
        "Diesels need ventilation for combustion air"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "wind",
+         "Run the blower",
+         "At least 4 minutes before starting"
+        ],
+        [
+         "engine",
+         "Backfire flame arrestor",
+         "On gasoline inboards. Keep it clean"
+        ],
+        [
+         "fuel",
+         "Gasoline engine spaces",
+         "Natural and powered ventilation"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Boats with gasoline engines in enclosed spaces must have ventilation to remove explosive vapor, usually natural vents plus a powered blower. Run the blower for at least four minutes before starting the engine, and sniff the bilge. Gasoline inboard and sterndrive engines must have a Coast Guard approved backfire flame arrestor on the carburetor or throttle body, kept clean and firmly secured, so a backfire can’t ignite vapor in the compartment. Diesel engines are far less explosive, but their spaces still need ventilation to supply combustion air.",
@@ -7210,7 +7382,36 @@
        "An approved marine sanitation device if there’s a toilet",
        "A pre-departure safety briefing for passengers",
        "Wise extras: EPIRB or PLB, VHF-DSC, first aid kit, high-water alarm"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "light",
+         "Navigation lights"
+        ],
+        [
+         "horn",
+         "Sound signals"
+        ],
+        [
+         "doc",
+         "Oil and garbage placards"
+        ],
+        [
+         "people",
+         "Safety briefing"
+        ],
+        [
+         "epirb",
+         "EPIRB or PLB"
+        ],
+        [
+         "aid",
+         "First aid kit"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Other required equipment includes navigation lights and sound-signaling equipment that meet the Navigation Rules, the oil discharge and garbage placards on boats twenty-six feet and over, and a Coast Guard certified marine sanitation device if you have an installed toilet. Before every trip, brief your passengers on where the life jackets are, how to put them on, and what to do in an emergency. Beyond the minimum, a professional captain carries a registered EPIRB or personal locator beacon, a VHF radio with DSC, a well-stocked first aid kit, and reliable bilge pumps with a high-water alarm.",
@@ -7275,7 +7476,32 @@
         "A only",
         "Never a solid stream on fuel or electrical fires"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "ext",
+         "Dry chemical",
+         "Classes A, B, C"
+        ],
+        [
+         "txt:CO2",
+         "Carbon dioxide",
+         "Classes B, C"
+        ],
+        [
+         "wave",
+         "Foam",
+         "Classes A, B"
+        ],
+        [
+         "fuel",
+         "Water",
+         "Class A only"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Each extinguishing agent suits certain fires. Dry chemical, rated A B C or B C, is the most common on boats and works on most fires, but it leaves a corrosive powder. Carbon dioxide works on fuel and electrical fires by displacing oxygen, leaves no residue, but has short range and can suffocate people in a closed space. Clean agents are often used in fixed engine-room systems. Foam smothers fuel fires. Water is excellent for Class A fires, but a solid stream on burning fuel spreads it, and on electrical equipment it conducts electricity.",
@@ -7293,7 +7519,16 @@
        "PASS: Pull, Aim at the base, Squeeze, Sweep",
        "Keep an escape route behind you",
        "Not out in seconds? Call Mayday and prepare to abandon"
-      ]
+      ],
+      "fig": {
+       "t": "steps",
+       "items": [
+        "Pull the pin",
+        "Aim at the base of the fire",
+        "Squeeze the handle",
+        "Sweep from side to side"
+       ]
+      }
      },
      "video": null,
      "script": "When fire breaks out, raise the alarm, get life jackets on everyone, and move passengers away from the fire. Maneuver the boat so the wind carries smoke and flames away from people, which often means putting the fire downwind. Use a portable extinguisher with PASS: pull the pin, aim at the base of the fire, squeeze the handle and sweep side to side. Keep an escape route behind you. Small boat fires grow very fast, so if the fire isn’t out within seconds, call Mayday and prepare to abandon the boat.",
@@ -7311,7 +7546,17 @@
        "Don’t open the hatch: fresh air feeds it",
        "Discharge the fixed system if it hasn’t fired",
        "Wait at least 15 minutes before opening; extinguisher ready"
-      ]
+      ],
+      "fig": {
+       "t": "steps",
+       "items": [
+        "Shut down engines, blowers and fuel",
+        "Close vents and hatches",
+        "Don’t open the hatch",
+        "Discharge the fixed system",
+        "Wait 15 minutes before opening"
+       ]
+      }
      },
      "video": null,
      "script": "Engine compartment fires are the most dangerous on small boats. Shut down the engines, generator and blowers, and close the fuel valves. Close vents and hatches to starve the fire of oxygen, and don’t open the engine hatch, since a rush of fresh air can make it flare violently. Discharge the fixed extinguishing system if it hasn’t fired automatically. Many systems shut down the engines when they discharge. Then wait at least fifteen minutes for the compartment to cool before opening it, so the fire doesn’t reignite, and have a portable extinguisher ready when you do.",
@@ -7328,7 +7573,27 @@
        "Galley grease: smother with a lid or fire blanket, never water",
        "Propane: close the tank valve; vapor sinks into the bilge",
        "Fire blanket for clothing and small galley fires"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "bolt",
+         "Electrical",
+         "Kill the power, then CO2 or dry chemical"
+        ],
+        [
+         "no",
+         "Galley grease",
+         "Smother it. Never water"
+        ],
+        [
+         "fuel",
+         "Propane",
+         "Close the tank valve. Vapor sinks"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "For an electrical fire, kill the power at the battery switch or breaker first, then use carbon dioxide or dry chemical. For a grease fire on a galley stove, smother it with a lid or a fire blanket and turn off the heat. Never use water, which makes burning grease explode outward. Propane is heavier than air, so a leak sinks into the bilge just like gasoline vapor. Close the valve at the tank, and if you smell propane, ventilate thoroughly before any spark. A fire blanket is also the fastest way to smother burning clothing.",
@@ -7355,7 +7620,47 @@
        "A small amount of vapor can cause a powerful explosion",
        "Propane behaves the same way",
        "Diesel is far less volatile, but still burns"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         50,
+         "Gasoline vapor is heavier than air"
+        ],
+        [
+         "raw",
+         "<path d='M80,110 H360 L328,290 Q220,336 112,290 Z' class='s-bg' style='stroke:var(--ink);stroke-width:2'/><ellipse cx='220' cy='284' rx='92' ry='24' fill='#e8762b' opacity='.55'/>"
+        ],
+        [
+         "a",
+         "M170,140 V236",
+         "s-st"
+        ],
+        [
+         "a",
+         "M270,140 V236",
+         "s-st"
+        ],
+        [
+         "m",
+         220,
+         180,
+         "Vapor sinks"
+        ],
+        [
+         "t",
+         220,
+         372,
+         "It settles in the bilge",
+         "middle",
+         17,
+         "s-mag"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Gasoline vapor is heavier than air, so it flows downhill and collects in the bilge and low compartments, where a single spark from a switch, pump or starter can ignite it. A surprisingly small amount of vaporized gasoline can produce an explosion strong enough to destroy a boat. Propane behaves the same way. Diesel fuel is much less volatile and much harder to ignite, which is one reason most commercial boats run diesel, but it still burns once lit. Most boat explosions happen during or just after fueling.",
@@ -7373,7 +7678,28 @@
        "Close hatches, ports and cabin doors",
        "Keep the nozzle touching the fill pipe; don’t overfill",
        "Wipe up spills, open up, run the blower 4+ minutes and sniff the bilge"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "no",
+         "No smoking or open flame"
+        ],
+        [
+         "engine",
+         "Engines and motors off"
+        ],
+        [
+         "lock",
+         "Hatches, ports and doors closed"
+        ],
+        [
+         "wind",
+         "Blower 4+ minutes, then sniff the bilge"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Fuel with a routine every time. Moor securely and, if practical, have passengers wait ashore. Stop the engines and all electrical motors, and allow no smoking or open flame. Close hatches, ports and cabin doors so vapor can’t get below. Keep the nozzle in contact with the fill pipe to prevent a static spark, and don’t overfill, since fuel expands as it warms. Afterward, wipe up any spills, open everything, run the blower for at least four minutes, and sniff the bilge and engine compartment before starting the engine.",
@@ -7391,7 +7717,61 @@
        "“Station wagon effect”: exhaust drawn aboard while underway",
        "Symptoms mimic seasickness: headache, nausea, dizziness",
        "Install CO alarms; no one on the swim platform with engines or generator running"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         44,
+         "Carbon monoxide"
+        ],
+        [
+         "m",
+         220,
+         68,
+         "Colorless, odorless and deadly"
+        ],
+        [
+         "p",
+         "M10,246 H430",
+         "s-magst",
+         2.5
+        ],
+        [
+         "i",
+         "boat",
+         250,
+         214,
+         3.4
+        ],
+        [
+         "raw",
+         "<circle cx='130' cy='214' r='22' class='s-mut' opacity='.45'/><circle cx='106' cy='194' r='16' class='s-mut' opacity='.35'/><circle cx='150' cy='184' r='14' class='s-mut' opacity='.3'/>"
+        ],
+        [
+         "a",
+         "M118,176 C120,140 160,128 204,140",
+         "s-st"
+        ],
+        [
+         "t",
+         220,
+         310,
+         "It builds at the stern",
+         "middle",
+         17,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         334,
+         "and the swim platform, and gets drawn aboard"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Carbon monoxide is a colorless, odorless gas in engine and generator exhaust, and it kills boaters every year. It builds up near the stern, on and around the swim platform, and in enclosed cabins. Underway, the station wagon effect can draw exhaust back aboard, especially with a canvas enclosure. Early symptoms, like headache, nausea and dizziness, are easily mistaken for seasickness. Install and test carbon monoxide alarms in enclosed spaces, never let anyone hang on the swim platform or teak-surf with an engine or generator running, and move anyone with symptoms into fresh air and get medical help.",
@@ -7409,7 +7789,27 @@
        "Use marine-rated wiring, breakers and fuses",
        "Shore power: inspect cords and connectors",
        "Electric shock drowning: never swim near docks with shore power"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "battery",
+         "Charging batteries",
+         "Give off explosive hydrogen. Ventilate"
+        ],
+        [
+         "bolt",
+         "Shore power",
+         "Inspect cords and connectors"
+        ],
+        [
+         "no",
+         "Electric shock drowning",
+         "Never swim near docks with shore power"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Batteries give off explosive hydrogen gas while charging, so battery compartments need ventilation, and batteries must be secured so they can’t shift in a seaway, with terminals covered. Use marine-rated wiring, breakers and fuses, since many boat fires start with electrical faults. Inspect shore power cords and connectors for heat damage. And remember electric shock drowning. Faulty wiring can energize the water around docks, especially in fresh or brackish water, so never let anyone swim near a marina or dock with shore power.",
@@ -7427,7 +7827,28 @@
        "Store rags, paints and solvents properly",
        "Smoking only where it’s safe, if at all",
        "Prevention is far easier than firefighting"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "pump",
+         "Clean, dry bilges"
+        ],
+        [
+         "fuel",
+         "Inspect fuel lines and clamps"
+        ],
+        [
+         "warn",
+         "Store rags and solvents properly"
+        ],
+        [
+         "yes",
+         "Prevention beats firefighting"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Most boat fires are preventable. Keep bilges clean and free of oil and fuel, which also helps you spot new leaks. Inspect fuel lines, hose clamps, tank vents and fuel tanks regularly for chafe, corrosion and seepage. Store oily rags, paints and solvents in proper containers, since oily rags can heat up and ignite on their own. Limit smoking to safe areas, if you allow it at all. A few minutes of inspection before each trip is far easier than fighting a fire offshore with six passengers aboard.",
@@ -7467,7 +7888,66 @@
        "Keep tanks full or empty, and bilges dry",
        "Quick, snappy roll: stiff, large GM",
        "Slow, lazy roll: tender, small GM"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         40,
+         "Free surface acts like raising G"
+        ],
+        [
+         "raw",
+         "<g transform='rotate(12 120 190)'><path d='M40,130 H200 L184,230 Q120,256 56,230 Z' class='s-bg' style='stroke:var(--ink);stroke-width:2'/><rect x='85' y='180' width='70' height='40' class='s-mag'/></g><g transform='rotate(12 320 190)'><path d='M240,130 H400 L384,230 Q320,256 256,230 Z' class='s-bg' style='stroke:var(--ink);stroke-width:2'/><rect x='285' y='180' width='70' height='40' fill='none' style='stroke:var(--ink);stroke-width:1.5'/><polygon points='285,220 355,220 355,190 285,208' class='s-mag'/></g>"
+        ],
+        [
+         "y",
+         76,
+         292
+        ],
+        [
+         "t",
+         128,
+         298,
+         "Full tank",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         120,
+         320,
+         "Liquid can’t shift"
+        ],
+        [
+         "n",
+         272,
+         292
+        ],
+        [
+         "t",
+         328,
+         298,
+         "Slack tank",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         320,
+         320,
+         "Liquid runs to the low side"
+        ],
+        [
+         "m",
+         220,
+         372,
+         "Keep tanks full or empty, and bilges dry"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Anything that raises G reduces stability: passengers crowding a tower, gear stacked high, a heavy load on the cabin top. Free surface effect is just as dangerous. Liquid sloshing in a half-full tank, or water in the bilge or on deck, shifts to the low side and acts like raising G. Keep tanks full or empty, and keep bilges dry. You can feel stability in the roll. A quick, snappy roll means a stiff boat with a large G M. A slow, lazy roll means a tender boat with a small G M, and that’s a warning sign.",
@@ -7485,7 +7965,22 @@
        "Respect the capacity plate on small boats",
        "Fuel, ice and fish change your loading during the day",
        "Water on deck acts like free surface"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "no",
+        "Everyone at one rail",
+        "people",
+        "Can capsize a small boat"
+       ],
+       "b": [
+        "yes",
+        "Low and centered",
+        "boat",
+        "Keep heavy loads low. Respect the capacity plate"
+       ]
+      }
      },
      "video": null,
      "script": "On a charter, your biggest stability variable is people. When someone hooks a big fish, everyone wants to rush to one rail, and on a small boat that can be enough to capsize or swamp it. Keep passengers spread out and seated when running, and keep heavy loads like coolers and ice low and centered. Respect the capacity plate on small boats. Remember that loading changes during the day: you burn fuel, melt ice, and fill the fish box. And water trapped on deck acts just like free surface.",
@@ -7522,7 +8017,32 @@
         "Reserve buoyancy",
         "Watertight volume above the waterline"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "wind",
+         "Heel",
+         "Temporary lean"
+        ],
+        [
+         "down",
+         "List",
+         "Steady lean: weight or flooding"
+        ],
+        [
+         "turn",
+         "Trim",
+         "Fore-and-aft balance"
+        ],
+        [
+         "up",
+         "Freeboard",
+         "Waterline to deck edge"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A few terms. Heel is a temporary lean caused by wind, waves or a turn. List is a steady lean caused by off-center weight or by flooding, and an unexplained list is a warning that water may be getting in. Trim is the fore-and-aft balance, described as down by the bow or down by the stern. Freeboard is the height from the waterline to the deck edge, and reserve buoyancy is the watertight volume above the waterline that keeps you afloat as you take on water or load.",
@@ -7540,7 +8060,28 @@
        "Sharp turns at speed",
        "Following seas and broaching",
        "Down-flooding through open hatches or a low transom"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "people",
+         "Overloading, weight carried high"
+        ],
+        [
+         "wave",
+         "Free surface, water in the boat"
+        ],
+        [
+         "turn",
+         "Sharp turns at speed"
+        ],
+        [
+         "down",
+         "Down-flooding through openings"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Small boats usually capsize from a combination of causes: too much weight or weight carried too high, water in the boat, a sharp turn at speed, a breaking wave on the beam or a broach in a following sea, and water pouring in through open hatches or over a low transom. The common thread is that stability was already marginal before the final wave. Keep weight low, keep water out, slow down in rough water, and keep the bow or stern, not the beam, toward breaking seas.",
@@ -7567,7 +8108,87 @@
        "Planing hulls rise onto the surface at speed",
        "Semi-displacement hulls fall in between",
        "Deep-V: smoother in chop; flat bottom: stable at rest, pounds in waves"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         40,
+         "Hull shapes, seen from astern"
+        ],
+        [
+         "raw",
+         "<path d='M34,90 H134 Q134,150 84,162 Q34,150 34,90 Z' class='s-ink'/><path d='M170,90 H270 L220,162 Z' class='s-ink'/><path d='M306,90 H406 L396,140 H316 Z' class='s-ink'/>"
+        ],
+        [
+         "p",
+         "M10,112 H430",
+         "s-magst",
+         2
+        ],
+        [
+         "t",
+         84,
+         196,
+         "Round",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         84,
+         216,
+         "Displacement"
+        ],
+        [
+         "t",
+         220,
+         196,
+         "Deep-V",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         220,
+         216,
+         "Smoother in chop"
+        ],
+        [
+         "t",
+         356,
+         196,
+         "Flat",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         356,
+         216,
+         "Stable, but pounds"
+        ],
+        [
+         "t",
+         220,
+         290,
+         "Displacement: speed limited by length",
+         "middle",
+         15
+        ],
+        [
+         "t",
+         220,
+         326,
+         "Planing: rises onto the surface at speed",
+         "middle",
+         15,
+         "s-mag"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Hull shape determines how a boat behaves. A displacement hull pushes through the water, and its top speed, called hull speed, is limited by its waterline length. A planing hull rises up and skims on the surface once it has enough power and speed, which is how most charter boats travel. Semi-displacement hulls fall in between. A deep-V bottom cuts through chop and gives a smoother ride, while a flat bottom is very stable at rest and in shallow water but pounds hard in waves.",
@@ -7584,7 +8205,28 @@
        "Keep scuppers and freeing ports clear",
        "Inspect seacocks, hoses and double clamps below the waterline",
        "Down-flooding through open hatches sinks boats fast"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "lock",
+         "Hatches, ports and doors closed"
+        ],
+        [
+         "down",
+         "Scuppers and freeing ports clear"
+        ],
+        [
+         "engine",
+         "Seacocks, hoses, double clamps"
+        ],
+        [
+         "warn",
+         "Down-flooding sinks boats fast"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Watertight integrity means keeping water out of the hull. In rough water, close hatches, ports and doors. Scuppers and freeing ports must be kept clear so water on deck drains overboard instead of building up. Below the waterline, inspect every seacock, hose and fitting, and use double stainless hose clamps. A failed hose or through-hull fitting is one of the most common reasons boats sink at the dock. Underway, water pouring through an open hatch in heavy seas, called down-flooding, can sink a boat in minutes.",
@@ -7602,7 +8244,27 @@
        "A manual pump as backup",
        "Pump capacity drops with lift and hose length",
        "Know where every through-hull is"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "pump",
+         "Automatic electric pumps",
+         "With float switches"
+        ],
+        [
+         "bell",
+         "High-water alarm",
+         "Loud enough to hear at the helm"
+        ],
+        [
+         "pump",
+         "Manual pump",
+         "Your backup"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Every boat needs reliable bilge pumping. Automatic electric pumps with float switches handle small leaks and rainwater, and a high-water alarm audible at the helm warns you when something is wrong. Carry a manual pump as a backup in case of electrical failure. Remember that a pump’s rated capacity drops sharply with the height it lifts water and the length of its hose, so real-world output is much less than the label. Most importantly, know where every through-hull fitting on your boat is, so you can find a leak fast.",
@@ -7620,7 +8282,28 @@
        "Pump: every pump you have, plus buckets",
        "Call for help early: Pan-pan, or Mayday if sinking",
        "Life jackets on everyone; head for shallow water if close"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "eye",
+         "Find the source"
+        ],
+        [
+         "lock",
+         "Stop or slow it"
+        ],
+        [
+         "pump",
+         "Pump with everything you have"
+        ],
+        [
+         "radio",
+         "Call for help early"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "If you discover flooding, act in order. First, find the source: check through-hulls, hoses, the shaft seal and the hull itself. Second, stop or slow the leak: close the seacock, drive a soft wood plug into a failed fitting, or stuff cushions and rags into a hole. Tie a plug next to every through-hull so it’s there when you need it. Third, pump with everything you have. Fourth, call for help early, with a pan-pan, or a Mayday if you’re sinking. Get life jackets on everyone, and if the leak is winning, head for shallow water.",
@@ -7637,7 +8320,76 @@
        "Pitchpole: the bow digs in and the stern flips over",
        "Run inlets on the back of a wave, not down its face",
        "Raise trim tabs to keep the bow up"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "a",
+         "M300,60 H410",
+         "s-st"
+        ],
+        [
+         "m",
+         355,
+         46,
+         "Following sea"
+        ],
+        [
+         "p",
+         "M0,230 Q110,120 220,230 T440,230",
+         "s-magst",
+         3.5
+        ],
+        [
+         "i",
+         "boat",
+         62,
+         180,
+         1.5
+        ],
+        [
+         "y",
+         62,
+         128
+        ],
+        [
+         "t",
+         90,
+         290,
+         "Ride the back",
+         "middle",
+         16
+        ],
+        [
+         "i",
+         "boat",
+         172,
+         184,
+         1.5
+        ],
+        [
+         "n",
+         172,
+         132
+        ],
+        [
+         "t",
+         220,
+         330,
+         "Don’t surf down the face",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         366,
+         "Broaching and pitchpoling start on the face"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Following seas are especially dangerous for small powerboats. A broach happens when a wave from astern lifts the stern and slews the boat sideways, where the next wave can roll it. In extreme cases a boat can pitchpole, with the bow burying and the stern flipping over the top. When running before big seas or entering an inlet, ride on the back of a wave, matching its speed, rather than surfing down its face. Raise the trim tabs to keep the bow up, and be ready with the throttle.",
@@ -7677,7 +8429,67 @@
        "A short burst of power gives steering without much speed",
        "Going ahead, a boat pivots about a third of its length from the bow",
        "Outboards and sterndrives steer by aiming thrust"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "h",
+         200,
+         200,
+         0,
+         "s-ink",
+         3.6
+        ],
+        [
+         "raw",
+         "<circle cx='200' cy='166' r='8' class='s-mag'/>"
+        ],
+        [
+         "t",
+         232,
+         160,
+         "Pivot point",
+         "start",
+         16,
+         "s-mag"
+        ],
+        [
+         "m",
+         232,
+         180,
+         "about a third back",
+         "start"
+        ],
+        [
+         "m",
+         232,
+         198,
+         "from the bow",
+         "start"
+        ],
+        [
+         "a",
+         "M232,290 C290,284 316,256 318,224"
+        ],
+        [
+         "t",
+         330,
+         300,
+         "Stern",
+         "middle",
+         15
+        ],
+        [
+         "t",
+         330,
+         318,
+         "swings wide",
+         "middle",
+         15
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "An inboard boat steers by water flowing past the rudder, mostly prop wash. At low speed, especially in reverse, there’s little flow, and steering is poor. A short burst of power with the rudder over gives steering without building much speed. Going ahead, a boat pivots about a point roughly a third of its length back from the bow, so the stern swings wide in a turn, which matters when you’re turning near a dock or another boat. Outboards and sterndrives steer by aiming the propeller’s thrust, so they respond well even at low speed.",
@@ -7694,7 +8506,51 @@
        "One ahead, one astern: the boat spins in place",
        "At low speed, steer with the engines; rudders centered",
        "Use small bursts and neutral often"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         40,
+         "Twin screws: spin in place"
+        ],
+        [
+         "h",
+         220,
+         200,
+         0,
+         "s-ink",
+         3
+        ],
+        [
+         "a",
+         "M150,340 V282"
+        ],
+        [
+         "m",
+         150,
+         362,
+         "Port ahead"
+        ],
+        [
+         "a",
+         "M290,282 V340"
+        ],
+        [
+         "m",
+         300,
+         272,
+         "Starboard astern"
+        ],
+        [
+         "a",
+         "M150,110 Q220,62 290,110",
+         "s-st"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Most twin-screw boats have counter-rotating propellers that cancel each other’s walk. Twins give tremendous control at low speed. With one engine ahead and the other astern, the boat spins in place. Put the starboard engine ahead and the port engine astern to turn to port, and the reverse to turn to starboard. Around docks, center the rudders and steer with the engines alone, using short bursts of power and plenty of neutral rather than holding the shifters in gear.",
@@ -7712,7 +8568,65 @@
        "Have fenders and lines rigged before you arrive",
        "Use spring lines to hold or pivot the boat",
        "Brief crew: fend off with fenders or a boat hook, never hands or feet"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "r",
+         30,
+         70,
+         380,
+         26,
+         "s-mut"
+        ],
+        [
+         "m",
+         220,
+         60,
+         "Dock"
+        ],
+        [
+         "a",
+         "M40,150 H130",
+         "s-st"
+        ],
+        [
+         "m",
+         40,
+         134,
+         "Wind or current",
+         "start"
+        ],
+        [
+         "h",
+         270,
+         230,
+         -40,
+         "s-ink",
+         1.7
+        ],
+        [
+         "a",
+         "M246,202 L196,142"
+        ],
+        [
+         "t",
+         220,
+         326,
+         "Approach slowly, into the wind or current",
+         "middle",
+         15,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         350,
+         "Never faster than you’re willing to hit the dock"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Good docking is about planning. Approach slowly, never faster than you’re willing to hit the dock. Figure out whether wind or current is stronger, and approach into it, which gives you control and lets you stop easily. Have fenders and lines rigged before you arrive, and brief your crew or mate on which line goes where. A spring line can hold the boat against the dock while others are made fast, or pivot it in or out. Never let anyone fend off with their hands or feet, since crushing injuries between boat and dock are common.",
@@ -7729,7 +8643,22 @@
        "Wind blowing off the dock: steeper approach; get a bow line or spring on fast",
        "Current from ahead: easiest; current from astern: approach with care",
        "Leaving: spring out the stern or bow against a line"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "",
+        "Wind onto the dock",
+        "right",
+        "Stop alongside and let it push you in"
+       ],
+       "b": [
+        "",
+        "Wind off the dock",
+        "turn",
+        "Steeper approach. Get a bow line or spring on fast"
+       ]
+      }
      },
      "video": null,
      "script": "Wind and current change everything. With the wind blowing onto the dock, stop parallel a few feet off and let the wind set you gently alongside. With the wind blowing off the dock, approach at a steeper angle, get a bow line or spring line on quickly, and use it to pull the boat in. A current from ahead is easiest to dock against, while a current from astern pushes you faster than you think, so turn around if you can. To leave, motor gently ahead against a bow spring with the wheel turned toward the dock to swing the stern out, then back away.",
@@ -7782,7 +8711,32 @@
         "Yes",
         "High-strength specialty lines"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "rope",
+         "Nylon",
+         "Stretchy: rodes, dock lines"
+        ],
+        [
+         "rope",
+         "Polyester",
+         "Low stretch"
+        ],
+        [
+         "rope",
+         "Polypropylene",
+         "Floats; weakens in sun"
+        ],
+        [
+         "rope",
+         "Dyneema",
+         "Very strong, floats"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Choose line by what it needs to do. Nylon is strong and stretchy, so it absorbs shock loads, which makes it ideal for anchor rodes, dock lines and towlines. Polyester, often sold as Dacron, is strong with little stretch, used for halyards and sheets. Polypropylene floats, which makes it useful for ring buoy lines and ski ropes, but it’s weaker and breaks down in sunlight. Spectra and Dyneema are extremely strong, low-stretch, floating fibers used in specialty lines.",
@@ -7800,7 +8754,22 @@
        "Protect against chafe with chafe gear",
        "Rinse out salt; store out of the sun",
        "A knot weakens a line far more than a splice"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "",
+        "Three-strand",
+        "knot",
+        "Easy to splice, stretchy"
+       ],
+       "b": [
+        "",
+        "Double braid",
+        "rope",
+        "Strong and smooth, easy on hands and winches"
+       ]
+      }
      },
      "video": null,
      "script": "Lines come in different constructions. Three-strand twisted line is easy to splice and stretches well, which suits anchor rodes. Double-braid line is strong and smooth, easier on hands and winches. Chafe is the biggest enemy of line, so protect lines where they pass through chocks or over edges with chafe gear. Rinse out salt and store lines out of the sun. Remember that tying a knot in a line can reduce its strength by a third or more, while a good splice keeps most of it.",
@@ -7857,7 +8826,32 @@
         "Rolling hitch",
         "Taking the strain off another line"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "knot",
+         "Bowline",
+         "A fixed loop"
+        ],
+        [
+         "knot",
+         "Cleat hitch",
+         "Line to a cleat"
+        ],
+        [
+         "knot",
+         "Sheet bend",
+         "Joins two lines"
+        ],
+        [
+         "knot",
+         "Figure-eight",
+         "Stopper knot"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A captain should be able to tie these knots without thinking. The bowline makes a fixed loop that won’t slip and unties easily even after a heavy load. The cleat hitch secures a line to a cleat. The clove hitch is a quick hitch around a piling or rail, but it can slip, so back it up. A round turn and two half hitches secures a line to a ring or post under load. The sheet bend joins two lines, even of different sizes. The figure-eight is a stopper knot. And the rolling hitch grips another line to take the strain off it. Practice them until your hands know them.",
@@ -7875,7 +8869,70 @@
        "Never stand in a bight or loop of line",
        "Use the right size line for the load",
        "Inspect for chafe, stiffness and sun damage"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         44,
+         "A parting line can kill"
+        ],
+        [
+         "wg",
+         60,
+         200,
+         330,
+         62,
+         118,
+         "#d93025",
+         0.14
+        ],
+        [
+         "p",
+         "M60,200 H390",
+         "s-magst",
+         4.5
+        ],
+        [
+         "raw",
+         "<rect x='40' y='186' width='24' height='28' rx='4' class='s-ink'/>"
+        ],
+        [
+         "t",
+         250,
+         160,
+         "Snap-back zone",
+         "middle",
+         16
+        ],
+        [
+         "i",
+         "person",
+         330,
+         236,
+         1
+        ],
+        [
+         "n",
+         330,
+         236
+        ],
+        [
+         "m",
+         220,
+         340,
+         "Stay out of the line of pull"
+        ],
+        [
+         "m",
+         220,
+         360,
+         "Never stand in a bight or loop of line"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Lines under load store tremendous energy, especially stretchy nylon. If a loaded line parts, it can snap back with enough force to kill, so keep yourself and your passengers out of the path of any line under strain, such as during towing or when a boat surges against its dock lines. Never stand inside a bight, or loop, of line, where it could tighten around a leg. Use lines sized for the load, and inspect them for chafe, stiffness and sun damage, replacing them before they fail.",
@@ -7927,7 +8984,28 @@
        "Lower the anchor to the bottom; never throw it",
        "Drift or back slowly while paying out scope",
        "Set it with gentle reverse; take bearings or set a GPS anchor alarm"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "wind",
+         "Head into wind or current, and stop"
+        ],
+        [
+         "anchor",
+         "Lower it. Never throw it"
+        ],
+        [
+         "down",
+         "Back slowly, paying out scope"
+        ],
+        [
+         "target",
+         "Set it, then take bearings"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "To anchor, choose a spot with good holding bottom, shelter from the expected wind, and room to swing a full circle without hitting anything. Approach slowly into the wind or current and stop over the spot. Lower the anchor to the bottom, never throw it, since a thrown anchor tangles its own rode. Let the boat drift or back slowly downwind as you pay out scope. Snub the line to let the anchor bite, then set it firmly with gentle reverse. Finally, take bearings on two landmarks or set a GPS anchor alarm, so you’ll know if you start to drag.",
@@ -7945,7 +9023,32 @@
        "Always anchor from the bow, never the stern",
        "A trip line on the crown frees a fouled anchor",
        "Keep an anchor watch in changing weather"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "compass",
+         "Bearings change",
+         "You’re dragging"
+        ],
+        [
+         "anchor",
+         "More scope, or re-anchor",
+         ""
+        ],
+        [
+         "no",
+         "Never from the stern",
+         "Always anchor from the bow"
+        ],
+        [
+         "rope",
+         "Trip line on the crown",
+         "Frees a fouled anchor"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Watch for signs of dragging: your bearings or GPS position keep changing, the rode jerks or vibrates, or the boat lies at a different angle to the wind than nearby boats. Let out more scope, or pick up and re-anchor. Always anchor from the bow, never the stern. A boat anchored by the stern presents its low transom to the waves and can be swamped in minutes. If your anchor fouls under a rock or ledge, a trip line tied to the anchor’s crown lets you pull it out backward. And keep an anchor watch whenever the weather is changing.",
@@ -7963,7 +9066,28 @@
        "Florida Keys sanctuary: never on coral; use mooring buoys",
        "Avoid seagrass where possible",
        "Leave swing room for other boats"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "no",
+         "Not in channels or cable areas"
+        ],
+        [
+         "shapes:ball",
+         "Ball by day, anchor light at night"
+        ],
+        [
+         "warn",
+         "Never on coral: use mooring buoys"
+        ],
+        [
+         "boat",
+         "Leave swing room for others"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Don’t anchor in navigation channels, cable and pipeline areas, or restricted areas, and avoid anchoring where you’ll block other traffic. At night show your anchor light, and by day a black ball, as Rule thirty requires. In the Florida Keys National Marine Sanctuary, anchoring on coral is prohibited, so use the mooring buoys provided at popular reefs. Avoid anchoring in seagrass where you can, and leave enough room for other boats to swing without hitting you when the wind or current changes.",
@@ -7991,7 +9115,41 @@
        "Secure loose gear and close hatches",
        "Slow down; take head seas at a slight angle",
        "Keep passengers seated, low and centered"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "p",
+         "M20,70 q26,-16 52,0 t52,0 t52,0 t52,0 t52,0 t52,0 t52,0 M20,120 q26,-16 52,0 t52,0 t52,0 t52,0 t52,0 t52,0 t52,0 M20,170 q26,-16 52,0 t52,0 t52,0 t52,0 t52,0 t52,0 t52,0",
+         "s-magst",
+         2.8
+        ],
+        [
+         "h",
+         220,
+         260,
+         22,
+         "s-ink",
+         1.9
+        ],
+        [
+         "t",
+         220,
+         340,
+         "Take head seas at a slight angle",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         364,
+         "Slow down. Everyone seated, low and centered"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The best heavy weather tactic is not to be out in it. Check the forecast, and when in doubt, don’t go. If weather catches you, have everyone put on life jackets, secure loose gear, and close hatches and doors. Slow down. Pounding into head seas at speed injures passengers and damages boats, so take them at a slight angle off the bow at a speed that lets the boat ride over each wave. Keep passengers seated low and near the center of the boat, where the motion is least.",
@@ -8009,7 +9167,88 @@
        "Watch several sets before you commit",
        "Running in: ride the back of a wave; don’t surf down the face",
        "Wait for a better tide if you need to"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "r",
+         0,
+         200,
+         150,
+         200,
+         "s-land"
+        ],
+        [
+         "r",
+         290,
+         200,
+         150,
+         200,
+         "s-land"
+        ],
+        [
+         "r",
+         150,
+         170,
+         14,
+         150,
+         "s-mut"
+        ],
+        [
+         "r",
+         276,
+         170,
+         14,
+         150,
+         "s-mut"
+        ],
+        [
+         "a",
+         "M220,30 V110",
+         "s-st"
+        ],
+        [
+         "m",
+         232,
+         60,
+         "Onshore wind",
+         "start"
+        ],
+        [
+         "a",
+         "M220,340 V214"
+        ],
+        [
+         "m",
+         220,
+         366,
+         "Ebb current"
+        ],
+        [
+         "raw",
+         "<path d='M160,140 q15,-12 30,0 t30,0 t30,0 t30,0 M160,166 q15,-12 30,0 t30,0 t30,0 t30,0' stroke='#d93025' stroke-width='3' fill='none'/>"
+        ],
+        [
+         "t",
+         370,
+         150,
+         "Breaking",
+         "middle",
+         15,
+         "s-mag"
+        ],
+        [
+         "t",
+         370,
+         168,
+         "seas",
+         "middle",
+         15,
+         "s-mag"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Florida’s inlets are where many charter boats get into trouble. When a strong ebb current runs out against an onshore wind or swell, waves stack up and break in the entrance. Before running an inlet, stand off and watch several sets of waves to learn their pattern. When running in, position the boat on the back of a wave and match its speed, staying there rather than surfing down its face, where you can broach. If conditions look bad, wait for slack water or the flood, or use another inlet. Coming home a little late beats not coming home.",
@@ -8039,7 +9278,28 @@
        "Don’t back hard: you can suck sand into the cooling system or open a hole",
        "Shift weight, kedge off with an anchor, or wait for the rising tide",
        "An unintended grounding is a reportable marine casualty"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "engine",
+         "Stop the engine. Check for injuries"
+        ],
+        [
+         "eye",
+         "Check for leaks before moving"
+        ],
+        [
+         "no",
+         "Don’t back hard"
+        ],
+        [
+         "tide",
+         "Shift weight, kedge off, or wait for the tide"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "If you run aground, stop the engine and check everyone for injuries. Before trying to move, check the bilge and hull for leaks, because backing a holed boat off a shoal can sink it in deeper water. Don’t just back hard: you can pull sand and mud into the engine’s cooling system and make things worse. Try shifting weight, carrying an anchor out to deeper water and pulling yourself off, which is called kedging, or simply waiting for the rising tide. Remember that an unintended grounding of a commercial vessel is a reportable marine casualty.",
@@ -8057,7 +9317,17 @@
        "Render assistance to the other vessel’s people",
        "Exchange names, vessel information and registration",
        "Report it as required"
-      ]
+      ],
+      "fig": {
+       "t": "steps",
+       "items": [
+        "Check everyone for injuries",
+        "Assess damage and flooding",
+        "Help the other vessel’s people",
+        "Exchange names and vessel information",
+        "Report it as required"
+       ]
+      }
      },
      "video": null,
      "script": "After a collision, your first concern is people: check your passengers and crew for injuries. Next, check your own boat for damage and flooding. Federal law requires the operator of a vessel involved in a collision to render assistance to people affected, as far as possible without serious danger to their own vessel, and to give their name, address and vessel identification. Never leave the scene without doing so. Then report the collision as required, to the Coast Guard for a commercial marine casualty.",
@@ -8085,7 +9355,28 @@
        "Press MOB on the GPS",
        "Turn toward the side they fell from to swing the props away",
        "Assign one spotter who never looks away"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "person",
+         "Shout, point, and keep pointing"
+        ],
+        [
+         "ring",
+         "Throw flotation right away"
+        ],
+        [
+         "txt:MOB",
+         "Press MOB on the GPS"
+        ],
+        [
+         "turn",
+         "Turn toward the side they fell from"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "When someone falls overboard, the first seconds matter most. Shout man overboard, and point at the person, and keep pointing. Throw flotation immediately, a ring buoy, cushion, anything that floats, which also marks the spot. Press the man overboard button on your GPS. Turn the boat toward the side the person fell from, which swings the stern and propellers away from them. Assign one person whose only job is to keep their eyes and arm on the person in the water, because a head in waves disappears from sight within seconds.",
@@ -8115,7 +9406,57 @@
        "Recover over the side, never near the propeller",
        "Use a ladder, sling or parbuckle",
        "Treat for hypothermia and shock; get medical help"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "a",
+         "M220,30 V100",
+         "s-st"
+        ],
+        [
+         "m",
+         232,
+         60,
+         "Wind or sea",
+         "start"
+        ],
+        [
+         "raw",
+         "<circle cx='254' cy='176' r='9' fill='#e8762b'/><path d='M240,190 q14,-8 28,0' stroke='#e8762b' stroke-width='3' fill='none'/>"
+        ],
+        [
+         "h",
+         214,
+         262,
+         0,
+         "s-ink",
+         1.7
+        ],
+        [
+         "t",
+         220,
+         330,
+         "Approach slowly, into the wind or sea",
+         "middle",
+         15,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         352,
+         "Neutral when close. Recover over the side,"
+        ],
+        [
+         "m",
+         220,
+         370,
+         "never near the propeller"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Approach the person slowly, ideally heading into the wind or sea so you can stop alongside under control. Shift to neutral well before you reach them, and keep the propeller away. Never approach stern first. Bring them aboard over the side, not at the stern near the propeller, using a boarding ladder, a sling, or a parbuckle made from a line or net. A tired or cold person can’t climb, so plan to lift them. Once aboard, treat for hypothermia and shock, and get medical help.",
@@ -8133,7 +9474,32 @@
        "HELP: knees to chest, arms crossed, if alone",
        "Huddle together in a group",
        "Stay with the boat if it floats; don’t swim for distant shore"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "num:1",
+         "1 minute",
+         "Cold shock: control your breathing"
+        ],
+        [
+         "num:10",
+         "10 minutes",
+         "Of useful movement"
+        ],
+        [
+         "num:1",
+         "1 hour",
+         "Before unconsciousness"
+        ],
+        [
+         "vest",
+         "Life jacket",
+         "The difference between living and drowning"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "In the water, a life jacket is the difference between surviving and drowning. Cold water shock makes people gasp and inhale water in the first minute, which is why so many drownings happen to people who could swim. A useful guide is one, ten, one: about one minute of cold shock, ten minutes of meaningful movement before muscles fail, and about an hour before hypothermia causes unconsciousness in cold water. Florida’s water is warmer, which buys more time, but not unlimited time. Alone, hold the HELP position with knees to chest and arms crossed. In a group, huddle together. Stay with the boat if it floats, and don’t try to swim for distant shore.",
@@ -8151,7 +9517,16 @@
        "Life jackets on; take a grab bag with radio, beacon and water",
        "Step up into a life raft, not down",
        "Stay together and near the boat’s last position"
-      ]
+      ],
+      "fig": {
+       "t": "steps",
+       "items": [
+        "Mayday, DSC alert and EPIRB",
+        "Life jackets on; take the grab bag",
+        "Step UP into the life raft",
+        "Stay together, near the boat"
+       ]
+      }
      },
      "video": null,
      "script": "Abandon the boat only when it’s clearly lost, because even a swamped boat is easier for rescuers to find than people in the water. Before leaving, send a Mayday by voice and DSC, and activate the EPIRB. Make sure everyone has a life jacket on, and grab a ditch bag with a handheld radio, personal locator beacon, flares, water and medications. The old saying is to step up into a life raft, meaning leave only when the boat is sinking out from under you. Stay together, and stay near the boat’s last known position, where searchers will start looking.",
@@ -8179,7 +9554,14 @@
        "“This is Reel Time, Reel Time, Reel Time”",
        "Position, nature of distress, help needed",
        "Number aboard, boat description, then listen"
-      ]
+      ],
+      "fig": {
+       "t": "big",
+       "ic": "radio",
+       "v": "MAYDAY ×3",
+       "cap": "Channel 16, or the red DSC button first",
+       "sub": "Then: who you are, where you are, what’s wrong, how many aboard"
+      }
      },
      "video": null,
      "script": "There are three levels of urgent call. Mayday means grave and imminent danger to life or the vessel, such as sinking, fire or a man overboard. Pan-pan means an urgent situation without immediate danger to life, like a disabled engine drifting offshore. Securité is a safety message, such as a navigation hazard. A Mayday is sent on VHF channel sixteen, following the script on screen: Mayday three times, your boat’s name three times, your position, the problem, the help you need, the number aboard and a description of the boat. Then release the button and listen.",
@@ -8197,7 +9579,27 @@
        "EPIRB: 406 MHz, registered with NOAA; float-free or manual",
        "PLB: a personal beacon worn by a person",
        "Keep registrations and batteries current"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "txt:DSC",
+         "Red distress button",
+         "Sends MMSI and position on channel 70"
+        ],
+        [
+         "epirb",
+         "EPIRB",
+         "406 MHz, registered with NOAA"
+        ],
+        [
+         "person",
+         "PLB",
+         "A personal beacon you wear"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A VHF radio with digital selective calling has a red distress button. Pressing it sends an automatic alert with your MMSI number and GPS position on channel seventy, which the Coast Guard and nearby DSC radios receive. Then follow up by voice on channel sixteen. An EPIRB sends a distress signal on four hundred six megahertz to satellites, which relay your identity and position to rescuers. It must be registered with NOAA. A personal locator beacon does the same for an individual. Keep beacon registrations, batteries and hydrostatic releases current.",
@@ -8215,7 +9617,32 @@
        "Radio checks on a working channel or automated service, not 16",
        "Call on 16 or 9, then move to a working channel",
        "A false distress call is a federal crime"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "txt:ABC",
+         "Phonetic alphabet",
+         "Alfa, Bravo, Charlie"
+        ],
+        [
+         "radio",
+         "“Over” and “Out”",
+         "Over invites a reply. Out ends the call"
+        ],
+        [
+         "txt:16",
+         "Call, then move",
+         "Shift to a working channel"
+        ],
+        [
+         "warn",
+         "False distress call",
+         "A federal crime"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Good radio habits matter. Use the phonetic alphabet to spell names and numbers: Alfa, Bravo, Charlie, Delta and so on. Say over when you want a reply, and out when the conversation is finished. Do radio checks on a working channel or an automated radio-check service, never on channel sixteen. Make initial calls on sixteen or nine, then switch to a working channel to talk. And never make a false distress call. It’s a federal crime that can bring fines, prison and the cost of the search.",
@@ -8233,7 +9660,50 @@
        "Let the basket or hook touch the water or deck first to discharge static",
        "Never tie the hoist cable to the boat",
        "Keep life jackets on and a light or flare ready"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<ellipse cx='200' cy='80' rx='48' ry='20' class='s-ink'/><path d='M124,56 H276' class='s-st' stroke-width='4'/><path d='M200,60 V56' class='s-st' stroke-width='4'/><path d='M244,76 L318,66 V54' class='s-st' stroke-width='5'/><line x1='200' y1='100' x2='200' y2='236' class='s-st' stroke-width='2'/><rect x='185' y='236' width='30' height='24' fill='none' style='stroke:var(--mag);stroke-width:3'/>"
+        ],
+        [
+         "p",
+         "M10,262 H430",
+         "s-magst",
+         2.5
+        ],
+        [
+         "i",
+         "boat",
+         336,
+         248,
+         1.7
+        ],
+        [
+         "t",
+         220,
+         312,
+         "Let the basket touch down first",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         336,
+         "It discharges static"
+        ],
+        [
+         "m",
+         220,
+         360,
+         "Never tie the hoist cable to the boat"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "When rescuers arrive, follow their instructions exactly. They may ask you to hold a certain course and speed. Before a helicopter arrives, secure loose gear, canvas and antennas that its rotor wash could blow around. Let the rescue basket or hook touch the water or deck before anyone touches it, because it carries a powerful static charge. Never tie the hoist cable to your boat. Keep everyone in life jackets, and have a light, flare or signal mirror ready to help them find you.",
@@ -8250,7 +9720,32 @@
        "Who’s aboard, the boat, your route and return time",
        "What to do, and whom to call, if you’re overdue",
        "Update it if plans change; cancel it when you return"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "people",
+         "Who’s aboard",
+         ""
+        ],
+        [
+         "chart",
+         "Your route",
+         ""
+        ],
+        [
+         "clock",
+         "Your return time",
+         ""
+        ],
+        [
+         "radio",
+         "Whom to call if you’re overdue",
+         ""
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A float plan tells someone ashore where you’re going and when you’ll be back, so that if you don’t return, a search starts quickly and in the right place. Include who’s aboard, a description of the boat, your planned route, and your expected return time, plus instructions on when to call the Coast Guard. Leave it with a responsible person, such as your office, marina or a family member. Update it if your plans change, and cancel it when you get back.",
@@ -8278,7 +9773,14 @@
        "CPR: hard and fast, 100 to 120 compressions a minute, about 2 inches deep",
        "Use an AED if you carry one",
        "Keep in-person CPR and first aid training current"
-      ]
+      ],
+      "fig": {
+       "t": "big",
+       "ic": "heart",
+       "v": "100–120",
+       "cap": "Compressions a minute: hard, fast, about 2 inches deep",
+       "sub": "Scene safe, check breathing, call for help early"
+      }
      },
      "video": null,
      "script": "Offshore, help may be an hour or more away, so first aid skills matter. Start by making sure the scene is safe for you. Then check whether the person responds and is breathing normally. Call for help early, on VHF channel sixteen or by phone, because the Coast Guard can arrange medical advice and evacuation. If the person isn’t breathing normally, start CPR: push hard and fast in the center of the chest, one hundred to one hundred twenty compressions a minute, about two inches deep. Use an AED if you have one. Your license requires current CPR and first aid training, so keep it fresh.",
@@ -8296,7 +9798,16 @@
        "Shock: pale, cold, clammy, fast pulse",
        "Lay them flat, keep them warm, raise the legs if uninjured",
        "Nothing to eat or drink if seriously hurt"
-      ]
+      ],
+      "fig": {
+       "t": "steps",
+       "items": [
+        "Firm, direct pressure",
+        "Tourniquet for life-threatening limb bleeding",
+        "Note the time",
+        "Shock: lay flat, keep warm, raise the legs"
+       ]
+      }
      },
      "video": null,
      "script": "For serious bleeding, apply firm, direct pressure on the wound with a dressing and keep pressing. For life-threatening bleeding from an arm or leg that pressure won’t control, apply a tourniquet high on the limb, tighten it until the bleeding stops, and note the time. Watch for shock, a life-threatening drop in circulation, with pale, cold, clammy skin and a fast, weak pulse. Lay the person flat, keep them warm, and raise their legs if they aren’t injured. Don’t give anything to eat or drink to someone seriously hurt.",
@@ -8334,7 +9845,27 @@
         "Red skin, headache, thirst",
         "Prevent with shade, sunscreen and water"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "thermo",
+         "Heat exhaustion",
+         "Cool, sweaty skin: shade, fluids, rest"
+        ],
+        [
+         "warn",
+         "Heat stroke",
+         "Hot skin, confusion: emergency"
+        ],
+        [
+         "wave",
+         "Hypothermia",
+         "Shivering, clumsy: insulate, warm gently"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Florida charters see a lot of heat illness. Heat exhaustion causes pale, cool, sweaty skin, weakness and nausea. Get the person into shade, cool them, give fluids and let them rest. Heat stroke is a true emergency, with hot skin, confusion or collapse. Cool them aggressively with water and fanning, and call for help immediately. Hypothermia can happen even in Florida after time in the water. Remove wet clothing, insulate the person, and warm the core gently. Don’t rub their arms and legs, and don’t give alcohol. Prevent sunburn and dehydration with shade, sunscreen and plenty of water.",
@@ -8352,7 +9883,32 @@
        "Jellyfish: rinse with seawater, not fresh water",
        "Cuts from fish, shells and coral: clean well; watch for Vibrio infection",
        "Seasickness: fresh air, watch the horizon, stay on deck"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "fish",
+         "Stingray and catfish spines",
+         "Soak in water as hot as tolerable"
+        ],
+        [
+         "wave",
+         "Jellyfish",
+         "Rinse with seawater, not fresh water"
+        ],
+        [
+         "aid",
+         "Cuts",
+         "Clean well. Watch for Vibrio"
+        ],
+        [
+         "eye",
+         "Seasickness",
+         "Fresh air; watch the horizon"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Fishing charters bring their own injuries. A fish hook in or near the eye, or deep in a joint, should be left in place, secured, and treated ashore. Venomous spines from stingrays, catfish and lionfish cause intense pain, and soaking the wound in water as hot as the person can tolerate without burning breaks down the venom. Rinse jellyfish stings with seawater, not fresh water, which can trigger more stinging cells. Clean cuts from fish, shells and coral well, because warm Florida waters carry Vibrio bacteria, which can cause serious infection, especially in people with liver disease or weak immune systems. For seasickness, keep the person on deck in fresh air, looking at the horizon.",
@@ -8370,7 +9926,32 @@
        "Head, neck or back injury: don’t move them unless necessary",
        "Eyes: don’t rub; flush with clean water",
        "Record what happened and what you did"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "fuel",
+         "Burns",
+         "Cool running water, 10 to 20 minutes"
+        ],
+        [
+         "aid",
+         "Fractures",
+         "Immobilize as found"
+        ],
+        [
+         "person",
+         "Head, neck or back",
+         "Don’t move them unless you must"
+        ],
+        [
+         "eye",
+         "Eyes",
+         "Don’t rub. Flush with clean water"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "For burns, cool the area under cool running water for ten to twenty minutes, then cover it loosely with a clean dressing. Don’t use ice, butter or ointments. For a suspected fracture, immobilize the limb in the position you found it, and check circulation beyond the injury. If you suspect a head, neck or back injury, such as from a fall in rough seas, keep the person still and don’t move them unless they’re in danger. For something in the eye, don’t rub it; flush with clean water. And always write down what happened and what you did, both for the medical team and for your casualty report.",
@@ -8398,7 +9979,14 @@
        "1-800-424-8802",
        "Never use soap or dispersants on a spill",
        "Carry absorbent pads; no oily bilge water overboard"
-      ]
+      ],
+      "fig": {
+       "t": "big",
+       "ic": "oil",
+       "v": "1-800-424-8802",
+       "cap": "National Response Center: report every spill",
+       "sub": "No discharge that causes a sheen. Never use soap on a spill"
+      }
      },
      "video": null,
      "script": "The Clean Water Act prohibits discharging oil or oily waste in any amount that causes a film or sheen on the water or sludge below the surface. If a spill happens, report it right away to the National Response Center at one, eight hundred, four two four, eight eight zero two. Never use dish soap or chemical dispersants to make a sheen disappear. That just sinks the oil, and it’s a violation itself. Carry absorbent pads to soak up spills and oil in the bilge, and never pump oily bilge water overboard.",
@@ -8427,7 +10015,27 @@
         "Written waste management plan",
         "Ocean-going boats 40 ft and over with a galley and berthing"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "doc",
+         "Oil placard",
+         "Boats 26 ft and over"
+        ],
+        [
+         "doc",
+         "Garbage placard",
+         "Boats 26 ft and over"
+        ],
+        [
+         "book",
+         "Waste plan",
+         "Ocean-going, 40 ft and over"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Boats twenty-six feet and over must post an oil discharge placard, at least five by eight inches, in the machinery space or at the bilge pump control station, warning that discharging oil is prohibited. They must also post a garbage placard, at least four by nine inches, summarizing the garbage discharge rules where crew and passengers can read it. Ocean-going boats forty feet and over that have a galley and berthing must also have a written waste management plan describing how garbage is collected, stored and disposed of, and who’s responsible.",
@@ -8464,7 +10072,32 @@
         "Inland waters and within 3 nm",
         "Nothing overboard"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "trash",
+         "Plastics",
+         "Never, anywhere"
+        ],
+        [
+         "txt:3 nm",
+         "Ground food",
+         "3 nm or more out"
+        ],
+        [
+         "txt:12 nm",
+         "Unground food",
+         "12 nm or more out"
+        ],
+        [
+         "no",
+         "Inside 3 nm",
+         "Nothing overboard"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Garbage rules come from MARPOL Annex five. Plastics, including monofilament fishing line, nets and bags, may never be discharged anywhere. Food waste may be discharged only well offshore: three nautical miles or more if it’s ground up, and twelve nautical miles or more if it isn’t. Most other garbage, like paper, glass and metal, may not be thrown overboard at all and must be brought ashore. Inside three miles and on inland waters, nothing goes overboard. The simplest rule for a charter boat: bring everything back to the dock.",
@@ -8502,7 +10135,27 @@
         "Florida Keys and other areas",
         "No sewage at all, treated or not"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "txt:I",
+         "Type I",
+         "Flow-through treatment"
+        ],
+        [
+         "txt:II",
+         "Type II",
+         "Higher-level treatment"
+        ],
+        [
+         "txt:III",
+         "Type III",
+         "Holding tank"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A boat with an installed toilet must have a Coast Guard certified marine sanitation device. Type one and Type two devices treat sewage so treated effluent can be discharged, except in no-discharge zones. Type one is limited to boats sixty-five feet and under. A Type three device is a holding tank, emptied at a pump-out station, or discharged untreated only more than three miles offshore. In no-discharge zones, including the whole Florida Keys sanctuary, no sewage at all may be discharged, treated or not, and Y-valves must be secured closed.",
@@ -8520,7 +10173,28 @@
        "Florida Keys sanctuary rules on anchoring, fishing and discharges",
        "Recycle fishing line: it kills birds, turtles and dolphins",
        "Report spills, injured wildlife and violations: FWC 888-404-3922"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "gauge",
+         "Manatee zones: idle or slow speed"
+        ],
+        [
+         "prop",
+         "Don’t prop-scar seagrass"
+        ],
+        [
+         "rope",
+         "Recycle fishing line"
+        ],
+        [
+         "radio",
+         "Report: FWC 888-404-3922"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Florida’s waters are your business, so protect them. Obey manatee zone speed signs, and keep a lookout for manatees and sea turtles, especially in shallow water. Running aground in seagrass and leaving propeller scars damages the habitat that supports your fishery and is illegal in many areas. Know the rules of the Florida Keys National Marine Sanctuary if you operate there. Collect and recycle used fishing line, which kills birds, turtles and dolphins. Report spills, injured wildlife and violations to the Fish and Wildlife Conservation Commission at eight eight eight, four zero four, three nine two two.",
@@ -8548,7 +10222,36 @@
        "Anything affecting seaworthiness, such as fire or flooding",
        "A death, or an injury needing treatment beyond first aid",
        "Property damage over $75,000, or significant harm to the environment"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "anchor",
+         "Unintended grounding"
+        ],
+        [
+         "engine",
+         "Loss of propulsion or steering"
+        ],
+        [
+         "ext",
+         "Fire or flooding"
+        ],
+        [
+         "aid",
+         "Death, or injury beyond first aid"
+        ],
+        [
+         "money",
+         "Damage over $75,000"
+        ],
+        [
+         "oil",
+         "Harm to the environment"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "As a commercial operator, you must report marine casualties to the Coast Guard. Reportable casualties include an unintended grounding or striking a bridge; a loss of propulsion, steering or control that reduces the boat’s maneuverability; anything that affects the boat’s seaworthiness, such as a fire or flooding; a death; an injury that requires professional medical treatment beyond first aid; property damage over seventy-five thousand dollars; and significant harm to the environment. When in doubt, report it.",
@@ -8566,7 +10269,27 @@
        "Serious marine incidents also require drug and alcohol testing",
        "Keep your logbook, photos and witness names",
        "Recreational boating accidents are reported to the state instead"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "radio",
+         "Notify the Coast Guard",
+         "Immediately"
+        ],
+        [
+         "doc",
+         "Form CG-2692",
+         "Within 5 days"
+        ],
+        [
+         "bottle",
+         "Serious marine incident",
+         "Drug and alcohol testing too"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Report a marine casualty to the nearest Coast Guard sector or station immediately, as soon as you’ve dealt with the emergency. Then file a written report on Form C G twenty-six ninety-two within five days. If the casualty is a serious marine incident, such as one involving a death or serious injury, drug and alcohol testing is also required, with alcohol testing within two hours. Keep your logbook entries, photos and the names of witnesses. Accidents on recreational boats are reported to the state instead.",
@@ -8584,7 +10307,32 @@
        "Bridge answers one prolonged and one short: it will open",
        "Five short blasts: it can’t open now",
        "Many bridges open only on a schedule: check 33 CFR 117"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "snd:-.",
+         "Request an opening",
+         "One prolonged, one short"
+        ],
+        [
+         "snd:-.",
+         "Bridge will open",
+         "It answers with the same signal"
+        ],
+        [
+         "snd:.....",
+         "Can’t open now",
+         "Five short blasts"
+        ],
+        [
+         "txt:VHF 9",
+         "Florida bridges",
+         "Usually monitor channel 9"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Florida’s waterways are full of drawbridges. To request an opening, sound one prolonged blast followed by one short blast, or call the bridge tender by radio. Most Florida bridges monitor VHF channel nine. If the bridge will open, it answers with one prolonged and one short blast. If it can’t open right away, it sounds five short blasts. Many bridges open only on a schedule, such as on the hour and half hour, at certain times of day, and the schedules are published in the federal regulations and the Coast Pilot. Hold well back until the bridge is fully open.",
@@ -8602,7 +10350,46 @@
        "Security zones around cruise ships, tankers and ports",
        "Florida: boating under the influence and reckless operation laws",
        "Comply promptly with Coast Guard and FWC boardings"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         34,
+         "Naval vessel protection zone"
+        ],
+        [
+         "raw",
+         "<circle cx='220' cy='216' r='150' class='s-magst' stroke-width='2' stroke-dasharray='7 6'/><circle cx='220' cy='216' r='62' fill='#d93025' opacity='.14'/><circle cx='220' cy='216' r='62' fill='none' stroke='#d93025' stroke-width='2.5'/>"
+        ],
+        [
+         "i",
+         "ship",
+         220,
+         214,
+         1.6
+        ],
+        [
+         "t",
+         220,
+         176,
+         "100 yd: keep out",
+         "middle",
+         14
+        ],
+        [
+         "t",
+         220,
+         340,
+         "500 yd: minimum speed",
+         "middle",
+         15,
+         "s-mag"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A few more rules. You’re legally responsible for your wake and any damage or injury it causes, so slow down near docks, small boats and anchored vessels. Within five hundred yards of a large American naval vessel, you must operate at minimum speed, and you may not come within one hundred yards without permission. Many Florida ports enforce security zones around cruise ships, tankers and port facilities. Florida law also covers boating under the influence and reckless operation. And when the Coast Guard or the Fish and Wildlife Conservation Commission signals you to stop for a boarding, comply promptly.",
@@ -8620,7 +10407,28 @@
        "Carry commercial charter insurance, not a recreational policy",
        "Use a pre-departure checklist on every trip",
        "Cancel when conditions exceed your limits"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "book",
+         "Keep a log"
+        ],
+        [
+         "card",
+         "Credential, medical and drug tests current"
+        ],
+        [
+         "doc",
+         "Commercial charter insurance"
+        ],
+        [
+         "yes",
+         "Pre-departure checklist, every trip"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "That completes Deck General and Safety. A few final habits separate professionals from amateurs. Keep a log of every trip: passengers, weather, incidents and maintenance. Keep your credential, medical certificate and drug-testing enrollment current. Carry commercial charter insurance, since recreational policies usually exclude paying passengers. Use a pre-departure checklist every single trip. And above all, know your limits and your boat’s limits, and cancel when conditions exceed them. Your customers will book again. Next, take the lesson check, then the Deck General quiz, until you’re scoring eighty percent or better.",
