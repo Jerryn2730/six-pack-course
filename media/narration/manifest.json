@@ -64,10 +64,10 @@
    "voice": "af_heart"
   },
   "rules-02-3": {
-   "chars": 723,
-   "duration": 52.325,
-   "generated": "2026-11-11T02:21:41Z",
-   "hash": "d47bbfb9b137270c3c4075be9cf9fe0dc8aefe93dea40b5afd8fdaba638ee660",
+   "chars": 1067,
+   "duration": 76.775,
+   "generated": "2026-11-11T12:52:57Z",
+   "hash": "81c6b979c69e23e63b29c71d22f65cf16d01d7be6a85aa34c07f2bf972139a9b",
    "voice": "af_heart"
   },
   "rules-02-4": {
@@ -149,6 +149,6 @@
   }
  },
  "stats": {
-  "charsPerSec": 62.4
+  "charsPerSec": 47.8
  }
 }

@@ -640,7 +640,7 @@ const FIG={
   s+=sea(96,24,416)+sboat(120,79,1.05,"s-ink",`<line x1="-30" y1="-17" x2="-38" y2="-32" class="s-st" stroke-width="2.5"/>`)+`<path d="M80,46 L250,150 M72,96 L250,150" class="s-st" stroke-width="1.5"/><path d="M250,150 L330,128 L330,172 Z" class="s-magst" stroke-width="2" fill="none"/><path d="M270,144 V156 M290,139 V161 M310,133 V167" class="s-magst" stroke-width="1.2"/>`;
   s+=YES(34,34)+TX(52,41,"Engaged in fishing",{a:"start",z:20,w:700})+`<text x="262" y="186" text-anchor="middle" font-size="14" font-weight="500" class="s-mut">Gear restricts her maneuverability</text>`;
   s+=sea(296,24,416)+sboat(120,279,1.05,"s-ink",`<line x1="-40" y1="0" x2="-78" y2="-20" class="s-st" stroke-width="2"/><line x1="-34" y1="0" x2="-66" y2="-27" class="s-st" stroke-width="2"/>`)+`<path d="M38,258 Q22,280 14,312" class="s-st" stroke-width="1" fill="none" opacity=".7"/><path d="M51,251 Q36,280 30,322" class="s-st" stroke-width="1" fill="none" opacity=".7"/>`;
-  s+=NO(34,232)+TX(52,239,"Not “engaged in fishing”",{a:"start",z:20,w:700})+`<text x="262" y="352" text-anchor="middle" font-size="14" font-weight="500" class="s-mut">Trolling lines: she’s power-driven</text>`;
+  s+=NO(34,232)+TX(52,239,"Not “engaged in fishing”",{a:"start",z:20,w:700})+`<text x="262" y="352" text-anchor="middle" font-size="14" font-weight="500" class="s-mut">Trolling lines, or rods at anchor: no special status</text>`;
   return FV(s);},
  underway(){
   const L=(y,a,b,c)=>TX(232,y,a,{a:"start",z:19,w:700,c:c||"s-ink"})+`<text x="232" y="${y+20}" font-size="14" font-weight="500" class="s-mut">${b}</text>`;
