@@ -511,7 +511,72 @@
        "Don’t cross if it impedes a vessel that must stay in the channel",
        "That vessel may sound the danger signal if in doubt",
        "Avoid anchoring in a narrow channel"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "r",
+         0,
+         150,
+         440,
+         100
+        ],
+        [
+         "m",
+         40,
+         142,
+         "Channel"
+        ],
+        [
+         "h",
+         120,
+         200,
+         90,
+         "s-ink",
+         2.2
+        ],
+        [
+         "i",
+         "net",
+         330,
+         100,
+         1.3
+        ],
+        [
+         "t",
+         330,
+         60,
+         "Fishing: don’t impede"
+        ],
+        [
+         "h",
+         250,
+         310,
+         0,
+         "s-mut",
+         0.7
+        ],
+        [
+         "t",
+         250,
+         364,
+         "Crossing? Wait for her to pass"
+        ],
+        [
+         "i",
+         "anchor",
+         370,
+         200,
+         1
+        ],
+        [
+         "n",
+         370,
+         200
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Rule nine continues. A vessel engaged in fishing shall not impede the passage of any other vessel navigating within a narrow channel or fairway. A vessel shall not cross a narrow channel if the crossing impedes a vessel that can safely navigate only within it, and that vessel may sound the danger signal of at least five short blasts if she is in doubt about the crossing vessel’s intentions. And every vessel shall, if circumstances admit, avoid anchoring in a narrow channel. Anchoring a charter boat to fish the edge of a ship channel is exactly what this rule discourages.",
@@ -528,7 +593,27 @@
        "The vessel being overtaken acts to permit safe passing",
        "Rule 13 still makes the overtaking vessel keep clear",
        "Blind bend: one prolonged blast, answered by one prolonged blast"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "snd:-",
+         "Blind bend",
+         "One prolonged blast, answered by one prolonged blast"
+        ],
+        [
+         "yes",
+         "Agree first",
+         "If she must help you pass, signal and get agreement"
+        ],
+        [
+         "boat",
+         "Overtaking vessel",
+         "Still keeps clear under Rule 13"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "When one vessel can overtake another in a narrow channel only if the vessel being overtaken takes action to permit safe passing, the overtaking vessel signals her intention with the whistle signals of Rule thirty-four. The vessel being overtaken signals her agreement and takes steps to permit the pass, or sounds the danger signal if in doubt. Rule thirteen still applies, so the overtaking vessel remains responsible for keeping clear. A vessel nearing a bend or an area where other vessels may be hidden by an obstruction shall navigate with particular alertness and caution, and sound one prolonged blast. Any vessel around the bend that hears it answers with one prolonged blast.",
@@ -546,7 +631,83 @@
        "She proposes the manner and place of passage",
        "She initiates the maneuvering signals",
        "The upbound vessel holds as necessary to permit safe passing"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "r",
+         150,
+         0,
+         140,
+         400
+        ],
+        [
+         "a",
+         "M40,70 V160",
+         "s-st"
+        ],
+        [
+         "m",
+         40,
+         52,
+         "Current"
+        ],
+        [
+         "h",
+         220,
+         90,
+         180,
+         "s-ink",
+         1.4
+        ],
+        [
+         "t",
+         302,
+         84,
+         "Downbound",
+         "start",
+         17,
+         "s-mag"
+        ],
+        [
+         "m",
+         302,
+         104,
+         "Right of way",
+         "start"
+        ],
+        [
+         "m",
+         302,
+         122,
+         "Proposes passage",
+         "start"
+        ],
+        [
+         "h",
+         220,
+         320,
+         0,
+         "s-mut",
+         1.2
+        ],
+        [
+         "t",
+         302,
+         314,
+         "Upbound",
+         "start"
+        ],
+        [
+         "m",
+         302,
+         334,
+         "Holds as needed",
+         "start"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The Inland version of Rule nine adds a special rule for the Great Lakes, the Western Rivers and other waters the Coast Guard specifies. In narrow channels there, a power-driven vessel proceeding downbound with a following current has the right of way over an upbound vessel. She proposes the manner and place of passage and initiates the maneuvering signals. The vessel proceeding upbound against the current holds as necessary to permit safe passing. The logic is simple: a vessel going downstream with the current has less control and can’t easily stop.",
@@ -577,7 +738,113 @@
        "Fishing vessels don’t impede vessels following a lane",
        "Avoid anchoring in a scheme or near its ends",
        "Not using the scheme? Avoid it by a wide margin"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "m",
+         220,
+         44,
+         "Traffic lanes: through traffic"
+        ],
+        [
+         "r",
+         0,
+         56,
+         440,
+         66
+        ],
+        [
+         "a",
+         "M400,89 H60"
+        ],
+        [
+         "r",
+         0,
+         122,
+         440,
+         24,
+         "s-mag",
+         0.22
+        ],
+        [
+         "r",
+         0,
+         146,
+         440,
+         66
+        ],
+        [
+         "a",
+         "M60,179 H240"
+        ],
+        [
+         "h",
+         330,
+         179,
+         90,
+         "s-ink",
+         1.5
+        ],
+        [
+         "r",
+         0,
+         222,
+         440,
+         104,
+         "s-bg",
+         0.45
+        ],
+        [
+         "t",
+         220,
+         248,
+         "Inshore traffic zone"
+        ],
+        [
+         "i",
+         "boat",
+         110,
+         282,
+         0.9
+        ],
+        [
+         "i",
+         "sail",
+         220,
+         280,
+         0.9
+        ],
+        [
+         "i",
+         "net",
+         330,
+         282,
+         0.9
+        ],
+        [
+         "m",
+         220,
+         316,
+         "Under 20 m, sailing and fishing vessels may use it"
+        ],
+        [
+         "r",
+         0,
+         340,
+         440,
+         60,
+         "s-land"
+        ],
+        [
+         "m",
+         220,
+         376,
+         "Coast"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Through traffic shall not use an inshore traffic zone when it can safely use the adjacent lane. However, vessels of less than twenty meters, sailing vessels and vessels engaged in fishing may use the inshore traffic zone, and any vessel may use it when going to or from a place within it, or to avoid immediate danger. Vessels of less than twenty meters and sailing vessels shall not impede the safe passage of a power-driven vessel following a traffic lane, and a fishing vessel shall not impede any vessel following a lane. Vessels should avoid anchoring within a scheme or near its terminations, and a vessel not using a scheme should avoid it by as wide a margin as practicable.",
@@ -603,7 +870,22 @@
        "Rules 11 to 18 apply only to vessels in sight of one another",
        "In restricted visibility and not in sight, Rule 19 applies instead",
        "Radar contact alone doesn’t make vessels “in sight”"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "",
+        "In sight: Rules 11 to 18",
+        "eye",
+        "The steering and sailing rules for vessels that can see each other"
+       ],
+       "b": [
+        "",
+        "Not in sight: Rule 19",
+        "fog",
+        "Restricted visibility. A radar contact alone isn’t “in sight”"
+       ]
+      }
      },
      "video": null,
      "script": "Lesson five starts the second section of the steering rules. Rule eleven says that Rules twelve through eighteen apply only to vessels in sight of one another. That phrase is precise. Remember from the definitions that vessels are in sight only when one can be observed visually from the other. If you’re in fog and see a vessel only on radar, you are not in sight, and none of the stand-on or give-way rules apply. Instead, Rule nineteen, conduct in restricted visibility, governs both vessels. We’ll cover Rule nineteen in lesson eight.",
@@ -620,7 +902,113 @@
        "Wind on the same side: the windward boat keeps clear",
        "Port-tack boat can’t tell the other’s tack: she keeps clear",
        "Windward side: opposite the side the mainsail is carried"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         20,
+         30,
+         "Wind on different sides",
+         "start"
+        ],
+        [
+         "a",
+         "M220,40 V92",
+         "s-st"
+        ],
+        [
+         "m",
+         232,
+         70,
+         "Wind",
+         "start"
+        ],
+        [
+         "i",
+         "sail",
+         110,
+         124,
+         1.5
+        ],
+        [
+         "t",
+         110,
+         174,
+         "Port tack: keeps clear",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "i",
+         "sail",
+         330,
+         124,
+         1.5
+        ],
+        [
+         "m",
+         330,
+         174,
+         "Starboard tack"
+        ],
+        [
+         "p",
+         "M10,200 H430",
+         "s-lst"
+        ],
+        [
+         "t",
+         20,
+         232,
+         "Wind on the same side",
+         "start"
+        ],
+        [
+         "a",
+         "M20,292 H72",
+         "s-st"
+        ],
+        [
+         "m",
+         20,
+         272,
+         "Wind",
+         "start"
+        ],
+        [
+         "i",
+         "sail",
+         160,
+         292,
+         1.5
+        ],
+        [
+         "t",
+         160,
+         344,
+         "Windward: keeps clear",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "i",
+         "sail",
+         340,
+         292,
+         1.5
+        ],
+        [
+         "m",
+         340,
+         344,
+         "Leeward"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Rule twelve decides between two sailing vessels approaching each other. When each has the wind on a different side, the vessel with the wind on her port side keeps out of the way. When both have the wind on the same side, the vessel to windward keeps out of the way of the vessel to leeward. If a vessel with the wind on her port side sees a vessel to windward and can’t determine whether that vessel has the wind on her port or starboard side, she keeps out of the way. For this rule, the windward side is the side opposite to the one on which the mainsail is carried. On a square-rigged vessel, it’s the side opposite the largest fore-and-aft sail.",
@@ -649,7 +1037,27 @@
        "A later change of bearing doesn’t make it a crossing",
        "Keep clear until finally past and clear",
        "Overtaking overrides Rules 4 to 18"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "q",
+         "In doubt?",
+         "Assume you’re overtaking"
+        ],
+        [
+         "turn",
+         "Bearing changes later",
+         "Still overtaking, never a crossing"
+        ],
+        [
+         "yes",
+         "Until past and clear",
+         "The overtaking vessel keeps clear"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "When a vessel is in any doubt whether she is overtaking another, she shall assume that she is and act accordingly. Any later alteration of the bearing between the two vessels does not make the overtaking vessel a crossing vessel, or relieve her of the duty of keeping clear. So if you start overtaking a boat from astern, and she alters course so that you end up on her beam, you are still the overtaking vessel. You remain the give-way vessel until you are finally past and clear. Notice the words finally past and clear. Getting your bow just ahead isn’t enough.",
@@ -666,7 +1074,27 @@
        "Sail overtaking power: sail keeps clear",
        "Fishing vessel overtaking anyone: the fishing vessel keeps clear",
        "Coming up from astern? The overtaking vessel keeps clear"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "boat",
+         "Power overtaking sail",
+         "Power keeps clear"
+        ],
+        [
+         "sail",
+         "Sail overtaking power",
+         "Sail keeps clear"
+        ],
+        [
+         "net",
+         "Fishing vessel overtaking",
+         "The fishing vessel keeps clear"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Let’s test the overtaking rule against the pecking order of Rule eighteen. A power-driven vessel overtaking a sailboat keeps clear. That’s Rule thirteen and Rule eighteen agreeing. A sailboat overtaking a power-driven vessel also keeps clear, because overtaking overrides the pecking order. A fishing vessel overtaking a pleasure boat keeps clear for the same reason. On the exam, when a question describes one vessel coming up on another from astern, the overtaking vessel is the one that keeps clear, whatever kind of vessel she is.",
@@ -705,7 +1133,78 @@
        "Meeting: a downbound power vessel with a following current has right of way",
        "She proposes the manner of passage and initiates the signals",
        "A power vessel crossing a river keeps clear of power vessels going up or down it"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "r",
+         0,
+         130,
+         440,
+         120
+        ],
+        [
+         "a",
+         "M30,108 H120",
+         "s-st"
+        ],
+        [
+         "m",
+         30,
+         92,
+         "Current",
+         "start"
+        ],
+        [
+         "h",
+         140,
+         190,
+         90,
+         "s-ink",
+         1.5
+        ],
+        [
+         "t",
+         150,
+         280,
+         "Downbound: right of way",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "h",
+         360,
+         190,
+         -90,
+         "s-mut",
+         1.1
+        ],
+        [
+         "m",
+         360,
+         236,
+         "Upbound"
+        ],
+        [
+         "h",
+         330,
+         336,
+         0,
+         "s-mut",
+         0.9
+        ],
+        [
+         "t",
+         316,
+         384,
+         "Crossing vessel keeps clear",
+         "middle",
+         16
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Inland adds two special rules for rivers. On the Great Lakes, the Western Rivers and specified waters, a power-driven vessel operating downbound with a following current has the right of way over an upbound vessel when they meet. She proposes the manner and place of passage and initiates the maneuvering signals, and the upbound vessel holds as necessary to permit safe passing. And on those same waters, a power-driven vessel crossing a river shall keep out of the way of a power-driven vessel ascending or descending the river.",
@@ -746,7 +1245,27 @@
         "Give-way vessel alone can’t avoid collision",
         "SHALL take the action that best aids to avoid collision"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "num:1",
+         "Keep course and speed",
+         "Risk of collision develops"
+        ],
+        [
+         "num:2",
+         "May act alone",
+         "She clearly isn’t acting"
+        ],
+        [
+         "num:3",
+         "Shall act",
+         "She can’t avoid it alone"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Rule sixteen says every give-way vessel shall, so far as possible, take early and substantial action to keep well clear. Rule seventeen describes the stand-on vessel’s duty in three stages. First, when risk of collision develops, she shall keep her course and speed. Second, once it becomes apparent that the give-way vessel is not taking appropriate action, she may take action to avoid collision by her maneuver alone. Sounding the danger signal at this point is good practice. Third, when she finds herself so close that collision can’t be avoided by the give-way vessel alone, she shall take such action as will best aid to avoid collision. May at stage two, shall at stage three. The exam tests that difference.",
@@ -762,7 +1281,71 @@
        "Crossing: a stand-on power vessel avoids turning to port for a vessel on her own port side",
        "Stand-on action never relieves the give-way vessel",
        "Keep course and speed means predictable, not reckless"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         34,
+         "Stand-on vessel acting alone"
+        ],
+        [
+         "m",
+         220,
+         56,
+         "Don’t turn to port for a vessel on your port side"
+        ],
+        [
+         "h",
+         70,
+         180,
+         90,
+         "s-mut",
+         1
+        ],
+        [
+         "m",
+         70,
+         150,
+         "Give-way vessel"
+        ],
+        [
+         "h",
+         220,
+         310,
+         0,
+         "s-ink",
+         1.1
+        ],
+        [
+         "m",
+         220,
+         366,
+         "You: stand-on"
+        ],
+        [
+         "a",
+         "M208,278 C196,238 150,226 112,224",
+         "s-st"
+        ],
+        [
+         "n",
+         140,
+         200
+        ],
+        [
+         "a",
+         "M232,278 C244,238 290,226 340,224"
+        ],
+        [
+         "y",
+         352,
+         198
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Two more details of Rule seventeen. A power-driven vessel that takes action in a crossing situation to avoid collision with another power-driven vessel shall, if circumstances permit, not alter course to port for a vessel on her own port side. Turning to port would likely carry her right across the give-way vessel’s path, just as that vessel finally turns to starboard. And Rule seventeen does not relieve the give-way vessel of her obligation to keep out of the way. Whatever the stand-on vessel does, the give-way vessel is still responsible for keeping clear.",
@@ -800,7 +1383,27 @@
        "Sailing vessels keep clear of: NUC, RAM, fishing",
        "Fishing vessels keep clear, as far as possible, of: NUC, RAM",
        "NUC and RAM sit at the top"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "shapes:ball,ball",
+         "NUC and RAM",
+         "Top of the ladder"
+        ],
+        [
+         "net",
+         "Fishing keeps clear of",
+         "NUC and RAM, as far as possible"
+        ],
+        [
+         "sail",
+         "Sailing keeps clear of",
+         "NUC, RAM and fishing"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Moving up the ladder, a sailing vessel underway shall keep out of the way of a vessel not under command, a vessel restricted in her ability to maneuver, and a vessel engaged in fishing. A vessel engaged in fishing when underway shall, so far as possible, keep out of the way of a vessel not under command and a vessel restricted in her ability to maneuver. At the top of the ladder, vessels not under command and restricted vessels have no one listed above them, because by definition they can’t easily get out of anyone’s way.",
@@ -817,7 +1420,27 @@
        "Any vessel except NUC or RAM avoids impeding a CBD vessel",
        "The CBD vessel navigates with particular caution",
        "“Not impeding” means acting early, not stand-on or give-way"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "dots:rrr",
+         "Three red lights",
+         "Constrained by draft, at night"
+        ],
+        [
+         "shapes:cyl",
+         "A cylinder",
+         "Constrained by draft, by day"
+        ],
+        [
+         "txt:INTL",
+         "International only",
+         "The Inland rules have no such vessel"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Under International rules, any vessel other than a vessel not under command or a vessel restricted in her ability to maneuver shall, if circumstances admit, avoid impeding the safe passage of a vessel constrained by her draft that is showing the signals of Rule twenty-eight. The vessel constrained by her draft shall navigate with particular caution, having full regard to her special condition. Remember from Rule eight that not impeding means acting early to leave sea room. It’s different from give-way and stand-on. And remember that constrained by draft doesn’t exist under Inland rules.",
@@ -834,7 +1457,56 @@
        "Rule 10: the same applies in traffic lanes",
        "Rule 13: the overtaking vessel always keeps clear",
        "Example: a sailboat in a ship channel must not impede a tanker"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         50,
+         "The ladder doesn’t apply here"
+        ],
+        [
+         "m",
+         220,
+         74,
+         "A sailboat must not impede a tanker in a channel"
+        ],
+        [
+         "r",
+         0,
+         150,
+         440,
+         100
+        ],
+        [
+         "m",
+         50,
+         142,
+         "Ship channel"
+        ],
+        [
+         "h",
+         130,
+         200,
+         90,
+         "s-ink",
+         2.4
+        ],
+        [
+         "i",
+         "sail",
+         320,
+         194,
+         1.2
+        ],
+        [
+         "a",
+         "M344,226 C364,262 376,286 386,318"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Rule eighteen opens with an important exception: except where Rules nine, ten and thirteen otherwise require. So in a narrow channel, a sailing vessel or a vessel under twenty meters must not impede a large ship that can navigate only in the channel, even though the ship is power-driven. In a traffic separation scheme, the same applies to vessels following a lane. And a vessel overtaking always keeps clear, whatever type she is. On the exam, check whether a question mentions a narrow channel, a traffic lane or overtaking before you apply the ladder.",
@@ -851,7 +1523,27 @@
        "If risk of collision exists, a seaplane follows the steering rules",
        "WIG craft taking off, landing or flying near the surface: keep clear of all vessels",
        "WIG craft on the water: follow the rules as a power-driven vessel"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "seaplane",
+         "Seaplane on the water",
+         "Keeps well clear of all vessels"
+        ],
+        [
+         "seaplane",
+         "WIG craft, flying low",
+         "Keeps well clear of all vessels"
+        ],
+        [
+         "boat",
+         "WIG craft on the water",
+         "Follows the rules as a power-driven vessel"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Rule eighteen also covers seaplanes and wing-in-ground craft. A seaplane on the water shall, in general, keep well clear of all vessels and avoid impeding their navigation. But where risk of collision exists, she shall comply with the steering rules. A wing-in-ground craft, when taking off, landing and in flight near the surface, shall keep well clear of all other vessels and avoid impeding their navigation. When operating on the water surface, she follows the rules as a power-driven vessel.",
@@ -878,7 +1570,22 @@
        "In or near an area of restricted visibility",
        "No stand-on or give-way vessel",
        "Every vessel shares the duty to avoid collision"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "",
+        "In sight",
+        "eye",
+        "Stand-on and give-way rules apply"
+       ],
+       "b": [
+        "",
+        "Not in sight, in or near fog",
+        "fog",
+        "No stand-on vessel. Every vessel must avoid collision"
+       ]
+      }
      },
      "video": null,
      "script": "Rule nineteen is one of the most important and most tested rules, and it’s often misunderstood. It applies to vessels not in sight of one another when navigating in or near an area of restricted visibility. Notice the words or near. You may be in clear weather beside a fog bank. Under Rule nineteen there is no stand-on vessel and no give-way vessel. The steering rules for vessels in sight don’t apply. Every vessel has the same duty to avoid a close-quarters situation, and every vessel must take action.",
@@ -895,7 +1602,28 @@
        "Power-driven vessels keep engines ready for immediate maneuver",
        "Apply Rules 4 to 10 with the visibility in mind",
        "Sound fog signals, keep lights on, plot radar targets"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "gauge",
+         "Safe speed for the visibility"
+        ],
+        [
+         "engine",
+         "Engines ready to maneuver"
+        ],
+        [
+         "horn",
+         "Sound fog signals"
+        ],
+        [
+         "radar",
+         "Plot radar targets"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility. A power-driven vessel shall have her engines ready for immediate maneuver. Every vessel shall have due regard to the prevailing circumstances and conditions of restricted visibility when complying with Rules four through ten. In practice, that means slowing down, posting an extra lookout to listen, sounding the fog signals of Rule thirty-five, keeping your navigation lights on, and plotting every radar target.",
@@ -925,7 +1653,69 @@
        "Reduce to the minimum speed that keeps you on course",
        "Take all way off if necessary",
        "Navigate with extreme caution until the danger is over"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "wg",
+         220,
+         236,
+         170,
+         -90,
+         90,
+         "var(--mag)",
+         0.12
+        ],
+        [
+         "l",
+         "M30,236 H410"
+        ],
+        [
+         "m",
+         410,
+         254,
+         "Beam",
+         "end"
+        ],
+        [
+         "h",
+         220,
+         242,
+         0,
+         "s-ink",
+         1.5
+        ],
+        [
+         "i",
+         "horn",
+         120,
+         120,
+         1.3
+        ],
+        [
+         "t",
+         220,
+         38,
+         "Fog signal forward of your beam?"
+        ],
+        [
+         "t",
+         220,
+         330,
+         "Slow to bare steerageway",
+         "middle",
+         17,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         354,
+         "Stop if you must. Extreme caution until it’s over"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The second key part of Rule nineteen applies unless you’ve already determined that no risk of collision exists. Every vessel that hears, apparently forward of her beam, the fog signal of another vessel, or that cannot avoid a close-quarters situation with another vessel forward of her beam, shall reduce her speed to the minimum at which she can be kept on her course. She shall, if necessary, take all her way off, and in any event navigate with extreme caution until the danger of collision is over. Note the word apparently. Sound travels unpredictably in fog, so you can’t fully trust the direction a signal seems to come from.",
@@ -942,7 +1732,27 @@
        "Radar alone never makes you “in sight”",
        "No assumptions on scanty radar information",
        "Fog signals are in Rule 35, lesson 14"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "fog",
+         "Not in sight",
+         "Rule 19 governs"
+        ],
+        [
+         "eye",
+         "You sight each other",
+         "Rules 11 to 18 take over"
+        ],
+        [
+         "radar",
+         "Radar alone",
+         "Never counts as “in sight”"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Finally, remember how Rule nineteen hands over to the other rules. The moment two vessels come into sight of one another visually, the rules for vessels in sight, eleven through eighteen, take over, and a stand-on and give-way vessel exist again. Until then, both vessels share the duty. Radar contact alone never puts vessels in sight of one another, and Rule seven’s warning about scanty radar information applies with full force in fog. We’ll cover the fog signals themselves, Rule thirty-five, in lesson fourteen.",
@@ -970,7 +1780,22 @@
        "No other lights that could be mistaken for them or spoil the lookout",
        "Shapes: by day",
        "Technical details: Annex I"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "",
+        "Sunset to sunrise",
+        "moon",
+        "Lights, in all weather. Also by day in restricted visibility"
+       ],
+       "b": [
+        "",
+        "By day",
+        "sun",
+        "Shapes"
+       ]
+      }
      },
      "video": null,
      "script": "Part C of the rules covers lights and shapes. Rule twenty says the light rules apply from sunset to sunrise in all weathers. During that time no other lights shall be shown, except lights that can’t be mistaken for the required lights, don’t impair their visibility or distinctive character, and don’t interfere with keeping a proper lookout. Bright deck lights that blind your own lookout break this rule. Required lights shall also be shown from sunrise to sunset in restricted visibility, and may be shown at any other time when necessary. The rules for shapes apply by day. Exact positions and spacing are in Annex one.",
@@ -1031,7 +1856,27 @@
         "2",
         "2"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "txt:50 m+",
+         "Longest ranges",
+         "Masthead light 6 miles"
+        ],
+        [
+         "txt:12–50 m",
+         "Middle",
+         "Masthead 5 miles, or 3 if under 20 m"
+        ],
+        [
+         "txt:<12 m",
+         "Shortest",
+         "Masthead light 2 miles"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Rule twenty-two sets the minimum range at which each light must be visible, and it depends on vessel length. On vessels fifty meters or more, the masthead light must be visible six miles, and every other light three miles. On vessels from twelve to fifty meters, the masthead light must be visible five miles, but only three miles if the vessel is under twenty meters. Sidelights, sternlight, towing light and all-round lights must be visible two miles. On vessels under twelve meters, the masthead light must be visible two miles, the sidelights one mile, and the sternlight, towing and all-round lights two miles. The exam asks these numbers often, so make yourself a flashcard.",
@@ -1122,7 +1967,32 @@
        "Under 7 m with max speed 7 knots: all-round white, sidelights if practicable",
        "Under 12 m: masthead or all-round light may be off the centerline",
        "Inland, Great Lakes: all-round white may replace second masthead light and sternlight"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "dots:y",
+         "Air-cushion vessel",
+         "All-round flashing yellow"
+        ],
+        [
+         "dots:r",
+         "WIG craft near the surface",
+         "High-intensity flashing red"
+        ],
+        [
+         "dots:w",
+         "Under 7 m and 7 knots",
+         "One all-round white light"
+        ],
+        [
+         "txt:<12 m",
+         "Under 12 m",
+         "Masthead light may be off the centerline"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A few special cases. An air-cushion vessel operating in the non-displacement mode adds an all-round flashing yellow light. A wing-in-ground craft taking off, landing or flying near the surface adds a high-intensity all-round flashing red light. A power-driven vessel under seven meters whose maximum speed doesn’t exceed seven knots may show an all-round white light instead, and shall, if practicable, also show sidelights. On a power-driven vessel under twelve meters, the masthead or all-round light may be off the centerline if centerline fitting isn’t practicable, provided the sidelights are combined in one lantern near the centerline. Inland, on the Great Lakes, a power-driven vessel may show an all-round white light in place of the second masthead light and the sternlight.",
@@ -1333,7 +2203,32 @@
        "Partly submerged objects: all-round white lights at the ends, diamond aft",
        "Can’t light the tow? Take all possible measures to show its presence",
        "Rescue tows needn’t show towing lights if impracticable, but illuminate the towline"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "shapes:ball,diamond,ball",
+         "Tow restricts her course",
+         "Add the RAM lights and shapes"
+        ],
+        [
+         "shapes:diamond",
+         "Partly submerged object",
+         "White lights at the ends, a diamond aft"
+        ],
+        [
+         "bulb",
+         "Can’t light the tow?",
+         "Do everything possible to show it’s there"
+        ],
+        [
+         "tow",
+         "Rescue tow",
+         "Light up the towline"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Some special cases. A towing vessel whose tow severely restricts her ability to deviate from her course shows the restricted-in-ability-to-maneuver lights and shapes in addition to her towing lights. Inconspicuous, partly submerged vessels or objects being towed, like a fuel bladder, show all-round white lights at the ends, with extra lights if very wide, and a diamond shape at the aftermost end. Where it’s impracticable to light a vessel or object being towed, all possible measures shall be taken to light it or show its presence. And a vessel not normally engaged in towing, such as a boat towing another in distress, isn’t required to show towing lights when that’s impracticable, but must indicate the relationship, for example by illuminating the towline.",
@@ -1429,7 +2324,27 @@
        "Rowing boats: sailing lights, or the white torch",
        "Motorsailing by day: a cone, point down",
        "Inland: under 12 m, that cone is optional"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "sail",
+         "Sail under 7 m",
+         "Sidelights and sternlight if practicable"
+        ],
+        [
+         "bulb",
+         "Or a white torch or lantern",
+         "Shown in time to prevent collision"
+        ],
+        [
+         "shapes:coneDown",
+         "Motorsailing by day",
+         "A cone, point down"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A sailing vessel under seven meters shall, if practicable, show sidelights and a sternlight. If she doesn’t, she must have ready at hand an electric torch or lighted lantern showing a white light, exhibited in sufficient time to prevent collision. A vessel under oars may show the sailing vessel lights, but if not, she must have that same white torch or lantern ready. By day, a vessel proceeding under sail while also propelled by machinery shall show a cone, apex downward, forward where it can best be seen. Inland, a vessel under twelve meters isn’t required to show this cone, but may.",
@@ -1570,7 +2485,32 @@
         "Two yellow, flashing alternately",
         "Purse seiner hampered by her gear"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "dots:ww",
+         "Shooting nets",
+         ""
+        ],
+        [
+         "dots:wr",
+         "Hauling nets",
+         ""
+        ],
+        [
+         "dots:rr",
+         "Net fast on an obstruction",
+         ""
+        ],
+        [
+         "dots:yy",
+         "Purse seiner hampered",
+         "Flashing alternately"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Annex two describes extra signals for fishing vessels fishing in close proximity. These lights are placed lower than the Rule twenty-six lights and are visible at least one mile. A trawler may show two white lights in a vertical line when shooting her nets, white over red when hauling her nets, and two red lights in a vertical line when her net is fast on an obstruction. Vessels pair trawling may direct a searchlight forward and toward the other vessel of the pair. A purse seiner hampered by her gear may show two yellow lights in a vertical line, flashing alternately. The exam usually asks you to match each signal to its meaning.",
@@ -1733,7 +2673,27 @@
        "Dangerous to approach within 1000 m",
        "Under 12 m, except divers: NUC and RAM signals not required",
        "These are not distress signals"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "num:3",
+         "Mine clearance",
+         "Three all-round green lights, or three balls"
+        ],
+        [
+         "txt:1000 m",
+         "Stay clear",
+         "Dangerous to approach within 1000 meters"
+        ],
+        [
+         "no",
+         "Not distress signals",
+         "These signals mark work, not an emergency"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A vessel engaged in mine clearance shows three all-round green lights, or three balls by day, one near the foremast head and one at each end of the fore yard. These signals mean it is dangerous for another vessel to approach within one thousand meters. Vessels under twelve meters, except those engaged in diving operations, aren’t required to show the not-under-command or restricted signals. And remember, these signals are not distress signals. A vessel showing them is telling you about her limits, not asking for help.",
@@ -1891,7 +2851,32 @@
        "Under 12 m aground: no aground lights or shapes required",
        "Inland: under 20 m in a special anchorage area: no anchor light or shape",
        "Rule 31: seaplanes show lights as close as possible to the rules"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "txt:<7 m",
+         "Anchored clear of channels",
+         "No anchor light or shape required"
+        ],
+        [
+         "txt:<12 m",
+         "Aground",
+         "No aground lights or shapes required"
+        ],
+        [
+         "txt:<20 m",
+         "Inland special anchorage",
+         "No anchor light or shape"
+        ],
+        [
+         "seaplane",
+         "Seaplanes",
+         "As close to the rules as possible"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "There are some exemptions to know. A vessel under seven meters at anchor, when not in or near a narrow channel, fairway or anchorage, or where other vessels normally navigate, doesn’t need anchor lights or a shape. A vessel under twelve meters aground doesn’t need the aground lights or shapes. Inland, a vessel under twenty meters at anchor in a special anchorage area designated by the Coast Guard doesn’t need anchor lights or a shape. Finally, Rule thirty-one says that where a seaplane or wing-in-ground craft can’t show lights and shapes exactly as required, she shows lights and shapes as closely similar as possible.",
@@ -1934,7 +2919,32 @@
         "100 m and over",
         "Whistle, bell and gong"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "horn",
+         "Under 12 m",
+         "Any efficient sound signal"
+        ],
+        [
+         "horn",
+         "12 m and over",
+         "Whistle"
+        ],
+        [
+         "bell",
+         "20 m and over",
+         "Whistle and bell"
+        ],
+        [
+         "gong",
+         "100 m and over",
+         "Whistle, bell and gong"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Part D covers sound and light signals. Rule thirty-two defines a whistle as any device that can produce the prescribed blasts, a short blast as about one second, and a prolonged blast as four to six seconds. Rule thirty-three sets the equipment by length. A vessel twelve meters or more must carry a whistle. A vessel twenty meters or more must carry a whistle and a bell. A vessel one hundred meters or more must also carry a gong, whose tone can’t be confused with the bell. A vessel under twelve meters isn’t required to carry these, but if she doesn’t, she must have some other means of making an efficient sound signal.",
@@ -2007,7 +3017,27 @@
         "White, optional",
         "White or yellow, with the whistle"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "snd:.",
+         "1 short",
+         "I intend to leave you on my port side"
+        ],
+        [
+         "snd:..",
+         "2 short",
+         "I intend to leave you on my starboard side"
+        ],
+        [
+         "snd:...",
+         "3 short",
+         "Operating astern propulsion"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Inland rules use the same blasts for a different purpose. When power-driven vessels are in sight of one another and meeting or crossing at a distance within half a mile of each other, each vessel shall indicate her intended maneuver. One short blast means I intend to leave you on my port side. Two short blasts means I intend to leave you on my starboard side. Three short blasts means I am operating astern propulsion. Upon hearing the one or two blast signal, the other vessel shall, if in agreement, sound the same whistle signal and take the steps needed to pass. If she doubts the safety of the proposal, she sounds the danger signal. Inland light signals may be white or yellow, and are synchronized with the whistle.",
@@ -2070,7 +3100,22 @@
        "No agreement? Exchange whistle signals, and they prevail",
        "Bridge-to-bridge calls: VHF 13 in most areas",
        "International: radio doesn’t replace required whistle signals"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "",
+        "Inland",
+        "radio",
+        "Agree by radio and whistle signals aren’t required"
+       ],
+       "b": [
+        "",
+        "International",
+        "horn",
+        "Radio never replaces the required whistle signals"
+       ]
+      }
      },
      "video": null,
      "script": "Inland rules also say a vessel that reaches agreement on a passing by radiotelephone is not obliged to sound the whistle signals, though she may. If agreement isn’t reached, whistle signals shall be exchanged in a timely manner, and they prevail. Bridge-to-bridge calls are usually on VHF channel thirteen. Under International rules there is no such exemption, so the whistle signals of Rule thirty-four are still required when you maneuver, whatever has been said on the radio. And under either set of rules, if you are in doubt about the other vessel’s intentions, the danger signal is always available.",
@@ -2146,7 +3191,27 @@
         "Aground",
         "3 strokes, rapid bell, 3 strokes"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "bell",
+         "At anchor",
+         "Rapid bell, about 5 seconds"
+        ],
+        [
+         "gong",
+         "100 m and over",
+         "Bell forward, then gong aft"
+        ],
+        [
+         "snd:bbb",
+         "Aground",
+         "3 strokes, rapid bell, 3 strokes"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "At anchor, the signals are given at intervals of not more than one minute. A vessel at anchor rings the bell rapidly for about five seconds. A vessel one hundred meters or more rings the bell in the fore part, then immediately sounds the gong rapidly for about five seconds in the after part. A vessel at anchor may also sound one short, one prolonged and one short blast to warn an approaching vessel. A vessel engaged in fishing at anchor, or a restricted vessel working at anchor, sounds one prolonged and two short instead of the anchor signals. A vessel aground gives the bell signal, plus the gong if required, with three separate and distinct strokes on the bell immediately before and after the rapid ringing.",
@@ -2164,7 +3229,27 @@
        "Under 12 m: Rule 35 signals not required, but an efficient sound signal every 2 minutes",
        "Pilot vessel on duty may add four short blasts",
        "Inland: under 20 m in a special anchorage area needs no anchor signal"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "txt:12–20 m",
+         "12 to 20 m",
+         "Bell signals not required"
+        ],
+        [
+         "txt:<12 m",
+         "Under 12 m",
+         "An efficient sound signal every 2 minutes"
+        ],
+        [
+         "snd:....",
+         "Pilot vessel on duty",
+         "May add four short blasts"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Smaller vessels get some relief. A vessel of twelve to twenty meters isn’t obliged to give the bell signals at anchor or aground, but if she doesn’t, she must make some other efficient sound signal at intervals of not more than two minutes. A vessel under twelve meters isn’t obliged to give any of the Rule thirty-five signals, but she must make some other efficient sound signal at intervals of not more than two minutes. A pilot vessel on pilotage duty may add an identity signal of four short blasts. And Inland, a vessel under twenty meters at anchor in a special anchorage area needn’t sound the anchor signal.",
@@ -2180,7 +3265,22 @@
        "Any light or sound that can’t be mistaken for a required signal",
        "Or a searchlight aimed toward the danger, without embarrassing any vessel",
        "Never use strobe or other high-intensity flashing lights"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "yes",
+        "Allowed",
+        "bulb",
+        "A light or sound that can’t be mistaken, or a searchlight toward the danger"
+       ],
+       "b": [
+        "no",
+        "Never",
+        "warn",
+        "Strobes or other high-intensity flashing lights"
+       ]
+      }
      },
      "video": null,
      "script": "Rule thirty-six lets any vessel attract the attention of another by making light or sound signals that cannot be mistaken for any signal authorized elsewhere in the rules, or by directing the beam of her searchlight in the direction of the danger, in such a way as not to embarrass any vessel. A light used to attract attention should not be mistaken for an aid to navigation. High-intensity intermittent or revolving lights, such as strobe lights, shall be avoided for this purpose. Embarrass here means dazzle or interfere with another vessel’s crew, so never aim a searchlight into a wheelhouse.",
@@ -2201,7 +3301,36 @@
        "Flames on the vessel; red parachute or hand flares; orange smoke",
        "Slowly raising and lowering outstretched arms",
        "DSC distress alert, EPIRB, dye marker"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "flare",
+         "Red flares and rockets"
+        ],
+        [
+         "smoke",
+         "Orange smoke"
+        ],
+        [
+         "radio",
+         "Mayday, SOS, DSC alert"
+        ],
+        [
+         "epirb",
+         "EPIRB"
+        ],
+        [
+         "horn",
+         "Continuous fog signal"
+        ],
+        [
+         "person",
+         "Arms slowly raised and lowered"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Rule thirty-seven says that when a vessel is in distress and requires assistance, she shall use or exhibit the signals described in Annex four. They are: a gun or other explosive signal fired at intervals of about a minute; a continuous sounding with any fog-signal apparatus; rockets or shells throwing red stars fired one at a time at short intervals; the signal SOS by any signaling method; the spoken word Mayday by radio; the code flags November Charlie; a square flag with a ball, or anything like a ball, above or below it; flames on the vessel; a rocket parachute flare or hand flare showing a red light; orange smoke; slowly and repeatedly raising and lowering arms outstretched to each side; a digital selective calling distress alert; an EPIRB signal; and a dye marker.",
@@ -2218,7 +3347,22 @@
        "Use distress signals only to show distress and need of help",
        "Don’t use signals that could be confused with them",
        "Exam favorite: which of these is NOT a distress signal?"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "yes",
+        "Inland adds",
+        "light",
+        "A white light flashing 50 to 70 times a minute"
+       ],
+       "b": [
+        "no",
+        "Misuse",
+        "warn",
+        "Use distress signals only for real distress"
+       ]
+      }
      },
      "video": null,
      "script": "Inland rules add one more distress signal: a high-intensity white light flashing at regular intervals from fifty to seventy times per minute. Using any of these signals except to indicate distress and need of assistance is prohibited, as is using any signal that might be confused with them. A favorite exam question lists four signals and asks which one is not a distress signal. Watch for traps like three short blasts, a green flare, or a white flare. Those aren’t distress signals. A continuously sounding fog horn is, and so is orange smoke.",
@@ -2276,7 +3420,22 @@
         "White",
         "White or yellow"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "txt:INTL",
+         "International",
+         "Signals say what I am doing"
+        ],
+        [
+         "txt:INLAND",
+         "Inland",
+         "Signals propose, and she must agree"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "This final lesson pulls together the differences between Inland and International rules, because they produce a large share of exam questions. Start with sound signals. International maneuvering signals announce action being taken whenever a power-driven vessel maneuvers in sight of another. Inland signals propose an intention and need agreement between power-driven vessels meeting or crossing within half a mile. International overtaking signals are used in narrow channels and start with two prolonged blasts. Inland overtaking signals are one or two short blasts, in any waters. Inland, a radio agreement replaces the whistle signals, and a vessel leaving a berth sounds one prolonged blast. Inland maneuvering lights may be white or yellow.",
@@ -2334,7 +3493,22 @@
         "None",
         "White light flashing 50 to 70 per minute"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "dots:rrr",
+         "International only",
+         "Constrained by draft"
+        ],
+        [
+         "dots:yy",
+         "Inland only",
+         "Two yellow towing lights when pushing ahead"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Now the differences in vessels and lights. Constrained by draft exists only in International rules. A vessel pushing ahead shows a sternlight under International rules, but two yellow towing lights Inland, and the barge she pushes carries a special flashing yellow light Inland. On the Great Lakes, an all-round white light may replace the after masthead light and sternlight. On the Great Lakes and Western Rivers, a downbound vessel with a following current has right of way, and a vessel crossing the river keeps clear. Inland, a vessel under twenty meters in a special anchorage area needs no anchor light, and a motorsailing vessel under twelve meters needn’t show the cone. Inland also adds the flashing white distress light.",
@@ -2352,7 +3526,32 @@
        "Towing vessels 26 ft and over; dredges and floating plant near a channel",
        "Keep a listening watch on VHF 13 in most areas, in English",
        "Most six-packs aren’t required, but monitor 13 and 16 near ship channels"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "txt:20 m+",
+         "Power-driven vessels",
+         "20 meters and over"
+        ],
+        [
+         "people",
+         "Passenger vessels for hire",
+         "100 gross tons and over"
+        ],
+        [
+         "tug",
+         "Towing vessels",
+         "26 feet and over"
+        ],
+        [
+         "txt:VHF 13",
+         "Listening watch",
+         "Channel 13 in most areas"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The Vessel Bridge-to-Bridge Radiotelephone Act requires certain vessels on American waters to keep a listening watch on the designated bridge-to-bridge channel, which is VHF channel thirteen in most areas, so that captains can talk directly to each other. It applies to power-driven vessels of twenty meters or more, vessels of one hundred gross tons or more carrying one or more passengers for hire, towing vessels of twenty-six feet or more, and dredges and floating plant working in or near a channel. The person keeping the watch must be able to communicate in English. Most six-pack charter boats aren’t required to participate, but monitoring channels thirteen and sixteen near ship channels is good seamanship.",
@@ -2369,7 +3568,13 @@
        "Retake every lesson check until you score 100%",
        "Take the Rules quiz until you score 90% twice in a row",
        "Read the rules once more in the handbook before the exam"
-      ]
+      ],
+      "fig": {
+       "t": "big",
+       "ic": "target",
+       "v": "90%",
+       "cap": "Drill daily. Retake each check to 100%. Quiz to 90% twice in a row."
+      }
      },
      "video": null,
      "script": "You’ve now covered every rule in the Rules of the Road module. Here’s how to turn that into a passing score. Drill the lights, shapes and sound signals every day with the flashcards in this app, because they’re pure memorization. Retake each lesson check until you score one hundred percent. Then take the Rules of the Road quiz until you score at least ninety percent twice in a row. Finally, the week before your exam, read the rules once more in the Coast Guard handbook, side by side, paying special attention to the Inland differences. Good luck, Captain.",

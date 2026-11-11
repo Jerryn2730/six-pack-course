@@ -42,13 +42,24 @@ const dgBlock = template.slice(template.indexOf("const DG={"), template.indexOf(
 const diagrams = new Set([...dgBlock.matchAll(/^\s*([A-Za-z0-9_]+)\(\)\s*\{/gm)].map((m) => m[1]));
 const figBlock = template.slice(template.indexOf("const FIG={"), template.indexOf("\n};", template.indexOf("const FIG={")));
 const figures = new Set([...figBlock.matchAll(/^\s*([A-Za-z0-9_]+)\([^)]*\)\s*\{/gm)].map((m) => m[1]));
+const blockOf = (start) => template.slice(template.indexOf(start), template.indexOf("\n};", template.indexOf(start)));
+const layouts = new Set([...blockOf("const FIGT={").matchAll(/^\s*([A-Za-z0-9_]+)\(f\)\{/gm)].map((m) => m[1]));
+const icons = new Set([...blockOf("const IC={").matchAll(/^\s*([A-Za-z0-9_]+):\(\)=>/gm)].map((m) => m[1]));
 const missing = [];
 for (const L of data.lessons)
   for (const s of L.slides)
     if (s.visual && s.visual.k === "dg" && !diagrams.has(s.visual.f)) missing.push(`${L.id}-${s.n}: "${s.visual.f}"`);
 for (const L of data.lessons)
   for (const s of L.slides)
-    if (s.visual && s.visual.fig && !figures.has(s.visual.fig)) missing.push(`${L.id}-${s.n}: figure "${s.visual.fig}"`);
+    if (s.visual && s.visual.fig) {
+      const f = s.visual.fig;
+      if (typeof f === "string") { if (!figures.has(f)) missing.push(`${L.id}-${s.n}: figure "${f}"`); }
+      else {
+        if (!layouts.has(f.t)) missing.push(`${L.id}-${s.n}: figure layout "${f.t}"`);
+        const names = f.t === "cmp" ? [f.a[2], f.b[2]] : f.t === "big" ? (f.ic ? [f.ic] : []) : f.t === "steps" ? [] : (f.items || []).map((x) => x[0]);
+        for (const n of names) if (!/^(dots|shapes|snd|txt|num):/.test(n) && !icons.has(n)) missing.push(`${L.id}-${s.n}: icon "${n}"`);
+      }
+    }
 if (missing.length) {
   console.error(`Build stopped: unknown diagram or figure name(s): ${missing.join(", ")}`);
   process.exit(1);

@@ -174,7 +174,9 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .vfig .vpoints,.vfig .vscript{font-size:clamp(1rem,1.8vw,1.2rem)}
 .vfig .callout{width:100%}
 @media (max-width:719px){.vfig{grid-template-columns:1fr;height:auto}.vfig-art{height:auto}.visual .vfig-art svg.fg{max-height:340px;width:auto;max-width:100%}}
-.vfig.top{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr);gap:.7rem}
+.vfig.top{grid-template-columns:1fr;grid-template-rows:auto auto;gap:.7rem;height:auto;align-content:center}
+.visual:has(.vfig.top){flex:1 0 auto}
+@media (min-width:720px){.slide:has(.vfig.top){aspect-ratio:auto;min-height:calc(min(900px,100vw - 2rem)*9/16)}}
 .vfig.top .vfig-art{height:auto}
 .visual .vfig.top .vfig-art svg.fg{aspect-ratio:64/15;max-height:150px;width:100%}
 .vfig.top .vtable{font-size:.95em}
@@ -742,6 +744,133 @@ const FIG={
   s+=TX(120,290,"Vessel you must not impede",{z:15})+TX(350,330,"You: move over early",{z:15,c:"s-mag"})+sub(46,132,"Channel");
   return FV(s);}
 };
+/* ---------- Generic illustrations (visual.fig as an object) ----------
+   {t:"rows"|"tiles"|"cmp"|"steps"|"big", ...} built from the icon set IC. Icons are original drawings,
+   centered on 0,0 and about 48 units across. An icon name may carry data: "dots:rwg" (lights, top to
+   bottom), "shapes:ball,diamond", "snd:-.." (prolonged and short blasts), "txt:VHF 13", "num:6". */
+const P_=(d,c,w)=>`<path d="${d}" class="${c||"s-st"}" stroke-width="${w||2.4}" stroke-linecap="round" stroke-linejoin="round"/>`;
+const F_=(d,c)=>`<path d="${d}" class="${c||"s-ink"}"/>`;
+const C_=(x,y,r,c)=>`<circle cx="${x}" cy="${y}" r="${r}" class="${c||"s-ink"}"/>`;
+const IC={
+ boat:()=>F_("M-24,4 L23,4 L17,13 L-21,13 Z")+F_("M-10,4 L-7,-6 L5,-6 L9,4 Z"),
+ ship:()=>F_("M-26,2 L26,2 L21,13 L-23,13 Z")+F_("M-22,2 V-10 H-10 V2 Z")+P_("M-16,-10 V-18"),
+ sail:()=>F_("M-20,8 L20,8 L15,16 L-16,16 Z")+P_("M0,8 V-22")+F_("M3,-20 L3,4 L20,4 Z","s-mag")+`<path d="M-3,-16 L-3,4 L-17,4 Z" class="s-mag" opacity=".6"/>`,
+ tug:()=>F_("M-22,5 L20,5 L15,14 L-19,14 Z")+F_("M-12,5 V-12 H2 V5 Z")+P_("M-5,-12 V-20")+P_("M20,5 H27","s-magst"),
+ fish:()=>P_("M-20,0 Q-4,-14 12,0 Q-4,14 -20,0 Z M12,0 L22,-9 V9 Z")+C_(-11,-2,1.8),
+ net:()=>F_("M-25,-8 L-3,-8 L-7,-1 L-23,-1 Z")+P_("M-8,-4 L8,12 M-22,-1 L8,12","s-st",1.4)+P_("M8,12 L24,5 V19 Z M14,9 V15 M19,7 V17","s-magst",1.6),
+ anchor:()=>P_("M0,-12 V18 M-9,-4 H9 M-17,6 Q-15,18 0,18 Q15,18 17,6")+`<circle cx="0" cy="-16" r="4" class="s-st" stroke-width="2.4"/>`,
+ bell:()=>F_("M-13,10 Q-12,-14 0,-16 Q12,-14 13,10 Z")+P_("M-16,10 H16")+C_(0,16,3.5),
+ gong:()=>`<circle cx="0" cy="2" r="14" class="s-st" stroke-width="2.6"/>`+C_(0,2,3)+P_("M-14,-18 H14 M-9,-18 L-6,-11 M9,-18 L6,-11"),
+ horn:()=>F_("M-20,-5 L-2,-13 V13 L-20,5 Z")+P_("M5,-8 Q12,0 5,8 M12,-14 Q24,0 12,14","s-magst"),
+ radio:()=>`<rect x="-9" y="-8" width="18" height="28" rx="3" class="s-ink"/>`+P_("M-5,-8 V-22")+P_("M4,-18 Q10,-13 4,-8 M10,-22 Q20,-13 10,-4","s-magst",2),
+ radar:()=>`<circle cx="0" cy="0" r="20" fill="#04070B"/><circle cx="0" cy="0" r="11" fill="none" stroke="#3ddc84" stroke-dasharray="3 4" opacity=".7"/><line x1="0" y1="0" x2="0" y2="-20" stroke="#3ddc84" opacity=".7"/><circle cx="9" cy="-7" r="3.5" fill="#3ddc84"/>`,
+ eye:()=>P_("M-20,0 Q0,-16 20,0 Q0,16 -20,0 Z")+C_(0,0,6),
+ fog:()=>P_("M-22,-10 q7,-6 14,0 t14,0 t14,0 M-22,2 q7,-6 14,0 t14,0 t14,0 M-22,14 q7,-6 14,0 t14,0 t14,0","s-lst",3.4),
+ flag:()=>P_("M-12,-20 V20")+F_("M-12,-18 L16,-12 L-12,-2 Z","s-mag"),
+ flare:()=>P_("M-18,20 Q-10,2 4,-6")+`<path d="M4,-22 V10 M-12,-6 H20 M-7,-17 L15,5 M15,-17 L-7,5" stroke="#d93025" stroke-width="2.6" stroke-linecap="round"/>`,
+ smoke:()=>F_("M-8,20 H8 V8 H-8 Z")+`<path d="M0,6 Q-12,0 -4,-8 Q-14,-16 0,-22 M6,4 Q16,-4 8,-12" stroke="#e8762b" stroke-width="3" fill="none" stroke-linecap="round"/>`,
+ vest:()=>`<path d="M-14,-18 H-5 Q0,-8 5,-18 H14 V18 H-14 Z" fill="#e8762b"/>`+P_("M-14,2 H14 M0,-10 V18","s-st",1.6),
+ ring:()=>`<circle cx="0" cy="0" r="15" fill="none" stroke="#e8762b" stroke-width="9"/><path d="M-15,0 H-6 M6,0 H15 M0,-15 V-6 M0,6 V15" stroke="#fff" stroke-width="3"/>`,
+ ext:()=>`<rect x="-9" y="-8" width="18" height="28" rx="4" fill="#d93025"/>`+F_("M-4,-14 H4 V-8 H-4 Z")+P_("M4,-12 H14 L18,-4"),
+ aid:()=>`<rect x="-18" y="-18" width="36" height="36" rx="6" fill="#fff" stroke="#d93025" stroke-width="2"/><path d="M-4,-11 H4 V-4 H11 V4 H4 V11 H-4 V4 H-11 V-4 H-4 Z" fill="#d93025"/>`,
+ engine:()=>`<circle cx="0" cy="0" r="9" class="s-st" stroke-width="5"/>`+P_("M0,-19 V-13 M0,13 V19 M-19,0 H-13 M13,0 H19 M-13,-13 L-9,-9 M9,9 L13,13 M13,-13 L9,-9 M-9,9 L-13,13","s-st",4.5),
+ fuel:()=>F_("M0,-20 Q16,2 12,10 Q8,20 0,20 Q-8,20 -12,10 Q-16,2 0,-20 Z"),
+ chart:()=>`<rect x="-20" y="-15" width="40" height="30" rx="2" class="s-surfb"/>`+P_("M-7,-15 V15 M7,-15 V15 M-20,0 H20","s-lst",1.4)+P_("M-14,8 L-2,-4 L12,-8","s-magst",2.2),
+ compass:()=>`<circle cx="0" cy="0" r="18" class="s-st" stroke-width="2.6"/>`+F_("M0,-14 L5,0 H-5 Z","s-mag")+F_("M0,14 L5,0 H-5 Z")+C_(0,0,2),
+ buoyR:()=>`<polygon points="-11,16 11,16 11,-2 0,-18 -11,-2" fill="#C8312A"/>`,
+ buoyG:()=>`<rect x="-10" y="-16" width="20" height="32" rx="2" fill="#1E8A4C"/>`,
+ clock:()=>`<circle cx="0" cy="0" r="17" class="s-st" stroke-width="2.6"/>`+P_("M0,-10 V0 L8,5","s-magst",2.8),
+ wind:()=>P_("M-20,-8 H6 Q14,-8 14,-14 Q14,-19 8,-19 M-20,2 H14 Q22,2 22,9 Q22,15 15,15 M-20,12 H0"),
+ wave:()=>P_("M-22,-4 q7,-9 14,0 t14,0 t14,0 M-22,10 q7,-9 14,0 t14,0 t14,0","s-magst",2.8),
+ doc:()=>`<rect x="-14" y="-19" width="28" height="38" rx="3" class="s-surfb"/>`+P_("M-8,-10 H8 M-8,-2 H8 M-8,6 H3","s-st",2),
+ card:()=>`<rect x="-21" y="-14" width="42" height="28" rx="4" class="s-surfb"/>`+C_(-10,-3,5)+P_("M0,-6 H14 M0,1 H14 M-16,8 H14","s-st",1.8),
+ person:()=>C_(0,-12,6)+F_("M-11,20 Q-11,-3 0,-3 Q11,-3 11,20 Z"),
+ people:()=>C_(-9,-10,5.5)+F_("M-19,18 Q-19,-2 -9,-2 Q1,-2 1,18 Z")+C_(10,-10,5.5)+`<path d="M0,18 Q0,-2 10,-2 Q20,-2 20,18 Z" class="s-mut"/>`,
+ rope:()=>`<ellipse cx="0" cy="2" rx="18" ry="11" class="s-st" stroke-width="3"/><ellipse cx="0" cy="2" rx="10" ry="5" class="s-st" stroke-width="3"/>`+P_("M16,-4 Q22,-14 12,-20","s-st",3),
+ knot:()=>P_("M-22,4 Q-8,4 -4,-6 Q2,-18 10,-8 Q16,2 4,6 Q-8,10 -4,-6 M4,6 Q14,10 22,4","s-st",3.2),
+ prop:()=>C_(0,0,4)+F_("M0,-4 Q-12,-20 0,-22 Q8,-14 0,-4 Z")+F_("M3,2 Q22,2 18,14 Q8,14 3,2 Z")+F_("M-3,2 Q-12,22 -20,10 Q-14,2 -3,2 Z"),
+ cloud:()=>F_("M-16,10 Q-24,10 -22,1 Q-21,-6 -13,-5 Q-10,-15 1,-13 Q10,-12 11,-4 Q22,-5 22,3 Q22,10 14,10 Z","s-mut"),
+ rain:()=>F_("M-16,2 Q-24,2 -22,-7 Q-21,-14 -13,-13 Q-10,-22 1,-20 Q10,-19 11,-12 Q22,-13 22,-5 Q22,2 14,2 Z","s-mut")+P_("M-12,8 L-15,17 M-2,8 L-5,17 M8,8 L5,17","s-magst",2.6),
+ bolt:()=>F_("M-16,-2 Q-24,-2 -22,-10 Q-21,-17 -13,-16 Q-10,-24 1,-22 Q10,-21 11,-14 Q22,-15 22,-8 Q22,-2 14,-2 Z","s-mut")+`<path d="M2,0 L-6,12 H1 L-3,22 L9,8 H2 L6,0 Z" fill="#F2C230"/>`,
+ sun:()=>`<circle cx="0" cy="0" r="9" fill="#F2C230"/><path d="M0,-20 V-14 M0,14 V20 M-20,0 H-14 M14,0 H20 M-14,-14 L-10,-10 M10,10 L14,14 M14,-14 L10,-10 M-10,10 L-14,14" stroke="#F2C230" stroke-width="2.8" stroke-linecap="round"/>`,
+ moon:()=>F_("M6,-18 Q-16,-12 -12,6 Q-8,20 10,16 Q-4,10 -3,-2 Q-2,-12 6,-18 Z","s-mut"),
+ up:()=>P_("M0,18 V-14 M-10,-4 L0,-16 L10,-4","s-magst",4),
+ down:()=>P_("M0,-18 V14 M-10,4 L0,16 L10,4","s-magst",4),
+ right:()=>P_("M-18,0 H14 M4,-10 L16,0 L4,10","s-magst",4),
+ turn:()=>P_("M-14,16 V0 Q-14,-12 0,-12 H12 M4,-20 L14,-12 L4,-4","s-magst",4),
+ warn:()=>`<path d="M0,-19 L20,16 H-20 Z" fill="#F2C230" stroke="#8a6d00" stroke-width="1.5" stroke-linejoin="round"/><path d="M0,-7 V5" stroke="#3a2f00" stroke-width="3.4" stroke-linecap="round"/><circle cx="0" cy="11" r="2.2" fill="#3a2f00"/>`,
+ yes:()=>`<path d="M-14,0 L-4,11 L16,-13" stroke="#1e8a4c" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+ no:()=>`<path d="M-12,-12 L12,12 M12,-12 L-12,12" stroke="#d93025" stroke-width="6" stroke-linecap="round"/>`,
+ epirb:()=>`<rect x="-8" y="-4" width="16" height="24" rx="4" fill="#F2C230" stroke="#8a6d00"/>`+P_("M0,-4 V-16")+P_("M-8,-14 Q-13,-19 -8,-24 M8,-14 Q13,-19 8,-24","s-magst",2),
+ raft:()=>`<ellipse cx="0" cy="8" rx="22" ry="8" fill="#e8762b"/><path d="M-16,6 Q0,-24 16,6 Z" fill="#e8762b" opacity=".65"/>`,
+ book:()=>F_("M-20,-14 Q-8,-18 0,-12 V16 Q-8,10 -20,14 Z")+`<path d="M20,-14 Q8,-18 0,-12 V16 Q8,10 20,14 Z" class="s-mut"/>`,
+ pencil:()=>F_("M-18,18 L-14,6 L10,-18 L18,-10 L-6,14 Z")+P_("M6,-14 L14,-6","s-lst",2),
+ dividers:()=>C_(0,-16,4)+P_("M0,-14 L-12,20 M0,-14 L12,20","s-st",3.2),
+ rulers:()=>`<rect x="-22" y="-14" width="44" height="10" rx="2" class="s-ink"/><rect x="-22" y="6" width="44" height="10" rx="2" class="s-ink"/>`+P_("M-12,-4 L-4,6 M6,-4 L14,6","s-st",2.4),
+ calc:()=>`<rect x="-13" y="-19" width="26" height="38" rx="4" class="s-ink"/><rect x="-8" y="-14" width="16" height="9" rx="1" class="s-bg"/>`+[[-6,1],[0,1],[6,1],[-6,8],[0,8],[6,8]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="2" class="s-bg"/>`).join(""),
+ gauge:()=>P_("M-18,10 A18,18 0 1 1 18,10","s-st",3)+P_("M0,8 L10,-6","s-magst",3.2)+C_(0,8,3),
+ depth:()=>P_("M-22,-14 H22","s-magst",2.6)+P_("M0,-14 V10")+F_("M-5,10 H5 L3,18 H-3 Z")+P_("M-22,20 Q-8,14 0,20 T22,18","s-st",2),
+ magnet:()=>`<path d="M-14,-16 V2 A14,14 0 0 0 14,2 V-16 H5 V2 A5,5 0 0 1 -5,2 V-16 Z" fill="#C8312A"/><rect x="-14" y="-16" width="9" height="7" fill="#dfe6ea"/><rect x="5" y="-16" width="9" height="7" fill="#dfe6ea"/>`,
+ bridge:()=>P_("M-24,-2 H24 M-24,6 H24","s-st",2.6)+P_("M-16,6 V20 M16,6 V20")+P_("M-16,-2 Q0,-22 16,-2","s-st",2.2),
+ river:()=>P_("M-22,-14 C-4,-20 -6,4 8,0 S 20,6 22,16","s-magst",8),
+ seaplane:()=>F_("M-24,0 Q-18,-7 -2,-7 L14,-6 L22,-16 L25,-15 L21,-1 Q8,4 -2,4 Q-18,4 -24,0 Z")+`<rect x="-12" y="-13" width="26" height="4" rx="2" class="s-ink"/>`+P_("M-8,4 L-11,14 M8,3 L11,14")+F_("M-20,14 H18 L14,19 H-16 Z"),
+ thermo:()=>`<rect x="-4" y="-20" width="8" height="28" rx="4" class="s-st" stroke-width="2.2"/>`+`<circle cx="0" cy="12" r="8" fill="#d93025"/><rect x="-1.5" y="-8" width="3" height="18" fill="#d93025"/>`,
+ heart:()=>`<path d="M0,16 Q-22,0 -16,-12 Q-8,-22 0,-8 Q8,-22 16,-12 Q22,0 0,16 Z" fill="#d93025"/>`,
+ bottle:()=>F_("M-4,-20 H4 V-10 Q10,-6 10,2 V20 H-10 V2 Q-10,-6 -4,-10 Z")+`<rect x="-10" y="4" width="20" height="9" class="s-bg"/>`,
+ oil:()=>F_("M0,-18 Q14,2 10,10 Q7,18 0,18 Q-7,18 -10,10 Q-14,2 0,-18 Z")+`<path d="M-18,-18 L18,18" stroke="#d93025" stroke-width="4" stroke-linecap="round"/>`,
+ trash:()=>F_("M-12,-10 H12 L9,20 H-9 Z")+P_("M-16,-12 H16 M-5,-18 H5","s-st",3)+`<path d="M-20,-20 L20,20" stroke="#d93025" stroke-width="4" stroke-linecap="round"/>`,
+ pump:()=>F_("M-18,20 H18 V8 H-18 Z")+P_("M0,8 V-10 H14 M14,-10 V-2","s-st",3.2)+P_("M14,2 q-3,5 0,8 q3,-3 0,-8","s-magst",2),
+ battery:()=>`<rect x="-20" y="-10" width="40" height="24" rx="3" class="s-ink"/><rect x="-14" y="-16" width="8" height="6" class="s-ink"/><rect x="6" y="-16" width="8" height="6" class="s-ink"/>`+`<path d="M-13,2 H-7 M7,2 H13 M10,-1 V5" stroke="#fff" stroke-width="2"/>`,
+ star:()=>F_("M0,-20 L5,-6 H20 L8,3 L12,18 L0,9 L-12,18 L-8,3 L-20,-6 H-5 Z","s-mag"),
+ globe:()=>`<circle cx="0" cy="0" r="18" class="s-st" stroke-width="2.4"/>`+P_("M-18,0 H18 M0,-18 V18 M-15,-9 H15 M-15,9 H15","s-st",1.4)+`<ellipse cx="0" cy="0" rx="8" ry="18" class="s-st" stroke-width="1.4"/>`,
+ tide:()=>P_("M-22,8 q7,-8 14,0 t14,0 t14,0","s-st",2.6)+P_("M-8,-2 V-20 M-14,-13 L-8,-20 L-2,-13 M10,-20 V-2 M4,-9 L10,-2 L16,-9","s-magst",2.6),
+ current:()=>P_("M-20,-10 H12 M4,-17 L13,-10 L4,-3 M-20,10 H12 M4,3 L13,10 L4,17","s-magst",3),
+ grid:()=>`<rect x="-18" y="-18" width="36" height="36" class="s-surfb"/>`+P_("M-6,-18 V18 M6,-18 V18 M-18,-6 H18 M-18,6 H18","s-lst",1.6)+C_(6,-6,3.5,"s-mag"),
+ north:()=>F_("M0,-20 L9,16 L0,9 L-9,16 Z","s-mag"),
+ bulb:()=>`<circle cx="0" cy="-4" r="12" fill="#ffd34d"/>`+F_("M-6,8 H6 V16 H-6 Z")+P_("M0,-24 V-20 M-18,-4 H-22 M18,-4 H22 M-14,-17 L-17,-20 M14,-17 L17,-20","s-st",2),
+ tow:()=>F_("M-26,2 L-8,2 L-10,9 L-24,9 Z")+F_("M-20,2 V-6 H-13 V2 Z")+P_("M-8,5 Q2,10 10,5","s-magst",1.8)+F_("M10,1 H26 V9 H10 Z","s-mut"),
+ dive:()=>`<rect x="-18" y="-14" width="36" height="28" fill="#C8312A"/><path d="M-18,-14 L18,14" stroke="#fff" stroke-width="6"/>`,
+ lock:()=>`<rect x="-13" y="-2" width="26" height="20" rx="3" class="s-ink"/>`+P_("M-8,-2 V-9 A8,8 0 0 1 8,-9 V-2","s-st",3.2),
+ money:()=>`<circle cx="0" cy="0" r="18" class="s-st" stroke-width="2.6"/>`+`<text y="8" text-anchor="middle" font-size="24" font-weight="700" class="s-ink">$</text>`,
+ q:()=>`<circle cx="0" cy="0" r="18" class="s-mag"/><text y="9" text-anchor="middle" font-size="26" font-weight="700" class="s-on">?</text>`,
+ target:()=>`<circle cx="0" cy="0" r="18" class="s-st" stroke-width="2.4"/><circle cx="0" cy="0" r="10" class="s-st" stroke-width="2.4"/>`+C_(0,0,4,"s-mag"),
+ light:()=>`<circle cx="0" cy="0" r="8" fill="#ffd34d"/><circle cx="0" cy="0" r="16" fill="#ffd34d" opacity=".3"/>`
+};
+function icon(n,x,y,k){
+  let g="";const[a,b]=String(n).split(/:(.*)/);
+  if(a==="dots"){const L={r:"#ff453a",g:"#30d158",w:"#fff4d6",y:"#ffd60a",b:"#2f7bff"},m=b.length,st=Math.min(15,44/m);
+    g=`<rect x="-13" y="-25" width="26" height="50" rx="6" fill="#04070B"/>`+[...b].map((c,i)=>`<circle cx="0" cy="${(i-(m-1)/2)*st}" r="${Math.min(5.5,st/2.4)}" fill="${L[c]||"#fff"}"/>`).join("");}
+  else if(a==="shapes"){const A=b.split(","),m=A.length,st=Math.min(19,48/m),r=Math.min(8,st/2.2);
+    g=P_("M0,-25 V25","s-st",1.6)+A.map((s,i)=>{const cy=(i-(m-1)/2)*st;return s==="ball"?C_(0,cy,r):s==="diamond"?`<polygon points="0,${cy-r-1} ${r},${cy} 0,${cy+r+1} ${-r},${cy}" class="s-ink"/>`:s==="cyl"?`<rect x="${-r*.8}" y="${cy-r}" width="${r*1.6}" height="${r*2}" class="s-ink"/>`:s==="coneDown"?`<polygon points="${-r},${cy-r} ${r},${cy-r} 0,${cy+r}" class="s-ink"/>`:`<polygon points="${-r},${cy+r} ${r},${cy+r} 0,${cy-r}" class="s-ink"/>`;}).join("");}
+  else if(a==="snd"){let w=0;const seg=[...b].map(c=>{const l=c==="-"?22:c==="."?7:c==="b"?7:5;const o={c,x:w,l};w+=l+5;return o;});w-=5;const sc=Math.min(1,52/w);
+    g=`<g transform="scale(${sc})">`+seg.map(s=>s.c===" "?"":s.c==="b"?`<circle cx="${s.x-w/2+3.5}" cy="0" r="4.5" class="s-ink"/>`:`<rect x="${s.x-w/2}" y="-5" width="${s.l}" height="10" rx="5" class="s-mag"/>`).join("")+`</g>`;}
+  else if(a==="txt"){const z=b.length>6?13:b.length>3?17:24;g=`<rect x="-27" y="-17" width="54" height="34" rx="8" class="s-mag"/><text y="${z*.36}" text-anchor="middle" font-size="${z}" font-weight="700" class="s-on">${b}</text>`;}
+  else if(a==="num")g=`<circle cx="0" cy="0" r="19" class="s-mag"/><text y="9" text-anchor="middle" font-size="${b.length>2?17:25}" font-weight="700" class="s-on">${b}</text>`;
+  else g=(IC[a]||IC.q)();
+  return `<g transform="translate(${x} ${y}) scale(${k||1})">${g}</g>`;
+}
+function wrapT(s,max){const w=String(s).split(" "),out=[];let l="";w.forEach(x=>{if(l&&(l+" "+x).length>max){out.push(l);l=x;}else l=l?l+" "+x:x;});if(l)out.push(l);return out;}
+const WT=(x,y,s,max,o={})=>{const L=wrapT(s,max),z=o.z||15,lh=o.lh||z*1.22,y0=o.mid?y-(L.length-1)*lh/2:y;return L.map((t,i)=>`<text x="${x}" y="${(y0+i*lh).toFixed(1)}" text-anchor="${o.a||"start"}" font-size="${z}" font-weight="${o.w||500}" class="${o.c||"s-mut"}">${t}</text>`).join("");};
+const FIGT={
+ rows(f){const n=f.items.length,h=Math.min(96,388/n),y0=(400-h*n)/2+3;
+  return FV(f.items.map(([ic,t,s],i)=>{const y=y0+i*h,cy=y+(h-6)/2;return `<rect x="6" y="${y.toFixed(1)}" width="428" height="${(h-6).toFixed(1)}" rx="10" class="s-bg"/>`+icon(ic,56,cy,Math.min(1,(h-14)/54))+(s?TX(104,cy-3,t,{a:"start",z:n>5?16:18,w:700})+WT(104,cy+15,s,44,{z:n>5?13:14}):WT(104,cy+6,t,30,{z:n>5?16:18,w:700,c:"s-ink",mid:true}));}).join(""));},
+ tiles(f){const n=f.items.length,cols=n===3?1:2,rws=Math.ceil(n/cols),w=cols===1?428:208,h=(388-(rws-1)*8)/rws;
+  return FV(f.items.map(([ic,t],i)=>{const x=6+(i%cols)*(w+12),y=6+Math.floor(i/cols)*(h+8),k=rws>2?1:1.5;return `<rect x="${x}" y="${y.toFixed(1)}" width="${w}" height="${h.toFixed(1)}" rx="10" class="s-bg"/>`+icon(ic,x+w/2,y+h*.4,k)+WT(x+w/2,y+h*.4+(rws>2?40:58),t,cols===1?46:24,{a:"middle",z:rws>2?14:15,w:600,c:"s-ink"});}).join(""));},
+ cmp(f){const P=(o,[m,t,ic,s])=>panel(o,186)+(m==="yes"?YES(34,o+26):m==="no"?NO(34,o+24):"")+TX(m?52:24,o+33,t,{a:"start",z:19,w:700})+icon(ic,84,o+110,1.9)+WT(170,o+108,s,26,{z:15,mid:true,c:"s-ink"});
+  return FV(P(8,f.a)+P(206,f.b));},
+ steps(f){const n=f.items.length,h=Math.min(96,380/n),y0=(400-h*n)/2+h/2;
+  return FV(`<line x1="42" y1="${y0}" x2="42" y2="${y0+h*(n-1)}" class="s-magst" stroke-width="3"/>`+f.items.map((t,i)=>{const y=y0+i*h;return `<circle cx="42" cy="${y}" r="19" class="s-mag"/><text x="42" y="${y+8}" text-anchor="middle" font-size="22" font-weight="700" class="s-on">${i+1}</text>`+WT(78,y+5,t,34,{z:n>4?16:17,w:600,c:"s-ink",mid:true});}).join(""));},
+ td(f){return FV(f.els.map(e=>{const[k,a,b,c,d,g,h]=e;
+   return k==="h"?hull(a,b,c,d||"s-ink",g||1):k==="a"?AR(a,b):k==="l"?`<path d="${a}" class="${b||"s-st"}" stroke-width="1.6" stroke-dasharray="6 5" fill="none" opacity=".7"/>`
+    :k==="t"?TX(a,b,c,{a:d||"middle",z:g||17,w:700,c:h||"s-ink"}):k==="m"?`<text x="${a}" y="${b}" text-anchor="${d||"middle"}" font-size="${g||14}" font-weight="500" class="s-mut">${c}</text>`
+    :k==="r"?`<rect x="${a}" y="${b}" width="${c}" height="${d}" class="${g||"s-bg"}" opacity="${h||1}"/>`:k==="i"?icon(a,b,c,d||1):k==="y"?YES(a,b):k==="n"?NO(a,b)
+    :k==="c"?`<circle cx="${a}" cy="${b}" r="${c}" class="${d||"s-magst"}" stroke-width="2"/>`:k==="wg"?wedge(a,b,c,d,g,h,e[7]):k==="p"?`<path d="${a}" class="${b||"s-st"}" stroke-width="${c||2}" fill="none"/>`:k==="f"?`<path d="${a}" class="${b||"s-ink"}" opacity="${c||1}"/>`:"";}).join(""));},
+ band(f){const n=f.items.length,w=(632-(n-1)*8)/n,side=n<=3;
+  return FS(f.items.map(([ic,t,s],i)=>{const x=4+i*(w+8);return `<rect x="${x.toFixed(1)}" y="4" width="${w.toFixed(1)}" height="142" rx="10" class="s-bg"/>`+(side
+    ?icon(ic,x+38,75,1.15)+WT(x+76,s?62:80,t,Math.floor((w-84)/9),{z:17,w:700,c:"s-ink",mid:!s})+(s?WT(x+76,62+wrapT(t,Math.floor((w-84)/9)).length*20,s,Math.floor((w-84)/7),{z:13}):"")
+    :icon(ic,x+w/2,44,1)+WT(x+w/2,92,t,Math.floor(w/8.6),{a:"middle",z:15,w:700,c:"s-ink"})+(s?WT(x+w/2,92+wrapT(t,Math.floor(w/8.6)).length*18,s,Math.floor(w/6.6),{a:"middle",z:12}):""));}).join(""));},
+ big(f){return FV((f.ic?icon(f.ic,220,84,2.4):"")+TX(220,f.ic?214:180,f.v,{z:f.v.length>8?44:68,w:700,c:"s-mag"})+WT(220,f.ic?256:228,f.cap,34,{a:"middle",z:18,w:600,c:"s-ink"})+(f.sub?WT(220,330,f.sub,46,{a:"middle",z:14}):""));}
+};
 
 const words=l=>l.slides.reduce((t,s)=>t+s.say.split(/\s+/).length,0);
 const mins=l=>Math.max(1,Math.round(words(l)/140));
@@ -756,7 +885,8 @@ function lessons(){
   ${Object.entries(MODS).map(([m,info])=>{const ls=LESSONS.filter(l=>l.m===m);return `<h2 class="mod-h">${info.name}</h2><ol class="les-list">${ls.map(l=>`<li><a href="#lesson-${l.id}"><span class="lt">${l.t}</span><span class="lm">${l.slides.length} slides, about ${mins(l)} min${BANK.some(x=>x.tag===l.id)?`, ${BANK.filter(x=>x.tag===l.id).length}-question check`:""}${done.includes(l.id)?`. <span class="fin">Finished</span>`:""}</span></a></li>`).join("")}</ol>`;}).join("")}</section>`;
 }
 function visual(v){
-  if(v.fig&&FIG[v.fig]){const art=FIG[v.fig]();return `<div class="vfig${art.includes("fg strip")?" top":""}"><div class="vfig-art">${art}</div><div class="vfig-txt">${visualBody(v)}</div></div>`;}
+  const fg=v.fig&&(typeof v.fig==="string"?FIG[v.fig]:FIGT[v.fig.t]);
+  if(fg){const art=typeof v.fig==="string"?fg():fg(v.fig);return `<div class="vfig${art.includes("fg strip")?" top":""}"><div class="vfig-art">${art}</div><div class="vfig-txt">${visualBody(v)}</div></div>`;}
   return visualBody(v);
 }
 function visualBody(v){
