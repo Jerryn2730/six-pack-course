@@ -13,3 +13,5 @@
 # Narration MP3s and their timing files: cache for a day (they change only when a slide is re-narrated).
 /audio/*
   Cache-Control: public, max-age=86400
+/sw.js
+  Cache-Control: max-age=0, must-revalidate

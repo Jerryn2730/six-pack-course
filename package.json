@@ -13,6 +13,7 @@
     "audio": "node scripts/audio.js",
     "audio:setup": "node scripts/audio-setup.js",
     "video": "node scripts/video.js",
-    "deploy": "node scripts/deploy.js"
+    "deploy": "node scripts/deploy.js",
+    "export:moodle": "node scripts/export-moodle.js"
   }
 }

@@ -6,6 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Six-Pack Captain Exam Prep</title>
+<link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#A3195B">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
@@ -203,6 +206,13 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .callout ul{margin:0;padding-left:1.2rem;font-size:clamp(1.1rem,2.4vw,1.5rem);line-height:1.5}
 .callout li{margin-bottom:.45rem}
 @media (prefers-reduced-motion: no-preference){.opt,.btn,.chip{transition:background-color .15s,border-color .15s}}
+.prog h2{margin-top:1.8rem}.prog-top{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:.8rem;margin:1rem 0}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem;display:flex;flex-direction:column}
+.stat .big{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;font-size:2.4rem;line-height:1;color:var(--mag)}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}.chip{min-width:2.6rem;padding:.3rem .4rem;border:1.5px solid var(--line);border-radius:8px;text-align:center;text-decoration:none;font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:var(--ink);background:var(--surface)}
+.chip.fin{background:var(--mag);border-color:var(--mag);color:var(--mag-ink)}.chip small{display:block;font-size:.72rem;font-weight:500}
+.plain{padding-left:1.2rem}.plain li{margin:.3rem 0}.record{display:none}
+@media print{header,nav,.site-foot,.prog>*:not(.record){display:none!important}.record{display:block;color:#000}.record table{width:100%;border-collapse:collapse;margin:.4rem 0 1rem}.record th,.record td{border:1px solid #999;padding:.25rem .5rem;text-align:left;font-size:.9rem}.record .disc{margin-top:1.5rem;font-size:.9rem;border-top:1px solid #999;padding-top:.6rem}body{background:#fff}}
 .site-foot{max-width:900px;margin:40px auto 0;padding:16px 16px 28px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text-align:center}
 .narr-src{align-self:center;color:var(--muted);font-size:.9rem}
 </style>
@@ -218,6 +228,7 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
       <a href="#cards">Lights &amp; signals</a>
       <a href="#drills">Plotting drills</a>
       <a href="#misses">Misses<span class="badge" id="badge" hidden></span></a>
+      <a href="#progress">My progress</a>
     </nav>
   </div>
 </header>
@@ -299,7 +310,7 @@ function ri(a,b){return a+Math.floor(Math.random()*(b-a+1));}
 function fmtTime(ms){const s=Math.max(0,Math.round(ms/1000));return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");}
 
 /* ---------- Router ---------- */
-const VIEWS={home,quiz,test,cards,drills,misses,lessons};
+const VIEWS={home,quiz,test,cards,drills,misses,lessons,progress};
 function route(){
   clearInterval(timer);stopSpeech();
   let h=(location.hash||"#home").slice(1);S=null;
@@ -424,6 +435,7 @@ function finish(){
   if(S.mode==="exam")S.items.forEach(it=>record(it.q.id,it.pick===0));
   const by={};S.items.forEach(it=>{const b=by[it.q.m]||(by[it.q.m]={n:0,c:0});b.n++;if(it.pick===0)b.c++;});
   const c=S.items.filter(it=>it.pick===0).length,missed=S.items.filter(it=>it.pick!==0),exam=S.mode==="exam";
+  logResult(S,c);
   const allPass=Object.entries(by).every(([m,b])=>b.c/b.n*100>=MODS[m].pass);
   main.innerHTML=`<section class="session"><h1>${exam?(allPass?"You passed every module":"Not there yet"):"Quiz complete"}</h1>
   <p class="score">${c} of ${S.items.length}</p><p class="muted">${Math.round(c/S.items.length*100)}% correct overall.</p>
@@ -1051,6 +1063,47 @@ document.addEventListener("keydown",e=>{
 });
 
 updateBadge();
+/* ---------- My progress, backup and restore, study record, offline (Task 5; all in the browser) ---------- */
+function logResult(S,c){
+  store.hist=store.hist||[];
+  store.hist.push({t:Date.now(),k:S.key||S.mode,title:S.title||(S.mode==="exam"?"Practice test":"Quiz"),c,n:S.items.length});
+  if(store.hist.length>300)store.hist.shift();save();
+}
+function progress(){
+  const done=store.done||[],hist=store.hist||[],d=t=>new Date(t).toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"});
+  const best={};hist.filter(h=>String(h.k).startsWith("check-")).forEach(h=>{const id=h.k.slice(6),p=Math.round(h.c/h.n*100);if(!(id in best)||p>best[id])best[id]=p;});
+  const tests=hist.filter(h=>h.k==="test"||h.k==="exam");
+  const topic=LESSONS.map(l=>{const qs=BANK.filter(x=>x.tag===l.id&&store.stats[x.id]);const a=qs.reduce((t,x)=>t+store.stats[x.id][0],0),c=qs.reduce((t,x)=>t+store.stats[x.id][1],0);return {l,a,p:a?Math.round(c/a*100):null};}).filter(x=>x.a>=3).sort((x,y)=>x.p-y.p).slice(0,6);
+  const worst=BANK.map(x=>({x,w:store.stats[x.id]?store.stats[x.id][0]-store.stats[x.id][1]:0})).filter(o=>o.w>0).sort((a,b)=>b.w-a.w).slice(0,8);
+  const answered=Object.keys(store.stats).filter(id=>BANK.some(x=>x.id===id)).length;
+  main.innerHTML=`<section class="prog"><h1>My progress</h1><p class="lede">Everything here is stored only in this browser. Back it up to move it to another device.</p>
+  <div class="prog-top"><div class="stat"><span class="big">${done.length}</span><span>of ${LESSONS.length} lessons finished</span></div><div class="stat"><span class="big">${answered}</span><span>of ${BANK.length} questions tried</span></div><div class="stat"><span class="big">${tests.length}</span><span>practice tests taken</span></div></div>
+  <h2>Lessons and lesson checks</h2>
+  ${Object.entries(MODS).map(([m,info])=>{const ls=LESSONS.filter(l=>l.m===m);return `<h3 class="mod-h">${info.name}: ${ls.filter(l=>done.includes(l.id)).length} of ${ls.length}</h3><div class="chips">${ls.map((l,i)=>`<a class="chip${done.includes(l.id)?" fin":""}" href="#lesson-${l.id}" title="${esc(l.t)}">${i+1}${l.id in best?`<small>${best[l.id]}%</small>`:""}</a>`).join("")}</div>`;}).join("")}
+  <p class="muted" style="margin-top:.6rem">Filled = lesson finished. The percentage is your best lesson-check score.</p>
+  <h2>Practice tests</h2>${tests.length?`<table class="vtable"><thead><tr><th>Date</th><th>Score</th></tr></thead><tbody>${tests.slice(-10).reverse().map(h=>`<tr><td>${d(h.t)}</td><td>${h.c} of ${h.n} (${Math.round(h.c/h.n*100)}%)</td></tr>`).join("")}</tbody></table>`:`<p class="muted">None yet. <a href="#test">Take a practice test</a>.</p>`}
+  <h2>Weakest topics</h2>${topic.length?`<ul class="plain">${topic.map(o=>`<li><a href="#lesson-${o.l.id}">${o.l.t}</a>: ${o.p}% correct over ${o.a} answers</li>`).join("")}</ul>`:`<p class="muted">Answer a few lesson-check questions and your weakest topics will show here.</p>`}
+  <h2>Questions you miss most</h2>${worst.length?`<ol class="plain">${worst.map(o=>`<li>${o.x.text} <span class="muted">(missed ${o.w}×)</span></li>`).join("")}</ol><p><a class="btn ghost" href="#misses">Practice your misses</a></p>`:`<p class="muted">No misses recorded yet.</p>`}
+  <h2>Back up and restore</h2><p>Progress has no account behind it. To carry it to another phone or computer, back it up here and restore it there.</p>
+  <div class="row"><button class="btn" id="bk">Back up progress</button><button class="btn ghost" id="rs">Restore progress</button><input type="file" id="rsf" accept="application/json,.json" hidden></div><p class="muted" id="bkmsg" aria-live="polite"></p>
+  <h2>Study record</h2><p>Print or save as PDF a summary of the lessons you’ve finished and your scores.</p><div class="row"><button class="btn ghost" id="pr">Print study record</button></div>
+  <h2>Use it offline</h2><p id="offmsg">${"serviceWorker" in navigator&&location.protocol==="https:"?"Save the lessons’ narration on this device so the course works without a signal.":"Offline saving works when the course is opened from its website address."}</p><div class="row"><button class="btn ghost" id="off" ${"serviceWorker" in navigator&&location.protocol==="https:"?"":"disabled"}>Save narration for offline use</button></div>
+  <div id="record" class="record"><h1>Six-Pack Prep: personal study record</h1><p>Printed ${d(Date.now())}</p><p><strong>${done.length} of ${LESSONS.length}</strong> lessons finished. <strong>${answered} of ${BANK.length}</strong> questions tried.</p>
+   ${Object.entries(MODS).map(([m,info])=>`<h2>${info.name}</h2><table><thead><tr><th>Lesson</th><th>Finished</th><th>Best lesson check</th></tr></thead><tbody>${LESSONS.filter(l=>l.m===m).map(l=>`<tr><td>${l.t}</td><td>${done.includes(l.id)?"Yes":"No"}</td><td>${l.id in best?best[l.id]+"%":"Not taken"}</td></tr>`).join("")}</tbody></table>`).join("")}
+   <h2>Practice tests</h2>${tests.length?`<table><thead><tr><th>Date</th><th>Score</th></tr></thead><tbody>${tests.map(h=>`<tr><td>${d(h.t)}</td><td>${h.c} of ${h.n} (${Math.round(h.c/h.n*100)}%)</td></tr>`).join("")}</tbody></table>`:"<p>None taken.</p>"}
+   <p class="disc">This is a personal record of self-study with practice material. It is not a U.S. Coast Guard credential, certificate, course approval or proof of training, and it does not satisfy any licensing requirement.</p></div></section>`;
+  const msg=t=>{document.getElementById("bkmsg").textContent=t;};
+  document.getElementById("bk").onclick=()=>{const blob=new Blob([JSON.stringify({app:"six-pack-prep",v:1,saved:new Date().toISOString(),data:store})],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="six-pack-progress-"+new Date().toISOString().slice(0,10)+".json";document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),2000);msg("Saved a backup file to your downloads.");};
+  const f=document.getElementById("rsf");document.getElementById("rs").onclick=()=>f.click();
+  f.onchange=()=>{const file=f.files[0];if(!file)return;const r=new FileReader();r.onload=()=>{try{const o=JSON.parse(r.result),dta=o&&o.app==="six-pack-prep"?o.data:null;if(!dta||typeof dta.stats!=="object"||!Array.isArray(dta.misses))throw 0;
+    if(!confirm("Replace the progress in this browser with the backup from "+String(o.saved).slice(0,10)+"?"))return;store=dta;save();progress();document.getElementById("bkmsg").textContent="Progress restored.";}catch(e){msg("That file isn’t a Six-Pack Prep backup.");}};r.readAsText(file);f.value="";};
+  document.getElementById("pr").onclick=()=>window.print();
+  document.getElementById("off").onclick=async()=>{const m=document.getElementById("offmsg"),b=document.getElementById("off");b.disabled=true;
+    try{const c=await caches.open("spp-audio-v1");let ok=0,n=0;const urls=[];LESSONS.forEach(l=>l.slides.forEach((s,i)=>{urls.push(`audio/${l.id}-${i+1}.mp3`,`audio/${l.id}-${i+1}.timing.json`);}));
+      for(const u of urls){n++;try{if(!(await c.match(u))){const r=await fetch(u);if(r.ok)await c.put(u,r);else continue;}ok++;}catch(e){}if(n%10===0)m.textContent=`Saving narration: ${Math.round(n/urls.length*100)}%`;}
+      m.textContent=ok?`Saved ${Math.round(ok/2)} narrated slides on this device. The course now works offline.`:"No narration could be saved. Check your connection and try again.";}catch(e){m.textContent="This browser couldn’t save files for offline use.";}b.disabled=false;};
+}
+if("serviceWorker" in navigator&&location.protocol==="https:")window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{});});
 route();
 </script>
 </body>

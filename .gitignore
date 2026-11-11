@@ -9,3 +9,4 @@ media/video/*
 media/narration/*.mp3
 media/auditions/*.wav
 .netlify/
+media/export/

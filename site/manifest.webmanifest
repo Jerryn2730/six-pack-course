@@ -1,0 +1,13 @@
+{
+  "name": "Six-Pack Prep",
+  "short_name": "Six-Pack Prep",
+  "description": "Personal study material for the OUPV captain's exam. Not an official U.S. Coast Guard examination or approved course.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#EEF4F6",
+  "theme_color": "#A3195B",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
