@@ -666,18 +666,24 @@ function speechFailed(why){
   PL.playing=false;setPP();
   notice(`Audio didn’t play in this browser (${why}). Try another voice, or set Mode to “Silent, timed” to step through the slides with the transcript highlighted at reading pace.`);
 }
-const AUDIO_BASE=""; // Set to "audio/" once recorded lecture MP3s named like rules-01-1.mp3 sit in an audio folder beside index.html.
+const AUDIO_BASE="audio/"; // Narration MP3s + timing files from `npm run audio`, named like rules-01-1.mp3. Slides without a file use browser speech.
 function strip(t){return t.replace(/\s*\[(\+|pause)\]\s*/g," ").replace(/\s{2,}/g," ").trim();}
 function clean(t){return strip(t).replace(/°/g," degrees").replace(/×/g," times ").replace(/÷/g," divided by ");}
 function reveal(k){const items=[...document.querySelectorAll("#slide .rv-item")];if(!PL.les)return;const say=cur().say;if(!/\[\+\]/.test(say)){items.forEach(el=>el.classList.remove("dim"));return;}const ss=splitS(say);let n=0;if(k>=ss.length)n=items.length;else for(let i=0;i<=k&&i<ss.length;i++)n+=(ss[i].match(/\[\+\]/g)||[]).length;items.forEach((el,i)=>el.classList.toggle("dim",i>=n));}
-function playFile(tok,ss){const a=PL.audio||(PL.audio=new Audio());const words=ss.map(s=>strip(s).split(/\s+/).length),tot=words.reduce((x,y)=>x+y,0);a.src=`${AUDIO_BASE}${PL.les.id}-${PL.i+1}.mp3`;a.playbackRate=PL.rate;
- a.ontimeupdate=()=>{if(tok!==PL.tok||!a.duration)return;const f=a.currentTime/a.duration*tot;let acc=0,k=0;for(;k<ss.length-1;k++){acc+=words[k];if(acc>f)break;}if(k!==PL.sent){PL.sent=k;hl(k);reveal(k);}};
+function playFile(tok,ss){const a=PL.audio||(PL.audio=new Audio());const key=`${PL.les.id}-${PL.i+1}`;const words=ss.map(s=>strip(s).split(/\s+/).length),tot=words.reduce((x,y)=>x+y,0);a.src=`${AUDIO_BASE}${key}.mp3`;a.playbackRate=PL.rate;
+ // Exact sync: scripts/narrate.py writes {key}.timing.json with each sentence's start time. Without it (or when it
+ // can't be fetched, e.g. opened from file://), fall back to splitting the audio by word count.
+ let T=null;if(window.fetch)fetch(`${AUDIO_BASE}${key}.timing.json`).then(r=>r.ok?r.json():null).then(j=>{if(tok===PL.tok&&j&&Array.isArray(j.sentences)&&j.sentences.length===ss.length)T=j.sentences;}).catch(()=>{});
+ const upd=()=>{if(tok!==PL.tok||!a.duration)return;let k=0;if(T){for(let i=1;i<T.length;i++){if(a.currentTime>=T[i].start)k=i;else break;}}else{const f=a.currentTime/a.duration*tot;let acc=0;for(;k<ss.length-1;k++){acc+=words[k];if(acc>f)break;}}if(k!==PL.sent){PL.sent=k;hl(k);reveal(k);}};
+ const tick=()=>{if(tok!==PL.tok||a.paused||a.ended)return;upd();requestAnimationFrame(tick);};
+ a.ontimeupdate=upd;a.onplaying=()=>requestAnimationFrame(tick);
  a.onended=()=>{if(tok!==PL.tok)return;hl(-1);reveal(999);if(PL.i<PL.les.slides.length-1){setTimeout(()=>{if(tok!==PL.tok||!PL.playing)return;PL.i++;PL.sent=0;renderSlide();speak();},900);}else{PL.playing=false;setPP();}};
- const fallback=()=>{if(tok!==PL.tok)return;PL.noFiles=true;speak();};a.onerror=fallback;PL.sent=0;hl(0);reveal(0);a.play().catch(fallback);}
-function speak(){
+ // A missing file falls back to browser speech for that slide only, so lessons can be narrated one module at a time.
+ a.onerror=()=>{if(tok!==PL.tok)return;(PL.missing||(PL.missing={}))[key]=true;speak(true);};PL.sent=0;hl(0);reveal(0);a.play().catch(e=>{if(tok!==PL.tok||(e&&e.name==="AbortError"))return;speak(true);});}
+function speak(noFile){
   if(!PL.les)return;const tok=++PL.tok;if(synth)synth.cancel();if(PL.audio)try{PL.audio.pause();}catch(e){}
   const ss=splitS(cur().say);
-  if(AUDIO_BASE&&!PL.silent&&!PL.noFiles){playFile(tok,ss);return;}
+  if(AUDIO_BASE&&!noFile&&!PL.silent&&!(PL.missing&&PL.missing[`${PL.les.id}-${PL.i+1}`])){playFile(tok,ss);return;}
   const next=()=>{if(tok!==PL.tok)return;PL.sent++;step();};
   const step=()=>{
     if(tok!==PL.tok||!PL.playing)return;

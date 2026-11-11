@@ -46,3 +46,22 @@ All content is AI-drafted and must be fact-checked against official sources befo
 | `media/` | Generated narration, captions, diagrams, thumbnails; `media/video/` is gitignored |
 | `QA/`, `SOURCES/` | Pronunciation dictionary, fact-check logs, source register, asset licenses |
 | `CURRICULUM/`, `MODULES/`, `TEMPLATES/`, `RELEASES/` | Blueprint structure (Appendix A.10), empty until later tasks |
+
+## Narration (Task 2)
+
+Free, local text-to-speech with Kokoro-82M. One-time setup on a new computer:
+1. Install espeak-ng (macOS `brew install espeak-ng`, Ubuntu `sudo apt install espeak-ng`, Windows: the `.msi` from the espeak-ng releases page) and Python 3.10–3.12.
+2. `npm run audio:setup` (creates `.venv` and installs `requirements-narration.txt`; the model downloads once on first use).
+
+Then:
+
+| Command | Does |
+| --- | --- |
+| `npm run audio -- --pilot --dry-run` | Shows what would be generated and how long it will take |
+| `npm run audio -- --pilot` | Narrates `rules-01` to `rules-03` |
+| `npm run audio -- --module R` | One module (`R`, `N`, `D`, `P`) |
+| `npm run audio -- --lesson rules-02` / `--slide rules-02-4` / `--all` | Smaller or larger targets |
+| `npm run audio -- --slide rules-01-2 --audition af_heart,am_michael` | Same slide in several voices, into `media/auditions/` |
+| `npm run audio -- --phonemes "COLREGS"` | How Kokoro will pronounce something, after the dictionary |
+
+Unchanged slides are skipped; add `--force` to regenerate. Voice, speed, pauses and loudness are in `config/voice.json`. Fix mispronunciations in `QA/pronunciation_dictionary.md`, not in the lesson text. Output: `media/narration/` (MP3 + timing), `media/captions/` (VTT), copied to `site/audio/`. The app uses the timing files for exact transcript and build sync when served over http (for example `npx serve site`); opened straight from disk, it still plays the audio with approximate sync.
