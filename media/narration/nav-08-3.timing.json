@@ -1,0 +1,52 @@
+{
+ "slide": "nav-08-3",
+ "lessonId": "nav-08",
+ "n": 3,
+ "audio": "nav-08-3.mp3",
+ "duration": 39.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.025,
+   "builds": 0,
+   "text": "Florida captains deal with one of the strongest ocean currents in the world."
+  },
+  {
+   "i": 1,
+   "start": 5.275,
+   "speechStart": 5.275,
+   "end": 17.35,
+   "builds": 0,
+   "text": "The Florida Current, the beginning of the Gulf Stream, flows north along the east coast, often at two to four knots and sometimes more, and it comes closest to shore off Palm Beach County."
+  },
+  {
+   "i": 2,
+   "start": 17.6,
+   "speechStart": 17.6,
+   "end": 27.55,
+   "builds": 0,
+   "text": "When a strong north wind blows against the northbound Stream, seas become short, steep and dangerous, so experienced captains don’t cross in a norther."
+  },
+  {
+   "i": 3,
+   "start": 27.8,
+   "speechStart": 27.8,
+   "end": 31.325,
+   "builds": 0,
+   "text": "In the Gulf, the Loop Current feeds the Florida Current."
+  },
+  {
+   "i": 4,
+   "start": 31.575,
+   "speechStart": 31.575,
+   "end": 39.4,
+   "builds": 0,
+   "text": "Closer in, a strong ebb running out of an inlet against an onshore wind can produce breaking seas right in the entrance."
+  }
+ ]
+}

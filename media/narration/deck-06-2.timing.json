@@ -1,0 +1,60 @@
+{
+ "slide": "deck-06-2",
+ "lessonId": "deck-06",
+ "n": 2,
+ "audio": "deck-06-2.mp3",
+ "duration": 35.675,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.2,
+   "builds": 0,
+   "text": "Watertight integrity means keeping water out of the hull."
+  },
+  {
+   "i": 1,
+   "start": 4.45,
+   "speechStart": 4.45,
+   "end": 7.925,
+   "builds": 0,
+   "text": "In rough water, close hatches, ports and doors."
+  },
+  {
+   "i": 2,
+   "start": 8.175,
+   "speechStart": 8.175,
+   "end": 15.125,
+   "builds": 0,
+   "text": "Scuppers and freeing ports must be kept clear so water on deck drains overboard instead of building up."
+  },
+  {
+   "i": 3,
+   "start": 15.375,
+   "speechStart": 15.375,
+   "end": 22.15,
+   "builds": 0,
+   "text": "Below the waterline, inspect every seacock, hose and fitting, and use double stainless hose clamps."
+  },
+  {
+   "i": 4,
+   "start": 22.4,
+   "speechStart": 22.4,
+   "end": 28.125,
+   "builds": 0,
+   "text": "A failed hose or through-hull fitting is one of the most common reasons boats sink at the dock."
+  },
+  {
+   "i": 5,
+   "start": 28.375,
+   "speechStart": 28.375,
+   "end": 35.375,
+   "builds": 0,
+   "text": "Underway, water pouring through an open hatch in heavy seas, called down-flooding, can sink a boat in minutes."
+  }
+ ]
+}

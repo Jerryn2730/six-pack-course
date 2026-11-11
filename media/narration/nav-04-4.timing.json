@@ -1,0 +1,52 @@
+{
+ "slide": "nav-04-4",
+ "lessonId": "nav-04",
+ "n": 4,
+ "audio": "nav-04-4.mp3",
+ "duration": 31.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.15,
+   "builds": 0,
+   "text": "The Western Rivers use a modified lateral system."
+  },
+  {
+   "i": 1,
+   "start": 4.4,
+   "speechStart": 4.4,
+   "end": 8.4,
+   "builds": 0,
+   "text": "Buoys there aren’t numbered, because channels shift with the river."
+  },
+  {
+   "i": 2,
+   "start": 8.65,
+   "speechStart": 8.65,
+   "end": 14.25,
+   "builds": 0,
+   "text": "Shore-mounted mileage boards show the distance in statute miles from a fixed point."
+  },
+  {
+   "i": 3,
+   "start": 14.5,
+   "speechStart": 14.5,
+   "end": 26.35,
+   "builds": 0,
+   "text": "Passing daymarks, red triangles and green squares, mark the side of the channel along a bank, and diamond-shaped crossing daymarks show where the channel crosses from one bank to the other."
+  },
+  {
+   "i": 4,
+   "start": 26.6,
+   "speechStart": 26.6,
+   "end": 31.175,
+   "builds": 0,
+   "text": "You may never see these from Florida, but the exam can ask about them."
+  }
+ ]
+}

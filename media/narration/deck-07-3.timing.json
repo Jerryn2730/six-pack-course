@@ -1,0 +1,52 @@
+{
+ "slide": "deck-07-3",
+ "lessonId": "deck-07",
+ "n": 3,
+ "audio": "deck-07-3.mp3",
+ "duration": 31.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.65,
+   "builds": 0,
+   "text": "Most twin-screw boats have counter-rotating propellers that cancel each other’s walk."
+  },
+  {
+   "i": 1,
+   "start": 5.9,
+   "speechStart": 5.9,
+   "end": 9.0,
+   "builds": 0,
+   "text": "Twins give tremendous control at low speed."
+  },
+  {
+   "i": 2,
+   "start": 9.25,
+   "speechStart": 9.25,
+   "end": 13.725,
+   "builds": 0,
+   "text": "With one engine ahead and the other astern, the boat spins in place."
+  },
+  {
+   "i": 3,
+   "start": 13.975,
+   "speechStart": 13.975,
+   "end": 21.1,
+   "builds": 0,
+   "text": "Put the starboard engine ahead and the port engine astern to turn to port, and the reverse to turn to starboard."
+  },
+  {
+   "i": 4,
+   "start": 21.35,
+   "speechStart": 21.35,
+   "end": 31.4,
+   "builds": 0,
+   "text": "Around docks, center the rudders and steer with the engines alone, using short bursts of power and plenty of neutral rather than holding the shifters in gear."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slide": "nav-06-1",
+ "lessonId": "nav-06",
+ "n": 1,
+ "audio": "nav-06-1.mp3",
+ "duration": 39.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 16.75,
+   "builds": 0,
+   "text": "The United States Coast Pilot, published by NOAA, supplements the chart with information that can’t be drawn on it: navigation regulations, local hazards, anchorages, bridge and cable clearances, currents, weather, and descriptions of ports and channels."
+  },
+  {
+   "i": 1,
+   "start": 17.0,
+   "speechStart": 17.0,
+   "end": 19.3,
+   "builds": 0,
+   "text": "It comes in nine volumes."
+  },
+  {
+   "i": 2,
+   "start": 19.55,
+   "speechStart": 19.55,
+   "end": 30.75,
+   "builds": 0,
+   "text": "Coast Pilot four covers the Atlantic coast from Cape Henry, Virginia, to Key West, and Coast Pilot five covers the Gulf coast, Puerto Rico and the Virgin Islands."
+  },
+  {
+   "i": 3,
+   "start": 31.0,
+   "speechStart": 31.0,
+   "end": 35.5,
+   "builds": 0,
+   "text": "Read the relevant chapters before you run a new inlet or harbor."
+  },
+  {
+   "i": 4,
+   "start": 35.75,
+   "speechStart": 35.75,
+   "end": 39.15,
+   "builds": 0,
+   "text": "It’s free to download and updated regularly."
+  }
+ ]
+}

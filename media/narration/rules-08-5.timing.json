@@ -1,0 +1,52 @@
+{
+ "slide": "rules-08-5",
+ "lessonId": "rules-08",
+ "n": 5,
+ "audio": "rules-08-5.mp3",
+ "duration": 35.8,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.5,
+   "builds": 0,
+   "text": "Finally, remember how Rule nineteen hands over to the other rules."
+  },
+  {
+   "i": 1,
+   "start": 4.75,
+   "speechStart": 4.75,
+   "end": 16.025,
+   "builds": 0,
+   "text": "The moment two vessels come into sight of one another visually, the rules for vessels in sight, eleven through eighteen, take over, and a stand-on and give-way vessel exist again."
+  },
+  {
+   "i": 2,
+   "start": 16.275,
+   "speechStart": 16.275,
+   "end": 19.25,
+   "builds": 0,
+   "text": "Until then, both vessels share the duty."
+  },
+  {
+   "i": 3,
+   "start": 19.5,
+   "speechStart": 19.5,
+   "end": 29.975,
+   "builds": 0,
+   "text": "Radar contact alone never puts vessels in sight of one another, and Rule seven’s warning about scanty radar information applies with full force in fog."
+  },
+  {
+   "i": 4,
+   "start": 30.225,
+   "speechStart": 30.225,
+   "end": 35.5,
+   "builds": 0,
+   "text": "We’ll cover the fog signals themselves, Rule thirty-five, in lesson fourteen."
+  }
+ ]
+}

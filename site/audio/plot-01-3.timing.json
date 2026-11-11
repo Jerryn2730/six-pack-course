@@ -1,0 +1,60 @@
+{
+ "slide": "plot-01-3",
+ "lessonId": "plot-01",
+ "n": 3,
+ "audio": "plot-01-3.mp3",
+ "duration": 34.6,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.575,
+   "builds": 0,
+   "text": "The compass rose has two rings."
+  },
+  {
+   "i": 1,
+   "start": 2.825,
+   "speechStart": 2.825,
+   "end": 7.075,
+   "builds": 0,
+   "text": "The outer ring shows true directions, with zero at true north."
+  },
+  {
+   "i": 2,
+   "start": 7.325,
+   "speechStart": 7.325,
+   "end": 12.625,
+   "builds": 0,
+   "text": "The inner ring shows magnetic directions, offset by the local variation."
+  },
+  {
+   "i": 3,
+   "start": 12.875,
+   "speechStart": 12.875,
+   "end": 17.775,
+   "builds": 0,
+   "text": "The center gives the variation, the year it applied, and the annual change."
+  },
+  {
+   "i": 4,
+   "start": 18.025,
+   "speechStart": 18.025,
+   "end": 30.3,
+   "builds": 0,
+   "text": "Reading the inner ring gives you magnetic directions without arithmetic, but the rose may be years out of date, so most captains and most exam problems work in true and convert at the end."
+  },
+  {
+   "i": 5,
+   "start": 30.55,
+   "speechStart": 30.55,
+   "end": 34.3,
+   "builds": 0,
+   "text": "Always use the rose nearest the area you’re working in."
+  }
+ ]
+}

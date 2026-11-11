@@ -1,0 +1,52 @@
+{
+ "slide": "nav-12-5",
+ "lessonId": "nav-12",
+ "n": 5,
+ "audio": "nav-12-5.mp3",
+ "duration": 36.275,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.675,
+   "builds": 0,
+   "text": "Radar ties directly into the Navigation Rules."
+  },
+  {
+   "i": 1,
+   "start": 3.925,
+   "speechStart": 3.925,
+   "end": 11.6,
+   "builds": 0,
+   "text": "If your boat has radar, Rule seven requires you to use it properly, including long-range scanning for early warning."
+  },
+  {
+   "i": 2,
+   "start": 11.85,
+   "speechStart": 11.85,
+   "end": 21.15,
+   "builds": 0,
+   "text": "A target seen only on radar is not in sight, so in fog Rule nineteen applies, and you avoid turning to port for a target forward of the beam."
+  },
+  {
+   "i": 3,
+   "start": 21.4,
+   "speechStart": 21.4,
+   "end": 27.25,
+   "builds": 0,
+   "text": "Make your own boat a better target with a radar reflector mounted as high as practical."
+  },
+  {
+   "i": 4,
+   "start": 27.5,
+   "speechStart": 27.5,
+   "end": 35.975,
+   "builds": 0,
+   "text": "And practice with radar on clear days, comparing the screen with what you see, so you can trust your interpretation when the fog rolls in."
+  }
+ ]
+}

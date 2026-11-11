@@ -1,0 +1,52 @@
+{
+ "slide": "nav-07-6",
+ "lessonId": "nav-07",
+ "n": 6,
+ "audio": "nav-07-6.mp3",
+ "duration": 36.925,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.15,
+   "builds": 0,
+   "text": "To estimate the height of tide between high and low, use the rule of twelfths or Table three."
+  },
+  {
+   "i": 1,
+   "start": 6.4,
+   "speechStart": 6.4,
+   "end": 16.525,
+   "builds": 0,
+   "text": "Say low water is zero point five feet at six hundred hours and high water is six point five feet at noon, a range of six feet over six hours."
+  },
+  {
+   "i": 2,
+   "start": 16.775,
+   "speechStart": 16.775,
+   "end": 25.825,
+   "builds": 0,
+   "text": "By nine hundred, three hours in, the tide has risen one plus two plus three twelfths, which is six twelfths, or half the range: three feet."
+  },
+  {
+   "i": 3,
+   "start": 26.075,
+   "speechStart": 26.075,
+   "end": 30.925,
+   "builds": 0,
+   "text": "Add that to the low water height, and the tide is about three point five feet."
+  },
+  {
+   "i": 4,
+   "start": 31.175,
+   "speechStart": 31.175,
+   "end": 36.625,
+   "builds": 0,
+   "text": "Where the chart shows five feet, you’ll have about eight and a half feet of water at nine hundred."
+  }
+ ]
+}

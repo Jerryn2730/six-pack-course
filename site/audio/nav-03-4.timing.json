@@ -1,0 +1,60 @@
+{
+ "slide": "nav-03-4",
+ "lessonId": "nav-03",
+ "n": 4,
+ "audio": "nav-03-4.mp3",
+ "duration": 41.025,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 10.675,
+   "builds": 0,
+   "text": "A range is a pair of fixed marks, the front one lower and closer, the rear one higher and farther away, placed so that when they line up you’re on the centerline of a channel."
+  },
+  {
+   "i": 1,
+   "start": 10.925,
+   "speechStart": 10.925,
+   "end": 16.55,
+   "builds": 0,
+   "text": "Range dayboards are rectangular, often with a vertical stripe, and they may be lighted."
+  },
+  {
+   "i": 2,
+   "start": 16.8,
+   "speechStart": 16.8,
+   "end": 24.3,
+   "builds": 0,
+   "text": "If the rear mark appears to the right of the front mark, you’re left of the centerline, so steer right until they line up again."
+  },
+  {
+   "i": 3,
+   "start": 24.55,
+   "speechStart": 24.55,
+   "end": 26.925,
+   "builds": 0,
+   "text": "Remember: follow the rear mark."
+  },
+  {
+   "i": 4,
+   "start": 27.175,
+   "speechStart": 27.175,
+   "end": 34.275,
+   "builds": 0,
+   "text": "Ranges are also excellent for checking your compass, because the chart gives the range line’s true direction."
+  },
+  {
+   "i": 5,
+   "start": 34.525,
+   "speechStart": 34.525,
+   "end": 40.725,
+   "builds": 0,
+   "text": "Only follow a range within the charted channel, since the line can extend beyond safe water."
+  }
+ ]
+}

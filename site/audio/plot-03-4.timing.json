@@ -1,0 +1,60 @@
+{
+ "slide": "plot-03-4",
+ "lessonId": "plot-03",
+ "n": 4,
+ "audio": "plot-03-4.mp3",
+ "duration": 31.825,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.075,
+   "builds": 0,
+   "text": "Here’s a complete leg."
+  },
+  {
+   "i": 1,
+   "start": 2.325,
+   "speechStart": 2.325,
+   "end": 4.975,
+   "builds": 0,
+   "text": "You’re going from buoy one to bell two."
+  },
+  {
+   "i": 2,
+   "start": 5.225,
+   "speechStart": 5.225,
+   "end": 10.425,
+   "builds": 0,
+   "text": "Walking the parallel rulers to the rose gives a true course of zero six eight."
+  },
+  {
+   "i": 3,
+   "start": 10.675,
+   "speechStart": 10.675,
+   "end": 19.1,
+   "builds": 0,
+   "text": "The dividers span five point three minutes on the latitude scale beside the line, so the distance is five point three nautical miles."
+  },
+  {
+   "i": 4,
+   "start": 19.35,
+   "speechStart": 19.35,
+   "end": 26.775,
+   "builds": 0,
+   "text": "At twelve knots, the time is sixty times five point three, divided by twelve, about twenty-six and a half minutes."
+  },
+  {
+   "i": 5,
+   "start": 27.025,
+   "speechStart": 27.025,
+   "end": 31.525,
+   "builds": 0,
+   "text": "Departing at nine hundred, you’ll arrive at about nine twenty-seven."
+  }
+ ]
+}

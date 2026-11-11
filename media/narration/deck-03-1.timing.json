@@ -1,0 +1,84 @@
+{
+ "slide": "deck-03-1",
+ "lessonId": "deck-03",
+ "n": 1,
+ "audio": "deck-03-1.mp3",
+ "duration": 44.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.1,
+   "builds": 0,
+   "text": "Fire is the emergency every captain dreads, so start with how it works."
+  },
+  {
+   "i": 1,
+   "start": 5.35,
+   "speechStart": 5.35,
+   "end": 11.55,
+   "builds": 0,
+   "text": "A fire needs heat, fuel and oxygen, plus the chemical chain reaction that keeps it going."
+  },
+  {
+   "i": 2,
+   "start": 11.8,
+   "speechStart": 11.8,
+   "end": 14.575,
+   "builds": 0,
+   "text": "Remove any one and the fire goes out."
+  },
+  {
+   "i": 3,
+   "start": 14.825,
+   "speechStart": 14.825,
+   "end": 24.325,
+   "builds": 0,
+   "text": "Cooling removes heat, smothering removes oxygen, shutting off the fuel removes fuel, and dry chemical agents interrupt the chain reaction."
+  },
+  {
+   "i": 4,
+   "start": 24.575,
+   "speechStart": 24.575,
+   "end": 27.1,
+   "builds": 0,
+   "text": "Fires are classed by what’s burning."
+  },
+  {
+   "i": 5,
+   "start": 27.35,
+   "speechStart": 27.35,
+   "end": 32.05,
+   "builds": 0,
+   "text": "Class A is ordinary combustibles like wood, cushions and line."
+  },
+  {
+   "i": 6,
+   "start": 32.3,
+   "speechStart": 32.3,
+   "end": 37.7,
+   "builds": 0,
+   "text": "Class B is flammable liquids like gasoline and oil, the most common boat fire."
+  },
+  {
+   "i": 7,
+   "start": 37.95,
+   "speechStart": 37.95,
+   "end": 41.425,
+   "builds": 0,
+   "text": "Class C is energized electrical equipment."
+  },
+  {
+   "i": 8,
+   "start": 41.675,
+   "speechStart": 41.675,
+   "end": 44.4,
+   "builds": 0,
+   "text": "Class D is combustible metals."
+  }
+ ]
+}

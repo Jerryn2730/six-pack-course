@@ -1,0 +1,60 @@
+{
+ "slide": "rules-09-4",
+ "lessonId": "rules-09",
+ "n": 4,
+ "audio": "rules-09-4.mp3",
+ "duration": 39.325,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.25,
+   "builds": 0,
+   "text": "Rule twenty-three covers power-driven vessels underway."
+  },
+  {
+   "i": 1,
+   "start": 4.5,
+   "speechStart": 4.5,
+   "end": 8.675,
+   "builds": 0,
+   "text": "She shows a masthead light forward, sidelights and a sternlight."
+  },
+  {
+   "i": 2,
+   "start": 8.925,
+   "speechStart": 8.925,
+   "end": 16.4,
+   "builds": 0,
+   "text": "A vessel fifty meters or more must also show a second masthead light abaft of and higher than the forward one."
+  },
+  {
+   "i": 3,
+   "start": 16.65,
+   "speechStart": 16.65,
+   "end": 22.45,
+   "builds": 0,
+   "text": "A vessel under fifty meters may show the second masthead light but isn’t required to."
+  },
+  {
+   "i": 4,
+   "start": 22.7,
+   "speechStart": 22.7,
+   "end": 29.65,
+   "builds": 0,
+   "text": "The two masthead lights act like a range, telling you which way a big ship is heading and when she starts to turn."
+  },
+  {
+   "i": 5,
+   "start": 29.9,
+   "speechStart": 29.9,
+   "end": 39.025,
+   "builds": 0,
+   "text": "A power-driven vessel under twelve meters may instead show an all-round white light and sidelights, which is what most center consoles carry."
+  }
+ ]
+}

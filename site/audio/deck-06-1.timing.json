@@ -1,0 +1,52 @@
+{
+ "slide": "deck-06-1",
+ "lessonId": "deck-06",
+ "n": 1,
+ "audio": "deck-06-1.mp3",
+ "duration": 32.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.975,
+   "builds": 0,
+   "text": "Hull shape determines how a boat behaves."
+  },
+  {
+   "i": 1,
+   "start": 3.225,
+   "speechStart": 3.225,
+   "end": 11.05,
+   "builds": 0,
+   "text": "A displacement hull pushes through the water, and its top speed, called hull speed, is limited by its waterline length."
+  },
+  {
+   "i": 2,
+   "start": 11.3,
+   "speechStart": 11.3,
+   "end": 19.475,
+   "builds": 0,
+   "text": "A planing hull rises up and skims on the surface once it has enough power and speed, which is how most charter boats travel."
+  },
+  {
+   "i": 3,
+   "start": 19.725,
+   "speechStart": 19.725,
+   "end": 22.675,
+   "builds": 0,
+   "text": "Semi-displacement hulls fall in between."
+  },
+  {
+   "i": 4,
+   "start": 22.925,
+   "speechStart": 22.925,
+   "end": 32.55,
+   "builds": 0,
+   "text": "A deep-V bottom cuts through chop and gives a smoother ride, while a flat bottom is very stable at rest and in shallow water but pounds hard in waves."
+  }
+ ]
+}

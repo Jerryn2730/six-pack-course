@@ -1,0 +1,52 @@
+{
+ "slide": "deck-11-5",
+ "lessonId": "deck-11",
+ "n": 5,
+ "audio": "deck-11-5.mp3",
+ "duration": 37.3,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.5,
+   "builds": 0,
+   "text": "Abandon the boat only when it’s clearly lost, because even a swamped boat is easier for rescuers to find than people in the water."
+  },
+  {
+   "i": 1,
+   "start": 8.75,
+   "speechStart": 8.75,
+   "end": 14.2,
+   "builds": 0,
+   "text": "Before leaving, send a Mayday by voice and DSC, and activate the EPIRB."
+  },
+  {
+   "i": 2,
+   "start": 14.45,
+   "speechStart": 14.45,
+   "end": 24.05,
+   "builds": 0,
+   "text": "Make sure everyone has a life jacket on, and grab a ditch bag with a handheld radio, personal locator beacon, flares, water and medications."
+  },
+  {
+   "i": 3,
+   "start": 24.3,
+   "speechStart": 24.3,
+   "end": 31.075,
+   "builds": 0,
+   "text": "The old saying is to step up into a life raft, meaning leave only when the boat is sinking out from under you."
+  },
+  {
+   "i": 4,
+   "start": 31.325,
+   "speechStart": 31.325,
+   "end": 37.0,
+   "builds": 0,
+   "text": "Stay together, and stay near the boat’s last known position, where searchers will start looking."
+  }
+ ]
+}

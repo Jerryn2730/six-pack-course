@@ -1,0 +1,60 @@
+{
+ "slide": "deck-12-1",
+ "lessonId": "deck-12",
+ "n": 1,
+ "audio": "deck-12-1.mp3",
+ "duration": 40.75,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.7,
+   "builds": 0,
+   "text": "There are three levels of urgent call."
+  },
+  {
+   "i": 1,
+   "start": 2.95,
+   "speechStart": 2.95,
+   "end": 10.2,
+   "builds": 0,
+   "text": "Mayday means grave and imminent danger to life or the vessel, such as sinking, fire or a man overboard."
+  },
+  {
+   "i": 2,
+   "start": 10.45,
+   "speechStart": 10.45,
+   "end": 18.35,
+   "builds": 0,
+   "text": "Pan-pan means an urgent situation without immediate danger to life, like a disabled engine drifting offshore."
+  },
+  {
+   "i": 3,
+   "start": 18.6,
+   "speechStart": 18.6,
+   "end": 23.25,
+   "builds": 0,
+   "text": "Securité is a safety message, such as a navigation hazard."
+  },
+  {
+   "i": 4,
+   "start": 23.5,
+   "speechStart": 23.5,
+   "end": 37.825,
+   "builds": 0,
+   "text": "A Mayday is sent on VHF channel sixteen, following the script on screen: Mayday three times, your boat’s name three times, your position, the problem, the help you need, the number aboard and a description of the boat."
+  },
+  {
+   "i": 5,
+   "start": 38.075,
+   "speechStart": 38.075,
+   "end": 40.45,
+   "builds": 0,
+   "text": "Then release the button and listen."
+  }
+ ]
+}

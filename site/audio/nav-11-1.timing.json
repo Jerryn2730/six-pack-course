@@ -1,0 +1,52 @@
+{
+ "slide": "nav-11-1",
+ "lessonId": "nav-11",
+ "n": 1,
+ "audio": "nav-11-1.mp3",
+ "duration": 43.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 11.7,
+   "builds": 0,
+   "text": "GPS gives your position from satellite signals, typically accurate to within a few meters, and better with WAAS, a correction system available across North America."
+  },
+  {
+   "i": 1,
+   "start": 11.95,
+   "speechStart": 11.95,
+   "end": 20.85,
+   "builds": 0,
+   "text": "A GPS receiver also gives speed over ground and course over ground, which come from changes in position, not from the compass."
+  },
+  {
+   "i": 2,
+   "start": 21.1,
+   "speechStart": 21.1,
+   "end": 28.65,
+   "builds": 0,
+   "text": "Make sure the receiver’s datum matches your chart, normally WGS 84 matched to NAD 83."
+  },
+  {
+   "i": 3,
+   "start": 28.9,
+   "speechStart": 28.9,
+   "end": 37.9,
+   "builds": 0,
+   "text": "GPS can fail, lose power or be jammed, so a good captain keeps dead reckoning skills, paper charts and a compass as backups."
+  },
+  {
+   "i": 4,
+   "start": 38.15,
+   "speechStart": 38.15,
+   "end": 43.15,
+   "builds": 0,
+   "text": "The Loran system that once backed up GPS was shut down in 2010."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slide": "plot-09-2",
+ "lessonId": "plot-09",
+ "n": 2,
+ "audio": "plot-09-2.mp3",
+ "duration": 35.75,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.175,
+   "builds": 0,
+   "text": "You leave an eight hundred fix steering zero four five true at eight knots."
+  },
+  {
+   "i": 1,
+   "start": 5.425,
+   "speechStart": 5.425,
+   "end": 15.875,
+   "builds": 0,
+   "text": "At ten hundred your DR is sixteen miles along that course, but a ten hundred fix lies two point four miles from the DR, in the direction one two zero true."
+  },
+  {
+   "i": 2,
+   "start": 16.125,
+   "speechStart": 16.125,
+   "end": 20.775,
+   "builds": 0,
+   "text": "The set is one two zero true, the direction from DR to fix."
+  },
+  {
+   "i": 3,
+   "start": 21.025,
+   "speechStart": 21.025,
+   "end": 26.275,
+   "builds": 0,
+   "text": "The drift is two point four miles divided by two hours, one point two knots."
+  },
+  {
+   "i": 4,
+   "start": 26.525,
+   "speechStart": 26.525,
+   "end": 35.45,
+   "builds": 0,
+   "text": "To find what you actually made good, measure the line from the eight hundred fix to the ten hundred fix: that’s your track and speed over the ground."
+  }
+ ]
+}

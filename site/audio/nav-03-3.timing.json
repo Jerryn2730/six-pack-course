@@ -1,0 +1,44 @@
+{
+ "slide": "nav-03-3",
+ "lessonId": "nav-03",
+ "n": 3,
+ "audio": "nav-03-3.mp3",
+ "duration": 31.0,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.075,
+   "builds": 0,
+   "text": "Daybeacons are fixed aids, dayboards mounted on piles, common in Florida bays and along the Intracoastal Waterway."
+  },
+  {
+   "i": 1,
+   "start": 8.325,
+   "speechStart": 8.325,
+   "end": 17.625,
+   "builds": 0,
+   "text": "Red daybeacons are triangles with even numbers, and green daybeacons are squares with odd numbers, following the same red right returning rule."
+  },
+  {
+   "i": 2,
+   "start": 17.875,
+   "speechStart": 17.875,
+   "end": 22.75,
+   "builds": 0,
+   "text": "Because daybeacons are fixed, they’re more reliable in position than buoys."
+  },
+  {
+   "i": 3,
+   "start": 23.0,
+   "speechStart": 23.0,
+   "end": 30.7,
+   "builds": 0,
+   "text": "But they often stand in shallow water right at the edge of a channel, so give them a reasonable berth rather than cutting close."
+  }
+ ]
+}

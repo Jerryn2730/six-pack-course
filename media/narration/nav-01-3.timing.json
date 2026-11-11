@@ -1,0 +1,52 @@
+{
+ "slide": "nav-01-3",
+ "lessonId": "nav-01",
+ "n": 3,
+ "audio": "nav-01-3.mp3",
+ "duration": 34.75,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.875,
+   "builds": 0,
+   "text": "Most nautical charts use the Mercator projection."
+  },
+  {
+   "i": 1,
+   "start": 4.125,
+   "speechStart": 4.125,
+   "end": 14.2,
+   "builds": 0,
+   "text": "Its big advantage is that a straight line on the chart is a rhumb line, a line of constant direction, so you can lay a course with parallel rulers and steer it."
+  },
+  {
+   "i": 2,
+   "start": 14.45,
+   "speechStart": 14.45,
+   "end": 16.675,
+   "builds": 0,
+   "text": "The trade-off is distortion."
+  },
+  {
+   "i": 3,
+   "start": 16.925,
+   "speechStart": 16.925,
+   "end": 27.925,
+   "builds": 0,
+   "text": "The latitude scale gets longer as you move away from the equator, so on a small-scale chart a nautical mile measured near the top is longer than one measured near the bottom."
+  },
+  {
+   "i": 4,
+   "start": 28.175,
+   "speechStart": 28.175,
+   "end": 34.45,
+   "builds": 0,
+   "text": "That’s why you always measure distance on the part of the latitude scale beside where you’re working."
+  }
+ ]
+}

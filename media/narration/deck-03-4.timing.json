@@ -1,0 +1,60 @@
+{
+ "slide": "deck-03-4",
+ "lessonId": "deck-03",
+ "n": 4,
+ "audio": "deck-03-4.mp3",
+ "duration": 38.675,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.475,
+   "builds": 0,
+   "text": "Engine compartment fires are the most dangerous on small boats."
+  },
+  {
+   "i": 1,
+   "start": 4.725,
+   "speechStart": 4.725,
+   "end": 9.65,
+   "builds": 0,
+   "text": "Shut down the engines, generator and blowers, and close the fuel valves."
+  },
+  {
+   "i": 2,
+   "start": 9.9,
+   "speechStart": 9.9,
+   "end": 19.025,
+   "builds": 0,
+   "text": "Close vents and hatches to starve the fire of oxygen, and don’t open the engine hatch, since a rush of fresh air can make it flare violently."
+  },
+  {
+   "i": 3,
+   "start": 19.275,
+   "speechStart": 19.275,
+   "end": 24.475,
+   "builds": 0,
+   "text": "Discharge the fixed extinguishing system if it hasn’t fired automatically."
+  },
+  {
+   "i": 4,
+   "start": 24.725,
+   "speechStart": 24.725,
+   "end": 28.7,
+   "builds": 0,
+   "text": "Many systems shut down the engines when they discharge."
+  },
+  {
+   "i": 5,
+   "start": 28.95,
+   "speechStart": 28.95,
+   "end": 38.375,
+   "builds": 0,
+   "text": "Then wait at least fifteen minutes for the compartment to cool before opening it, so the fire doesn’t reignite, and have a portable extinguisher ready when you do."
+  }
+ ]
+}

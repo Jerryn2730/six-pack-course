@@ -1,0 +1,52 @@
+{
+ "slide": "plot-05-1",
+ "lessonId": "plot-05",
+ "n": 1,
+ "audio": "plot-05-1.mp3",
+ "duration": 32.3,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.35,
+   "builds": 0,
+   "text": "Plotting problems constantly convert between true, magnetic and compass."
+  },
+  {
+   "i": 1,
+   "start": 5.6,
+   "speechStart": 5.6,
+   "end": 13.2,
+   "builds": 0,
+   "text": "Remember the chain: true, variation, magnetic, deviation, compass, or True Virgins Make Dull Companions."
+  },
+  {
+   "i": 2,
+   "start": 13.45,
+   "speechStart": 13.45,
+   "end": 18.475,
+   "builds": 0,
+   "text": "Going down the chain, from true toward compass, add west and subtract east."
+  },
+  {
+   "i": 3,
+   "start": 18.725,
+   "speechStart": 18.725,
+   "end": 23.9,
+   "builds": 0,
+   "text": "Going up the chain, from compass toward true, add east and subtract west."
+  },
+  {
+   "i": 4,
+   "start": 24.15,
+   "speechStart": 24.15,
+   "end": 32.0,
+   "builds": 0,
+   "text": "Write each step on paper with its sign, because a single sign error is the most common wrong answer on the plotting exam."
+  }
+ ]
+}

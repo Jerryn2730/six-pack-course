@@ -1,0 +1,68 @@
+{
+ "slide": "nav-10-5",
+ "lessonId": "nav-10",
+ "n": 5,
+ "audio": "nav-10-5.mp3",
+ "duration": 32.55,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.525,
+   "builds": 0,
+   "text": "Let’s check a compass on a range."
+  },
+  {
+   "i": 1,
+   "start": 2.775,
+   "speechStart": 2.775,
+   "end": 6.275,
+   "builds": 0,
+   "text": "The chart shows the range line at zero four two true."
+  },
+  {
+   "i": 2,
+   "start": 6.525,
+   "speechStart": 6.525,
+   "end": 14.725,
+   "builds": 0,
+   "text": "Variation is six west, and going from true toward magnetic you add west, so the magnetic direction is zero four eight."
+  },
+  {
+   "i": 3,
+   "start": 14.975,
+   "speechStart": 14.975,
+   "end": 18.95,
+   "builds": 0,
+   "text": "Lined up on the range, your compass reads zero five one."
+  },
+  {
+   "i": 4,
+   "start": 19.2,
+   "speechStart": 19.2,
+   "end": 26.025,
+   "builds": 0,
+   "text": "The compass reads three degrees more than magnetic, so the deviation on this heading is three degrees west."
+  },
+  {
+   "i": 5,
+   "start": 26.275,
+   "speechStart": 26.275,
+   "end": 28.6,
+   "builds": 0,
+   "text": "Compass best, error west."
+  },
+  {
+   "i": 6,
+   "start": 28.85,
+   "speechStart": 28.85,
+   "end": 32.25,
+   "builds": 0,
+   "text": "Record it on your deviation card for that heading."
+  }
+ ]
+}

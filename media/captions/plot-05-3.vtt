@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:08.725
+To plot a bearing taken with the ship’s compass, first convert it to true, using the deviation for the boat’s heading, not for the bearing.
+
+2
+00:00:08.975 --> 00:00:17.225
+Steering zero eight zero by compass, with two degrees east deviation, you see a light bearing zero one five by compass.
+
+3
+00:00:17.475 --> 00:00:20.725
+Add east: zero one seven magnetic.
+
+4
+00:00:20.975 --> 00:00:24.725
+Subtract fourteen west: zero zero three true.
+
+5
+00:00:24.975 --> 00:00:28.075
+Now draw a line through the light in that direction.
+
+6
+00:00:28.325 --> 00:00:36.175
+Your boat lies somewhere along that line, on the side toward you, which runs from the light along the reciprocal, one eight three.

@@ -1,0 +1,60 @@
+{
+ "slide": "rules-09-3",
+ "lessonId": "rules-09",
+ "n": 3,
+ "audio": "rules-09-3.mp3",
+ "duration": 45.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.175,
+   "builds": 0,
+   "text": "Rule twenty-two sets the minimum range at which each light must be visible, and it depends on vessel length."
+  },
+  {
+   "i": 1,
+   "start": 7.425,
+   "speechStart": 7.425,
+   "end": 14.95,
+   "builds": 0,
+   "text": "On vessels fifty meters or more, the masthead light must be visible six miles, and every other light three miles."
+  },
+  {
+   "i": 2,
+   "start": 15.2,
+   "speechStart": 15.2,
+   "end": 24.75,
+   "builds": 0,
+   "text": "On vessels from twelve to fifty meters, the masthead light must be visible five miles, but only three miles if the vessel is under twenty meters."
+  },
+  {
+   "i": 3,
+   "start": 25.0,
+   "speechStart": 25.0,
+   "end": 30.375,
+   "builds": 0,
+   "text": "Sidelights, sternlight, towing light and all-round lights must be visible two miles."
+  },
+  {
+   "i": 4,
+   "start": 30.625,
+   "speechStart": 30.625,
+   "end": 40.8,
+   "builds": 0,
+   "text": "On vessels under twelve meters, the masthead light must be visible two miles, the sidelights one mile, and the sternlight, towing and all-round lights two miles."
+  },
+  {
+   "i": 5,
+   "start": 41.05,
+   "speechStart": 41.05,
+   "end": 45.55,
+   "builds": 0,
+   "text": "The exam asks these numbers often, so make yourself a flashcard."
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "slide": "deck-09-5",
+ "lessonId": "deck-09",
+ "n": 5,
+ "audio": "deck-09-5.mp3",
+ "duration": 32.95,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.125,
+   "builds": 0,
+   "text": "Don’t anchor in navigation channels, cable and pipeline areas, or restricted areas, and avoid anchoring where you’ll block other traffic."
+  },
+  {
+   "i": 1,
+   "start": 9.375,
+   "speechStart": 9.375,
+   "end": 14.65,
+   "builds": 0,
+   "text": "At night show your anchor light, and by day a black ball, as Rule thirty requires."
+  },
+  {
+   "i": 2,
+   "start": 14.9,
+   "speechStart": 14.9,
+   "end": 23.95,
+   "builds": 0,
+   "text": "In the Florida Keys National Marine Sanctuary, anchoring on coral is prohibited, so use the mooring buoys provided at popular reefs."
+  },
+  {
+   "i": 3,
+   "start": 24.2,
+   "speechStart": 24.2,
+   "end": 32.65,
+   "builds": 0,
+   "text": "Avoid anchoring in seagrass where you can, and leave enough room for other boats to swing without hitting you when the wind or current changes."
+  }
+ ]
+}

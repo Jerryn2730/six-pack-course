@@ -1,0 +1,52 @@
+{
+ "slide": "nav-14-2",
+ "lessonId": "nav-14",
+ "n": 2,
+ "audio": "nav-14-2.mp3",
+ "duration": 40.75,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.075,
+   "builds": 0,
+   "text": "Tropical cyclones are classified by sustained wind."
+  },
+  {
+   "i": 1,
+   "start": 4.325,
+   "speechStart": 4.325,
+   "end": 13.825,
+   "builds": 0,
+   "text": "A tropical depression has winds under thirty-four knots, a tropical storm thirty-four to sixty-three knots, and a hurricane sixty-four knots or more."
+  },
+  {
+   "i": 2,
+   "start": 14.075,
+   "speechStart": 14.075,
+   "end": 20.525,
+   "builds": 0,
+   "text": "Category three and higher hurricanes, ninety-six knots and above, are called major hurricanes."
+  },
+  {
+   "i": 3,
+   "start": 20.775,
+   "speechStart": 20.775,
+   "end": 28.2,
+   "builds": 0,
+   "text": "Atlantic hurricane season runs from June first through November thirtieth, with the peak from August through October."
+  },
+  {
+   "i": 4,
+   "start": 28.45,
+   "speechStart": 28.45,
+   "end": 40.45,
+   "builds": 0,
+   "text": "The National Hurricane Center issues a watch when hurricane conditions are possible, usually within forty-eight hours, and a warning when they are expected, usually within thirty-six hours."
+  }
+ ]
+}

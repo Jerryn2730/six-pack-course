@@ -1,0 +1,60 @@
+{
+ "slide": "deck-12-4",
+ "lessonId": "deck-12",
+ "n": 4,
+ "audio": "deck-12-4.mp3",
+ "duration": 32.925,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.05,
+   "builds": 0,
+   "text": "When rescuers arrive, follow their instructions exactly."
+  },
+  {
+   "i": 1,
+   "start": 4.3,
+   "speechStart": 4.3,
+   "end": 7.375,
+   "builds": 0,
+   "text": "They may ask you to hold a certain course and speed."
+  },
+  {
+   "i": 2,
+   "start": 7.625,
+   "speechStart": 7.625,
+   "end": 14.925,
+   "builds": 0,
+   "text": "Before a helicopter arrives, secure loose gear, canvas and antennas that its rotor wash could blow around."
+  },
+  {
+   "i": 3,
+   "start": 15.175,
+   "speechStart": 15.175,
+   "end": 23.2,
+   "builds": 0,
+   "text": "Let the rescue basket or hook touch the water or deck before anyone touches it, because it carries a powerful static charge."
+  },
+  {
+   "i": 4,
+   "start": 23.45,
+   "speechStart": 23.45,
+   "end": 26.25,
+   "builds": 0,
+   "text": "Never tie the hoist cable to your boat."
+  },
+  {
+   "i": 5,
+   "start": 26.5,
+   "speechStart": 26.5,
+   "end": 32.625,
+   "builds": 0,
+   "text": "Keep everyone in life jackets, and have a light, flare or signal mirror ready to help them find you."
+  }
+ ]
+}

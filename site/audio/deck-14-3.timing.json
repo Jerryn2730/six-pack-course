@@ -1,0 +1,60 @@
+{
+ "slide": "deck-14-3",
+ "lessonId": "deck-14",
+ "n": 3,
+ "audio": "deck-14-3.mp3",
+ "duration": 37.375,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.875,
+   "builds": 0,
+   "text": "Garbage rules come from MARPOL Annex five."
+  },
+  {
+   "i": 1,
+   "start": 4.125,
+   "speechStart": 4.125,
+   "end": 10.725,
+   "builds": 0,
+   "text": "Plastics, including monofilament fishing line, nets and bags, may never be discharged anywhere."
+  },
+  {
+   "i": 2,
+   "start": 10.975,
+   "speechStart": 10.975,
+   "end": 20.175,
+   "builds": 0,
+   "text": "Food waste may be discharged only well offshore: three nautical miles or more if it’s ground up, and twelve nautical miles or more if it isn’t."
+  },
+  {
+   "i": 3,
+   "start": 20.425,
+   "speechStart": 20.425,
+   "end": 27.425,
+   "builds": 0,
+   "text": "Most other garbage, like paper, glass and metal, may not be thrown overboard at all and must be brought ashore."
+  },
+  {
+   "i": 4,
+   "start": 27.675,
+   "speechStart": 27.675,
+   "end": 32.4,
+   "builds": 0,
+   "text": "Inside three miles and on inland waters, nothing goes overboard."
+  },
+  {
+   "i": 5,
+   "start": 32.65,
+   "speechStart": 32.65,
+   "end": 37.075,
+   "builds": 0,
+   "text": "The simplest rule for a charter boat: bring everything back to the dock."
+  }
+ ]
+}

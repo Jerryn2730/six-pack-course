@@ -1,0 +1,44 @@
+{
+ "slide": "nav-14-5",
+ "lessonId": "nav-14",
+ "n": 5,
+ "audio": "nav-14-5.mp3",
+ "duration": 38.575,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.725,
+   "builds": 0,
+   "text": "Waves grow with three things: wind speed; fetch, the distance of open water the wind blows across; and duration, how long it has blown."
+  },
+  {
+   "i": 1,
+   "start": 9.975,
+   "speechStart": 9.975,
+   "end": 18.7,
+   "builds": 0,
+   "text": "That’s why an offshore wind leaves a calm strip near the beach, while the same wind blowing onshore across a long fetch builds big seas."
+  },
+  {
+   "i": 2,
+   "start": 18.95,
+   "speechStart": 18.95,
+   "end": 25.625,
+   "builds": 0,
+   "text": "Swell is waves that have traveled away from where they formed, and it can arrive well ahead of a distant storm."
+  },
+  {
+   "i": 3,
+   "start": 25.875,
+   "speechStart": 25.875,
+   "end": 38.275,
+   "builds": 0,
+   "text": "Forecast wave heights are significant wave heights, the average of the highest one third of the waves, so expect some individual waves much larger, occasionally around twice the forecast height."
+  }
+ ]
+}

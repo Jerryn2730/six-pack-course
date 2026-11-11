@@ -1,0 +1,60 @@
+{
+ "slide": "nav-05-3",
+ "lessonId": "nav-05",
+ "n": 3,
+ "audio": "nav-05-3.mp3",
+ "duration": 42.375,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.475,
+   "builds": 0,
+   "text": "Three ranges describe how far a light can be seen."
+  },
+  {
+   "i": 1,
+   "start": 3.725,
+   "speechStart": 3.725,
+   "end": 12.575,
+   "builds": 0,
+   "text": "Nominal range is the distance a light carries in clear weather, defined as a meteorological visibility of ten nautical miles."
+  },
+  {
+   "i": 2,
+   "start": 12.825,
+   "speechStart": 12.825,
+   "end": 16.0,
+   "builds": 0,
+   "text": "That’s the number on the chart and in the Light List."
+  },
+  {
+   "i": 3,
+   "start": 16.25,
+   "speechStart": 16.25,
+   "end": 25.65,
+   "builds": 0,
+   "text": "Luminous range is how far the light carries in the visibility actually present tonight, which you find with the luminous range diagram in the Light List."
+  },
+  {
+   "i": 4,
+   "start": 25.9,
+   "speechStart": 25.9,
+   "end": 34.375,
+   "builds": 0,
+   "text": "Geographic range is how far you could see the light before the curve of the earth hides it, which depends on the light’s height and your height of eye."
+  },
+  {
+   "i": 5,
+   "start": 34.625,
+   "speechStart": 34.625,
+   "end": 42.075,
+   "builds": 0,
+   "text": "The distance at which you’ll actually first see the light is the lesser of the luminous range and the geographic range."
+  }
+ ]
+}

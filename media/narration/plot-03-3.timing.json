@@ -1,0 +1,36 @@
+{
+ "slide": "plot-03-3",
+ "lessonId": "plot-03",
+ "n": 3,
+ "audio": "plot-03-3.mp3",
+ "duration": 24.05,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 12.725,
+   "builds": 0,
+   "text": "The most common distance errors are measuring on the longitude scale, which gives an answer that’s much too large at Florida or New England latitudes, and using the latitude scale far from where you’re working."
+  },
+  {
+   "i": 1,
+   "start": 12.975,
+   "speechStart": 12.975,
+   "end": 18.65,
+   "builds": 0,
+   "text": "A third is careless stepping with the dividers, where small errors add up on a long leg."
+  },
+  {
+   "i": 2,
+   "start": 18.9,
+   "speechStart": 18.9,
+   "end": 23.75,
+   "builds": 0,
+   "text": "Work carefully, and give distances to the nearest tenth of a nautical mile."
+  }
+ ]
+}

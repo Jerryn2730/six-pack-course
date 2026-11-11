@@ -1,0 +1,132 @@
+{
+ "slide": "rules-06-2",
+ "lessonId": "rules-06",
+ "n": 2,
+ "audio": "rules-06-2.mp3",
+ "duration": 67.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.675,
+   "builds": 0,
+   "text": "The Inland rules add two river rules here, and they belong together."
+  },
+  {
+   "i": 1,
+   "start": 4.925,
+   "speechStart": 4.925,
+   "end": 11.625,
+   "builds": 1,
+   "text": "Both apply only on the Great Lakes, the Western Rivers, and other waters the Coast Guard specifies."
+  },
+  {
+   "i": 2,
+   "start": 11.875,
+   "speechStart": 11.875,
+   "end": 13.625,
+   "builds": 1,
+   "text": "First, meeting."
+  },
+  {
+   "i": 3,
+   "start": 13.875,
+   "speechStart": 13.875,
+   "end": 18.8,
+   "builds": 0,
+   "text": "You saw this in lesson four for narrow channels, and Rule fourteen repeats it."
+  },
+  {
+   "i": 4,
+   "start": 19.05,
+   "speechStart": 19.05,
+   "end": 26.225,
+   "builds": 0,
+   "text": "A power-driven vessel heading downbound with a following current has the right of way over an upbound vessel."
+  },
+  {
+   "i": 5,
+   "start": 26.475,
+   "speechStart": 26.475,
+   "end": 31.6,
+   "builds": 1,
+   "text": "She proposes the manner of passage, and she initiates the maneuvering signals."
+  },
+  {
+   "i": 6,
+   "start": 31.85,
+   "speechStart": 31.85,
+   "end": 33.675,
+   "builds": 1,
+   "text": "Second, crossing."
+  },
+  {
+   "i": 7,
+   "start": 33.925,
+   "speechStart": 33.925,
+   "end": 42.0,
+   "builds": 0,
+   "text": "On those same waters, a power-driven vessel crossing a river keeps out of the way of a power-driven vessel going up or down it."
+  },
+  {
+   "i": 8,
+   "start": 42.25,
+   "speechStart": 42.25,
+   "end": 44.825,
+   "builds": 0,
+   "text": "It doesn’t matter which side she’s on."
+  },
+  {
+   "i": 9,
+   "start": 45.075,
+   "speechStart": 45.075,
+   "end": 47.95,
+   "builds": 0,
+   "text": "Think of a ferry crossing the Mississippi."
+  },
+  {
+   "i": 10,
+   "start": 48.2,
+   "speechStart": 48.2,
+   "end": 52.0,
+   "builds": 0,
+   "text": "A towboat is coming down the river on the ferry’s port side."
+  },
+  {
+   "i": 11,
+   "start": 52.25,
+   "speechStart": 52.25,
+   "end": 55.675,
+   "builds": 0,
+   "text": "Under the ordinary crossing rule, who would give way?"
+  },
+  {
+   "i": 12,
+   "start": 55.925,
+   "speechStart": 56.675,
+   "end": 60.675,
+   "builds": 0,
+   "text": "The towboat would, because the ferry is on her starboard side."
+  },
+  {
+   "i": 13,
+   "start": 60.925,
+   "speechStart": 60.925,
+   "end": 64.125,
+   "builds": 0,
+   "text": "But this is a river, so the ferry keeps clear."
+  },
+  {
+   "i": 14,
+   "start": 64.375,
+   "speechStart": 64.375,
+   "end": 67.15,
+   "builds": 0,
+   "text": "The traffic running the river comes first."
+  }
+ ]
+}

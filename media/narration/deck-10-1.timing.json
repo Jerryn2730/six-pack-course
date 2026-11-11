@@ -1,0 +1,60 @@
+{
+ "slide": "deck-10-1",
+ "lessonId": "deck-10",
+ "n": 1,
+ "audio": "deck-10-1.mp3",
+ "duration": 32.65,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.675,
+   "builds": 0,
+   "text": "The best heavy weather tactic is not to be out in it."
+  },
+  {
+   "i": 1,
+   "start": 3.925,
+   "speechStart": 3.925,
+   "end": 7.05,
+   "builds": 0,
+   "text": "Check the forecast, and when in doubt, don’t go."
+  },
+  {
+   "i": 2,
+   "start": 7.3,
+   "speechStart": 7.3,
+   "end": 13.975,
+   "builds": 0,
+   "text": "If weather catches you, have everyone put on life jackets, secure loose gear, and close hatches and doors."
+  },
+  {
+   "i": 3,
+   "start": 14.225,
+   "speechStart": 14.225,
+   "end": 15.825,
+   "builds": 0,
+   "text": "Slow down."
+  },
+  {
+   "i": 4,
+   "start": 16.075,
+   "speechStart": 16.075,
+   "end": 26.75,
+   "builds": 0,
+   "text": "Pounding into head seas at speed injures passengers and damages boats, so take them at a slight angle off the bow at a speed that lets the boat ride over each wave."
+  },
+  {
+   "i": 5,
+   "start": 27.0,
+   "speechStart": 27.0,
+   "end": 32.35,
+   "builds": 0,
+   "text": "Keep passengers seated low and near the center of the boat, where the motion is least."
+  }
+ ]
+}

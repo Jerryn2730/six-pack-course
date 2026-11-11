@@ -1,0 +1,68 @@
+{
+ "slide": "nav-07-3",
+ "lessonId": "nav-07",
+ "n": 3,
+ "audio": "nav-07-3.mp3",
+ "duration": 40.025,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.825,
+   "builds": 0,
+   "text": "The range of the tide follows the moon."
+  },
+  {
+   "i": 1,
+   "start": 3.075,
+   "speechStart": 3.075,
+   "end": 9.2,
+   "builds": 0,
+   "text": "At new and full moon, the sun and moon line up and you get spring tides, with the biggest range."
+  },
+  {
+   "i": 2,
+   "start": 9.45,
+   "speechStart": 9.45,
+   "end": 12.3,
+   "builds": 0,
+   "text": "Spring has nothing to do with the season."
+  },
+  {
+   "i": 3,
+   "start": 12.55,
+   "speechStart": 12.55,
+   "end": 20.375,
+   "builds": 0,
+   "text": "At the first and third quarter moons, the sun and moon pull at right angles and you get neap tides, with the smallest range."
+  },
+  {
+   "i": 4,
+   "start": 20.625,
+   "speechStart": 20.625,
+   "end": 30.8,
+   "builds": 0,
+   "text": "When a spring tide coincides with the moon’s closest approach to the earth, perigean spring tides, often called king tides, flood low-lying Florida streets."
+  },
+  {
+   "i": 5,
+   "start": 31.05,
+   "speechStart": 31.05,
+   "end": 33.5,
+   "builds": 0,
+   "text": "Wind and weather matter too."
+  },
+  {
+   "i": 6,
+   "start": 33.75,
+   "speechStart": 33.75,
+   "end": 39.725,
+   "builds": 0,
+   "text": "Strong onshore winds and low pressure raise water levels, and offshore winds lower them."
+  }
+ ]
+}

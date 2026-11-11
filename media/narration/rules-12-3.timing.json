@@ -1,0 +1,52 @@
+{
+ "slide": "rules-12-3",
+ "lessonId": "rules-12",
+ "n": 3,
+ "audio": "rules-12-3.mp3",
+ "duration": 36.075,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 10.65,
+   "builds": 0,
+   "text": "A vessel engaged in mine clearance shows three all-round green lights, or three balls by day, one near the foremast head and one at each end of the fore yard."
+  },
+  {
+   "i": 1,
+   "start": 10.9,
+   "speechStart": 10.9,
+   "end": 17.0,
+   "builds": 0,
+   "text": "These signals mean it is dangerous for another vessel to approach within one thousand meters."
+  },
+  {
+   "i": 2,
+   "start": 17.25,
+   "speechStart": 17.25,
+   "end": 26.775,
+   "builds": 0,
+   "text": "Vessels under twelve meters, except those engaged in diving operations, aren’t required to show the not-under-command or restricted signals."
+  },
+  {
+   "i": 3,
+   "start": 27.025,
+   "speechStart": 27.025,
+   "end": 30.6,
+   "builds": 0,
+   "text": "And remember, these signals are not distress signals."
+  },
+  {
+   "i": 4,
+   "start": 30.85,
+   "speechStart": 30.85,
+   "end": 35.775,
+   "builds": 0,
+   "text": "A vessel showing them is telling you about her limits, not asking for help."
+  }
+ ]
+}

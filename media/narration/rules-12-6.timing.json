@@ -1,0 +1,52 @@
+{
+ "slide": "rules-12-6",
+ "lessonId": "rules-12",
+ "n": 6,
+ "audio": "rules-12-6.mp3",
+ "duration": 41.775,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.275,
+   "builds": 0,
+   "text": "There are some exemptions to know."
+  },
+  {
+   "i": 1,
+   "start": 2.525,
+   "speechStart": 2.525,
+   "end": 14.15,
+   "builds": 0,
+   "text": "A vessel under seven meters at anchor, when not in or near a narrow channel, fairway or anchorage, or where other vessels normally navigate, doesn’t need anchor lights or a shape."
+  },
+  {
+   "i": 2,
+   "start": 14.4,
+   "speechStart": 14.4,
+   "end": 19.525,
+   "builds": 0,
+   "text": "A vessel under twelve meters aground doesn’t need the aground lights or shapes."
+  },
+  {
+   "i": 3,
+   "start": 19.775,
+   "speechStart": 19.775,
+   "end": 29.3,
+   "builds": 0,
+   "text": "Inland, a vessel under twenty meters at anchor in a special anchorage area designated by the Coast Guard doesn’t need anchor lights or a shape."
+  },
+  {
+   "i": 4,
+   "start": 29.55,
+   "speechStart": 29.55,
+   "end": 41.475,
+   "builds": 0,
+   "text": "Finally, Rule thirty-one says that where a seaplane or wing-in-ground craft can’t show lights and shapes exactly as required, she shows lights and shapes as closely similar as possible."
+  }
+ ]
+}

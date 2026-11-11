@@ -1,0 +1,52 @@
+{
+ "slide": "plot-02-3",
+ "lessonId": "plot-02",
+ "n": 3,
+ "audio": "plot-02-3.mp3",
+ "duration": 33.55,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.425,
+   "builds": 0,
+   "text": "Each degree has sixty minutes."
+  },
+  {
+   "i": 1,
+   "start": 2.675,
+   "speechStart": 2.675,
+   "end": 15.525,
+   "builds": 0,
+   "text": "The training chart’s scales divide each minute into tenths, so positions are written in degrees, minutes and tenths of a minute: forty-one degrees, eighteen point five minutes means eighteen and a half minutes."
+  },
+  {
+   "i": 2,
+   "start": 15.775,
+   "speechStart": 15.775,
+   "end": 20.675,
+   "builds": 0,
+   "text": "Don’t confuse that with eighteen minutes, fifty seconds, an older format."
+  },
+  {
+   "i": 3,
+   "start": 20.925,
+   "speechStart": 20.925,
+   "end": 27.2,
+   "builds": 0,
+   "text": "Count the small tick marks carefully, since scales at different latitudes may be divided differently."
+  },
+  {
+   "i": 4,
+   "start": 27.45,
+   "speechStart": 27.45,
+   "end": 33.25,
+   "builds": 0,
+   "text": "Always write latitude first, with north or south, then longitude, with east or west."
+  }
+ ]
+}

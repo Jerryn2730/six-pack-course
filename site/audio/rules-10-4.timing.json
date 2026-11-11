@@ -1,0 +1,52 @@
+{
+ "slide": "rules-10-4",
+ "lessonId": "rules-10",
+ "n": 4,
+ "audio": "rules-10-4.mp3",
+ "duration": 50.825,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.15,
+   "builds": 0,
+   "text": "Some special cases."
+  },
+  {
+   "i": 1,
+   "start": 2.4,
+   "speechStart": 2.4,
+   "end": 13.85,
+   "builds": 0,
+   "text": "A towing vessel whose tow severely restricts her ability to deviate from her course shows the restricted-in-ability-to-maneuver lights and shapes in addition to her towing lights."
+  },
+  {
+   "i": 2,
+   "start": 14.1,
+   "speechStart": 14.1,
+   "end": 27.375,
+   "builds": 0,
+   "text": "Inconspicuous, partly submerged vessels or objects being towed, like a fuel bladder, show all-round white lights at the ends, with extra lights if very wide, and a diamond shape at the aftermost end."
+  },
+  {
+   "i": 3,
+   "start": 27.625,
+   "speechStart": 27.625,
+   "end": 35.975,
+   "builds": 0,
+   "text": "Where it’s impracticable to light a vessel or object being towed, all possible measures shall be taken to light it or show its presence."
+  },
+  {
+   "i": 4,
+   "start": 36.225,
+   "speechStart": 36.225,
+   "end": 50.525,
+   "builds": 0,
+   "text": "And a vessel not normally engaged in towing, such as a boat towing another in distress, isn’t required to show towing lights when that’s impracticable, but must indicate the relationship, for example by illuminating the towline."
+  }
+ ]
+}

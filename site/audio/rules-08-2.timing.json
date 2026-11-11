@@ -1,0 +1,44 @@
+{
+ "slide": "rules-08-2",
+ "lessonId": "rules-08",
+ "n": 2,
+ "audio": "rules-08-2.mp3",
+ "duration": 36.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.575,
+   "builds": 0,
+   "text": "Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility."
+  },
+  {
+   "i": 1,
+   "start": 8.825,
+   "speechStart": 8.825,
+   "end": 13.575,
+   "builds": 0,
+   "text": "A power-driven vessel shall have her engines ready for immediate maneuver."
+  },
+  {
+   "i": 2,
+   "start": 13.825,
+   "speechStart": 13.825,
+   "end": 23.225,
+   "builds": 0,
+   "text": "Every vessel shall have due regard to the prevailing circumstances and conditions of restricted visibility when complying with Rules four through ten."
+  },
+  {
+   "i": 3,
+   "start": 23.475,
+   "speechStart": 23.475,
+   "end": 35.85,
+   "builds": 0,
+   "text": "In practice, that means slowing down, posting an extra lookout to listen, sounding the fog signals of Rule thirty-five, keeping your navigation lights on, and plotting every radar target."
+  }
+ ]
+}

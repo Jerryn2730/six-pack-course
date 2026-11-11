@@ -1,0 +1,132 @@
+{
+ "slide": "rules-04-3",
+ "lessonId": "rules-04",
+ "n": 3,
+ "audio": "rules-04-3.mp3",
+ "duration": 75.5,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.625,
+   "builds": 0,
+   "text": "Now, overtaking in a channel."
+  },
+  {
+   "i": 1,
+   "start": 2.875,
+   "speechStart": 2.875,
+   "end": 8.05,
+   "builds": 0,
+   "text": "Out in open water, you can pass another boat without asking her for anything."
+  },
+  {
+   "i": 2,
+   "start": 8.3,
+   "speechStart": 8.3,
+   "end": 12.875,
+   "builds": 0,
+   "text": "In a narrow channel, sometimes you can’t get by unless she moves over."
+  },
+  {
+   "i": 3,
+   "start": 13.125,
+   "speechStart": 13.125,
+   "end": 20.425,
+   "builds": 1,
+   "text": "When that’s the case, the overtaking vessel signals her intention with the whistle signals from Rule thirty-four."
+  },
+  {
+   "i": 4,
+   "start": 20.675,
+   "speechStart": 20.675,
+   "end": 23.55,
+   "builds": 0,
+   "text": "We’ll learn those signals in lesson thirteen."
+  },
+  {
+   "i": 5,
+   "start": 23.8,
+   "speechStart": 23.8,
+   "end": 29.9,
+   "builds": 1,
+   "text": "The vessel being overtaken, if she agrees, answers and takes steps to permit safe passing."
+  },
+  {
+   "i": 6,
+   "start": 30.15,
+   "speechStart": 30.15,
+   "end": 35.475,
+   "builds": 0,
+   "text": "If she’s in doubt, she sounds the danger signal instead, and you stay behind her."
+  },
+  {
+   "i": 7,
+   "start": 35.725,
+   "speechStart": 35.725,
+   "end": 37.875,
+   "builds": 1,
+   "text": "And here’s the exam point."
+  },
+  {
+   "i": 8,
+   "start": 38.125,
+   "speechStart": 38.125,
+   "end": 41.8,
+   "builds": 0,
+   "text": "Even after she agrees, Rule thirteen still applies."
+  },
+  {
+   "i": 9,
+   "start": 42.05,
+   "speechStart": 42.05,
+   "end": 45.625,
+   "builds": 0,
+   "text": "The overtaking vessel keeps clear until she’s past."
+  },
+  {
+   "i": 10,
+   "start": 45.875,
+   "speechStart": 45.875,
+   "end": 50.625,
+   "builds": 0,
+   "text": "Agreement is permission to pass, not a transfer of responsibility."
+  },
+  {
+   "i": 11,
+   "start": 50.875,
+   "speechStart": 51.625,
+   "end": 53.875,
+   "builds": 1,
+   "text": "One more piece: bends."
+  },
+  {
+   "i": 12,
+   "start": 54.125,
+   "speechStart": 54.125,
+   "end": 64.1,
+   "builds": 0,
+   "text": "When you’re nearing a bend, or any spot where something could hide another vessel, navigate with particular alertness and caution, and sound one prolonged blast."
+  },
+  {
+   "i": 13,
+   "start": 64.35,
+   "speechStart": 64.35,
+   "end": 70.05,
+   "builds": 0,
+   "text": "Any vessel around the bend that hears you answers with one prolonged blast of her own."
+  },
+  {
+   "i": 14,
+   "start": 70.3,
+   "speechStart": 70.3,
+   "end": 75.2,
+   "builds": 0,
+   "text": "Remember it this way: one long blast says, I’m coming around the corner."
+  }
+ ]
+}

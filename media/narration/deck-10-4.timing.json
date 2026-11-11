@@ -1,0 +1,52 @@
+{
+ "slide": "deck-10-4",
+ "lessonId": "deck-10",
+ "n": 4,
+ "audio": "deck-10-4.mp3",
+ "duration": 35.9,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.8,
+   "builds": 0,
+   "text": "If you run aground, stop the engine and check everyone for injuries."
+  },
+  {
+   "i": 1,
+   "start": 5.05,
+   "speechStart": 5.05,
+   "end": 13.0,
+   "builds": 0,
+   "text": "Before trying to move, check the bilge and hull for leaks, because backing a holed boat off a shoal can sink it in deeper water."
+  },
+  {
+   "i": 2,
+   "start": 13.25,
+   "speechStart": 13.25,
+   "end": 19.65,
+   "builds": 0,
+   "text": "Don’t just back hard: you can pull sand and mud into the engine’s cooling system and make things worse."
+  },
+  {
+   "i": 3,
+   "start": 19.9,
+   "speechStart": 19.9,
+   "end": 28.95,
+   "builds": 0,
+   "text": "Try shifting weight, carrying an anchor out to deeper water and pulling yourself off, which is called kedging, or simply waiting for the rising tide."
+  },
+  {
+   "i": 4,
+   "start": 29.2,
+   "speechStart": 29.2,
+   "end": 35.6,
+   "builds": 0,
+   "text": "Remember that an unintended grounding of a commercial vessel is a reportable marine casualty."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "slide": "rules-09-1",
+ "lessonId": "rules-09",
+ "n": 1,
+ "audio": "rules-09-1.mp3",
+ "duration": 43.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.175,
+   "builds": 0,
+   "text": "Part C of the rules covers lights and shapes."
+  },
+  {
+   "i": 1,
+   "start": 3.425,
+   "speechStart": 3.425,
+   "end": 9.2,
+   "builds": 0,
+   "text": "Rule twenty says the light rules apply from sunset to sunrise in all weathers."
+  },
+  {
+   "i": 2,
+   "start": 9.45,
+   "speechStart": 9.45,
+   "end": 22.575,
+   "builds": 0,
+   "text": "During that time no other lights shall be shown, except lights that can’t be mistaken for the required lights, don’t impair their visibility or distinctive character, and don’t interfere with keeping a proper lookout."
+  },
+  {
+   "i": 3,
+   "start": 22.825,
+   "speechStart": 22.825,
+   "end": 26.6,
+   "builds": 0,
+   "text": "Bright deck lights that blind your own lookout break this rule."
+  },
+  {
+   "i": 4,
+   "start": 26.85,
+   "speechStart": 26.85,
+   "end": 36.15,
+   "builds": 0,
+   "text": "Required lights shall also be shown from sunrise to sunset in restricted visibility, and may be shown at any other time when necessary."
+  },
+  {
+   "i": 5,
+   "start": 36.4,
+   "speechStart": 36.4,
+   "end": 38.9,
+   "builds": 0,
+   "text": "The rules for shapes apply by day."
+  },
+  {
+   "i": 6,
+   "start": 39.15,
+   "speechStart": 39.15,
+   "end": 42.85,
+   "builds": 0,
+   "text": "Exact positions and spacing are in Annex one."
+  }
+ ]
+}

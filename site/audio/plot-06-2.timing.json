@@ -1,0 +1,52 @@
+{
+ "slide": "plot-06-2",
+ "lessonId": "plot-06",
+ "n": 2,
+ "audio": "plot-06-2.mp3",
+ "duration": 29.425,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.375,
+   "builds": 0,
+   "text": "One L O P tells you you’re somewhere on a line."
+  },
+  {
+   "i": 1,
+   "start": 3.625,
+   "speechStart": 3.625,
+   "end": 9.275,
+   "builds": 0,
+   "text": "Two L O Ps taken at the same time cross at a point, and that point is a fix."
+  },
+  {
+   "i": 2,
+   "start": 9.525,
+   "speechStart": 9.525,
+   "end": 19.925,
+   "builds": 0,
+   "text": "Choose objects whose bearings are about sixty to ninety degrees apart, because when lines cross at a shallow angle, a small bearing error moves the fix a long way."
+  },
+  {
+   "i": 3,
+   "start": 20.175,
+   "speechStart": 20.175,
+   "end": 25.725,
+   "builds": 0,
+   "text": "Take the bearings quickly, one after the other, so the boat hasn’t moved much between them."
+  },
+  {
+   "i": 4,
+   "start": 25.975,
+   "speechStart": 25.975,
+   "end": 29.125,
+   "builds": 0,
+   "text": "Mark the fix with a small circle and the time."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "slide": "nav-10-4",
+ "lessonId": "nav-10",
+ "n": 4,
+ "audio": "nav-10-4.mp3",
+ "duration": 40.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.4,
+   "builds": 0,
+   "text": "Check your compass regularly."
+  },
+  {
+   "i": 1,
+   "start": 2.65,
+   "speechStart": 2.65,
+   "end": 5.15,
+   "builds": 0,
+   "text": "The easiest way is with a range."
+  },
+  {
+   "i": 2,
+   "start": 5.4,
+   "speechStart": 5.4,
+   "end": 14.8,
+   "builds": 0,
+   "text": "Lined up on a range, compare your compass reading with the range’s magnetic direction from the chart, and the difference is your deviation on that heading."
+  },
+  {
+   "i": 3,
+   "start": 15.05,
+   "speechStart": 15.05,
+   "end": 23.525,
+   "builds": 0,
+   "text": "You can also compare your compass heading with GPS course over ground in calm conditions with no current, though that’s less precise."
+  },
+  {
+   "i": 4,
+   "start": 23.775,
+   "speechStart": 23.775,
+   "end": 29.175,
+   "builds": 0,
+   "text": "Checking the compass on all headings and recording the results is called swinging ship."
+  },
+  {
+   "i": 5,
+   "start": 29.425,
+   "speechStart": 29.425,
+   "end": 34.5,
+   "builds": 0,
+   "text": "A compass adjuster can reduce deviation with small corrector magnets."
+  },
+  {
+   "i": 6,
+   "start": 34.75,
+   "speechStart": 34.75,
+   "end": 39.85,
+   "builds": 0,
+   "text": "Recheck whenever you install new electronics or move gear near the compass."
+  }
+ ]
+}

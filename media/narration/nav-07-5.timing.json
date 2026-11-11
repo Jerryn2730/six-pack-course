@@ -1,0 +1,52 @@
+{
+ "slide": "nav-07-5",
+ "lessonId": "nav-07",
+ "n": 5,
+ "audio": "nav-07-5.mp3",
+ "duration": 42.0,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.65,
+   "builds": 0,
+   "text": "Let’s work a subordinate station."
+  },
+  {
+   "i": 1,
+   "start": 2.9,
+   "speechStart": 2.9,
+   "end": 12.025,
+   "builds": 0,
+   "text": "The reference station predicts high water at ten forty-two, three point six feet, and low water at sixteen fifty, zero point four feet."
+  },
+  {
+   "i": 2,
+   "start": 12.275,
+   "speechStart": 12.275,
+   "end": 24.025,
+   "builds": 0,
+   "text": "The subordinate station’s corrections are plus thirty-five minutes and plus zero point four feet for high water, and plus forty-eight minutes and minus zero point one feet for low water."
+  },
+  {
+   "i": 3,
+   "start": 24.275,
+   "speechStart": 24.275,
+   "end": 34.7,
+   "builds": 0,
+   "text": "So high water at the subordinate station is at eleven seventeen, four point zero feet, and low water is at seventeen thirty-eight, zero point three feet."
+  },
+  {
+   "i": 4,
+   "start": 34.95,
+   "speechStart": 34.95,
+   "end": 41.7,
+   "builds": 0,
+   "text": "In summer, with daylight saving time in effect, add one hour: twelve seventeen and eighteen thirty-eight."
+  }
+ ]
+}

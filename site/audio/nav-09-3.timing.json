@@ -1,0 +1,60 @@
+{
+ "slide": "nav-09-3",
+ "lessonId": "nav-09",
+ "n": 3,
+ "audio": "nav-09-3.mp3",
+ "duration": 40.625,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.8,
+   "builds": 0,
+   "text": "Variation is the angle between true north and magnetic north at your location."
+  },
+  {
+   "i": 1,
+   "start": 6.05,
+   "speechStart": 6.05,
+   "end": 9.55,
+   "builds": 0,
+   "text": "It’s the same no matter which way the boat is heading."
+  },
+  {
+   "i": 2,
+   "start": 9.8,
+   "speechStart": 9.8,
+   "end": 17.925,
+   "builds": 0,
+   "text": "Read it from the center of the nearest compass rose on your chart, which also gives the year it was measured and the annual change."
+  },
+  {
+   "i": 3,
+   "start": 18.175,
+   "speechStart": 18.175,
+   "end": 23.125,
+   "builds": 0,
+   "text": "Multiply the annual change by the number of years since then, and apply it."
+  },
+  {
+   "i": 4,
+   "start": 23.375,
+   "speechStart": 23.375,
+   "end": 34.875,
+   "builds": 0,
+   "text": "In Florida, variation is a few degrees west, from roughly two degrees in the western Panhandle to around eight degrees on the Atlantic coast, and it changes slowly over time."
+  },
+  {
+   "i": 5,
+   "start": 35.125,
+   "speechStart": 35.125,
+   "end": 40.325,
+   "builds": 0,
+   "text": "Westerly variation means magnetic north lies to the west of true north."
+  }
+ ]
+}

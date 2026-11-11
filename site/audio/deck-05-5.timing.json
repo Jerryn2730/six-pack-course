@@ -1,0 +1,36 @@
+{
+ "slide": "deck-05-5",
+ "lessonId": "deck-05",
+ "n": 5,
+ "audio": "deck-05-5.mp3",
+ "duration": 30.95,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 17.35,
+   "builds": 0,
+   "text": "Small boats usually capsize from a combination of causes: too much weight or weight carried too high, water in the boat, a sharp turn at speed, a breaking wave on the beam or a broach in a following sea, and water pouring in through open hatches or over a low transom."
+  },
+  {
+   "i": 1,
+   "start": 17.6,
+   "speechStart": 17.6,
+   "end": 22.85,
+   "builds": 0,
+   "text": "The common thread is that stability was already marginal before the final wave."
+  },
+  {
+   "i": 2,
+   "start": 23.1,
+   "speechStart": 23.1,
+   "end": 30.65,
+   "builds": 0,
+   "text": "Keep weight low, keep water out, slow down in rough water, and keep the bow or stern, not the beam, toward breaking seas."
+  }
+ ]
+}

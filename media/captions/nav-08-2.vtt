@@ -1,0 +1,21 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:03.650
+The Tidal Current Tables work like the Tide Tables.
+
+2
+00:00:03.900 --> 00:00:12.250
+Table one gives daily times of slack water and maximum current at reference stations, with maximum flood and ebb speeds.
+
+3
+00:00:12.500 --> 00:00:24.350
+Table two gives corrections for subordinate stations: time differences for slack and maximum current, speed ratios for flood and ebb, and the true directions of flood and ebb.
+
+4
+00:00:24.600 --> 00:00:29.725
+Table three gives the current speed at any time between slack and maximum.
+
+5
+00:00:29.975 --> 00:00:46.875
+For example, if the reference station predicts a maximum flood of two knots at fourteen hundred, and a subordinate station has a time difference of minus twenty minutes and a flood ratio of point six, expect a maximum flood of one point two knots at thirteen forty.

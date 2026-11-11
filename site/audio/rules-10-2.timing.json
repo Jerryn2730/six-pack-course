@@ -1,0 +1,60 @@
+{
+ "slide": "rules-10-2",
+ "lessonId": "rules-10",
+ "n": 2,
+ "audio": "rules-10-2.mp3",
+ "duration": 52.05,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 11.25,
+   "builds": 0,
+   "text": "When a pushing vessel and a vessel pushed ahead are rigidly connected in a composite unit, they are regarded as one power-driven vessel and show the lights of Rule twenty-three."
+  },
+  {
+   "i": 1,
+   "start": 11.5,
+   "speechStart": 11.5,
+   "end": 20.0,
+   "builds": 0,
+   "text": "Otherwise, a power-driven vessel pushing ahead or towing alongside shows two masthead lights in a vertical line and sidelights."
+  },
+  {
+   "i": 2,
+   "start": 20.25,
+   "speechStart": 20.25,
+   "end": 24.1,
+   "builds": 0,
+   "text": "Under International rules, she also shows a sternlight."
+  },
+  {
+   "i": 3,
+   "start": 24.35,
+   "speechStart": 24.35,
+   "end": 30.7,
+   "builds": 0,
+   "text": "Under Inland rules, she shows two yellow towing lights in a vertical line instead of the sternlight."
+  },
+  {
+   "i": 4,
+   "start": 30.95,
+   "speechStart": 30.95,
+   "end": 40.225,
+   "builds": 0,
+   "text": "So from astern at night, a single white light suggests International rules, and two yellow lights mean an Inland pushing or alongside tow."
+  },
+  {
+   "i": 5,
+   "start": 40.475,
+   "speechStart": 40.475,
+   "end": 51.75,
+   "builds": 0,
+   "text": "Inland, on the Western Rivers and other specified waters, a vessel pushing ahead or towing alongside shows sidelights and two towing lights, without masthead lights."
+  }
+ ]
+}

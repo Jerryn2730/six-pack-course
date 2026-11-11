@@ -1,0 +1,52 @@
+{
+ "slide": "deck-06-5",
+ "lessonId": "deck-06",
+ "n": 5,
+ "audio": "deck-06-5.mp3",
+ "duration": 32.35,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.275,
+   "builds": 0,
+   "text": "Following seas are especially dangerous for small powerboats."
+  },
+  {
+   "i": 1,
+   "start": 4.525,
+   "speechStart": 4.525,
+   "end": 11.925,
+   "builds": 0,
+   "text": "A broach happens when a wave from astern lifts the stern and slews the boat sideways, where the next wave can roll it."
+  },
+  {
+   "i": 2,
+   "start": 12.175,
+   "speechStart": 12.175,
+   "end": 18.375,
+   "builds": 0,
+   "text": "In extreme cases a boat can pitchpole, with the bow burying and the stern flipping over the top."
+  },
+  {
+   "i": 3,
+   "start": 18.625,
+   "speechStart": 18.625,
+   "end": 27.225,
+   "builds": 0,
+   "text": "When running before big seas or entering an inlet, ride on the back of a wave, matching its speed, rather than surfing down its face."
+  },
+  {
+   "i": 4,
+   "start": 27.475,
+   "speechStart": 27.475,
+   "end": 32.05,
+   "builds": 0,
+   "text": "Raise the trim tabs to keep the bow up, and be ready with the throttle."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:07.825
+When your fix doesn’t match your dead reckoning position, the difference is current, along with any wind effect or steering error.
+
+2
+00:00:08.075 --> 00:00:13.175
+The set is the direction from the DR position to the fix at the same time.
+
+3
+00:00:13.425 --> 00:00:18.825
+The drift is the distance between them divided by the hours since your last fix.
+
+4
+00:00:19.075 --> 00:00:23.075
+Notice the direction: always from the DR toward the fix.
+
+5
+00:00:23.325 --> 00:00:33.625
+Measuring from the fix back to the DR gives the reciprocal, exactly one hundred eighty degrees wrong, and that wrong answer is almost always one of the choices.

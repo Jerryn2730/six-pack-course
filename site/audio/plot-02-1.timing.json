@@ -1,0 +1,52 @@
+{
+ "slide": "plot-02-1",
+ "lessonId": "plot-02",
+ "n": 1,
+ "audio": "plot-02-1.mp3",
+ "duration": 36.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.075,
+   "builds": 0,
+   "text": "To read a position, measure its latitude on the side scale and its longitude on the top or bottom scale."
+  },
+  {
+   "i": 1,
+   "start": 7.325,
+   "speechStart": 7.325,
+   "end": 19.225,
+   "builds": 0,
+   "text": "For latitude, set the dividers from the point to the nearest parallel of latitude, carry them to the side scale and count the minutes, or lay a straightedge horizontally from the point to the scale."
+  },
+  {
+   "i": 2,
+   "start": 19.475,
+   "speechStart": 19.475,
+   "end": 26.45,
+   "builds": 0,
+   "text": "For longitude, measure from the nearest meridian to the point, and read the minutes on the top or bottom scale."
+  },
+  {
+   "i": 3,
+   "start": 26.7,
+   "speechStart": 26.7,
+   "end": 32.9,
+   "builds": 0,
+   "text": "In west longitude, the numbers increase to the left, and in north latitude, they increase upward."
+  },
+  {
+   "i": 4,
+   "start": 33.15,
+   "speechStart": 33.15,
+   "end": 36.4,
+   "builds": 0,
+   "text": "Getting that direction wrong is a common mistake."
+  }
+ ]
+}

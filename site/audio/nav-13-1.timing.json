@@ -1,0 +1,60 @@
+{
+ "slide": "nav-13-1",
+ "lessonId": "nav-13",
+ "n": 1,
+ "audio": "nav-13-1.mp3",
+ "duration": 43.625,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.375,
+   "builds": 0,
+   "text": "Weather moves in systems."
+  },
+  {
+   "i": 1,
+   "start": 2.625,
+   "speechStart": 2.625,
+   "end": 7.975,
+   "builds": 0,
+   "text": "Air flows from high pressure toward low pressure, and the earth’s rotation bends it."
+  },
+  {
+   "i": 2,
+   "start": 8.225,
+   "speechStart": 8.225,
+   "end": 20.45,
+   "builds": 0,
+   "text": "In the Northern Hemisphere, winds blow clockwise and outward around a high, which usually brings fair weather, and counterclockwise and inward around a low, which brings clouds, wind and rain."
+  },
+  {
+   "i": 3,
+   "start": 20.7,
+   "speechStart": 20.7,
+   "end": 23.9,
+   "builds": 0,
+   "text": "A front is the boundary between air masses."
+  },
+  {
+   "i": 4,
+   "start": 24.15,
+   "speechStart": 24.15,
+   "end": 34.2,
+   "builds": 0,
+   "text": "A cold front, drawn with triangles, moves fast and brings a sharp line of showers or thunderstorms, a sudden wind shift, and then clearing, cooler weather."
+  },
+  {
+   "i": 5,
+   "start": 34.45,
+   "speechStart": 34.45,
+   "end": 43.325,
+   "builds": 0,
+   "text": "A warm front, drawn with semicircles, moves slowly and brings a long period of low clouds, drizzle and poor visibility ahead of it."
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "slide": "rules-04-5",
+ "lessonId": "rules-04",
+ "n": 5,
+ "audio": "rules-04-5.mp3",
+ "duration": 71.575,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.6,
+   "builds": 0,
+   "text": "On to Rule ten, traffic separation schemes."
+  },
+  {
+   "i": 1,
+   "start": 3.85,
+   "speechStart": 3.85,
+   "end": 7.275,
+   "builds": 0,
+   "text": "Picture a divided highway laid out on the water."
+  },
+  {
+   "i": 2,
+   "start": 7.525,
+   "speechStart": 7.525,
+   "end": 13.925,
+   "builds": 0,
+   "text": "Look at the diagram: a lane for each direction, with a separation zone between them like a median."
+  },
+  {
+   "i": 3,
+   "start": 14.175,
+   "speechStart": 14.175,
+   "end": 19.575,
+   "builds": 0,
+   "text": "You’ll find these off busy ports and in crowded straits, and they’re built for the big ships."
+  },
+  {
+   "i": 4,
+   "start": 19.825,
+   "speechStart": 19.825,
+   "end": 22.875,
+   "builds": 0,
+   "text": "But the rule binds everyone who goes near them."
+  },
+  {
+   "i": 5,
+   "start": 23.125,
+   "speechStart": 23.125,
+   "end": 29.225,
+   "builds": 0,
+   "text": "If you use a scheme, travel in the proper lane, in the general direction of traffic for that lane."
+  },
+  {
+   "i": 6,
+   "start": 29.475,
+   "speechStart": 29.475,
+   "end": 32.45,
+   "builds": 0,
+   "text": "Keep clear of the separation line or zone."
+  },
+  {
+   "i": 7,
+   "start": 32.7,
+   "speechStart": 32.7,
+   "end": 35.875,
+   "builds": 0,
+   "text": "Join or leave at the end of a lane when you can."
+  },
+  {
+   "i": 8,
+   "start": 36.125,
+   "speechStart": 36.125,
+   "end": 43.55,
+   "builds": 0,
+   "text": "And if you have to come in from the side, do it at as small an angle as practicable, the way you merge onto an interstate."
+  },
+  {
+   "i": 9,
+   "start": 43.8,
+   "speechStart": 44.55,
+   "end": 46.65,
+   "builds": 0,
+   "text": "Crossing is the opposite."
+  },
+  {
+   "i": 10,
+   "start": 46.9,
+   "speechStart": 46.9,
+   "end": 49.55,
+   "builds": 0,
+   "text": "Avoid crossing the lanes if you can."
+  },
+  {
+   "i": 11,
+   "start": 49.8,
+   "speechStart": 49.8,
+   "end": 56.575,
+   "builds": 0,
+   "text": "But if you’re obliged to cross, do it on a heading as close as practicable to a right angle to the traffic flow."
+  },
+  {
+   "i": 12,
+   "start": 56.825,
+   "speechStart": 56.825,
+   "end": 59.3,
+   "builds": 0,
+   "text": "Here’s the trick for keeping them straight."
+  },
+  {
+   "i": 13,
+   "start": 59.55,
+   "speechStart": 59.55,
+   "end": 61.575,
+   "builds": 0,
+   "text": "Merge at a small angle."
+  },
+  {
+   "i": 14,
+   "start": 61.825,
+   "speechStart": 61.825,
+   "end": 63.775,
+   "builds": 0,
+   "text": "Cross at a right angle."
+  },
+  {
+   "i": 15,
+   "start": 64.025,
+   "speechStart": 64.025,
+   "end": 68.8,
+   "builds": 0,
+   "text": "And one more thing: a scheme doesn’t excuse anyone from the other rules."
+  },
+  {
+   "i": 16,
+   "start": 69.05,
+   "speechStart": 69.05,
+   "end": 71.275,
+   "builds": 0,
+   "text": "They all still apply inside it."
+  }
+ ]
+}

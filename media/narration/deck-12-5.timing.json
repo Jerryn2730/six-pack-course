@@ -1,0 +1,44 @@
+{
+ "slide": "deck-12-5",
+ "lessonId": "deck-12",
+ "n": 5,
+ "audio": "deck-12-5.mp3",
+ "duration": 28.75,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.525,
+   "builds": 0,
+   "text": "A float plan tells someone ashore where you’re going and when you’ll be back, so that if you don’t return, a search starts quickly and in the right place."
+  },
+  {
+   "i": 1,
+   "start": 8.775,
+   "speechStart": 8.775,
+   "end": 18.075,
+   "builds": 0,
+   "text": "Include who’s aboard, a description of the boat, your planned route, and your expected return time, plus instructions on when to call the Coast Guard."
+  },
+  {
+   "i": 2,
+   "start": 18.325,
+   "speechStart": 18.325,
+   "end": 24.15,
+   "builds": 0,
+   "text": "Leave it with a responsible person, such as your office, marina or a family member."
+  },
+  {
+   "i": 3,
+   "start": 24.4,
+   "speechStart": 24.4,
+   "end": 28.45,
+   "builds": 0,
+   "text": "Update it if your plans change, and cancel it when you get back."
+  }
+ ]
+}

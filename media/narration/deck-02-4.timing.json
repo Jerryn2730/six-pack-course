@@ -1,0 +1,44 @@
+{
+ "slide": "deck-02-4",
+ "lessonId": "deck-02",
+ "n": 4,
+ "audio": "deck-02-4.mp3",
+ "duration": 38.225,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 10.15,
+   "builds": 0,
+   "text": "Boats with gasoline engines in enclosed spaces must have ventilation to remove explosive vapor, usually natural vents plus a powered blower."
+  },
+  {
+   "i": 1,
+   "start": 10.4,
+   "speechStart": 10.4,
+   "end": 15.55,
+   "builds": 0,
+   "text": "Run the blower for at least four minutes before starting the engine, and sniff the bilge."
+  },
+  {
+   "i": 2,
+   "start": 15.8,
+   "speechStart": 15.8,
+   "end": 30.15,
+   "builds": 0,
+   "text": "Gasoline inboard and sterndrive engines must have a Coast Guard approved backfire flame arrestor on the carburetor or throttle body, kept clean and firmly secured, so a backfire can’t ignite vapor in the compartment."
+  },
+  {
+   "i": 3,
+   "start": 30.4,
+   "speechStart": 30.4,
+   "end": 37.925,
+   "builds": 0,
+   "text": "Diesel engines are far less explosive, but their spaces still need ventilation to supply combustion air."
+  }
+ ]
+}

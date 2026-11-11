@@ -1,0 +1,52 @@
+{
+ "slide": "deck-05-4",
+ "lessonId": "deck-05",
+ "n": 4,
+ "audio": "deck-05-4.mp3",
+ "duration": 32.75,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 1.875,
+   "builds": 0,
+   "text": "A few terms."
+  },
+  {
+   "i": 1,
+   "start": 2.125,
+   "speechStart": 2.125,
+   "end": 6.375,
+   "builds": 0,
+   "text": "Heel is a temporary lean caused by wind, waves or a turn."
+  },
+  {
+   "i": 2,
+   "start": 6.625,
+   "speechStart": 6.625,
+   "end": 15.375,
+   "builds": 0,
+   "text": "List is a steady lean caused by off-center weight or by flooding, and an unexplained list is a warning that water may be getting in."
+  },
+  {
+   "i": 3,
+   "start": 15.625,
+   "speechStart": 15.625,
+   "end": 21.325,
+   "builds": 0,
+   "text": "Trim is the fore-and-aft balance, described as down by the bow or down by the stern."
+  },
+  {
+   "i": 4,
+   "start": 21.575,
+   "speechStart": 21.575,
+   "end": 32.45,
+   "builds": 0,
+   "text": "Freeboard is the height from the waterline to the deck edge, and reserve buoyancy is the watertight volume above the waterline that keeps you afloat as you take on water or load."
+  }
+ ]
+}

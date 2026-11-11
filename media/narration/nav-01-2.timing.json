@@ -1,0 +1,44 @@
+{
+ "slide": "nav-01-2",
+ "lessonId": "nav-01",
+ "n": 2,
+ "audio": "nav-01-2.mp3",
+ "duration": 32.3,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.375,
+   "builds": 0,
+   "text": "One minute of latitude equals one nautical mile, about six thousand seventy-six feet, roughly fifteen percent longer than a statute mile."
+  },
+  {
+   "i": 1,
+   "start": 9.625,
+   "speechStart": 9.625,
+   "end": 14.925,
+   "builds": 0,
+   "text": "A knot is a speed of one nautical mile per hour, so never say knots per hour."
+  },
+  {
+   "i": 2,
+   "start": 15.175,
+   "speechStart": 15.175,
+   "end": 25.45,
+   "builds": 0,
+   "text": "Minutes of longitude are a nautical mile long only at the equator and get shorter toward the poles, which is why you never measure distance on the longitude scale."
+  },
+  {
+   "i": 3,
+   "start": 25.7,
+   "speechStart": 25.7,
+   "end": 32.0,
+   "builds": 0,
+   "text": "Modern charts and GPS units divide minutes into tenths, while older charts show seconds."
+  }
+ ]
+}

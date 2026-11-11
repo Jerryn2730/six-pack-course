@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:02.750
+Navigators use precise words.
+
+2
+00:00:03.000 --> 00:00:08.725
+Heading is the direction the bow is pointing at this moment, which wanders as the boat yaws.
+
+3
+00:00:08.975 --> 00:00:12.050
+Course is the direction you intend to steer.
+
+4
+00:00:12.300 --> 00:00:22.925
+Track, or course over ground on a GPS, is the direction the boat actually moves over the bottom, which differs from heading when wind and current push you sideways.
+
+5
+00:00:23.175 --> 00:00:29.050
+Speed over ground is your actual speed over the bottom, as opposed to speed through the water.
+
+6
+00:00:29.300 --> 00:00:36.175
+A bearing is the direction from your boat to an object, and it can be true, magnetic, compass or relative.

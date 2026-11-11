@@ -1,0 +1,188 @@
+{
+ "slide": "rules-05-5",
+ "lessonId": "rules-05",
+ "n": 5,
+ "audio": "rules-05-5.mp3",
+ "duration": 83.125,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.8,
+   "builds": 0,
+   "text": "Let’s test Rule thirteen against the pecking order."
+  },
+  {
+   "i": 1,
+   "start": 4.05,
+   "speechStart": 4.05,
+   "end": 13.975,
+   "builds": 0,
+   "text": "You’ll meet that properly in lesson seven, but the short version is that power normally gives way to sail, and sail gives way to vessels engaged in fishing."
+  },
+  {
+   "i": 2,
+   "start": 14.225,
+   "speechStart": 14.225,
+   "end": 17.15,
+   "builds": 1,
+   "text": "So, a powerboat overtaking a sailboat."
+  },
+  {
+   "i": 3,
+   "start": 17.4,
+   "speechStart": 17.4,
+   "end": 19.075,
+   "builds": 0,
+   "text": "Who keeps clear?"
+  },
+  {
+   "i": 4,
+   "start": 19.325,
+   "speechStart": 19.325,
+   "end": 20.925,
+   "builds": 0,
+   "text": "The powerboat."
+  },
+  {
+   "i": 5,
+   "start": 21.175,
+   "speechStart": 21.175,
+   "end": 23.95,
+   "builds": 0,
+   "text": "Both rules agree, so that one’s easy."
+  },
+  {
+   "i": 6,
+   "start": 24.2,
+   "speechStart": 24.2,
+   "end": 25.8,
+   "builds": 1,
+   "text": "Now flip it."
+  },
+  {
+   "i": 7,
+   "start": 26.05,
+   "speechStart": 26.05,
+   "end": 31.4,
+   "builds": 0,
+   "text": "A sailboat, flying along in a good breeze, comes up astern of a slow powerboat."
+  },
+  {
+   "i": 8,
+   "start": 31.65,
+   "speechStart": 31.65,
+   "end": 33.325,
+   "builds": 0,
+   "text": "Who keeps clear?"
+  },
+  {
+   "i": 9,
+   "start": 33.575,
+   "speechStart": 34.325,
+   "end": 35.925,
+   "builds": 0,
+   "text": "The sailboat."
+  },
+  {
+   "i": 10,
+   "start": 36.175,
+   "speechStart": 36.175,
+   "end": 40.6,
+   "builds": 0,
+   "text": "She’s overtaking, and overtaking overrides the pecking order."
+  },
+  {
+   "i": 11,
+   "start": 40.85,
+   "speechStart": 40.85,
+   "end": 44.7,
+   "builds": 1,
+   "text": "It’s the same with a fishing vessel overtaking anyone."
+  },
+  {
+   "i": 12,
+   "start": 44.95,
+   "speechStart": 44.95,
+   "end": 46.675,
+   "builds": 0,
+   "text": "She keeps clear."
+  },
+  {
+   "i": 13,
+   "start": 46.925,
+   "speechStart": 46.925,
+   "end": 49.15,
+   "builds": 1,
+   "text": "So here’s your exam habit."
+  },
+  {
+   "i": 14,
+   "start": 49.4,
+   "speechStart": 49.4,
+   "end": 56.75,
+   "builds": 0,
+   "text": "Whenever a question describes one vessel coming up on another from astern, stop looking at what kind of vessels they are."
+  },
+  {
+   "i": 15,
+   "start": 57.0,
+   "speechStart": 57.0,
+   "end": 59.525,
+   "builds": 0,
+   "text": "The overtaking vessel keeps clear."
+  },
+  {
+   "i": 16,
+   "start": 59.775,
+   "speechStart": 59.775,
+   "end": 61.45,
+   "builds": 0,
+   "text": "Every time."
+  },
+  {
+   "i": 17,
+   "start": 61.7,
+   "speechStart": 62.45,
+   "end": 64.35,
+   "builds": 0,
+   "text": "That’s lesson five."
+  },
+  {
+   "i": 18,
+   "start": 64.6,
+   "speechStart": 64.6,
+   "end": 67.3,
+   "builds": 0,
+   "text": "The steering rules apply only in sight."
+  },
+  {
+   "i": 19,
+   "start": 67.55,
+   "speechStart": 67.55,
+   "end": 71.475,
+   "builds": 0,
+   "text": "Between sailboats, port tack and the windward boat keep clear."
+  },
+  {
+   "i": 20,
+   "start": 71.725,
+   "speechStart": 71.725,
+   "end": 76.0,
+   "builds": 0,
+   "text": "And anyone overtaking keeps clear until she’s finally past."
+  },
+  {
+   "i": 21,
+   "start": 76.25,
+   "speechStart": 76.25,
+   "end": 82.825,
+   "builds": 0,
+   "text": "Next time, we’ll cover the two situations you’ll meet most often in a powerboat: head-on and crossing."
+  }
+ ]
+}

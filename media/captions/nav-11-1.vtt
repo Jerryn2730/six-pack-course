@@ -1,0 +1,21 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:11.700
+GPS gives your position from satellite signals, typically accurate to within a few meters, and better with WAAS, a correction system available across North America.
+
+2
+00:00:11.950 --> 00:00:20.850
+A GPS receiver also gives speed over ground and course over ground, which come from changes in position, not from the compass.
+
+3
+00:00:21.100 --> 00:00:28.650
+Make sure the receiver’s datum matches your chart, normally WGS 84 matched to NAD 83.
+
+4
+00:00:28.900 --> 00:00:37.900
+GPS can fail, lose power or be jammed, so a good captain keeps dead reckoning skills, paper charts and a compass as backups.
+
+5
+00:00:38.150 --> 00:00:43.150
+The Loran system that once backed up GPS was shut down in 2010.

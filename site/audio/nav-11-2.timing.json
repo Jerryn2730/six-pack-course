@@ -1,0 +1,52 @@
+{
+ "slide": "nav-11-2",
+ "lessonId": "nav-11",
+ "n": 2,
+ "audio": "nav-11-2.mp3",
+ "duration": 37.9,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.75,
+   "builds": 0,
+   "text": "A chartplotter shows your GPS position on an electronic chart."
+  },
+  {
+   "i": 1,
+   "start": 5.0,
+   "speechStart": 5.0,
+   "end": 18.375,
+   "builds": 0,
+   "text": "You can enter waypoints and build routes, but before you follow a route, zoom in and check every leg for shoals, markers and obstructions, because a straight line between waypoints may cross a shoal or even land."
+  },
+  {
+   "i": 2,
+   "start": 18.625,
+   "speechStart": 18.625,
+   "end": 23.25,
+   "builds": 0,
+   "text": "Cross-track error shows how far you are to the side of your intended track."
+  },
+  {
+   "i": 3,
+   "start": 23.5,
+   "speechStart": 23.5,
+   "end": 26.7,
+   "builds": 0,
+   "text": "Vector charts may hide details when zoomed out."
+  },
+  {
+   "i": 4,
+   "start": 26.95,
+   "speechStart": 26.95,
+   "end": 37.6,
+   "builds": 0,
+   "text": "The Coast Guard and the courts expect a prudent captain not to rely solely on any single aid, so cross-check the plotter with buoys, depths and visual bearings."
+  }
+ ]
+}

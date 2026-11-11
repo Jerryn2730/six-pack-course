@@ -1,0 +1,28 @@
+{
+ "slide": "rules-14-5",
+ "lessonId": "rules-14",
+ "n": 5,
+ "audio": "rules-14-5.mp3",
+ "duration": 50.175,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.675,
+   "builds": 0,
+   "text": "Rule thirty-seven says that when a vessel is in distress and requires assistance, she shall use or exhibit the signals described in Annex four."
+  },
+  {
+   "i": 1,
+   "start": 9.925,
+   "speechStart": 9.925,
+   "end": 49.875,
+   "builds": 0,
+   "text": "They are: a gun or other explosive signal fired at intervals of about a minute; a continuous sounding with any fog-signal apparatus; rockets or shells throwing red stars fired one at a time at short intervals; the signal SOS by any signaling method; the spoken word Mayday by radio; the code flags November Charlie; a square flag with a ball, or anything like a ball, above or below it; flames on the vessel; a rocket parachute flare or hand flare showing a red light; orange smoke; slowly and repeatedly raising and lowering arms outstretched to each side; a digital selective calling distress alert; an EPIRB signal; and a dye marker."
+  }
+ ]
+}

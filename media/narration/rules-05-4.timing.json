@@ -1,0 +1,140 @@
+{
+ "slide": "rules-05-4",
+ "lessonId": "rules-05",
+ "n": 4,
+ "audio": "rules-05-4.mp3",
+ "duration": 64.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.1,
+   "builds": 0,
+   "text": "Rule thirteen has some fine print, and the exam loves it."
+  },
+  {
+   "i": 1,
+   "start": 4.35,
+   "speechStart": 4.35,
+   "end": 10.275,
+   "builds": 1,
+   "text": "First, if you’re in any doubt whether you’re overtaking, assume that you are, and act accordingly."
+  },
+  {
+   "i": 2,
+   "start": 10.525,
+   "speechStart": 10.525,
+   "end": 12.45,
+   "builds": 0,
+   "text": "Doubt means keep clear."
+  },
+  {
+   "i": 3,
+   "start": 12.7,
+   "speechStart": 12.7,
+   "end": 16.925,
+   "builds": 1,
+   "text": "Second, once you’re overtaking, you stay the overtaking vessel."
+  },
+  {
+   "i": 4,
+   "start": 17.175,
+   "speechStart": 17.175,
+   "end": 23.225,
+   "builds": 0,
+   "text": "Any later change in the bearing between the two boats doesn’t turn it into a crossing situation."
+  },
+  {
+   "i": 5,
+   "start": 23.475,
+   "speechStart": 23.475,
+   "end": 25.25,
+   "builds": 0,
+   "text": "So picture this."
+  },
+  {
+   "i": 6,
+   "start": 25.5,
+   "speechStart": 25.5,
+   "end": 28.85,
+   "builds": 0,
+   "text": "You come up astern of a slow cruiser off Clearwater."
+  },
+  {
+   "i": 7,
+   "start": 29.1,
+   "speechStart": 29.1,
+   "end": 33.1,
+   "builds": 0,
+   "text": "As you pull alongside, she’s on your beam, on your port side."
+  },
+  {
+   "i": 8,
+   "start": 33.35,
+   "speechStart": 33.35,
+   "end": 38.525,
+   "builds": 0,
+   "text": "In a crossing situation, a boat on your port side would have to keep clear of you."
+  },
+  {
+   "i": 9,
+   "start": 38.775,
+   "speechStart": 38.775,
+   "end": 41.575,
+   "builds": 0,
+   "text": "Does that make you the stand-on vessel now?"
+  },
+  {
+   "i": 10,
+   "start": 41.825,
+   "speechStart": 42.575,
+   "end": 43.95,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 11,
+   "start": 44.2,
+   "speechStart": 44.2,
+   "end": 49.075,
+   "builds": 0,
+   "text": "You started as the overtaking vessel, and you’re still the overtaking vessel."
+  },
+  {
+   "i": 12,
+   "start": 49.325,
+   "speechStart": 49.325,
+   "end": 52.625,
+   "builds": 1,
+   "text": "You keep clear until you’re finally past and clear."
+  },
+  {
+   "i": 13,
+   "start": 52.875,
+   "speechStart": 52.875,
+   "end": 54.75,
+   "builds": 0,
+   "text": "Notice those words."
+  },
+  {
+   "i": 14,
+   "start": 55.0,
+   "speechStart": 55.0,
+   "end": 58.175,
+   "builds": 0,
+   "text": "Getting your bow just ahead of hers isn’t enough."
+  },
+  {
+   "i": 15,
+   "start": 58.425,
+   "speechStart": 58.425,
+   "end": 64.55,
+   "builds": 1,
+   "text": "And remember the opening phrase: overtaking overrides everything in Rules four through eighteen."
+  }
+ ]
+}

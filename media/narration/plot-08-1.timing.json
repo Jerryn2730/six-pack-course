@@ -1,0 +1,68 @@
+{
+ "slide": "plot-08-1",
+ "lessonId": "plot-08",
+ "n": 1,
+ "audio": "plot-08-1.mp3",
+ "duration": 37.725,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.1,
+   "builds": 0,
+   "text": "Sometimes only one landmark is in sight."
+  },
+  {
+   "i": 1,
+   "start": 3.35,
+   "speechStart": 3.35,
+   "end": 5.725,
+   "builds": 0,
+   "text": "A running fix uses it twice."
+  },
+  {
+   "i": 2,
+   "start": 5.975,
+   "speechStart": 5.975,
+   "end": 9.025,
+   "builds": 0,
+   "text": "Take a bearing and plot the line of position."
+  },
+  {
+   "i": 3,
+   "start": 9.275,
+   "speechStart": 9.275,
+   "end": 16.075,
+   "builds": 0,
+   "text": "Keep running on a steady course and speed, and later take a second bearing on the same or another object."
+  },
+  {
+   "i": 4,
+   "start": 16.325,
+   "speechStart": 16.325,
+   "end": 24.975,
+   "builds": 0,
+   "text": "Then advance the first L O P: move it parallel to itself, in the direction of your course, by the distance you ran between bearings."
+  },
+  {
+   "i": 5,
+   "start": 25.225,
+   "speechStart": 25.225,
+   "end": 30.025,
+   "builds": 0,
+   "text": "Where the advanced line crosses the second L O P is your running fix."
+  },
+  {
+   "i": 6,
+   "start": 30.275,
+   "speechStart": 30.275,
+   "end": 37.425,
+   "builds": 0,
+   "text": "Its accuracy depends on your course and speed being right, so unknown current between bearings creates error."
+  }
+ ]
+}

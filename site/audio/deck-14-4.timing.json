@@ -1,0 +1,52 @@
+{
+ "slide": "deck-14-4",
+ "lessonId": "deck-14",
+ "n": 4,
+ "audio": "deck-14-4.mp3",
+ "duration": 38.975,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.3,
+   "builds": 0,
+   "text": "A boat with an installed toilet must have a Coast Guard certified marine sanitation device."
+  },
+  {
+   "i": 1,
+   "start": 6.55,
+   "speechStart": 6.55,
+   "end": 14.425,
+   "builds": 0,
+   "text": "Type one and Type two devices treat sewage so treated effluent can be discharged, except in no-discharge zones."
+  },
+  {
+   "i": 2,
+   "start": 14.675,
+   "speechStart": 14.675,
+   "end": 18.85,
+   "builds": 0,
+   "text": "Type one is limited to boats sixty-five feet and under."
+  },
+  {
+   "i": 3,
+   "start": 19.1,
+   "speechStart": 19.1,
+   "end": 27.8,
+   "builds": 0,
+   "text": "A Type three device is a holding tank, emptied at a pump-out station, or discharged untreated only more than three miles offshore."
+  },
+  {
+   "i": 4,
+   "start": 28.05,
+   "speechStart": 28.05,
+   "end": 38.675,
+   "builds": 0,
+   "text": "In no-discharge zones, including the whole Florida Keys sanctuary, no sewage at all may be discharged, treated or not, and Y-valves must be secured closed."
+  }
+ ]
+}

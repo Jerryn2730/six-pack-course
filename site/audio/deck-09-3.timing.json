@@ -1,0 +1,60 @@
+{
+ "slide": "deck-09-3",
+ "lessonId": "deck-09",
+ "n": 3,
+ "audio": "deck-09-3.mp3",
+ "duration": 36.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.975,
+   "builds": 0,
+   "text": "To anchor, choose a spot with good holding bottom, shelter from the expected wind, and room to swing a full circle without hitting anything."
+  },
+  {
+   "i": 1,
+   "start": 9.225,
+   "speechStart": 9.225,
+   "end": 13.4,
+   "builds": 0,
+   "text": "Approach slowly into the wind or current and stop over the spot."
+  },
+  {
+   "i": 2,
+   "start": 13.65,
+   "speechStart": 13.65,
+   "end": 19.5,
+   "builds": 0,
+   "text": "Lower the anchor to the bottom, never throw it, since a thrown anchor tangles its own rode."
+  },
+  {
+   "i": 3,
+   "start": 19.75,
+   "speechStart": 19.75,
+   "end": 24.075,
+   "builds": 0,
+   "text": "Let the boat drift or back slowly downwind as you pay out scope."
+  },
+  {
+   "i": 4,
+   "start": 24.325,
+   "speechStart": 24.325,
+   "end": 29.45,
+   "builds": 0,
+   "text": "Snub the line to let the anchor bite, then set it firmly with gentle reverse."
+  },
+  {
+   "i": 5,
+   "start": 29.7,
+   "speechStart": 29.7,
+   "end": 36.4,
+   "builds": 0,
+   "text": "Finally, take bearings on two landmarks or set a GPS anchor alarm, so you’ll know if you start to drag."
+  }
+ ]
+}

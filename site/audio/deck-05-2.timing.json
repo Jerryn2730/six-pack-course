@@ -1,0 +1,68 @@
+{
+ "slide": "deck-05-2",
+ "lessonId": "deck-05",
+ "n": 2,
+ "audio": "deck-05-2.mp3",
+ "duration": 37.375,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.575,
+   "builds": 0,
+   "text": "Anything that raises G reduces stability: passengers crowding a tower, gear stacked high, a heavy load on the cabin top."
+  },
+  {
+   "i": 1,
+   "start": 8.825,
+   "speechStart": 8.825,
+   "end": 11.95,
+   "builds": 0,
+   "text": "Free surface effect is just as dangerous."
+  },
+  {
+   "i": 2,
+   "start": 12.2,
+   "speechStart": 12.2,
+   "end": 20.05,
+   "builds": 0,
+   "text": "Liquid sloshing in a half-full tank, or water in the bilge or on deck, shifts to the low side and acts like raising G."
+  },
+  {
+   "i": 3,
+   "start": 20.3,
+   "speechStart": 20.3,
+   "end": 23.925,
+   "builds": 0,
+   "text": "Keep tanks full or empty, and keep bilges dry."
+  },
+  {
+   "i": 4,
+   "start": 24.175,
+   "speechStart": 24.175,
+   "end": 26.725,
+   "builds": 0,
+   "text": "You can feel stability in the roll."
+  },
+  {
+   "i": 5,
+   "start": 26.975,
+   "speechStart": 26.975,
+   "end": 31.05,
+   "builds": 0,
+   "text": "A quick, snappy roll means a stiff boat with a large G M."
+  },
+  {
+   "i": 6,
+   "start": 31.3,
+   "speechStart": 31.3,
+   "end": 37.075,
+   "builds": 0,
+   "text": "A slow, lazy roll means a tender boat with a small G M, and that’s a warning sign."
+  }
+ ]
+}

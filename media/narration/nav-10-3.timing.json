@@ -1,0 +1,52 @@
+{
+ "slide": "nav-10-3",
+ "lessonId": "nav-10",
+ "n": 3,
+ "audio": "nav-10-3.mp3",
+ "duration": 37.725,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.725,
+   "builds": 0,
+   "text": "A deviation table lists the error for each heading."
+  },
+  {
+   "i": 1,
+   "start": 3.975,
+   "speechStart": 3.975,
+   "end": 9.05,
+   "builds": 0,
+   "text": "Find your heading in the table, and if it falls between two entries, interpolate."
+  },
+  {
+   "i": 2,
+   "start": 9.3,
+   "speechStart": 9.3,
+   "end": 23.475,
+   "builds": 0,
+   "text": "Using this table, a magnetic heading of zero seven five falls halfway between zero six zero, with no deviation, and zero nine zero, with two degrees west, so the deviation is about one degree west."
+  },
+  {
+   "i": 3,
+   "start": 23.725,
+   "speechStart": 23.725,
+   "end": 30.15,
+   "builds": 0,
+   "text": "Some tables are arranged by compass heading and some by magnetic heading, so check which you’re using."
+  },
+  {
+   "i": 4,
+   "start": 30.4,
+   "speechStart": 30.4,
+   "end": 37.425,
+   "builds": 0,
+   "text": "Exam questions often give you a table like this and ask for the deviation or the compass course to steer."
+  }
+ ]
+}

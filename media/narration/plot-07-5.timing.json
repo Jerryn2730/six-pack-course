@@ -1,0 +1,60 @@
+{
+ "slide": "plot-07-5",
+ "lessonId": "plot-07",
+ "n": 5,
+ "audio": "plot-07-5.mp3",
+ "duration": 33.3,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.975,
+   "builds": 0,
+   "text": "With GPS on every boat, why learn dead reckoning?"
+  },
+  {
+   "i": 1,
+   "start": 4.225,
+   "speechStart": 4.225,
+   "end": 6.375,
+   "builds": 0,
+   "text": "Because electronics fail."
+  },
+  {
+   "i": 2,
+   "start": 6.625,
+   "speechStart": 6.625,
+   "end": 14.45,
+   "builds": 0,
+   "text": "If your GPS or power quits, your last fix plus a DR from your logged courses and speeds is how you get home."
+  },
+  {
+   "i": 3,
+   "start": 14.7,
+   "speechStart": 14.7,
+   "end": 19.35,
+   "builds": 0,
+   "text": "Keep a written log of course, speed and the times of every change."
+  },
+  {
+   "i": 4,
+   "start": 19.6,
+   "speechStart": 19.6,
+   "end": 24.175,
+   "builds": 0,
+   "text": "Your chartplotter track only records where you went; it isn’t a DR."
+  },
+  {
+   "i": 5,
+   "start": 24.425,
+   "speechStart": 24.425,
+   "end": 33.0,
+   "builds": 0,
+   "text": "And comparing your DR with a GPS fix shows you exactly how much the current is setting you, which helps you plan the rest of the trip."
+  }
+ ]
+}

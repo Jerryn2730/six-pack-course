@@ -1,0 +1,52 @@
+{
+ "slide": "deck-15-2",
+ "lessonId": "deck-15",
+ "n": 2,
+ "audio": "deck-15-2.mp3",
+ "duration": 37.0,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.575,
+   "builds": 0,
+   "text": "Report a marine casualty to the nearest Coast Guard sector or station immediately, as soon as you’ve dealt with the emergency."
+  },
+  {
+   "i": 1,
+   "start": 8.825,
+   "speechStart": 8.825,
+   "end": 14.725,
+   "builds": 0,
+   "text": "Then file a written report on Form C G twenty-six ninety-two within five days."
+  },
+  {
+   "i": 2,
+   "start": 14.975,
+   "speechStart": 14.975,
+   "end": 27.475,
+   "builds": 0,
+   "text": "If the casualty is a serious marine incident, such as one involving a death or serious injury, drug and alcohol testing is also required, with alcohol testing within two hours."
+  },
+  {
+   "i": 3,
+   "start": 27.725,
+   "speechStart": 27.725,
+   "end": 31.9,
+   "builds": 0,
+   "text": "Keep your logbook entries, photos and the names of witnesses."
+  },
+  {
+   "i": 4,
+   "start": 32.15,
+   "speechStart": 32.15,
+   "end": 36.7,
+   "builds": 0,
+   "text": "Accidents on recreational boats are reported to the state instead."
+  }
+ ]
+}

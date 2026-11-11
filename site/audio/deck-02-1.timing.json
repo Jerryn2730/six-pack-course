@@ -1,0 +1,68 @@
+{
+ "slide": "deck-02-1",
+ "lessonId": "deck-02",
+ "n": 1,
+ "audio": "deck-02-1.mp3",
+ "duration": 51.625,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.325,
+   "builds": 0,
+   "text": "Life jackets come first."
+  },
+  {
+   "i": 1,
+   "start": 2.575,
+   "speechStart": 2.575,
+   "end": 18.025,
+   "builds": 0,
+   "text": "Every person aboard needs a Coast Guard approved wearable life jacket of the right size, and uninspected passenger vessels carrying passengers for hire must carry the offshore type, traditionally called Type one, with the most flotation."
+  },
+  {
+   "i": 2,
+   "start": 18.275,
+   "speechStart": 18.275,
+   "end": 21.125,
+   "builds": 0,
+   "text": "Carry child sizes for every child."
+  },
+  {
+   "i": 3,
+   "start": 21.375,
+   "speechStart": 21.375,
+   "end": 31.75,
+   "builds": 0,
+   "text": "Life jackets must be readily accessible, not locked away or still in their plastic, and in serviceable condition, with no rips, rot or missing straps."
+  },
+  {
+   "i": 4,
+   "start": 32.0,
+   "speechStart": 32.0,
+   "end": 41.55,
+   "builds": 0,
+   "text": "Newer life jackets use a labeling system with performance levels and icons, but older Type-labeled jackets remain legal while serviceable."
+  },
+  {
+   "i": 5,
+   "start": 41.8,
+   "speechStart": 41.8,
+   "end": 46.725,
+   "builds": 0,
+   "text": "You also need a throwable device, usually a ring buoy, ready at hand."
+  },
+  {
+   "i": 6,
+   "start": 46.975,
+   "speechStart": 46.975,
+   "end": 51.325,
+   "builds": 0,
+   "text": "Check the regulations for your route on lights and reflective tape."
+  }
+ ]
+}

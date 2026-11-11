@@ -1,0 +1,84 @@
+{
+ "slide": "deck-15-5",
+ "lessonId": "deck-15",
+ "n": 5,
+ "audio": "deck-15-5.mp3",
+ "duration": 44.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.925,
+   "builds": 0,
+   "text": "That completes Deck General and Safety."
+  },
+  {
+   "i": 1,
+   "start": 3.175,
+   "speechStart": 3.175,
+   "end": 7.25,
+   "builds": 0,
+   "text": "A few final habits separate professionals from amateurs."
+  },
+  {
+   "i": 2,
+   "start": 7.5,
+   "speechStart": 7.5,
+   "end": 12.4,
+   "builds": 0,
+   "text": "Keep a log of every trip: passengers, weather, incidents and maintenance."
+  },
+  {
+   "i": 3,
+   "start": 12.65,
+   "speechStart": 12.65,
+   "end": 17.8,
+   "builds": 0,
+   "text": "Keep your credential, medical certificate and drug-testing enrollment current."
+  },
+  {
+   "i": 4,
+   "start": 18.05,
+   "speechStart": 18.05,
+   "end": 24.8,
+   "builds": 0,
+   "text": "Carry commercial charter insurance, since recreational policies usually exclude paying passengers."
+  },
+  {
+   "i": 5,
+   "start": 25.05,
+   "speechStart": 25.05,
+   "end": 28.525,
+   "builds": 0,
+   "text": "Use a pre-departure checklist every single trip."
+  },
+  {
+   "i": 6,
+   "start": 28.775,
+   "speechStart": 28.775,
+   "end": 34.6,
+   "builds": 0,
+   "text": "And above all, know your limits and your boat’s limits, and cancel when conditions exceed them."
+  },
+  {
+   "i": 7,
+   "start": 34.85,
+   "speechStart": 34.85,
+   "end": 37.075,
+   "builds": 0,
+   "text": "Your customers will book again."
+  },
+  {
+   "i": 8,
+   "start": 37.325,
+   "speechStart": 37.325,
+   "end": 43.85,
+   "builds": 0,
+   "text": "Next, take the lesson check, then the Deck General quiz, until you’re scoring eighty percent or better."
+  }
+ ]
+}

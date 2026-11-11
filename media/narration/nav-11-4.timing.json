@@ -1,0 +1,52 @@
+{
+ "slide": "nav-11-4",
+ "lessonId": "nav-11",
+ "n": 4,
+ "audio": "nav-11-4.mp3",
+ "duration": 33.525,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.35,
+   "builds": 0,
+   "text": "The depth sounder sends a sound pulse down and times its echo."
+  },
+  {
+   "i": 1,
+   "start": 4.6,
+   "speechStart": 4.6,
+   "end": 14.025,
+   "builds": 0,
+   "text": "It shows depth below the transducer, unless you’ve set an offset to show depth below the keel or below the waterline, so know how yours is set."
+  },
+  {
+   "i": 2,
+   "start": 14.275,
+   "speechStart": 14.275,
+   "end": 17.15,
+   "builds": 0,
+   "text": "Depth is a powerful navigation check."
+  },
+  {
+   "i": 3,
+   "start": 17.4,
+   "speechStart": 17.4,
+   "end": 27.525,
+   "builds": 0,
+   "text": "Compare your reading with the charted depth plus the height of tide to confirm your position, and in poor visibility you can follow a depth contour toward a harbor."
+  },
+  {
+   "i": 4,
+   "start": 27.775,
+   "speechStart": 27.775,
+   "end": 33.225,
+   "builds": 0,
+   "text": "Set a shallow-water alarm as a safety net, especially in Florida’s skinny water."
+  }
+ ]
+}

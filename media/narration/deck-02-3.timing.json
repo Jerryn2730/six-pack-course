@@ -1,0 +1,52 @@
+{
+ "slide": "deck-02-3",
+ "lessonId": "deck-02",
+ "n": 3,
+ "audio": "deck-02-3.mp3",
+ "duration": 39.3,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 11.45,
+   "builds": 0,
+   "text": "Visual distress signals are required on coastal waters, which include the ocean, the Gulf, and connected bays and sounds until they narrow to less than two miles wide."
+  },
+  {
+   "i": 1,
+   "start": 11.7,
+   "speechStart": 11.7,
+   "end": 16.4,
+   "builds": 0,
+   "text": "Boats sixteen feet and longer must carry signals for both day and night."
+  },
+  {
+   "i": 2,
+   "start": 16.65,
+   "speechStart": 16.65,
+   "end": 29.05,
+   "builds": 0,
+   "text": "You can meet that with three pyrotechnic signals good for day and night, such as red hand flares, or with combinations like an orange distress flag for day and an electric distress light for night."
+  },
+  {
+   "i": 3,
+   "start": 29.3,
+   "speechStart": 29.3,
+   "end": 34.875,
+   "builds": 0,
+   "text": "Pyrotechnic signals expire forty-two months after manufacture, so check the dates."
+  },
+  {
+   "i": 4,
+   "start": 35.125,
+   "speechStart": 35.125,
+   "end": 39.0,
+   "builds": 0,
+   "text": "Never fire flares except in a real emergency."
+  }
+ ]
+}

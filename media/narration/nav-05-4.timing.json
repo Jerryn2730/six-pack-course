@@ -1,0 +1,60 @@
+{
+ "slide": "nav-05-4",
+ "lessonId": "nav-05",
+ "n": 4,
+ "audio": "nav-05-4.mp3",
+ "duration": 42.025,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.925,
+   "builds": 0,
+   "text": "To find geographic range, find the distance to the horizon from the light and from your eye, and add them."
+  },
+  {
+   "i": 1,
+   "start": 7.175,
+   "speechStart": 7.175,
+   "end": 14.325,
+   "builds": 0,
+   "text": "The distance to the horizon in nautical miles is one point one seven times the square root of the height in feet."
+  },
+  {
+   "i": 2,
+   "start": 14.575,
+   "speechStart": 14.575,
+   "end": 21.275,
+   "builds": 0,
+   "text": "For a light sixty-four feet high, the square root is eight, so its horizon is about nine point four miles."
+  },
+  {
+   "i": 3,
+   "start": 21.525,
+   "speechStart": 21.525,
+   "end": 27.75,
+   "builds": 0,
+   "text": "For your eye at nine feet, the square root is three, so your horizon is about three and a half miles."
+  },
+  {
+   "i": 4,
+   "start": 28.0,
+   "speechStart": 28.0,
+   "end": 32.55,
+   "builds": 0,
+   "text": "Add them, and the geographic range is about twelve point nine miles."
+  },
+  {
+   "i": 5,
+   "start": 32.8,
+   "speechStart": 32.8,
+   "end": 41.725,
+   "builds": 0,
+   "text": "If the light’s luminous range tonight is fifteen miles, you’ll still only see it at about twelve point nine miles, because the lesser range wins."
+  }
+ ]
+}

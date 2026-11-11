@@ -1,0 +1,52 @@
+{
+ "slide": "plot-04-5",
+ "lessonId": "plot-04",
+ "n": 5,
+ "audio": "plot-04-5.mp3",
+ "duration": 28.825,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.025,
+   "builds": 0,
+   "text": "Two speeds matter."
+  },
+  {
+   "i": 1,
+   "start": 2.275,
+   "speechStart": 2.275,
+   "end": 5.925,
+   "builds": 0,
+   "text": "A knotmeter or log measures your speed through the water."
+  },
+  {
+   "i": 2,
+   "start": 6.175,
+   "speechStart": 6.175,
+   "end": 9.075,
+   "builds": 0,
+   "text": "GPS shows your speed over the ground."
+  },
+  {
+   "i": 3,
+   "start": 9.325,
+   "speechStart": 9.325,
+   "end": 17.875,
+   "builds": 0,
+   "text": "The difference between them is the current along your track: with a fair current you go faster over the ground, and with a foul current, slower."
+  },
+  {
+   "i": 4,
+   "start": 18.125,
+   "speechStart": 18.125,
+   "end": 28.525,
+   "builds": 0,
+   "text": "Exam problems usually give you the boat’s speed through the water, and ask you to find speed over the ground, or speed made good, from fixes or a current diagram."
+  }
+ ]
+}

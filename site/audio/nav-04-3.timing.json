@@ -1,0 +1,68 @@
+{
+ "slide": "nav-04-3",
+ "lessonId": "nav-04",
+ "n": 3,
+ "audio": "nav-04-3.mp3",
+ "duration": 42.75,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.125,
+   "builds": 0,
+   "text": "Inland lakes, rivers and many state waters use regulatory markers from the Uniform State Waterway Marking System."
+  },
+  {
+   "i": 1,
+   "start": 8.375,
+   "speechStart": 8.375,
+   "end": 10.5,
+   "builds": 0,
+   "text": "They’re white with orange symbols."
+  },
+  {
+   "i": 2,
+   "start": 10.75,
+   "speechStart": 10.75,
+   "end": 17.95,
+   "builds": 0,
+   "text": "An orange diamond warns of danger, such as a rock or shoal, with the hazard described in black letters."
+  },
+  {
+   "i": 3,
+   "start": 18.2,
+   "speechStart": 18.2,
+   "end": 24.15,
+   "builds": 0,
+   "text": "A diamond with a cross inside means boats keep out, such as a swimming area or dam."
+  },
+  {
+   "i": 4,
+   "start": 24.4,
+   "speechStart": 24.4,
+   "end": 33.875,
+   "builds": 0,
+   "text": "An orange circle marks a controlled area, such as a speed limit, idle speed or no-wake zone, very common in Florida’s manatee zones."
+  },
+  {
+   "i": 5,
+   "start": 34.125,
+   "speechStart": 34.125,
+   "end": 37.95,
+   "builds": 0,
+   "text": "An orange square gives information, such as directions."
+  },
+  {
+   "i": 6,
+   "start": 38.2,
+   "speechStart": 38.2,
+   "end": 42.45,
+   "builds": 0,
+   "text": "A white buoy with a blue horizontal band is a mooring buoy."
+  }
+ ]
+}

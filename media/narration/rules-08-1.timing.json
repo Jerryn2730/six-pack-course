@@ -1,0 +1,68 @@
+{
+ "slide": "rules-08-1",
+ "lessonId": "rules-08",
+ "n": 1,
+ "audio": "rules-08-1.mp3",
+ "duration": 36.55,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.6,
+   "builds": 0,
+   "text": "Rule nineteen is one of the most important and most tested rules, and it’s often misunderstood."
+  },
+  {
+   "i": 1,
+   "start": 6.85,
+   "speechStart": 6.85,
+   "end": 14.65,
+   "builds": 0,
+   "text": "It applies to vessels not in sight of one another when navigating in or near an area of restricted visibility."
+  },
+  {
+   "i": 2,
+   "start": 14.9,
+   "speechStart": 14.9,
+   "end": 17.025,
+   "builds": 0,
+   "text": "Notice the words or near."
+  },
+  {
+   "i": 3,
+   "start": 17.275,
+   "speechStart": 17.275,
+   "end": 20.45,
+   "builds": 0,
+   "text": "You may be in clear weather beside a fog bank."
+  },
+  {
+   "i": 4,
+   "start": 20.7,
+   "speechStart": 20.7,
+   "end": 25.55,
+   "builds": 0,
+   "text": "Under Rule nineteen there is no stand-on vessel and no give-way vessel."
+  },
+  {
+   "i": 5,
+   "start": 25.8,
+   "speechStart": 25.8,
+   "end": 29.225,
+   "builds": 0,
+   "text": "The steering rules for vessels in sight don’t apply."
+  },
+  {
+   "i": 6,
+   "start": 29.475,
+   "speechStart": 29.475,
+   "end": 36.25,
+   "builds": 0,
+   "text": "Every vessel has the same duty to avoid a close-quarters situation, and every vessel must take action."
+  }
+ ]
+}

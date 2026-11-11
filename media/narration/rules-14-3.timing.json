@@ -1,0 +1,52 @@
+{
+ "slide": "rules-14-3",
+ "lessonId": "rules-14",
+ "n": 3,
+ "audio": "rules-14-3.mp3",
+ "duration": 41.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.55,
+   "builds": 0,
+   "text": "Smaller vessels get some relief."
+  },
+  {
+   "i": 1,
+   "start": 2.8,
+   "speechStart": 2.8,
+   "end": 15.6,
+   "builds": 0,
+   "text": "A vessel of twelve to twenty meters isn’t obliged to give the bell signals at anchor or aground, but if she doesn’t, she must make some other efficient sound signal at intervals of not more than two minutes."
+  },
+  {
+   "i": 2,
+   "start": 15.85,
+   "speechStart": 15.85,
+   "end": 27.125,
+   "builds": 0,
+   "text": "A vessel under twelve meters isn’t obliged to give any of the Rule thirty-five signals, but she must make some other efficient sound signal at intervals of not more than two minutes."
+  },
+  {
+   "i": 3,
+   "start": 27.375,
+   "speechStart": 27.375,
+   "end": 33.25,
+   "builds": 0,
+   "text": "A pilot vessel on pilotage duty may add an identity signal of four short blasts."
+  },
+  {
+   "i": 4,
+   "start": 33.5,
+   "speechStart": 33.5,
+   "end": 40.85,
+   "builds": 0,
+   "text": "And Inland, a vessel under twenty meters at anchor in a special anchorage area needn’t sound the anchor signal."
+  }
+ ]
+}

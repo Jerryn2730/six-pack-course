@@ -1,0 +1,44 @@
+{
+ "slide": "deck-01-2",
+ "lessonId": "deck-01",
+ "n": 2,
+ "audio": "deck-01-2.mp3",
+ "duration": 41.325,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 10.075,
+   "builds": 0,
+   "text": "The key legal term is passenger for hire: a passenger for whom consideration is contributed as a condition of carriage, directly or indirectly."
+  },
+  {
+   "i": 1,
+   "start": 10.325,
+   "speechStart": 10.325,
+   "end": 16.625,
+   "builds": 0,
+   "text": "Consideration means money or any other economic benefit, inducement, right or profit."
+  },
+  {
+   "i": 2,
+   "start": 16.875,
+   "speechStart": 16.875,
+   "end": 25.025,
+   "builds": 0,
+   "text": "Federal law specifically excludes the voluntary sharing of a trip’s actual expenses, like friends splitting fuel and bait."
+  },
+  {
+   "i": 3,
+   "start": 25.275,
+   "speechStart": 25.275,
+   "end": 41.025,
+   "builds": 0,
+   "text": "But the moment payment becomes a condition of going, even disguised as a donation, a club membership or a mandatory fuel charge, those people are passengers for hire, and you need a licensed captain and a properly documented or registered boat."
+  }
+ ]
+}

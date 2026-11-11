@@ -1,0 +1,52 @@
+{
+ "slide": "nav-12-1",
+ "lessonId": "nav-12",
+ "n": 1,
+ "audio": "nav-12-1.mp3",
+ "duration": 39.55,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.35,
+   "builds": 0,
+   "text": "Radar transmits pulses of microwave energy and measures the time for echoes to return."
+  },
+  {
+   "i": 1,
+   "start": 6.6,
+   "speechStart": 6.6,
+   "end": 13.125,
+   "builds": 0,
+   "text": "It measures range very accurately, and bearing somewhat less accurately, because the beam has width."
+  },
+  {
+   "i": 2,
+   "start": 13.375,
+   "speechStart": 13.375,
+   "end": 20.975,
+   "builds": 0,
+   "text": "On the display, your boat is usually at the center, with a heading line pointing up and range rings to help judge distance."
+  },
+  {
+   "i": 3,
+   "start": 21.225,
+   "speechStart": 21.225,
+   "end": 30.6,
+   "builds": 0,
+   "text": "The variable range marker, or V R M, measures range to a target, and the electronic bearing line, or E B L, measures its bearing."
+  },
+  {
+   "i": 4,
+   "start": 30.85,
+   "speechStart": 30.85,
+   "end": 39.25,
+   "builds": 0,
+   "text": "If a target stays on your E B L while its range closes, its bearing is steady, and Rule seven says risk of collision exists."
+  }
+ ]
+}

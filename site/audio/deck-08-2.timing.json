@@ -1,0 +1,60 @@
+{
+ "slide": "deck-08-2",
+ "lessonId": "deck-08",
+ "n": 2,
+ "audio": "deck-08-2.mp3",
+ "duration": 32.925,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.875,
+   "builds": 0,
+   "text": "Lines come in different constructions."
+  },
+  {
+   "i": 1,
+   "start": 3.125,
+   "speechStart": 3.125,
+   "end": 8.925,
+   "builds": 0,
+   "text": "Three-strand twisted line is easy to splice and stretches well, which suits anchor rodes."
+  },
+  {
+   "i": 2,
+   "start": 9.175,
+   "speechStart": 9.175,
+   "end": 14.175,
+   "builds": 0,
+   "text": "Double-braid line is strong and smooth, easier on hands and winches."
+  },
+  {
+   "i": 3,
+   "start": 14.425,
+   "speechStart": 14.425,
+   "end": 21.675,
+   "builds": 0,
+   "text": "Chafe is the biggest enemy of line, so protect lines where they pass through chocks or over edges with chafe gear."
+  },
+  {
+   "i": 4,
+   "start": 21.925,
+   "speechStart": 21.925,
+   "end": 25.175,
+   "builds": 0,
+   "text": "Rinse out salt and store lines out of the sun."
+  },
+  {
+   "i": 5,
+   "start": 25.425,
+   "speechStart": 25.425,
+   "end": 32.625,
+   "builds": 0,
+   "text": "Remember that tying a knot in a line can reduce its strength by a third or more, while a good splice keeps most of it."
+  }
+ ]
+}

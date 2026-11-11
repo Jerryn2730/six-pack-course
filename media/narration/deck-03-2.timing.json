@@ -1,0 +1,60 @@
+{
+ "slide": "deck-03-2",
+ "lessonId": "deck-03",
+ "n": 2,
+ "audio": "deck-03-2.mp3",
+ "duration": 40.65,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.325,
+   "builds": 0,
+   "text": "Each extinguishing agent suits certain fires."
+  },
+  {
+   "i": 1,
+   "start": 3.575,
+   "speechStart": 3.575,
+   "end": 12.225,
+   "builds": 0,
+   "text": "Dry chemical, rated A B C or B C, is the most common on boats and works on most fires, but it leaves a corrosive powder."
+  },
+  {
+   "i": 2,
+   "start": 12.475,
+   "speechStart": 12.475,
+   "end": 23.575,
+   "builds": 0,
+   "text": "Carbon dioxide works on fuel and electrical fires by displacing oxygen, leaves no residue, but has short range and can suffocate people in a closed space."
+  },
+  {
+   "i": 3,
+   "start": 23.825,
+   "speechStart": 23.825,
+   "end": 28.05,
+   "builds": 0,
+   "text": "Clean agents are often used in fixed engine-room systems."
+  },
+  {
+   "i": 4,
+   "start": 28.3,
+   "speechStart": 28.3,
+   "end": 30.575,
+   "builds": 0,
+   "text": "Foam smothers fuel fires."
+  },
+  {
+   "i": 5,
+   "start": 30.825,
+   "speechStart": 30.825,
+   "end": 40.35,
+   "builds": 0,
+   "text": "Water is excellent for Class A fires, but a solid stream on burning fuel spreads it, and on electrical equipment it conducts electricity."
+  }
+ ]
+}

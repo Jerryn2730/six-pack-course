@@ -1,0 +1,116 @@
+{
+ "slide": "rules-04-1",
+ "lessonId": "rules-04",
+ "n": 1,
+ "audio": "rules-04-1.mp3",
+ "duration": 61.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.375,
+   "builds": 0,
+   "text": "Today we head into the tightest water you’ll run: narrow channels."
+  },
+  {
+   "i": 1,
+   "start": 4.625,
+   "speechStart": 4.625,
+   "end": 9.85,
+   "builds": 0,
+   "text": "Think of the dredged ship channel into Tampa Bay, or the cut at Port Everglades."
+  },
+  {
+   "i": 2,
+   "start": 10.1,
+   "speechStart": 10.1,
+   "end": 14.2,
+   "builds": 0,
+   "text": "Rule nine is the rule for these places, and it starts simply."
+  },
+  {
+   "i": 3,
+   "start": 14.45,
+   "speechStart": 15.2,
+   "end": 23.025,
+   "builds": 0,
+   "text": "A vessel following a narrow channel keeps as near to the outer edge on her starboard side as is safe and practicable."
+  },
+  {
+   "i": 4,
+   "start": 23.275,
+   "speechStart": 23.275,
+   "end": 26.925,
+   "builds": 0,
+   "text": "In other words, stay to the right, just like on the road."
+  },
+  {
+   "i": 5,
+   "start": 27.175,
+   "speechStart": 27.175,
+   "end": 33.325,
+   "builds": 0,
+   "text": "So when two boats meet in a channel, each holds her own right side, and they pass port to port."
+  },
+  {
+   "i": 6,
+   "start": 33.575,
+   "speechStart": 33.575,
+   "end": 37.775,
+   "builds": 0,
+   "text": "Now look at the diagram, and find the small boat off to the side."
+  },
+  {
+   "i": 7,
+   "start": 38.025,
+   "speechStart": 38.025,
+   "end": 40.75,
+   "builds": 0,
+   "text": "Here’s the part that matters most to you."
+  },
+  {
+   "i": 8,
+   "start": 41.0,
+   "speechStart": 41.0,
+   "end": 49.425,
+   "builds": 0,
+   "text": "A vessel of less than twenty meters, or any sailing vessel, shall not impede a vessel that can safely navigate only within the channel."
+  },
+  {
+   "i": 9,
+   "start": 49.675,
+   "speechStart": 49.675,
+   "end": 52.9,
+   "builds": 0,
+   "text": "Your charter boat is well under twenty meters."
+  },
+  {
+   "i": 10,
+   "start": 53.15,
+   "speechStart": 53.15,
+   "end": 56.575,
+   "builds": 0,
+   "text": "That ship coming down the channel can’t go anywhere else."
+  },
+  {
+   "i": 11,
+   "start": 56.825,
+   "speechStart": 56.825,
+   "end": 58.3,
+   "builds": 0,
+   "text": "You can."
+  },
+  {
+   "i": 12,
+   "start": 58.55,
+   "speechStart": 58.55,
+   "end": 61.4,
+   "builds": 0,
+   "text": "So you give her room, and you do it early."
+  }
+ ]
+}

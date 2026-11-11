@@ -1,0 +1,60 @@
+{
+ "slide": "nav-06-3",
+ "lessonId": "nav-06",
+ "n": 3,
+ "audio": "nav-06-3.mp3",
+ "duration": 40.125,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.325,
+   "builds": 0,
+   "text": "Several other publications round out the captain’s library."
+  },
+  {
+   "i": 1,
+   "start": 4.575,
+   "speechStart": 4.575,
+   "end": 18.775,
+   "builds": 0,
+   "text": "NOAA publishes tide and tidal current predictions on its Tides and Currents website, and the exam uses extracts from the classic Tide Tables and Tidal Current Tables, which we’ll practice in the next two lessons."
+  },
+  {
+   "i": 2,
+   "start": 19.025,
+   "speechStart": 19.025,
+   "end": 23.5,
+   "builds": 0,
+   "text": "You already know the Navigation Rules handbook and Chart Number One."
+  },
+  {
+   "i": 3,
+   "start": 23.75,
+   "speechStart": 23.75,
+   "end": 28.55,
+   "builds": 0,
+   "text": "The Code of Federal Regulations contains the laws you operate under."
+  },
+  {
+   "i": 4,
+   "start": 28.8,
+   "speechStart": 28.8,
+   "end": 33.275,
+   "builds": 0,
+   "text": "Title thirty-three covers navigation and navigable waters."
+  },
+  {
+   "i": 5,
+   "start": 33.525,
+   "speechStart": 33.525,
+   "end": 39.825,
+   "builds": 0,
+   "text": "Title forty-six covers shipping, including uninspected passenger vessels and your license."
+  }
+ ]
+}

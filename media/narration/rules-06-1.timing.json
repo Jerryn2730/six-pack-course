@@ -1,0 +1,124 @@
+{
+ "slide": "rules-06-1",
+ "lessonId": "rules-06",
+ "n": 1,
+ "audio": "rules-06-1.mp3",
+ "duration": 61.825,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.125,
+   "builds": 0,
+   "text": "Today’s lesson covers the two situations you’ll face most in a powerboat, plus the duties that go with them."
+  },
+  {
+   "i": 1,
+   "start": 7.375,
+   "speechStart": 7.375,
+   "end": 10.075,
+   "builds": 0,
+   "text": "We start with the simplest: head-on."
+  },
+  {
+   "i": 2,
+   "start": 10.325,
+   "speechStart": 10.325,
+   "end": 18.825,
+   "builds": 0,
+   "text": "Rule fourteen applies when two power-driven vessels meet on reciprocal or nearly reciprocal courses, with a risk of collision."
+  },
+  {
+   "i": 3,
+   "start": 19.075,
+   "speechStart": 19.075,
+   "end": 20.9,
+   "builds": 0,
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 4,
+   "start": 21.15,
+   "speechStart": 21.15,
+   "end": 23.0,
+   "builds": 0,
+   "text": "What does each boat do?"
+  },
+  {
+   "i": 5,
+   "start": 23.25,
+   "speechStart": 24.0,
+   "end": 28.025,
+   "builds": 0,
+   "text": "Each alters course to starboard, so they pass port to port."
+  },
+  {
+   "i": 6,
+   "start": 28.275,
+   "speechStart": 28.275,
+   "end": 29.875,
+   "builds": 0,
+   "text": "Both of them."
+  },
+  {
+   "i": 7,
+   "start": 30.125,
+   "speechStart": 30.125,
+   "end": 33.9,
+   "builds": 0,
+   "text": "In a head-on situation, there’s no stand-on vessel."
+  },
+  {
+   "i": 8,
+   "start": 34.15,
+   "speechStart": 34.15,
+   "end": 36.05,
+   "builds": 0,
+   "text": "How do you know you’re head-on?"
+  },
+  {
+   "i": 9,
+   "start": 36.3,
+   "speechStart": 36.3,
+   "end": 39.675,
+   "builds": 0,
+   "text": "You see the other vessel ahead, or nearly ahead."
+  },
+  {
+   "i": 10,
+   "start": 39.925,
+   "speechStart": 39.925,
+   "end": 46.625,
+   "builds": 0,
+   "text": "At night, you’d see her masthead lights in a line, or nearly in a line, or both of her sidelights at once."
+  },
+  {
+   "i": 11,
+   "start": 46.875,
+   "speechStart": 46.875,
+   "end": 50.55,
+   "builds": 0,
+   "text": "Red and green together, coming at you, means turn right."
+  },
+  {
+   "i": 12,
+   "start": 50.8,
+   "speechStart": 50.8,
+   "end": 57.125,
+   "builds": 0,
+   "text": "And if you’re in any doubt whether it’s a head-on situation, assume that it is, and act accordingly."
+  },
+  {
+   "i": 13,
+   "start": 57.375,
+   "speechStart": 57.375,
+   "end": 61.525,
+   "builds": 0,
+   "text": "Here’s a memory hook: when you meet, go right, and show her your red."
+  }
+ ]
+}

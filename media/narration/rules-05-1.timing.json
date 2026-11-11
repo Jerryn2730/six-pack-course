@@ -1,0 +1,148 @@
+{
+ "slide": "rules-05-1",
+ "lessonId": "rules-05",
+ "n": 1,
+ "audio": "rules-05-1.mp3",
+ "duration": 65.6,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 3,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 1.875,
+   "builds": 0,
+   "text": "Welcome back."
+  },
+  {
+   "i": 1,
+   "start": 2.125,
+   "speechStart": 2.125,
+   "end": 6.4,
+   "builds": 0,
+   "text": "Today we start the steering rules proper: who keeps out of whose way."
+  },
+  {
+   "i": 2,
+   "start": 6.65,
+   "speechStart": 6.65,
+   "end": 12.175,
+   "builds": 0,
+   "text": "But before any of them, Rule eleven sets a condition, and it’s one sentence long."
+  },
+  {
+   "i": 3,
+   "start": 12.425,
+   "speechStart": 12.425,
+   "end": 17.55,
+   "builds": 1,
+   "text": "Rules eleven through eighteen apply only to vessels in sight of one another."
+  },
+  {
+   "i": 4,
+   "start": 17.8,
+   "speechStart": 17.8,
+   "end": 20.4,
+   "builds": 0,
+   "text": "Remember that phrase from lesson two?"
+  },
+  {
+   "i": 5,
+   "start": 20.65,
+   "speechStart": 20.65,
+   "end": 23.025,
+   "builds": 0,
+   "text": "In sight means seen with the eyes."
+  },
+  {
+   "i": 6,
+   "start": 23.275,
+   "speechStart": 23.275,
+   "end": 28.825,
+   "builds": 1,
+   "text": "So if you’re in fog and the other vessel isn’t in sight, none of today’s rules apply."
+  },
+  {
+   "i": 7,
+   "start": 29.075,
+   "speechStart": 29.075,
+   "end": 32.575,
+   "builds": 0,
+   "text": "There’s no stand-on vessel and no give-way vessel."
+  },
+  {
+   "i": 8,
+   "start": 32.825,
+   "speechStart": 32.825,
+   "end": 37.175,
+   "builds": 0,
+   "text": "Rule nineteen takes over instead, and we’ll get to it in lesson eight."
+  },
+  {
+   "i": 9,
+   "start": 37.425,
+   "speechStart": 37.425,
+   "end": 41.875,
+   "builds": 1,
+   "text": "And a radar contact alone never makes two vessels in sight."
+  },
+  {
+   "i": 10,
+   "start": 42.125,
+   "speechStart": 42.125,
+   "end": 43.925,
+   "builds": 0,
+   "text": "Here’s a quick test."
+  },
+  {
+   "i": 11,
+   "start": 44.175,
+   "speechStart": 44.175,
+   "end": 49.4,
+   "builds": 0,
+   "text": "You’re running in thick fog, and your radar shows a boat crossing ahead from your right."
+  },
+  {
+   "i": 12,
+   "start": 49.65,
+   "speechStart": 49.65,
+   "end": 51.8,
+   "builds": 0,
+   "text": "Are you the give-way vessel?"
+  },
+  {
+   "i": 13,
+   "start": 52.05,
+   "speechStart": 52.8,
+   "end": 54.175,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 14,
+   "start": 54.425,
+   "speechStart": 54.425,
+   "end": 56.2,
+   "builds": 0,
+   "text": "Nobody is."
+  },
+  {
+   "i": 15,
+   "start": 56.45,
+   "speechStart": 56.45,
+   "end": 60.0,
+   "builds": 0,
+   "text": "You can’t see her, so the crossing rule doesn’t apply."
+  },
+  {
+   "i": 16,
+   "start": 60.25,
+   "speechStart": 60.25,
+   "end": 65.3,
+   "builds": 0,
+   "text": "Hold on to that idea, because the exam asks it a dozen different ways."
+  }
+ ]
+}

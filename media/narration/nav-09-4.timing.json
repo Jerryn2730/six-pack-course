@@ -1,0 +1,60 @@
+{
+ "slide": "nav-09-4",
+ "lessonId": "nav-09",
+ "n": 4,
+ "audio": "nav-09-4.mp3",
+ "duration": 38.375,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.675,
+   "builds": 0,
+   "text": "Deviation is the error caused by your boat’s own magnetic fields."
+  },
+  {
+   "i": 1,
+   "start": 4.925,
+   "speechStart": 4.925,
+   "end": 13.35,
+   "builds": 0,
+   "text": "Unlike variation, it changes as your heading changes, so it’s recorded on a deviation card listing the error for each heading."
+  },
+  {
+   "i": 2,
+   "start": 13.6,
+   "speechStart": 13.6,
+   "end": 15.55,
+   "builds": 0,
+   "text": "Here’s a key exam point."
+  },
+  {
+   "i": 3,
+   "start": 15.8,
+   "speechStart": 15.8,
+   "end": 27.275,
+   "builds": 0,
+   "text": "When you take a compass bearing of a landmark, you correct it using the deviation for the boat’s heading, not the direction of the bearing, because deviation depends on how the boat is pointed."
+  },
+  {
+   "i": 4,
+   "start": 27.525,
+   "speechStart": 27.525,
+   "end": 33.75,
+   "builds": 0,
+   "text": "And a handy rule for naming the error: compass least, error east; compass best, error west."
+  },
+  {
+   "i": 5,
+   "start": 34.0,
+   "speechStart": 34.0,
+   "end": 38.075,
+   "builds": 0,
+   "text": "If the compass reads less than magnetic, deviation is east."
+  }
+ ]
+}

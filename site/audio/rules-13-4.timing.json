@@ -1,0 +1,60 @@
+{
+ "slide": "rules-13-4",
+ "lessonId": "rules-13",
+ "n": 4,
+ "audio": "rules-13-4.mp3",
+ "duration": 49.95,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.6,
+   "builds": 0,
+   "text": "Overtaking signals differ too."
+  },
+  {
+   "i": 1,
+   "start": 2.85,
+   "speechStart": 2.85,
+   "end": 13.1,
+   "builds": 0,
+   "text": "Under International rules, in a narrow channel or fairway, two prolonged blasts followed by one short means I intend to overtake you on your starboard side."
+  },
+  {
+   "i": 2,
+   "start": 13.35,
+   "speechStart": 13.35,
+   "end": 19.1,
+   "builds": 0,
+   "text": "Two prolonged followed by two short means I intend to overtake you on your port side."
+  },
+  {
+   "i": 3,
+   "start": 19.35,
+   "speechStart": 19.35,
+   "end": 26.6,
+   "builds": 0,
+   "text": "The vessel about to be overtaken signals agreement with one prolonged, one short, one prolonged, one short."
+  },
+  {
+   "i": 4,
+   "start": 26.85,
+   "speechStart": 26.85,
+   "end": 36.0,
+   "builds": 0,
+   "text": "Under Inland rules, overtaking signals apply between power-driven vessels in sight of one another in any waters, not just channels."
+  },
+  {
+   "i": 5,
+   "start": 36.25,
+   "speechStart": 36.25,
+   "end": 49.65,
+   "builds": 0,
+   "text": "One short blast means I intend to overtake you on your starboard side, two short means on your port side, and the vessel being overtaken answers with the same signal if she agrees, or the danger signal if she doesn’t."
+  }
+ ]
+}

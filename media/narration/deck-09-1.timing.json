@@ -1,0 +1,52 @@
+{
+ "slide": "deck-09-1",
+ "lessonId": "deck-09",
+ "n": 1,
+ "audio": "deck-09-1.mp3",
+ "duration": 37.375,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.8,
+   "builds": 0,
+   "text": "Choose an anchor for the bottom you’ll use."
+  },
+  {
+   "i": 1,
+   "start": 3.05,
+   "speechStart": 3.05,
+   "end": 16.6,
+   "builds": 0,
+   "text": "A fluke anchor, often called a Danforth, is light, stows flat, and holds very well in sand and mud, which makes it the most common anchor on Florida fishing boats, but it can struggle in grass and rock."
+  },
+  {
+   "i": 2,
+   "start": 16.85,
+   "speechStart": 16.85,
+   "end": 22.4,
+   "builds": 0,
+   "text": "A plow or claw anchor holds in most bottoms and resets itself if the wind shifts."
+  },
+  {
+   "i": 3,
+   "start": 22.65,
+   "speechStart": 22.65,
+   "end": 28.075,
+   "builds": 0,
+   "text": "A mushroom anchor works by suction in soft mud and is used for permanent moorings."
+  },
+  {
+   "i": 4,
+   "start": 28.325,
+   "speechStart": 28.325,
+   "end": 37.075,
+   "builds": 0,
+   "text": "A grapnel hooks into rocks and wrecks and is popular for fishing structure on small boats, but it can foul, so rig it to break free."
+  }
+ ]
+}

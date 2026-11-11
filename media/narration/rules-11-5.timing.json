@@ -1,0 +1,60 @@
+{
+ "slide": "rules-11-5",
+ "lessonId": "rules-11",
+ "n": 5,
+ "audio": "rules-11-5.mp3",
+ "duration": 41.975,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.2,
+   "builds": 0,
+   "text": "Annex two describes extra signals for fishing vessels fishing in close proximity."
+  },
+  {
+   "i": 1,
+   "start": 6.45,
+   "speechStart": 6.45,
+   "end": 12.2,
+   "builds": 0,
+   "text": "These lights are placed lower than the Rule twenty-six lights and are visible at least one mile."
+  },
+  {
+   "i": 2,
+   "start": 12.45,
+   "speechStart": 12.45,
+   "end": 24.225,
+   "builds": 0,
+   "text": "A trawler may show two white lights in a vertical line when shooting her nets, white over red when hauling her nets, and two red lights in a vertical line when her net is fast on an obstruction."
+  },
+  {
+   "i": 3,
+   "start": 24.475,
+   "speechStart": 24.475,
+   "end": 30.3,
+   "builds": 0,
+   "text": "Vessels pair trawling may direct a searchlight forward and toward the other vessel of the pair."
+  },
+  {
+   "i": 4,
+   "start": 30.55,
+   "speechStart": 30.55,
+   "end": 37.375,
+   "builds": 0,
+   "text": "A purse seiner hampered by her gear may show two yellow lights in a vertical line, flashing alternately."
+  },
+  {
+   "i": 5,
+   "start": 37.625,
+   "speechStart": 37.625,
+   "end": 41.675,
+   "builds": 0,
+   "text": "The exam usually asks you to match each signal to its meaning."
+  }
+ ]
+}

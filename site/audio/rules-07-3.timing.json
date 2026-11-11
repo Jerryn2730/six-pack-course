@@ -1,0 +1,52 @@
+{
+ "slide": "rules-07-3",
+ "lessonId": "rules-07",
+ "n": 3,
+ "audio": "rules-07-3.mp3",
+ "duration": 40.125,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 18.175,
+   "builds": 0,
+   "text": "Under International rules, any vessel other than a vessel not under command or a vessel restricted in her ability to maneuver shall, if circumstances admit, avoid impeding the safe passage of a vessel constrained by her draft that is showing the signals of Rule twenty-eight."
+  },
+  {
+   "i": 1,
+   "start": 18.425,
+   "speechStart": 18.425,
+   "end": 26.1,
+   "builds": 0,
+   "text": "The vessel constrained by her draft shall navigate with particular caution, having full regard to her special condition."
+  },
+  {
+   "i": 2,
+   "start": 26.35,
+   "speechStart": 26.35,
+   "end": 31.45,
+   "builds": 0,
+   "text": "Remember from Rule eight that not impeding means acting early to leave sea room."
+  },
+  {
+   "i": 3,
+   "start": 31.7,
+   "speechStart": 31.7,
+   "end": 34.475,
+   "builds": 0,
+   "text": "It’s different from give-way and stand-on."
+  },
+  {
+   "i": 4,
+   "start": 34.725,
+   "speechStart": 34.725,
+   "end": 39.825,
+   "builds": 0,
+   "text": "And remember that constrained by draft doesn’t exist under Inland rules."
+  }
+ ]
+}

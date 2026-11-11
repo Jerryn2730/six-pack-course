@@ -1,0 +1,68 @@
+{
+ "slide": "nav-08-1",
+ "lessonId": "nav-08",
+ "n": 1,
+ "audio": "nav-08-1.mp3",
+ "duration": 44.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.825,
+   "builds": 0,
+   "text": "Tidal current is the horizontal flow of water caused by the tide."
+  },
+  {
+   "i": 1,
+   "start": 5.075,
+   "speechStart": 5.075,
+   "end": 12.7,
+   "builds": 0,
+   "text": "A current is named for the direction it flows toward, called its set, while wind is named for the direction it comes from."
+  },
+  {
+   "i": 2,
+   "start": 12.95,
+   "speechStart": 12.95,
+   "end": 18.4,
+   "builds": 0,
+   "text": "So a north wind blows toward the south, but a north-setting current flows toward the north."
+  },
+  {
+   "i": 3,
+   "start": 18.65,
+   "speechStart": 18.65,
+   "end": 21.425,
+   "builds": 0,
+   "text": "That difference shows up on the exam."
+  },
+  {
+   "i": 4,
+   "start": 21.675,
+   "speechStart": 21.675,
+   "end": 28.15,
+   "builds": 0,
+   "text": "Flood current flows toward land, ebb away from it, and slack water is the brief period between."
+  },
+  {
+   "i": 5,
+   "start": 28.4,
+   "speechStart": 28.4,
+   "end": 36.25,
+   "builds": 0,
+   "text": "In rivers and inlets currents reverse direction, while offshore they may be rotary, turning steadily around the compass."
+  },
+  {
+   "i": 6,
+   "start": 36.5,
+   "speechStart": 36.5,
+   "end": 44.4,
+   "builds": 0,
+   "text": "Slack water often doesn’t coincide with high or low tide, especially in inlets, so never assume one from the other."
+  }
+ ]
+}

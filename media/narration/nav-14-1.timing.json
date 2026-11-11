@@ -1,0 +1,68 @@
+{
+ "slide": "nav-14-1",
+ "lessonId": "nav-14",
+ "n": 1,
+ "audio": "nav-14-1.mp3",
+ "duration": 39.375,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.9,
+   "builds": 0,
+   "text": "Florida leads the nation in lightning, and summer thunderstorms are a near-daily hazard."
+  },
+  {
+   "i": 1,
+   "start": 6.15,
+   "speechStart": 6.15,
+   "end": 11.25,
+   "builds": 0,
+   "text": "They usually build over land in the early afternoon and drift toward the coast."
+  },
+  {
+   "i": 2,
+   "start": 11.5,
+   "speechStart": 11.5,
+   "end": 16.85,
+   "builds": 0,
+   "text": "Gusts flowing out of a storm can hit well before the rain, sometimes at gale force."
+  },
+  {
+   "i": 3,
+   "start": 17.1,
+   "speechStart": 17.1,
+   "end": 21.625,
+   "builds": 0,
+   "text": "If you hear thunder, you’re within striking distance, so head in early."
+  },
+  {
+   "i": 4,
+   "start": 21.875,
+   "speechStart": 21.875,
+   "end": 27.875,
+   "builds": 0,
+   "text": "If you’re caught out, get everyone low, away from metal, rods and the console, and out of the water."
+  },
+  {
+   "i": 5,
+   "start": 28.125,
+   "speechStart": 28.125,
+   "end": 32.025,
+   "builds": 0,
+   "text": "Waterspouts are common in the Keys and along both coasts."
+  },
+  {
+   "i": 6,
+   "start": 32.275,
+   "speechStart": 32.275,
+   "end": 39.075,
+   "builds": 0,
+   "text": "Most are fair-weather spouts, but treat every one as dangerous and move away at right angles to its path."
+  }
+ ]
+}

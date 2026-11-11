@@ -1,0 +1,84 @@
+{
+ "slide": "deck-13-3",
+ "lessonId": "deck-13",
+ "n": 3,
+ "audio": "deck-13-3.mp3",
+ "duration": 43.175,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.025,
+   "builds": 0,
+   "text": "Florida charters see a lot of heat illness."
+  },
+  {
+   "i": 1,
+   "start": 3.275,
+   "speechStart": 3.275,
+   "end": 8.45,
+   "builds": 0,
+   "text": "Heat exhaustion causes pale, cool, sweaty skin, weakness and nausea."
+  },
+  {
+   "i": 2,
+   "start": 8.7,
+   "speechStart": 8.7,
+   "end": 13.3,
+   "builds": 0,
+   "text": "Get the person into shade, cool them, give fluids and let them rest."
+  },
+  {
+   "i": 3,
+   "start": 13.55,
+   "speechStart": 13.55,
+   "end": 18.625,
+   "builds": 0,
+   "text": "Heat stroke is a true emergency, with hot skin, confusion or collapse."
+  },
+  {
+   "i": 4,
+   "start": 18.875,
+   "speechStart": 18.875,
+   "end": 23.725,
+   "builds": 0,
+   "text": "Cool them aggressively with water and fanning, and call for help immediately."
+  },
+  {
+   "i": 5,
+   "start": 23.975,
+   "speechStart": 23.975,
+   "end": 28.475,
+   "builds": 0,
+   "text": "Hypothermia can happen even in Florida after time in the water."
+  },
+  {
+   "i": 6,
+   "start": 28.725,
+   "speechStart": 28.725,
+   "end": 33.325,
+   "builds": 0,
+   "text": "Remove wet clothing, insulate the person, and warm the core gently."
+  },
+  {
+   "i": 7,
+   "start": 33.575,
+   "speechStart": 33.575,
+   "end": 37.35,
+   "builds": 0,
+   "text": "Don’t rub their arms and legs, and don’t give alcohol."
+  },
+  {
+   "i": 8,
+   "start": 37.6,
+   "speechStart": 37.6,
+   "end": 42.875,
+   "builds": 0,
+   "text": "Prevent sunburn and dehydration with shade, sunscreen and plenty of water."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slide": "plot-09-5",
+ "lessonId": "plot-09",
+ "n": 5,
+ "audio": "plot-09-5.mp3",
+ "duration": 30.55,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.05,
+   "builds": 0,
+   "text": "A few quick rules."
+  },
+  {
+   "i": 1,
+   "start": 2.3,
+   "speechStart": 2.3,
+   "end": 12.825,
+   "builds": 0,
+   "text": "A current directly with you adds its drift to your speed, and one directly against you subtracts it, so ten knots against a two knot current makes eight over the ground."
+  },
+  {
+   "i": 2,
+   "start": 13.075,
+   "speechStart": 13.075,
+   "end": 18.575,
+   "builds": 0,
+   "text": "A cross current needs a course correction into the current, found with the vector diagram."
+  },
+  {
+   "i": 3,
+   "start": 18.825,
+   "speechStart": 18.825,
+   "end": 23.5,
+   "builds": 0,
+   "text": "Wind pushing the boat sideways, called leeway, acts just like a current."
+  },
+  {
+   "i": 4,
+   "start": 23.75,
+   "speechStart": 23.75,
+   "end": 30.25,
+   "builds": 0,
+   "text": "And current predictions are only estimates, so keep taking fixes and adjusting your course to steer."
+  }
+ ]
+}

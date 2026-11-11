@@ -1,0 +1,44 @@
+{
+ "slide": "plot-01-4",
+ "lessonId": "plot-01",
+ "n": 4,
+ "audio": "plot-01-4.mp3",
+ "duration": 31.675,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.175,
+   "builds": 0,
+   "text": "Distance is measured on the latitude scale, the one running up the sides of the chart, where one minute of latitude equals one nautical mile."
+  },
+  {
+   "i": 1,
+   "start": 9.425,
+   "speechStart": 9.425,
+   "end": 17.45,
+   "builds": 0,
+   "text": "Set the dividers on the two points, then carry them to the side scale at about the same latitude and read the minutes and tenths."
+  },
+  {
+   "i": 2,
+   "start": 17.7,
+   "speechStart": 17.7,
+   "end": 25.325,
+   "builds": 0,
+   "text": "On a Mercator chart, the latitude scale stretches as you go north, so always use the part of the scale level with your work."
+  },
+  {
+   "i": 3,
+   "start": 25.575,
+   "speechStart": 25.575,
+   "end": 31.375,
+   "builds": 0,
+   "text": "Never measure distance on the longitude scale across the top or bottom of the chart."
+  }
+ ]
+}

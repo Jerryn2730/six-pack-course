@@ -1,0 +1,60 @@
+{
+ "slide": "plot-09-3",
+ "lessonId": "plot-09",
+ "n": 3,
+ "audio": "plot-09-3.mp3",
+ "duration": 31.6,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.65,
+   "builds": 0,
+   "text": "To counter a known current, draw a current diagram."
+  },
+  {
+   "i": 1,
+   "start": 3.9,
+   "speechStart": 3.9,
+   "end": 7.8,
+   "builds": 0,
+   "text": "Draw your intended track from the start toward your destination."
+  },
+  {
+   "i": 2,
+   "start": 8.05,
+   "speechStart": 8.05,
+   "end": 12.95,
+   "builds": 0,
+   "text": "From the start, draw the current vector: its set and its drift for one hour."
+  },
+  {
+   "i": 3,
+   "start": 13.2,
+   "speechStart": 13.2,
+   "end": 20.675,
+   "builds": 0,
+   "text": "From the end of the current vector, set your dividers to your boat speed, and swing an arc until it crosses the intended track."
+  },
+  {
+   "i": 4,
+   "start": 20.925,
+   "speechStart": 20.925,
+   "end": 25.9,
+   "builds": 0,
+   "text": "The line from the end of the current vector to that crossing is your course to steer."
+  },
+  {
+   "i": 5,
+   "start": 26.15,
+   "speechStart": 26.15,
+   "end": 31.3,
+   "builds": 0,
+   "text": "The distance from the start to the crossing, along the track, is your speed made good."
+  }
+ ]
+}

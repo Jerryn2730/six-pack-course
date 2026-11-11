@@ -1,0 +1,60 @@
+{
+ "slide": "nav-12-4",
+ "lessonId": "nav-12",
+ "n": 4,
+ "audio": "nav-12-4.mp3",
+ "duration": 45.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.325,
+   "builds": 0,
+   "text": "To judge risk of collision on radar, mark a target’s position several times over a few minutes."
+  },
+  {
+   "i": 1,
+   "start": 6.575,
+   "speechStart": 6.575,
+   "end": 10.45,
+   "builds": 0,
+   "text": "The line through those marks is its relative motion line."
+  },
+  {
+   "i": 2,
+   "start": 10.7,
+   "speechStart": 10.7,
+   "end": 19.9,
+   "builds": 0,
+   "text": "Extend it past the center of the screen, and the closest distance between that line and your boat is the closest point of approach, or C P A."
+  },
+  {
+   "i": 3,
+   "start": 20.15,
+   "speechStart": 20.15,
+   "end": 23.375,
+   "builds": 0,
+   "text": "The time until you reach it is the T C P A."
+  },
+  {
+   "i": 4,
+   "start": 23.625,
+   "speechStart": 23.625,
+   "end": 32.05,
+   "builds": 0,
+   "text": "Many radars can track targets automatically, called MARPA on small boats or ARPA on ships, and compute C P A for you."
+  },
+  {
+   "i": 5,
+   "start": 32.3,
+   "speechStart": 32.3,
+   "end": 45.175,
+   "builds": 0,
+   "text": "Remember Rule seven: radar plotting or equivalent systematic observation is required, and decisions must not be based on scanty radar information, like a single glance at the screen."
+  }
+ ]
+}

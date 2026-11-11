@@ -1,0 +1,60 @@
+{
+ "slide": "nav-10-1",
+ "lessonId": "nav-10",
+ "n": 1,
+ "audio": "nav-10-1.mp3",
+ "duration": 36.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.75,
+   "builds": 0,
+   "text": "Navigators use precise words."
+  },
+  {
+   "i": 1,
+   "start": 3.0,
+   "speechStart": 3.0,
+   "end": 8.725,
+   "builds": 0,
+   "text": "Heading is the direction the bow is pointing at this moment, which wanders as the boat yaws."
+  },
+  {
+   "i": 2,
+   "start": 8.975,
+   "speechStart": 8.975,
+   "end": 12.05,
+   "builds": 0,
+   "text": "Course is the direction you intend to steer."
+  },
+  {
+   "i": 3,
+   "start": 12.3,
+   "speechStart": 12.3,
+   "end": 22.925,
+   "builds": 0,
+   "text": "Track, or course over ground on a GPS, is the direction the boat actually moves over the bottom, which differs from heading when wind and current push you sideways."
+  },
+  {
+   "i": 4,
+   "start": 23.175,
+   "speechStart": 23.175,
+   "end": 29.05,
+   "builds": 0,
+   "text": "Speed over ground is your actual speed over the bottom, as opposed to speed through the water."
+  },
+  {
+   "i": 5,
+   "start": 29.3,
+   "speechStart": 29.3,
+   "end": 36.175,
+   "builds": 0,
+   "text": "A bearing is the direction from your boat to an object, and it can be true, magnetic, compass or relative."
+  }
+ ]
+}

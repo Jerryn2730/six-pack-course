@@ -1,0 +1,52 @@
+{
+ "slide": "plot-04-2",
+ "lessonId": "plot-04",
+ "n": 2,
+ "audio": "plot-04-2.mp3",
+ "duration": 34.375,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.7,
+   "builds": 0,
+   "text": "Many wrong answers come from time arithmetic, not navigation."
+  },
+  {
+   "i": 1,
+   "start": 4.95,
+   "speechStart": 4.95,
+   "end": 10.55,
+   "builds": 0,
+   "text": "Use the twenty-four hour clock, so one thirty in the afternoon is thirteen thirty."
+  },
+  {
+   "i": 2,
+   "start": 10.8,
+   "speechStart": 10.8,
+   "end": 19.425,
+   "builds": 0,
+   "text": "When you add minutes, remember there are sixty minutes in an hour, not one hundred: nine forty-five plus fifty minutes is ten thirty-five."
+  },
+  {
+   "i": 3,
+   "start": 19.675,
+   "speechStart": 19.675,
+   "end": 28.75,
+   "builds": 0,
+   "text": "Convert decimal hours by multiplying the decimal by sixty, so one point seven five hours is one hour forty-five minutes."
+  },
+  {
+   "i": 4,
+   "start": 29.0,
+   "speechStart": 29.0,
+   "end": 34.075,
+   "builds": 0,
+   "text": "For trips with several legs, work out each leg’s time separately and add them."
+  }
+ ]
+}

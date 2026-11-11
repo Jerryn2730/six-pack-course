@@ -1,0 +1,52 @@
+{
+ "slide": "plot-04-3",
+ "lessonId": "plot-04",
+ "n": 3,
+ "audio": "plot-04-3.mp3",
+ "duration": 32.275,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.45,
+   "builds": 0,
+   "text": "To find an estimated time of arrival, work out the running time and add it to your departure time."
+  },
+  {
+   "i": 1,
+   "start": 6.7,
+   "speechStart": 6.7,
+   "end": 19.1,
+   "builds": 0,
+   "text": "Departing at eight fifteen, running twenty-two miles at sixteen knots takes sixty times twenty-two, divided by sixteen, about eighty-two and a half minutes, or one hour twenty-three minutes."
+  },
+  {
+   "i": 2,
+   "start": 19.35,
+   "speechStart": 19.35,
+   "end": 21.825,
+   "builds": 0,
+   "text": "Your ETA is nine thirty-eight."
+  },
+  {
+   "i": 3,
+   "start": 22.075,
+   "speechStart": 22.075,
+   "end": 26.075,
+   "builds": 0,
+   "text": "If your speed changes, recompute from your latest position."
+  },
+  {
+   "i": 4,
+   "start": 26.325,
+   "speechStart": 26.325,
+   "end": 31.975,
+   "builds": 0,
+   "text": "And remember that current changes your speed over the ground, so a head current makes you late."
+  }
+ ]
+}

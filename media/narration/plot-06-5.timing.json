@@ -1,0 +1,60 @@
+{
+ "slide": "plot-06-5",
+ "lessonId": "plot-06",
+ "n": 5,
+ "audio": "plot-06-5.mp3",
+ "duration": 32.05,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.1,
+   "builds": 0,
+   "text": "Fixes don’t have to come from two bearings."
+  },
+  {
+   "i": 1,
+   "start": 3.35,
+   "speechStart": 3.35,
+   "end": 10.85,
+   "builds": 0,
+   "text": "A bearing and a radar range on the same object make an excellent fix, because the two lines cross at right angles."
+  },
+  {
+   "i": 2,
+   "start": 11.1,
+   "speechStart": 11.1,
+   "end": 15.775,
+   "builds": 0,
+   "text": "Radar ranges to two separate objects give two circles that cross."
+  },
+  {
+   "i": 3,
+   "start": 16.025,
+   "speechStart": 16.025,
+   "end": 20.075,
+   "builds": 0,
+   "text": "A range line plus a bearing on another object works well."
+  },
+  {
+   "i": 4,
+   "start": 20.325,
+   "speechStart": 20.325,
+   "end": 25.075,
+   "builds": 0,
+   "text": "An electronic fix from GPS is marked with a small triangle."
+  },
+  {
+   "i": 5,
+   "start": 25.325,
+   "speechStart": 25.325,
+   "end": 31.75,
+   "builds": 0,
+   "text": "Whatever the method, cross-check every fix against another source, like the depth, before you trust it."
+  }
+ ]
+}

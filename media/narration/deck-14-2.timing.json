@@ -1,0 +1,36 @@
+{
+ "slide": "deck-14-2",
+ "lessonId": "deck-14",
+ "n": 2,
+ "audio": "deck-14-2.mp3",
+ "duration": 36.925,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 13.825,
+   "builds": 0,
+   "text": "Boats twenty-six feet and over must post an oil discharge placard, at least five by eight inches, in the machinery space or at the bilge pump control station, warning that discharging oil is prohibited."
+  },
+  {
+   "i": 1,
+   "start": 14.075,
+   "speechStart": 14.075,
+   "end": 23.475,
+   "builds": 0,
+   "text": "They must also post a garbage placard, at least four by nine inches, summarizing the garbage discharge rules where crew and passengers can read it."
+  },
+  {
+   "i": 2,
+   "start": 23.725,
+   "speechStart": 23.725,
+   "end": 36.625,
+   "builds": 0,
+   "text": "Ocean-going boats forty feet and over that have a galley and berthing must also have a written waste management plan describing how garbage is collected, stored and disposed of, and who’s responsible."
+  }
+ ]
+}

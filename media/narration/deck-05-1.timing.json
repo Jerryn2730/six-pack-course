@@ -1,0 +1,68 @@
+{
+ "slide": "deck-05-1",
+ "lessonId": "deck-05",
+ "n": 1,
+ "audio": "deck-05-1.mp3",
+ "duration": 35.825,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.85,
+   "builds": 0,
+   "text": "Stability is about where the weight is."
+  },
+  {
+   "i": 1,
+   "start": 3.1,
+   "speechStart": 3.1,
+   "end": 6.5,
+   "builds": 0,
+   "text": "G is the center of gravity, which pulls down."
+  },
+  {
+   "i": 2,
+   "start": 6.75,
+   "speechStart": 6.75,
+   "end": 12.375,
+   "builds": 0,
+   "text": "B is the center of buoyancy, the center of the underwater hull, which pushes up."
+  },
+  {
+   "i": 3,
+   "start": 12.625,
+   "speechStart": 12.625,
+   "end": 21.625,
+   "builds": 0,
+   "text": "When the boat heels, B moves toward the low side, and the two forces create a righting arm, labeled G Z, that pushes the boat back upright."
+  },
+  {
+   "i": 4,
+   "start": 21.875,
+   "speechStart": 21.875,
+   "end": 27.25,
+   "builds": 0,
+   "text": "M, the metacenter, is where the vertical line through B crosses the centerline."
+  },
+  {
+   "i": 5,
+   "start": 27.5,
+   "speechStart": 27.5,
+   "end": 31.975,
+   "builds": 0,
+   "text": "The distance from G up to M is called the metacentric height, G M."
+  },
+  {
+   "i": 6,
+   "start": 32.225,
+   "speechStart": 32.225,
+   "end": 35.525,
+   "builds": 0,
+   "text": "A bigger G M means more initial stability."
+  }
+ ]
+}

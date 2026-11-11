@@ -1,0 +1,44 @@
+{
+ "slide": "rules-14-4",
+ "lessonId": "rules-14",
+ "n": 4,
+ "audio": "rules-14-4.mp3",
+ "duration": 38.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 18.375,
+   "builds": 0,
+   "text": "Rule thirty-six lets any vessel attract the attention of another by making light or sound signals that cannot be mistaken for any signal authorized elsewhere in the rules, or by directing the beam of her searchlight in the direction of the danger, in such a way as not to embarrass any vessel."
+  },
+  {
+   "i": 1,
+   "start": 18.625,
+   "speechStart": 18.625,
+   "end": 24.3,
+   "builds": 0,
+   "text": "A light used to attract attention should not be mistaken for an aid to navigation."
+  },
+  {
+   "i": 2,
+   "start": 24.55,
+   "speechStart": 24.55,
+   "end": 31.075,
+   "builds": 0,
+   "text": "High-intensity intermittent or revolving lights, such as strobe lights, shall be avoided for this purpose."
+  },
+  {
+   "i": 3,
+   "start": 31.325,
+   "speechStart": 31.325,
+   "end": 38.55,
+   "builds": 0,
+   "text": "Embarrass here means dazzle or interfere with another vessel’s crew, so never aim a searchlight into a wheelhouse."
+  }
+ ]
+}

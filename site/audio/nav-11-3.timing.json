@@ -1,0 +1,52 @@
+{
+ "slide": "nav-11-3",
+ "lessonId": "nav-11",
+ "n": 3,
+ "audio": "nav-11-3.mp3",
+ "duration": 38.625,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 10.05,
+   "builds": 0,
+   "text": "The Automatic Identification System, or AIS, broadcasts a vessel’s identity, position, course and speed over VHF data channels."
+  },
+  {
+   "i": 1,
+   "start": 10.3,
+   "speechStart": 10.3,
+   "end": 18.675,
+   "builds": 0,
+   "text": "With an AIS receiver you can see a ship’s name and call her directly, and your plotter can calculate the closest point of approach."
+  },
+  {
+   "i": 2,
+   "start": 18.925,
+   "speechStart": 18.925,
+   "end": 26.45,
+   "builds": 0,
+   "text": "Class A transponders are required on many commercial vessels, and Class B units are designed for smaller boats."
+  },
+  {
+   "i": 3,
+   "start": 26.7,
+   "speechStart": 26.7,
+   "end": 32.225,
+   "builds": 0,
+   "text": "Many vessels carry no AIS at all, so it never replaces a proper lookout."
+  },
+  {
+   "i": 4,
+   "start": 32.475,
+   "speechStart": 32.475,
+   "end": 38.325,
+   "builds": 0,
+   "text": "And seeing a vessel on AIS doesn’t mean you’re in sight of her under the Navigation Rules."
+  }
+ ]
+}

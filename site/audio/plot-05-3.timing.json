@@ -1,0 +1,60 @@
+{
+ "slide": "plot-05-3",
+ "lessonId": "plot-05",
+ "n": 3,
+ "audio": "plot-05-3.mp3",
+ "duration": 36.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.725,
+   "builds": 0,
+   "text": "To plot a bearing taken with the ship’s compass, first convert it to true, using the deviation for the boat’s heading, not for the bearing."
+  },
+  {
+   "i": 1,
+   "start": 8.975,
+   "speechStart": 8.975,
+   "end": 17.225,
+   "builds": 0,
+   "text": "Steering zero eight zero by compass, with two degrees east deviation, you see a light bearing zero one five by compass."
+  },
+  {
+   "i": 2,
+   "start": 17.475,
+   "speechStart": 17.475,
+   "end": 20.725,
+   "builds": 0,
+   "text": "Add east: zero one seven magnetic."
+  },
+  {
+   "i": 3,
+   "start": 20.975,
+   "speechStart": 20.975,
+   "end": 24.725,
+   "builds": 0,
+   "text": "Subtract fourteen west: zero zero three true."
+  },
+  {
+   "i": 4,
+   "start": 24.975,
+   "speechStart": 24.975,
+   "end": 28.075,
+   "builds": 0,
+   "text": "Now draw a line through the light in that direction."
+  },
+  {
+   "i": 5,
+   "start": 28.325,
+   "speechStart": 28.325,
+   "end": 36.175,
+   "builds": 0,
+   "text": "Your boat lies somewhere along that line, on the side toward you, which runs from the light along the reciprocal, one eight three."
+  }
+ ]
+}

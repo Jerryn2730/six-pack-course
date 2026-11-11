@@ -1,0 +1,68 @@
+{
+ "slide": "rules-15-4",
+ "lessonId": "rules-15",
+ "n": 4,
+ "audio": "rules-15-4.mp3",
+ "duration": 37.875,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.05,
+   "builds": 0,
+   "text": "You’ve now covered every rule in the Rules of the Road module."
+  },
+  {
+   "i": 1,
+   "start": 4.3,
+   "speechStart": 4.3,
+   "end": 7.175,
+   "builds": 0,
+   "text": "Here’s how to turn that into a passing score."
+  },
+  {
+   "i": 2,
+   "start": 7.425,
+   "speechStart": 7.425,
+   "end": 14.925,
+   "builds": 0,
+   "text": "Drill the lights, shapes and sound signals every day with the flashcards in this app, because they’re pure memorization."
+  },
+  {
+   "i": 3,
+   "start": 15.175,
+   "speechStart": 15.175,
+   "end": 19.2,
+   "builds": 0,
+   "text": "Retake each lesson check until you score one hundred percent."
+  },
+  {
+   "i": 4,
+   "start": 19.45,
+   "speechStart": 19.45,
+   "end": 25.2,
+   "builds": 0,
+   "text": "Then take the Rules of the Road quiz until you score at least ninety percent twice in a row."
+  },
+  {
+   "i": 5,
+   "start": 25.45,
+   "speechStart": 25.45,
+   "end": 35.45,
+   "builds": 0,
+   "text": "Finally, the week before your exam, read the rules once more in the Coast Guard handbook, side by side, paying special attention to the Inland differences."
+  },
+  {
+   "i": 6,
+   "start": 35.7,
+   "speechStart": 35.7,
+   "end": 37.575,
+   "builds": 0,
+   "text": "Good luck, Captain."
+  }
+ ]
+}

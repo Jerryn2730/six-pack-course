@@ -1,0 +1,60 @@
+{
+ "slide": "rules-11-1",
+ "lessonId": "rules-11",
+ "n": 1,
+ "audio": "rules-11-1.mp3",
+ "duration": 38.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.025,
+   "builds": 0,
+   "text": "Rule twenty-five covers sailing vessels and rowing boats."
+  },
+  {
+   "i": 1,
+   "start": 4.275,
+   "speechStart": 4.275,
+   "end": 9.775,
+   "builds": 0,
+   "text": "A sailing vessel underway shows sidelights and a sternlight, and no masthead light."
+  },
+  {
+   "i": 2,
+   "start": 10.025,
+   "speechStart": 10.025,
+   "end": 20.4,
+   "builds": 0,
+   "text": "On a sailing vessel under twenty meters, those lights may be combined in one tricolor lantern at or near the top of the mast, where they’re easier to see over waves."
+  },
+  {
+   "i": 3,
+   "start": 20.65,
+   "speechStart": 20.65,
+   "end": 29.6,
+   "builds": 0,
+   "text": "A sailing vessel may also show two all-round lights at or near the masthead, red over green, in addition to her sidelights and sternlight."
+  },
+  {
+   "i": 4,
+   "start": 29.85,
+   "speechStart": 29.85,
+   "end": 32.925,
+   "builds": 0,
+   "text": "Remember: red over green, sailing machine."
+  },
+  {
+   "i": 5,
+   "start": 33.175,
+   "speechStart": 33.175,
+   "end": 38.15,
+   "builds": 0,
+   "text": "But those optional lights may not be shown together with the tricolor lantern."
+  }
+ ]
+}

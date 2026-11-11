@@ -1,0 +1,52 @@
+{
+ "slide": "plot-03-2",
+ "lessonId": "plot-03",
+ "n": 2,
+ "audio": "plot-03-2.mp3",
+ "duration": 34.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.075,
+   "builds": 0,
+   "text": "To lay a course, draw a straight line from your departure point to your destination, checking that it doesn’t cross land or shoals."
+  },
+  {
+   "i": 1,
+   "start": 8.325,
+   "speechStart": 8.325,
+   "end": 13.825,
+   "builds": 0,
+   "text": "Walk the parallel rulers to the nearest rose and read the true course on the outer ring."
+  },
+  {
+   "i": 2,
+   "start": 14.075,
+   "speechStart": 14.075,
+   "end": 18.475,
+   "builds": 0,
+   "text": "Measure the length of the line with dividers on the latitude scale."
+  },
+  {
+   "i": 3,
+   "start": 18.725,
+   "speechStart": 18.725,
+   "end": 28.9,
+   "builds": 0,
+   "text": "For a leg longer than your dividers can span, set them to a round number like one or five miles and step along the line, then measure the leftover piece."
+  },
+  {
+   "i": 4,
+   "start": 29.15,
+   "speechStart": 29.15,
+   "end": 34.175,
+   "builds": 0,
+   "text": "Label the line, and write your estimated time of arrival at the destination."
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "slide": "plot-08-2",
+ "lessonId": "plot-08",
+ "n": 2,
+ "audio": "plot-08-2.mp3",
+ "duration": 41.625,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 1.85,
+   "builds": 0,
+   "text": "Let’s work one."
+  },
+  {
+   "i": 1,
+   "start": 2.1,
+   "speechStart": 2.1,
+   "end": 8.725,
+   "builds": 0,
+   "text": "At nine hundred, steering zero nine zero true at twelve knots, a light bears zero two zero true."
+  },
+  {
+   "i": 2,
+   "start": 8.975,
+   "speechStart": 8.975,
+   "end": 10.825,
+   "builds": 0,
+   "text": "Plot that L O P."
+  },
+  {
+   "i": 3,
+   "start": 11.075,
+   "speechStart": 11.075,
+   "end": 15.0,
+   "builds": 0,
+   "text": "At nine thirty, the same light bears three three zero true."
+  },
+  {
+   "i": 4,
+   "start": 15.25,
+   "speechStart": 15.25,
+   "end": 17.35,
+   "builds": 0,
+   "text": "Plot the second L O P."
+  },
+  {
+   "i": 5,
+   "start": 17.6,
+   "speechStart": 17.6,
+   "end": 22.775,
+   "builds": 0,
+   "text": "In thirty minutes at twelve knots, you ran six miles along zero nine zero."
+  },
+  {
+   "i": 6,
+   "start": 23.025,
+   "speechStart": 23.025,
+   "end": 34.65,
+   "builds": 0,
+   "text": "Pick any point on the nine hundred L O P, measure six miles from it in the direction zero nine zero, and draw a line through that point parallel to the original L O P."
+  },
+  {
+   "i": 7,
+   "start": 34.9,
+   "speechStart": 34.9,
+   "end": 41.325,
+   "builds": 0,
+   "text": "Where it crosses the nine thirty L O P is your nine thirty running fix, labeled R fix."
+  }
+ ]
+}

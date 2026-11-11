@@ -1,0 +1,21 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:03.625
+When you don’t know the current in advance, you can measure it.
+
+2
+00:00:03.875 --> 00:00:08.700
+Plot your dead reckoning position from course and speed, then take a fix.
+
+3
+00:00:08.950 --> 00:00:18.775
+The current’s set is the direction from your DR position to your fix, and its drift is the distance between them divided by the time since your last fix.
+
+4
+00:00:19.025 --> 00:00:34.275
+For example, if your ten hundred fix lies three nautical miles from your ten hundred DR position, bearing one five zero true, and your last fix was at eight hundred, the set is one five zero true and the drift is one and a half knots.
+
+5
+00:00:34.525 --> 00:00:38.500
+This also captures the effects of wind and steering error.

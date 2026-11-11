@@ -1,0 +1,44 @@
+{
+ "slide": "deck-08-5",
+ "lessonId": "deck-08",
+ "n": 5,
+ "audio": "deck-08-5.mp3",
+ "duration": 32.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.0,
+   "builds": 0,
+   "text": "Lines under load store tremendous energy, especially stretchy nylon."
+  },
+  {
+   "i": 1,
+   "start": 5.25,
+   "speechStart": 5.25,
+   "end": 19.0,
+   "builds": 0,
+   "text": "If a loaded line parts, it can snap back with enough force to kill, so keep yourself and your passengers out of the path of any line under strain, such as during towing or when a boat surges against its dock lines."
+  },
+  {
+   "i": 2,
+   "start": 19.25,
+   "speechStart": 19.25,
+   "end": 24.45,
+   "builds": 0,
+   "text": "Never stand inside a bight, or loop, of line, where it could tighten around a leg."
+  },
+  {
+   "i": 3,
+   "start": 24.7,
+   "speechStart": 24.7,
+   "end": 32.4,
+   "builds": 0,
+   "text": "Use lines sized for the load, and inspect them for chafe, stiffness and sun damage, replacing them before they fail."
+  }
+ ]
+}

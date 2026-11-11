@@ -1,0 +1,156 @@
+{
+ "slide": "rules-04-4",
+ "lessonId": "rules-04",
+ "n": 4,
+ "audio": "rules-04-4.mp3",
+ "duration": 79.225,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 5,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.7,
+   "builds": 0,
+   "text": "Here’s where the two rule books split, and it’s a favorite exam question."
+  },
+  {
+   "i": 1,
+   "start": 4.95,
+   "speechStart": 4.95,
+   "end": 14.0,
+   "builds": 1,
+   "text": "The Inland version of Rule nine adds a special rule for the Great Lakes, the Western Rivers, and other waters the Coast Guard specifies."
+  },
+  {
+   "i": 2,
+   "start": 14.25,
+   "speechStart": 14.25,
+   "end": 17.075,
+   "builds": 0,
+   "text": "You won’t find it in the International rules."
+  },
+  {
+   "i": 3,
+   "start": 17.325,
+   "speechStart": 17.325,
+   "end": 25.625,
+   "builds": 1,
+   "text": "On those waters, a power-driven vessel heading downbound with a following current has the right of way over an upbound vessel."
+  },
+  {
+   "i": 4,
+   "start": 25.875,
+   "speechStart": 25.875,
+   "end": 27.825,
+   "builds": 0,
+   "text": "Yes, right of way."
+  },
+  {
+   "i": 5,
+   "start": 28.075,
+   "speechStart": 28.075,
+   "end": 33.25,
+   "builds": 0,
+   "text": "This is one of the very few places where the rules actually use those words."
+  },
+  {
+   "i": 6,
+   "start": 33.5,
+   "speechStart": 33.5,
+   "end": 37.8,
+   "builds": 1,
+   "text": "The downbound vessel proposes the manner and place of passage."
+  },
+  {
+   "i": 7,
+   "start": 38.05,
+   "speechStart": 38.05,
+   "end": 40.975,
+   "builds": 1,
+   "text": "And she initiates the maneuvering signals."
+  },
+  {
+   "i": 8,
+   "start": 41.225,
+   "speechStart": 41.225,
+   "end": 47.7,
+   "builds": 1,
+   "text": "The upbound vessel, the one working against the current, holds as necessary to permit safe passing."
+  },
+  {
+   "i": 9,
+   "start": 47.95,
+   "speechStart": 47.95,
+   "end": 49.2,
+   "builds": 0,
+   "text": "Why?"
+  },
+  {
+   "i": 10,
+   "start": 49.45,
+   "speechStart": 49.45,
+   "end": 54.525,
+   "builds": 0,
+   "text": "Think about a towboat pushing barges down the Mississippi with the current behind her."
+  },
+  {
+   "i": 11,
+   "start": 54.775,
+   "speechStart": 54.775,
+   "end": 56.425,
+   "builds": 0,
+   "text": "Can she stop?"
+  },
+  {
+   "i": 12,
+   "start": 56.675,
+   "speechStart": 56.675,
+   "end": 58.775,
+   "builds": 0,
+   "text": "Can she hold still and wait?"
+  },
+  {
+   "i": 13,
+   "start": 59.025,
+   "speechStart": 59.775,
+   "end": 61.3,
+   "builds": 0,
+   "text": "She can’t."
+  },
+  {
+   "i": 14,
+   "start": 61.55,
+   "speechStart": 61.55,
+   "end": 63.875,
+   "builds": 0,
+   "text": "The current is carrying her along."
+  },
+  {
+   "i": 15,
+   "start": 64.125,
+   "speechStart": 64.125,
+   "end": 68.525,
+   "builds": 0,
+   "text": "The upbound boat can simply ease her throttles and hold her place."
+  },
+  {
+   "i": 16,
+   "start": 68.775,
+   "speechStart": 68.775,
+   "end": 71.8,
+   "builds": 0,
+   "text": "So the vessel with less control gets the say."
+  },
+  {
+   "i": 17,
+   "start": 72.05,
+   "speechStart": 72.05,
+   "end": 78.925,
+   "builds": 0,
+   "text": "You may never run a river, but when a question says downbound with a following current, you’ll know who’s in charge."
+  }
+ ]
+}

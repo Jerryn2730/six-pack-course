@@ -1,0 +1,44 @@
+{
+ "slide": "plot-02-2",
+ "lessonId": "plot-02",
+ "n": 2,
+ "audio": "plot-02-2.mp3",
+ "duration": 31.675,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.3,
+   "builds": 0,
+   "text": "To plot a position, start with the latitude."
+  },
+  {
+   "i": 1,
+   "start": 3.55,
+   "speechStart": 3.55,
+   "end": 14.325,
+   "builds": 0,
+   "text": "Find forty-one degrees, eighteen and a half minutes on the side scale, and lay a straightedge or one arm of your parallel rulers horizontally across the chart at that latitude."
+  },
+  {
+   "i": 2,
+   "start": 14.575,
+   "speechStart": 14.575,
+   "end": 25.825,
+   "builds": 0,
+   "text": "Next, find seventy-one degrees, thirty-five minutes on the top scale, set your dividers from the nearest meridian to that longitude, and carry that distance along your straightedge."
+  },
+  {
+   "i": 3,
+   "start": 26.075,
+   "speechStart": 26.075,
+   "end": 31.375,
+   "builds": 0,
+   "text": "Mark the spot with a sharp dot, circle it if it’s a fix, and write the time beside it."
+  }
+ ]
+}

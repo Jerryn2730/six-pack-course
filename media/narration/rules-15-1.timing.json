@@ -1,0 +1,76 @@
+{
+ "slide": "rules-15-1",
+ "lessonId": "rules-15",
+ "n": 1,
+ "audio": "rules-15-1.mp3",
+ "duration": 53.025,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.475,
+   "builds": 0,
+   "text": "This final lesson pulls together the differences between Inland and International rules, because they produce a large share of exam questions."
+  },
+  {
+   "i": 1,
+   "start": 9.725,
+   "speechStart": 9.725,
+   "end": 11.7,
+   "builds": 0,
+   "text": "Start with sound signals."
+  },
+  {
+   "i": 2,
+   "start": 11.95,
+   "speechStart": 11.95,
+   "end": 20.125,
+   "builds": 0,
+   "text": "International maneuvering signals announce action being taken whenever a power-driven vessel maneuvers in sight of another."
+  },
+  {
+   "i": 3,
+   "start": 20.375,
+   "speechStart": 20.375,
+   "end": 29.025,
+   "builds": 0,
+   "text": "Inland signals propose an intention and need agreement between power-driven vessels meeting or crossing within half a mile."
+  },
+  {
+   "i": 4,
+   "start": 29.275,
+   "speechStart": 29.275,
+   "end": 35.85,
+   "builds": 0,
+   "text": "International overtaking signals are used in narrow channels and start with two prolonged blasts."
+  },
+  {
+   "i": 5,
+   "start": 36.1,
+   "speechStart": 36.1,
+   "end": 41.15,
+   "builds": 0,
+   "text": "Inland overtaking signals are one or two short blasts, in any waters."
+  },
+  {
+   "i": 6,
+   "start": 41.4,
+   "speechStart": 41.4,
+   "end": 49.125,
+   "builds": 0,
+   "text": "Inland, a radio agreement replaces the whistle signals, and a vessel leaving a berth sounds one prolonged blast."
+  },
+  {
+   "i": 7,
+   "start": 49.375,
+   "speechStart": 49.375,
+   "end": 52.725,
+   "builds": 0,
+   "text": "Inland maneuvering lights may be white or yellow."
+  }
+ ]
+}

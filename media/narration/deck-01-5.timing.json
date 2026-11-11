@@ -1,0 +1,60 @@
+{
+ "slide": "deck-01-5",
+ "lessonId": "deck-01",
+ "n": 5,
+ "audio": "deck-01-5.mp3",
+ "duration": 45.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.825,
+   "builds": 0,
+   "text": "As a licensed captain operating commercially, you must take part in a Department of Transportation drug testing program."
+  },
+  {
+   "i": 1,
+   "start": 8.075,
+   "speechStart": 8.075,
+   "end": 13.075,
+   "builds": 0,
+   "text": "Most owner-operators join a consortium that handles random testing."
+  },
+  {
+   "i": 2,
+   "start": 13.325,
+   "speechStart": 13.325,
+   "end": 21.025,
+   "builds": 0,
+   "text": "Tests are required before employment, at random, after a serious marine incident, and when there’s reasonable cause."
+  },
+  {
+   "i": 3,
+   "start": 21.275,
+   "speechStart": 21.275,
+   "end": 32.8,
+   "builds": 0,
+   "text": "For alcohol, a commercial vessel operator is considered intoxicated at a blood alcohol concentration of zero point zero four percent, half the recreational limit."
+  },
+  {
+   "i": 4,
+   "start": 33.05,
+   "speechStart": 33.05,
+   "end": 41.55,
+   "builds": 0,
+   "text": "After a serious marine incident, alcohol testing must be done within two hours and drug testing within thirty-two hours."
+  },
+  {
+   "i": 5,
+   "start": 41.8,
+   "speechStart": 41.8,
+   "end": 44.85,
+   "builds": 0,
+   "text": "Refusing a test can cost you your license."
+  }
+ ]
+}

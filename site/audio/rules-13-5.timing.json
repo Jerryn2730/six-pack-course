@@ -1,0 +1,52 @@
+{
+ "slide": "rules-13-5",
+ "lessonId": "rules-13",
+ "n": 5,
+ "audio": "rules-13-5.mp3",
+ "duration": 45.525,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 12.95,
+   "builds": 0,
+   "text": "When vessels in sight are approaching each other and either fails to understand the other’s intentions, or doubts the other is taking enough action, she shall immediately sound at least five short and rapid blasts."
+  },
+  {
+   "i": 1,
+   "start": 13.2,
+   "speechStart": 13.2,
+   "end": 19.9,
+   "builds": 0,
+   "text": "That’s the danger or doubt signal, and it may be supplemented by at least five short and rapid flashes."
+  },
+  {
+   "i": 2,
+   "start": 20.15,
+   "speechStart": 20.15,
+   "end": 31.575,
+   "builds": 0,
+   "text": "A vessel nearing a bend or area where other vessels may be hidden sounds one prolonged blast, and any vessel around the bend that hears it answers with one prolonged blast."
+  },
+  {
+   "i": 3,
+   "start": 31.825,
+   "speechStart": 31.825,
+   "end": 37.7,
+   "builds": 0,
+   "text": "Inland, a power-driven vessel leaving a dock or berth sounds one prolonged blast."
+  },
+  {
+   "i": 4,
+   "start": 37.95,
+   "speechStart": 37.95,
+   "end": 45.225,
+   "builds": 0,
+   "text": "And if a vessel has whistles more than one hundred meters apart, only one whistle is used for maneuvering signals."
+  }
+ ]
+}

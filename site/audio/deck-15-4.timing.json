@@ -1,0 +1,60 @@
+{
+ "slide": "deck-15-4",
+ "lessonId": "deck-15",
+ "n": 4,
+ "audio": "deck-15-4.mp3",
+ "duration": 41.975,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.025,
+   "builds": 0,
+   "text": "A few more rules."
+  },
+  {
+   "i": 1,
+   "start": 2.275,
+   "speechStart": 2.275,
+   "end": 11.2,
+   "builds": 0,
+   "text": "You’re legally responsible for your wake and any damage or injury it causes, so slow down near docks, small boats and anchored vessels."
+  },
+  {
+   "i": 2,
+   "start": 11.45,
+   "speechStart": 11.45,
+   "end": 21.35,
+   "builds": 0,
+   "text": "Within five hundred yards of a large American naval vessel, you must operate at minimum speed, and you may not come within one hundred yards without permission."
+  },
+  {
+   "i": 3,
+   "start": 21.6,
+   "speechStart": 21.6,
+   "end": 27.975,
+   "builds": 0,
+   "text": "Many Florida ports enforce security zones around cruise ships, tankers and port facilities."
+  },
+  {
+   "i": 4,
+   "start": 28.225,
+   "speechStart": 28.225,
+   "end": 33.6,
+   "builds": 0,
+   "text": "Florida law also covers boating under the influence and reckless operation."
+  },
+  {
+   "i": 5,
+   "start": 33.85,
+   "speechStart": 33.85,
+   "end": 41.675,
+   "builds": 0,
+   "text": "And when the Coast Guard or the Fish and Wildlife Conservation Commission signals you to stop for a boarding, comply promptly."
+  }
+ ]
+}

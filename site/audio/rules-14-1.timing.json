@@ -1,0 +1,68 @@
+{
+ "slide": "rules-14-1",
+ "lessonId": "rules-14",
+ "n": 1,
+ "audio": "rules-14-1.mp3",
+ "duration": 53.35,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.225,
+   "builds": 0,
+   "text": "Rule thirty-five covers sound signals in or near an area of restricted visibility, by day or night."
+  },
+  {
+   "i": 1,
+   "start": 7.475,
+   "speechStart": 7.475,
+   "end": 12.025,
+   "builds": 0,
+   "text": "Underway, signals are sounded at intervals of not more than two minutes."
+  },
+  {
+   "i": 2,
+   "start": 12.275,
+   "speechStart": 12.275,
+   "end": 17.5,
+   "builds": 0,
+   "text": "A power-driven vessel making way through the water sounds one prolonged blast."
+  },
+  {
+   "i": 3,
+   "start": 17.75,
+   "speechStart": 17.75,
+   "end": 24.9,
+   "builds": 0,
+   "text": "A power-driven vessel underway but stopped sounds two prolonged blasts, with about two seconds between them."
+  },
+  {
+   "i": 4,
+   "start": 25.15,
+   "speechStart": 25.15,
+   "end": 37.05,
+   "builds": 0,
+   "text": "A vessel not under command, restricted, constrained by her draft, sailing, engaged in fishing, or towing or pushing sounds one prolonged blast followed by two short blasts."
+  },
+  {
+   "i": 5,
+   "start": 37.3,
+   "speechStart": 37.3,
+   "end": 48.1,
+   "builds": 0,
+   "text": "A vessel towed, or the last vessel of a tow, if manned, sounds one prolonged followed by three short blasts, right after the towing vessel’s signal if practicable."
+  },
+  {
+   "i": 6,
+   "start": 48.35,
+   "speechStart": 48.35,
+   "end": 53.05,
+   "builds": 0,
+   "text": "A composite pushing unit gives the signals of a power-driven vessel."
+  }
+ ]
+}

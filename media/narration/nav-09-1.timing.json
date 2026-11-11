@@ -1,0 +1,52 @@
+{
+ "slide": "nav-09-1",
+ "lessonId": "nav-09",
+ "n": 1,
+ "audio": "nav-09-1.mp3",
+ "duration": 38.225,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.85,
+   "builds": 0,
+   "text": "The magnetic compass is the one navigation instrument that needs no electricity."
+  },
+  {
+   "i": 1,
+   "start": 6.1,
+   "speechStart": 6.1,
+   "end": 11.925,
+   "builds": 0,
+   "text": "A magnetized card floats in liquid and aligns itself with the earth’s magnetic field."
+  },
+  {
+   "i": 2,
+   "start": 12.175,
+   "speechStart": 12.175,
+   "end": 20.725,
+   "builds": 0,
+   "text": "The lubber line, a mark on the compass bowl, is aligned with the boat’s centerline, and your heading is the number on the card at the lubber line."
+  },
+  {
+   "i": 3,
+   "start": 20.975,
+   "speechStart": 20.975,
+   "end": 34.4,
+   "builds": 0,
+   "text": "Mount the compass on or parallel to the centerline where the helmsman can see it, and keep magnetic and electrical items away from it: speakers, radios, phones, tools, even a drink holder with a magnet."
+  },
+  {
+   "i": 4,
+   "start": 34.65,
+   "speechStart": 34.65,
+   "end": 37.925,
+   "builds": 0,
+   "text": "Moving any of these can change your compass error."
+  }
+ ]
+}

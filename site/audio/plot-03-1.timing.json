@@ -1,0 +1,52 @@
+{
+ "slide": "plot-03-1",
+ "lessonId": "plot-03",
+ "n": 1,
+ "audio": "plot-03-1.mp3",
+ "duration": 35.725,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.275,
+   "builds": 0,
+   "text": "Every line you draw gets a label, so you and an examiner can follow your work."
+  },
+  {
+   "i": 1,
+   "start": 5.525,
+   "speechStart": 5.525,
+   "end": 12.375,
+   "builds": 0,
+   "text": "Write the course above the line, with a C, the three-digit direction, and T for true or M for magnetic."
+  },
+  {
+   "i": 2,
+   "start": 12.625,
+   "speechStart": 12.625,
+   "end": 15.25,
+   "builds": 0,
+   "text": "Write the speed below the line with an S."
+  },
+  {
+   "i": 3,
+   "start": 15.5,
+   "speechStart": 15.5,
+   "end": 26.575,
+   "builds": 0,
+   "text": "Mark each position along the track with its symbol, a circle for a fix and a half circle for a dead reckoning position, and write the time beside it, using the twenty-four hour clock."
+  },
+  {
+   "i": 4,
+   "start": 26.825,
+   "speechStart": 26.825,
+   "end": 35.425,
+   "builds": 0,
+   "text": "Here, a boat leaves an eight hundred fix on course zero six eight true at twelve knots, with DR positions at nine and ten hundred."
+  }
+ ]
+}

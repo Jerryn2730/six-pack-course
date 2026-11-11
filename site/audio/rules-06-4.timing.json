@@ -1,0 +1,188 @@
+{
+ "slide": "rules-06-4",
+ "lessonId": "rules-06",
+ "n": 4,
+ "audio": "rules-06-4.mp3",
+ "duration": 78.125,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 3,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 1.975,
+   "builds": 0,
+   "text": "So what are the duties?"
+  },
+  {
+   "i": 1,
+   "start": 2.225,
+   "speechStart": 2.225,
+   "end": 5.725,
+   "builds": 0,
+   "text": "Rule sixteen is the give-way vessel’s, and it’s short."
+  },
+  {
+   "i": 2,
+   "start": 5.975,
+   "speechStart": 5.975,
+   "end": 9.875,
+   "builds": 0,
+   "text": "Take early and substantial action to keep well clear."
+  },
+  {
+   "i": 3,
+   "start": 10.125,
+   "speechStart": 10.125,
+   "end": 11.575,
+   "builds": 0,
+   "text": "Early."
+  },
+  {
+   "i": 4,
+   "start": 11.825,
+   "speechStart": 11.825,
+   "end": 13.55,
+   "builds": 0,
+   "text": "Substantial."
+  },
+  {
+   "i": 5,
+   "start": 13.8,
+   "speechStart": 13.8,
+   "end": 15.4,
+   "builds": 0,
+   "text": "Well clear."
+  },
+  {
+   "i": 6,
+   "start": 15.65,
+   "speechStart": 15.65,
+   "end": 20.75,
+   "builds": 0,
+   "text": "Rule seventeen is the stand-on vessel’s, and it comes in three stages."
+  },
+  {
+   "i": 7,
+   "start": 21.0,
+   "speechStart": 21.0,
+   "end": 22.625,
+   "builds": 1,
+   "text": "Stage one."
+  },
+  {
+   "i": 8,
+   "start": 22.875,
+   "speechStart": 22.875,
+   "end": 28.125,
+   "builds": 0,
+   "text": "When risk of collision develops, the stand-on vessel shall keep her course and speed."
+  },
+  {
+   "i": 9,
+   "start": 28.375,
+   "speechStart": 28.375,
+   "end": 30.35,
+   "builds": 0,
+   "text": "That’s not stubbornness."
+  },
+  {
+   "i": 10,
+   "start": 30.6,
+   "speechStart": 30.6,
+   "end": 33.975,
+   "builds": 0,
+   "text": "It’s what lets the other captain predict what you’ll do."
+  },
+  {
+   "i": 11,
+   "start": 34.225,
+   "speechStart": 34.225,
+   "end": 35.75,
+   "builds": 1,
+   "text": "Stage two."
+  },
+  {
+   "i": 12,
+   "start": 36.0,
+   "speechStart": 36.0,
+   "end": 46.025,
+   "builds": 0,
+   "text": "As soon as it becomes apparent that the give-way vessel isn’t taking appropriate action, the stand-on vessel may act to avoid collision by her own maneuver alone."
+  },
+  {
+   "i": 13,
+   "start": 46.275,
+   "speechStart": 46.275,
+   "end": 47.65,
+   "builds": 0,
+   "text": "May."
+  },
+  {
+   "i": 14,
+   "start": 47.9,
+   "speechStart": 47.9,
+   "end": 50.175,
+   "builds": 0,
+   "text": "It’s allowed, not required."
+  },
+  {
+   "i": 15,
+   "start": 50.425,
+   "speechStart": 50.425,
+   "end": 53.3,
+   "builds": 0,
+   "text": "This is the moment for five short blasts."
+  },
+  {
+   "i": 16,
+   "start": 53.55,
+   "speechStart": 53.55,
+   "end": 55.125,
+   "builds": 1,
+   "text": "Stage three."
+  },
+  {
+   "i": 17,
+   "start": 55.375,
+   "speechStart": 55.375,
+   "end": 64.525,
+   "builds": 0,
+   "text": "When she’s so close that the give-way vessel alone can’t avoid the collision, the stand-on vessel shall take whatever action will best help avoid it."
+  },
+  {
+   "i": 18,
+   "start": 64.775,
+   "speechStart": 64.775,
+   "end": 66.025,
+   "builds": 0,
+   "text": "Shall."
+  },
+  {
+   "i": 19,
+   "start": 66.275,
+   "speechStart": 66.275,
+   "end": 68.05,
+   "builds": 0,
+   "text": "Now it’s required."
+  },
+  {
+   "i": 20,
+   "start": 68.3,
+   "speechStart": 69.05,
+   "end": 72.575,
+   "builds": 0,
+   "text": "So the pattern is: shall hold, may act, shall act."
+  },
+  {
+   "i": 21,
+   "start": 72.825,
+   "speechStart": 72.825,
+   "end": 77.825,
+   "builds": 0,
+   "text": "The exam tests the difference between may and shall, so lock that pattern in."
+  }
+ ]
+}

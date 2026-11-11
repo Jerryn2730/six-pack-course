@@ -1,0 +1,68 @@
+{
+ "slide": "nav-09-2",
+ "lessonId": "nav-09",
+ "n": 2,
+ "audio": "nav-09-2.mp3",
+ "duration": 48.875,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.225,
+   "builds": 0,
+   "text": "There are three ways to express a direction: true, magnetic and compass."
+  },
+  {
+   "i": 1,
+   "start": 5.475,
+   "speechStart": 5.475,
+   "end": 9.425,
+   "builds": 0,
+   "text": "Variation is the difference between true and magnetic."
+  },
+  {
+   "i": 2,
+   "start": 9.675,
+   "speechStart": 9.675,
+   "end": 13.8,
+   "builds": 0,
+   "text": "Deviation is the difference between magnetic and compass."
+  },
+  {
+   "i": 3,
+   "start": 14.05,
+   "speechStart": 14.05,
+   "end": 22.425,
+   "builds": 0,
+   "text": "Remember the order with the phrase True Virgins Make Dull Companions: true, variation, magnetic, deviation, compass."
+  },
+  {
+   "i": 4,
+   "start": 22.675,
+   "speechStart": 22.675,
+   "end": 29.775,
+   "builds": 0,
+   "text": "Going from compass toward true is called correcting, and you add easterly errors and subtract westerly ones."
+  },
+  {
+   "i": 5,
+   "start": 30.025,
+   "speechStart": 30.025,
+   "end": 38.7,
+   "builds": 0,
+   "text": "Going from true toward compass is called uncorrecting, and you do the opposite: add westerly errors and subtract easterly ones."
+  },
+  {
+   "i": 6,
+   "start": 38.95,
+   "speechStart": 38.95,
+   "end": 48.575,
+   "builds": 0,
+   "text": "Another memory aid for correcting is Can Dead Men Vote Twice At Elections: compass, deviation, magnetic, variation, true, add east."
+  }
+ ]
+}

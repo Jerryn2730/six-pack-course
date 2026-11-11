@@ -1,0 +1,60 @@
+{
+ "slide": "nav-02-1",
+ "lessonId": "nav-02",
+ "n": 1,
+ "audio": "nav-02-1.mp3",
+ "duration": 41.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 12.3,
+   "builds": 0,
+   "text": "Chart Number One, published by NOAA and the National Geospatial-Intelligence Agency, explains every symbol and abbreviation on nautical charts, and the exam draws on it."
+  },
+  {
+   "i": 1,
+   "start": 12.55,
+   "speechStart": 12.55,
+   "end": 14.2,
+   "builds": 0,
+   "text": "Start with color."
+  },
+  {
+   "i": 2,
+   "start": 14.45,
+   "speechStart": 14.45,
+   "end": 16.625,
+   "builds": 0,
+   "text": "Land is buff or tan."
+  },
+  {
+   "i": 3,
+   "start": 16.875,
+   "speechStart": 16.875,
+   "end": 24.375,
+   "builds": 0,
+   "text": "Green marks areas that cover and uncover with the tide, like mud flats and oyster bars that dry at low water."
+  },
+  {
+   "i": 4,
+   "start": 24.625,
+   "speechStart": 24.625,
+   "end": 31.5,
+   "builds": 0,
+   "text": "Blue tints show shallower water, usually inside a chosen depth contour, and white shows deeper water."
+  },
+  {
+   "i": 5,
+   "start": 31.75,
+   "speechStart": 31.75,
+   "end": 41.175,
+   "builds": 0,
+   "text": "Magenta is used for lights, aids to navigation, cables, and restricted or regulated areas, so it draws your eye to things that matter."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "slide": "nav-02-5",
+ "lessonId": "nav-02",
+ "n": 5,
+ "audio": "nav-02-5.mp3",
+ "duration": 38.5,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.2,
+   "builds": 0,
+   "text": "Read every note printed on a chart before you navigate with it."
+  },
+  {
+   "i": 1,
+   "start": 4.45,
+   "speechStart": 4.45,
+   "end": 11.325,
+   "builds": 0,
+   "text": "Notes explain regulations, cautions about shoaling or unreliable aids, and datum information."
+  },
+  {
+   "i": 2,
+   "start": 11.575,
+   "speechStart": 11.575,
+   "end": 14.4,
+   "builds": 0,
+   "text": "On electronic charts you’ll see two kinds."
+  },
+  {
+   "i": 3,
+   "start": 14.65,
+   "speechStart": 14.65,
+   "end": 19.525,
+   "builds": 0,
+   "text": "Raster charts are scanned images of paper charts and look just like them."
+  },
+  {
+   "i": 4,
+   "start": 19.775,
+   "speechStart": 19.775,
+   "end": 26.125,
+   "builds": 0,
+   "text": "Electronic navigational charts, or E N Cs, are vector data that the plotter draws."
+  },
+  {
+   "i": 5,
+   "start": 26.375,
+   "speechStart": 26.375,
+   "end": 33.575,
+   "builds": 0,
+   "text": "They’re powerful, but soundings and hazards can disappear when you zoom out, so always zoom in to check your route."
+  },
+  {
+   "i": 6,
+   "start": 33.825,
+   "speechStart": 33.825,
+   "end": 38.2,
+   "builds": 0,
+   "text": "Whatever kind of chart you use, make sure it’s the most current edition."
+  }
+ ]
+}

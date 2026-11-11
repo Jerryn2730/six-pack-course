@@ -1,0 +1,52 @@
+{
+ "slide": "deck-08-1",
+ "lessonId": "deck-08",
+ "n": 1,
+ "audio": "deck-08-1.mp3",
+ "duration": 33.05,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.6,
+   "builds": 0,
+   "text": "Choose line by what it needs to do."
+  },
+  {
+   "i": 1,
+   "start": 2.85,
+   "speechStart": 2.85,
+   "end": 11.075,
+   "builds": 0,
+   "text": "Nylon is strong and stretchy, so it absorbs shock loads, which makes it ideal for anchor rodes, dock lines and towlines."
+  },
+  {
+   "i": 2,
+   "start": 11.325,
+   "speechStart": 11.325,
+   "end": 17.8,
+   "builds": 0,
+   "text": "Polyester, often sold as Dacron, is strong with little stretch, used for halyards and sheets."
+  },
+  {
+   "i": 3,
+   "start": 18.05,
+   "speechStart": 18.05,
+   "end": 25.825,
+   "builds": 0,
+   "text": "Polypropylene floats, which makes it useful for ring buoy lines and ski ropes, but it’s weaker and breaks down in sunlight."
+  },
+  {
+   "i": 4,
+   "start": 26.075,
+   "speechStart": 26.075,
+   "end": 32.75,
+   "builds": 0,
+   "text": "Spectra and Dyneema are extremely strong, low-stretch, floating fibers used in specialty lines."
+  }
+ ]
+}

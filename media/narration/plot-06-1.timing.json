@@ -1,0 +1,60 @@
+{
+ "slide": "plot-06-1",
+ "lessonId": "plot-06",
+ "n": 1,
+ "audio": "plot-06-1.mp3",
+ "duration": 35.575,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.8,
+   "builds": 0,
+   "text": "A line of position, or L O P, is a line somewhere along which your boat must be."
+  },
+  {
+   "i": 1,
+   "start": 6.05,
+   "speechStart": 6.05,
+   "end": 14.025,
+   "builds": 0,
+   "text": "The most common is a bearing to a charted object, like a lighthouse or tower, converted to true and drawn through the object."
+  },
+  {
+   "i": 2,
+   "start": 14.275,
+   "speechStart": 14.275,
+   "end": 21.125,
+   "builds": 0,
+   "text": "Two charted objects in line, a range, give a very accurate L O P with no compass error at all."
+  },
+  {
+   "i": 3,
+   "start": 21.375,
+   "speechStart": 21.375,
+   "end": 26.175,
+   "builds": 0,
+   "text": "A radar range to a charted point gives a circle of position around it."
+  },
+  {
+   "i": 4,
+   "start": 26.425,
+   "speechStart": 26.425,
+   "end": 30.3,
+   "builds": 0,
+   "text": "Even a depth contour can serve as a rough L O P."
+  },
+  {
+   "i": 5,
+   "start": 30.55,
+   "speechStart": 30.55,
+   "end": 35.275,
+   "builds": 0,
+   "text": "Label each one with the time above the line and the true bearing below it."
+  }
+ ]
+}

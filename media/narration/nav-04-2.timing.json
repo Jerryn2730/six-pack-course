@@ -1,0 +1,68 @@
+{
+ "slide": "nav-04-2",
+ "lessonId": "nav-04",
+ "n": 2,
+ "audio": "nav-04-2.mp3",
+ "duration": 39.925,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.275,
+   "builds": 0,
+   "text": "The Intracoastal Waterway is a big part of Florida boating."
+  },
+  {
+   "i": 1,
+   "start": 4.525,
+   "speechStart": 4.525,
+   "end": 8.425,
+   "builds": 0,
+   "text": "Its marks carry a yellow stripe, triangle or square."
+  },
+  {
+   "i": 2,
+   "start": 8.675,
+   "speechStart": 8.675,
+   "end": 11.875,
+   "builds": 0,
+   "text": "A yellow triangle means treat the mark as red."
+  },
+  {
+   "i": 3,
+   "start": 12.125,
+   "speechStart": 12.125,
+   "end": 17.375,
+   "builds": 0,
+   "text": "A yellow square means treat it as green, no matter what color the mark itself is."
+  },
+  {
+   "i": 4,
+   "start": 17.625,
+   "speechStart": 17.625,
+   "end": 22.675,
+   "builds": 0,
+   "text": "That matters where the waterway crosses an inlet channel and shares its buoys."
+  },
+  {
+   "i": 5,
+   "start": 22.925,
+   "speechStart": 22.925,
+   "end": 32.425,
+   "builds": 0,
+   "text": "On the waterway, returning means traveling clockwise around the country: south along the Atlantic coast, then north and west along the Gulf."
+  },
+  {
+   "i": 6,
+   "start": 32.675,
+   "speechStart": 32.675,
+   "end": 39.625,
+   "builds": 0,
+   "text": "In Florida, the waterway runs the length of the Atlantic coast and along long stretches of the Gulf coast."
+  }
+ ]
+}

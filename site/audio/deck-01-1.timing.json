@@ -1,0 +1,60 @@
+{
+ "slide": "deck-01-1",
+ "lessonId": "deck-01",
+ "n": 1,
+ "audio": "deck-01-1.mp3",
+ "duration": 40.4,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.1,
+   "builds": 0,
+   "text": "Welcome to Deck General and Safety, the module about running a safe, legal operation."
+  },
+  {
+   "i": 1,
+   "start": 6.35,
+   "speechStart": 6.35,
+   "end": 8.45,
+   "builds": 0,
+   "text": "It starts with your license."
+  },
+  {
+   "i": 2,
+   "start": 8.7,
+   "speechStart": 8.7,
+   "end": 16.275,
+   "builds": 0,
+   "text": "An OUPV credential, the six-pack, lets you carry up to six passengers for hire on an uninspected vessel."
+  },
+  {
+   "i": 3,
+   "start": 16.525,
+   "speechStart": 16.525,
+   "end": 25.6,
+   "builds": 0,
+   "text": "A Near Coastal endorsement lets you operate up to one hundred miles offshore, while an Inland endorsement keeps you inside the boundary line."
+  },
+  {
+   "i": 4,
+   "start": 25.85,
+   "speechStart": 25.85,
+   "end": 31.625,
+   "builds": 0,
+   "text": "The credential is valid for five years, and you renew it through the National Maritime Center."
+  },
+  {
+   "i": 5,
+   "start": 31.875,
+   "speechStart": 31.875,
+   "end": 40.1,
+   "builds": 0,
+   "text": "To carry seven or more passengers for hire, you need an inspected vessel with a Certificate of Inspection, and a Master license."
+  }
+ ]
+}

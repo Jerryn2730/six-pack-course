@@ -1,0 +1,76 @@
+{
+ "slide": "rules-13-3",
+ "lessonId": "rules-13",
+ "n": 3,
+ "audio": "rules-13-3.mp3",
+ "duration": 47.825,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.025,
+   "builds": 0,
+   "text": "Inland rules use the same blasts for a different purpose."
+  },
+  {
+   "i": 1,
+   "start": 4.275,
+   "speechStart": 4.275,
+   "end": 14.725,
+   "builds": 0,
+   "text": "When power-driven vessels are in sight of one another and meeting or crossing at a distance within half a mile of each other, each vessel shall indicate her intended maneuver."
+  },
+  {
+   "i": 2,
+   "start": 14.975,
+   "speechStart": 14.975,
+   "end": 18.9,
+   "builds": 0,
+   "text": "One short blast means I intend to leave you on my port side."
+  },
+  {
+   "i": 3,
+   "start": 19.15,
+   "speechStart": 19.15,
+   "end": 23.65,
+   "builds": 0,
+   "text": "Two short blasts means I intend to leave you on my starboard side."
+  },
+  {
+   "i": 4,
+   "start": 23.9,
+   "speechStart": 23.9,
+   "end": 27.975,
+   "builds": 0,
+   "text": "Three short blasts means I am operating astern propulsion."
+  },
+  {
+   "i": 5,
+   "start": 28.225,
+   "speechStart": 28.225,
+   "end": 37.225,
+   "builds": 0,
+   "text": "Upon hearing the one or two blast signal, the other vessel shall, if in agreement, sound the same whistle signal and take the steps needed to pass."
+  },
+  {
+   "i": 6,
+   "start": 37.475,
+   "speechStart": 37.475,
+   "end": 42.175,
+   "builds": 0,
+   "text": "If she doubts the safety of the proposal, she sounds the danger signal."
+  },
+  {
+   "i": 7,
+   "start": 42.425,
+   "speechStart": 42.425,
+   "end": 47.525,
+   "builds": 0,
+   "text": "Inland light signals may be white or yellow, and are synchronized with the whistle."
+  }
+ ]
+}

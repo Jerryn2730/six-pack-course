@@ -1,0 +1,156 @@
+{
+ "slide": "rules-06-5",
+ "lessonId": "rules-06",
+ "n": 5,
+ "audio": "rules-06-5.mp3",
+ "duration": 80.225,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 3,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.475,
+   "builds": 0,
+   "text": "Two more details of Rule seventeen, and then a thought of my own."
+  },
+  {
+   "i": 1,
+   "start": 4.725,
+   "speechStart": 4.725,
+   "end": 16.3,
+   "builds": 1,
+   "text": "First, when a power-driven stand-on vessel acts on her own in a crossing situation, she should not, if the circumstances allow, turn to port for a vessel on her own port side."
+  },
+  {
+   "i": 2,
+   "start": 16.55,
+   "speechStart": 16.55,
+   "end": 18.1,
+   "builds": 0,
+   "text": "Why not?"
+  },
+  {
+   "i": 3,
+   "start": 18.35,
+   "speechStart": 18.35,
+   "end": 19.825,
+   "builds": 0,
+   "text": "Picture it."
+  },
+  {
+   "i": 4,
+   "start": 20.075,
+   "speechStart": 20.075,
+   "end": 26.75,
+   "builds": 0,
+   "text": "The other boat is on your port side, and she’s late, but she finally turns to starboard to go behind you."
+  },
+  {
+   "i": 5,
+   "start": 27.0,
+   "speechStart": 27.0,
+   "end": 30.95,
+   "builds": 0,
+   "text": "If you turn to port at the same moment, you turn straight into her."
+  },
+  {
+   "i": 6,
+   "start": 31.2,
+   "speechStart": 31.2,
+   "end": 34.675,
+   "builds": 0,
+   "text": "So turn to starboard, or slow down, or stop."
+  },
+  {
+   "i": 7,
+   "start": 34.925,
+   "speechStart": 34.925,
+   "end": 41.1,
+   "builds": 1,
+   "text": "Second, nothing the stand-on vessel does relieves the give-way vessel of her obligation."
+  },
+  {
+   "i": 8,
+   "start": 41.35,
+   "speechStart": 41.35,
+   "end": 44.625,
+   "builds": 0,
+   "text": "She’s still responsible for keeping out of the way."
+  },
+  {
+   "i": 9,
+   "start": 44.875,
+   "speechStart": 44.875,
+   "end": 46.725,
+   "builds": 1,
+   "text": "And here’s my thought."
+  },
+  {
+   "i": 10,
+   "start": 46.975,
+   "speechStart": 46.975,
+   "end": 50.725,
+   "builds": 0,
+   "text": "Keeping your course and speed means being predictable."
+  },
+  {
+   "i": 11,
+   "start": 50.975,
+   "speechStart": 50.975,
+   "end": 53.225,
+   "builds": 0,
+   "text": "It doesn’t mean being reckless."
+  },
+  {
+   "i": 12,
+   "start": 53.475,
+   "speechStart": 53.475,
+   "end": 59.275,
+   "builds": 0,
+   "text": "Rule two is still there, and no captain was ever praised for standing on into a collision."
+  },
+  {
+   "i": 13,
+   "start": 59.525,
+   "speechStart": 60.275,
+   "end": 62.175,
+   "builds": 0,
+   "text": "That’s lesson six."
+  },
+  {
+   "i": 14,
+   "start": 62.425,
+   "speechStart": 62.425,
+   "end": 65.0,
+   "builds": 0,
+   "text": "Head-on: both turn to starboard."
+  },
+  {
+   "i": 15,
+   "start": 65.25,
+   "speechStart": 65.25,
+   "end": 69.55,
+   "builds": 0,
+   "text": "Crossing: the boat with the other on her starboard side gives way."
+  },
+  {
+   "i": 16,
+   "start": 69.8,
+   "speechStart": 69.8,
+   "end": 73.725,
+   "builds": 0,
+   "text": "And for the stand-on vessel: shall hold, may act, shall act."
+  },
+  {
+   "i": 17,
+   "start": 73.975,
+   "speechStart": 73.975,
+   "end": 79.925,
+   "builds": 0,
+   "text": "Next time, we’ll climb the pecking order and see who gives way to whom when the vessels aren’t alike."
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "slide": "deck-02-5",
+ "lessonId": "deck-02",
+ "n": 5,
+ "audio": "deck-02-5.mp3",
+ "duration": 39.925,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 17.325,
+   "builds": 0,
+   "text": "Other required equipment includes navigation lights and sound-signaling equipment that meet the Navigation Rules, the oil discharge and garbage placards on boats twenty-six feet and over, and a Coast Guard certified marine sanitation device if you have an installed toilet."
+  },
+  {
+   "i": 1,
+   "start": 17.575,
+   "speechStart": 17.575,
+   "end": 25.175,
+   "builds": 0,
+   "text": "Before every trip, brief your passengers on where the life jackets are, how to put them on, and what to do in an emergency."
+  },
+  {
+   "i": 2,
+   "start": 25.425,
+   "speechStart": 25.425,
+   "end": 39.625,
+   "builds": 0,
+   "text": "Beyond the minimum, a professional captain carries a registered EPIRB or personal locator beacon, a VHF radio with DSC, a well-stocked first aid kit, and reliable bilge pumps with a high-water alarm."
+  }
+ ]
+}

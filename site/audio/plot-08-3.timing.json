@@ -1,0 +1,60 @@
+{
+ "slide": "plot-08-3",
+ "lessonId": "plot-08",
+ "n": 3,
+ "audio": "plot-08-3.mp3",
+ "duration": 30.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.175,
+   "builds": 0,
+   "text": "Some special bearings give your distance off without plotting."
+  },
+  {
+   "i": 1,
+   "start": 4.425,
+   "speechStart": 4.425,
+   "end": 7.2,
+   "builds": 0,
+   "text": "The bow and beam bearing is the easiest."
+  },
+  {
+   "i": 2,
+   "start": 7.45,
+   "speechStart": 7.45,
+   "end": 14.975,
+   "builds": 0,
+   "text": "Note the time when a light is forty-five degrees off your bow, and again when it’s abeam, ninety degrees off the bow."
+  },
+  {
+   "i": 3,
+   "start": 15.225,
+   "speechStart": 15.225,
+   "end": 20.975,
+   "builds": 0,
+   "text": "The distance you ran between those two times equals your distance off the light when abeam."
+  },
+  {
+   "i": 4,
+   "start": 21.225,
+   "speechStart": 21.225,
+   "end": 26.1,
+   "builds": 0,
+   "text": "This works because the bearings form a right triangle with two equal sides."
+  },
+  {
+   "i": 5,
+   "start": 26.35,
+   "speechStart": 26.35,
+   "end": 30.4,
+   "builds": 0,
+   "text": "It’s a quick way to check your distance off a light or a headland."
+  }
+ ]
+}

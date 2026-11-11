@@ -1,0 +1,76 @@
+{
+ "slide": "rules-09-2",
+ "lessonId": "rules-09",
+ "n": 2,
+ "audio": "rules-09-2.mp3",
+ "duration": 51.4,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.9,
+   "builds": 0,
+   "text": "Rule twenty-one defines each light."
+  },
+  {
+   "i": 1,
+   "start": 3.15,
+   "speechStart": 3.15,
+   "end": 14.9,
+   "builds": 0,
+   "text": "The masthead light is a white light over the centerline, showing over an arc of two hundred twenty-five degrees, from right ahead to twenty-two and a half degrees abaft the beam on either side."
+  },
+  {
+   "i": 2,
+   "start": 15.15,
+   "speechStart": 15.15,
+   "end": 26.775,
+   "builds": 0,
+   "text": "Sidelights are green on starboard and red on port, each showing over one hundred twelve and a half degrees, from right ahead to twenty-two and a half degrees abaft the beam on its own side."
+  },
+  {
+   "i": 3,
+   "start": 27.025,
+   "speechStart": 27.025,
+   "end": 33.25,
+   "builds": 0,
+   "text": "On a vessel under twenty meters, the sidelights may be combined in one lantern on the centerline."
+  },
+  {
+   "i": 4,
+   "start": 33.5,
+   "speechStart": 33.5,
+   "end": 38.175,
+   "builds": 0,
+   "text": "The sternlight is white, showing over one hundred thirty-five degrees aft."
+  },
+  {
+   "i": 5,
+   "start": 38.425,
+   "speechStart": 38.425,
+   "end": 42.425,
+   "builds": 0,
+   "text": "The towing light is yellow, with the same arc as the sternlight."
+  },
+  {
+   "i": 6,
+   "start": 42.675,
+   "speechStart": 42.675,
+   "end": 46.6,
+   "builds": 0,
+   "text": "An all-round light shows over three hundred sixty degrees."
+  },
+  {
+   "i": 7,
+   "start": 46.85,
+   "speechStart": 46.85,
+   "end": 51.1,
+   "builds": 0,
+   "text": "A flashing light flashes a hundred twenty or more times per minute."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "slide": "deck-10-2",
+ "lessonId": "deck-10",
+ "n": 2,
+ "audio": "deck-10-2.mp3",
+ "duration": 35.575,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.15,
+   "builds": 0,
+   "text": "Florida’s inlets are where many charter boats get into trouble."
+  },
+  {
+   "i": 1,
+   "start": 4.4,
+   "speechStart": 4.4,
+   "end": 11.425,
+   "builds": 0,
+   "text": "When a strong ebb current runs out against an onshore wind or swell, waves stack up and break in the entrance."
+  },
+  {
+   "i": 2,
+   "start": 11.675,
+   "speechStart": 11.675,
+   "end": 17.225,
+   "builds": 0,
+   "text": "Before running an inlet, stand off and watch several sets of waves to learn their pattern."
+  },
+  {
+   "i": 3,
+   "start": 17.475,
+   "speechStart": 17.475,
+   "end": 26.1,
+   "builds": 0,
+   "text": "When running in, position the boat on the back of a wave and match its speed, staying there rather than surfing down its face, where you can broach."
+  },
+  {
+   "i": 4,
+   "start": 26.35,
+   "speechStart": 26.35,
+   "end": 32.0,
+   "builds": 0,
+   "text": "If conditions look bad, wait for slack water or the flood, or use another inlet."
+  },
+  {
+   "i": 5,
+   "start": 32.25,
+   "speechStart": 32.25,
+   "end": 35.275,
+   "builds": 0,
+   "text": "Coming home a little late beats not coming home."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slide": "rules-12-2",
+ "lessonId": "rules-12",
+ "n": 2,
+ "audio": "rules-12-2.mp3",
+ "duration": 46.5,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.7,
+   "builds": 0,
+   "text": "A vessel engaged in dredging or underwater operations, when restricted in her ability to maneuver, also shows where an obstruction exists."
+  },
+  {
+   "i": 1,
+   "start": 9.95,
+   "speechStart": 9.95,
+   "end": 16.975,
+   "builds": 0,
+   "text": "Two all-round red lights in a vertical line, or two balls by day, mark the side where the obstruction is."
+  },
+  {
+   "i": 2,
+   "start": 17.225,
+   "speechStart": 17.225,
+   "end": 24.925,
+   "builds": 0,
+   "text": "Two all-round green lights in a vertical line, or two diamonds by day, mark the side on which another vessel may pass."
+  },
+  {
+   "i": 3,
+   "start": 25.175,
+   "speechStart": 25.175,
+   "end": 41.325,
+   "builds": 0,
+   "text": "When a vessel engaged in diving operations is too small to show all these lights and shapes, she shows the red, white, red all-round lights and a rigid replica of the International Code flag A, at least one meter high, visible all around."
+  },
+  {
+   "i": 4,
+   "start": 41.575,
+   "speechStart": 41.575,
+   "end": 46.2,
+   "builds": 0,
+   "text": "In Florida, also remember the state’s red-and-white diver-down flag."
+  }
+ ]
+}

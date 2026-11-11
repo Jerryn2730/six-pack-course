@@ -1,0 +1,84 @@
+{
+ "slide": "rules-08-3",
+ "lessonId": "rules-08",
+ "n": 3,
+ "audio": "rules-08-3.mp3",
+ "duration": 45.35,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.55,
+   "builds": 0,
+   "text": "Here’s the heart of Rule nineteen."
+  },
+  {
+   "i": 1,
+   "start": 2.8,
+   "speechStart": 2.8,
+   "end": 12.0,
+   "builds": 0,
+   "text": "A vessel that detects another by radar alone shall determine whether a close-quarters situation is developing or risk of collision exists."
+  },
+  {
+   "i": 2,
+   "start": 12.25,
+   "speechStart": 12.25,
+   "end": 16.025,
+   "builds": 0,
+   "text": "If so, she shall take avoiding action in ample time."
+  },
+  {
+   "i": 3,
+   "start": 16.275,
+   "speechStart": 16.275,
+   "end": 22.525,
+   "builds": 0,
+   "text": "If that action is an alteration of course, then so far as possible she shall avoid two things."
+  },
+  {
+   "i": 4,
+   "start": 22.775,
+   "speechStart": 22.775,
+   "end": 29.725,
+   "builds": 0,
+   "text": "First, an alteration of course to port for a vessel forward of the beam, other than a vessel being overtaken."
+  },
+  {
+   "i": 5,
+   "start": 29.975,
+   "speechStart": 29.975,
+   "end": 31.925,
+   "builds": 0,
+   "text": "That’s the left picture."
+  },
+  {
+   "i": 6,
+   "start": 32.175,
+   "speechStart": 32.175,
+   "end": 37.125,
+   "builds": 0,
+   "text": "Second, an alteration of course toward a vessel abeam or abaft the beam."
+  },
+  {
+   "i": 7,
+   "start": 37.375,
+   "speechStart": 37.375,
+   "end": 39.3,
+   "builds": 0,
+   "text": "That’s the right picture."
+  },
+  {
+   "i": 8,
+   "start": 39.55,
+   "speechStart": 39.55,
+   "end": 45.05,
+   "builds": 0,
+   "text": "For a vessel ahead, a substantial turn to starboard is usually the safe choice."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:03.725
+A deviation table lists the error for each heading.
+
+2
+00:00:03.975 --> 00:00:09.050
+Find your heading in the table, and if it falls between two entries, interpolate.
+
+3
+00:00:09.300 --> 00:00:23.475
+Using this table, a magnetic heading of zero seven five falls halfway between zero six zero, with no deviation, and zero nine zero, with two degrees west, so the deviation is about one degree west.
+
+4
+00:00:23.725 --> 00:00:30.150
+Some tables are arranged by compass heading and some by magnetic heading, so check which you’re using.
+
+5
+00:00:30.400 --> 00:00:37.425
+Exam questions often give you a table like this and ask for the deviation or the compass course to steer.

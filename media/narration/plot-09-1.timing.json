@@ -1,0 +1,52 @@
+{
+ "slide": "plot-09-1",
+ "lessonId": "plot-09",
+ "n": 1,
+ "audio": "plot-09-1.mp3",
+ "duration": 33.925,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.825,
+   "builds": 0,
+   "text": "When your fix doesn’t match your dead reckoning position, the difference is current, along with any wind effect or steering error."
+  },
+  {
+   "i": 1,
+   "start": 8.075,
+   "speechStart": 8.075,
+   "end": 13.175,
+   "builds": 0,
+   "text": "The set is the direction from the DR position to the fix at the same time."
+  },
+  {
+   "i": 2,
+   "start": 13.425,
+   "speechStart": 13.425,
+   "end": 18.825,
+   "builds": 0,
+   "text": "The drift is the distance between them divided by the hours since your last fix."
+  },
+  {
+   "i": 3,
+   "start": 19.075,
+   "speechStart": 19.075,
+   "end": 23.075,
+   "builds": 0,
+   "text": "Notice the direction: always from the DR toward the fix."
+  },
+  {
+   "i": 4,
+   "start": 23.325,
+   "speechStart": 23.325,
+   "end": 33.625,
+   "builds": 0,
+   "text": "Measuring from the fix back to the DR gives the reciprocal, exactly one hundred eighty degrees wrong, and that wrong answer is almost always one of the choices."
+  }
+ ]
+}

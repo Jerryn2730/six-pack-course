@@ -1,0 +1,60 @@
+{
+ "slide": "plot-05-5",
+ "lessonId": "plot-05",
+ "n": 5,
+ "audio": "plot-05-5.mp3",
+ "duration": 31.55,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.075,
+   "builds": 0,
+   "text": "Watch for these traps."
+  },
+  {
+   "i": 1,
+   "start": 2.325,
+   "speechStart": 2.325,
+   "end": 6.575,
+   "builds": 0,
+   "text": "Use the deviation for the boat’s heading when correcting a bearing."
+  },
+  {
+   "i": 2,
+   "start": 6.825,
+   "speechStart": 6.825,
+   "end": 12.35,
+   "builds": 0,
+   "text": "Get the signs right: going toward compass, add west; going toward true, add east."
+  },
+  {
+   "i": 3,
+   "start": 12.6,
+   "speechStart": 12.6,
+   "end": 21.425,
+   "builds": 0,
+   "text": "Reading the wrong side of the rose puts your answer exactly one hundred eighty degrees off, and that wrong answer is often one of the choices."
+  },
+  {
+   "i": 4,
+   "start": 21.675,
+   "speechStart": 21.675,
+   "end": 25.45,
+   "builds": 0,
+   "text": "Don’t mix true and magnetic in the same calculation."
+  },
+  {
+   "i": 5,
+   "start": 25.7,
+   "speechStart": 25.7,
+   "end": 31.25,
+   "builds": 0,
+   "text": "And give your answer in whatever the question asks for: true, magnetic or compass."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "slide": "rules-14-6",
+ "lessonId": "rules-14",
+ "n": 6,
+ "audio": "rules-14-6.mp3",
+ "duration": 38.6,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.725,
+   "builds": 0,
+   "text": "Inland rules add one more distress signal: a high-intensity white light flashing at regular intervals from fifty to seventy times per minute."
+  },
+  {
+   "i": 1,
+   "start": 9.975,
+   "speechStart": 9.975,
+   "end": 20.0,
+   "builds": 0,
+   "text": "Using any of these signals except to indicate distress and need of assistance is prohibited, as is using any signal that might be confused with them."
+  },
+  {
+   "i": 2,
+   "start": 20.25,
+   "speechStart": 20.25,
+   "end": 26.275,
+   "builds": 0,
+   "text": "A favorite exam question lists four signals and asks which one is not a distress signal."
+  },
+  {
+   "i": 3,
+   "start": 26.525,
+   "speechStart": 26.525,
+   "end": 31.25,
+   "builds": 0,
+   "text": "Watch for traps like three short blasts, a green flare, or a white flare."
+  },
+  {
+   "i": 4,
+   "start": 31.5,
+   "speechStart": 31.5,
+   "end": 33.625,
+   "builds": 0,
+   "text": "Those aren’t distress signals."
+  },
+  {
+   "i": 5,
+   "start": 33.875,
+   "speechStart": 33.875,
+   "end": 38.3,
+   "builds": 0,
+   "text": "A continuously sounding fog horn is, and so is orange smoke."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "slide": "nav-13-2",
+ "lessonId": "nav-13",
+ "n": 2,
+ "audio": "nav-13-2.mp3",
+ "duration": 40.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.8,
+   "builds": 0,
+   "text": "In Florida, winter cold fronts set the rhythm of offshore fishing."
+  },
+  {
+   "i": 1,
+   "start": 5.05,
+   "speechStart": 5.05,
+   "end": 11.425,
+   "builds": 0,
+   "text": "Ahead of a front, winds blow from the south or southwest, the barometer falls, and clouds build."
+  },
+  {
+   "i": 2,
+   "start": 11.675,
+   "speechStart": 11.675,
+   "end": 17.975,
+   "builds": 0,
+   "text": "As the front passes, a squall line can bring gusty winds and rain, and the wind shifts suddenly."
+  },
+  {
+   "i": 3,
+   "start": 18.225,
+   "speechStart": 18.225,
+   "end": 27.85,
+   "builds": 0,
+   "text": "Behind it, the wind veers to the west, then northwest and north, often blowing hard for a day or two, while the barometer rises and the sky clears."
+  },
+  {
+   "i": 4,
+   "start": 28.1,
+   "speechStart": 28.1,
+   "end": 33.875,
+   "builds": 0,
+   "text": "On the Atlantic side, those north winds blow against the Gulf Stream and make it dangerous."
+  },
+  {
+   "i": 5,
+   "start": 34.125,
+   "speechStart": 34.125,
+   "end": 40.4,
+   "builds": 0,
+   "text": "The best fishing windows often come just before a front, or after the wind lies down behind it."
+  }
+ ]
+}

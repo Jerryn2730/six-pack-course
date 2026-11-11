@@ -1,0 +1,68 @@
+{
+ "slide": "deck-12-3",
+ "lessonId": "deck-12",
+ "n": 3,
+ "audio": "deck-12-3.mp3",
+ "duration": 35.4,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.425,
+   "builds": 0,
+   "text": "Good radio habits matter."
+  },
+  {
+   "i": 1,
+   "start": 2.675,
+   "speechStart": 2.675,
+   "end": 9.675,
+   "builds": 0,
+   "text": "Use the phonetic alphabet to spell names and numbers: Alfa, Bravo, Charlie, Delta and so on."
+  },
+  {
+   "i": 2,
+   "start": 9.925,
+   "speechStart": 9.925,
+   "end": 14.65,
+   "builds": 0,
+   "text": "Say over when you want a reply, and out when the conversation is finished."
+  },
+  {
+   "i": 3,
+   "start": 14.9,
+   "speechStart": 14.9,
+   "end": 21.775,
+   "builds": 0,
+   "text": "Do radio checks on a working channel or an automated radio-check service, never on channel sixteen."
+  },
+  {
+   "i": 4,
+   "start": 22.025,
+   "speechStart": 22.025,
+   "end": 27.25,
+   "builds": 0,
+   "text": "Make initial calls on sixteen or nine, then switch to a working channel to talk."
+  },
+  {
+   "i": 5,
+   "start": 27.5,
+   "speechStart": 27.5,
+   "end": 30.05,
+   "builds": 0,
+   "text": "And never make a false distress call."
+  },
+  {
+   "i": 6,
+   "start": 30.3,
+   "speechStart": 30.3,
+   "end": 35.1,
+   "builds": 0,
+   "text": "It’s a federal crime that can bring fines, prison and the cost of the search."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slide": "nav-05-2",
+ "lessonId": "nav-05",
+ "n": 2,
+ "audio": "nav-05-2.mp3",
+ "duration": 38.6,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 14.5,
+   "builds": 0,
+   "text": "The Light List, published by the Coast Guard, describes every aid in its region: name and position, light characteristic, height above water, nominal range, the structure, and remarks such as sector bearings or fog signals."
+  },
+  {
+   "i": 1,
+   "start": 14.75,
+   "speechStart": 14.75,
+   "end": 17.4,
+   "builds": 0,
+   "text": "It’s divided into seven volumes."
+  },
+  {
+   "i": 2,
+   "start": 17.65,
+   "speechStart": 17.65,
+   "end": 29.2,
+   "builds": 0,
+   "text": "Volume three covers the Atlantic and Gulf coasts from Little River, South Carolina, around Florida to the Econfina River in the Big Bend, so it includes most of Florida."
+  },
+  {
+   "i": 3,
+   "start": 29.45,
+   "speechStart": 29.45,
+   "end": 33.125,
+   "builds": 0,
+   "text": "Volume four continues along the Gulf to Texas."
+  },
+  {
+   "i": 4,
+   "start": 33.375,
+   "speechStart": 33.375,
+   "end": 38.3,
+   "builds": 0,
+   "text": "Check the Local Notice to Mariners for changes since the edition you’re using."
+  }
+ ]
+}

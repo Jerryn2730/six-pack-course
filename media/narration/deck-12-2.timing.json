@@ -1,0 +1,68 @@
+{
+ "slide": "deck-12-2",
+ "lessonId": "deck-12",
+ "n": 2,
+ "audio": "deck-12-2.mp3",
+ "duration": 42.125,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.475,
+   "builds": 0,
+   "text": "A VHF radio with digital selective calling has a red distress button."
+  },
+  {
+   "i": 1,
+   "start": 5.725,
+   "speechStart": 5.725,
+   "end": 17.075,
+   "builds": 0,
+   "text": "Pressing it sends an automatic alert with your MMSI number and GPS position on channel seventy, which the Coast Guard and nearby DSC radios receive."
+  },
+  {
+   "i": 2,
+   "start": 17.325,
+   "speechStart": 17.325,
+   "end": 20.4,
+   "builds": 0,
+   "text": "Then follow up by voice on channel sixteen."
+  },
+  {
+   "i": 3,
+   "start": 20.65,
+   "speechStart": 20.65,
+   "end": 29.25,
+   "builds": 0,
+   "text": "An EPIRB sends a distress signal on four hundred six megahertz to satellites, which relay your identity and position to rescuers."
+  },
+  {
+   "i": 4,
+   "start": 29.5,
+   "speechStart": 29.5,
+   "end": 32.125,
+   "builds": 0,
+   "text": "It must be registered with NOAA."
+  },
+  {
+   "i": 5,
+   "start": 32.375,
+   "speechStart": 32.375,
+   "end": 36.55,
+   "builds": 0,
+   "text": "A personal locator beacon does the same for an individual."
+  },
+  {
+   "i": 6,
+   "start": 36.8,
+   "speechStart": 36.8,
+   "end": 41.825,
+   "builds": 0,
+   "text": "Keep beacon registrations, batteries and hydrostatic releases current."
+  }
+ ]
+}

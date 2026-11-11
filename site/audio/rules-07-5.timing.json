@@ -1,0 +1,52 @@
+{
+ "slide": "rules-07-5",
+ "lessonId": "rules-07",
+ "n": 5,
+ "audio": "rules-07-5.mp3",
+ "duration": 33.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.525,
+   "builds": 0,
+   "text": "Rule eighteen also covers seaplanes and wing-in-ground craft."
+  },
+  {
+   "i": 1,
+   "start": 4.775,
+   "speechStart": 4.775,
+   "end": 12.05,
+   "builds": 0,
+   "text": "A seaplane on the water shall, in general, keep well clear of all vessels and avoid impeding their navigation."
+  },
+  {
+   "i": 2,
+   "start": 12.3,
+   "speechStart": 12.3,
+   "end": 16.925,
+   "builds": 0,
+   "text": "But where risk of collision exists, she shall comply with the steering rules."
+  },
+  {
+   "i": 3,
+   "start": 17.175,
+   "speechStart": 17.175,
+   "end": 27.4,
+   "builds": 0,
+   "text": "A wing-in-ground craft, when taking off, landing and in flight near the surface, shall keep well clear of all other vessels and avoid impeding their navigation."
+  },
+  {
+   "i": 4,
+   "start": 27.65,
+   "speechStart": 27.65,
+   "end": 33.15,
+   "builds": 0,
+   "text": "When operating on the water surface, she follows the rules as a power-driven vessel."
+  }
+ ]
+}

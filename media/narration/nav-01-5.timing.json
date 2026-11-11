@@ -1,0 +1,60 @@
+{
+ "slide": "nav-01-5",
+ "lessonId": "nav-01",
+ "n": 5,
+ "audio": "nav-01-5.mp3",
+ "duration": 50.05,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.9,
+   "builds": 0,
+   "text": "The title block is the first thing to read on any chart."
+  },
+  {
+   "i": 1,
+   "start": 4.15,
+   "speechStart": 4.15,
+   "end": 26.4,
+   "builds": 0,
+   "text": "It gives the chart number, title and scale; the units for soundings, which may be feet, fathoms or meters; the vertical datum for depths, usually mean lower low water; and the horizontal datum, normally the North American Datum of 1983, which for practical purposes matches the WGS 84 datum your GPS uses."
+  },
+  {
+   "i": 2,
+   "start": 26.65,
+   "speechStart": 26.65,
+   "end": 31.2,
+   "builds": 0,
+   "text": "If your plotter and chart use different datums, positions can be off."
+  },
+  {
+   "i": 3,
+   "start": 31.45,
+   "speechStart": 31.45,
+   "end": 37.25,
+   "builds": 0,
+   "text": "Heights of lights and landmarks and bridge clearances are measured above mean high water."
+  },
+  {
+   "i": 4,
+   "start": 37.5,
+   "speechStart": 37.5,
+   "end": 41.3,
+   "builds": 0,
+   "text": "Check the edition date too, and keep the chart corrected."
+  },
+  {
+   "i": 5,
+   "start": 41.55,
+   "speechStart": 41.55,
+   "end": 49.75,
+   "builds": 0,
+   "text": "NOAA is moving from traditional paper charts to electronic charts, so check what’s currently available for your area."
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "slide": "rules-05-3",
+ "lessonId": "rules-05",
+ "n": 3,
+ "audio": "rules-05-3.mp3",
+ "duration": 63.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.375,
+   "builds": 0,
+   "text": "Now the rule that beats almost every other rule: overtaking."
+  },
+  {
+   "i": 1,
+   "start": 4.625,
+   "speechStart": 4.625,
+   "end": 7.7,
+   "builds": 0,
+   "text": "Rule thirteen opens with a strong phrase."
+  },
+  {
+   "i": 2,
+   "start": 7.95,
+   "speechStart": 7.95,
+   "end": 17.0,
+   "builds": 0,
+   "text": "Notwithstanding anything in Rules four through eighteen, any vessel overtaking any other shall keep out of the way of the vessel being overtaken."
+  },
+  {
+   "i": 3,
+   "start": 17.25,
+   "speechStart": 17.25,
+   "end": 18.875,
+   "builds": 0,
+   "text": "Any vessel."
+  },
+  {
+   "i": 4,
+   "start": 19.125,
+   "speechStart": 19.125,
+   "end": 20.625,
+   "builds": 0,
+   "text": "Any other."
+  },
+  {
+   "i": 5,
+   "start": 20.875,
+   "speechStart": 20.875,
+   "end": 23.1,
+   "builds": 0,
+   "text": "So what counts as overtaking?"
+  },
+  {
+   "i": 6,
+   "start": 23.35,
+   "speechStart": 23.35,
+   "end": 25.175,
+   "builds": 0,
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 7,
+   "start": 25.425,
+   "speechStart": 25.425,
+   "end": 32.95,
+   "builds": 0,
+   "text": "You’re overtaking when you come up on another vessel from a direction more than twenty-two and a half degrees abaft her beam."
+  },
+  {
+   "i": 8,
+   "start": 33.2,
+   "speechStart": 33.2,
+   "end": 35.725,
+   "builds": 0,
+   "text": "That’s the shaded zone behind her."
+  },
+  {
+   "i": 9,
+   "start": 35.975,
+   "speechStart": 36.725,
+   "end": 39.35,
+   "builds": 0,
+   "text": "At night, there’s an easy way to know."
+  },
+  {
+   "i": 10,
+   "start": 39.6,
+   "speechStart": 39.6,
+   "end": 44.55,
+   "builds": 0,
+   "text": "From that zone, you can see only her sternlight, and neither of her sidelights."
+  },
+  {
+   "i": 11,
+   "start": 44.8,
+   "speechStart": 44.8,
+   "end": 48.0,
+   "builds": 0,
+   "text": "One white light ahead of you, and you’re closing on it?"
+  },
+  {
+   "i": 12,
+   "start": 48.25,
+   "speechStart": 48.25,
+   "end": 50.9,
+   "builds": 0,
+   "text": "You’re overtaking, and you keep clear."
+  },
+  {
+   "i": 13,
+   "start": 51.15,
+   "speechStart": 51.15,
+   "end": 55.95,
+   "builds": 0,
+   "text": "And because this rule overrides the others, the kind of boat doesn’t matter."
+  },
+  {
+   "i": 14,
+   "start": 56.2,
+   "speechStart": 56.2,
+   "end": 59.4,
+   "builds": 0,
+   "text": "A sailboat overtaking a powerboat keeps clear."
+  },
+  {
+   "i": 15,
+   "start": 59.65,
+   "speechStart": 59.65,
+   "end": 63.15,
+   "builds": 0,
+   "text": "A fishing vessel overtaking anyone keeps clear."
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "slide": "rules-07-2",
+ "lessonId": "rules-07",
+ "n": 2,
+ "audio": "rules-07-2.mp3",
+ "duration": 34.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 12.075,
+   "builds": 0,
+   "text": "Moving up the ladder, a sailing vessel underway shall keep out of the way of a vessel not under command, a vessel restricted in her ability to maneuver, and a vessel engaged in fishing."
+  },
+  {
+   "i": 1,
+   "start": 12.325,
+   "speechStart": 12.325,
+   "end": 23.6,
+   "builds": 0,
+   "text": "A vessel engaged in fishing when underway shall, so far as possible, keep out of the way of a vessel not under command and a vessel restricted in her ability to maneuver."
+  },
+  {
+   "i": 2,
+   "start": 23.85,
+   "speechStart": 23.85,
+   "end": 34.55,
+   "builds": 0,
+   "text": "At the top of the ladder, vessels not under command and restricted vessels have no one listed above them, because by definition they can’t easily get out of anyone’s way."
+  }
+ ]
+}

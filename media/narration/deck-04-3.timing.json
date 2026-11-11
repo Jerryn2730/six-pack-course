@@ -1,0 +1,52 @@
+{
+ "slide": "deck-04-3",
+ "lessonId": "deck-04",
+ "n": 3,
+ "audio": "deck-04-3.mp3",
+ "duration": 43.4,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.175,
+   "builds": 0,
+   "text": "Carbon monoxide is a colorless, odorless gas in engine and generator exhaust, and it kills boaters every year."
+  },
+  {
+   "i": 1,
+   "start": 8.425,
+   "speechStart": 8.425,
+   "end": 14.125,
+   "builds": 0,
+   "text": "It builds up near the stern, on and around the swim platform, and in enclosed cabins."
+  },
+  {
+   "i": 2,
+   "start": 14.375,
+   "speechStart": 14.375,
+   "end": 21.15,
+   "builds": 0,
+   "text": "Underway, the station wagon effect can draw exhaust back aboard, especially with a canvas enclosure."
+  },
+  {
+   "i": 3,
+   "start": 21.4,
+   "speechStart": 21.4,
+   "end": 27.45,
+   "builds": 0,
+   "text": "Early symptoms, like headache, nausea and dizziness, are easily mistaken for seasickness."
+  },
+  {
+   "i": 4,
+   "start": 27.7,
+   "speechStart": 27.7,
+   "end": 43.1,
+   "builds": 0,
+   "text": "Install and test carbon monoxide alarms in enclosed spaces, never let anyone hang on the swim platform or teak-surf with an engine or generator running, and move anyone with symptoms into fresh air and get medical help."
+  }
+ ]
+}

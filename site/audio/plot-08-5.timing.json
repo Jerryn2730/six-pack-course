@@ -1,0 +1,52 @@
+{
+ "slide": "plot-08-5",
+ "lessonId": "plot-08",
+ "n": 5,
+ "audio": "plot-08-5.mp3",
+ "duration": 28.625,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.675,
+   "builds": 0,
+   "text": "Here’s doubling the angle at work."
+  },
+  {
+   "i": 1,
+   "start": 2.925,
+   "speechStart": 2.925,
+   "end": 10.75,
+   "builds": 0,
+   "text": "Running at ten knots, you see a light thirty degrees on the bow at ten twelve, and sixty degrees on the bow at ten thirty."
+  },
+  {
+   "i": 2,
+   "start": 11.0,
+   "speechStart": 11.0,
+   "end": 14.775,
+   "builds": 0,
+   "text": "In eighteen minutes at ten knots, you ran three miles."
+  },
+  {
+   "i": 3,
+   "start": 15.025,
+   "speechStart": 15.025,
+   "end": 18.3,
+   "builds": 0,
+   "text": "So at ten thirty you were three miles from the light."
+  },
+  {
+   "i": 4,
+   "start": 18.55,
+   "speechStart": 18.55,
+   "end": 28.325,
+   "builds": 0,
+   "text": "Combine that distance with the ten thirty bearing, and you have a fix: measure three miles from the light along the reciprocal of the bearing, and mark your position."
+  }
+ ]
+}

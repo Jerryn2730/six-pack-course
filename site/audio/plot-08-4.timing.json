@@ -1,0 +1,44 @@
+{
+ "slide": "plot-08-4",
+ "lessonId": "plot-08",
+ "n": 4,
+ "audio": "plot-08-4.mp3",
+ "duration": 34.8,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.65,
+   "builds": 0,
+   "text": "Bow and beam is one case of a general rule called doubling the angle on the bow."
+  },
+  {
+   "i": 1,
+   "start": 5.9,
+   "speechStart": 5.9,
+   "end": 14.975,
+   "builds": 0,
+   "text": "Whenever an object’s angle on the bow doubles, the distance run between the two bearings equals your distance from the object at the second bearing."
+  },
+  {
+   "i": 2,
+   "start": 15.225,
+   "speechStart": 15.225,
+   "end": 21.8,
+   "builds": 0,
+   "text": "With thirty and sixty degrees, the distance run equals your distance off at the sixty degree bearing."
+  },
+  {
+   "i": 3,
+   "start": 22.05,
+   "speechStart": 22.05,
+   "end": 34.5,
+   "builds": 0,
+   "text": "A useful extra: with twenty-two and a half and forty-five degrees, your distance off when you pass abeam will be about seven tenths of the distance run, which warns you early if you’ll pass too close."
+  }
+ ]
+}

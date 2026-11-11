@@ -1,0 +1,52 @@
+{
+ "slide": "deck-10-5",
+ "lessonId": "deck-10",
+ "n": 5,
+ "audio": "deck-10-5.mp3",
+ "duration": 34.7,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.125,
+   "builds": 0,
+   "text": "After a collision, your first concern is people: check your passengers and crew for injuries."
+  },
+  {
+   "i": 1,
+   "start": 6.375,
+   "speechStart": 6.375,
+   "end": 9.675,
+   "builds": 0,
+   "text": "Next, check your own boat for damage and flooding."
+  },
+  {
+   "i": 2,
+   "start": 9.925,
+   "speechStart": 9.925,
+   "end": 25.125,
+   "builds": 0,
+   "text": "Federal law requires the operator of a vessel involved in a collision to render assistance to people affected, as far as possible without serious danger to their own vessel, and to give their name, address and vessel identification."
+  },
+  {
+   "i": 3,
+   "start": 25.375,
+   "speechStart": 25.375,
+   "end": 28.1,
+   "builds": 0,
+   "text": "Never leave the scene without doing so."
+  },
+  {
+   "i": 4,
+   "start": 28.35,
+   "speechStart": 28.35,
+   "end": 34.4,
+   "builds": 0,
+   "text": "Then report the collision as required, to the Coast Guard for a commercial marine casualty."
+  }
+ ]
+}

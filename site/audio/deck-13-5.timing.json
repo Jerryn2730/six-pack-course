@@ -1,0 +1,60 @@
+{
+ "slide": "deck-13-5",
+ "lessonId": "deck-13",
+ "n": 5,
+ "audio": "deck-13-5.mp3",
+ "duration": 39.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.925,
+   "builds": 0,
+   "text": "For burns, cool the area under cool running water for ten to twenty minutes, then cover it loosely with a clean dressing."
+  },
+  {
+   "i": 1,
+   "start": 8.175,
+   "speechStart": 8.175,
+   "end": 10.875,
+   "builds": 0,
+   "text": "Don’t use ice, butter or ointments."
+  },
+  {
+   "i": 2,
+   "start": 11.125,
+   "speechStart": 11.125,
+   "end": 18.85,
+   "builds": 0,
+   "text": "For a suspected fracture, immobilize the limb in the position you found it, and check circulation beyond the injury."
+  },
+  {
+   "i": 3,
+   "start": 19.1,
+   "speechStart": 19.1,
+   "end": 28.2,
+   "builds": 0,
+   "text": "If you suspect a head, neck or back injury, such as from a fall in rough seas, keep the person still and don’t move them unless they’re in danger."
+  },
+  {
+   "i": 4,
+   "start": 28.45,
+   "speechStart": 28.45,
+   "end": 32.5,
+   "builds": 0,
+   "text": "For something in the eye, don’t rub it; flush with clean water."
+  },
+  {
+   "i": 5,
+   "start": 32.75,
+   "speechStart": 32.75,
+   "end": 39.55,
+   "builds": 0,
+   "text": "And always write down what happened and what you did, both for the medical team and for your casualty report."
+  }
+ ]
+}

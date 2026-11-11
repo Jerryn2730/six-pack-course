@@ -1,0 +1,68 @@
+{
+ "slide": "nav-11-5",
+ "lessonId": "nav-11",
+ "n": 5,
+ "audio": "nav-11-5.mp3",
+ "duration": 39.825,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.0,
+   "builds": 0,
+   "text": "Your VHF radio is also a navigation tool."
+  },
+  {
+   "i": 1,
+   "start": 4.25,
+   "speechStart": 4.25,
+   "end": 9.325,
+   "builds": 0,
+   "text": "Its range is roughly line of sight, so antenna height matters more than power."
+  },
+  {
+   "i": 2,
+   "start": 9.575,
+   "speechStart": 9.575,
+   "end": 13.375,
+   "builds": 0,
+   "text": "Channel sixteen is for distress, safety and calling."
+  },
+  {
+   "i": 3,
+   "start": 13.625,
+   "speechStart": 13.625,
+   "end": 18.075,
+   "builds": 0,
+   "text": "Channel nine is an alternate calling channel for recreational boats."
+  },
+  {
+   "i": 4,
+   "start": 18.325,
+   "speechStart": 18.325,
+   "end": 25.3,
+   "builds": 0,
+   "text": "Channel thirteen is the bridge-to-bridge channel, and channel twenty-two alpha is the Coast Guard working channel."
+  },
+  {
+   "i": 5,
+   "start": 25.55,
+   "speechStart": 25.55,
+   "end": 34.2,
+   "builds": 0,
+   "text": "A DSC radio needs a registered MMSI number and a GPS connection to send your position in a distress alert."
+  },
+  {
+   "i": 6,
+   "start": 34.45,
+   "speechStart": 34.45,
+   "end": 39.525,
+   "builds": 0,
+   "text": "The weather channels carry continuous NOAA Weather Radio broadcasts."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "slide": "deck-04-5",
+ "lessonId": "deck-04",
+ "n": 5,
+ "audio": "deck-04-5.mp3",
+ "duration": 35.625,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.8,
+   "builds": 0,
+   "text": "Most boat fires are preventable."
+  },
+  {
+   "i": 1,
+   "start": 3.05,
+   "speechStart": 3.05,
+   "end": 8.425,
+   "builds": 0,
+   "text": "Keep bilges clean and free of oil and fuel, which also helps you spot new leaks."
+  },
+  {
+   "i": 2,
+   "start": 8.675,
+   "speechStart": 8.675,
+   "end": 15.9,
+   "builds": 0,
+   "text": "Inspect fuel lines, hose clamps, tank vents and fuel tanks regularly for chafe, corrosion and seepage."
+  },
+  {
+   "i": 3,
+   "start": 16.15,
+   "speechStart": 16.15,
+   "end": 23.45,
+   "builds": 0,
+   "text": "Store oily rags, paints and solvents in proper containers, since oily rags can heat up and ignite on their own."
+  },
+  {
+   "i": 4,
+   "start": 23.7,
+   "speechStart": 23.7,
+   "end": 27.35,
+   "builds": 0,
+   "text": "Limit smoking to safe areas, if you allow it at all."
+  },
+  {
+   "i": 5,
+   "start": 27.6,
+   "speechStart": 27.6,
+   "end": 35.325,
+   "builds": 0,
+   "text": "A few minutes of inspection before each trip is far easier than fighting a fire offshore with six passengers aboard."
+  }
+ ]
+}

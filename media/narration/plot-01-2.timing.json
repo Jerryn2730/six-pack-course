@@ -1,0 +1,44 @@
+{
+ "slide": "plot-01-2",
+ "lessonId": "plot-01",
+ "n": 2,
+ "audio": "plot-01-2.mp3",
+ "duration": 35.975,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.1,
+   "builds": 0,
+   "text": "To find the direction of a line on the chart, line up one edge of the parallel rulers with the line."
+  },
+  {
+   "i": 1,
+   "start": 6.35,
+   "speechStart": 6.35,
+   "end": 17.075,
+   "builds": 0,
+   "text": "Then walk the rulers across the chart, holding one ruler down firmly while you swing the other, until an edge passes through the small cross at the center of the compass rose."
+  },
+  {
+   "i": 2,
+   "start": 17.325,
+   "speechStart": 17.325,
+   "end": 26.85,
+   "builds": 0,
+   "text": "Read the direction where that edge crosses the rose, on the side in your direction of travel, not the reciprocal side one hundred eighty degrees away."
+  },
+  {
+   "i": 3,
+   "start": 27.1,
+   "speechStart": 27.1,
+   "end": 35.675,
+   "builds": 0,
+   "text": "To lay down a course, reverse the process: set the rulers on the rose at your course, then walk them to your position and draw the line."
+  }
+ ]
+}

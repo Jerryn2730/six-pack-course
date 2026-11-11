@@ -1,0 +1,60 @@
+{
+ "slide": "plot-06-4",
+ "lessonId": "plot-06",
+ "n": 4,
+ "audio": "plot-06-4.mp3",
+ "duration": 34.35,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.875,
+   "builds": 0,
+   "text": "At ten fifteen you take two bearings: a light bears three four zero true, and a tower bears zero six five true."
+  },
+  {
+   "i": 1,
+   "start": 8.125,
+   "speechStart": 8.125,
+   "end": 11.05,
+   "builds": 0,
+   "text": "Through the light, draw a line along the bearing."
+  },
+  {
+   "i": 2,
+   "start": 11.3,
+   "speechStart": 11.3,
+   "end": 16.1,
+   "builds": 0,
+   "text": "Your boat is on the side toward you, along the reciprocal, one six zero."
+  },
+  {
+   "i": 3,
+   "start": 16.35,
+   "speechStart": 16.35,
+   "end": 22.05,
+   "builds": 0,
+   "text": "Through the tower, draw the second line; your boat is along its reciprocal, two four five."
+  },
+  {
+   "i": 4,
+   "start": 22.3,
+   "speechStart": 22.3,
+   "end": 28.75,
+   "builds": 0,
+   "text": "The lines are eighty-five degrees apart, nearly ideal, and they cross at your ten fifteen fix."
+  },
+  {
+   "i": 5,
+   "start": 29.0,
+   "speechStart": 29.0,
+   "end": 34.05,
+   "builds": 0,
+   "text": "Circle it, label it, and read its latitude and longitude from the scales."
+  }
+ ]
+}

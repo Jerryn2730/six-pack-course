@@ -1,0 +1,52 @@
+{
+ "slide": "nav-08-2",
+ "lessonId": "nav-08",
+ "n": 2,
+ "audio": "nav-08-2.mp3",
+ "duration": 47.175,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.65,
+   "builds": 0,
+   "text": "The Tidal Current Tables work like the Tide Tables."
+  },
+  {
+   "i": 1,
+   "start": 3.9,
+   "speechStart": 3.9,
+   "end": 12.25,
+   "builds": 0,
+   "text": "Table one gives daily times of slack water and maximum current at reference stations, with maximum flood and ebb speeds."
+  },
+  {
+   "i": 2,
+   "start": 12.5,
+   "speechStart": 12.5,
+   "end": 24.35,
+   "builds": 0,
+   "text": "Table two gives corrections for subordinate stations: time differences for slack and maximum current, speed ratios for flood and ebb, and the true directions of flood and ebb."
+  },
+  {
+   "i": 3,
+   "start": 24.6,
+   "speechStart": 24.6,
+   "end": 29.725,
+   "builds": 0,
+   "text": "Table three gives the current speed at any time between slack and maximum."
+  },
+  {
+   "i": 4,
+   "start": 29.975,
+   "speechStart": 29.975,
+   "end": 46.875,
+   "builds": 0,
+   "text": "For example, if the reference station predicts a maximum flood of two knots at fourteen hundred, and a subordinate station has a time difference of minus twenty minutes and a flood ratio of point six, expect a maximum flood of one point two knots at thirteen forty."
+  }
+ ]
+}

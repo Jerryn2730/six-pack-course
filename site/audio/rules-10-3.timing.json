@@ -1,0 +1,68 @@
+{
+ "slide": "rules-10-3",
+ "lessonId": "rules-10",
+ "n": 3,
+ "audio": "rules-10-3.mp3",
+ "duration": 45.95,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.35,
+   "builds": 0,
+   "text": "Now the vessels being towed."
+  },
+  {
+   "i": 1,
+   "start": 2.6,
+   "speechStart": 2.6,
+   "end": 11.65,
+   "builds": 0,
+   "text": "A vessel or object towed astern shows sidelights and a sternlight, plus a diamond shape by day when the tow is over two hundred meters."
+  },
+  {
+   "i": 2,
+   "start": 11.9,
+   "speechStart": 11.9,
+   "end": 17.875,
+   "builds": 0,
+   "text": "Under International rules, a vessel being pushed ahead shows sidelights at the forward end."
+  },
+  {
+   "i": 3,
+   "start": 18.125,
+   "speechStart": 18.125,
+   "end": 23.825,
+   "builds": 0,
+   "text": "Under Inland rules, she shows sidelights and a special flashing light at the forward end."
+  },
+  {
+   "i": 4,
+   "start": 24.075,
+   "speechStart": 24.075,
+   "end": 34.375,
+   "builds": 0,
+   "text": "The special flashing light is yellow, flashes fifty to seventy times a minute, and shows forward over an arc between one hundred eighty and two hundred twenty-five degrees."
+  },
+  {
+   "i": 5,
+   "start": 34.625,
+   "speechStart": 34.625,
+   "end": 39.775,
+   "builds": 0,
+   "text": "A vessel towed alongside shows a sternlight and, at the forward end, sidelights."
+  },
+  {
+   "i": 6,
+   "start": 40.025,
+   "speechStart": 40.025,
+   "end": 45.65,
+   "builds": 0,
+   "text": "Any number of vessels pushed or towed alongside in a group are lit as one vessel."
+  }
+ ]
+}

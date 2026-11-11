@@ -1,0 +1,60 @@
+{
+ "slide": "plot-07-1",
+ "lessonId": "plot-07",
+ "n": 1,
+ "audio": "plot-07-1.mp3",
+ "duration": 34.225,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.55,
+   "builds": 0,
+   "text": "Plotting uses standard symbols."
+  },
+  {
+   "i": 1,
+   "start": 2.8,
+   "speechStart": 2.8,
+   "end": 7.525,
+   "builds": 0,
+   "text": "A fix, from two or more good lines of position, is a small circle."
+  },
+  {
+   "i": 2,
+   "start": 7.775,
+   "speechStart": 7.775,
+   "end": 13.975,
+   "builds": 0,
+   "text": "A dead reckoning position, from course and speed alone, is a half circle drawn on the course line."
+  },
+  {
+   "i": 3,
+   "start": 14.225,
+   "speechStart": 14.225,
+   "end": 22.975,
+   "builds": 0,
+   "text": "An estimated position, a DR improved with other information such as current or a single line of position, is a small square."
+  },
+  {
+   "i": 4,
+   "start": 23.225,
+   "speechStart": 23.225,
+   "end": 28.575,
+   "builds": 0,
+   "text": "An electronic fix, such as from GPS, is often shown as a triangle."
+  },
+  {
+   "i": 5,
+   "start": 28.825,
+   "speechStart": 28.825,
+   "end": 33.925,
+   "builds": 0,
+   "text": "Write the time beside every position, followed by fix, D R or E P."
+  }
+ ]
+}

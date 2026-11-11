@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:03.100
+Fixes don’t have to come from two bearings.
+
+2
+00:00:03.350 --> 00:00:10.850
+A bearing and a radar range on the same object make an excellent fix, because the two lines cross at right angles.
+
+3
+00:00:11.100 --> 00:00:15.775
+Radar ranges to two separate objects give two circles that cross.
+
+4
+00:00:16.025 --> 00:00:20.075
+A range line plus a bearing on another object works well.
+
+5
+00:00:20.325 --> 00:00:25.075
+An electronic fix from GPS is marked with a small triangle.
+
+6
+00:00:25.325 --> 00:00:31.750
+Whatever the method, cross-check every fix against another source, like the depth, before you trust it.

@@ -1,0 +1,68 @@
+{
+ "slide": "nav-03-2",
+ "lessonId": "nav-03",
+ "n": 2,
+ "audio": "nav-03-2.mp3",
+ "duration": 41.025,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.975,
+   "builds": 0,
+   "text": "Lighted lateral buoys usually aren’t nun or can shaped."
+  },
+  {
+   "i": 1,
+   "start": 4.225,
+   "speechStart": 4.225,
+   "end": 9.275,
+   "builds": 0,
+   "text": "They’re pillar or spar buoys, so you identify them by color, number and light."
+  },
+  {
+   "i": 2,
+   "start": 9.525,
+   "speechStart": 9.525,
+   "end": 13.975,
+   "builds": 0,
+   "text": "A red mark shows a red light and a green mark shows a green light."
+  },
+  {
+   "i": 3,
+   "start": 14.225,
+   "speechStart": 14.225,
+   "end": 19.25,
+   "builds": 0,
+   "text": "Lateral lights use flashing, occulting, quick or isophase rhythms."
+  },
+  {
+   "i": 4,
+   "start": 19.5,
+   "speechStart": 19.5,
+   "end": 25.825,
+   "builds": 0,
+   "text": "A quick-flashing light often marks a sharp turn, a junction, or a spot needing special caution."
+  },
+  {
+   "i": 5,
+   "start": 26.075,
+   "speechStart": 26.075,
+   "end": 34.1,
+   "builds": 0,
+   "text": "A preferred channel mark shows a composite group-flashing light, two flashes followed by one, in the color of its top band."
+  },
+  {
+   "i": 6,
+   "start": 34.35,
+   "speechStart": 34.35,
+   "end": 40.725,
+   "builds": 0,
+   "text": "Unlighted buoys carry reflective tape in the mark’s color, so a spotlight at night can identify them."
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "slide": "plot-07-2",
+ "lessonId": "plot-07",
+ "n": 2,
+ "audio": "plot-07-2.mp3",
+ "duration": 29.6,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.25,
+   "builds": 0,
+   "text": "Dead reckoning follows a few standard rules."
+  },
+  {
+   "i": 1,
+   "start": 3.5,
+   "speechStart": 3.5,
+   "end": 15.175,
+   "builds": 0,
+   "text": "Plot a DR position every hour on the hour, at every change of course or speed, at the time of every fix or running fix, and at the time you obtain a single line of position."
+  },
+  {
+   "i": 2,
+   "start": 15.425,
+   "speechStart": 15.425,
+   "end": 22.575,
+   "builds": 0,
+   "text": "Whenever you get a fix, start a new DR track from it, because the fix is better information than your old DR."
+  },
+  {
+   "i": 3,
+   "start": 22.825,
+   "speechStart": 22.825,
+   "end": 29.3,
+   "builds": 0,
+   "text": "These rules come from Bowditch, the standard navigation reference, and exam problems follow them."
+  }
+ ]
+}

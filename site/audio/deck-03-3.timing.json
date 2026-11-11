@@ -1,0 +1,52 @@
+{
+ "slide": "deck-03-3",
+ "lessonId": "deck-03",
+ "n": 3,
+ "audio": "deck-03-3.mp3",
+ "duration": 34.05,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.375,
+   "builds": 0,
+   "text": "When fire breaks out, raise the alarm, get life jackets on everyone, and move passengers away from the fire."
+  },
+  {
+   "i": 1,
+   "start": 7.625,
+   "speechStart": 7.625,
+   "end": 14.875,
+   "builds": 0,
+   "text": "Maneuver the boat so the wind carries smoke and flames away from people, which often means putting the fire downwind."
+  },
+  {
+   "i": 2,
+   "start": 15.125,
+   "speechStart": 15.125,
+   "end": 23.075,
+   "builds": 0,
+   "text": "Use a portable extinguisher with PASS: pull the pin, aim at the base of the fire, squeeze the handle and sweep side to side."
+  },
+  {
+   "i": 3,
+   "start": 23.325,
+   "speechStart": 23.325,
+   "end": 25.55,
+   "builds": 0,
+   "text": "Keep an escape route behind you."
+  },
+  {
+   "i": 4,
+   "start": 25.8,
+   "speechStart": 25.8,
+   "end": 33.75,
+   "builds": 0,
+   "text": "Small boat fires grow very fast, so if the fire isn’t out within seconds, call Mayday and prepare to abandon the boat."
+  }
+ ]
+}

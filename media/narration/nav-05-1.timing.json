@@ -1,0 +1,92 @@
+{
+ "slide": "nav-05-1",
+ "lessonId": "nav-05",
+ "n": 1,
+ "audio": "nav-05-1.mp3",
+ "duration": 47.975,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.075,
+   "builds": 0,
+   "text": "Every lighted aid has a characteristic, the pattern that identifies it."
+  },
+  {
+   "i": 1,
+   "start": 5.325,
+   "speechStart": 5.325,
+   "end": 7.2,
+   "builds": 0,
+   "text": "Fixed means steady."
+  },
+  {
+   "i": 2,
+   "start": 7.45,
+   "speechStart": 7.45,
+   "end": 10.8,
+   "builds": 0,
+   "text": "Flashing means the light is dark longer than lit."
+  },
+  {
+   "i": 3,
+   "start": 11.05,
+   "speechStart": 11.05,
+   "end": 13.9,
+   "builds": 0,
+   "text": "Quick means about sixty flashes a minute."
+  },
+  {
+   "i": 4,
+   "start": 14.15,
+   "speechStart": 14.15,
+   "end": 16.95,
+   "builds": 0,
+   "text": "Isophase means equal light and dark."
+  },
+  {
+   "i": 5,
+   "start": 17.2,
+   "speechStart": 17.2,
+   "end": 21.325,
+   "builds": 0,
+   "text": "Occulting means lit longer than dark, with brief eclipses."
+  },
+  {
+   "i": 6,
+   "start": 21.575,
+   "speechStart": 21.575,
+   "end": 24.525,
+   "builds": 0,
+   "text": "Group flashing shows flashes in groups."
+  },
+  {
+   "i": 7,
+   "start": 24.775,
+   "speechStart": 24.775,
+   "end": 27.275,
+   "builds": 0,
+   "text": "Morse A shows a short and a long."
+  },
+  {
+   "i": 8,
+   "start": 27.525,
+   "speechStart": 27.525,
+   "end": 43.325,
+   "builds": 0,
+   "text": "A chart label like F L two, white, ten seconds, forty-five feet, fourteen miles means a white light flashing two at a time every ten seconds, forty-five feet above mean high water, with a nominal range of fourteen nautical miles."
+  },
+  {
+   "i": 9,
+   "start": 43.575,
+   "speechStart": 43.575,
+   "end": 47.675,
+   "builds": 0,
+   "text": "Time the period with a watch to confirm which light you’re looking at."
+  }
+ ]
+}

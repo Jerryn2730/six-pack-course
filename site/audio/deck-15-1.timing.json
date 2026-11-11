@@ -1,0 +1,36 @@
+{
+ "slide": "deck-15-1",
+ "lessonId": "deck-15",
+ "n": 1,
+ "audio": "deck-15-1.mp3",
+ "duration": 34.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.375,
+   "builds": 0,
+   "text": "As a commercial operator, you must report marine casualties to the Coast Guard."
+  },
+  {
+   "i": 1,
+   "start": 5.625,
+   "speechStart": 5.625,
+   "end": 31.925,
+   "builds": 0,
+   "text": "Reportable casualties include an unintended grounding or striking a bridge; a loss of propulsion, steering or control that reduces the boat’s maneuverability; anything that affects the boat’s seaworthiness, such as a fire or flooding; a death; an injury that requires professional medical treatment beyond first aid; property damage over seventy-five thousand dollars; and significant harm to the environment."
+  },
+  {
+   "i": 2,
+   "start": 32.175,
+   "speechStart": 32.175,
+   "end": 34.15,
+   "builds": 0,
+   "text": "When in doubt, report it."
+  }
+ ]
+}

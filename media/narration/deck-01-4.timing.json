@@ -1,0 +1,52 @@
+{
+ "slide": "deck-01-4",
+ "lessonId": "deck-01",
+ "n": 4,
+ "audio": "deck-01-4.mp3",
+ "duration": 37.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.875,
+   "builds": 0,
+   "text": "Your boat needs the right paperwork too."
+  },
+  {
+   "i": 1,
+   "start": 3.125,
+   "speechStart": 3.125,
+   "end": 17.75,
+   "builds": 0,
+   "text": "A boat of five net tons or more that carries passengers for hire between American points must be documented by the Coast Guard with a coastwise endorsement, which also has requirements about where the boat was built and who owns it."
+  },
+  {
+   "i": 2,
+   "start": 18.0,
+   "speechStart": 18.0,
+   "end": 20.8,
+   "builds": 0,
+   "text": "Smaller boats are registered with the state."
+  },
+  {
+   "i": 3,
+   "start": 21.05,
+   "speechStart": 21.05,
+   "end": 31.8,
+   "builds": 0,
+   "text": "In Florida, charter fishing operations also need the right saltwater fishing license from the Fish and Wildlife Conservation Commission so your customers are covered."
+  },
+  {
+   "i": 4,
+   "start": 32.05,
+   "speechStart": 32.05,
+   "end": 37.15,
+   "builds": 0,
+   "text": "Carry your credential, the boat’s documents and all required placards aboard."
+  }
+ ]
+}

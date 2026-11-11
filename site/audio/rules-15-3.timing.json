@@ -1,0 +1,44 @@
+{
+ "slide": "rules-15-3",
+ "lessonId": "rules-15",
+ "n": 3,
+ "audio": "rules-15-3.mp3",
+ "duration": 47.425,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 16.425,
+   "builds": 0,
+   "text": "The Vessel Bridge-to-Bridge Radiotelephone Act requires certain vessels on American waters to keep a listening watch on the designated bridge-to-bridge channel, which is VHF channel thirteen in most areas, so that captains can talk directly to each other."
+  },
+  {
+   "i": 1,
+   "start": 16.675,
+   "speechStart": 16.675,
+   "end": 32.85,
+   "builds": 0,
+   "text": "It applies to power-driven vessels of twenty meters or more, vessels of one hundred gross tons or more carrying one or more passengers for hire, towing vessels of twenty-six feet or more, and dredges and floating plant working in or near a channel."
+  },
+  {
+   "i": 2,
+   "start": 33.1,
+   "speechStart": 33.1,
+   "end": 37.425,
+   "builds": 0,
+   "text": "The person keeping the watch must be able to communicate in English."
+  },
+  {
+   "i": 3,
+   "start": 37.675,
+   "speechStart": 37.675,
+   "end": 47.125,
+   "builds": 0,
+   "text": "Most six-pack charter boats aren’t required to participate, but monitoring channels thirteen and sixteen near ship channels is good seamanship."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slide": "nav-06-4",
+ "lessonId": "nav-06",
+ "n": 4,
+ "audio": "nav-06-4.mp3",
+ "duration": 32.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.9,
+   "builds": 0,
+   "text": "Correcting charts is a basic duty."
+  },
+  {
+   "i": 1,
+   "start": 3.15,
+   "speechStart": 3.15,
+   "end": 11.35,
+   "builds": 0,
+   "text": "Start with the edition date of your chart, then check every Local Notice to Mariners issued since that date for corrections that affect it."
+  },
+  {
+   "i": 2,
+   "start": 11.6,
+   "speechStart": 11.6,
+   "end": 18.65,
+   "builds": 0,
+   "text": "On paper charts, mark corrections neatly and record them in a correction log, so you know the chart is up to date."
+  },
+  {
+   "i": 3,
+   "start": 18.9,
+   "speechStart": 18.9,
+   "end": 25.85,
+   "builds": 0,
+   "text": "On chartplotters, install chart updates regularly, since an old memory card can be years out of date."
+  },
+  {
+   "i": 4,
+   "start": 26.1,
+   "speechStart": 26.1,
+   "end": 32.175,
+   "builds": 0,
+   "text": "When sources disagree, use the most recent information and navigate with extra caution."
+  }
+ ]
+}

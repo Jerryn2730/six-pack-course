@@ -1,0 +1,68 @@
+{
+ "slide": "nav-05-5",
+ "lessonId": "nav-05",
+ "n": 5,
+ "audio": "nav-05-5.mp3",
+ "duration": 38.925,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.05,
+   "builds": 0,
+   "text": "Let’s work one more."
+  },
+  {
+   "i": 1,
+   "start": 2.3,
+   "speechStart": 2.3,
+   "end": 8.3,
+   "builds": 0,
+   "text": "A light stands one hundred feet above the water, and your eye is sixteen feet up on a flybridge."
+  },
+  {
+   "i": 2,
+   "start": 8.55,
+   "speechStart": 8.55,
+   "end": 16.0,
+   "builds": 0,
+   "text": "The square root of one hundred is ten, and ten times one point one seven gives about eleven point seven miles."
+  },
+  {
+   "i": 3,
+   "start": 16.25,
+   "speechStart": 16.25,
+   "end": 23.4,
+   "builds": 0,
+   "text": "The square root of sixteen is four, and four times one point one seven gives about four point seven miles."
+  },
+  {
+   "i": 4,
+   "start": 23.65,
+   "speechStart": 23.65,
+   "end": 28.25,
+   "builds": 0,
+   "text": "The geographic range is the sum, about sixteen point four miles."
+  },
+  {
+   "i": 5,
+   "start": 28.5,
+   "speechStart": 28.5,
+   "end": 35.875,
+   "builds": 0,
+   "text": "But if tonight’s visibility limits the luminous range to twelve miles, you’ll only see the light at about twelve miles."
+  },
+  {
+   "i": 6,
+   "start": 36.125,
+   "speechStart": 36.125,
+   "end": 38.625,
+   "builds": 0,
+   "text": "The lesser range always wins."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "slide": "plot-07-4",
+ "lessonId": "plot-07",
+ "n": 4,
+ "audio": "plot-07-4.mp3",
+ "duration": 34.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.075,
+   "builds": 0,
+   "text": "Here’s a DR track."
+  },
+  {
+   "i": 1,
+   "start": 2.325,
+   "speechStart": 2.325,
+   "end": 6.975,
+   "builds": 0,
+   "text": "You leave an eight hundred fix on course one two five true at ten knots."
+  },
+  {
+   "i": 2,
+   "start": 7.225,
+   "speechStart": 7.225,
+   "end": 11.475,
+   "builds": 0,
+   "text": "At nine hundred, plot a DR ten miles along that course."
+  },
+  {
+   "i": 3,
+   "start": 11.725,
+   "speechStart": 11.725,
+   "end": 18.05,
+   "builds": 0,
+   "text": "At nine thirty you change course, so plot a DR there, five more miles along one two five."
+  },
+  {
+   "i": 4,
+   "start": 18.3,
+   "speechStart": 18.3,
+   "end": 26.875,
+   "builds": 0,
+   "text": "From that nine thirty DR, draw the new course line at one six zero true, and at ten hundred plot a DR five miles along it."
+  },
+  {
+   "i": 5,
+   "start": 27.125,
+   "speechStart": 27.125,
+   "end": 29.7,
+   "builds": 0,
+   "text": "Label each position with its time."
+  },
+  {
+   "i": 6,
+   "start": 29.95,
+   "speechStart": 29.95,
+   "end": 34.55,
+   "builds": 0,
+   "text": "If you get a fix along the way, start a fresh DR track from the fix."
+  }
+ ]
+}

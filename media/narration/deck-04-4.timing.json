@@ -1,0 +1,52 @@
+{
+ "slide": "deck-04-4",
+ "lessonId": "deck-04",
+ "n": 4,
+ "audio": "deck-04-4.mp3",
+ "duration": 37.9,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 12.2,
+   "builds": 0,
+   "text": "Batteries give off explosive hydrogen gas while charging, so battery compartments need ventilation, and batteries must be secured so they can’t shift in a seaway, with terminals covered."
+  },
+  {
+   "i": 1,
+   "start": 12.45,
+   "speechStart": 12.45,
+   "end": 19.3,
+   "builds": 0,
+   "text": "Use marine-rated wiring, breakers and fuses, since many boat fires start with electrical faults."
+  },
+  {
+   "i": 2,
+   "start": 19.55,
+   "speechStart": 19.55,
+   "end": 23.625,
+   "builds": 0,
+   "text": "Inspect shore power cords and connectors for heat damage."
+  },
+  {
+   "i": 3,
+   "start": 23.875,
+   "speechStart": 23.875,
+   "end": 26.55,
+   "builds": 0,
+   "text": "And remember electric shock drowning."
+  },
+  {
+   "i": 4,
+   "start": 26.8,
+   "speechStart": 26.8,
+   "end": 37.6,
+   "builds": 0,
+   "text": "Faulty wiring can energize the water around docks, especially in fresh or brackish water, so never let anyone swim near a marina or dock with shore power."
+  }
+ ]
+}

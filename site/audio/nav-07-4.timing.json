@@ -1,0 +1,60 @@
+{
+ "slide": "nav-07-4",
+ "lessonId": "nav-07",
+ "n": 4,
+ "audio": "nav-07-4.mp3",
+ "duration": 41.575,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.575,
+   "builds": 0,
+   "text": "The classic Tide Tables used on the exam have three main tables."
+  },
+  {
+   "i": 1,
+   "start": 4.825,
+   "speechStart": 4.825,
+   "end": 10.825,
+   "builds": 0,
+   "text": "Table one gives the daily times and heights of high and low water at reference stations."
+  },
+  {
+   "i": 2,
+   "start": 11.075,
+   "speechStart": 11.075,
+   "end": 20.125,
+   "builds": 0,
+   "text": "Table two lists subordinate stations, each tied to a reference station, with time differences for high and low water and height corrections."
+  },
+  {
+   "i": 3,
+   "start": 20.375,
+   "speechStart": 20.375,
+   "end": 29.775,
+   "builds": 0,
+   "text": "Height corrections are either a number of feet to add or subtract, or a ratio, marked with an asterisk, that you multiply by the reference heights."
+  },
+  {
+   "i": 4,
+   "start": 30.025,
+   "speechStart": 30.025,
+   "end": 35.7,
+   "builds": 0,
+   "text": "Table three lets you find the height of tide at any time between high and low water."
+  },
+  {
+   "i": 5,
+   "start": 35.95,
+   "speechStart": 35.95,
+   "end": 41.275,
+   "builds": 0,
+   "text": "Times are in local standard time, so add one hour during daylight saving time."
+  }
+ ]
+}

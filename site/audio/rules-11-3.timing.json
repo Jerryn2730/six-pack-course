@@ -1,0 +1,76 @@
+{
+ "slide": "rules-11-3",
+ "lessonId": "rules-11",
+ "n": 3,
+ "audio": "rules-11-3.mp3",
+ "duration": 43.0,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.9,
+   "builds": 0,
+   "text": "Rule twenty-six covers vessels engaged in fishing, whether underway or at anchor."
+  },
+  {
+   "i": 1,
+   "start": 6.15,
+   "speechStart": 6.15,
+   "end": 10.025,
+   "builds": 0,
+   "text": "A trawler shows two all-round lights, green over white."
+  },
+  {
+   "i": 2,
+   "start": 10.275,
+   "speechStart": 10.275,
+   "end": 12.775,
+   "builds": 0,
+   "text": "Green over white, trawling tonight."
+  },
+  {
+   "i": 3,
+   "start": 13.025,
+   "speechStart": 13.025,
+   "end": 21.3,
+   "builds": 0,
+   "text": "She also shows a masthead light abaft of and higher than the green light, though a vessel under fifty meters isn’t required to."
+  },
+  {
+   "i": 4,
+   "start": 21.55,
+   "speechStart": 21.55,
+   "end": 25.425,
+   "builds": 0,
+   "text": "A vessel fishing other than trawling shows red over white."
+  },
+  {
+   "i": 5,
+   "start": 25.675,
+   "speechStart": 25.675,
+   "end": 28.15,
+   "builds": 0,
+   "text": "Red over white, fishing tonight."
+  },
+  {
+   "i": 6,
+   "start": 28.4,
+   "speechStart": 28.4,
+   "end": 37.125,
+   "builds": 0,
+   "text": "When her outlying gear extends more than one hundred fifty meters horizontally, she adds an all-round white light in the direction of the gear."
+  },
+  {
+   "i": 7,
+   "start": 37.375,
+   "speechStart": 37.375,
+   "end": 42.7,
+   "builds": 0,
+   "text": "In both cases, when making way through the water, she adds sidelights and a sternlight."
+  }
+ ]
+}

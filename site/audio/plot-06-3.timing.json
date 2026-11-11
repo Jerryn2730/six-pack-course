@@ -1,0 +1,68 @@
+{
+ "slide": "plot-06-3",
+ "lessonId": "plot-06",
+ "n": 3,
+ "audio": "plot-06-3.mp3",
+ "duration": 33.175,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.675,
+   "builds": 0,
+   "text": "A third bearing checks the other two."
+  },
+  {
+   "i": 1,
+   "start": 2.925,
+   "speechStart": 2.925,
+   "end": 7.9,
+   "builds": 0,
+   "text": "Because of small errors, three bearings rarely meet at exactly one point."
+  },
+  {
+   "i": 2,
+   "start": 8.15,
+   "speechStart": 8.15,
+   "end": 11.95,
+   "builds": 0,
+   "text": "Instead, they form a small triangle, called a cocked hat."
+  },
+  {
+   "i": 3,
+   "start": 12.2,
+   "speechStart": 12.2,
+   "end": 15.05,
+   "builds": 0,
+   "text": "Plot your fix in the middle of the triangle."
+  },
+  {
+   "i": 4,
+   "start": 15.3,
+   "speechStart": 15.3,
+   "end": 25.8,
+   "builds": 0,
+   "text": "If the triangle is large, something is wrong: a misidentified landmark, a misread compass, a bearing plotted from the wrong side, or a forgotten correction."
+  },
+  {
+   "i": 5,
+   "start": 26.05,
+   "speechStart": 26.05,
+   "end": 28.2,
+   "builds": 0,
+   "text": "Recheck before trusting it."
+  },
+  {
+   "i": 6,
+   "start": 28.45,
+   "speechStart": 28.45,
+   "end": 32.875,
+   "builds": 0,
+   "text": "The ideal is three objects about one hundred twenty degrees apart."
+  }
+ ]
+}

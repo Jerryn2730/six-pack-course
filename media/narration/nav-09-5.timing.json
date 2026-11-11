@@ -1,0 +1,68 @@
+{
+ "slide": "nav-09-5",
+ "lessonId": "nav-09",
+ "n": 5,
+ "audio": "nav-09-5.mp3",
+ "duration": 38.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.65,
+   "builds": 0,
+   "text": "Here’s that bearing trap worked out."
+  },
+  {
+   "i": 1,
+   "start": 2.9,
+   "speechStart": 2.9,
+   "end": 9.675,
+   "builds": 0,
+   "text": "You’re steering zero four five by compass, and your deviation card shows two degrees west on that heading."
+  },
+  {
+   "i": 2,
+   "start": 9.925,
+   "speechStart": 9.925,
+   "end": 12.65,
+   "builds": 0,
+   "text": "Variation is five degrees west."
+  },
+  {
+   "i": 3,
+   "start": 12.9,
+   "speechStart": 12.9,
+   "end": 17.125,
+   "builds": 0,
+   "text": "You take a compass bearing on a lighthouse and read one two zero."
+  },
+  {
+   "i": 4,
+   "start": 17.375,
+   "speechStart": 17.375,
+   "end": 22.925,
+   "builds": 0,
+   "text": "Use the deviation for your heading, two west, not the deviation for one two zero."
+  },
+  {
+   "i": 5,
+   "start": 23.175,
+   "speechStart": 23.175,
+   "end": 33.075,
+   "builds": 0,
+   "text": "Correcting toward true, subtract west: one two zero minus two is one one eight magnetic, and one one eight minus five is one one three true."
+  },
+  {
+   "i": 6,
+   "start": 33.325,
+   "speechStart": 33.325,
+   "end": 38.175,
+   "builds": 0,
+   "text": "Bearings are always plotted on the chart as true, so you’d plot one one three."
+  }
+ ]
+}

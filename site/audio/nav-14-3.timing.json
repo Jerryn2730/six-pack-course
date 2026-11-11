@@ -1,0 +1,52 @@
+{
+ "slide": "nav-14-3",
+ "lessonId": "nav-14",
+ "n": 3,
+ "audio": "nav-14-3.mp3",
+ "duration": 40.175,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.75,
+   "builds": 0,
+   "text": "In the Northern Hemisphere, hurricane winds circulate counterclockwise."
+  },
+  {
+   "i": 1,
+   "start": 5.0,
+   "speechStart": 5.0,
+   "end": 18.775,
+   "builds": 0,
+   "text": "On the right side of the storm’s track, the storm’s forward motion adds to the wind speed, so this is called the dangerous semicircle, and the right front quadrant usually has the strongest winds and the highest storm surge."
+  },
+  {
+   "i": 2,
+   "start": 19.025,
+   "speechStart": 19.025,
+   "end": 27.5,
+   "builds": 0,
+   "text": "On the left side, forward motion subtracts from the wind, so it’s called the navigable semicircle, though it’s still extremely dangerous."
+  },
+  {
+   "i": 3,
+   "start": 27.75,
+   "speechStart": 27.75,
+   "end": 31.5,
+   "builds": 0,
+   "text": "For a charter captain, the real lesson is preparation."
+  },
+  {
+   "i": 4,
+   "start": 31.75,
+   "speechStart": 31.75,
+   "end": 39.875,
+   "builds": 0,
+   "text": "Have a written hurricane plan, know where you’ll secure or haul the boat, and act early, because bridges lock down and marinas fill up."
+  }
+ ]
+}

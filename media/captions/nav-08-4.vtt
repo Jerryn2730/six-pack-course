@@ -1,0 +1,29 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:05.050
+Current sailing means finding a course to steer that cancels a known current.
+
+2
+00:00:05.300 --> 00:00:09.525
+Draw your intended track from your position to your destination.
+
+3
+00:00:09.775 --> 00:00:15.050
+From your starting point, draw the current vector, its set and its drift for one hour.
+
+4
+00:00:15.300 --> 00:00:22.600
+Then, from the end of the current vector, swing an arc equal to your boat speed until it crosses the intended track.
+
+5
+00:00:22.850 --> 00:00:28.400
+The line from the end of the current vector to that crossing point is your course to steer.
+
+6
+00:00:28.650 --> 00:00:33.850
+The distance from your start to the crossing point along the track is your speed made good.
+
+7
+00:00:34.100 --> 00:00:36.850
+You’ll practice this in the plotting module.

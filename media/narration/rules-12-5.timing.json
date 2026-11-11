@@ -1,0 +1,60 @@
+{
+ "slide": "rules-12-5",
+ "lessonId": "rules-12",
+ "n": 5,
+ "audio": "rules-12-5.mp3",
+ "duration": 37.95,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.65,
+   "builds": 0,
+   "text": "Rule thirty covers anchored and aground vessels."
+  },
+  {
+   "i": 1,
+   "start": 3.9,
+   "speechStart": 3.9,
+   "end": 13.2,
+   "builds": 0,
+   "text": "A vessel at anchor shows an all-round white light in the fore part, and at or near the stern a second all-round white light, lower than the forward one."
+  },
+  {
+   "i": 2,
+   "start": 13.45,
+   "speechStart": 13.45,
+   "end": 19.8,
+   "builds": 0,
+   "text": "A vessel under fifty meters may instead show one all-round white light where it can best be seen."
+  },
+  {
+   "i": 3,
+   "start": 20.05,
+   "speechStart": 20.05,
+   "end": 25.65,
+   "builds": 0,
+   "text": "A vessel one hundred meters or more must also illuminate her decks with working lights."
+  },
+  {
+   "i": 4,
+   "start": 25.9,
+   "speechStart": 25.9,
+   "end": 31.825,
+   "builds": 0,
+   "text": "A vessel aground shows her anchor lights plus two all-round red lights in a vertical line."
+  },
+  {
+   "i": 5,
+   "start": 32.075,
+   "speechStart": 32.075,
+   "end": 37.65,
+   "builds": 0,
+   "text": "By day, one ball means at anchor, and three balls in a vertical line means aground."
+  }
+ ]
+}

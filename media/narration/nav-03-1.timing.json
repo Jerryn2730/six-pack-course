@@ -1,0 +1,60 @@
+{
+ "slide": "nav-03-1",
+ "lessonId": "nav-03",
+ "n": 1,
+ "audio": "nav-03-1.mp3",
+ "duration": 40.5,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.225,
+   "builds": 0,
+   "text": "The United States uses IALA Region B, the buoyage system of the Americas, Japan, Korea and the Philippines."
+  },
+  {
+   "i": 1,
+   "start": 8.475,
+   "speechStart": 8.475,
+   "end": 12.45,
+   "builds": 0,
+   "text": "It is built on one phrase: red, right, returning."
+  },
+  {
+   "i": 2,
+   "start": 12.7,
+   "speechStart": 12.7,
+   "end": 29.15,
+   "builds": 0,
+   "text": "Returning means coming in from seaward, heading upstream, or, along the coast, traveling in the conventional direction, which runs clockwise around the country: south along the Atlantic coast, north up Florida’s Gulf coast, then west along the Gulf."
+  },
+  {
+   "i": 3,
+   "start": 29.4,
+   "speechStart": 29.4,
+   "end": 33.825,
+   "builds": 0,
+   "text": "Red buoys are nuns, with pointed tops, and carry even numbers."
+  },
+  {
+   "i": 4,
+   "start": 34.075,
+   "speechStart": 34.075,
+   "end": 37.35,
+   "builds": 0,
+   "text": "Green buoys are cans and carry odd numbers."
+  },
+  {
+   "i": 5,
+   "start": 37.6,
+   "speechStart": 37.6,
+   "end": 40.2,
+   "builds": 0,
+   "text": "Numbers increase heading inbound."
+  }
+ ]
+}

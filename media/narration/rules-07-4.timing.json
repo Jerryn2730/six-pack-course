@@ -1,0 +1,52 @@
+{
+ "slide": "rules-07-4",
+ "lessonId": "rules-07",
+ "n": 4,
+ "audio": "rules-07-4.mp3",
+ "duration": 37.925,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.625,
+   "builds": 0,
+   "text": "Rule eighteen opens with an important exception: except where Rules nine, ten and thirteen otherwise require."
+  },
+  {
+   "i": 1,
+   "start": 7.875,
+   "speechStart": 7.875,
+   "end": 19.425,
+   "builds": 0,
+   "text": "So in a narrow channel, a sailing vessel or a vessel under twenty meters must not impede a large ship that can navigate only in the channel, even though the ship is power-driven."
+  },
+  {
+   "i": 2,
+   "start": 19.675,
+   "speechStart": 19.675,
+   "end": 24.675,
+   "builds": 0,
+   "text": "In a traffic separation scheme, the same applies to vessels following a lane."
+  },
+  {
+   "i": 3,
+   "start": 24.925,
+   "speechStart": 24.925,
+   "end": 29.375,
+   "builds": 0,
+   "text": "And a vessel overtaking always keeps clear, whatever type she is."
+  },
+  {
+   "i": 4,
+   "start": 29.625,
+   "speechStart": 29.625,
+   "end": 37.625,
+   "builds": 0,
+   "text": "On the exam, check whether a question mentions a narrow channel, a traffic lane or overtaking before you apply the ladder."
+  }
+ ]
+}

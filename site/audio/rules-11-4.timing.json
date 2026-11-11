@@ -1,0 +1,44 @@
+{
+ "slide": "rules-11-4",
+ "lessonId": "rules-11",
+ "n": 4,
+ "audio": "rules-11-4.mp3",
+ "duration": 34.4,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.025,
+   "builds": 0,
+   "text": "By day, a vessel engaged in fishing shows two cones with their apexes together, one above the other."
+  },
+  {
+   "i": 1,
+   "start": 7.275,
+   "speechStart": 7.275,
+   "end": 16.975,
+   "builds": 0,
+   "text": "A vessel fishing with outlying gear extending more than one hundred fifty meters also shows a cone, apex upward, in the direction of the gear."
+  },
+  {
+   "i": 2,
+   "start": 17.225,
+   "speechStart": 17.225,
+   "end": 24.625,
+   "builds": 0,
+   "text": "When a fishing vessel is not engaged in fishing, she shows only the normal lights or shapes for a vessel of her length."
+  },
+  {
+   "i": 3,
+   "start": 24.875,
+   "speechStart": 24.875,
+   "end": 34.1,
+   "builds": 0,
+   "text": "So a shrimp boat steaming home at night with her nets stowed shows ordinary power-driven lights, and has none of the privileges of a fishing vessel."
+  }
+ ]
+}

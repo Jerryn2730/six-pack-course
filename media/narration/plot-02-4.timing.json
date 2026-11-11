@@ -1,0 +1,60 @@
+{
+ "slide": "plot-02-4",
+ "lessonId": "plot-02",
+ "n": 4,
+ "audio": "plot-02-4.mp3",
+ "duration": 38.825,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.35,
+   "builds": 0,
+   "text": "Let’s read a light’s position."
+  },
+  {
+   "i": 1,
+   "start": 2.6,
+   "speechStart": 2.6,
+   "end": 10.1,
+   "builds": 0,
+   "text": "Lay a straightedge from the light horizontally to the side scale, and read forty-one degrees, ten point two minutes north."
+  },
+  {
+   "i": 2,
+   "start": 10.35,
+   "speechStart": 10.35,
+   "end": 17.475,
+   "builds": 0,
+   "text": "Next, measure with the dividers from the nearest meridian, seventy-one degrees thirty minutes west, to the light."
+  },
+  {
+   "i": 3,
+   "start": 17.725,
+   "speechStart": 17.725,
+   "end": 21.825,
+   "builds": 0,
+   "text": "Carry that to the top scale, and it spans four point six minutes."
+  },
+  {
+   "i": 4,
+   "start": 22.075,
+   "speechStart": 22.075,
+   "end": 31.65,
+   "builds": 0,
+   "text": "Because the light is west of the meridian, and west longitude increases to the west, add: seventy-one degrees thirty-four point six minutes west."
+  },
+  {
+   "i": 5,
+   "start": 31.9,
+   "speechStart": 31.9,
+   "end": 38.525,
+   "builds": 0,
+   "text": "The answer is forty-one degrees ten point two north, seventy-one degrees thirty-four point six west."
+  }
+ ]
+}

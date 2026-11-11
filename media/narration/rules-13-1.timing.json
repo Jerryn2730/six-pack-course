@@ -1,0 +1,68 @@
+{
+ "slide": "rules-13-1",
+ "lessonId": "rules-13",
+ "n": 1,
+ "audio": "rules-13-1.mp3",
+ "duration": 43.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.1,
+   "builds": 0,
+   "text": "Part D covers sound and light signals."
+  },
+  {
+   "i": 1,
+   "start": 3.35,
+   "speechStart": 3.35,
+   "end": 14.6,
+   "builds": 0,
+   "text": "Rule thirty-two defines a whistle as any device that can produce the prescribed blasts, a short blast as about one second, and a prolonged blast as four to six seconds."
+  },
+  {
+   "i": 2,
+   "start": 14.85,
+   "speechStart": 14.85,
+   "end": 18.125,
+   "builds": 0,
+   "text": "Rule thirty-three sets the equipment by length."
+  },
+  {
+   "i": 3,
+   "start": 18.375,
+   "speechStart": 18.375,
+   "end": 22.075,
+   "builds": 0,
+   "text": "A vessel twelve meters or more must carry a whistle."
+  },
+  {
+   "i": 4,
+   "start": 22.325,
+   "speechStart": 22.325,
+   "end": 26.55,
+   "builds": 0,
+   "text": "A vessel twenty meters or more must carry a whistle and a bell."
+  },
+  {
+   "i": 5,
+   "start": 26.8,
+   "speechStart": 26.8,
+   "end": 33.725,
+   "builds": 0,
+   "text": "A vessel one hundred meters or more must also carry a gong, whose tone can’t be confused with the bell."
+  },
+  {
+   "i": 6,
+   "start": 33.975,
+   "speechStart": 33.975,
+   "end": 43.15,
+   "builds": 0,
+   "text": "A vessel under twelve meters isn’t required to carry these, but if she doesn’t, she must have some other means of making an efficient sound signal."
+  }
+ ]
+}

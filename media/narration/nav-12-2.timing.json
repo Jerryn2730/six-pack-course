@@ -1,0 +1,60 @@
+{
+ "slide": "nav-12-2",
+ "lessonId": "nav-12",
+ "n": 2,
+ "audio": "nav-12-2.mp3",
+ "duration": 36.775,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.4,
+   "builds": 0,
+   "text": "Three controls matter most."
+  },
+  {
+   "i": 1,
+   "start": 2.65,
+   "speechStart": 2.65,
+   "end": 9.825,
+   "builds": 0,
+   "text": "Gain sets overall sensitivity: too low and you miss weak targets, too high and the screen fills with speckle."
+  },
+  {
+   "i": 2,
+   "start": 10.075,
+   "speechStart": 10.075,
+   "end": 14.525,
+   "builds": 0,
+   "text": "Sea clutter control reduces echoes from waves close to the boat."
+  },
+  {
+   "i": 3,
+   "start": 14.775,
+   "speechStart": 14.775,
+   "end": 18.975,
+   "builds": 0,
+   "text": "Rain clutter control breaks up the solid returns from rain."
+  },
+  {
+   "i": 4,
+   "start": 19.225,
+   "speechStart": 19.225,
+   "end": 26.5,
+   "builds": 0,
+   "text": "The danger is turning these controls up so far that real targets, like a small boat or a buoy, disappear."
+  },
+  {
+   "i": 5,
+   "start": 26.75,
+   "speechStart": 26.75,
+   "end": 36.475,
+   "builds": 0,
+   "text": "Displays can be head-up, with the heading line straight up, or north-up and course-up, which stabilize the picture using a heading sensor and make plotting easier."
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "slide": "deck-11-1",
+ "lessonId": "deck-11",
+ "n": 1,
+ "audio": "deck-11-1.mp3",
+ "duration": 36.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.2,
+   "builds": 0,
+   "text": "When someone falls overboard, the first seconds matter most."
+  },
+  {
+   "i": 1,
+   "start": 4.45,
+   "speechStart": 4.45,
+   "end": 8.575,
+   "builds": 0,
+   "text": "Shout man overboard, and point at the person, and keep pointing."
+  },
+  {
+   "i": 2,
+   "start": 8.825,
+   "speechStart": 8.825,
+   "end": 15.5,
+   "builds": 0,
+   "text": "Throw flotation immediately, a ring buoy, cushion, anything that floats, which also marks the spot."
+  },
+  {
+   "i": 3,
+   "start": 15.75,
+   "speechStart": 15.75,
+   "end": 19.0,
+   "builds": 0,
+   "text": "Press the man overboard button on your GPS."
+  },
+  {
+   "i": 4,
+   "start": 19.25,
+   "speechStart": 19.25,
+   "end": 25.475,
+   "builds": 0,
+   "text": "Turn the boat toward the side the person fell from, which swings the stern and propellers away from them."
+  },
+  {
+   "i": 5,
+   "start": 25.725,
+   "speechStart": 25.725,
+   "end": 35.85,
+   "builds": 0,
+   "text": "Assign one person whose only job is to keep their eyes and arm on the person in the water, because a head in waves disappears from sight within seconds."
+  }
+ ]
+}

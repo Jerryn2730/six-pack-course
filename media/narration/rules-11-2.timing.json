@@ -1,0 +1,52 @@
+{
+ "slide": "rules-11-2",
+ "lessonId": "rules-11",
+ "n": 2,
+ "audio": "rules-11-2.mp3",
+ "duration": 40.45,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.15,
+   "builds": 0,
+   "text": "A sailing vessel under seven meters shall, if practicable, show sidelights and a sternlight."
+  },
+  {
+   "i": 1,
+   "start": 6.4,
+   "speechStart": 6.4,
+   "end": 16.375,
+   "builds": 0,
+   "text": "If she doesn’t, she must have ready at hand an electric torch or lighted lantern showing a white light, exhibited in sufficient time to prevent collision."
+  },
+  {
+   "i": 2,
+   "start": 16.625,
+   "speechStart": 16.625,
+   "end": 24.475,
+   "builds": 0,
+   "text": "A vessel under oars may show the sailing vessel lights, but if not, she must have that same white torch or lantern ready."
+  },
+  {
+   "i": 3,
+   "start": 24.725,
+   "speechStart": 24.725,
+   "end": 34.35,
+   "builds": 0,
+   "text": "By day, a vessel proceeding under sail while also propelled by machinery shall show a cone, apex downward, forward where it can best be seen."
+  },
+  {
+   "i": 4,
+   "start": 34.6,
+   "speechStart": 34.6,
+   "end": 40.15,
+   "builds": 0,
+   "text": "Inland, a vessel under twelve meters isn’t required to show this cone, but may."
+  }
+ ]
+}

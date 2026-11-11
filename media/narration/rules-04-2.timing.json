@@ -1,0 +1,132 @@
+{
+ "slide": "rules-04-2",
+ "lessonId": "rules-04",
+ "n": 2,
+ "audio": "rules-04-2.mp3",
+ "duration": 69.35,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.375,
+   "builds": 0,
+   "text": "Rule nine has three more duties, and every one of them applies to a charter boat."
+  },
+  {
+   "i": 1,
+   "start": 5.625,
+   "speechStart": 5.625,
+   "end": 12.6,
+   "builds": 1,
+   "text": "First, a vessel engaged in fishing shall not impede any other vessel navigating within a narrow channel."
+  },
+  {
+   "i": 2,
+   "start": 12.85,
+   "speechStart": 12.85,
+   "end": 14.85,
+   "builds": 0,
+   "text": "Notice that word, any."
+  },
+  {
+   "i": 3,
+   "start": 15.1,
+   "speechStart": 15.1,
+   "end": 20.3,
+   "builds": 0,
+   "text": "Even a true fishing vessel with her nets down gives way to channel traffic here."
+  },
+  {
+   "i": 4,
+   "start": 20.55,
+   "speechStart": 20.55,
+   "end": 22.375,
+   "builds": 1,
+   "text": "Second, crossing."
+  },
+  {
+   "i": 5,
+   "start": 22.625,
+   "speechStart": 22.625,
+   "end": 29.8,
+   "builds": 0,
+   "text": "You must not cross a narrow channel if crossing would impede a vessel that can safely navigate only within it."
+  },
+  {
+   "i": 6,
+   "start": 30.05,
+   "speechStart": 30.05,
+   "end": 31.825,
+   "builds": 0,
+   "text": "So picture this."
+  },
+  {
+   "i": 7,
+   "start": 32.075,
+   "speechStart": 32.075,
+   "end": 38.1,
+   "builds": 0,
+   "text": "You’re on one side of the ship channel, the bite is on the other side, and a tanker is coming down."
+  },
+  {
+   "i": 8,
+   "start": 38.35,
+   "speechStart": 38.35,
+   "end": 40.45,
+   "builds": 0,
+   "text": "Do you dart across her bow?"
+  },
+  {
+   "i": 9,
+   "start": 40.7,
+   "speechStart": 41.45,
+   "end": 42.825,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 10,
+   "start": 43.075,
+   "speechStart": 43.075,
+   "end": 44.575,
+   "builds": 0,
+   "text": "You wait."
+  },
+  {
+   "i": 11,
+   "start": 44.825,
+   "speechStart": 44.825,
+   "end": 52.5,
+   "builds": 1,
+   "text": "And if that ship’s captain is in doubt about what you’re doing, he’ll tell you with the danger signal: at least five short blasts."
+  },
+  {
+   "i": 12,
+   "start": 52.75,
+   "speechStart": 52.75,
+   "end": 57.45,
+   "builds": 0,
+   "text": "If you ever hear five short blasts from a ship, assume they’re meant for you."
+  },
+  {
+   "i": 13,
+   "start": 57.7,
+   "speechStart": 57.7,
+   "end": 63.625,
+   "builds": 1,
+   "text": "Third, every vessel shall avoid anchoring in a narrow channel, if the circumstances allow."
+  },
+  {
+   "i": 14,
+   "start": 63.875,
+   "speechStart": 63.875,
+   "end": 69.05,
+   "builds": 0,
+   "text": "Anchoring up to fish in the ship channel is exactly what this rule is written for."
+  }
+ ]
+}

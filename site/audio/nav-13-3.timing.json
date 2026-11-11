@@ -1,0 +1,60 @@
+{
+ "slide": "nav-13-3",
+ "lessonId": "nav-13",
+ "n": 3,
+ "audio": "nav-13-3.mp3",
+ "duration": 36.0,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.425,
+   "builds": 0,
+   "text": "Your barometer and the sky give early warning."
+  },
+  {
+   "i": 1,
+   "start": 3.675,
+   "speechStart": 3.675,
+   "end": 10.7,
+   "builds": 0,
+   "text": "A falling barometer signals an approaching low or front, and a rapid fall means strong wind is coming soon."
+  },
+  {
+   "i": 2,
+   "start": 10.95,
+   "speechStart": 10.95,
+   "end": 14.225,
+   "builds": 0,
+   "text": "A rising barometer means improving weather."
+  },
+  {
+   "i": 3,
+   "start": 14.475,
+   "speechStart": 14.475,
+   "end": 21.5,
+   "builds": 0,
+   "text": "High, thin cirrus clouds that thicken and lower over several hours often mean a warm front is approaching."
+  },
+  {
+   "i": 4,
+   "start": 21.75,
+   "speechStart": 21.75,
+   "end": 27.725,
+   "builds": 0,
+   "text": "Towering cumulus clouds that grow into anvil-topped cumulonimbus mean thunderstorms."
+  },
+  {
+   "i": 5,
+   "start": 27.975,
+   "speechStart": 27.975,
+   "end": 35.7,
+   "builds": 0,
+   "text": "And remember Buys Ballot’s law: in the Northern Hemisphere, stand with your back to the wind and low pressure is on your left."
+  }
+ ]
+}

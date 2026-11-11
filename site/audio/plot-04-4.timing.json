@@ -1,0 +1,52 @@
+{
+ "slide": "plot-04-4",
+ "lessonId": "plot-04",
+ "n": 4,
+ "audio": "plot-04-4.mp3",
+ "duration": 33.2,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.475,
+   "builds": 0,
+   "text": "Fuel planning uses the rule of thirds: plan to use one third of your fuel going out, one third coming back, and keep one third in reserve."
+  },
+  {
+   "i": 1,
+   "start": 9.725,
+   "speechStart": 9.725,
+   "end": 16.375,
+   "builds": 0,
+   "text": "Say your spot is forty-two miles out, you cruise at fourteen knots, and you burn eighteen gallons an hour."
+  },
+  {
+   "i": 2,
+   "start": 16.625,
+   "speechStart": 16.625,
+   "end": 20.7,
+   "builds": 0,
+   "text": "The run out takes three hours and uses fifty-four gallons."
+  },
+  {
+   "i": 3,
+   "start": 20.95,
+   "speechStart": 20.95,
+   "end": 27.1,
+   "builds": 0,
+   "text": "By the rule of thirds, you need three times fifty-four, or one hundred sixty-two gallons aboard."
+  },
+  {
+   "i": 4,
+   "start": 27.35,
+   "speechStart": 27.35,
+   "end": 32.9,
+   "builds": 0,
+   "text": "Rough seas, head winds and heavy loads all burn more fuel, so be conservative."
+  }
+ ]
+}

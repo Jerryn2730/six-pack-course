@@ -1,0 +1,60 @@
+{
+ "slide": "nav-13-5",
+ "lessonId": "nav-13",
+ "n": 5,
+ "audio": "nav-13-5.mp3",
+ "duration": 37.375,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.45,
+   "builds": 0,
+   "text": "The Beaufort scale describes wind force by its effect on the sea."
+  },
+  {
+   "i": 1,
+   "start": 4.7,
+   "speechStart": 4.7,
+   "end": 6.7,
+   "builds": 0,
+   "text": "Force zero is calm."
+  },
+  {
+   "i": 2,
+   "start": 6.95,
+   "speechStart": 6.95,
+   "end": 12.275,
+   "builds": 0,
+   "text": "Force three, a gentle breeze of seven to ten knots, brings scattered whitecaps."
+  },
+  {
+   "i": 3,
+   "start": 12.525,
+   "speechStart": 12.525,
+   "end": 18.125,
+   "builds": 0,
+   "text": "Force four, a moderate breeze of eleven to sixteen knots, brings frequent whitecaps."
+  },
+  {
+   "i": 4,
+   "start": 18.375,
+   "speechStart": 18.375,
+   "end": 29.125,
+   "builds": 0,
+   "text": "Force six, a strong breeze of twenty-two to twenty-seven knots, builds large waves with extensive foam crests, which is where many small charter boats stay at the dock."
+  },
+  {
+   "i": 5,
+   "start": 29.375,
+   "speechStart": 29.375,
+   "end": 37.075,
+   "builds": 0,
+   "text": "Force eight is a gale, thirty-four to forty knots, and force twelve is hurricane force, sixty-four knots and above."
+  }
+ ]
+}

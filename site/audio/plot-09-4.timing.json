@@ -1,0 +1,60 @@
+{
+ "slide": "plot-09-4",
+ "lessonId": "plot-09",
+ "n": 4,
+ "audio": "plot-09-4.mp3",
+ "duration": 33.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 1.825,
+   "builds": 0,
+   "text": "Here are numbers."
+  },
+  {
+   "i": 1,
+   "start": 2.075,
+   "speechStart": 2.075,
+   "end": 11.325,
+   "builds": 0,
+   "text": "You want to make good a track of zero nine zero true at a boat speed of ten knots, and the current sets one eight zero at two knots, pushing you south."
+  },
+  {
+   "i": 2,
+   "start": 11.575,
+   "speechStart": 11.575,
+   "end": 15.025,
+   "builds": 0,
+   "text": "From the start, draw two miles toward one eight zero."
+  },
+  {
+   "i": 3,
+   "start": 15.275,
+   "speechStart": 15.275,
+   "end": 19.325,
+   "builds": 0,
+   "text": "From that point, swing ten miles until you hit the track line."
+  },
+  {
+   "i": 4,
+   "start": 19.575,
+   "speechStart": 19.575,
+   "end": 27.825,
+   "builds": 0,
+   "text": "The line you just swung runs about zero seven eight true, so you steer zero seven eight, crabbing about twelve degrees into the current."
+  },
+  {
+   "i": 5,
+   "start": 28.075,
+   "speechStart": 28.075,
+   "end": 33.175,
+   "builds": 0,
+   "text": "Your speed along the track, the speed made good, is about nine point eight knots."
+  }
+ ]
+}

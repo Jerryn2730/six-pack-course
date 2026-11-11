@@ -1,0 +1,52 @@
+{
+ "slide": "deck-14-1",
+ "lessonId": "deck-14",
+ "n": 1,
+ "audio": "deck-14-1.mp3",
+ "duration": 35.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 10.05,
+   "builds": 0,
+   "text": "The Clean Water Act prohibits discharging oil or oily waste in any amount that causes a film or sheen on the water or sludge below the surface."
+  },
+  {
+   "i": 1,
+   "start": 10.3,
+   "speechStart": 10.3,
+   "end": 18.675,
+   "builds": 0,
+   "text": "If a spill happens, report it right away to the National Response Center at one, eight hundred, four two four, eight eight zero two."
+  },
+  {
+   "i": 2,
+   "start": 18.925,
+   "speechStart": 18.925,
+   "end": 23.825,
+   "builds": 0,
+   "text": "Never use dish soap or chemical dispersants to make a sheen disappear."
+  },
+  {
+   "i": 3,
+   "start": 24.075,
+   "speechStart": 24.075,
+   "end": 27.775,
+   "builds": 0,
+   "text": "That just sinks the oil, and it’s a violation itself."
+  },
+  {
+   "i": 4,
+   "start": 28.025,
+   "speechStart": 28.025,
+   "end": 35.175,
+   "builds": 0,
+   "text": "Carry absorbent pads to soak up spills and oil in the bilge, and never pump oily bilge water overboard."
+  }
+ ]
+}

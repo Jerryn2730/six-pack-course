@@ -1,0 +1,52 @@
+{
+ "slide": "deck-07-5",
+ "lessonId": "deck-07",
+ "n": 5,
+ "audio": "deck-07-5.mp3",
+ "duration": 36.125,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.8,
+   "builds": 0,
+   "text": "Wind and current change everything."
+  },
+  {
+   "i": 1,
+   "start": 3.05,
+   "speechStart": 3.05,
+   "end": 10.125,
+   "builds": 0,
+   "text": "With the wind blowing onto the dock, stop parallel a few feet off and let the wind set you gently alongside."
+  },
+  {
+   "i": 2,
+   "start": 10.375,
+   "speechStart": 10.375,
+   "end": 18.875,
+   "builds": 0,
+   "text": "With the wind blowing off the dock, approach at a steeper angle, get a bow line or spring line on quickly, and use it to pull the boat in."
+  },
+  {
+   "i": 3,
+   "start": 19.125,
+   "speechStart": 19.125,
+   "end": 27.725,
+   "builds": 0,
+   "text": "A current from ahead is easiest to dock against, while a current from astern pushes you faster than you think, so turn around if you can."
+  },
+  {
+   "i": 4,
+   "start": 27.975,
+   "speechStart": 27.975,
+   "end": 35.825,
+   "builds": 0,
+   "text": "To leave, motor gently ahead against a bow spring with the wheel turned toward the dock to swing the stern out, then back away."
+  }
+ ]
+}

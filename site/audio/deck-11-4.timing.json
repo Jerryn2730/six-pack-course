@@ -1,0 +1,68 @@
+{
+ "slide": "deck-11-4",
+ "lessonId": "deck-11",
+ "n": 4,
+ "audio": "deck-11-4.mp3",
+ "duration": 45.6,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.225,
+   "builds": 0,
+   "text": "In the water, a life jacket is the difference between surviving and drowning."
+  },
+  {
+   "i": 1,
+   "start": 5.475,
+   "speechStart": 5.475,
+   "end": 14.025,
+   "builds": 0,
+   "text": "Cold water shock makes people gasp and inhale water in the first minute, which is why so many drownings happen to people who could swim."
+  },
+  {
+   "i": 2,
+   "start": 14.275,
+   "speechStart": 14.275,
+   "end": 28.025,
+   "builds": 0,
+   "text": "A useful guide is one, ten, one: about one minute of cold shock, ten minutes of meaningful movement before muscles fail, and about an hour before hypothermia causes unconsciousness in cold water."
+  },
+  {
+   "i": 3,
+   "start": 28.275,
+   "speechStart": 28.275,
+   "end": 33.5,
+   "builds": 0,
+   "text": "Florida’s water is warmer, which buys more time, but not unlimited time."
+  },
+  {
+   "i": 4,
+   "start": 33.75,
+   "speechStart": 33.75,
+   "end": 38.25,
+   "builds": 0,
+   "text": "Alone, hold the HELP position with knees to chest and arms crossed."
+  },
+  {
+   "i": 5,
+   "start": 38.5,
+   "speechStart": 38.5,
+   "end": 40.7,
+   "builds": 0,
+   "text": "In a group, huddle together."
+  },
+  {
+   "i": 6,
+   "start": 40.95,
+   "speechStart": 40.95,
+   "end": 45.3,
+   "builds": 0,
+   "text": "Stay with the boat if it floats, and don’t try to swim for distant shore."
+  }
+ ]
+}

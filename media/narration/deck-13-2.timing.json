@@ -1,0 +1,52 @@
+{
+ "slide": "deck-13-2",
+ "lessonId": "deck-13",
+ "n": 2,
+ "audio": "deck-13-2.mp3",
+ "duration": 34.0,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.325,
+   "builds": 0,
+   "text": "For serious bleeding, apply firm, direct pressure on the wound with a dressing and keep pressing."
+  },
+  {
+   "i": 1,
+   "start": 6.575,
+   "speechStart": 6.575,
+   "end": 16.525,
+   "builds": 0,
+   "text": "For life-threatening bleeding from an arm or leg that pressure won’t control, apply a tourniquet high on the limb, tighten it until the bleeding stops, and note the time."
+  },
+  {
+   "i": 2,
+   "start": 16.775,
+   "speechStart": 16.775,
+   "end": 24.25,
+   "builds": 0,
+   "text": "Watch for shock, a life-threatening drop in circulation, with pale, cold, clammy skin and a fast, weak pulse."
+  },
+  {
+   "i": 3,
+   "start": 24.5,
+   "speechStart": 24.5,
+   "end": 29.5,
+   "builds": 0,
+   "text": "Lay the person flat, keep them warm, and raise their legs if they aren’t injured."
+  },
+  {
+   "i": 4,
+   "start": 29.75,
+   "speechStart": 29.75,
+   "end": 33.7,
+   "builds": 0,
+   "text": "Don’t give anything to eat or drink to someone seriously hurt."
+  }
+ ]
+}

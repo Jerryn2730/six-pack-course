@@ -1,0 +1,68 @@
+{
+ "slide": "deck-15-3",
+ "lessonId": "deck-15",
+ "n": 3,
+ "audio": "deck-15-3.mp3",
+ "duration": 40.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.3,
+   "builds": 0,
+   "text": "Florida’s waterways are full of drawbridges."
+  },
+  {
+   "i": 1,
+   "start": 3.55,
+   "speechStart": 3.55,
+   "end": 11.35,
+   "builds": 0,
+   "text": "To request an opening, sound one prolonged blast followed by one short blast, or call the bridge tender by radio."
+  },
+  {
+   "i": 2,
+   "start": 11.6,
+   "speechStart": 11.6,
+   "end": 15.375,
+   "builds": 0,
+   "text": "Most Florida bridges monitor VHF channel nine."
+  },
+  {
+   "i": 3,
+   "start": 15.625,
+   "speechStart": 15.625,
+   "end": 20.675,
+   "builds": 0,
+   "text": "If the bridge will open, it answers with one prolonged and one short blast."
+  },
+  {
+   "i": 4,
+   "start": 20.925,
+   "speechStart": 20.925,
+   "end": 24.9,
+   "builds": 0,
+   "text": "If it can’t open right away, it sounds five short blasts."
+  },
+  {
+   "i": 5,
+   "start": 25.15,
+   "speechStart": 25.15,
+   "end": 36.4,
+   "builds": 0,
+   "text": "Many bridges open only on a schedule, such as on the hour and half hour, at certain times of day, and the schedules are published in the federal regulations and the Coast Pilot."
+  },
+  {
+   "i": 6,
+   "start": 36.65,
+   "speechStart": 36.65,
+   "end": 39.85,
+   "builds": 0,
+   "text": "Hold well back until the bridge is fully open."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:03.250
+Dead reckoning follows a few standard rules.
+
+2
+00:00:03.500 --> 00:00:15.175
+Plot a DR position every hour on the hour, at every change of course or speed, at the time of every fix or running fix, and at the time you obtain a single line of position.
+
+3
+00:00:15.425 --> 00:00:22.575
+Whenever you get a fix, start a new DR track from it, because the fix is better information than your old DR.
+
+4
+00:00:22.825 --> 00:00:29.300
+These rules come from Bowditch, the standard navigation reference, and exam problems follow them.

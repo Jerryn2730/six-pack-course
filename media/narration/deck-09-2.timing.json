@@ -1,0 +1,52 @@
+{
+ "slide": "deck-09-2",
+ "lessonId": "deck-09",
+ "n": 2,
+ "audio": "deck-09-2.mp3",
+ "duration": 39.175,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.6,
+   "builds": 0,
+   "text": "The rode is everything between the anchor and the boat."
+  },
+  {
+   "i": 1,
+   "start": 3.85,
+   "speechStart": 3.85,
+   "end": 15.65,
+   "builds": 0,
+   "text": "Most small boats use a length of chain at the anchor, which keeps the pull low along the bottom and resists chafe on rocks and shells, then nylon line, which stretches to absorb shock."
+  },
+  {
+   "i": 2,
+   "start": 15.9,
+   "speechStart": 15.9,
+   "end": 24.675,
+   "builds": 0,
+   "text": "Scope is the ratio of rode let out to the distance from your bow to the bottom: the water depth plus the height of the bow above the water."
+  },
+  {
+   "i": 3,
+   "start": 24.925,
+   "speechStart": 24.925,
+   "end": 30.625,
+   "builds": 0,
+   "text": "Five to one is the minimum and seven to one is preferred, with more in heavy weather."
+  },
+  {
+   "i": 4,
+   "start": 30.875,
+   "speechStart": 30.875,
+   "end": 38.875,
+   "builds": 0,
+   "text": "In fifteen feet of water with a bow three feet high, seven to one means eighteen times seven, or one hundred twenty-six feet."
+  }
+ ]
+}

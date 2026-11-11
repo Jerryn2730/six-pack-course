@@ -1,0 +1,17 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:12.425
+A relative bearing is measured clockwise from the bow: zero zero zero dead ahead, zero nine zero on the starboard beam, one eight zero astern, and two seven zero on the port beam.
+
+2
+00:00:12.675 --> 00:00:22.575
+To convert a relative bearing to a true bearing, add it to your true heading, and subtract three hundred sixty if the total goes over three hundred sixty.
+
+3
+00:00:22.825 --> 00:00:31.100
+For example, with a true heading of three hundred, an object bearing zero nine zero relative is at zero three zero true.
+
+4
+00:00:31.350 --> 00:00:37.900
+Lookouts often report this way: broad on the starboard bow means about forty-five degrees relative.

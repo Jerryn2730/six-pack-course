@@ -1,0 +1,68 @@
+{
+ "slide": "nav-04-5",
+ "lessonId": "nav-04",
+ "n": 5,
+ "audio": "nav-04-5.mp3",
+ "duration": 37.2,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.425,
+   "builds": 0,
+   "text": "Here’s a summary to memorize."
+  },
+  {
+   "i": 1,
+   "start": 2.675,
+   "speechStart": 2.675,
+   "end": 8.875,
+   "builds": 0,
+   "text": "Starboard-side lateral marks are red with red lights, and port-side marks are green with green lights."
+  },
+  {
+   "i": 2,
+   "start": 9.125,
+   "speechStart": 9.125,
+   "end": 16.35,
+   "builds": 0,
+   "text": "Preferred channel marks have red and green bands and a composite group-flashing light in the color of the top band."
+  },
+  {
+   "i": 3,
+   "start": 16.6,
+   "speechStart": 16.6,
+   "end": 21.7,
+   "builds": 0,
+   "text": "Safe water marks have red and white vertical stripes and a white Morse A light."
+  },
+  {
+   "i": 4,
+   "start": 21.95,
+   "speechStart": 21.95,
+   "end": 28.1,
+   "builds": 0,
+   "text": "Isolated danger marks are black with red bands and a white light flashing in groups of two."
+  },
+  {
+   "i": 5,
+   "start": 28.35,
+   "speechStart": 28.35,
+   "end": 31.4,
+   "builds": 0,
+   "text": "Special marks are yellow, with yellow lights."
+  },
+  {
+   "i": 6,
+   "start": 31.65,
+   "speechStart": 31.65,
+   "end": 36.9,
+   "builds": 0,
+   "text": "If you know this table, you can identify nearly any mark the exam describes."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slide": "deck-06-3",
+ "lessonId": "deck-06",
+ "n": 3,
+ "audio": "deck-06-3.mp3",
+ "duration": 35.65,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.25,
+   "builds": 0,
+   "text": "Every boat needs reliable bilge pumping."
+  },
+  {
+   "i": 1,
+   "start": 3.5,
+   "speechStart": 3.5,
+   "end": 13.575,
+   "builds": 0,
+   "text": "Automatic electric pumps with float switches handle small leaks and rainwater, and a high-water alarm audible at the helm warns you when something is wrong."
+  },
+  {
+   "i": 2,
+   "start": 13.825,
+   "speechStart": 13.825,
+   "end": 18.425,
+   "builds": 0,
+   "text": "Carry a manual pump as a backup in case of electrical failure."
+  },
+  {
+   "i": 3,
+   "start": 18.675,
+   "speechStart": 18.675,
+   "end": 28.925,
+   "builds": 0,
+   "text": "Remember that a pump’s rated capacity drops sharply with the height it lifts water and the length of its hose, so real-world output is much less than the label."
+  },
+  {
+   "i": 4,
+   "start": 29.175,
+   "speechStart": 29.175,
+   "end": 35.35,
+   "builds": 0,
+   "text": "Most importantly, know where every through-hull fitting on your boat is, so you can find a leak fast."
+  }
+ ]
+}

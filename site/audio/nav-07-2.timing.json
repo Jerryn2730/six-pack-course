@@ -1,0 +1,60 @@
+{
+ "slide": "nav-07-2",
+ "lessonId": "nav-07",
+ "n": 2,
+ "audio": "nav-07-2.mp3",
+ "duration": 37.175,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 1.875,
+   "builds": 0,
+   "text": "A few terms."
+  },
+  {
+   "i": 1,
+   "start": 2.125,
+   "speechStart": 2.125,
+   "end": 9.725,
+   "builds": 0,
+   "text": "High water and low water are the highest and lowest levels in each tide cycle, and the range is the difference between them."
+  },
+  {
+   "i": 2,
+   "start": 9.975,
+   "speechStart": 9.975,
+   "end": 18.575,
+   "builds": 0,
+   "text": "Charted depths are measured from mean lower low water, so the actual depth at any moment equals the charted depth plus the height of tide."
+  },
+  {
+   "i": 3,
+   "start": 18.825,
+   "speechStart": 18.825,
+   "end": 25.675,
+   "builds": 0,
+   "text": "A tide height can be negative, meaning the water is below mean lower low water and shallower than charted."
+  },
+  {
+   "i": 4,
+   "start": 25.925,
+   "speechStart": 25.925,
+   "end": 30.625,
+   "builds": 0,
+   "text": "That happens around spring tides, especially with strong offshore winds."
+  },
+  {
+   "i": 5,
+   "start": 30.875,
+   "speechStart": 30.875,
+   "end": 36.875,
+   "builds": 0,
+   "text": "The stand of the tide is the brief period at high or low water when the level barely changes."
+  }
+ ]
+}

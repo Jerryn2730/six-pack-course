@@ -1,0 +1,68 @@
+{
+ "slide": "rules-15-2",
+ "lessonId": "rules-15",
+ "n": 2,
+ "audio": "rules-15-2.mp3",
+ "duration": 49.175,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.025,
+   "builds": 0,
+   "text": "Now the differences in vessels and lights."
+  },
+  {
+   "i": 1,
+   "start": 3.275,
+   "speechStart": 3.275,
+   "end": 7.45,
+   "builds": 0,
+   "text": "Constrained by draft exists only in International rules."
+  },
+  {
+   "i": 2,
+   "start": 7.7,
+   "speechStart": 7.7,
+   "end": 19.225,
+   "builds": 0,
+   "text": "A vessel pushing ahead shows a sternlight under International rules, but two yellow towing lights Inland, and the barge she pushes carries a special flashing yellow light Inland."
+  },
+  {
+   "i": 3,
+   "start": 19.475,
+   "speechStart": 19.475,
+   "end": 25.4,
+   "builds": 0,
+   "text": "On the Great Lakes, an all-round white light may replace the after masthead light and sternlight."
+  },
+  {
+   "i": 4,
+   "start": 25.65,
+   "speechStart": 25.65,
+   "end": 34.625,
+   "builds": 0,
+   "text": "On the Great Lakes and Western Rivers, a downbound vessel with a following current has right of way, and a vessel crossing the river keeps clear."
+  },
+  {
+   "i": 5,
+   "start": 34.875,
+   "speechStart": 34.875,
+   "end": 45.1,
+   "builds": 0,
+   "text": "Inland, a vessel under twenty meters in a special anchorage area needs no anchor light, and a motorsailing vessel under twelve meters needn’t show the cone."
+  },
+  {
+   "i": 6,
+   "start": 45.35,
+   "speechStart": 45.35,
+   "end": 48.875,
+   "builds": 0,
+   "text": "Inland also adds the flashing white distress light."
+  }
+ ]
+}

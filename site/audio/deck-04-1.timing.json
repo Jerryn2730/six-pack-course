@@ -1,0 +1,52 @@
+{
+ "slide": "deck-04-1",
+ "lessonId": "deck-04",
+ "n": 1,
+ "audio": "deck-04-1.mp3",
+ "duration": 35.5,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 11.1,
+   "builds": 0,
+   "text": "Gasoline vapor is heavier than air, so it flows downhill and collects in the bilge and low compartments, where a single spark from a switch, pump or starter can ignite it."
+  },
+  {
+   "i": 1,
+   "start": 11.35,
+   "speechStart": 11.35,
+   "end": 18.575,
+   "builds": 0,
+   "text": "A surprisingly small amount of vaporized gasoline can produce an explosion strong enough to destroy a boat."
+  },
+  {
+   "i": 2,
+   "start": 18.825,
+   "speechStart": 18.825,
+   "end": 21.2,
+   "builds": 0,
+   "text": "Propane behaves the same way."
+  },
+  {
+   "i": 3,
+   "start": 21.45,
+   "speechStart": 21.45,
+   "end": 30.825,
+   "builds": 0,
+   "text": "Diesel fuel is much less volatile and much harder to ignite, which is one reason most commercial boats run diesel, but it still burns once lit."
+  },
+  {
+   "i": 4,
+   "start": 31.075,
+   "speechStart": 31.075,
+   "end": 35.2,
+   "builds": 0,
+   "text": "Most boat explosions happen during or just after fueling."
+  }
+ ]
+}

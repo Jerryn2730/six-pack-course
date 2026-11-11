@@ -1,0 +1,68 @@
+{
+ "slide": "nav-03-5",
+ "lessonId": "nav-03",
+ "n": 5,
+ "audio": "nav-03-5.mp3",
+ "duration": 38.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.725,
+   "builds": 0,
+   "text": "Buoys are anchored floating objects."
+  },
+  {
+   "i": 1,
+   "start": 2.975,
+   "speechStart": 2.975,
+   "end": 9.0,
+   "builds": 0,
+   "text": "They can drag off station in storms, be struck by vessels, sink, or have their lights fail."
+  },
+  {
+   "i": 2,
+   "start": 9.25,
+   "speechStart": 9.25,
+   "end": 14.475,
+   "builds": 0,
+   "text": "The Light List warns mariners not to rely on buoys alone for position."
+  },
+  {
+   "i": 3,
+   "start": 14.725,
+   "speechStart": 14.725,
+   "end": 20.0,
+   "builds": 0,
+   "text": "Use them as a guide, and cross-check with charted features, depths and GPS."
+  },
+  {
+   "i": 4,
+   "start": 20.25,
+   "speechStart": 20.25,
+   "end": 25.15,
+   "builds": 0,
+   "text": "If you find an aid off station or not working, report it to the Coast Guard."
+  },
+  {
+   "i": 5,
+   "start": 25.4,
+   "speechStart": 25.4,
+   "end": 31.875,
+   "builds": 0,
+   "text": "Private aids to navigation, called PATONs, are placed by private owners like marinas."
+  },
+  {
+   "i": 6,
+   "start": 32.125,
+   "speechStart": 32.125,
+   "end": 38.55,
+   "builds": 0,
+   "text": "They must follow the same color and shape rules, but they may not be maintained to Coast Guard standards."
+  }
+ ]
+}

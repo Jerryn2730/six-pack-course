@@ -1,0 +1,76 @@
+{
+ "slide": "nav-01-1",
+ "lessonId": "nav-01",
+ "n": 1,
+ "audio": "nav-01-1.mp3",
+ "duration": 45.55,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.825,
+   "builds": 0,
+   "text": "Welcome to Navigation General."
+  },
+  {
+   "i": 1,
+   "start": 3.075,
+   "speechStart": 3.075,
+   "end": 12.225,
+   "builds": 0,
+   "text": "This module covers how you know where the boat is and what the water and weather are doing, and it spans more topics than any other part of the exam."
+  },
+  {
+   "i": 2,
+   "start": 12.475,
+   "speechStart": 12.475,
+   "end": 14.375,
+   "builds": 0,
+   "text": "We start with position."
+  },
+  {
+   "i": 3,
+   "start": 14.625,
+   "speechStart": 14.625,
+   "end": 20.575,
+   "builds": 0,
+   "text": "Latitude measures distance north or south of the equator, from zero to ninety degrees."
+  },
+  {
+   "i": 4,
+   "start": 20.825,
+   "speechStart": 20.825,
+   "end": 28.325,
+   "builds": 0,
+   "text": "Longitude measures distance east or west of the prime meridian at Greenwich, from zero to one hundred eighty degrees."
+  },
+  {
+   "i": 5,
+   "start": 28.575,
+   "speechStart": 28.575,
+   "end": 32.65,
+   "builds": 0,
+   "text": "All of Florida is north latitude and west longitude."
+  },
+  {
+   "i": 6,
+   "start": 32.9,
+   "speechStart": 32.9,
+   "end": 35.9,
+   "builds": 0,
+   "text": "Each degree divides into sixty minutes."
+  },
+  {
+   "i": 7,
+   "start": 36.15,
+   "speechStart": 36.15,
+   "end": 45.25,
+   "builds": 0,
+   "text": "On the chart you read latitude on the side scales and longitude on the top and bottom scales, and a position is always written latitude first."
+  }
+ ]
+}

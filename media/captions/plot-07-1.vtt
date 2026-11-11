@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.150 --> 00:00:02.550
+Plotting uses standard symbols.
+
+2
+00:00:02.800 --> 00:00:07.525
+A fix, from two or more good lines of position, is a small circle.
+
+3
+00:00:07.775 --> 00:00:13.975
+A dead reckoning position, from course and speed alone, is a half circle drawn on the course line.
+
+4
+00:00:14.225 --> 00:00:22.975
+An estimated position, a DR improved with other information such as current or a single line of position, is a small square.
+
+5
+00:00:23.225 --> 00:00:28.575
+An electronic fix, such as from GPS, is often shown as a triangle.
+
+6
+00:00:28.825 --> 00:00:33.925
+Write the time beside every position, followed by fix, D R or E P.

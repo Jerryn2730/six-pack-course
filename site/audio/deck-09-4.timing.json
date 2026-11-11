@@ -1,0 +1,60 @@
+{
+ "slide": "deck-09-4",
+ "lessonId": "deck-09",
+ "n": 4,
+ "audio": "deck-09-4.mp3",
+ "duration": 36.2,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 11.575,
+   "builds": 0,
+   "text": "Watch for signs of dragging: your bearings or GPS position keep changing, the rode jerks or vibrates, or the boat lies at a different angle to the wind than nearby boats."
+  },
+  {
+   "i": 1,
+   "start": 11.825,
+   "speechStart": 11.825,
+   "end": 14.925,
+   "builds": 0,
+   "text": "Let out more scope, or pick up and re-anchor."
+  },
+  {
+   "i": 2,
+   "start": 15.175,
+   "speechStart": 15.175,
+   "end": 18.225,
+   "builds": 0,
+   "text": "Always anchor from the bow, never the stern."
+  },
+  {
+   "i": 3,
+   "start": 18.475,
+   "speechStart": 18.475,
+   "end": 24.725,
+   "builds": 0,
+   "text": "A boat anchored by the stern presents its low transom to the waves and can be swamped in minutes."
+  },
+  {
+   "i": 4,
+   "start": 24.975,
+   "speechStart": 24.975,
+   "end": 32.05,
+   "builds": 0,
+   "text": "If your anchor fouls under a rock or ledge, a trip line tied to the anchor’s crown lets you pull it out backward."
+  },
+  {
+   "i": 5,
+   "start": 32.3,
+   "speechStart": 32.3,
+   "end": 35.9,
+   "builds": 0,
+   "text": "And keep an anchor watch whenever the weather is changing."
+  }
+ ]
+}

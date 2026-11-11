@@ -1,0 +1,76 @@
+{
+ "slide": "nav-13-4",
+ "lessonId": "nav-13",
+ "n": 4,
+ "audio": "nav-13-4.mp3",
+ "duration": 46.1,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.125,
+   "builds": 0,
+   "text": "Get the marine forecast before every trip."
+  },
+  {
+   "i": 1,
+   "start": 3.375,
+   "speechStart": 3.375,
+   "end": 14.025,
+   "builds": 0,
+   "text": "The National Weather Service issues coastal waters and offshore forecasts, available online and broadcast continuously on NOAA Weather Radio."
+  },
+  {
+   "i": 2,
+   "start": 14.275,
+   "speechStart": 14.275,
+   "end": 16.175,
+   "builds": 0,
+   "text": "Learn the warning levels."
+  },
+  {
+   "i": 3,
+   "start": 16.425,
+   "speechStart": 16.425,
+   "end": 26.825,
+   "builds": 0,
+   "text": "A small craft advisory is issued for winds roughly in the twenty to thirty-three knot range, or for hazardous seas, with exact thresholds varying by region."
+  },
+  {
+   "i": 4,
+   "start": 27.075,
+   "speechStart": 27.075,
+   "end": 30.65,
+   "builds": 0,
+   "text": "A gale warning means thirty-four to forty-seven knots."
+  },
+  {
+   "i": 5,
+   "start": 30.9,
+   "speechStart": 30.9,
+   "end": 34.425,
+   "builds": 0,
+   "text": "A storm warning means forty-eight to sixty-three knots."
+  },
+  {
+   "i": 6,
+   "start": 34.675,
+   "speechStart": 34.675,
+   "end": 39.0,
+   "builds": 0,
+   "text": "A hurricane force wind warning means sixty-four knots or more."
+  },
+  {
+   "i": 7,
+   "start": 39.25,
+   "speechStart": 39.25,
+   "end": 45.8,
+   "builds": 0,
+   "text": "A special marine warning covers short-lived hazards like severe thunderstorms and waterspouts."
+  }
+ ]
+}

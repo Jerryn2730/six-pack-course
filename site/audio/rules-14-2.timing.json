@@ -1,0 +1,60 @@
+{
+ "slide": "rules-14-2",
+ "lessonId": "rules-14",
+ "n": 2,
+ "audio": "rules-14-2.mp3",
+ "duration": 47.875,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.85,
+   "builds": 0,
+   "text": "At anchor, the signals are given at intervals of not more than one minute."
+  },
+  {
+   "i": 1,
+   "start": 5.1,
+   "speechStart": 5.1,
+   "end": 9.6,
+   "builds": 0,
+   "text": "A vessel at anchor rings the bell rapidly for about five seconds."
+  },
+  {
+   "i": 2,
+   "start": 9.85,
+   "speechStart": 9.85,
+   "end": 19.475,
+   "builds": 0,
+   "text": "A vessel one hundred meters or more rings the bell in the fore part, then immediately sounds the gong rapidly for about five seconds in the after part."
+  },
+  {
+   "i": 3,
+   "start": 19.725,
+   "speechStart": 19.725,
+   "end": 27.15,
+   "builds": 0,
+   "text": "A vessel at anchor may also sound one short, one prolonged and one short blast to warn an approaching vessel."
+  },
+  {
+   "i": 4,
+   "start": 27.4,
+   "speechStart": 27.4,
+   "end": 36.8,
+   "builds": 0,
+   "text": "A vessel engaged in fishing at anchor, or a restricted vessel working at anchor, sounds one prolonged and two short instead of the anchor signals."
+  },
+  {
+   "i": 5,
+   "start": 37.05,
+   "speechStart": 37.05,
+   "end": 47.575,
+   "builds": 0,
+   "text": "A vessel aground gives the bell signal, plus the gong if required, with three separate and distinct strokes on the bell immediately before and after the rapid ringing."
+  }
+ ]
+}

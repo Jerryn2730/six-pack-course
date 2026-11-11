@@ -1,0 +1,76 @@
+{
+ "slide": "deck-02-2",
+ "lessonId": "deck-02",
+ "n": 2,
+ "audio": "deck-02-2.mp3",
+ "duration": 44.875,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.55,
+   "builds": 0,
+   "text": "Required portable fire extinguishers depend on boat length."
+  },
+  {
+   "i": 1,
+   "start": 4.8,
+   "speechStart": 4.8,
+   "end": 8.725,
+   "builds": 0,
+   "text": "Under twenty-six feet, you need one B-one extinguisher."
+  },
+  {
+   "i": 2,
+   "start": 8.975,
+   "speechStart": 8.975,
+   "end": 13.45,
+   "builds": 0,
+   "text": "From twenty-six to under forty feet, two B-ones or one B-two."
+  },
+  {
+   "i": 3,
+   "start": 13.7,
+   "speechStart": 13.7,
+   "end": 19.125,
+   "builds": 0,
+   "text": "From forty to sixty-five feet, three B-ones, or one B-two plus one B-one."
+  },
+  {
+   "i": 4,
+   "start": 19.375,
+   "speechStart": 19.375,
+   "end": 24.975,
+   "builds": 0,
+   "text": "An approved fixed system in the engine room reduces the requirement by one B-one."
+  },
+  {
+   "i": 5,
+   "start": 25.225,
+   "speechStart": 25.225,
+   "end": 34.05,
+   "builds": 0,
+   "text": "Newer extinguishers are labeled five-B and twenty-B instead of B-one and B-two, and boats built in recent years must carry those."
+  },
+  {
+   "i": 6,
+   "start": 34.3,
+   "speechStart": 34.3,
+   "end": 40.425,
+   "builds": 0,
+   "text": "Disposable extinguishers must be replaced twelve years after their date of manufacture."
+  },
+  {
+   "i": 7,
+   "start": 40.675,
+   "speechStart": 40.675,
+   "end": 44.575,
+   "builds": 0,
+   "text": "Mount them where you can reach them quickly, and check the gauges."
+  }
+ ]
+}

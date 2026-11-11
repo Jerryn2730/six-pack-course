@@ -1,0 +1,132 @@
+{
+ "slide": "rules-05-2",
+ "lessonId": "rules-05",
+ "n": 2,
+ "audio": "rules-05-2.mp3",
+ "duration": 72.8,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.6,
+   "builds": 0,
+   "text": "You may never work a sailboat, but you’ll share the water with plenty of them, and Rule twelve is tested."
+  },
+  {
+   "i": 1,
+   "start": 6.85,
+   "speechStart": 6.85,
+   "end": 12.05,
+   "builds": 0,
+   "text": "It decides between two sailing vessels, and it comes down to where the wind is."
+  },
+  {
+   "i": 2,
+   "start": 12.3,
+   "speechStart": 12.3,
+   "end": 19.25,
+   "builds": 1,
+   "text": "First, when each boat has the wind on a different side, the one with the wind on her port side keeps out of the way."
+  },
+  {
+   "i": 3,
+   "start": 19.5,
+   "speechStart": 19.5,
+   "end": 22.25,
+   "builds": 0,
+   "text": "Sailors call that being on port tack."
+  },
+  {
+   "i": 4,
+   "start": 22.5,
+   "speechStart": 22.5,
+   "end": 24.575,
+   "builds": 0,
+   "text": "So, port tack keeps clear."
+  },
+  {
+   "i": 5,
+   "start": 24.825,
+   "speechStart": 24.825,
+   "end": 31.825,
+   "builds": 1,
+   "text": "Second, when both boats have the wind on the same side, the boat to windward keeps out of the way of the boat to leeward."
+  },
+  {
+   "i": 6,
+   "start": 32.075,
+   "speechStart": 32.075,
+   "end": 36.175,
+   "builds": 0,
+   "text": "Windward is the boat closer to where the wind is coming from."
+  },
+  {
+   "i": 7,
+   "start": 36.425,
+   "speechStart": 36.425,
+   "end": 38.425,
+   "builds": 1,
+   "text": "Third, the doubt rule."
+  },
+  {
+   "i": 8,
+   "start": 38.675,
+   "speechStart": 38.675,
+   "end": 47.35,
+   "builds": 0,
+   "text": "If you have the wind on your port side, and you see a sailboat to windward but can’t tell which side she has the wind on, you keep out of the way."
+  },
+  {
+   "i": 9,
+   "start": 47.6,
+   "speechStart": 47.6,
+   "end": 50.575,
+   "builds": 0,
+   "text": "When in doubt, the port-tack boat gives way."
+  },
+  {
+   "i": 10,
+   "start": 50.825,
+   "speechStart": 50.825,
+   "end": 53.425,
+   "builds": 1,
+   "text": "And how do you know which side is windward?"
+  },
+  {
+   "i": 11,
+   "start": 53.675,
+   "speechStart": 53.675,
+   "end": 58.45,
+   "builds": 0,
+   "text": "For this rule, it’s the side opposite to the one where the mainsail is carried."
+  },
+  {
+   "i": 12,
+   "start": 58.7,
+   "speechStart": 58.7,
+   "end": 63.8,
+   "builds": 0,
+   "text": "On a square-rigged vessel, it’s the side opposite her largest fore-and-aft sail."
+  },
+  {
+   "i": 13,
+   "start": 64.05,
+   "speechStart": 64.8,
+   "end": 69.525,
+   "builds": 0,
+   "text": "So a boat with her mainsail out to starboard has the wind on her port side."
+  },
+  {
+   "i": 14,
+   "start": 69.775,
+   "speechStart": 69.775,
+   "end": 72.5,
+   "builds": 0,
+   "text": "She’s on port tack, and she keeps clear."
+  }
+ ]
+}

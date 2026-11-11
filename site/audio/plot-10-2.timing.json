@@ -1,0 +1,52 @@
+{
+ "slide": "plot-10-2",
+ "lessonId": "plot-10",
+ "n": 2,
+ "audio": "plot-10-2.mp3",
+ "duration": 34.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 1.7,
+   "builds": 0,
+   "text": "Step one."
+  },
+  {
+   "i": 1,
+   "start": 1.95,
+   "speechStart": 1.95,
+   "end": 10.875,
+   "builds": 0,
+   "text": "At seven hundred you depart from a charted buoy, and the first question asks for its latitude and longitude, which you read from the scales."
+  },
+  {
+   "i": 2,
+   "start": 11.125,
+   "speechStart": 11.125,
+   "end": 16.325,
+   "builds": 0,
+   "text": "Next, lay a course to the next mark and read zero six eight true from the rose."
+  },
+  {
+   "i": 3,
+   "start": 16.575,
+   "speechStart": 16.575,
+   "end": 26.5,
+   "builds": 0,
+   "text": "The question gives variation fifteen west and deviation two east, so the compass course is zero six eight plus fifteen minus two: zero eight one."
+  },
+  {
+   "i": 4,
+   "start": 26.75,
+   "speechStart": 26.75,
+   "end": 34.55,
+   "builds": 0,
+   "text": "The leg measures nine point six miles; at twelve knots, that’s forty-eight minutes, for an ETA of seven forty-eight."
+  }
+ ]
+}

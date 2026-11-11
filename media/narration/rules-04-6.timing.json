@@ -1,0 +1,156 @@
+{
+ "slide": "rules-04-6",
+ "lessonId": "rules-04",
+ "n": 6,
+ "audio": "rules-04-6.mp3",
+ "duration": 91.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 6,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 1.925,
+   "builds": 0,
+   "text": "So who goes where?"
+  },
+  {
+   "i": 1,
+   "start": 2.175,
+   "speechStart": 2.175,
+   "end": 8.125,
+   "builds": 1,
+   "text": "Through traffic doesn’t use the inshore traffic zone when it can safely use the lane next to it."
+  },
+  {
+   "i": 2,
+   "start": 8.375,
+   "speechStart": 8.375,
+   "end": 11.3,
+   "builds": 0,
+   "text": "The inshore zone is for local traffic."
+  },
+  {
+   "i": 3,
+   "start": 11.55,
+   "speechStart": 11.55,
+   "end": 14.5,
+   "builds": 1,
+   "text": "But there are exceptions, and you’re one of them."
+  },
+  {
+   "i": 4,
+   "start": 14.75,
+   "speechStart": 14.75,
+   "end": 22.525,
+   "builds": 0,
+   "text": "Vessels of less than twenty meters, sailing vessels, and vessels engaged in fishing may use the inshore zone."
+  },
+  {
+   "i": 5,
+   "start": 22.775,
+   "speechStart": 22.775,
+   "end": 28.525,
+   "builds": 0,
+   "text": "So may any vessel going to or from a place inside it, or avoiding immediate danger."
+  },
+  {
+   "i": 6,
+   "start": 28.775,
+   "speechStart": 28.775,
+   "end": 30.475,
+   "builds": 1,
+   "text": "Now the duties."
+  },
+  {
+   "i": 7,
+   "start": 30.725,
+   "speechStart": 30.725,
+   "end": 39.4,
+   "builds": 0,
+   "text": "A vessel of less than twenty meters, or a sailing vessel, shall not impede the safe passage of a power-driven vessel following a lane."
+  },
+  {
+   "i": 8,
+   "start": 39.65,
+   "speechStart": 39.65,
+   "end": 44.8,
+   "builds": 1,
+   "text": "And a vessel engaged in fishing shall not impede any vessel following a lane."
+  },
+  {
+   "i": 9,
+   "start": 45.05,
+   "speechStart": 45.05,
+   "end": 46.775,
+   "builds": 0,
+   "text": "Sound familiar?"
+  },
+  {
+   "i": 10,
+   "start": 47.025,
+   "speechStart": 47.025,
+   "end": 54.05,
+   "builds": 0,
+   "text": "It’s the same idea as Rule nine: small boats, sailboats and fishing boats stay out of the big ships’ way."
+  },
+  {
+   "i": 11,
+   "start": 54.3,
+   "speechStart": 54.3,
+   "end": 57.525,
+   "builds": 1,
+   "text": "Avoid anchoring in a scheme, or near its ends."
+  },
+  {
+   "i": 12,
+   "start": 57.775,
+   "speechStart": 57.775,
+   "end": 63.025,
+   "builds": 1,
+   "text": "And if you’re not using the scheme, avoid it by as wide a margin as practicable."
+  },
+  {
+   "i": 13,
+   "start": 63.275,
+   "speechStart": 64.025,
+   "end": 65.7,
+   "builds": 0,
+   "text": "Let’s wrap up."
+  },
+  {
+   "i": 14,
+   "start": 65.95,
+   "speechStart": 65.95,
+   "end": 71.725,
+   "builds": 0,
+   "text": "In a narrow channel: keep right, don’t impede, don’t cross in front of a ship, and don’t anchor."
+  },
+  {
+   "i": 15,
+   "start": 71.975,
+   "speechStart": 71.975,
+   "end": 76.05,
+   "builds": 0,
+   "text": "On the rivers, downbound with a following current is in charge."
+  },
+  {
+   "i": 16,
+   "start": 76.3,
+   "speechStart": 76.3,
+   "end": 82.55,
+   "builds": 0,
+   "text": "In a traffic scheme, merge at a small angle, cross at a right angle, and leave the lanes to the ships."
+  },
+  {
+   "i": 17,
+   "start": 82.8,
+   "speechStart": 82.8,
+   "end": 90.85,
+   "builds": 0,
+   "text": "Next time, we’ll take up the first of the steering rules: sailing vessels meeting each other, and what the rules mean by overtaking."
+  }
+ ]
+}

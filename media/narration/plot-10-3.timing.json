@@ -1,0 +1,52 @@
+{
+ "slide": "plot-10-3",
+ "lessonId": "plot-10",
+ "n": 3,
+ "audio": "plot-10-3.mp3",
+ "duration": 33.4,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 1.725,
+   "builds": 0,
+   "text": "Step two."
+  },
+  {
+   "i": 1,
+   "start": 1.975,
+   "speechStart": 1.975,
+   "end": 11.325,
+   "builds": 0,
+   "text": "At seven thirty you take two bearings, a light at three five two true and a tower at one zero eight true, and plot the fix where the lines cross."
+  },
+  {
+   "i": 2,
+   "start": 11.575,
+   "speechStart": 11.575,
+   "end": 19.325,
+   "builds": 0,
+   "text": "Your seven thirty DR is six miles along zero six eight from your departure, since you’ve run half an hour at twelve knots."
+  },
+  {
+   "i": 3,
+   "start": 19.575,
+   "speechStart": 19.575,
+   "end": 24.775,
+   "builds": 0,
+   "text": "The fix lies point eight miles from the DR, bearing one six zero true from it."
+  },
+  {
+   "i": 4,
+   "start": 25.025,
+   "speechStart": 25.025,
+   "end": 33.1,
+   "builds": 0,
+   "text": "So the current sets one six zero true, with a drift of point eight miles divided by half an hour, or one point six knots."
+  }
+ ]
+}

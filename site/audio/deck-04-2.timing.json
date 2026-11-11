@@ -1,0 +1,60 @@
+{
+ "slide": "deck-04-2",
+ "lessonId": "deck-04",
+ "n": 2,
+ "audio": "deck-04-2.mp3",
+ "duration": 36.975,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.725,
+   "builds": 0,
+   "text": "Fuel with a routine every time."
+  },
+  {
+   "i": 1,
+   "start": 2.975,
+   "speechStart": 2.975,
+   "end": 7.2,
+   "builds": 0,
+   "text": "Moor securely and, if practical, have passengers wait ashore."
+  },
+  {
+   "i": 2,
+   "start": 7.45,
+   "speechStart": 7.45,
+   "end": 13.175,
+   "builds": 0,
+   "text": "Stop the engines and all electrical motors, and allow no smoking or open flame."
+  },
+  {
+   "i": 3,
+   "start": 13.425,
+   "speechStart": 13.425,
+   "end": 17.825,
+   "builds": 0,
+   "text": "Close hatches, ports and cabin doors so vapor can’t get below."
+  },
+  {
+   "i": 4,
+   "start": 18.075,
+   "speechStart": 18.075,
+   "end": 26.4,
+   "builds": 0,
+   "text": "Keep the nozzle in contact with the fill pipe to prevent a static spark, and don’t overfill, since fuel expands as it warms."
+  },
+  {
+   "i": 5,
+   "start": 26.65,
+   "speechStart": 26.65,
+   "end": 36.675,
+   "builds": 0,
+   "text": "Afterward, wipe up any spills, open everything, run the blower for at least four minutes, and sniff the bilge and engine compartment before starting the engine."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slide": "rules-13-6",
+ "lessonId": "rules-13",
+ "n": 6,
+ "audio": "rules-13-6.mp3",
+ "duration": 40.525,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 9.8,
+   "builds": 0,
+   "text": "Inland rules also say a vessel that reaches agreement on a passing by radiotelephone is not obliged to sound the whistle signals, though she may."
+  },
+  {
+   "i": 1,
+   "start": 10.05,
+   "speechStart": 10.05,
+   "end": 16.375,
+   "builds": 0,
+   "text": "If agreement isn’t reached, whistle signals shall be exchanged in a timely manner, and they prevail."
+  },
+  {
+   "i": 2,
+   "start": 16.625,
+   "speechStart": 16.625,
+   "end": 21.0,
+   "builds": 0,
+   "text": "Bridge-to-bridge calls are usually on VHF channel thirteen."
+  },
+  {
+   "i": 3,
+   "start": 21.25,
+   "speechStart": 21.25,
+   "end": 31.95,
+   "builds": 0,
+   "text": "Under International rules there is no such exemption, so the whistle signals of Rule thirty-four are still required when you maneuver, whatever has been said on the radio."
+  },
+  {
+   "i": 4,
+   "start": 32.2,
+   "speechStart": 32.2,
+   "end": 40.225,
+   "builds": 0,
+   "text": "And under either set of rules, if you are in doubt about the other vessel’s intentions, the danger signal is always available."
+  }
+ ]
+}

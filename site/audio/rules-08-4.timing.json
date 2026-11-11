@@ -1,0 +1,52 @@
+{
+ "slide": "rules-08-4",
+ "lessonId": "rules-08",
+ "n": 4,
+ "audio": "rules-08-4.mp3",
+ "duration": 42.6,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.625,
+   "builds": 0,
+   "text": "The second key part of Rule nineteen applies unless you’ve already determined that no risk of collision exists."
+  },
+  {
+   "i": 1,
+   "start": 7.875,
+   "speechStart": 7.875,
+   "end": 23.45,
+   "builds": 0,
+   "text": "Every vessel that hears, apparently forward of her beam, the fog signal of another vessel, or that cannot avoid a close-quarters situation with another vessel forward of her beam, shall reduce her speed to the minimum at which she can be kept on her course."
+  },
+  {
+   "i": 2,
+   "start": 23.7,
+   "speechStart": 23.7,
+   "end": 32.675,
+   "builds": 0,
+   "text": "She shall, if necessary, take all her way off, and in any event navigate with extreme caution until the danger of collision is over."
+  },
+  {
+   "i": 3,
+   "start": 32.925,
+   "speechStart": 32.925,
+   "end": 34.9,
+   "builds": 0,
+   "text": "Note the word apparently."
+  },
+  {
+   "i": 4,
+   "start": 35.15,
+   "speechStart": 35.15,
+   "end": 42.3,
+   "builds": 0,
+   "text": "Sound travels unpredictably in fog, so you can’t fully trust the direction a signal seems to come from."
+  }
+ ]
+}

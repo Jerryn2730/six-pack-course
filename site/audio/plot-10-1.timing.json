@@ -1,0 +1,52 @@
+{
+ "slide": "plot-10-1",
+ "lessonId": "plot-10",
+ "n": 1,
+ "audio": "plot-10-1.mp3",
+ "duration": 30.125,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.7,
+   "builds": 0,
+   "text": "The plotting exam is a set of questions you work on the training chart, and you need seventy percent to pass."
+  },
+  {
+   "i": 1,
+   "start": 6.95,
+   "speechStart": 6.95,
+   "end": 17.875,
+   "builds": 0,
+   "text": "The questions often build on each other, like a real voyage: you plot a departure, lay a course, take bearings, find a fix, work out the current, and compute an arrival time."
+  },
+  {
+   "i": 2,
+   "start": 18.125,
+   "speechStart": 18.125,
+   "end": 22.25,
+   "builds": 0,
+   "text": "That means an early mistake can carry through several answers."
+  },
+  {
+   "i": 3,
+   "start": 22.5,
+   "speechStart": 22.5,
+   "end": 27.1,
+   "builds": 0,
+   "text": "Keep a scratch sheet showing every step, so you can find an error quickly."
+  },
+  {
+   "i": 4,
+   "start": 27.35,
+   "speechStart": 27.35,
+   "end": 29.825,
+   "builds": 0,
+   "text": "Let’s walk through a complete problem."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slide": "deck-07-2",
+ "lessonId": "deck-07",
+ "n": 2,
+ "audio": "deck-07-2.mp3",
+ "duration": 35.275,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.325,
+   "builds": 0,
+   "text": "An inboard boat steers by water flowing past the rudder, mostly prop wash."
+  },
+  {
+   "i": 1,
+   "start": 5.575,
+   "speechStart": 5.575,
+   "end": 10.5,
+   "builds": 0,
+   "text": "At low speed, especially in reverse, there’s little flow, and steering is poor."
+  },
+  {
+   "i": 2,
+   "start": 10.75,
+   "speechStart": 10.75,
+   "end": 16.225,
+   "builds": 0,
+   "text": "A short burst of power with the rudder over gives steering without building much speed."
+  },
+  {
+   "i": 3,
+   "start": 16.475,
+   "speechStart": 16.475,
+   "end": 27.825,
+   "builds": 0,
+   "text": "Going ahead, a boat pivots about a point roughly a third of its length back from the bow, so the stern swings wide in a turn, which matters when you’re turning near a dock or another boat."
+  },
+  {
+   "i": 4,
+   "start": 28.075,
+   "speechStart": 28.075,
+   "end": 34.975,
+   "builds": 0,
+   "text": "Outboards and sterndrives steer by aiming the propeller’s thrust, so they respond well even at low speed."
+  }
+ ]
+}

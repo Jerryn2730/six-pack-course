@@ -1,0 +1,44 @@
+{
+ "slide": "nav-10-2",
+ "lessonId": "nav-10",
+ "n": 2,
+ "audio": "nav-10-2.mp3",
+ "duration": 38.2,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 12.425,
+   "builds": 0,
+   "text": "A relative bearing is measured clockwise from the bow: zero zero zero dead ahead, zero nine zero on the starboard beam, one eight zero astern, and two seven zero on the port beam."
+  },
+  {
+   "i": 1,
+   "start": 12.675,
+   "speechStart": 12.675,
+   "end": 22.575,
+   "builds": 0,
+   "text": "To convert a relative bearing to a true bearing, add it to your true heading, and subtract three hundred sixty if the total goes over three hundred sixty."
+  },
+  {
+   "i": 2,
+   "start": 22.825,
+   "speechStart": 22.825,
+   "end": 31.1,
+   "builds": 0,
+   "text": "For example, with a true heading of three hundred, an object bearing zero nine zero relative is at zero three zero true."
+  },
+  {
+   "i": 3,
+   "start": 31.35,
+   "speechStart": 31.35,
+   "end": 37.9,
+   "builds": 0,
+   "text": "Lookouts often report this way: broad on the starboard bow means about forty-five degrees relative."
+  }
+ ]
+}

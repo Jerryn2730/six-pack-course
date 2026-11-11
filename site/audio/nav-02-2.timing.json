@@ -1,0 +1,52 @@
+{
+ "slide": "nav-02-2",
+ "lessonId": "nav-02",
+ "n": 2,
+ "audio": "nav-02-2.mp3",
+ "duration": 41.9,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.525,
+   "builds": 0,
+   "text": "Soundings are the small numbers in the water, showing depth below the chart datum, usually mean lower low water."
+  },
+  {
+   "i": 1,
+   "start": 7.775,
+   "speechStart": 7.775,
+   "end": 14.75,
+   "builds": 0,
+   "text": "Depth contours are lines joining points of equal depth, so you can see a shoal or channel edge at a glance."
+  },
+  {
+   "i": 2,
+   "start": 15.0,
+   "speechStart": 15.0,
+   "end": 29.175,
+   "builds": 0,
+   "text": "Bottom characteristics are abbreviated: S for sand, M for mud, S h for shells, R k for rock, C o for coral, G for gravel, with qualifiers like h r d for hard and s f t for soft."
+  },
+  {
+   "i": 3,
+   "start": 29.425,
+   "speechStart": 29.425,
+   "end": 34.875,
+   "builds": 0,
+   "text": "These matter for anchoring, because sand and mud hold well while rock and coral don’t."
+  },
+  {
+   "i": 4,
+   "start": 35.125,
+   "speechStart": 35.125,
+   "end": 41.6,
+   "builds": 0,
+   "text": "Remember that charted depths may be old, and channels shoal, especially near Florida’s inlets."
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "slide": "rules-12-4",
+ "lessonId": "rules-12",
+ "n": 4,
+ "audio": "rules-12-4.mp3",
+ "duration": 39.1,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.225,
+   "builds": 0,
+   "text": "Rule twenty-eight is International only."
+  },
+  {
+   "i": 1,
+   "start": 3.475,
+   "speechStart": 3.475,
+   "end": 13.675,
+   "builds": 0,
+   "text": "A vessel constrained by her draft may show, in addition to her power-driven lights, three all-round red lights in a vertical line, or by day a cylinder."
+  },
+  {
+   "i": 2,
+   "start": 13.925,
+   "speechStart": 13.925,
+   "end": 18.275,
+   "builds": 0,
+   "text": "Rule twenty-nine covers pilot vessels on pilotage duty."
+  },
+  {
+   "i": 3,
+   "start": 18.525,
+   "speechStart": 18.525,
+   "end": 22.95,
+   "builds": 0,
+   "text": "She shows white over red all-round lights at or near the masthead."
+  },
+  {
+   "i": 4,
+   "start": 23.2,
+   "speechStart": 23.2,
+   "end": 25.575,
+   "builds": 0,
+   "text": "White over red, pilot ahead."
+  },
+  {
+   "i": 5,
+   "start": 25.825,
+   "speechStart": 25.825,
+   "end": 29.1,
+   "builds": 0,
+   "text": "When underway she adds sidelights and a sternlight."
+  },
+  {
+   "i": 6,
+   "start": 29.35,
+   "speechStart": 29.35,
+   "end": 32.25,
+   "builds": 0,
+   "text": "At anchor she adds her anchor light or lights."
+  },
+  {
+   "i": 7,
+   "start": 32.5,
+   "speechStart": 32.5,
+   "end": 38.8,
+   "builds": 0,
+   "text": "When a pilot vessel isn’t on pilotage duty, she shows the normal lights for a vessel of her length."
+  }
+ ]
+}

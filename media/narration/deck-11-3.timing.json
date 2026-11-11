@@ -1,0 +1,60 @@
+{
+ "slide": "deck-11-3",
+ "lessonId": "deck-11",
+ "n": 3,
+ "audio": "deck-11-3.mp3",
+ "duration": 33.0,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.15,
+   "builds": 0,
+   "text": "Approach the person slowly, ideally heading into the wind or sea so you can stop alongside under control."
+  },
+  {
+   "i": 1,
+   "start": 7.4,
+   "speechStart": 7.4,
+   "end": 11.925,
+   "builds": 0,
+   "text": "Shift to neutral well before you reach them, and keep the propeller away."
+  },
+  {
+   "i": 2,
+   "start": 12.175,
+   "speechStart": 12.175,
+   "end": 14.325,
+   "builds": 0,
+   "text": "Never approach stern first."
+  },
+  {
+   "i": 3,
+   "start": 14.575,
+   "speechStart": 14.575,
+   "end": 23.425,
+   "builds": 0,
+   "text": "Bring them aboard over the side, not at the stern near the propeller, using a boarding ladder, a sling, or a parbuckle made from a line or net."
+  },
+  {
+   "i": 4,
+   "start": 23.675,
+   "speechStart": 23.675,
+   "end": 27.85,
+   "builds": 0,
+   "text": "A tired or cold person can’t climb, so plan to lift them."
+  },
+  {
+   "i": 5,
+   "start": 28.1,
+   "speechStart": 28.1,
+   "end": 32.7,
+   "builds": 0,
+   "text": "Once aboard, treat for hypothermia and shock, and get medical help."
+  }
+ ]
+}

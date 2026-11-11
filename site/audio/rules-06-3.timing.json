@@ -1,0 +1,148 @@
+{
+ "slide": "rules-06-3",
+ "lessonId": "rules-06",
+ "n": 3,
+ "audio": "rules-06-3.mp3",
+ "duration": 66.725,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 6.175,
+   "builds": 0,
+   "text": "Now the crossing situation, Rule fifteen, and it’s the one you’ll use every single day."
+  },
+  {
+   "i": 1,
+   "start": 6.425,
+   "speechStart": 6.425,
+   "end": 10.75,
+   "builds": 0,
+   "text": "Two power-driven vessels are crossing, with a risk of collision."
+  },
+  {
+   "i": 2,
+   "start": 11.0,
+   "speechStart": 11.0,
+   "end": 13.175,
+   "builds": 0,
+   "text": "Which one keeps out of the way?"
+  },
+  {
+   "i": 3,
+   "start": 13.425,
+   "speechStart": 13.425,
+   "end": 17.175,
+   "builds": 0,
+   "text": "The vessel that has the other on her own starboard side."
+  },
+  {
+   "i": 4,
+   "start": 17.425,
+   "speechStart": 17.425,
+   "end": 19.25,
+   "builds": 0,
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 5,
+   "start": 19.5,
+   "speechStart": 19.5,
+   "end": 22.7,
+   "builds": 0,
+   "text": "The lower boat sees the other boat off to her right."
+  },
+  {
+   "i": 6,
+   "start": 22.95,
+   "speechStart": 22.95,
+   "end": 25.2,
+   "builds": 0,
+   "text": "So she’s the give-way vessel."
+  },
+  {
+   "i": 7,
+   "start": 25.45,
+   "speechStart": 25.45,
+   "end": 32.35,
+   "builds": 0,
+   "text": "And the rule adds one more thing: if the circumstances allow, she avoids crossing ahead of the other vessel."
+  },
+  {
+   "i": 8,
+   "start": 32.6,
+   "speechStart": 32.6,
+   "end": 38.35,
+   "builds": 0,
+   "text": "So her best move is usually a clear turn to starboard, passing behind the other boat."
+  },
+  {
+   "i": 9,
+   "start": 38.6,
+   "speechStart": 39.35,
+   "end": 42.3,
+   "builds": 0,
+   "text": "Here’s the memory trick, and it works at night."
+  },
+  {
+   "i": 10,
+   "start": 42.55,
+   "speechStart": 42.55,
+   "end": 46.675,
+   "builds": 0,
+   "text": "If you’re looking at the other boat’s red sidelight, red means stop."
+  },
+  {
+   "i": 11,
+   "start": 46.925,
+   "speechStart": 46.925,
+   "end": 48.9,
+   "builds": 0,
+   "text": "You’re the give-way vessel."
+  },
+  {
+   "i": 12,
+   "start": 49.15,
+   "speechStart": 49.15,
+   "end": 52.775,
+   "builds": 0,
+   "text": "If you’re looking at her green sidelight, green means go."
+  },
+  {
+   "i": 13,
+   "start": 53.025,
+   "speechStart": 53.025,
+   "end": 56.875,
+   "builds": 0,
+   "text": "You’re the stand-on vessel, and you hold your course and speed."
+  },
+  {
+   "i": 14,
+   "start": 57.125,
+   "speechStart": 57.125,
+   "end": 58.85,
+   "builds": 0,
+   "text": "Red, give way."
+  },
+  {
+   "i": 15,
+   "start": 59.1,
+   "speechStart": 59.1,
+   "end": 60.925,
+   "builds": 0,
+   "text": "Green, stand on."
+  },
+  {
+   "i": 16,
+   "start": 61.175,
+   "speechStart": 61.175,
+   "end": 66.425,
+   "builds": 0,
+   "text": "Just remember that it only works for two power-driven vessels in sight of each other."
+  }
+ ]
+}

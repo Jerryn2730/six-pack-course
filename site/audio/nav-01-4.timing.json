@@ -1,0 +1,52 @@
+{
+ "slide": "nav-01-4",
+ "lessonId": "nav-01",
+ "n": 4,
+ "audio": "nav-01-4.mp3",
+ "duration": 41.525,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.85,
+   "builds": 0,
+   "text": "Chart scale is the ratio between a distance on the chart and the same distance on the earth."
+  },
+  {
+   "i": 1,
+   "start": 6.1,
+   "speechStart": 6.1,
+   "end": 14.925,
+   "builds": 0,
+   "text": "A scale of one to forty thousand is larger than one to eighty thousand, because each inch covers less ground and shows more detail."
+  },
+  {
+   "i": 2,
+   "start": 15.175,
+   "speechStart": 15.175,
+   "end": 19.125,
+   "builds": 0,
+   "text": "Remember: large scale, large detail, small area."
+  },
+  {
+   "i": 3,
+   "start": 19.375,
+   "speechStart": 19.375,
+   "end": 36.475,
+   "builds": 0,
+   "text": "NOAA groups charts into sailing charts for offshore passages, general charts for coastwise navigation, coast charts for inshore work, harbor charts for harbors and anchorages, and small-craft charts, such as the strip charts that follow the Intracoastal Waterway."
+  },
+  {
+   "i": 4,
+   "start": 36.725,
+   "speechStart": 36.725,
+   "end": 41.225,
+   "builds": 0,
+   "text": "Always use the largest-scale chart available for the waters you’re in."
+  }
+ ]
+}

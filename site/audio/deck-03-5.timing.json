@@ -1,0 +1,60 @@
+{
+ "slide": "deck-03-5",
+ "lessonId": "deck-03",
+ "n": 5,
+ "audio": "deck-03-5.mp3",
+ "duration": 37.1,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 8.175,
+   "builds": 0,
+   "text": "For an electrical fire, kill the power at the battery switch or breaker first, then use carbon dioxide or dry chemical."
+  },
+  {
+   "i": 1,
+   "start": 8.425,
+   "speechStart": 8.425,
+   "end": 14.775,
+   "builds": 0,
+   "text": "For a grease fire on a galley stove, smother it with a lid or a fire blanket and turn off the heat."
+  },
+  {
+   "i": 2,
+   "start": 15.025,
+   "speechStart": 15.025,
+   "end": 19.225,
+   "builds": 0,
+   "text": "Never use water, which makes burning grease explode outward."
+  },
+  {
+   "i": 3,
+   "start": 19.475,
+   "speechStart": 19.475,
+   "end": 25.275,
+   "builds": 0,
+   "text": "Propane is heavier than air, so a leak sinks into the bilge just like gasoline vapor."
+  },
+  {
+   "i": 4,
+   "start": 25.525,
+   "speechStart": 25.525,
+   "end": 31.5,
+   "builds": 0,
+   "text": "Close the valve at the tank, and if you smell propane, ventilate thoroughly before any spark."
+  },
+  {
+   "i": 5,
+   "start": 31.75,
+   "speechStart": 31.75,
+   "end": 36.8,
+   "builds": 0,
+   "text": "A fire blanket is also the fastest way to smother burning clothing."
+  }
+ ]
+}

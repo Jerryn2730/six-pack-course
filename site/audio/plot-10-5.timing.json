@@ -1,0 +1,84 @@
+{
+ "slide": "plot-10-5",
+ "lessonId": "plot-10",
+ "n": 5,
+ "audio": "plot-10-5.mp3",
+ "duration": 38.25,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.225,
+   "builds": 0,
+   "text": "That’s the end of the course."
+  },
+  {
+   "i": 1,
+   "start": 2.475,
+   "speechStart": 2.475,
+   "end": 4.425,
+   "builds": 0,
+   "text": "A few final tips."
+  },
+  {
+   "i": 2,
+   "start": 4.675,
+   "speechStart": 4.675,
+   "end": 10.1,
+   "builds": 0,
+   "text": "Read every question twice and note whether it asks for true, magnetic or compass."
+  },
+  {
+   "i": 3,
+   "start": 10.35,
+   "speechStart": 10.35,
+   "end": 16.0,
+   "builds": 0,
+   "text": "Use the variation the question gives you, rather than the chart’s rose, when one is given."
+  },
+  {
+   "i": 4,
+   "start": 16.25,
+   "speechStart": 16.25,
+   "end": 18.825,
+   "builds": 0,
+   "text": "Show your work so you can find mistakes."
+  },
+  {
+   "i": 5,
+   "start": 19.075,
+   "speechStart": 19.075,
+   "end": 26.65,
+   "builds": 0,
+   "text": "If your answer is off by exactly one hundred eighty degrees, you read the wrong side of the rose or reversed a set."
+  },
+  {
+   "i": 6,
+   "start": 26.9,
+   "speechStart": 26.9,
+   "end": 32.425,
+   "builds": 0,
+   "text": "And use the plotting drills in this app every day until the calculations are automatic."
+  },
+  {
+   "i": 7,
+   "start": 32.675,
+   "speechStart": 32.675,
+   "end": 35.825,
+   "builds": 0,
+   "text": "You’ve now covered every module of the exam."
+  },
+  {
+   "i": 8,
+   "start": 36.075,
+   "speechStart": 36.075,
+   "end": 37.95,
+   "builds": 0,
+   "text": "Good luck, Captain."
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "slide": "nav-02-3",
+ "lessonId": "nav-02",
+ "n": 3,
+ "audio": "nav-02-3.mp3",
+ "duration": 41.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.475,
+   "builds": 0,
+   "text": "Hazards have their own symbols."
+  },
+  {
+   "i": 1,
+   "start": 2.725,
+   "speechStart": 2.725,
+   "end": 9.075,
+   "builds": 0,
+   "text": "A rock that does not cover is always above water, with its height given above mean high water."
+  },
+  {
+   "i": 2,
+   "start": 9.325,
+   "speechStart": 9.325,
+   "end": 13.55,
+   "builds": 0,
+   "text": "A rock that covers and uncovers is exposed at low tide."
+  },
+  {
+   "i": 3,
+   "start": 13.8,
+   "speechStart": 13.8,
+   "end": 17.425,
+   "builds": 0,
+   "text": "A rock awash is right at the surface at chart datum."
+  },
+  {
+   "i": 4,
+   "start": 17.675,
+   "speechStart": 17.675,
+   "end": 22.8,
+   "builds": 0,
+   "text": "A sunken rock, marked with a cross, is always submerged and may be dangerous."
+  },
+  {
+   "i": 5,
+   "start": 23.05,
+   "speechStart": 23.05,
+   "end": 27.975,
+   "builds": 0,
+   "text": "Wrecks show as a hull symbol when visible and crossed lines when submerged."
+  },
+  {
+   "i": 6,
+   "start": 28.225,
+   "speechStart": 28.225,
+   "end": 38.95,
+   "builds": 0,
+   "text": "Watch for qualifiers: P A means position approximate, P D position doubtful, E D existence doubtful, and Rep means reported but not confirmed."
+  },
+  {
+   "i": 7,
+   "start": 39.2,
+   "speechStart": 39.2,
+   "end": 41.55,
+   "builds": 0,
+   "text": "Treat every one of them as real."
+  }
+ ]
+}

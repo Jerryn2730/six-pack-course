@@ -1,0 +1,60 @@
+{
+ "slide": "rules-10-1",
+ "lessonId": "rules-10",
+ "n": 1,
+ "audio": "rules-10-1.mp3",
+ "duration": 41.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.05,
+   "builds": 0,
+   "text": "Rule twenty-four covers towing and pushing."
+  },
+  {
+   "i": 1,
+   "start": 3.3,
+   "speechStart": 3.3,
+   "end": 8.9,
+   "builds": 0,
+   "text": "A power-driven vessel towing astern shows two masthead lights in a vertical line."
+  },
+  {
+   "i": 2,
+   "start": 9.15,
+   "speechStart": 9.15,
+   "end": 19.675,
+   "builds": 0,
+   "text": "When the length of the tow, measured from the stern of the towing vessel to the after end of the tow, exceeds two hundred meters, she shows three masthead lights in a vertical line."
+  },
+  {
+   "i": 3,
+   "start": 19.925,
+   "speechStart": 19.925,
+   "end": 26.825,
+   "builds": 0,
+   "text": "She also shows sidelights, a sternlight, and a yellow towing light in a vertical line above the sternlight."
+  },
+  {
+   "i": 4,
+   "start": 27.075,
+   "speechStart": 27.075,
+   "end": 32.65,
+   "builds": 0,
+   "text": "A towing vessel fifty meters or more still shows her other masthead light as well."
+  },
+  {
+   "i": 5,
+   "start": 32.9,
+   "speechStart": 32.9,
+   "end": 41.175,
+   "builds": 0,
+   "text": "When the tow exceeds two hundred meters, both the towing vessel and the tow show a diamond shape by day where it can best be seen."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "slide": "deck-06-4",
+ "lessonId": "deck-06",
+ "n": 4,
+ "audio": "deck-06-4.mp3",
+ "duration": 36.25,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.15,
+   "builds": 0,
+   "text": "If you discover flooding, act in order."
+  },
+  {
+   "i": 1,
+   "start": 3.4,
+   "speechStart": 3.4,
+   "end": 8.925,
+   "builds": 0,
+   "text": "First, find the source: check through-hulls, hoses, the shaft seal and the hull itself."
+  },
+  {
+   "i": 2,
+   "start": 9.175,
+   "speechStart": 9.175,
+   "end": 18.35,
+   "builds": 0,
+   "text": "Second, stop or slow the leak: close the seacock, drive a soft wood plug into a failed fitting, or stuff cushions and rags into a hole."
+  },
+  {
+   "i": 3,
+   "start": 18.6,
+   "speechStart": 18.6,
+   "end": 22.7,
+   "builds": 0,
+   "text": "Tie a plug next to every through-hull so it’s there when you need it."
+  },
+  {
+   "i": 4,
+   "start": 22.95,
+   "speechStart": 22.95,
+   "end": 25.625,
+   "builds": 0,
+   "text": "Third, pump with everything you have."
+  },
+  {
+   "i": 5,
+   "start": 25.875,
+   "speechStart": 25.875,
+   "end": 30.5,
+   "builds": 0,
+   "text": "Fourth, call for help early, with a pan-pan, or a Mayday if you’re sinking."
+  },
+  {
+   "i": 6,
+   "start": 30.75,
+   "speechStart": 30.75,
+   "end": 35.95,
+   "builds": 0,
+   "text": "Get life jackets on everyone, and if the leak is winning, head for shallow water."
+  }
+ ]
+}

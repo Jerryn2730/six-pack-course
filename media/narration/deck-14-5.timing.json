@@ -1,0 +1,60 @@
+{
+ "slide": "deck-14-5",
+ "lessonId": "deck-14",
+ "n": 5,
+ "audio": "deck-14-5.mp3",
+ "duration": 43.25,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.625,
+   "builds": 0,
+   "text": "Florida’s waters are your business, so protect them."
+  },
+  {
+   "i": 1,
+   "start": 3.875,
+   "speechStart": 3.875,
+   "end": 11.325,
+   "builds": 0,
+   "text": "Obey manatee zone speed signs, and keep a lookout for manatees and sea turtles, especially in shallow water."
+  },
+  {
+   "i": 2,
+   "start": 11.575,
+   "speechStart": 11.575,
+   "end": 20.525,
+   "builds": 0,
+   "text": "Running aground in seagrass and leaving propeller scars damages the habitat that supports your fishery and is illegal in many areas."
+  },
+  {
+   "i": 3,
+   "start": 20.775,
+   "speechStart": 20.775,
+   "end": 26.525,
+   "builds": 0,
+   "text": "Know the rules of the Florida Keys National Marine Sanctuary if you operate there."
+  },
+  {
+   "i": 4,
+   "start": 26.775,
+   "speechStart": 26.775,
+   "end": 32.325,
+   "builds": 0,
+   "text": "Collect and recycle used fishing line, which kills birds, turtles and dolphins."
+  },
+  {
+   "i": 5,
+   "start": 32.575,
+   "speechStart": 32.575,
+   "end": 42.95,
+   "builds": 0,
+   "text": "Report spills, injured wildlife and violations to the Fish and Wildlife Conservation Commission at eight eight eight, four zero four, three nine two two."
+  }
+ ]
+}
