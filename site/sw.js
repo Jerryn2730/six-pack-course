@@ -1,17 +1,19 @@
 // Service worker for offline use (Task 5). No third-party code.
 // Page: network first, falling back to the saved copy. Narration: saved copy first, then network (and keep it).
-const PAGE = "spp-page-v1", AUDIO = "spp-audio-v1";
+const PAGE = "spp-page-v2", AUDIO = "spp-audio-v2";
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(PAGE).then((c) => c.addAll(["./", "manifest.webmanifest", "icon.svg"]).catch(() => {})).then(() => self.skipWaiting()));
 });
-self.addEventListener("activate", (e) => e.waitUntil(self.clients.claim()));
+// Drop caches from older versions (v1 kept recordings by file name, so re-recorded slides went stale).
+self.addEventListener("activate", (e) => e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== PAGE && k !== AUDIO).map((k) => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener("fetch", (e) => {
   const req = e.request, url = new URL(req.url);
   if (req.method !== "GET" || url.origin !== location.origin) return;
   if (url.pathname.includes("/audio/")) {
     if (req.headers.has("range")) return; // let the browser handle partial requests itself
     e.respondWith(caches.open(AUDIO).then(async (c) => {
-      const hit = await c.match(url.pathname.replace(/^.*\/audio\//, "audio/")) || await c.match(req);
+      // Recordings carry ?v=<hash>: match the full URL so a new recording is fetched fresh.
+      const hit = await c.match(req);
       if (hit) return hit;
       const res = await fetch(req);
       if (res.ok && res.status === 200) c.put(req, res.clone());

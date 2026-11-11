@@ -65,6 +65,10 @@ if (missing.length) {
   process.exit(1);
 }
 
+// Audio version per slide (from the narration manifest), so a re-recorded slide gets a new URL
+// and browsers and the offline cache never play a stale recording.
+const manPath = path.join(ROOT, "media", "narration", "manifest.json");
+const AV = fs.existsSync(manPath) ? JSON.parse(fs.readFileSync(manPath, "utf8")).slides || {} : {};
 // 3. Embed only what the app uses (scripts keep their [+] and [pause] markers).
 const content = {
   modules: data.modules,
@@ -73,6 +77,8 @@ const content = {
     slides: L.slides.map((s) => {
       const o = { heading: s.heading, visual: s.visual, script: s.script };
       if (s.video != null) o.video = s.video;
+      const av = AV[`${L.id}-${s.n}`];
+      if (av && av.hash) o.av = av.hash.slice(0, 10);
       return o;
     }),
   })),
@@ -92,7 +98,7 @@ const block =
   // JSON, so saved progress (localStorage "oupv-v1") keeps matching.
   `const MODS=COURSE.modules;\n` +
   `const BANK=COURSE.questions.map(x=>({id:x.id,m:x.module,text:x.text,opts:x.options,exp:x.explanation,tag:x.lessonTag}));\n` +
-  `const LESSONS=COURSE.lessons.map(l=>({id:l.id,m:l.module,t:l.title,c:l.covers,r:l.recap,status:l.status,slides:l.slides.map(s=>({h:s.heading,v:s.visual,vid:s.video,say:s.script}))}));`;
+  `const LESSONS=COURSE.lessons.map(l=>({id:l.id,m:l.module,t:l.title,c:l.covers,r:l.recap,status:l.status,slides:l.slides.map(s=>({h:s.heading,v:s.visual,vid:s.video,say:s.script,av:s.av}))}));`;
 
 const html = template.replace(MARKER, () => block);
 

@@ -26,3 +26,10 @@ Changing a row regenerates only the slides that contain that term.
 | Securité, Sécurité | say-CURE-ee-tay | /sˌAkjˈʊɹitˌA/ | |
 | Vibrio | VIB-ree-oh | | Default is correct |
 | 1210-Tr | twelve-ten T R | twelve-ten T R | |
+| points live | POINTS LIV (short i) | /pˈYnts lˈɪv/ | Verb “live”; Kokoro defaults to the adjective (long i). rules-02 slide 1 |
+| bow, Bow | BOW (rhymes with now) | /bˈW/ | Front of the boat. Kokoro defaults to “boh” (a bow and arrow) |
+| bows | BOWS (rhymes with now) | /bˈWz/ | Same as bow |
+| lead line | LED line | /lˈɛd lˈIn/ | Sounding line; Kokoro defaults to “leed” |
+| read | REED | /ɹˈid/ | Present tense in every script; Kokoro guesses “red” in about half. Past forms below |
+| is read | iz RED | /ɪz ɹˈɛd/ | Past participle (nav-01 slide 1) |
+| then read on | then RED on | /ðˈɛn ɹˈɛd ˌɔn/ | Past participle (nav-06 slide 2) |

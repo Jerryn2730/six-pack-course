@@ -1134,16 +1134,18 @@ const AUDIO_BASE="audio/"; // Narration MP3s + timing files from `npm run audio`
 function strip(t){return t.replace(/\s*\[(\+|pause)\]\s*/g," ").replace(/\s{2,}/g," ").trim();}
 function clean(t){return strip(t).replace(/°/g," degrees").replace(/×/g," times ").replace(/÷/g," divided by ");}
 function reveal(k){const items=[...document.querySelectorAll("#slide .rv-item")];if(!PL.les)return;const say=cur().say;if(!/\[\+\]/.test(say)){items.forEach(el=>el.classList.remove("dim"));return;}const ss=splitS(say);let n=0;if(k>=ss.length)n=items.length;else for(let i=0;i<=k&&i<ss.length;i++)n+=(ss[i].match(/\[\+\]/g)||[]).length;items.forEach((el,i)=>el.classList.toggle("dim",i>=n));}
-function playFile(tok,ss){const a=PL.audio||(PL.audio=new Audio());const key=`${PL.les.id}-${PL.i+1}`;const words=ss.map(s=>strip(s).split(/\s+/).length),tot=words.reduce((x,y)=>x+y,0);a.src=`${AUDIO_BASE}${key}.mp3`;a.playbackRate=PL.rate;
+function playFile(tok,ss){const a=PL.audio||(PL.audio=new Audio());const key=`${PL.les.id}-${PL.i+1}`;const words=ss.map(s=>strip(s).split(/\s+/).length),tot=words.reduce((x,y)=>x+y,0);const av=cur().av?`?v=${cur().av}`:"";a.src=`${AUDIO_BASE}${key}.mp3${av}`;a.playbackRate=PL.rate;
  // Exact sync: scripts/narrate.py writes {key}.timing.json with each sentence's start time. Without it (or when it
  // can't be fetched, e.g. opened from file://), fall back to splitting the audio by word count.
- let T=null;if(window.fetch)fetch(`${AUDIO_BASE}${key}.timing.json`).then(r=>r.ok?r.json():null).then(j=>{if(tok===PL.tok&&j&&Array.isArray(j.sentences)&&j.sentences.length===ss.length)T=j.sentences;}).catch(()=>{});
+ let T=null;if(window.fetch)fetch(`${AUDIO_BASE}${key}.timing.json${av}`).then(r=>r.ok?r.json():null).then(j=>{if(tok===PL.tok&&j&&Array.isArray(j.sentences)&&j.sentences.length===ss.length)T=j.sentences;}).catch(()=>{});
  const upd=()=>{if(tok!==PL.tok||!a.duration)return;let k=0;if(T){for(let i=1;i<T.length;i++){if(a.currentTime>=T[i].start)k=i;else break;}}else{const f=a.currentTime/a.duration*tot;let acc=0;for(;k<ss.length-1;k++){acc+=words[k];if(acc>f)break;}}if(k!==PL.sent){PL.sent=k;hl(k);reveal(k);if(askStop(k,()=>{if(tok===PL.tok)a.play().catch(()=>{});}))a.pause();}};
  const tick=()=>{if(tok!==PL.tok||a.paused||a.ended)return;upd();requestAnimationFrame(tick);};
  a.ontimeupdate=upd;a.onplaying=()=>requestAnimationFrame(tick);
  a.onended=()=>{if(tok!==PL.tok)return;hl(-1);reveal(999);if(PL.i<PL.les.slides.length-1){setTimeout(()=>{if(tok!==PL.tok||!PL.playing)return;PL.i++;PL.sent=0;renderSlide();speak();},900);}else{PL.playing=false;setPP();}};
  // A missing file falls back to browser speech for that slide only, so lessons can be narrated one module at a time.
- a.onerror=()=>{if(tok!==PL.tok)return;(PL.missing||(PL.missing={}))[key]=true;speak(true);};PL.sent=0;hl(0);reveal(0);a.play().catch(e=>{if(tok!==PL.tok||(e&&e.name==="AbortError"))return;speak(true);});}
+ a.onerror=()=>{if(tok!==PL.tok)return;if(!a.dataset.retry){a.dataset.retry="1";a.src=`${AUDIO_BASE}${key}.mp3?r=${Date.now()}`;a.play().catch(()=>{});return;}(PL.missing||(PL.missing={}))[key]=true;speak(true);audioWhy(key);};a.dataset.retry="";PL.sent=0;hl(0);reveal(0);a.play().catch(e=>{if(tok!==PL.tok||(e&&e.name==="AbortError"))return;if(e&&e.name==="NotAllowedError"){PL.playing=false;setPP();notice("Your browser paused the recording because it started on its own. Press Play to continue.");return;}speak(true);audioWhy(key,e&&e.name);});}
+// Say why a recording didn't play, so a fallback to the device voice is never silent.
+function audioWhy(key,err){const u=`${AUDIO_BASE}${key}.mp3?r=${Date.now()}`;const say=s=>notice(`The recording for this slide didn’t play (${s}), so your device’s voice is reading it. Reload the page to try again.`);if(!window.fetch){say(err||"unknown");return;}fetch(u,{method:"HEAD",cache:"no-store"}).then(r=>say(r.ok?(err||"the browser couldn’t play the file"):`server answered ${r.status}`)).catch(()=>say(err||"no connection"));}
 function narrSrc(t){const e=document.getElementById("narrsrc");if(e)e.textContent=t;}
 function speak(noFile){
   if(!PL.les)return;const tok=++PL.tok;if(synth)synth.cancel();if(PL.audio)try{PL.audio.pause();}catch(e){}
