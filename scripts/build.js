@@ -40,12 +40,17 @@ if (template.split(MARKER).length !== 2) {
 // 2. Every diagram a slide names must exist in the app's DG object.
 const dgBlock = template.slice(template.indexOf("const DG={"), template.indexOf("\n};", template.indexOf("const DG={")));
 const diagrams = new Set([...dgBlock.matchAll(/^\s*([A-Za-z0-9_]+)\(\)\s*\{/gm)].map((m) => m[1]));
+const figBlock = template.slice(template.indexOf("const FIG={"), template.indexOf("\n};", template.indexOf("const FIG={")));
+const figures = new Set([...figBlock.matchAll(/^\s*([A-Za-z0-9_]+)\([^)]*\)\s*\{/gm)].map((m) => m[1]));
 const missing = [];
 for (const L of data.lessons)
   for (const s of L.slides)
     if (s.visual && s.visual.k === "dg" && !diagrams.has(s.visual.f)) missing.push(`${L.id}-${s.n}: "${s.visual.f}"`);
+for (const L of data.lessons)
+  for (const s of L.slides)
+    if (s.visual && s.visual.fig && !figures.has(s.visual.fig)) missing.push(`${L.id}-${s.n}: figure "${s.visual.fig}"`);
 if (missing.length) {
-  console.error(`Build stopped: unknown diagram name(s): ${missing.join(", ")}`);
+  console.error(`Build stopped: unknown diagram or figure name(s): ${missing.join(", ")}`);
   process.exit(1);
 }
 
@@ -93,4 +98,4 @@ if (check) {
 fs.writeFileSync(OUT, html);
 const kb = (Buffer.byteLength(html) / 1024).toFixed(0);
 console.log(`Built site/index.html (${kb} KB): ${data.lessons.length} lessons, ` +
-  `${data.questions.length} questions, ${diagrams.size} diagrams available.`);
+  `${data.questions.length} questions, ${diagrams.size} diagrams and ${figures.size} figures available.`);

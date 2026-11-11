@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#EEF4F6; --shoal:#D6E7EF; --surface:#FFFFFF; --ink:#14283A; --muted:#506475; --line:#B8CCD7;
+  --land:#EADFC0; --paper:#EEF4F6; --shoal:#D6E7EF; --surface:#FFFFFF; --ink:#14283A; --muted:#506475; --line:#B8CCD7;
   --mag:#A3195B; --mag-ink:#FFFFFF; --mag-soft:#F6E0EB;
   --ok:#1C6E45; --ok-soft:#DCEFE4; --bad:#A8231C; --bad-soft:#F8E0DE;
   color-scheme: light;
@@ -21,14 +21,14 @@
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --paper:#0B141B; --shoal:#14242F; --surface:#111D27; --ink:#DCE7EE; --muted:#97AAB8; --line:#28404F;
+    --land:#3A3829; --paper:#0B141B; --shoal:#14242F; --surface:#111D27; --ink:#DCE7EE; --muted:#97AAB8; --line:#28404F;
     --mag:#E2649F; --mag-ink:#1A0610; --mag-soft:#3A1529;
     --ok:#62C995; --ok-soft:#133224; --bad:#F2877F; --bad-soft:#3A1715;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"]{
-  --paper:#0B141B; --shoal:#14242F; --surface:#111D27; --ink:#DCE7EE; --muted:#97AAB8; --line:#28404F;
+  --land:#3A3829; --paper:#0B141B; --shoal:#14242F; --surface:#111D27; --ink:#DCE7EE; --muted:#97AAB8; --line:#28404F;
   --mag:#E2649F; --mag-ink:#1A0610; --mag-soft:#3A1529;
   --ok:#62C995; --ok-soft:#133224; --bad:#F2877F; --bad-soft:#3A1715;
   color-scheme: dark;
@@ -167,6 +167,14 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .snt:hover{text-decoration:underline;text-decoration-color:var(--line)}
 .snt.on{background:var(--mag-soft);box-shadow:0 0 0 3px var(--mag-soft)}
 .endbox{margin-top:1.5rem;padding:1.2rem;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.vfig{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);gap:1.3rem;align-items:center;width:100%;height:100%;min-height:0}
+.vfig-art{min-height:0;height:100%;display:flex;align-items:center;justify-content:center}
+.visual .vfig-art svg.fg{width:100%;height:auto;max-height:100%;aspect-ratio:11/10;border-radius:12px;display:block}
+.vfig-txt{min-width:0;display:flex;align-items:center}
+.vfig .vpoints,.vfig .vscript{font-size:clamp(1rem,1.8vw,1.2rem)}
+.vfig .callout{width:100%}
+@media (max-width:719px){.vfig{grid-template-columns:1fr;height:auto}.vfig-art{height:auto}.visual .vfig-art svg.fg{max-height:340px;width:auto;max-width:100%}}
+.s-land{fill:var(--land);stroke:var(--muted);stroke-width:.7}
 .dg text{font-family:"Barlow Semi Condensed",Arial,sans-serif}
 .s-ink{fill:var(--ink)}.s-mut{fill:var(--muted)}.s-mag{fill:var(--mag)}.s-on{fill:var(--mag-ink)}.s-bg{fill:var(--shoal)}
 .s-surfb{fill:var(--surface);stroke:var(--line);stroke-width:1.5}
@@ -582,6 +590,81 @@ const DG={
  runningfix(){return SV(`<line x1="80" y1="320" x2="580" y2="150" class="s-st" stroke-width="1.5" stroke-dasharray="7 6"/><polygon points="430,42 442,74 418,74" class="s-ink"/><line x1="430" y1="60" x2="130" y2="331" class="s-st" stroke-width="2" opacity=".5"/><line x1="505" y1="105" x2="318" y2="275" class="s-magst" stroke-width="2.5" stroke-dasharray="8 5"/><line x1="430" y1="60" x2="365" y2="265" class="s-st" stroke-width="2"/><circle cx="380" cy="218" r="10" class="s-magst" stroke-width="2.5"/>`+AR("M230,241 L420,176")+TX(455,64,"Light",{a:"start",z:14})+TX(150,348,"0900 LOP",{z:14})+TX(372,288,"0930 LOP",{a:"start",z:14})+TX(512,112,"0900 LOP advanced",{a:"start",z:13,c:"s-mag"})+TX(396,226,"0930 R FIX",{a:"start",z:14})+TX(250,206,"Advance by the run",{a:"end",z:13,c:"s-mag"})+TX(575,178,"Your course",{a:"end",z:13,w:500})+TX(20,30,"Advance the earlier LOP parallel to itself,",{a:"start",z:14})+TX(20,52,"by the distance and direction you ran.",{a:"start",z:14}));},
  doubling(){return SV(AR("M200,345 L200,25","s-st")+`<polygon points="380,124 392,156 368,156" class="s-ink"/><line x1="200" y1="320" x2="380" y2="140" class="s-magst" stroke-width="2" stroke-dasharray="6 5"/><line x1="200" y1="140" x2="380" y2="140" class="s-magst" stroke-width="2" stroke-dasharray="6 5"/><circle cx="200" cy="320" r="5" class="s-ink"/><circle cx="200" cy="140" r="5" class="s-ink"/><line x1="178" y1="140" x2="178" y2="320" class="s-st" stroke-width="1.5"/>`+TX(212,312,"First bearing: 45° on the bow",{a:"start",z:14})+TX(212,128,"Second: abeam",{a:"start",z:14})+TX(170,235,"Run",{a:"end",z:14})+TX(290,162,"Distance off = run",{z:14,c:"s-mag"})+sub(400,118,"Light")+TX(420,220,"Doubling the angle:",{a:"start",z:14})+TX(420,242,"30° → 60°: off at 2nd = run",{a:"start",z:13})+TX(420,268,"22.5° → 45°:",{a:"start",z:14})+TX(420,290,"off when abeam ≈ 0.7 × run",{a:"start",z:13}));}
 };
+/* ---------- Slide illustrations (visual.fig) ----------
+   A figure shown beside a slide's text. Always visible; it isn't a reveal step. viewBox 440×400.
+   Shoreline in tampabay: U.S. Census Bureau cartographic boundary file (public domain), generalized 1:500,000.
+   Line: 33 CFR 80.750 (i) and (j). Schematic only; see SOURCES/asset_licenses.md. */
+const FV=inner=>`<svg viewBox="0 0 440 400" class="dg fg" role="img" aria-hidden="true">${DEFS}${inner}</svg>`;
+const TB_LAND="M395.4,167.5 400.1,168.7 400.2,168.8 395.1,171.3 395.4,167.5ZM452,-12 452,156.5 429.4,156.3 423.7,156 445.1,117.2 446.7,114.8 448.2,112.6 452,106.8 452,-12ZM157.7,233.9 158.6,226.7 158.8,220.5 159.1,218 159.8,216.9 161.1,217 162.5,218 164.5,220.8 164.7,225.8 164.1,229.5 162.6,239.3 162.2,242.1 163,246 164.3,250.2 167.2,253.4 168,255.6 166.1,255.7 164.4,254.1 161.4,250.3 159.9,248.3 158.8,246.9 157.8,237.7 157.7,233.9ZM244.7,127.9 246.7,123.2 254.3,124.3 257.3,128.9 255.2,131.9 250.1,131.7 245.2,133.5 244.7,127.9ZM335.5,-12 335.2,-7.7 330.1,-4.8 328.4,-1.5 326.9,1.6 328.4,8.1 334.5,9.4 336.2,14.9 333.2,17.9 331.2,19.9 333.9,31.8 333.2,38 333,40 328.6,50.3 323,63.4 315.2,73 313.2,73.6 307,75.6 299.1,78.1 298.2,77.9 288.7,75.9 285.9,75.3 274.9,70.1 267.7,69.7 267.7,78.1 267.8,85.6 265.6,85.8 265.3,85.8 264.5,85.9 264.2,77.8 264.2,77.5 263.9,70.3 259.3,72.7 258.2,73.3 252.8,79.3 246.9,78.3 241.9,75.7 240.7,67 229.7,69.6 224.5,70.9 222.1,73.3 222,75.8 221.7,80.5 216.5,88 215.2,90 218.2,94.7 217,96 214.8,98.5 214.8,98.6 214.2,115.6 208.2,116.7 208.2,118.3 208.4,123.3 212.1,128.1 212.3,129.5 210.2,130.2 208.9,130.6 209,132.3 211.5,134.7 216.1,138.8 218.3,148 218.4,148.1 223.1,154.8 220.8,156.6 220.7,157.4 220.3,160.2 221.9,161.8 224.9,161.7 228.9,178.4 231,179.8 233.5,178 238.7,167.1 240.4,166.2 241.3,167.4 235.8,181.6 232.6,185.3 200.3,201 195.1,204.5 192.2,203.4 192.7,196.7 193.6,185.9 191.9,182.2 191.4,174.6 188.4,168.3 183.1,152.4 183,151.8 181.6,144.6 184.6,120.6 186,113.6 186.8,111.5 189,105.6 190.4,101.9 190.8,70.8 190.9,68.8 187.9,52.6 184,44.1 180,35.4 176.1,31.7 171,26.7 168.7,23.5 161.9,14 158.7,6.2 151.4,-12ZM395.1,171.3 400.2,168.8 404.4,174.1 404.6,177.8 399,176.8 395.1,171.3ZM181.1,308.8 185.3,308.1 194.9,314.5 200.2,317.4 210.9,323.3 212.5,324.2 214.7,327 215,327 217.8,326.6 228.8,331.3 228.3,334.7 227.3,341.9 226.8,345.2 224.3,351.5 225.5,361.8 229.4,365.6 230.4,366.5 234.8,367.2 239.8,367.9 242.2,368.2 251.1,369.4 253.7,368.3 256.5,367 255.5,352.8 259.7,345.6 260,345.3 271.1,336.3 287.1,331.7 295.2,333.9 304.2,332.4 308.3,330.3 313.2,327.8 310.1,323.6 306.5,318.8 307.3,316.4 321.4,308.3 322.4,303.2 325,290.1 331.7,280.2 350.4,262.5 349.1,245.9 349.6,244.8 350.7,242.5 363.4,235.9 370,229.9 381.2,229.8 385,227.1 389,226.7 394.1,222.1 392.7,218.5 393.7,213.7 400.4,211.2 402.8,208.7 409,199 410.6,190.3 408.6,186.4 411.5,176.5 412.5,167.1 418,166.2 423.3,156.7 423.7,156 429.4,156.3 452,156.5 452,412 239.4,412 235.7,401.3 230.3,385.6 229.1,382 223.4,369.6 220.6,363.7 219.5,362.1 210.7,348.9 207.9,344.8 207.5,344.4 199.1,335.4 198.9,335.2 197.9,334.1 192.3,328.2 190.4,326.1 184.5,319.9 182.7,314 181.1,308.8Z";
+const sboat=(x,y,k,cls,ex)=>`<g transform="translate(${x} ${y}) scale(${k||1})"><path d="M-48,0 L46,0 L34,17 L-42,17 Z" class="${cls||"s-ink"}"/><path d="M-20,0 L-15,-17 L8,-17 L16,0 Z" class="${cls||"s-ink"}"/>${ex||""}</g>`;
+const sea=(y,x0,x1)=>`<path d="M${x0||20},${y} H${x1||420}" class="s-magst" stroke-width="2" opacity=".55"/>`;
+const YES=(x,y)=>`<path d="M${x-9},${y} L${x-3},${y+7} L${x+10},${y-9}" stroke="#1e8a4c" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`;
+const NO=(x,y)=>`<path d="M${x-8},${y-8} L${x+8},${y+8} M${x+8},${y-8} L${x-8},${y+8}" stroke="#d93025" stroke-width="4.5" stroke-linecap="round"/>`;
+const panel=(y,h)=>`<rect x="6" y="${y}" width="428" height="${h}" rx="10" class="s-bg"/>`;
+const FIG={
+ tampabay(track){
+  let s=`<rect width="440" height="400" class="s-bg"/><path d="${TB_LAND}" class="s-land"/>`;
+  if(track!==false)s+=`<path d="M418,96 C345,178 262,216 180,212 C130,214 85,228 46,236" class="s-st" stroke-width="2" stroke-dasharray="2 5" stroke-linecap="round"/><circle cx="418" cy="96" r="5" class="s-ink"/>`+hull(46,236,-99,"s-ink",.55)+sub(398,84,"Dock");
+  s+=`<path d="M181.1,308.9 L168,255.6 M162.2,220.3 L192.2,203.4" class="s-magst" stroke-width="4" stroke-dasharray="8 5"/>`;
+  s+=TX(22,100,"INTERNATIONAL",{a:"start",z:19,w:700,c:"s-mag"})+TX(22,121,"RULES",{a:"start",z:19,w:700,c:"s-mag"})+`<text x="22" y="141" font-size="14" font-weight="500" class="s-mut">Gulf side: seaward</text>`;
+  s+=TX(232,262,"INLAND RULES",{a:"start",z:19,w:700,c:"s-mag"})+`<text x="232" y="282" font-size="14" font-weight="500" class="s-mut">Bay side: shoreward</text>`;
+  s+=`<text x="270" y="232" font-size="15" font-style="italic" font-weight="500" class="s-mut">Tampa Bay</text>`;
+  s+=TX(150,246,"Egmont Key",{a:"end",z:14})+TX(170,330,"Anna Maria",{a:"end",z:14})+TX(250,60,"St. Petersburg",{z:14})+TX(238,172,"Mullet Key",{a:"start",z:13,w:500});
+  s+=`<path d="M112,286 L166,274" class="s-magst" stroke-width="1.5"/>`+TX(22,292,"COLREGS",{a:"start",z:14,c:"s-mag"})+TX(22,308,"demarcation line",{a:"start",z:14,c:"s-mag"});
+  return FV(s+`<text x="10" y="390" font-size="11" font-weight="500" class="s-mut">33 CFR 80.750. Schematic, not for navigation.</text>`);},
+ demline(){return FIG.tampabay(false);},
+ lengths(){
+  const R=[[7,"23"],[12,"39"],[20,"66"],[50,"164"],[100,"328"]];let s="";
+  R.forEach(([m,ft],i)=>{const y=52+i*72,k=.42+i*.36,w=96*k;
+   s+=sea(y+17*k,20,300)+sboat(30+w/2,y,k,"s-ink")+TX(330,y+8,m+" m",{a:"start",z:30,w:700,c:"s-mag"})+`<text x="330" y="${y+27}" font-size="14" font-weight="500" class="s-mut">about ${ft} ft</text>`;});
+  return FV(s+`<text x="20" y="392" font-size="12" font-weight="500" class="s-mut">Boats not to scale</text>`);},
+ vesselkinds(){
+  const L=(y,a,b)=>TX(232,y,a,{a:"start",z:20,w:700})+`<text x="232" y="${y+20}" font-size="14" font-weight="500" class="s-mut">${b}</text>`;
+  let s=panel(8,120)+panel(140,120)+panel(272,120);
+  s+=sea(98,24,210)+sboat(112,81,1,"s-ink")+`<path d="M58,104 q-8,6 -16,0 M60,112 q-8,6 -16,0" class="s-magst" stroke-width="2"/>`+L(62,"Power-driven","Propelled by machinery");
+  s+=sea(232,24,210)+`<path d="M66,215 L160,215 L148,232 L74,232 Z" class="s-ink"/><line x1="112" y1="215" x2="112" y2="152" class="s-st" stroke-width="2.5"/><path d="M116,156 L116,208 L156,208 Z" class="s-mag"/><path d="M108,162 L108,208 L76,208 Z" class="s-mag" opacity=".6"/>`+L(194,"Sailing","Under sail, engine not used");
+  s+=sea(364,24,210)+`<path d="M52,318 Q62,306 96,306 L166,308 L186,290 L192,292 L184,316 Q150,324 96,324 Q62,324 52,318 Z" class="s-ink"/><rect x="82" y="296" width="62" height="8" rx="4" class="s-ink"/><line x1="92" y1="324" x2="86" y2="352" class="s-st" stroke-width="2.5"/><line x1="134" y1="323" x2="140" y2="352" class="s-st" stroke-width="2.5"/><path d="M60,352 L160,352 L152,362 L70,362 Z" class="s-ink"/>`+L(326,"Seaplane","Aircraft that maneuvers on water");
+  return FV(s);},
+ fishing(){
+  let s=panel(8,186)+panel(206,186);
+  s+=sea(96,24,416)+sboat(120,79,1.05,"s-ink",`<line x1="-30" y1="-17" x2="-38" y2="-32" class="s-st" stroke-width="2.5"/>`)+`<path d="M80,46 L250,150 M72,96 L250,150" class="s-st" stroke-width="1.5"/><path d="M250,150 L330,128 L330,172 Z" class="s-magst" stroke-width="2" fill="none"/><path d="M270,144 V156 M290,139 V161 M310,133 V167" class="s-magst" stroke-width="1.2"/>`;
+  s+=YES(34,34)+TX(52,41,"Engaged in fishing",{a:"start",z:20,w:700})+`<text x="262" y="186" text-anchor="middle" font-size="14" font-weight="500" class="s-mut">Gear restricts her maneuverability</text>`;
+  s+=sea(296,24,416)+sboat(120,279,1.05,"s-ink",`<line x1="-40" y1="0" x2="-78" y2="-20" class="s-st" stroke-width="2"/><line x1="-34" y1="0" x2="-66" y2="-27" class="s-st" stroke-width="2"/>`)+`<path d="M38,258 Q22,280 14,312" class="s-st" stroke-width="1" fill="none" opacity=".7"/><path d="M51,251 Q36,280 30,322" class="s-st" stroke-width="1" fill="none" opacity=".7"/>`;
+  s+=NO(34,232)+TX(52,239,"Not “engaged in fishing”",{a:"start",z:20,w:700})+`<text x="262" y="352" text-anchor="middle" font-size="14" font-weight="500" class="s-mut">Trolling lines: she’s power-driven</text>`;
+  return FV(s);},
+ underway(){
+  const L=(y,a,b,c)=>TX(232,y,a,{a:"start",z:19,w:700,c:c||"s-ink"})+`<text x="232" y="${y+20}" font-size="14" font-weight="500" class="s-mut">${b}</text>`;
+  let s=panel(8,120)+panel(140,120)+panel(272,120);
+  s+=sea(76,24,210)+sboat(104,59,.9,"s-ink")+`<path d="M146,62 Q176,96 190,116" class="s-st" stroke-width="1.8" fill="none"/><path d="M182,108 L190,118 L200,110 M190,104 V118" class="s-st" stroke-width="2.2" fill="none"/><path d="M24,118 H210" class="s-st" stroke-width="2" opacity=".5"/>`+L(58,"At anchor","Not underway");
+  s+=sea(216,24,210)+sboat(112,199,.9,"s-ink")+L(184,"Drifting","Underway, not making way")+`<text x="112" y="246" text-anchor="middle" font-size="13" font-weight="500" class="s-mut">Engine in neutral</text>`;
+  s+=sea(348,24,210)+sboat(124,331,.9,"s-ink")+`<path d="M76,340 q-9,7 -18,0 M72,350 q-9,7 -18,0 M52,344 q-9,7 -18,0" class="s-magst" stroke-width="2"/>`+AR("M150,300 H196")+L(316,"Making way","Moving under her own power","s-mag");
+  return FV(s);},
+ insight(){
+  const eye=(x,y)=>`<path d="M${x-20},${y} Q${x},${y-16} ${x+20},${y} Q${x},${y+16} ${x-20},${y} Z" class="s-st" stroke-width="2.2" fill="none"/><circle cx="${x}" cy="${y}" r="6" class="s-ink"/>`;
+  let s=panel(8,186)+panel(206,186);
+  s+=sea(150,24,416)+eye(60,110)+`<line x1="86" y1="110" x2="296" y2="124" class="s-magst" stroke-width="2" stroke-dasharray="6 5"/>`+sboat(346,133,.9,"s-ink");
+  s+=YES(34,34)+TX(52,41,"In sight of one another",{a:"start",z:20,w:700})+`<text x="220" y="180" text-anchor="middle" font-size="14" font-weight="500" class="s-mut">Seen with the eyes</text>`;
+  s+=sea(348,24,416)+sboat(346,331,.9,"s-ink")+`<rect x="150" y="262" width="278" height="100" rx="10" style="fill:var(--surface)" opacity=".86"/>`+[0,1,2].map(i=>`<path d="M166,${284+i*26} q22,-12 44,0 t44,0 t44,0 t44,0 t44,0 t30,0" class="s-lst" stroke-width="3" fill="none"/>`).join("");
+  s+=`<circle cx="76" cy="312" r="44" fill="#04070B"/><circle cx="76" cy="312" r="26" fill="none" stroke="#3ddc84" stroke-dasharray="3 5" opacity=".6"/><line x1="76" y1="312" x2="76" y2="268" stroke="#3ddc84" opacity=".7"/><circle cx="98" cy="296" r="5" fill="#3ddc84"/>`;
+  s+=NO(34,232)+TX(52,239,"NOT in sight",{a:"start",z:20,w:700})+`<text x="220" y="382" text-anchor="middle" font-size="14" font-weight="500" class="s-mut">A radar or AIS contact in fog</text>`;
+  return FV(s);},
+ radarplot(){
+  const G="#3ddc84",T=(x,y,t,a)=>`<text x="${x}" y="${y}" text-anchor="${a||"start"}" font-size="14" font-weight="600" fill="${G}">${t}</text>`;
+  let s=`<rect width="440" height="400" rx="12" fill="#04070B"/><circle cx="200" cy="206" r="174" fill="none" stroke="${G}" stroke-width="2" opacity=".8"/>`;
+  [58,116].forEach(r=>s+=`<circle cx="200" cy="206" r="${r}" fill="none" stroke="${G}" stroke-dasharray="3 5" opacity=".5"/>`);
+  s+=`<line x1="200" y1="206" x2="200" y2="32" stroke="${G}" opacity=".6"/><path d="M200,196 L207,214 L193,214 Z" fill="${G}"/>`;
+  s+=`<path d="M214,34 L236,150" stroke="${G}" stroke-width="1.5" stroke-dasharray="5 5" opacity=".8"/>`+[[214,34,1],[221,72,.75],[228,110,.55]].map(([x,y,o],i)=>`<circle cx="${x}" cy="${y}" r="${i?5:7}" fill="${G}" opacity="${i?o:1}"/>`).join("");
+  s+=T(228,30,"First glance")+T(228,48,"3 miles ahead")+T(244,104,"Later plots")+T(244,122,"show her track");
+  s+=T(194,144,"1 mi","end")+T(194,86,"2 mi","end")+T(196,392,"Plot for a few minutes before you decide","middle");
+  return FV(s);},
+ action(){
+  let s=panel(8,186)+panel(206,186);
+  s+=hull(390,100,-90,"s-mut",.8)+hull(104,100,90,"s-ink",.8)+AR("M134,100 C180,100 205,152 300,160");
+  s+=YES(34,34)+TX(52,41,"One early, large alteration",{a:"start",z:19,w:700})+`<text x="30" y="160" font-size="14" font-weight="500" class="s-mut">Obvious by eye</text><text x="30" y="178" font-size="14" font-weight="500" class="s-mut">or radar</text>`;
+  s+=hull(390,298,-90,"s-mut",.8)+hull(104,298,90,"s-ink",.8)+AR("M134,298 L170,304 L206,296 L242,304 L278,296 L316,302","s-st");
+  s+=NO(34,232)+TX(52,239,"A series of small alterations",{a:"start",z:19,w:700})+`<text x="30" y="352" font-size="14" font-weight="500" class="s-mut">Hard for the other</text><text x="30" y="370" font-size="14" font-weight="500" class="s-mut">vessel to read</text>`;
+  return FV(s);}
+};
 
 const words=l=>l.slides.reduce((t,s)=>t+s.say.split(/\s+/).length,0);
 const mins=l=>Math.max(1,Math.round(words(l)/140));
@@ -596,6 +679,10 @@ function lessons(){
   ${Object.entries(MODS).map(([m,info])=>{const ls=LESSONS.filter(l=>l.m===m);return `<h2 class="mod-h">${info.name}</h2><ol class="les-list">${ls.map(l=>`<li><a href="#lesson-${l.id}"><span class="lt">${l.t}</span><span class="lm">${l.slides.length} slides, about ${mins(l)} min${BANK.some(x=>x.tag===l.id)?`, ${BANK.filter(x=>x.tag===l.id).length}-question check`:""}${done.includes(l.id)?`. <span class="fin">Finished</span>`:""}</span></a></li>`).join("")}</ol>`;}).join("")}</section>`;
 }
 function visual(v){
+  if(v.fig&&FIG[v.fig])return `<div class="vfig"><div class="vfig-art">${FIG[v.fig]()}</div><div class="vfig-txt">${visualBody(v)}</div></div>`;
+  return visualBody(v);
+}
+function visualBody(v){
   if(v.k==="points")return `<ul class="vpoints">${v.items.map(i=>`<li class="rv-item">${i}</li>`).join("")}</ul>`;
   if(v.k==="callout")return `<div class="callout"><p class="ctag">${v.tag}</p><ul>${v.lines.map(l=>`<li class="rv-item">${l}</li>`).join("")}</ul></div>`;
   if(v.k==="script")return `<ol class="vscript">${v.lines.map(i=>`<li class="rv-item">${i}</li>`).join("")}</ol>`;

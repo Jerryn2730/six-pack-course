@@ -57,7 +57,8 @@
        "5:30 a.m.: you leave the dock in Tampa Bay",
        "You run out past Egmont Key into the Gulf",
        "Somewhere on that run, the rules changed"
-      ]
+      ],
+      "fig": "tampabay"
      },
      "video": "Drone shot: a charter boat running down Tampa Bay at dawn and out past Egmont Key.",
      "script": "Let’s start with a picture. [+] It’s five-thirty in the morning, and you’re leaving the dock in Tampa Bay with four anglers aboard. [+] You run down the bay, out past Egmont Key, and into the open Gulf to fish a ledge. [+] Here’s my question. Somewhere on that run, the rules you were following changed. Did you notice? [pause] Most captains never do, because the differences are small. But they’re real, and the exam loves them. In the bay, you were under the Inland rules. Out in the Gulf, you were under the International rules. So let’s find that line.",
@@ -178,7 +179,8 @@
        "Watch vessel lengths: 7, 12, 20, 50 and 100 m",
        "“In sight of one another” or restricted visibility?",
        "Choose the answer that matches the rule’s wording"
-      ]
+      ],
+      "fig": "lengths"
      },
      "video": "Close-up of a pencil circling the word INLAND on a printed exam question.",
      "script": "Before we move on, here are four habits that will save you points on every rules question. [+] First, find the word Inland, International or Both at the start of the question, and answer for that rule book. Circle it if you’re on paper. [+] Second, watch vessel lengths. Seven, twelve, twenty, fifty and one hundred meters are the magic numbers, and rules change at each one. [+] Third, ask yourself: are these boats in sight of each other, or are we in fog? Different rules apply, and you’ll see why in lesson eight. [+] And fourth, when two answers both sound reasonable, pick the one that matches the rule’s actual wording. The exam is written straight from the rule book, not from what people do at the dock. [pause] That’s lesson one. Next, we’ll nail down the definitions, the vocabulary every other rule depends on.",
@@ -222,7 +224,8 @@
        "Power-driven vessel: propelled by machinery",
        "Sailing vessel: under sail, with any engine not being used",
        "Seaplane: an aircraft designed to maneuver on the water"
-      ]
+      ],
+      "fig": "vesselkinds"
      },
      "video": "A sailboat motoring out a Florida pass with sails up and engine running.",
      "script": "First, what counts as a vessel? [+] Pretty much anything that floats and can carry people or things across the water: boats, ships, barges, hovercraft, even seaplanes and wing-in-ground craft. [+] A power-driven vessel is anything propelled by machinery. Simple. [+] A sailing vessel is under sail, with one important catch: any engine she has must not be in use. [pause] So here’s a classic exam question. A sailboat is heading out the pass with every sail up, and her engine is running to help her along. What is she? [pause] She’s a power-driven vessel. The moment that engine turns the prop, the rules treat her like any other powerboat. [+] And a seaplane is simply an aircraft designed to maneuver on the water.",
@@ -239,7 +242,8 @@
        "Does NOT include trolling lines",
        "A charter boat trolling or drifting with rods out is power-driven",
        "A trawler heading home with gear stowed is power-driven"
-      ]
+      ],
+      "fig": "fishing"
      },
      "video": "Split screen: a charter boat trolling four lines beside a shrimp boat working its nets.",
      "script": "Now one that matters to you as a charter captain: engaged in fishing. [+] Under the rules, it means fishing with nets, lines, trawls or other gear that restricts your ability to maneuver. [+] And here’s the key: it does not include trolling lines. [pause] So picture your morning. You’ve got four lines out, trolling for kingfish along the beach. Are you engaged in fishing? [+] No. Legally you’re just a power-driven vessel. You get no special privileges, and you keep clear of sailboats like any other powerboat. [+] Meanwhile, the shrimp boat working her nets nearby is engaged in fishing. But when that same shrimper stows her nets and heads home, she’s an ordinary power-driven vessel too. It’s about what the gear is doing, not what kind of boat it is.",
@@ -289,7 +293,8 @@
        "Underway: not at anchor, made fast to the shore, or aground",
        "Making way: moving through the water under her own power",
        "Drifting over a wreck: underway, but not making way"
-      ]
+      ],
+      "fig": "underway"
      },
      "video": "A charter boat drifting with engines off over a wreck, anglers bottom fishing.",
      "script": "Next, a category that only exists offshore. [+] Constrained by her draft is International only. It’s a big ship whose draft, compared with the depth and width of the water, means she really can’t deviate from her course. You won’t find it in the Inland rules at all. [+] Now, underway. A vessel is underway if she’s not at anchor, not made fast to the shore, and not aground. [+] Making way means actually moving through the water under her own power. [pause] So imagine you shut down to drift over a wreck. You’re not anchored, not tied up, and not aground. [+] You’re underway, but not making way. As you’ll see later, both your lights and your fog signals depend on that difference.",
@@ -306,7 +311,8 @@
        "In sight of one another: seen with the eyes, not electronics",
        "Restricted visibility: fog, mist, snow, heavy rain, sandstorms; not darkness",
        "A radar or AIS contact in fog is NOT “in sight”"
-      ]
+      ],
+      "fig": "insight"
      },
      "video": "A radar screen showing a target in fog, then the same boat emerging from the fog.",
      "script": "A few more precise phrases. [+] Length and breadth mean length overall and greatest breadth. Nothing fancy. [+] In sight of one another means one vessel can actually be seen visually from the other. Eyes, not electronics. [+] Restricted visibility means visibility reduced by fog, mist, falling snow, heavy rain, sandstorms or anything similar. Notice what’s not on that list: darkness. A clear night is not restricted visibility. [+] And here’s the one that catches people. If you see a target on your radar or AIS in thick fog, you are not in sight of that vessel. That single fact decides which steering rules apply, and we’ll lean on it heavily in lesson eight.",
@@ -323,7 +329,8 @@
        "Great Lakes: including connecting and tributary waters",
        "Western Rivers: the Mississippi system, with the Atchafalaya and Red Rivers",
        "When a question names these waters, expect a special rule"
-      ]
+      ],
+      "fig": "demline"
      },
      "video": "Map animation highlighting U.S. inland waters, the Great Lakes and the Mississippi river system.",
      "script": "Finally, the Inland rules add a few definitions of their own. [+] Inland waters are the navigable waters of the United States shoreward of the demarcation lines. [+] The Great Lakes include their connecting and tributary waters. [+] The Western Rivers are the Mississippi River system, including the Atchafalaya and the Red River. [+] When a question mentions any of these places, expect a special rule. You may never run a charter on the Mississippi, but the exam will still ask about it. [pause] That’s our vocabulary. Next, we’ll put it to work with the duties every vessel has in any visibility: lookout, safe speed, and judging the risk of collision.",
@@ -417,7 +424,8 @@
        "Fog off Port Everglades",
        "One radar glance: a target 3 miles ahead",
        "Plot it for a few minutes before you decide"
-      ]
+      ],
+      "fig": "radarplot"
      },
      "video": "Fog over the Port Everglades entrance; radar screen with a target being marked every minute.",
      "script": "Rule seven also covers radar, so here’s a scenario. [+] Imagine you’re heading out of Port Everglades on a rare foggy morning. [+] You glance at the radar and see a target about three miles ahead. One look tells you almost nothing: where it’s going, how fast, whether it’ll pass clear. [+] Rule seven says radar must be used properly, with long-range scanning for early warning, and radar plotting or equivalent systematic observation. Mark the target, watch it for a few minutes, and see how it moves. [pause] And the rule adds a sentence worth memorizing: assumptions shall not be made on the basis of scanty information, especially scanty radar information. One glance is scanty. A plot is information.",
@@ -434,7 +442,8 @@
        "Large enough to be obvious by eye or radar",
        "Avoid a series of small alterations",
        "A course change alone may be best, if early, substantial and safe"
-      ]
+      ],
+      "fig": "action"
      },
      "video": "Overhead drone: one boat makes a bold 40-degree turn while another weaves with small course changes.",
      "script": "Once you’ve decided there’s a risk, Rule eight tells you how to act. [+] Your action should be positive, made in ample time, and with good seamanship. [+] It should be big enough to be obvious, whether the other captain is watching with his eyes or on radar. A five degree nudge is invisible. A forty degree turn tells a story. [+] Which is why the rule says to avoid a series of small alterations. [+] And if you have sea room, a course change alone is often your best move, as long as it’s early, substantial, and doesn’t just set you up for another close call with someone else. [pause] Think of it like driving: signal clearly, commit, and don’t weave.",
