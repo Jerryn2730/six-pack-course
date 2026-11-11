@@ -69,7 +69,7 @@ if (missing.length) {
 const content = {
   modules: data.modules,
   lessons: data.lessons.map((L) => ({
-    id: L.id, module: L.module, title: L.title, status: L.status, covers: L.covers,
+    id: L.id, module: L.module, title: L.title, status: L.status, covers: L.covers, recap: L.recap,
     slides: L.slides.map((s) => {
       const o = { heading: s.heading, visual: s.visual, script: s.script };
       if (s.video != null) o.video = s.video;
@@ -92,7 +92,7 @@ const block =
   // JSON, so saved progress (localStorage "oupv-v1") keeps matching.
   `const MODS=COURSE.modules;\n` +
   `const BANK=COURSE.questions.map(x=>({id:x.id,m:x.module,text:x.text,opts:x.options,exp:x.explanation,tag:x.lessonTag}));\n` +
-  `const LESSONS=COURSE.lessons.map(l=>({id:l.id,m:l.module,t:l.title,c:l.covers,status:l.status,slides:l.slides.map(s=>({h:s.heading,v:s.visual,vid:s.video,say:s.script}))}));`;
+  `const LESSONS=COURSE.lessons.map(l=>({id:l.id,m:l.module,t:l.title,c:l.covers,r:l.recap,status:l.status,slides:l.slides.map(s=>({h:s.heading,v:s.visual,vid:s.video,say:s.script}))}));`;
 
 const html = template.replace(MARKER, () => block);
 

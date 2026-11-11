@@ -170,6 +170,10 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .opts-row select{font:inherit;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:6px;padding:.25rem .4rem;margin-left:.3rem;max-width:15rem}
 .tr-h{font-size:1.2rem;margin-top:1.6rem}
 .transcript{max-width:68ch}
+.qstop{margin-top:.8rem;padding:1rem 1.2rem;border:2px solid var(--mag);border-radius:12px;background:var(--mag-soft)}
+.qs-tag{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mag);margin:0 0 .3rem;font-size:.9rem}
+.qs-q{font-size:1.25rem;font-weight:600;margin:0 0 .4rem}
+.recall{margin-bottom:1rem}.recall ol{margin:.8rem 0 0;padding-left:1.3rem}.recall li{margin:.3rem 0;font-size:1.1rem}
 .snt{cursor:pointer;border-radius:3px}
 .snt:hover{text-decoration:underline;text-decoration-color:var(--line)}
 .snt.on{background:var(--mag-soft);box-shadow:0 0 0 3px var(--mag-soft)}
@@ -974,7 +978,7 @@ const mins=l=>Math.max(1,Math.round(words(l)/140));
 /* ---------- Lesson list and player ---------- */
 const synth=("speechSynthesis" in window)?window.speechSynthesis:null;
 let PL={les:null,i:0,playing:false,sent:0,tok:0,rate:store.rate||1,voice:null,u:null};
-function stopSpeech(){PL.playing=false;PL.tok++;if(synth)try{synth.cancel();}catch(e){}if(PL.audio)try{PL.audio.pause();}catch(e){}}
+function stopSpeech(){if(typeof hideStop==="function")hideStop();PL.playing=false;PL.tok++;if(synth)try{synth.cancel();}catch(e){}if(PL.audio)try{PL.audio.pause();}catch(e){}}
 function lessons(){
   const done=store.done||[],total=LESSONS.reduce((t,l)=>t+mins(l),0);
   main.innerHTML=`<section><h1>Lessons</h1><p class="lede">${LESSONS.length} narrated lessons with slides, about ${total} minutes in all. Press play and each lesson reads itself aloud in your device’s built-in voice, moving through the slides as it goes. You can also read along or tap any sentence to jump to it.</p>
@@ -1004,8 +1008,9 @@ function player(id){
   const n=LESSONS.filter(l=>l.m===les.m).indexOf(les)+1;
   main.innerHTML=`<section class="player"><a class="back-link" href="#lessons">All lessons</a><p class="tag" style="margin-top:.8rem">${MODS[les.m].name}, lesson ${n}</p><h1 class="les-title">${les.t}</h1>
   <div id="slide"></div>
+  <div id="qstop" class="qstop" hidden></div>
   <div class="controls"><button class="btn ghost ctl" id="pv">Previous</button><button class="btn ctl" id="pp">Play</button><button class="btn ghost ctl" id="nx">Next</button><button class="btn ghost ctl" id="askb" title="Like raising your hand in class">Ask a question</button><span class="count" id="cnt"></span></div>
-  <div class="opts-row" id="vopts"><label>Speed<select id="rate">${[0.8,0.9,1,1.1,1.25,1.5].map(r=>`<option value="${r}" ${r==PL.rate?"selected":""}>${r}×</option>`).join("")}</select></label><label title="Used only for slides that don’t have recorded narration yet">Device voice<select id="voice"><option value="">Device default</option></select></label><span id="narrsrc" class="narr-src" aria-live="polite"></span><label>Mode<select id="mode"><option value="voice">Read aloud</option><option value="silent" ${PL.silent?"selected":""}>Silent, timed</option></select></label></div>
+  <div class="opts-row" id="vopts"><label>Speed<select id="rate">${[0.8,0.9,1,1.1,1.25,1.5].map(r=>`<option value="${r}" ${r==PL.rate?"selected":""}>${r}×</option>`).join("")}</select></label><label title="Used only for slides that don’t have recorded narration yet">Device voice<select id="voice"><option value="">Device default</option></select></label><span id="narrsrc" class="narr-src" aria-live="polite"></span><label>Questions<select id="stopq"><option value="1">Stop and ask me</option><option value="0" ${store.stopq===0?"selected":""}>Keep playing</option></select></label><label>Mode<select id="mode"><option value="voice">Read aloud</option><option value="silent" ${PL.silent?"selected":""}>Silent, timed</option></select></label></div>
   <div id="ask" class="askbox" hidden></div>
   <p class="muted" id="nospeech" hidden>This browser can’t read aloud. Read the transcript below instead.</p>
   <h2 class="tr-h">Transcript</h2><div id="tr" class="transcript"></div><div id="endbox"></div></section>`;
@@ -1016,6 +1021,7 @@ function player(id){
   document.getElementById("nx").onclick=()=>go(1);
   document.getElementById("rate").onchange=e=>{PL.rate=+e.target.value;store.rate=PL.rate;save();if(PL.playing)speak();};
   document.getElementById("voice").onchange=e=>{const vs=synth?synth.getVoices():[];PL.voice=vs.find(v=>v.name===e.target.value)||null;store.voice=e.target.value;PL.triedDefault=false;document.getElementById("nospeech").hidden=true;save();if(PL.playing)speak();};
+  document.getElementById("stopq").onchange=e=>{store.stopq=+e.target.value;save();hideStop();};
   document.getElementById("mode").onchange=e=>{PL.silent=e.target.value==="silent";store.silent=PL.silent;document.getElementById("nospeech").hidden=true;save();if(PL.playing)speak();};
   fillVoices();renderSlide();
 }
@@ -1049,6 +1055,7 @@ function askPanel(){
 function setPP(){const b=document.getElementById("pp");if(b)b.textContent=PL.playing?"Pause":"Play";}
 function go(d){const was=PL.playing;PL.tok++;if(synth)synth.cancel();if(PL.audio)try{PL.audio.pause();}catch(e){}PL.i=Math.min(PL.les.slides.length-1,Math.max(0,PL.i+d));PL.sent=0;renderSlide();if(was){PL.playing=true;speak();}}
 function renderSlide(){
+  hideStop();PL.asked=null;
   const les=PL.les,s=cur(),last=PL.i===les.slides.length-1;
   document.getElementById("slide").innerHTML=`<div class="slide"><h2>${s.h}</h2><div class="visual">${visual(s.v)}</div></div>`;stillFigs(document.getElementById("slide"));reveal(PL.playing?PL.sent-1:999);
   document.getElementById("cnt").textContent=`Slide ${PL.i+1} of ${les.slides.length}`;
@@ -1059,11 +1066,22 @@ function renderSlide(){
   const eb=document.getElementById("endbox");
   if(last){store.done=store.done||[];if(!store.done.includes(les.id))store.done.push(les.id);
     const nxt=LESSONS[LESSONS.indexOf(les)+1],nChk=BANK.filter(x=>x.tag===les.id).length;
-    eb.innerHTML=`<div class="endbox"><h2>Lesson complete</h2>${nChk?`<p>Check what you just learned with ${nChk} questions from this lesson.</p><div class="row"><button class="btn" id="lc">Take the lesson check</button><button class="btn ghost" id="qz">Quiz the whole module</button>`:`<p>Lock it in with a quiz on ${MODS[les.m].name}.</p><div class="row"><button class="btn" id="qz">Quiz this module</button>`}${nxt?`<a class="btn ghost" href="#lesson-${nxt.id}">Next lesson: ${nxt.t}</a>`:`<a class="btn ghost" href="#test">Take a practice test</a>`}</div></div>`;
+    eb.innerHTML=`${les.r?`<div class="endbox recall"><h2>Before you move on</h2><p>Without looking back, say this lesson’s key points out loud. Then check yourself.</p><button class="btn ghost" id="rc">Show the key points</button><ol id="rcl" hidden>${les.r.map(x=>`<li>${x}</li>`).join("")}</ol></div>`:""}<div class="endbox"><h2>Lesson complete</h2>${nChk?`<p>Check what you just learned with ${nChk} questions from this lesson.</p><div class="row"><button class="btn" id="lc">Take the lesson check</button><button class="btn ghost" id="qz">Quiz the whole module</button>`:`<p>Lock it in with a quiz on ${MODS[les.m].name}.</p><div class="row"><button class="btn" id="qz">Quiz this module</button>`}${nxt?`<a class="btn ghost" href="#lesson-${nxt.id}">Next lesson: ${nxt.t}</a>`:`<a class="btn ghost" href="#test">Take a practice test</a>`}</div></div>`;
     document.getElementById("qz").onclick=()=>{quizMod=les.m;quizAuto=true;location.hash="quiz";};
+    const rc=document.getElementById("rc");if(rc)rc.onclick=()=>{document.getElementById("rcl").hidden=false;rc.hidden=true;};
     const lc=document.getElementById("lc");if(lc)lc.onclick=()=>{stopSpeech();if(store.sess&&store.sess.key==="check-"+les.id){store.sess=null;save();}location.hash="check-"+les.id;};
   }else eb.innerHTML="";
   save();hl(-1);
+}
+function hideStop(){const q=document.getElementById("qstop");if(q){q.hidden=true;q.innerHTML="";}}
+// When the lecture asks a question and then pauses, stop and let the learner answer before hearing it.
+function askStop(k,resume){
+  if(store.stopq===0||PL.silent||!PL.les)return false;const ss=splitS(cur().say);
+  if(k<1||!/\[pause\]/.test(ss[k])||!/\?[”’"]?$/.test(strip(ss[k-1])))return false;
+  const key=`${PL.les.id}-${PL.i}-${k}`;if(PL.asked===key)return false;PL.asked=key;
+  const q=document.getElementById("qstop");if(!q)return false;
+  q.innerHTML=`<p class="qs-tag">Your turn</p><p class="qs-q">${(strip(ss[k-1]).length<45&&k>1?strip(ss[k-2])+" ":"")+strip(ss[k-1])}</p><p class="muted">Say your answer out loud, then hear mine.</p><button class="btn" id="qgo">Hear the answer</button>`;q.hidden=false;
+  document.getElementById("qgo").onclick=()=>{hideStop();resume();};document.getElementById("qgo").focus({preventScroll:true});return true;
 }
 function hl(k){document.querySelectorAll(".snt").forEach(sp=>sp.classList.toggle("on",+sp.dataset.k===k));}
 function bestVoice(vs){const loc=vs.filter(v=>v.localService),pool=loc.length?loc:vs;return pool.find(v=>/en[-_]US/i.test(v.lang)&&/natural|neural|enhanced|premium/i.test(v.name))||pool.find(v=>/Samantha|Aria|Jenny|Guy|Ava|Allison|Zira|David|Mark/i.test(v.name))||pool.find(v=>/en[-_]US/i.test(v.lang))||pool[0];}
@@ -1093,7 +1111,7 @@ function playFile(tok,ss){const a=PL.audio||(PL.audio=new Audio());const key=`${
  // Exact sync: scripts/narrate.py writes {key}.timing.json with each sentence's start time. Without it (or when it
  // can't be fetched, e.g. opened from file://), fall back to splitting the audio by word count.
  let T=null;if(window.fetch)fetch(`${AUDIO_BASE}${key}.timing.json`).then(r=>r.ok?r.json():null).then(j=>{if(tok===PL.tok&&j&&Array.isArray(j.sentences)&&j.sentences.length===ss.length)T=j.sentences;}).catch(()=>{});
- const upd=()=>{if(tok!==PL.tok||!a.duration)return;let k=0;if(T){for(let i=1;i<T.length;i++){if(a.currentTime>=T[i].start)k=i;else break;}}else{const f=a.currentTime/a.duration*tot;let acc=0;for(;k<ss.length-1;k++){acc+=words[k];if(acc>f)break;}}if(k!==PL.sent){PL.sent=k;hl(k);reveal(k);}};
+ const upd=()=>{if(tok!==PL.tok||!a.duration)return;let k=0;if(T){for(let i=1;i<T.length;i++){if(a.currentTime>=T[i].start)k=i;else break;}}else{const f=a.currentTime/a.duration*tot;let acc=0;for(;k<ss.length-1;k++){acc+=words[k];if(acc>f)break;}}if(k!==PL.sent){PL.sent=k;hl(k);reveal(k);if(askStop(k,()=>{if(tok===PL.tok)a.play().catch(()=>{});}))a.pause();}};
  const tick=()=>{if(tok!==PL.tok||a.paused||a.ended)return;upd();requestAnimationFrame(tick);};
  a.ontimeupdate=upd;a.onplaying=()=>requestAnimationFrame(tick);
  a.onended=()=>{if(tok!==PL.tok)return;hl(-1);reveal(999);if(PL.i<PL.les.slides.length-1){setTimeout(()=>{if(tok!==PL.tok||!PL.playing)return;PL.i++;PL.sent=0;renderSlide();speak();},900);}else{PL.playing=false;setPP();}};
@@ -1114,6 +1132,7 @@ function speak(noFile){
       else{PL.playing=false;setPP();}
       return;}
     hl(PL.sent);reveal(PL.sent);
+    if(askStop(PL.sent,()=>{if(tok===PL.tok){PL.pz=PL.sent+":"+tok;step();}}))return;
     if(/\[pause\]/.test(ss[PL.sent])&&PL.pz!==PL.sent+":"+tok){PL.pz=PL.sent+":"+tok;setTimeout(()=>{if(tok===PL.tok)step();},750);return;}
     const text=clean(ss[PL.sent]);
     if(PL.silent||!synth){setTimeout(next,Math.max(1500,text.split(/\s+/).length*60000/(160*PL.rate)));return;}

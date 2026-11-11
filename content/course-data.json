@@ -192,7 +192,12 @@
      "spoken": "Before we move on, here are four habits that will save you points on every rules question. First, find the word Inland, International or Both at the start of the question, and answer for that rule book. Circle it if you’re on paper. Second, watch vessel lengths. Seven, twelve, twenty, fifty and one hundred meters are the magic numbers, and rules change at each one. Third, ask yourself: are these boats in sight of each other, or are we in fog? Different rules apply, and you’ll see why in lesson eight. And fourth, when two answers both sound reasonable, pick the one that matches the rule’s actual wording. The exam is written straight from the rule book, not from what people do at the dock. That’s lesson one. Next, we’ll nail down the definitions, the vocabulary every other rule depends on."
     }
    ],
-   "covers": "Rules 1 and 2, annexes"
+   "covers": "Rules 1 and 2, annexes",
+   "recap": [
+    "Two rule books: Inland inside the demarcation line, International outside it",
+    "Rule 2: the rules never excuse poor seamanship",
+    "First find INLAND, INTERNATIONAL or BOTH in the question"
+   ]
   },
   {
    "id": "rules-02",
@@ -346,7 +351,12 @@
      "spoken": "Finally, the Inland rules add a few definitions of their own. Inland waters are the navigable waters of the United States shoreward of the demarcation lines. The Great Lakes include their connecting and tributary waters. The Western Rivers are the Mississippi River system, including the Atchafalaya and the Red River. When a question mentions any of these places, expect a special rule. You may never run a charter on the Mississippi, but the exam will still ask about it. That’s our vocabulary. Next, we’ll put it to work with the duties every vessel has in any visibility: lookout, safe speed, and judging the risk of collision."
     }
    ],
-   "covers": "Rule 3"
+   "covers": "Rule 3",
+   "recap": [
+    "Trolling isn’t “engaged in fishing”: the gear must restrict maneuverability",
+    "Broken is not under command; busy is restricted",
+    "A radar or AIS contact is not “in sight”"
+   ]
   },
   {
    "id": "rules-03",
@@ -481,7 +491,12 @@
      "spoken": "Two more parts of Rule eight. Your action must get you past at a safe distance, and you keep checking that it’s working until the other vessel is finally past and clear. If you need more time to figure things out, slow down, stop, or back down. Slowing down is always on the menu, and it buys you time. Rule eight also defines a phrase you’ll meet again and again: not to impede. A vessel required not to impede another must act early, leaving plenty of room. And that duty doesn’t disappear just because the boats get close and a risk of collision develops. That’s lesson three. Next time, we’ll head into narrow channels and the big-ship highways called traffic separation schemes, where small boats like ours have special duties."
     }
    ],
-   "covers": "Rules 4 to 8"
+   "covers": "Rules 4 to 8",
+   "recap": [
+    "Keep a lookout by sight, hearing and all available means",
+    "Steady bearing, closing range: risk of collision",
+    "Act early, and make it big enough to be obvious"
+   ]
   },
   {
    "id": "rules-04",
@@ -854,7 +869,12 @@
      "spoken": "So who goes where? Through traffic doesn’t use the inshore traffic zone when it can safely use the lane next to it. The inshore zone is for local traffic. But there are exceptions, and you’re one of them. Vessels of less than twenty meters, sailing vessels, and vessels engaged in fishing may use the inshore zone. So may any vessel going to or from a place inside it, or avoiding immediate danger. Now the duties. A vessel of less than twenty meters, or a sailing vessel, shall not impede the safe passage of a power-driven vessel following a lane. And a vessel engaged in fishing shall not impede any vessel following a lane. Sound familiar? It’s the same idea as Rule nine: small boats, sailboats and fishing boats stay out of the big ships’ way. Avoid anchoring in a scheme, or near its ends. And if you’re not using the scheme, avoid it by as wide a margin as practicable. Let’s wrap up. In a narrow channel: keep right, don’t impede, don’t cross in front of a ship, and don’t anchor. On the rivers, downbound with a following current is in charge. In a traffic scheme, merge at a small angle, cross at a right angle, and leave the lanes to the ships. Next time, we’ll take up the first of the steering rules: sailing vessels meeting each other, and what the rules mean by overtaking."
     }
    ],
-   "covers": "Rules 9 and 10"
+   "covers": "Rules 9 and 10",
+   "recap": [
+    "In a narrow channel: keep right, don’t impede, don’t anchor",
+    "On the rivers, downbound with a following current has the right of way",
+    "Traffic lanes: merge at a small angle, cross at a right angle"
+   ]
   },
   {
    "id": "rules-05",
@@ -1105,7 +1125,12 @@
      "spoken": "Let’s test Rule thirteen against the pecking order. You’ll meet that properly in lesson seven, but the short version is that power normally gives way to sail, and sail gives way to vessels engaged in fishing. So, a powerboat overtaking a sailboat. Who keeps clear? The powerboat. Both rules agree, so that one’s easy. Now flip it. A sailboat, flying along in a good breeze, comes up astern of a slow powerboat. Who keeps clear? The sailboat. She’s overtaking, and overtaking overrides the pecking order. It’s the same with a fishing vessel overtaking anyone. She keeps clear. So here’s your exam habit. Whenever a question describes one vessel coming up on another from astern, stop looking at what kind of vessels they are. The overtaking vessel keeps clear. Every time. That’s lesson five. The steering rules apply only in sight. Between sailboats, port tack and the windward boat keep clear. And anyone overtaking keeps clear until she’s finally past. Next time, we’ll cover the two situations you’ll meet most often in a powerboat: head-on and crossing."
     }
    ],
-   "covers": "Rules 11 to 13"
+   "covers": "Rules 11 to 13",
+   "recap": [
+    "The steering rules apply only in sight",
+    "Between sailboats, port tack and the windward boat keep clear",
+    "Anyone overtaking keeps clear until she’s finally past"
+   ]
   },
   {
    "id": "rules-06",
@@ -1357,7 +1382,12 @@
      "spoken": "Two more details of Rule seventeen, and then a thought of my own. First, when a power-driven stand-on vessel acts on her own in a crossing situation, she should not, if the circumstances allow, turn to port for a vessel on her own port side. Why not? Picture it. The other boat is on your port side, and she’s late, but she finally turns to starboard to go behind you. If you turn to port at the same moment, you turn straight into her. So turn to starboard, or slow down, or stop. Second, nothing the stand-on vessel does relieves the give-way vessel of her obligation. She’s still responsible for keeping out of the way. And here’s my thought. Keeping your course and speed means being predictable. It doesn’t mean being reckless. Rule two is still there, and no captain was ever praised for standing on into a collision. That’s lesson six. Head-on: both turn to starboard. Crossing: the boat with the other on her starboard side gives way. And for the stand-on vessel: shall hold, may act, shall act. Next time, we’ll climb the pecking order and see who gives way to whom when the vessels aren’t alike."
     }
    ],
-   "covers": "Rules 14 to 17"
+   "covers": "Rules 14 to 17",
+   "recap": [
+    "Head-on: both turn to starboard",
+    "Crossing: the boat with the other on her starboard side gives way",
+    "For the stand-on vessel: shall hold, may act, shall act"
+   ]
   },
   {
    "id": "rules-07",
@@ -1556,7 +1586,12 @@
      "spoken": "Last, two unusual craft that Rule eighteen also covers. A seaplane on the water shall, in general, keep well clear of all vessels and avoid impeding their navigation. Think of it this way: she can leave by air, so she stays out of the way on the water. But where risk of collision exists, she follows the steering rules like everyone else. A wing-in-ground craft, when taking off, landing, or flying near the surface, keeps well clear of all other vessels and avoids impeding their navigation. And when she’s operating on the water surface, she follows the rules as a power-driven vessel. That’s lesson seven. The ladder, from the top: broken or busy, then fishing, then sail, then power. Constrained by draft is International only. And narrow channels, traffic lanes and overtaking override the ladder. Next time, we go where none of this applies: into the fog, and Rule nineteen."
     }
    ],
-   "covers": "Rule 18"
+   "covers": "Rule 18",
+   "recap": [
+    "The ladder, from the top: broken or busy, then fishing, then sail, then power",
+    "Constrained by draft is International only",
+    "Narrow channels, traffic lanes and overtaking override the ladder"
+   ]
   },
   {
    "id": "rules-08",
@@ -1766,7 +1801,12 @@
      "spoken": "Last, how does Rule nineteen hand back to the other rules? The moment two vessels actually sight one another, the rules for vessels in sight take over: Rules eleven through eighteen. A stand-on vessel and a give-way vessel exist again. So picture a boat breaking out of the fog two hundred yards off your starboard bow. You can see her now. You’re in a crossing situation, and you’re the give-way vessel. But radar alone never makes you in sight. And Rule seven’s warning applies with full force here: no assumptions on scanty radar information. The fog signals themselves are in Rule thirty-five, and we’ll learn them in lesson fourteen. That’s lesson eight. In or near fog, and not in sight, nobody stands on. Radar target ahead: don’t turn to port. Fog signal forward of the beam: slow to bare steerageway, and stop if you must. Next time, we start the lights, beginning with the ones on your own boat."
     }
    ],
-   "covers": "Rule 19"
+   "covers": "Rule 19",
+   "recap": [
+    "In or near fog, and not in sight, nobody stands on",
+    "Radar target ahead: don’t turn to port",
+    "Fog signal forward of the beam: slow to bare steerageway, and stop if you must"
+   ]
   },
   {
    "id": "rules-09",
@@ -2007,7 +2047,12 @@
      "spoken": "A few special cases to finish, and each one is a favorite exam question. An air-cushion vessel, when she’s operating in the non-displacement mode, adds an all-round flashing yellow light. Hovercraft, flashing yellow. A wing-in-ground craft, when taking off, landing or flying near the surface, adds a high-intensity all-round flashing red light. Next, the smallest powerboats. Under the International rules, a power-driven vessel under seven meters, whose top speed is no more than seven knots, may show just an all-round white light, and sidelights too if practicable. Seven meters, seven knots. On a boat under twelve meters, the masthead light or all-round white light doesn’t have to be exactly on the centerline, if that isn’t practicable. And one for the Inland rules. On the Great Lakes, a power-driven vessel may carry an all-round white light in place of the second masthead light and the sternlight. That’s lesson nine. Lights from sunset to sunrise and in restricted visibility. Masthead two twenty-five, sidelights one twelve and a half, sternlight one thirty-five. And for ranges, think six and three, five and two, two and one. Next time: the lights of vessels that are towing."
     }
    ],
-   "covers": "Rules 20 to 23"
+   "covers": "Rules 20 to 23",
+   "recap": [
+    "Lights from sunset to sunrise and in restricted visibility",
+    "Masthead two twenty-five, sidelights one twelve and a half, sternlight one thirty-five",
+    "For ranges, think six and three, five and two, two and one"
+   ]
   },
   {
    "id": "rules-10",
@@ -2244,7 +2289,12 @@
      "spoken": "Four special situations to finish the towing rule. First, a tow that severely restricts the tug’s ability to deviate from her course. She adds the lights and shapes of a vessel restricted in her ability to maneuver, on top of her towing lights. Remember the ladder: that moves her up near the top. Second, things that are hard to see. An inconspicuous, partly submerged vessel or object being towed, like a fuel bladder, shows all-round white lights at its ends, more if it’s very wide, and a diamond shape at the after end. Third, what if the tow simply can’t be lit that way? Then all possible measures shall be taken to light it, or at least to show that it’s there. And fourth, this one is about you. Say a friend’s boat breaks down at dusk and you take her in tow. You’re not a towing vessel, and you don’t carry towing lights. Are you breaking the rule? No. A vessel not normally engaged in towing needn’t show towing lights when it’s impracticable. But you must show the connection between the two boats, for example by lighting up the towline. That’s lesson ten. Yellow over white from astern, two or three white lights stacked from ahead, and two yellow lights for an Inland pusher. Next time: sailboats and fishing vessels."
     }
    ],
-   "covers": "Rule 24"
+   "covers": "Rule 24",
+   "recap": [
+    "Yellow over white from astern means a tow",
+    "Two white lights stacked: a tow of 200 m or less. Three: longer",
+    "An Inland pusher shows two yellow towing lights astern"
+   ]
   },
   {
    "id": "rules-11",
@@ -2527,7 +2577,12 @@
      "spoken": "Last, the extra signals for fishing vessels working close together. In the International rules they’re in Annex two. In the Inland rules they now sit inside Rule twenty-six itself. They’re optional, they’re carried lower than the main fishing lights, and they’re visible at least a mile. The exam asks you to match each signal to its meaning, so let’s go down the table. A trawler shooting her nets, putting them out: two white lights in a vertical line. A trawler hauling her nets, bringing them in: white over red. A trawler whose net has come fast on an obstruction: two red lights in a vertical line. Two reds usually means trouble, and here the trouble is a snagged net. Vessels pair trawling may each aim a searchlight forward and toward the other boat of the pair. And a purse seiner hampered by her gear may show two yellow lights in a vertical line, flashing alternately. That’s lesson eleven. Sail: sidelights and sternlight, no masthead light, and red over green if she likes. Trawling: green over white. Other fishing: red over white. Next time, the vessels at the top of the ladder, and the lights of boats at anchor and aground."
     }
    ],
-   "covers": "Rules 25 and 26"
+   "covers": "Rules 25 and 26",
+   "recap": [
+    "Sail: sidelights and sternlight, no masthead light, and red over green if she likes",
+    "Trawling: green over white",
+    "Other fishing: red over white"
+   ]
   },
   {
    "id": "rules-12",
@@ -2894,7 +2949,12 @@
      "spoken": "A few exemptions to finish, and they’re worth easy points. A vessel under seven meters at anchor doesn’t need an anchor light or shape, as long as she’s not in or near a narrow channel, a fairway, an anchorage, or anywhere other vessels normally navigate. A vessel under twelve meters aground doesn’t need the aground lights or shapes. And an Inland one: a vessel under twenty meters at anchor in a special anchorage area designated by the Coast Guard doesn’t need an anchor light or shape. You’ll find those areas marked on the chart. Finally, Rule thirty-one. A seaplane or wing-in-ground craft that can’t show lights and shapes exactly as required shows them as closely as she can. That’s lesson twelve, and it finishes the lights. Red over red: not under command. Red, white, red: restricted. Pass a dredge on the green side. White over red: pilot. One white light or one ball: at anchor. Next time, we stop looking and start listening: sound signals."
     }
    ],
-   "covers": "Rules 27 to 31"
+   "covers": "Rules 27 to 31",
+   "recap": [
+    "Red over red: not under command. Red, white, red: restricted",
+    "Pass a dredge on the green side",
+    "White over red: pilot. One white light or one ball: at anchor"
+   ]
   },
   {
    "id": "rules-13",
@@ -3134,7 +3194,13 @@
      "spoken": "Last, the radio. Most passing arrangements on the Intracoastal today are made on VHF, and the two rule books treat that differently. Under the Inland rules, a vessel that reaches agreement by radiotelephone isn’t obliged to sound the whistle signals, though she still may. But if agreement isn’t reached, whistle signals shall be exchanged in good time, and the whistle signals prevail. Those calls are usually made on channel thirteen, the bridge-to-bridge channel. Under the International rules, there’s no such exemption. So picture yourself offshore, beyond the demarcation line. You and a freighter agree on the radio to pass port to port, and you turn to starboard. Do you still sound one short blast? Yes. Offshore, the radio never replaces the whistle. That’s lesson thirteen. Short is one second, prolonged is four to six. One, two, three: starboard, port, astern. International signals tell, Inland signals ask. And five short blasts means doubt. Next time: fog signals and distress signals."
     }
    ],
-   "covers": "Rules 32 to 34"
+   "covers": "Rules 32 to 34",
+   "recap": [
+    "Short is one second, prolonged is four to six",
+    "One, two, three: starboard, port, astern",
+    "International signals tell, Inland signals ask",
+    "Five short blasts means doubt"
+   ]
   },
   {
    "id": "rules-14",
@@ -3382,7 +3448,12 @@
      "spoken": "Two last points on distress. The Inland rules add one more signal: a high-intensity white light flashing at regular intervals, fifty to seventy times a minute. Second, these signals are for one purpose only: to show distress and the need for help. Using them for anything else is prohibited. So is using any signal that might be confused with them. Which brings us to a favorite exam question. It lists four signals and asks which one is not a distress signal. So try it. Orange smoke, a continuously sounding fog horn, three short blasts, or a red hand flare. Which one doesn’t belong? Three short blasts. That’s astern propulsion. Watch for a green flare or a white flare too. Neither is a distress signal. That’s lesson fourteen. In fog: one prolonged for power making way, two for stopped, one and two short for the hampered vessels. A rapid bell at anchor. And for distress, think red, orange, continuous, Mayday. Next time, our last Rules lesson, we pull together every Inland and International difference."
     }
    ],
-   "covers": "Rules 35 to 37, Annex IV"
+   "covers": "Rules 35 to 37, Annex IV",
+   "recap": [
+    "In fog: one prolonged for power making way, two for stopped, one and two short for the hampered vessels",
+    "A rapid bell at anchor",
+    "For distress, think red, orange, continuous, Mayday"
+   ]
   },
   {
    "id": "rules-15",
@@ -3595,7 +3666,12 @@
      "spoken": "That’s it. You’ve now covered every rule in the Rules of the Road module, and I want to leave you with a plan, because knowing the rules and scoring ninety percent aren’t quite the same thing. First, drill the lights, shapes and sound signals every day with the flashcards in this app. They’re pure memory, and memory fades without practice. Five minutes a day beats an hour on Sunday. Second, retake every lesson check until you score one hundred percent. Not ninety. One hundred. Third, take the Rules of the Road quiz until you score at least ninety percent twice in a row. Once could be luck. And fourth, in the week before your exam, read the rules once more in the Coast Guard handbook, Inland and International side by side, watching for the differences we just covered. You started this module wondering where the rules change on a run out of Tampa Bay. Now you know exactly where, and why, and what changes. Good luck, Captain."
     }
    ],
-   "covers": "Inland and International differences"
+   "covers": "Inland and International differences",
+   "recap": [
+    "International signals tell; Inland signals ask, and need an answer",
+    "Constrained by draft is International only",
+    "Inland adds river rules, yellow pushing lights and special anchorage exemptions"
+   ]
   },
   {
    "id": "nav-01",
@@ -3889,6 +3965,11 @@
      "script": "Before you trust any chart, read its title block. It takes a minute, and it tells you what all the numbers mean. [+] The chart number, the title and the scale. [+] The units for soundings: feet, fathoms or meters. Get that one wrong and a six on the chart could be six feet, or thirty-six. And the depths are measured from a low-water level, usually mean lower low water. [+] The horizontal datum, normally the North American Datum of nineteen eighty-three. For practical purposes it matches the WGS eighty-four datum in your GPS. If the two don’t match, your plotted position is off. [+] Heights are different. Lights, landmarks and bridge clearances are measured above mean high water. Why would depths use low water and bridges use high water? [pause] Both are the cautious choice. [+] And the edition date. Keep the chart corrected. That’s lesson one. Latitude first. A minute of latitude is a mile. Large scale, large detail. Next time: reading the symbols.",
      "spoken": "Before you trust any chart, read its title block. It takes a minute, and it tells you what all the numbers mean. The chart number, the title and the scale. The units for soundings: feet, fathoms or meters. Get that one wrong and a six on the chart could be six feet, or thirty-six. And the depths are measured from a low-water level, usually mean lower low water. The horizontal datum, normally the North American Datum of nineteen eighty-three. For practical purposes it matches the WGS eighty-four datum in your GPS. If the two don’t match, your plotted position is off. Heights are different. Lights, landmarks and bridge clearances are measured above mean high water. Why would depths use low water and bridges use high water? Both are the cautious choice. And the edition date. Keep the chart corrected. That’s lesson one. Latitude first. A minute of latitude is a mile. Large scale, large detail. Next time: reading the symbols."
     }
+   ],
+   "recap": [
+    "Latitude first",
+    "A minute of latitude is a mile",
+    "Large scale, large detail"
    ]
   },
   {
@@ -4279,6 +4360,12 @@
      "script": "Two last things about charts. [+] First, read every note printed on a chart before you navigate with it. [+] The notes cover regulations, cautions about shoaling or unreliable aids, and the datums. They’re the fine print, and they’re there for a reason. Second, electronic charts, which come in two kinds. [+] Raster charts are scanned pictures of the paper chart. They look exactly like it. [+] Electronic navigational charts, or E N Cs, are vector data that your plotter draws for itself. They’re powerful, but they have one trap. When you zoom out, what happens to the detail? [pause] It disappears. A rock can vanish from the screen. So zoom in along your whole route before you run it. [+] And whichever kind you use, make sure it’s the current edition. That’s lesson two. Blue is shallow. Magenta matters. Treat doubtful hazards as real. And zoom in. Next time: buoys.",
      "spoken": "Two last things about charts. First, read every note printed on a chart before you navigate with it. The notes cover regulations, cautions about shoaling or unreliable aids, and the datums. They’re the fine print, and they’re there for a reason. Second, electronic charts, which come in two kinds. Raster charts are scanned pictures of the paper chart. They look exactly like it. Electronic navigational charts, or E N Cs, are vector data that your plotter draws for itself. They’re powerful, but they have one trap. When you zoom out, what happens to the detail? It disappears. A rock can vanish from the screen. So zoom in along your whole route before you run it. And whichever kind you use, make sure it’s the current edition. That’s lesson two. Blue is shallow. Magenta matters. Treat doubtful hazards as real. And zoom in. Next time: buoys."
     }
+   ],
+   "recap": [
+    "Blue is shallow",
+    "Magenta matters",
+    "Treat doubtful hazards as real",
+    "Zoom in"
    ]
   },
   {
@@ -4483,6 +4570,12 @@
      "script": "After all that, a warning from the Coast Guard itself. Don’t trust buoys blindly. [+] A buoy is a floating object on a chain. It can drag in a storm, get hit by a barge, capsize, or sink. [+] Lights fail, and colors fade. [+] So use buoys as a guide, never as a fixed position. What do you check them against? [pause] The chart, the depth sounder, and your GPS. If the buoy and the chart disagree, believe the water depth. [+] If you find an aid off station or not working, report it to the Coast Guard. [+] And know about private aids, called PATONs, put out by marinas and property owners. They follow the same colors and shapes, but they may not be maintained to the same standard. That’s lesson three. Red, right, returning. Nuns even, cans odd. Follow the rear mark. And trust the water, not the buoy. Next time: the marks that aren’t red or green.",
      "spoken": "After all that, a warning from the Coast Guard itself. Don’t trust buoys blindly. A buoy is a floating object on a chain. It can drag in a storm, get hit by a barge, capsize, or sink. Lights fail, and colors fade. So use buoys as a guide, never as a fixed position. What do you check them against? The chart, the depth sounder, and your GPS. If the buoy and the chart disagree, believe the water depth. If you find an aid off station or not working, report it to the Coast Guard. And know about private aids, called PATONs, put out by marinas and property owners. They follow the same colors and shapes, but they may not be maintained to the same standard. That’s lesson three. Red, right, returning. Nuns even, cans odd. Follow the rear mark. And trust the water, not the buoy. Next time: the marks that aren’t red or green."
     }
+   ],
+   "recap": [
+    "Red, right, returning",
+    "Nuns even, cans odd",
+    "Follow the rear mark",
+    "Trust the water, not the buoy"
    ]
   },
   {
@@ -4639,6 +4732,11 @@
      "script": "Let’s pull the whole buoyage system into one table. If you know this table, you can name almost any mark the exam describes. [+] Starboard-side lateral marks: red, with a red light. [+] Port-side lateral marks: green, with a green light. [+] Preferred channel marks: red and green bands, with a composite group-flashing light, two plus one, in the color of the top band. [+] Safe water marks: red and white vertical stripes, with a white light flashing Morse A. [+] Isolated danger marks: black with red bands, and a white light flashing in groups of two. [+] Special marks: yellow, with a yellow light. [pause] Notice the pattern in the lights. Red and green lights are only on lateral marks. White lights are on safe water and isolated danger. Yellow is special. That’s lesson four. Morse A means safe water. Two balls and two flashes mean danger. On the Intracoastal, follow the yellow. Next time: lights, and how far you can see them.",
      "spoken": "Let’s pull the whole buoyage system into one table. If you know this table, you can name almost any mark the exam describes. Starboard-side lateral marks: red, with a red light. Port-side lateral marks: green, with a green light. Preferred channel marks: red and green bands, with a composite group-flashing light, two plus one, in the color of the top band. Safe water marks: red and white vertical stripes, with a white light flashing Morse A. Isolated danger marks: black with red bands, and a white light flashing in groups of two. Special marks: yellow, with a yellow light. Notice the pattern in the lights. Red and green lights are only on lateral marks. White lights are on safe water and isolated danger. Yellow is special. That’s lesson four. Morse A means safe water. Two balls and two flashes mean danger. On the Intracoastal, follow the yellow. Next time: lights, and how far you can see them."
     }
+   ],
+   "recap": [
+    "Morse A means safe water",
+    "Two balls and two flashes mean danger",
+    "On the Intracoastal, follow the yellow"
    ]
   },
   {
@@ -4873,6 +4971,12 @@
      "script": "Last, a light that changes color to warn you. Look at the diagram. Some lights have colored sectors. A red sector usually covers a hazard, like a shoal or a reef. So if you’re watching a white light and it turns red, what’s it telling you? [pause] You’re standing into danger. Turn back toward the white. Now the exam trap. The Light List gives the edges of each sector as bearings in degrees true. But from where? From the vessel, looking toward the light. Not from the light looking out. People get that backward all the time. One last trick. The moment a light first pops up over the horizon, you’re at its geographic range. So you know roughly how far off you are. That’s called bobbing a light. That’s lesson five. Time the period. Lamp, air, earth. One point one seven times the square root. And red sector means danger. Next time: the books every captain keeps.",
      "spoken": "Last, a light that changes color to warn you. Look at the diagram. Some lights have colored sectors. A red sector usually covers a hazard, like a shoal or a reef. So if you’re watching a white light and it turns red, what’s it telling you? You’re standing into danger. Turn back toward the white. Now the exam trap. The Light List gives the edges of each sector as bearings in degrees true. But from where? From the vessel, looking toward the light. Not from the light looking out. People get that backward all the time. One last trick. The moment a light first pops up over the horizon, you’re at its geographic range. So you know roughly how far off you are. That’s called bobbing a light. That’s lesson five. Time the period. Lamp, air, earth. One point one seven times the square root. And red sector means danger. Next time: the books every captain keeps."
     }
+   ],
+   "recap": [
+    "Time the period",
+    "Lamp, air, earth",
+    "One point one seven times the square root",
+    "Red sector means danger"
    ]
   },
   {
@@ -5024,6 +5128,11 @@
      "script": "Owning a chart isn’t enough. Keeping it corrected is a basic duty, and here’s the routine. [+] Start with the chart’s edition date. [+] Check every Local Notice to Mariners issued since that date for corrections that touch your chart. [+] On paper, mark each correction neatly, and record it in a log, so you can prove the chart is current. [+] On a chartplotter, install the chart updates regularly. Here’s a question to ask yourself. How old is the chart card in your plotter right now? [pause] If you don’t know, it’s probably years old. [+] And when two sources disagree, use the most recent one, and go carefully. That’s lesson six. The Coast Pilot says what the chart can’t. The Local Notice is weekly. Thirty-three for the water, forty-six for the boat. Next time: tides.",
      "spoken": "Owning a chart isn’t enough. Keeping it corrected is a basic duty, and here’s the routine. Start with the chart’s edition date. Check every Local Notice to Mariners issued since that date for corrections that touch your chart. On paper, mark each correction neatly, and record it in a log, so you can prove the chart is current. On a chartplotter, install the chart updates regularly. Here’s a question to ask yourself. How old is the chart card in your plotter right now? If you don’t know, it’s probably years old. And when two sources disagree, use the most recent one, and go carefully. That’s lesson six. The Coast Pilot says what the chart can’t. The Local Notice is weekly. Thirty-three for the water, forty-six for the boat. Next time: tides."
     }
+   ],
+   "recap": [
+    "The Coast Pilot says what the chart can’t",
+    "The Local Notice is weekly",
+    "Thirty-three for the water, forty-six for the boat"
    ]
   },
   {
@@ -5279,6 +5388,11 @@
      "script": "Often you need the depth at a time between high and low. For a quick answer, use the rule of twelfths. The tide doesn’t rise evenly. It starts slowly, runs fastest in the middle, and slows again. Over six hours it rises one twelfth, two twelfths, three, three, two, and one. Now work it. [+] Low water is zero point five feet at six in the morning. High water is six point five feet at noon. That’s a range of six feet over six hours. [+] What about nine o’clock, three hours in? Add the first three hours: one plus two plus three. Six twelfths. [+] Six twelfths of six feet is three feet. [+] So the height of tide at nine is zero point five plus three: about three and a half feet. [+] And if the chart shows a five-foot spot? [pause] Five plus three and a half. About eight and a half feet of water. That’s lesson seven. Depth equals charted depth plus height of tide. Spring tides at new and full moon. One, two, three, three, two, one. Next time: currents.",
      "spoken": "Often you need the depth at a time between high and low. For a quick answer, use the rule of twelfths. The tide doesn’t rise evenly. It starts slowly, runs fastest in the middle, and slows again. Over six hours it rises one twelfth, two twelfths, three, three, two, and one. Now work it. Low water is zero point five feet at six in the morning. High water is six point five feet at noon. That’s a range of six feet over six hours. What about nine o’clock, three hours in? Add the first three hours: one plus two plus three. Six twelfths. Six twelfths of six feet is three feet. So the height of tide at nine is zero point five plus three: about three and a half feet. And if the chart shows a five-foot spot? Five plus three and a half. About eight and a half feet of water. That’s lesson seven. Depth equals charted depth plus height of tide. Spring tides at new and full moon. One, two, three, three, two, one. Next time: currents."
     }
+   ],
+   "recap": [
+    "Depth equals charted depth plus height of tide",
+    "Spring tides at new and full moon",
+    "One, two, three, three, two, one"
    ]
   },
   {
@@ -5488,6 +5602,11 @@
      "script": "What if nobody tells you the current? Then you measure it yourself, with two fixes. Follow it on screen. [+] You have a good fix at eight hundred. You run your course and speed, and plot where you should be at ten hundred. That’s your dead reckoning position. [+] At ten hundred you take another fix, and it isn’t on the DR. It lies three miles away, bearing one five zero true from the DR. [+] So what pushed you there? The current. Its set is the direction from the DR to the fix: one five zero true. [+] Its drift is the distance divided by the time. Three miles in two hours. [pause] One and a half knots. [+] Now use it, to correct your next course. And remember the direction: from where you thought you were, to where you really are. That’s lesson eight. Current is named for where it goes. Wind against current is trouble. And set runs from DR to fix. Next time: the compass.",
      "spoken": "What if nobody tells you the current? Then you measure it yourself, with two fixes. Follow it on screen. You have a good fix at eight hundred. You run your course and speed, and plot where you should be at ten hundred. That’s your dead reckoning position. At ten hundred you take another fix, and it isn’t on the DR. It lies three miles away, bearing one five zero true from the DR. So what pushed you there? The current. Its set is the direction from the DR to the fix: one five zero true. Its drift is the distance divided by the time. Three miles in two hours. One and a half knots. Now use it, to correct your next course. And remember the direction: from where you thought you were, to where you really are. That’s lesson eight. Current is named for where it goes. Wind against current is trouble. And set runs from DR to fix. Next time: the compass."
     }
+   ],
+   "recap": [
+    "Current is named for where it goes",
+    "Wind against current is trouble",
+    "Set runs from DR to fix"
    ]
   },
   {
@@ -5787,6 +5906,12 @@
      "script": "Let’s work that trap through, so you’ve done it once before the exam. Follow it on screen. [+] You’re steering zero four five by compass. Your deviation card shows two degrees west on that heading. Variation is five degrees west. [+] You take a bearing on a lighthouse, and the compass reads one two zero. [+] Which deviation? The one for zero four five, your heading. Two west. And we’re correcting, compass toward true, so west is subtracted. One two zero minus two is one one eight, magnetic. [+] Now variation, five west. Subtract again. One one eight minus five is one one three, true. [+] And what goes on the chart? [pause] One one three. Bearings are always plotted as true. That’s lesson nine. True, variation, magnetic, deviation, compass. Correcting, add east. Deviation goes with your heading. Compass least, error east. Next time: headings, bearings and checking your compass.",
      "spoken": "Let’s work that trap through, so you’ve done it once before the exam. Follow it on screen. You’re steering zero four five by compass. Your deviation card shows two degrees west on that heading. Variation is five degrees west. You take a bearing on a lighthouse, and the compass reads one two zero. Which deviation? The one for zero four five, your heading. Two west. And we’re correcting, compass toward true, so west is subtracted. One two zero minus two is one one eight, magnetic. Now variation, five west. Subtract again. One one eight minus five is one one three, true. And what goes on the chart? One one three. Bearings are always plotted as true. That’s lesson nine. True, variation, magnetic, deviation, compass. Correcting, add east. Deviation goes with your heading. Compass least, error east. Next time: headings, bearings and checking your compass."
     }
+   ],
+   "recap": [
+    "True, variation, magnetic, deviation, compass",
+    "Correcting, add east",
+    "Deviation goes with your heading",
+    "Compass least, error east"
    ]
   },
   {
@@ -6022,6 +6147,11 @@
      "script": "Let’s do a range check with real numbers. Follow it on screen. [+] The chart shows the range line as zero four two, true. [+] Variation is six degrees west. We’re going from true toward magnetic, which is uncorrecting, so we add west. Zero four two plus six is zero four eight, magnetic. [+] You line up on the range, and your compass reads zero five one. [+] The compass reads three degrees more than magnetic. So is the deviation east or west? [pause] Compass best, error west. Three degrees west. [+] Write it on your deviation card for that heading. That’s lesson ten. Heading is where you point, track is where you go. Relative bearings start at the bow. And a range is the best compass check there is. Next time: the electronics.",
      "spoken": "Let’s do a range check with real numbers. Follow it on screen. The chart shows the range line as zero four two, true. Variation is six degrees west. We’re going from true toward magnetic, which is uncorrecting, so we add west. Zero four two plus six is zero four eight, magnetic. You line up on the range, and your compass reads zero five one. The compass reads three degrees more than magnetic. So is the deviation east or west? Compass best, error west. Three degrees west. Write it on your deviation card for that heading. That’s lesson ten. Heading is where you point, track is where you go. Relative bearings start at the bow. And a range is the best compass check there is. Next time: the electronics."
     }
+   ],
+   "recap": [
+    "Heading is where you point, track is where you go",
+    "Relative bearings start at the bow",
+    "A range is the best compass check there is"
    ]
   },
   {
@@ -6311,6 +6441,12 @@
      "script": "Last, the radio, which is a navigation tool as much as a safety one. [+] VHF range is roughly line of sight. So what gives you more range: more power, or a higher antenna? [pause] The higher antenna. [+] Now the channels to know. Sixteen is distress, safety and calling. Nine is the alternate calling channel for recreational boats. [+] Thirteen is bridge-to-bridge, where the ships and tugs talk. And twenty-two alpha is the Coast Guard’s working channel. [+] For the DSC distress button to do its job, the radio needs two things: a registered MMSI number, and a GPS connection. [+] And the weather channels carry NOAA Weather Radio around the clock. That’s lesson eleven. GPS course comes from movement. Check every leg of a route. AIS isn’t in sight. Know what your depth reading means. Next time: radar.",
      "spoken": "Last, the radio, which is a navigation tool as much as a safety one. VHF range is roughly line of sight. So what gives you more range: more power, or a higher antenna? The higher antenna. Now the channels to know. Sixteen is distress, safety and calling. Nine is the alternate calling channel for recreational boats. Thirteen is bridge-to-bridge, where the ships and tugs talk. And twenty-two alpha is the Coast Guard’s working channel. For the DSC distress button to do its job, the radio needs two things: a registered MMSI number, and a GPS connection. And the weather channels carry NOAA Weather Radio around the clock. That’s lesson eleven. GPS course comes from movement. Check every leg of a route. AIS isn’t in sight. Know what your depth reading means. Next time: radar."
     }
+   ],
+   "recap": [
+    "GPS course comes from movement",
+    "Check every leg of a route",
+    "AIS isn’t in sight",
+    "Know what your depth reading means"
    ]
   },
   {
@@ -6481,6 +6617,12 @@
      "script": "Let’s tie radar back to the Rules, because the exam asks it from both sides. [+] If your boat has radar, Rule seven says you must use it properly, including long-range scanning for early warning. Having it switched off in fog isn’t an option. [+] A target seen only on radar is not in sight. That’s Rule three. [+] So in fog, Rule nineteen governs. For a target forward of your beam, what don’t you do? [pause] Turn to port. [+] Help the other fellow, too. A radar reflector, mounted as high as practical, makes your boat a better target. [+] And practice on clear days. Compare the screen with what your eyes see, until you can read it without thinking. That’s lesson twelve. Steady on the E B L means risk. Don’t tune out the real targets. Low beaches hide. Plot before you decide. Next time: weather.",
      "spoken": "Let’s tie radar back to the Rules, because the exam asks it from both sides. If your boat has radar, Rule seven says you must use it properly, including long-range scanning for early warning. Having it switched off in fog isn’t an option. A target seen only on radar is not in sight. That’s Rule three. So in fog, Rule nineteen governs. For a target forward of your beam, what don’t you do? Turn to port. Help the other fellow, too. A radar reflector, mounted as high as practical, makes your boat a better target. And practice on clear days. Compare the screen with what your eyes see, until you can read it without thinking. That’s lesson twelve. Steady on the E B L means risk. Don’t tune out the real targets. Low beaches hide. Plot before you decide. Next time: weather."
     }
+   ],
+   "recap": [
+    "Steady on the E B L means risk",
+    "Don’t tune out the real targets",
+    "Low beaches hide",
+    "Plot before you decide"
    ]
   },
   {
@@ -6719,6 +6861,11 @@
      "script": "The Beaufort scale is two hundred years old, and it’s still useful, because it lets you judge the wind by looking at the water. Follow the table. [+] Force zero is calm. The sea is like a mirror. [+] Force three, a gentle breeze, seven to ten knots. Scattered whitecaps. [+] Force four, a moderate breeze, eleven to sixteen knots. Frequent whitecaps. [+] Force five, a fresh breeze, seventeen to twenty-one. [+] Force six, a strong breeze, twenty-two to twenty-seven knots. Large waves and foam crests everywhere. For most six-pack boats, that’s a day at the dock. [+] Force seven, a near gale, twenty-eight to thirty-three. [+] Force eight is a gale, thirty-four to forty knots. Notice that matches the gale warning. [+] And force twelve is hurricane force, sixty-four knots and above. [pause] That’s lesson thirteen. Clockwise around a high. South wind ahead of a front, north wind behind. Thirty-four, forty-eight, sixty-four. Next time: Florida’s violent weather.",
      "spoken": "The Beaufort scale is two hundred years old, and it’s still useful, because it lets you judge the wind by looking at the water. Follow the table. Force zero is calm. The sea is like a mirror. Force three, a gentle breeze, seven to ten knots. Scattered whitecaps. Force four, a moderate breeze, eleven to sixteen knots. Frequent whitecaps. Force five, a fresh breeze, seventeen to twenty-one. Force six, a strong breeze, twenty-two to twenty-seven knots. Large waves and foam crests everywhere. For most six-pack boats, that’s a day at the dock. Force seven, a near gale, twenty-eight to thirty-three. Force eight is a gale, thirty-four to forty knots. Notice that matches the gale warning. And force twelve is hurricane force, sixty-four knots and above. That’s lesson thirteen. Clockwise around a high. South wind ahead of a front, north wind behind. Thirty-four, forty-eight, sixty-four. Next time: Florida’s violent weather."
     }
+   ],
+   "recap": [
+    "Clockwise around a high",
+    "South wind ahead of a front, north wind behind",
+    "Thirty-four, forty-eight, sixty-four"
    ]
   },
   {
@@ -6967,6 +7114,11 @@
      "script": "Last, the waves themselves. [+] Three things make them grow. Wind speed, fetch, and duration: how hard it blows, over how much water, and for how long. [+] Fetch is the distance of open water the wind blows across. So picture a twenty-knot wind off the land. Near the beach, is it rough or smooth? [pause] Smooth. There’s no fetch. Turn that same wind onshore, across a hundred miles of Gulf, and it builds real seas. [+] Swell is waves that have left the place where they were made. It can arrive well ahead of a distant storm, on a perfectly calm day. [+] Forecast wave heights are significant wave heights: the average of the highest third of the waves. [+] So expect some waves much larger, now and then about double. A four-foot forecast includes the occasional eight-footer. That completes Navigation General. Next comes chart plotting, where we put all of this on paper.",
      "spoken": "Last, the waves themselves. Three things make them grow. Wind speed, fetch, and duration: how hard it blows, over how much water, and for how long. Fetch is the distance of open water the wind blows across. So picture a twenty-knot wind off the land. Near the beach, is it rough or smooth? Smooth. There’s no fetch. Turn that same wind onshore, across a hundred miles of Gulf, and it builds real seas. Swell is waves that have left the place where they were made. It can arrive well ahead of a distant storm, on a perfectly calm day. Forecast wave heights are significant wave heights: the average of the highest third of the waves. So expect some waves much larger, now and then about double. A four-foot forecast includes the occasional eight-footer. That completes Navigation General. Next comes chart plotting, where we put all of this on paper."
     }
+   ],
+   "recap": [
+    "Hear thunder? Head in. Move away from a waterspout at right angles",
+    "Tropical storm from 34 knots, hurricane from 64",
+    "The right side of a hurricane’s track is the dangerous semicircle"
    ]
   },
   {
@@ -7168,6 +7320,11 @@
      "script": "One more thing comes with the license: drug and alcohol rules that are stricter than for any recreational boater. [+] As a commercial operator, you must be enrolled in a Department of Transportation drug testing program. Most owner-operators join a consortium that handles it. [+] The tests come before employment, at random, after a serious marine incident, and when there’s reasonable cause. [+] For alcohol, a commercial operator is intoxicated at zero point zero four percent. That’s half the recreational limit. [+] After a serious marine incident, the clock starts. Alcohol testing within two hours, drug testing within thirty-two hours. [+] And refusing a test can cost you your license. [pause] That’s lesson one. Six passengers, uninspected vessel, five years. If they have to pay to come, they’re passengers for hire. And zero point zero four, two hours, thirty-two hours. Next time: the safety gear the law requires on your boat.",
      "spoken": "One more thing comes with the license: drug and alcohol rules that are stricter than for any recreational boater. As a commercial operator, you must be enrolled in a Department of Transportation drug testing program. Most owner-operators join a consortium that handles it. The tests come before employment, at random, after a serious marine incident, and when there’s reasonable cause. For alcohol, a commercial operator is intoxicated at zero point zero four percent. That’s half the recreational limit. After a serious marine incident, the clock starts. Alcohol testing within two hours, drug testing within thirty-two hours. And refusing a test can cost you your license. That’s lesson one. Six passengers, uninspected vessel, five years. If they have to pay to come, they’re passengers for hire. And zero point zero four, two hours, thirty-two hours. Next time: the safety gear the law requires on your boat."
     }
+   ],
+   "recap": [
+    "Six passengers, uninspected vessel, five years",
+    "If they have to pay to come, they’re passengers for hire",
+    "Zero point zero four, two hours, thirty-two hours"
    ]
   },
   {
@@ -7432,6 +7589,12 @@
      "script": "A few more required items, and then the ones a professional carries anyway. [+] Navigation lights and sound-signaling equipment that meet the rules you just studied. [+] On boats twenty-six feet and over, the oil discharge placard and the garbage placard. [+] If there’s an installed toilet, a Coast Guard certified marine sanitation device. [+] And one thing that isn’t equipment at all: a safety briefing before every trip. Where the life jackets are, how to put one on, and what to do if something goes wrong. It takes two minutes at the dock. [+] Beyond the minimum, I’d carry a registered EPIRB or personal locator beacon, a VHF with DSC, a real first aid kit, and a high-water alarm. [pause] That’s lesson two. A Type one for everyone. Extinguishers: one, two, three by length. Flares expire at forty-two months. And four minutes on the blower. Next time: what to do when there’s a fire anyway.",
      "spoken": "A few more required items, and then the ones a professional carries anyway. Navigation lights and sound-signaling equipment that meet the rules you just studied. On boats twenty-six feet and over, the oil discharge placard and the garbage placard. If there’s an installed toilet, a Coast Guard certified marine sanitation device. And one thing that isn’t equipment at all: a safety briefing before every trip. Where the life jackets are, how to put one on, and what to do if something goes wrong. It takes two minutes at the dock. Beyond the minimum, I’d carry a registered EPIRB or personal locator beacon, a VHF with DSC, a real first aid kit, and a high-water alarm. That’s lesson two. A Type one for everyone. Extinguishers: one, two, three by length. Flares expire at forty-two months. And four minutes on the blower. Next time: what to do when there’s a fire anyway."
     }
+   ],
+   "recap": [
+    "A Type one for everyone",
+    "Extinguishers: one, two, three by length",
+    "Flares expire at forty-two months",
+    "Four minutes on the blower"
    ]
   },
   {
@@ -7614,6 +7777,12 @@
      "script": "Three more kinds of fire, each with its own trick. [+] Electrical. Kill the power first, at the battery switch or the breaker. Then use carbon dioxide or dry chemical. With the power off, it’s often just a small Class A fire. [+] Galley grease. Smother it with a lid or a fire blanket, and turn off the heat. Never water. Water turns to steam and throws burning grease across the cabin. [+] Propane. Close the valve at the tank. And remember that propane is heavier than air, so a leak sinks into the bilge just like gasoline vapor. If you smell it, ventilate before you touch a single switch. [+] And keep a fire blanket handy. It’s the fastest way to put out burning clothing, too. [pause] That’s lesson three. Heat, fuel, oxygen, chain reaction. A for ash, B for boil, C for current. PASS, aimed at the base. And never open the engine hatch for fifteen minutes. Next time: how to keep the fire from starting at all.",
      "spoken": "Three more kinds of fire, each with its own trick. Electrical. Kill the power first, at the battery switch or the breaker. Then use carbon dioxide or dry chemical. With the power off, it’s often just a small Class A fire. Galley grease. Smother it with a lid or a fire blanket, and turn off the heat. Never water. Water turns to steam and throws burning grease across the cabin. Propane. Close the valve at the tank. And remember that propane is heavier than air, so a leak sinks into the bilge just like gasoline vapor. If you smell it, ventilate before you touch a single switch. And keep a fire blanket handy. It’s the fastest way to put out burning clothing, too. That’s lesson three. Heat, fuel, oxygen, chain reaction. A for ash, B for boil, C for current. PASS, aimed at the base. And never open the engine hatch for fifteen minutes. Next time: how to keep the fire from starting at all."
     }
+   ],
+   "recap": [
+    "Heat, fuel, oxygen, chain reaction",
+    "A for ash, B for boil, C for current",
+    "PASS, aimed at the base",
+    "Never open the engine hatch for fifteen minutes"
    ]
   },
   {
@@ -7869,6 +8038,12 @@
      "script": "Most boat fires are preventable, and prevention is plain housekeeping. [+] Keep the bilges clean, with no oil or fuel in them. A clean bilge also shows you a new leak right away. [+] Inspect the fuel lines, hose clamps, tank vents and tanks for chafe, corrosion and weeping. [+] Store oily rags, paints and solvents in proper containers. An oily rag wadded up in a locker can heat up and light all by itself. [+] Allow smoking only where it’s safe, if you allow it at all. [+] And remember that a few minutes of looking at the dock is far easier than fighting a fire offshore with six passengers aboard. [pause] That’s lesson four. Vapor sinks. Close up to fuel, open up to start, four minutes on the blower. Carbon monoxide looks like seasickness. And nobody swims near shore power. Next time: what keeps a boat upright.",
      "spoken": "Most boat fires are preventable, and prevention is plain housekeeping. Keep the bilges clean, with no oil or fuel in them. A clean bilge also shows you a new leak right away. Inspect the fuel lines, hose clamps, tank vents and tanks for chafe, corrosion and weeping. Store oily rags, paints and solvents in proper containers. An oily rag wadded up in a locker can heat up and light all by itself. Allow smoking only where it’s safe, if you allow it at all. And remember that a few minutes of looking at the dock is far easier than fighting a fire offshore with six passengers aboard. That’s lesson four. Vapor sinks. Close up to fuel, open up to start, four minutes on the blower. Carbon monoxide looks like seasickness. And nobody swims near shore power. Next time: what keeps a boat upright."
     }
+   ],
+   "recap": [
+    "Vapor sinks",
+    "Close up to fuel, open up to start, four minutes on the blower",
+    "Carbon monoxide looks like seasickness",
+    "Nobody swims near shore power"
    ]
   },
   {
@@ -8102,6 +8277,11 @@
      "script": "So how do small boats actually capsize? Almost never from one cause. It’s a stack of them. [+] Too much weight, or weight carried too high. [+] Free surface, and water already in the boat. [+] A sharp turn at speed. [+] A following sea that slews her sideways into a broach. [+] And down-flooding: water pouring in through an open hatch, or over a low transom. What’s the common thread? [pause] The boat was already near her limit before the last wave arrived. So keep weight low. Keep water out. Slow down in rough water. And keep your bow or your stern, never your beam, toward breaking seas. That’s lesson five. G pulls down, B pushes up, and G M is your stability. Snappy is stiff, lazy is tender. Heel heals, a list lasts. Next time: hulls, and keeping the water on the outside.",
      "spoken": "So how do small boats actually capsize? Almost never from one cause. It’s a stack of them. Too much weight, or weight carried too high. Free surface, and water already in the boat. A sharp turn at speed. A following sea that slews her sideways into a broach. And down-flooding: water pouring in through an open hatch, or over a low transom. What’s the common thread? The boat was already near her limit before the last wave arrived. So keep weight low. Keep water out. Slow down in rough water. And keep your bow or your stern, never your beam, toward breaking seas. That’s lesson five. G pulls down, B pushes up, and G M is your stability. Snappy is stiff, lazy is tender. Heel heals, a list lasts. Next time: hulls, and keeping the water on the outside."
     }
+   ],
+   "recap": [
+    "G pulls down, B pushes up, and G M is your stability",
+    "Snappy is stiff, lazy is tender",
+    "Heel heals, a list lasts"
    ]
   },
   {
@@ -8410,6 +8590,12 @@
      "script": "Last, the sea that comes from behind. Following seas are especially dangerous for small powerboats. [+] A broach happens when a wave from astern lifts your stern and slews the boat sideways. Now you’re beam-on, and the next wave can roll you. [+] In the worst case, the bow digs in and the stern goes over the top. That’s a pitchpole. [+] So when you run before big seas, or come in an inlet, where do you put the boat? [pause] On the back of a wave. Match its speed and stay there. Don’t surf down the face. [+] Raise the trim tabs to keep the bow up, and keep a hand on the throttle. That’s lesson six. Know your hull. Clear scuppers, double clamps, a plug at every through-hull. Find it, stop it, pump it, call early. And ride the back of the wave. Next time: making the boat go where you want her to.",
      "spoken": "Last, the sea that comes from behind. Following seas are especially dangerous for small powerboats. A broach happens when a wave from astern lifts your stern and slews the boat sideways. Now you’re beam-on, and the next wave can roll you. In the worst case, the bow digs in and the stern goes over the top. That’s a pitchpole. So when you run before big seas, or come in an inlet, where do you put the boat? On the back of a wave. Match its speed and stay there. Don’t surf down the face. Raise the trim tabs to keep the bow up, and keep a hand on the throttle. That’s lesson six. Know your hull. Clear scuppers, double clamps, a plug at every through-hull. Find it, stop it, pump it, call early. And ride the back of the wave. Next time: making the boat go where you want her to."
     }
+   ],
+   "recap": [
+    "Know your hull",
+    "Clear scuppers, double clamps, a plug at every through-hull",
+    "Find it, stop it, pump it, call early",
+    "Ride the back of the wave"
    ]
   },
   {
@@ -8679,6 +8865,11 @@
      "script": "Wind and current decide which docking plan you use. [+] If the wind is blowing onto the dock, it’s the easy one. Stop parallel, a few feet off, and let the wind set you gently alongside. [+] If the wind is blowing off the dock, come in at a steeper angle, get a bow line or a spring on quickly, and use it to work her in. [+] Current from ahead is the easiest of all. Current from astern is the hard one, because it’s pushing you faster than you think. What should you do if you can? [pause] Turn around, and come in against it. [+] And leaving. Motor gently ahead against a bow spring with the wheel turned toward the dock. The stern swings out, and then you back away clear. That’s lesson seven. Prop walk: a right-hand prop walks to port in reverse. The stern swings wide. Slow, into the wind or current, lines ready. Next time: the lines themselves.",
      "spoken": "Wind and current decide which docking plan you use. If the wind is blowing onto the dock, it’s the easy one. Stop parallel, a few feet off, and let the wind set you gently alongside. If the wind is blowing off the dock, come in at a steeper angle, get a bow line or a spring on quickly, and use it to work her in. Current from ahead is the easiest of all. Current from astern is the hard one, because it’s pushing you faster than you think. What should you do if you can? Turn around, and come in against it. And leaving. Motor gently ahead against a bow spring with the wheel turned toward the dock. The stern swings out, and then you back away clear. That’s lesson seven. Prop walk: a right-hand prop walks to port in reverse. The stern swings wide. Slow, into the wind or current, lines ready. Next time: the lines themselves."
     }
+   ],
+   "recap": [
+    "Prop walk: a right-hand prop walks to port in reverse",
+    "The stern swings wide",
+    "Slow, into the wind or current, lines ready"
    ]
   },
   {
@@ -8953,6 +9144,12 @@
      "script": "A last word on line, and it’s about staying alive. A line under load stores a huge amount of energy, and stretchy nylon stores the most. [+] If that line parts, it snaps back like a whip, with enough force to kill. That’s called snap-back. [+] So keep yourself, and your passengers, out of the path of any line under strain. When does that happen on a charter boat? [pause] When you’re towing, and when the boat surges against her dock lines. [+] Never stand inside a bight, a loop of line lying on deck. If it comes tight, it takes your leg with it. [+] Use a line that’s big enough for the load. [+] And inspect your lines for chafe, stiffness and sun damage, and replace them before they fail. That’s lesson eight. Nylon stretches, polypropylene floats. Splice what’s permanent. Springs stop her surging. And stay out of the snap-back zone. Next time: anchoring.",
      "spoken": "A last word on line, and it’s about staying alive. A line under load stores a huge amount of energy, and stretchy nylon stores the most. If that line parts, it snaps back like a whip, with enough force to kill. That’s called snap-back. So keep yourself, and your passengers, out of the path of any line under strain. When does that happen on a charter boat? When you’re towing, and when the boat surges against her dock lines. Never stand inside a bight, a loop of line lying on deck. If it comes tight, it takes your leg with it. Use a line that’s big enough for the load. And inspect your lines for chafe, stiffness and sun damage, and replace them before they fail. That’s lesson eight. Nylon stretches, polypropylene floats. Splice what’s permanent. Springs stop her surging. And stay out of the snap-back zone. Next time: anchoring."
     }
+   ],
+   "recap": [
+    "Nylon stretches, polypropylene floats",
+    "Splice what’s permanent",
+    "Springs stop her surging",
+    "Stay out of the snap-back zone"
    ]
   },
   {
@@ -9108,6 +9305,12 @@
      "script": "Finally, where not to anchor. [+] Not in navigation channels, cable or pipeline areas, or restricted areas, and not where you block other traffic. [+] At night show your anchor light, and by day a black ball. That’s Rule thirty, which you already know. [+] In the Florida Keys National Marine Sanctuary, anchoring on coral is prohibited. So what do you do at a popular reef? [pause] Pick up one of the mooring buoys. That’s what they’re there for. [+] Stay off seagrass where you can. [+] And leave room for the other boats to swing when the wind or tide turns. Everyone swings, but not everyone swings the same way. That’s lesson nine. Match the anchor to the bottom. Scope is seven to one, measured from the bow. Lower it, don’t throw it. And always from the bow. Next time: heavy weather, inlets and trouble.",
      "spoken": "Finally, where not to anchor. Not in navigation channels, cable or pipeline areas, or restricted areas, and not where you block other traffic. At night show your anchor light, and by day a black ball. That’s Rule thirty, which you already know. In the Florida Keys National Marine Sanctuary, anchoring on coral is prohibited. So what do you do at a popular reef? Pick up one of the mooring buoys. That’s what they’re there for. Stay off seagrass where you can. And leave room for the other boats to swing when the wind or tide turns. Everyone swings, but not everyone swings the same way. That’s lesson nine. Match the anchor to the bottom. Scope is seven to one, measured from the bow. Lower it, don’t throw it. And always from the bow. Next time: heavy weather, inlets and trouble."
     }
+   ],
+   "recap": [
+    "Match the anchor to the bottom",
+    "Scope is seven to one, measured from the bow",
+    "Lower it, don’t throw it",
+    "Always from the bow"
    ]
   },
   {
@@ -9348,6 +9551,12 @@
      "script": "And the worst one: a collision. The order matters, so learn it as a list. [+] First, people. Check your passengers and crew for injuries. [+] Second, your boat. Check for damage and flooding. [+] Third, the other vessel. Federal law requires you to render assistance to the people affected, as far as you can without serious danger to your own vessel. [+] Fourth, exchange information: names, addresses, and vessel identification. Never leave the scene without doing that. [+] And fifth, report it as required. For you, that’s the Coast Guard, as a commercial marine casualty. [pause] That’s lesson ten. When in doubt, don’t go. Ebb against an onshore wind is the dangerous inlet. Tow with a bridle and a long line. Aground: check for leaks before you move. And after a collision, people first. Next time: the emergency you practice for and hope never to have, man overboard.",
      "spoken": "And the worst one: a collision. The order matters, so learn it as a list. First, people. Check your passengers and crew for injuries. Second, your boat. Check for damage and flooding. Third, the other vessel. Federal law requires you to render assistance to the people affected, as far as you can without serious danger to your own vessel. Fourth, exchange information: names, addresses, and vessel identification. Never leave the scene without doing that. And fifth, report it as required. For you, that’s the Coast Guard, as a commercial marine casualty. That’s lesson ten. When in doubt, don’t go. Ebb against an onshore wind is the dangerous inlet. Tow with a bridle and a long line. Aground: check for leaks before you move. And after a collision, people first. Next time: the emergency you practice for and hope never to have, man overboard."
     }
+   ],
+   "recap": [
+    "When in doubt, don’t go",
+    "Ebb against an onshore wind is the dangerous inlet",
+    "Tow with a bridle and a long line",
+    "Aground: check for leaks before you move"
    ]
   },
   {
@@ -9547,6 +9756,12 @@
      "script": "The last decision is the biggest: leaving the boat. [+] Abandon her only when she’s clearly lost. Even a swamped, capsized boat is far easier for a helicopter to find than a head in the water. [+] Before you go, call for help every way you have: Mayday by voice, the DSC distress button, and the EPIRB. [+] Life jackets on everyone, and take the grab bag: handheld radio, personal locator beacon, flares, water, medications. [+] There’s an old saying: step up into the life raft. What does it mean? [pause] Leave only when the boat is sinking out from under you. If you have to climb down into the raft, it’s too soon. [+] And stay together, near the boat’s last position. That’s where the search will start. That’s lesson eleven. Shout, point, throw. Williamson: sixty degrees, then reverse the rudder. Recover over the side. One, ten, one. And step up into the raft. Next time: calling for help.",
      "spoken": "The last decision is the biggest: leaving the boat. Abandon her only when she’s clearly lost. Even a swamped, capsized boat is far easier for a helicopter to find than a head in the water. Before you go, call for help every way you have: Mayday by voice, the DSC distress button, and the EPIRB. Life jackets on everyone, and take the grab bag: handheld radio, personal locator beacon, flares, water, medications. There’s an old saying: step up into the life raft. What does it mean? Leave only when the boat is sinking out from under you. If you have to climb down into the raft, it’s too soon. And stay together, near the boat’s last position. That’s where the search will start. That’s lesson eleven. Shout, point, throw. Williamson: sixty degrees, then reverse the rudder. Recover over the side. One, ten, one. And step up into the raft. Next time: calling for help."
     }
+   ],
+   "recap": [
+    "Shout, point, throw",
+    "Williamson: sixty degrees, then reverse the rudder",
+    "Recover over the side",
+    "One, ten, one"
    ]
   },
   {
@@ -9766,6 +9981,12 @@
      "script": "The cheapest piece of safety equipment you own costs nothing, and it stays ashore. It’s a float plan. Think about it. If you don’t come home tonight, who knows? And where would they tell the Coast Guard to look? [pause] A float plan answers both. [+] Leave it with a responsible person: your office, the marina, or family. [+] It says who’s aboard, what the boat looks like, where you’re going, and when you’ll be back. [+] It says what to do, and whom to call, if you’re overdue. [+] And it only works if you keep it honest. Update it when your plans change, and cancel it when you’re back. That’s lesson twelve. Mayday, pan-pan, securité. Position first. Red button, then channel sixteen. Let the basket touch down. And leave a float plan. Next time: first aid, for when the nearest doctor is an hour away.",
      "spoken": "The cheapest piece of safety equipment you own costs nothing, and it stays ashore. It’s a float plan. Think about it. If you don’t come home tonight, who knows? And where would they tell the Coast Guard to look? A float plan answers both. Leave it with a responsible person: your office, the marina, or family. It says who’s aboard, what the boat looks like, where you’re going, and when you’ll be back. It says what to do, and whom to call, if you’re overdue. And it only works if you keep it honest. Update it when your plans change, and cancel it when you’re back. That’s lesson twelve. Mayday, pan-pan, securité. Position first. Red button, then channel sixteen. Let the basket touch down. And leave a float plan. Next time: first aid, for when the nearest doctor is an hour away."
     }
+   ],
+   "recap": [
+    "Mayday, pan-pan, securité",
+    "Position first",
+    "Red button, then channel sixteen",
+    "Let the basket touch down"
    ]
   },
   {
@@ -9972,6 +10193,12 @@
      "script": "A few more, and then the habit that protects you afterward. [+] Burns. Cool the area under cool running water for ten to twenty minutes, then cover it loosely with a clean dressing. No ice, no butter, no ointment. [+] A suspected fracture. Immobilize the limb the way you found it, and check the circulation beyond the injury. [+] A possible head, neck or back injury, say from a fall in rough seas. Keep them still, and don’t move them unless they’re in danger where they are. [+] Something in the eye. Don’t rub it. Flush it with clean water. [+] And when it’s over, write it down. What happened, what you saw, what you did, and when. Who needs that? [pause] The medical team, and your casualty report. That’s lesson thirteen. Call early. Direct pressure first. Cool and sweaty, or hot and confused. Hot water for spines, seawater for jellyfish. Next time: keeping the water clean.",
      "spoken": "A few more, and then the habit that protects you afterward. Burns. Cool the area under cool running water for ten to twenty minutes, then cover it loosely with a clean dressing. No ice, no butter, no ointment. A suspected fracture. Immobilize the limb the way you found it, and check the circulation beyond the injury. A possible head, neck or back injury, say from a fall in rough seas. Keep them still, and don’t move them unless they’re in danger where they are. Something in the eye. Don’t rub it. Flush it with clean water. And when it’s over, write it down. What happened, what you saw, what you did, and when. Who needs that? The medical team, and your casualty report. That’s lesson thirteen. Call early. Direct pressure first. Cool and sweaty, or hot and confused. Hot water for spines, seawater for jellyfish. Next time: keeping the water clean."
     }
+   ],
+   "recap": [
+    "Call early",
+    "Direct pressure first",
+    "Cool and sweaty, or hot and confused",
+    "Hot water for spines, seawater for jellyfish"
    ]
   },
   {
@@ -10215,6 +10442,12 @@
      "script": "Last, the rules that are particular to Florida, and to the animals your customers came to see. [+] Manatee zones. Obey the idle-speed and slow-speed signs, and watch for manatees and sea turtles, especially in shallow water. [+] Seagrass. Running across a flat and cutting a prop scar destroys the nursery your fishery depends on, and it’s illegal in many areas. [+] If you work the Keys, know the sanctuary’s rules on anchoring, fishing and discharges. [+] Collect your used fishing line and recycle it. Loose line kills birds, turtles and dolphins. [+] And report spills, injured wildlife and violations to the Fish and Wildlife Conservation Commission, at eight eight eight, four zero four, three nine two two. [pause] That’s lesson fourteen. No sheen, no soap, call the National Response Center. Plastic never. Food at three and twelve miles. Type three is a holding tank. Next time, our last Deck lesson: reports, bridges and running a professional operation.",
      "spoken": "Last, the rules that are particular to Florida, and to the animals your customers came to see. Manatee zones. Obey the idle-speed and slow-speed signs, and watch for manatees and sea turtles, especially in shallow water. Seagrass. Running across a flat and cutting a prop scar destroys the nursery your fishery depends on, and it’s illegal in many areas. If you work the Keys, know the sanctuary’s rules on anchoring, fishing and discharges. Collect your used fishing line and recycle it. Loose line kills birds, turtles and dolphins. And report spills, injured wildlife and violations to the Fish and Wildlife Conservation Commission, at eight eight eight, four zero four, three nine two two. That’s lesson fourteen. No sheen, no soap, call the National Response Center. Plastic never. Food at three and twelve miles. Type three is a holding tank. Next time, our last Deck lesson: reports, bridges and running a professional operation."
     }
+   ],
+   "recap": [
+    "No sheen, no soap, call the National Response Center",
+    "Plastic never",
+    "Food at three and twelve miles",
+    "Type three is a holding tank"
    ]
   },
   {
@@ -10449,6 +10682,11 @@
      "script": "That completes Deck General and Safety. Let me leave you with the habits that separate a professional from someone who just has a license. [+] Keep a log of every trip: passengers, weather, incidents, maintenance. [+] Keep your credential, your medical certificate and your drug-testing enrollment current. Put the dates on a calendar. [+] Carry commercial charter insurance. A recreational policy usually won’t cover you the moment a passenger pays. [+] Use a pre-departure checklist on every single trip, even the hundredth. [+] And above all, know your limits and your boat’s limits, and cancel when conditions exceed them. Will you lose that day’s money? [pause] Yes. And your customers will book again, because you’re the captain who brought them home. Now take the lesson check, then the Deck General quiz, until you’re scoring eighty percent or better. Well done, Captain.",
      "spoken": "That completes Deck General and Safety. Let me leave you with the habits that separate a professional from someone who just has a license. Keep a log of every trip: passengers, weather, incidents, maintenance. Keep your credential, your medical certificate and your drug-testing enrollment current. Put the dates on a calendar. Carry commercial charter insurance. A recreational policy usually won’t cover you the moment a passenger pays. Use a pre-departure checklist on every single trip, even the hundredth. And above all, know your limits and your boat’s limits, and cancel when conditions exceed them. Will you lose that day’s money? Yes. And your customers will book again, because you’re the captain who brought them home. Now take the lesson check, then the Deck General quiz, until you’re scoring eighty percent or better. Well done, Captain."
     }
+   ],
+   "recap": [
+    "Report groundings, loss of propulsion, fire, flooding, deaths and serious injuries",
+    "Notify the Coast Guard at once; Form CG-2692 within 5 days",
+    "Bridge opening: one prolonged, one short. Five short means it can’t open"
    ]
   },
   {
@@ -10655,6 +10893,11 @@
      "script": "Plotting rewards neat people. That isn’t a matter of taste. It’s arithmetic. [+] Keep your pencil sharp. On this chart, a fat pencil line can hide a tenth of a mile, and the answer choices are a tenth of a mile apart. [+] Label every line and every position as you draw it. In a five-part problem, you’ll need to find your earlier work. [+] Work in true, and convert to magnetic or compass only at the end. [+] Give your answers to the nearest degree, and the nearest tenth of a mile. [+] And if your answer isn’t one of the choices? Don’t pick the closest one. What do you do instead? [pause] Go back and find the step that went wrong. The right answer is almost always there exactly. That’s lesson one. Read the rose on the side you’re traveling toward. Measure on the side scale, level with your work. Next time: positions.",
      "spoken": "Plotting rewards neat people. That isn’t a matter of taste. It’s arithmetic. Keep your pencil sharp. On this chart, a fat pencil line can hide a tenth of a mile, and the answer choices are a tenth of a mile apart. Label every line and every position as you draw it. In a five-part problem, you’ll need to find your earlier work. Work in true, and convert to magnetic or compass only at the end. Give your answers to the nearest degree, and the nearest tenth of a mile. And if your answer isn’t one of the choices? Don’t pick the closest one. What do you do instead? Go back and find the step that went wrong. The right answer is almost always there exactly. That’s lesson one. Read the rose on the side you’re traveling toward. Measure on the side scale, level with your work. Next time: positions."
     }
+   ],
+   "recap": [
+    "Read the rose on the side you’re traveling toward",
+    "Measure distance on the side scale, level with your work",
+    "Work in true, and convert at the end"
    ]
   },
   {
@@ -10907,6 +11150,11 @@
      "script": "Let’s read a real one together. The question says: what’s the position of this light? Follow it on screen. [+] Lay a straightedge level from the light across to the side scale. [+] It reads forty-one degrees, ten point two minutes north. That’s the latitude done. [+] Now longitude. With the dividers, measure from the nearest meridian, seventy-one degrees thirty minutes west, across to the light. Carry that to the top scale. It spans four point six minutes. [+] The light is west of that meridian. So do we add the four point six, or subtract it? [pause] Add. West longitude grows to the west. Seventy-one degrees, thirty-four point six minutes west. [+] So the answer is forty-one degrees ten point two north, seventy-one degrees thirty-four point six west. That’s lesson two. Latitude from the side, longitude from the top. West grows to the left. And latitude is always written first. Next time: courses and distances.",
      "spoken": "Let’s read a real one together. The question says: what’s the position of this light? Follow it on screen. Lay a straightedge level from the light across to the side scale. It reads forty-one degrees, ten point two minutes north. That’s the latitude done. Now longitude. With the dividers, measure from the nearest meridian, seventy-one degrees thirty minutes west, across to the light. Carry that to the top scale. It spans four point six minutes. The light is west of that meridian. So do we add the four point six, or subtract it? Add. West longitude grows to the west. Seventy-one degrees, thirty-four point six minutes west. So the answer is forty-one degrees ten point two north, seventy-one degrees thirty-four point six west. That’s lesson two. Latitude from the side, longitude from the top. West grows to the left. And latitude is always written first. Next time: courses and distances."
     }
+   ],
+   "recap": [
+    "Latitude from the side, longitude from the top",
+    "West grows to the left",
+    "Latitude is always written first"
    ]
   },
   {
@@ -11074,6 +11322,11 @@
      "script": "Let’s run one complete leg, start to finish. Look at the diagram. [+] You’re going from buoy one to bell two. Draw the line. [+] Walk the parallel rulers to the rose. They read zero six eight true. [+] Set the dividers on the two marks, and carry them to the side scale. They span five point three minutes. So the distance is five point three miles. [+] You’re making twelve knots. How long will it take? Sixty times five point three, divided by twelve. [pause] Twenty-six and a half minutes. [+] You leave at nine hundred. So you arrive at about nine twenty-seven. That’s lesson three. Course above the line, speed below. Three digits, always. Distance from the side scale. Next time: speed, time and distance.",
      "spoken": "Let’s run one complete leg, start to finish. Look at the diagram. You’re going from buoy one to bell two. Draw the line. Walk the parallel rulers to the rose. They read zero six eight true. Set the dividers on the two marks, and carry them to the side scale. They span five point three minutes. So the distance is five point three miles. You’re making twelve knots. How long will it take? Sixty times five point three, divided by twelve. Twenty-six and a half minutes. You leave at nine hundred. So you arrive at about nine twenty-seven. That’s lesson three. Course above the line, speed below. Three digits, always. Distance from the side scale. Next time: speed, time and distance."
     }
+   ],
+   "recap": [
+    "Course above the line, speed below",
+    "Three digits, always",
+    "Distance from the side scale"
    ]
   },
   {
@@ -11458,6 +11711,11 @@
      "script": "Last, a distinction that the whole of current sailing depends on. Your boat has two speeds. [+] A knotmeter, or log, measures your speed through the water. [+] GPS shows your speed over the ground. [+] And the difference between the two is the current along your track. A fair current, and you’re faster over the ground. A foul current, and you’re slower. So your knotmeter says ten, and your GPS says eight. What’s happening? [pause] Two knots of current, against you. [+] Exam problems usually give you the boat’s speed through the water. [+] And then they ask you to find the speed over the ground, or speed made good, from two fixes or a current diagram. That’s lesson four. Sixty D street. Carry at sixty. Out, back, and a third in reserve. Next time: compass corrections.",
      "spoken": "Last, a distinction that the whole of current sailing depends on. Your boat has two speeds. A knotmeter, or log, measures your speed through the water. GPS shows your speed over the ground. And the difference between the two is the current along your track. A fair current, and you’re faster over the ground. A foul current, and you’re slower. So your knotmeter says ten, and your GPS says eight. What’s happening? Two knots of current, against you. Exam problems usually give you the boat’s speed through the water. And then they ask you to find the speed over the ground, or speed made good, from two fixes or a current diagram. That’s lesson four. Sixty D street. Carry at sixty. Out, back, and a third in reserve. Next time: compass corrections."
     }
+   ],
+   "recap": [
+    "Sixty D street",
+    "Carry at sixty",
+    "Out, back, and a third in reserve"
    ]
   },
   {
@@ -11686,6 +11944,11 @@
      "script": "Let’s collect the traps, because the people who write the exam know every one of them. [+] Bearings. Use the deviation for the boat’s heading, not for the bearing. [+] Signs. Toward compass, add west. Toward true, add east. [+] The rose. Read the wrong side, and your answer is exactly one hundred eighty degrees off. And will that wrong answer be among the choices? [pause] Very often, yes. [+] Don’t mix true and magnetic in the same calculation. Pick one and stay in it. [+] And answer in what the question asks for. If it says compass, a perfect true course is still a wrong answer. That’s lesson five. Write the chain on paper. Deviation goes with the heading. And read the last line of the question twice. Next time: lines of position and fixes.",
      "spoken": "Let’s collect the traps, because the people who write the exam know every one of them. Bearings. Use the deviation for the boat’s heading, not for the bearing. Signs. Toward compass, add west. Toward true, add east. The rose. Read the wrong side, and your answer is exactly one hundred eighty degrees off. And will that wrong answer be among the choices? Very often, yes. Don’t mix true and magnetic in the same calculation. Pick one and stay in it. And answer in what the question asks for. If it says compass, a perfect true course is still a wrong answer. That’s lesson five. Write the chain on paper. Deviation goes with the heading. And read the last line of the question twice. Next time: lines of position and fixes."
     }
+   ],
+   "recap": [
+    "Write the chain on paper",
+    "Deviation goes with the heading",
+    "Read the last line of the question twice"
    ]
   },
   {
@@ -11908,6 +12171,11 @@
      "script": "Two bearings aren’t the only way to get a fix. [+] A bearing and a radar range on the same object make an excellent one. The line and the circle cross at a right angle, and you only need one landmark. [+] Radar ranges to two different objects give two circles, and they cross. [+] A range line, plus a bearing on something else, works very well. [+] A GPS fix is marked with a small triangle, so you can tell it from a visual fix. [+] And whatever method you use, cross-check it against another source. What’s the easiest check you have? [pause] The depth sounder. If the fix says twenty feet and the sounder says six, believe the sounder. That’s lesson six. Draw bearings back from the object. Cross them near ninety degrees. A big cocked hat means a mistake. Next time: dead reckoning.",
      "spoken": "Two bearings aren’t the only way to get a fix. A bearing and a radar range on the same object make an excellent one. The line and the circle cross at a right angle, and you only need one landmark. Radar ranges to two different objects give two circles, and they cross. A range line, plus a bearing on something else, works very well. A GPS fix is marked with a small triangle, so you can tell it from a visual fix. And whatever method you use, cross-check it against another source. What’s the easiest check you have? The depth sounder. If the fix says twenty feet and the sounder says six, believe the sounder. That’s lesson six. Draw bearings back from the object. Cross them near ninety degrees. A big cocked hat means a mistake. Next time: dead reckoning."
     }
+   ],
+   "recap": [
+    "Draw bearings back from the object",
+    "Cross them near ninety degrees",
+    "A big cocked hat means a mistake"
    ]
   },
   {
@@ -12147,6 +12415,11 @@
      "script": "Every boat has GPS now. So why did I just make you do this by hand? [+] Because you should be keeping a log anyway: your courses, your speeds, and the time of every change. [+] Your chartplotter track isn’t a DR. It shows where you’ve been. It says nothing about where you’ll be if the screen dies. [+] And if the GPS or the power does fail, your last fix plus a DR from your log is how you get home. [+] There’s a daily use too. Compare your DR with the GPS fix. What does the gap between them tell you? [pause] How the current is setting you, and how hard. [+] So practice on calm days, when nothing depends on it. That’s lesson seven. Circle for a fix, half circle for a DR, square for an E P. Plot on the hour and at every change. Next time: fixes from a single landmark.",
      "spoken": "Every boat has GPS now. So why did I just make you do this by hand? Because you should be keeping a log anyway: your courses, your speeds, and the time of every change. Your chartplotter track isn’t a DR. It shows where you’ve been. It says nothing about where you’ll be if the screen dies. And if the GPS or the power does fail, your last fix plus a DR from your log is how you get home. There’s a daily use too. Compare your DR with the GPS fix. What does the gap between them tell you? How the current is setting you, and how hard. So practice on calm days, when nothing depends on it. That’s lesson seven. Circle for a fix, half circle for a DR, square for an E P. Plot on the hour and at every change. Next time: fixes from a single landmark."
     }
+   ],
+   "recap": [
+    "Circle for a fix, half circle for a DR, square for an EP",
+    "Plot a DR on the hour and at every change",
+    "Start a new DR track from every fix"
    ]
   },
   {
@@ -12456,6 +12729,11 @@
      "script": "Let’s put numbers on doubling the angle. Follow the diagram. [+] You’re running at ten knots. [+] At ten twelve, a light is thirty degrees on the bow. At ten thirty, it’s sixty degrees on the bow. The angle has doubled. [+] How far did you run? Eighteen minutes at ten knots. [pause] Three miles. [+] So at ten thirty you were three miles from the light. [+] And that gives you a fix. You have a bearing at ten thirty, and you have a distance. Measure three miles from the light, back along the reciprocal of the bearing, and mark your position. That’s lesson eight. Advance the first line by the distance run. Bow and beam: distance run equals distance off. Double the angle, and the same thing holds. Next time: current.",
      "spoken": "Let’s put numbers on doubling the angle. Follow the diagram. You’re running at ten knots. At ten twelve, a light is thirty degrees on the bow. At ten thirty, it’s sixty degrees on the bow. The angle has doubled. How far did you run? Eighteen minutes at ten knots. Three miles. So at ten thirty you were three miles from the light. And that gives you a fix. You have a bearing at ten thirty, and you have a distance. Measure three miles from the light, back along the reciprocal of the bearing, and mark your position. That’s lesson eight. Advance the first line by the distance run. Bow and beam: distance run equals distance off. Double the angle, and the same thing holds. Next time: current."
     }
+   ],
+   "recap": [
+    "Advance the first line by the distance run",
+    "Bow and beam: distance run equals distance off",
+    "Double the angle, and the same thing holds"
    ]
   },
   {
@@ -12728,6 +13006,11 @@
      "script": "A few quick rules, for checking your answers and for the days you don’t have time to draw. [+] A current directly with you: add its drift to your speed. [+] Directly against you: subtract it. Ten knots into a two-knot current is eight over the ground. [+] A current across your track: steer up-current, by the amount the diagram gives you. [+] Wind does the same thing. When it pushes the boat sideways, that’s called leeway, and you treat it just like a current. [+] And how much should you trust a predicted current? [pause] Only until your next fix. Predictions are estimates. So keep taking fixes, and keep adjusting. That’s lesson nine. Set runs from DR to fix. Current first, then your speed. Steer up-current. Next time, we put the whole course together in one exam problem.",
      "spoken": "A few quick rules, for checking your answers and for the days you don’t have time to draw. A current directly with you: add its drift to your speed. Directly against you: subtract it. Ten knots into a two-knot current is eight over the ground. A current across your track: steer up-current, by the amount the diagram gives you. Wind does the same thing. When it pushes the boat sideways, that’s called leeway, and you treat it just like a current. And how much should you trust a predicted current? Only until your next fix. Predictions are estimates. So keep taking fixes, and keep adjusting. That’s lesson nine. Set runs from DR to fix. Current first, then your speed. Steer up-current. Next time, we put the whole course together in one exam problem."
     }
+   ],
+   "recap": [
+    "Set runs from DR to fix",
+    "Current first, then your speed",
+    "Steer up-current"
    ]
   },
   {
@@ -13009,6 +13292,11 @@
      "script": "That’s the end of the course, so here are my last five tips for exam day. [+] Read every question twice, and note what it asks for: true, magnetic or compass. [+] If the question gives you a variation, use that one, not the chart’s rose. [+] Show your work, every step, so you can find a mistake. [+] If your answer is off by exactly one hundred eighty degrees, you read the wrong side of the rose, or you reversed a set. [+] And use the plotting drills in this app every day, until the arithmetic is automatic. [pause] You began this course leaving the dock in Tampa Bay, not knowing where the rules changed. Now you know the rules, the lights, the buoys, the tides, the weather, how to keep your passengers safe, and how to find your way home with a pencil. You’re ready. Good luck, Captain.",
      "spoken": "That’s the end of the course, so here are my last five tips for exam day. Read every question twice, and note what it asks for: true, magnetic or compass. If the question gives you a variation, use that one, not the chart’s rose. Show your work, every step, so you can find a mistake. If your answer is off by exactly one hundred eighty degrees, you read the wrong side of the rose, or you reversed a set. And use the plotting drills in this app every day, until the arithmetic is automatic. You began this course leaving the dock in Tampa Bay, not knowing where the rules changed. Now you know the rules, the lights, the buoys, the tides, the weather, how to keep your passengers safe, and how to find your way home with a pencil. You’re ready. Good luck, Captain."
     }
+   ],
+   "recap": [
+    "Questions build on each other: keep a scratch sheet",
+    "Set runs from DR to fix; divide the distance by the time",
+    "Use speed made good, not boat speed, for the new ETA"
    ]
   }
  ],
