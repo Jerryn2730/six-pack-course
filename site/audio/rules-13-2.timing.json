@@ -3,66 +3,114 @@
  "lessonId": "rules-13",
  "n": 2,
  "audio": "rules-13-2.mp3",
- "duration": 45.15,
+ "duration": 64.275,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 12.75,
+   "end": 6.9,
    "builds": 0,
-   "text": "Under International rules, when vessels are in sight of one another, a power-driven vessel underway that is maneuvering as authorized or required by the rules shall indicate that maneuver by whistle."
+   "text": "Now the maneuvering signals, and we’ll take the International rules first, because they’re the simpler idea."
   },
   {
    "i": 1,
-   "start": 13.0,
-   "speechStart": 13.0,
-   "end": 17.0,
+   "start": 7.15,
+   "speechStart": 7.15,
+   "end": 16.8,
    "builds": 0,
-   "text": "One short blast means I am altering my course to starboard."
+   "text": "Under the International rules, when vessels are in sight of one another, a power-driven vessel that maneuvers tells everyone what she’s doing, as she does it."
   },
   {
    "i": 2,
-   "start": 17.25,
-   "speechStart": 17.25,
+   "start": 17.05,
+   "speechStart": 17.05,
    "end": 21.0,
-   "builds": 0,
-   "text": "Two short blasts means I am altering my course to port."
+   "builds": 1,
+   "text": "One short blast: I am altering my course to starboard."
   },
   {
    "i": 3,
    "start": 21.25,
    "speechStart": 21.25,
-   "end": 25.325,
-   "builds": 0,
-   "text": "Three short blasts means I am operating astern propulsion."
+   "end": 24.95,
+   "builds": 1,
+   "text": "Two short blasts: I am altering my course to port."
   },
   {
    "i": 4,
-   "start": 25.575,
-   "speechStart": 25.575,
-   "end": 31.25,
-   "builds": 0,
-   "text": "These signals describe action actually being taken, and no reply is required."
+   "start": 25.2,
+   "speechStart": 25.2,
+   "end": 29.175,
+   "builds": 1,
+   "text": "Three short blasts: I am operating astern propulsion."
   },
   {
    "i": 5,
-   "start": 31.5,
-   "speechStart": 31.5,
-   "end": 36.275,
+   "start": 29.425,
+   "speechStart": 29.425,
+   "end": 31.575,
    "builds": 0,
-   "text": "A vessel may supplement them with light signals on an all-round white light."
+   "text": "Here’s how I keep them straight."
   },
   {
    "i": 6,
-   "start": 36.525,
-   "speechStart": 36.525,
-   "end": 44.85,
+   "start": 31.825,
+   "speechStart": 31.825,
+   "end": 35.6,
    "builds": 0,
-   "text": "Each flash lasts about one second, flashes are about one second apart, and successive signals are at least ten seconds apart."
+   "text": "One syllable, star-board comes first, so one blast."
+  },
+  {
+   "i": 7,
+   "start": 35.85,
+   "speechStart": 35.85,
+   "end": 38.15,
+   "builds": 0,
+   "text": "Port is the other, so two."
+  },
+  {
+   "i": 8,
+   "start": 38.4,
+   "speechStart": 38.4,
+   "end": 41.475,
+   "builds": 0,
+   "text": "And three means my engines are going astern."
+  },
+  {
+   "i": 9,
+   "start": 41.725,
+   "speechStart": 41.725,
+   "end": 44.4,
+   "builds": 0,
+   "text": "Notice the wording: I am altering."
+  },
+  {
+   "i": 10,
+   "start": 44.65,
+   "speechStart": 44.65,
+   "end": 49.6,
+   "builds": 0,
+   "text": "It’s a statement of action, not a question, so no reply is required."
+  },
+  {
+   "i": 11,
+   "start": 49.85,
+   "speechStart": 50.6,
+   "end": 56.5,
+   "builds": 0,
+   "text": "A vessel may back these up with a light: an all-round white light, flashing the same pattern."
+  },
+  {
+   "i": 12,
+   "start": 56.75,
+   "speechStart": 56.75,
+   "end": 63.975,
+   "builds": 0,
+   "text": "Each flash is about one second, with about a second between flashes, and at least ten seconds between signals."
   }
  ]
 }

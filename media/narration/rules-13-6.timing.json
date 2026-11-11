@@ -3,50 +3,146 @@
  "lessonId": "rules-13",
  "n": 6,
  "audio": "rules-13-6.mp3",
- "duration": 40.525,
+ "duration": 74.575,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 9.8,
+   "end": 2.075,
    "builds": 0,
-   "text": "Inland rules also say a vessel that reaches agreement on a passing by radiotelephone is not obliged to sound the whistle signals, though she may."
+   "text": "Last, the radio."
   },
   {
    "i": 1,
-   "start": 10.05,
-   "speechStart": 10.05,
-   "end": 16.375,
+   "start": 2.325,
+   "speechStart": 2.325,
+   "end": 9.925,
    "builds": 0,
-   "text": "If agreement isn’t reached, whistle signals shall be exchanged in a timely manner, and they prevail."
+   "text": "Most passing arrangements on the Intracoastal today are made on VHF, and the two rule books treat that differently."
   },
   {
    "i": 2,
-   "start": 16.625,
-   "speechStart": 16.625,
-   "end": 21.0,
-   "builds": 0,
-   "text": "Bridge-to-bridge calls are usually on VHF channel thirteen."
+   "start": 10.175,
+   "speechStart": 10.175,
+   "end": 19.1,
+   "builds": 1,
+   "text": "Under the Inland rules, a vessel that reaches agreement by radiotelephone isn’t obliged to sound the whistle signals, though she still may."
   },
   {
    "i": 3,
-   "start": 21.25,
-   "speechStart": 21.25,
-   "end": 31.95,
-   "builds": 0,
-   "text": "Under International rules there is no such exemption, so the whistle signals of Rule thirty-four are still required when you maneuver, whatever has been said on the radio."
+   "start": 19.35,
+   "speechStart": 19.35,
+   "end": 26.425,
+   "builds": 1,
+   "text": "But if agreement isn’t reached, whistle signals shall be exchanged in good time, and the whistle signals prevail."
   },
   {
    "i": 4,
-   "start": 32.2,
-   "speechStart": 32.2,
-   "end": 40.225,
+   "start": 26.675,
+   "speechStart": 26.675,
+   "end": 31.425,
+   "builds": 1,
+   "text": "Those calls are usually made on channel thirteen, the bridge-to-bridge channel."
+  },
+  {
+   "i": 5,
+   "start": 31.675,
+   "speechStart": 31.675,
+   "end": 35.5,
+   "builds": 1,
+   "text": "Under the International rules, there’s no such exemption."
+  },
+  {
+   "i": 6,
+   "start": 35.75,
+   "speechStart": 35.75,
+   "end": 39.725,
    "builds": 0,
-   "text": "And under either set of rules, if you are in doubt about the other vessel’s intentions, the danger signal is always available."
+   "text": "So picture yourself offshore, beyond the demarcation line."
+  },
+  {
+   "i": 7,
+   "start": 39.975,
+   "speechStart": 39.975,
+   "end": 45.5,
+   "builds": 0,
+   "text": "You and a freighter agree on the radio to pass port to port, and you turn to starboard."
+  },
+  {
+   "i": 8,
+   "start": 45.75,
+   "speechStart": 45.75,
+   "end": 48.275,
+   "builds": 0,
+   "text": "Do you still sound one short blast?"
+  },
+  {
+   "i": 9,
+   "start": 48.525,
+   "speechStart": 49.275,
+   "end": 50.675,
+   "builds": 0,
+   "text": "Yes."
+  },
+  {
+   "i": 10,
+   "start": 50.925,
+   "speechStart": 50.925,
+   "end": 54.35,
+   "builds": 0,
+   "text": "Offshore, the radio never replaces the whistle."
+  },
+  {
+   "i": 11,
+   "start": 54.6,
+   "speechStart": 54.6,
+   "end": 56.625,
+   "builds": 0,
+   "text": "That’s lesson thirteen."
+  },
+  {
+   "i": 12,
+   "start": 56.875,
+   "speechStart": 56.875,
+   "end": 60.2,
+   "builds": 0,
+   "text": "Short is one second, prolonged is four to six."
+  },
+  {
+   "i": 13,
+   "start": 60.45,
+   "speechStart": 60.45,
+   "end": 63.8,
+   "builds": 0,
+   "text": "One, two, three: starboard, port, astern."
+  },
+  {
+   "i": 14,
+   "start": 64.05,
+   "speechStart": 64.05,
+   "end": 67.8,
+   "builds": 0,
+   "text": "International signals tell, Inland signals ask."
+  },
+  {
+   "i": 15,
+   "start": 68.05,
+   "speechStart": 68.05,
+   "end": 70.625,
+   "builds": 0,
+   "text": "And five short blasts means doubt."
+  },
+  {
+   "i": 16,
+   "start": 70.875,
+   "speechStart": 70.875,
+   "end": 74.275,
+   "builds": 0,
+   "text": "Next time: fog signals and distress signals."
   }
  ]
 }

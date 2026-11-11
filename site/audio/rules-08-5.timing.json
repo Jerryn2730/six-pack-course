@@ -3,50 +3,122 @@
  "lessonId": "rules-08",
  "n": 5,
  "audio": "rules-08-5.mp3",
- "duration": 35.8,
+ "duration": 64.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.5,
+   "end": 4.0,
    "builds": 0,
-   "text": "Finally, remember how Rule nineteen hands over to the other rules."
+   "text": "Last, how does Rule nineteen hand back to the other rules?"
   },
   {
    "i": 1,
-   "start": 4.75,
-   "speechStart": 4.75,
-   "end": 16.025,
-   "builds": 0,
-   "text": "The moment two vessels come into sight of one another visually, the rules for vessels in sight, eleven through eighteen, take over, and a stand-on and give-way vessel exist again."
+   "start": 4.25,
+   "speechStart": 4.25,
+   "end": 11.875,
+   "builds": 1,
+   "text": "The moment two vessels actually sight one another, the rules for vessels in sight take over: Rules eleven through eighteen."
   },
   {
    "i": 2,
-   "start": 16.275,
-   "speechStart": 16.275,
-   "end": 19.25,
+   "start": 12.125,
+   "speechStart": 12.125,
+   "end": 15.975,
    "builds": 0,
-   "text": "Until then, both vessels share the duty."
+   "text": "A stand-on vessel and a give-way vessel exist again."
   },
   {
    "i": 3,
-   "start": 19.5,
-   "speechStart": 19.5,
-   "end": 29.975,
+   "start": 16.225,
+   "speechStart": 16.225,
+   "end": 21.6,
    "builds": 0,
-   "text": "Radar contact alone never puts vessels in sight of one another, and Rule seven’s warning about scanty radar information applies with full force in fog."
+   "text": "So picture a boat breaking out of the fog two hundred yards off your starboard bow."
   },
   {
    "i": 4,
-   "start": 30.225,
-   "speechStart": 30.225,
-   "end": 35.5,
+   "start": 21.85,
+   "speechStart": 21.85,
+   "end": 23.675,
    "builds": 0,
-   "text": "We’ll cover the fog signals themselves, Rule thirty-five, in lesson fourteen."
+   "text": "You can see her now."
+  },
+  {
+   "i": 5,
+   "start": 23.925,
+   "speechStart": 23.925,
+   "end": 27.8,
+   "builds": 0,
+   "text": "You’re in a crossing situation, and you’re the give-way vessel."
+  },
+  {
+   "i": 6,
+   "start": 28.05,
+   "speechStart": 28.05,
+   "end": 30.95,
+   "builds": 1,
+   "text": "But radar alone never makes you in sight."
+  },
+  {
+   "i": 7,
+   "start": 31.2,
+   "speechStart": 31.2,
+   "end": 37.95,
+   "builds": 1,
+   "text": "And Rule seven’s warning applies with full force here: no assumptions on scanty radar information."
+  },
+  {
+   "i": 8,
+   "start": 38.2,
+   "speechStart": 38.2,
+   "end": 44.1,
+   "builds": 1,
+   "text": "The fog signals themselves are in Rule thirty-five, and we’ll learn them in lesson fourteen."
+  },
+  {
+   "i": 9,
+   "start": 44.35,
+   "speechStart": 45.1,
+   "end": 46.9,
+   "builds": 0,
+   "text": "That’s lesson eight."
+  },
+  {
+   "i": 10,
+   "start": 47.15,
+   "speechStart": 47.15,
+   "end": 50.85,
+   "builds": 0,
+   "text": "In or near fog, and not in sight, nobody stands on."
+  },
+  {
+   "i": 11,
+   "start": 51.1,
+   "speechStart": 51.1,
+   "end": 54.225,
+   "builds": 0,
+   "text": "Radar target ahead: don’t turn to port."
+  },
+  {
+   "i": 12,
+   "start": 54.475,
+   "speechStart": 54.475,
+   "end": 59.775,
+   "builds": 0,
+   "text": "Fog signal forward of the beam: slow to bare steerageway, and stop if you must."
+  },
+  {
+   "i": 13,
+   "start": 60.025,
+   "speechStart": 60.025,
+   "end": 64.5,
+   "builds": 0,
+   "text": "Next time, we start the lights, beginning with the ones on your own boat."
   }
  ]
 }

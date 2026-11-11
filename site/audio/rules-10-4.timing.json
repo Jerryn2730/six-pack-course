@@ -3,50 +3,154 @@
  "lessonId": "rules-10",
  "n": 4,
  "audio": "rules-10-4.mp3",
- "duration": 50.825,
+ "duration": 85.425,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.15,
+   "end": 3.825,
    "builds": 0,
-   "text": "Some special cases."
+   "text": "Four special situations to finish the towing rule."
   },
   {
    "i": 1,
-   "start": 2.4,
-   "speechStart": 2.4,
-   "end": 13.85,
-   "builds": 0,
-   "text": "A towing vessel whose tow severely restricts her ability to deviate from her course shows the restricted-in-ability-to-maneuver lights and shapes in addition to her towing lights."
+   "start": 4.075,
+   "speechStart": 4.075,
+   "end": 9.25,
+   "builds": 1,
+   "text": "First, a tow that severely restricts the tug’s ability to deviate from her course."
   },
   {
    "i": 2,
-   "start": 14.1,
-   "speechStart": 14.1,
-   "end": 27.375,
+   "start": 9.5,
+   "speechStart": 9.5,
+   "end": 16.35,
    "builds": 0,
-   "text": "Inconspicuous, partly submerged vessels or objects being towed, like a fuel bladder, show all-round white lights at the ends, with extra lights if very wide, and a diamond shape at the aftermost end."
+   "text": "She adds the lights and shapes of a vessel restricted in her ability to maneuver, on top of her towing lights."
   },
   {
    "i": 3,
-   "start": 27.625,
-   "speechStart": 27.625,
-   "end": 35.975,
+   "start": 16.6,
+   "speechStart": 16.6,
+   "end": 19.975,
    "builds": 0,
-   "text": "Where it’s impracticable to light a vessel or object being towed, all possible measures shall be taken to light it or show its presence."
+   "text": "Remember the ladder: that moves her up near the top."
   },
   {
    "i": 4,
-   "start": 36.225,
-   "speechStart": 36.225,
-   "end": 50.525,
+   "start": 20.225,
+   "speechStart": 20.225,
+   "end": 22.775,
+   "builds": 1,
+   "text": "Second, things that are hard to see."
+  },
+  {
+   "i": 5,
+   "start": 23.025,
+   "speechStart": 23.025,
+   "end": 35.55,
    "builds": 0,
-   "text": "And a vessel not normally engaged in towing, such as a boat towing another in distress, isn’t required to show towing lights when that’s impracticable, but must indicate the relationship, for example by illuminating the towline."
+   "text": "An inconspicuous, partly submerged vessel or object being towed, like a fuel bladder, shows all-round white lights at its ends, more if it’s very wide, and a diamond shape at the after end."
+  },
+  {
+   "i": 6,
+   "start": 35.8,
+   "speechStart": 35.8,
+   "end": 39.225,
+   "builds": 1,
+   "text": "Third, what if the tow simply can’t be lit that way?"
+  },
+  {
+   "i": 7,
+   "start": 39.475,
+   "speechStart": 39.475,
+   "end": 44.8,
+   "builds": 0,
+   "text": "Then all possible measures shall be taken to light it, or at least to show that it’s there."
+  },
+  {
+   "i": 8,
+   "start": 45.05,
+   "speechStart": 45.05,
+   "end": 47.525,
+   "builds": 1,
+   "text": "And fourth, this one is about you."
+  },
+  {
+   "i": 9,
+   "start": 47.775,
+   "speechStart": 47.775,
+   "end": 51.725,
+   "builds": 0,
+   "text": "Say a friend’s boat breaks down at dusk and you take her in tow."
+  },
+  {
+   "i": 10,
+   "start": 51.975,
+   "speechStart": 51.975,
+   "end": 55.6,
+   "builds": 0,
+   "text": "You’re not a towing vessel, and you don’t carry towing lights."
+  },
+  {
+   "i": 11,
+   "start": 55.85,
+   "speechStart": 55.85,
+   "end": 57.775,
+   "builds": 0,
+   "text": "Are you breaking the rule?"
+  },
+  {
+   "i": 12,
+   "start": 58.025,
+   "speechStart": 58.775,
+   "end": 60.15,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 13,
+   "start": 60.4,
+   "speechStart": 60.4,
+   "end": 66.2,
+   "builds": 0,
+   "text": "A vessel not normally engaged in towing needn’t show towing lights when it’s impracticable."
+  },
+  {
+   "i": 14,
+   "start": 66.45,
+   "speechStart": 66.45,
+   "end": 72.0,
+   "builds": 0,
+   "text": "But you must show the connection between the two boats, for example by lighting up the towline."
+  },
+  {
+   "i": 15,
+   "start": 72.25,
+   "speechStart": 72.25,
+   "end": 74.175,
+   "builds": 0,
+   "text": "That’s lesson ten."
+  },
+  {
+   "i": 16,
+   "start": 74.425,
+   "speechStart": 74.425,
+   "end": 81.7,
+   "builds": 0,
+   "text": "Yellow over white from astern, two or three white lights stacked from ahead, and two yellow lights for an Inland pusher."
+  },
+  {
+   "i": 17,
+   "start": 81.95,
+   "speechStart": 81.95,
+   "end": 85.125,
+   "builds": 0,
+   "text": "Next time: sailboats and fishing vessels."
   }
  ]
 }

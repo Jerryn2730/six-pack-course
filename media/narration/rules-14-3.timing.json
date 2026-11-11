@@ -3,50 +3,106 @@
  "lessonId": "rules-14",
  "n": 3,
  "audio": "rules-14-3.mp3",
- "duration": 41.15,
+ "duration": 67.525,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.55,
+   "end": 5.025,
    "builds": 0,
-   "text": "Smaller vessels get some relief."
+   "text": "Small vessels get some relief, and since you run one, learn this slide well."
   },
   {
    "i": 1,
-   "start": 2.8,
-   "speechStart": 2.8,
-   "end": 15.6,
-   "builds": 0,
-   "text": "A vessel of twelve to twenty meters isn’t obliged to give the bell signals at anchor or aground, but if she doesn’t, she must make some other efficient sound signal at intervals of not more than two minutes."
+   "start": 5.275,
+   "speechStart": 5.275,
+   "end": 12.8,
+   "builds": 1,
+   "text": "A vessel of twelve meters or more, but under twenty, isn’t obliged to give the bell signals at anchor or aground."
   },
   {
    "i": 2,
-   "start": 15.85,
-   "speechStart": 15.85,
-   "end": 27.125,
-   "builds": 0,
-   "text": "A vessel under twelve meters isn’t obliged to give any of the Rule thirty-five signals, but she must make some other efficient sound signal at intervals of not more than two minutes."
+   "start": 13.05,
+   "speechStart": 13.05,
+   "end": 19.875,
+   "builds": 1,
+   "text": "But if she doesn’t, she must make some other efficient sound signal, at intervals of not more than two minutes."
   },
   {
    "i": 3,
-   "start": 27.375,
-   "speechStart": 27.375,
-   "end": 33.25,
-   "builds": 0,
-   "text": "A pilot vessel on pilotage duty may add an identity signal of four short blasts."
+   "start": 20.125,
+   "speechStart": 20.125,
+   "end": 26.05,
+   "builds": 1,
+   "text": "A vessel under twelve meters isn’t obliged to give any of the Rule thirty-five signals."
   },
   {
    "i": 4,
-   "start": 33.5,
-   "speechStart": 33.5,
-   "end": 40.85,
+   "start": 26.3,
+   "speechStart": 26.3,
+   "end": 32.225,
    "builds": 0,
-   "text": "And Inland, a vessel under twenty meters at anchor in a special anchorage area needn’t sound the anchor signal."
+   "text": "But she has the same duty: some other efficient sound signal, at least every two minutes."
+  },
+  {
+   "i": 5,
+   "start": 32.475,
+   "speechStart": 32.475,
+   "end": 37.175,
+   "builds": 0,
+   "text": "So are you excused from making noise in fog because your boat is small?"
+  },
+  {
+   "i": 6,
+   "start": 37.425,
+   "speechStart": 38.175,
+   "end": 39.55,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 7,
+   "start": 39.8,
+   "speechStart": 39.8,
+   "end": 43.775,
+   "builds": 0,
+   "text": "You’re excused from the exact signal, not from being heard."
+  },
+  {
+   "i": 8,
+   "start": 44.025,
+   "speechStart": 44.025,
+   "end": 47.475,
+   "builds": 0,
+   "text": "My advice is to sound the proper one anyway."
+  },
+  {
+   "i": 9,
+   "start": 47.725,
+   "speechStart": 47.725,
+   "end": 51.5,
+   "builds": 0,
+   "text": "One prolonged blast every two minutes costs you nothing."
+  },
+  {
+   "i": 10,
+   "start": 51.75,
+   "speechStart": 51.75,
+   "end": 57.625,
+   "builds": 1,
+   "text": "A pilot vessel on pilotage duty may add an identity signal of four short blasts."
+  },
+  {
+   "i": 11,
+   "start": 57.875,
+   "speechStart": 57.875,
+   "end": 67.225,
+   "builds": 1,
+   "text": "And the Inland rules add one exemption: a vessel under twenty meters at anchor in a special anchorage area needn’t sound the anchor signal."
   }
  ]
 }

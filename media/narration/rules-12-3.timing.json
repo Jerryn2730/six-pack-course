@@ -3,50 +3,122 @@
  "lessonId": "rules-12",
  "n": 3,
  "audio": "rules-12-3.mp3",
- "duration": 36.075,
+ "duration": 60.425,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 10.65,
+   "end": 3.15,
    "builds": 0,
-   "text": "A vessel engaged in mine clearance shows three all-round green lights, or three balls by day, one near the foremast head and one at each end of the fore yard."
+   "text": "A few more points from Rule twenty-seven."
   },
   {
    "i": 1,
-   "start": 10.9,
-   "speechStart": 10.9,
-   "end": 17.0,
-   "builds": 0,
-   "text": "These signals mean it is dangerous for another vessel to approach within one thousand meters."
+   "start": 3.4,
+   "speechStart": 3.4,
+   "end": 14.075,
+   "builds": 1,
+   "text": "A vessel engaged in mine clearance shows three all-round green lights, or three balls by day: one near the foremast head, and one at each end of the fore yard."
   },
   {
    "i": 2,
+   "start": 14.325,
+   "speechStart": 14.325,
+   "end": 17.0,
+   "builds": 0,
+   "text": "So they form a triangle, not a line."
+  },
+  {
+   "i": 3,
    "start": 17.25,
    "speechStart": 17.25,
-   "end": 26.775,
+   "end": 21.625,
+   "builds": 1,
+   "text": "And they mean it’s dangerous to come within one thousand meters of her."
+  },
+  {
+   "i": 4,
+   "start": 21.875,
+   "speechStart": 21.875,
+   "end": 25.0,
+   "builds": 0,
+   "text": "That’s more than half a mile, all the way around."
+  },
+  {
+   "i": 5,
+   "start": 25.25,
+   "speechStart": 25.25,
+   "end": 27.4,
+   "builds": 1,
+   "text": "Now a break for small boats."
+  },
+  {
+   "i": 6,
+   "start": 27.65,
+   "speechStart": 27.65,
+   "end": 37.175,
    "builds": 0,
    "text": "Vessels under twelve meters, except those engaged in diving operations, aren’t required to show the not-under-command or restricted signals."
   },
   {
-   "i": 3,
-   "start": 27.025,
-   "speechStart": 27.025,
-   "end": 30.6,
-   "builds": 0,
-   "text": "And remember, these signals are not distress signals."
+   "i": 7,
+   "start": 37.425,
+   "speechStart": 37.425,
+   "end": 39.775,
+   "builds": 1,
+   "text": "And one thing people get wrong."
   },
   {
-   "i": 4,
-   "start": 30.85,
-   "speechStart": 30.85,
-   "end": 35.775,
+   "i": 8,
+   "start": 40.025,
+   "speechStart": 40.025,
+   "end": 42.4,
    "builds": 0,
-   "text": "A vessel showing them is telling you about her limits, not asking for help."
+   "text": "None of these are distress signals."
+  },
+  {
+   "i": 9,
+   "start": 42.65,
+   "speechStart": 42.65,
+   "end": 47.975,
+   "builds": 0,
+   "text": "So suppose you see two red lights, one above the other, on a ship drifting offshore."
+  },
+  {
+   "i": 10,
+   "start": 48.225,
+   "speechStart": 48.225,
+   "end": 50.1,
+   "builds": 0,
+   "text": "Is she calling for help?"
+  },
+  {
+   "i": 11,
+   "start": 50.35,
+   "speechStart": 51.1,
+   "end": 52.475,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 12,
+   "start": 52.725,
+   "speechStart": 52.725,
+   "end": 55.525,
+   "builds": 0,
+   "text": "She’s telling you she can’t get out of your way."
+  },
+  {
+   "i": 13,
+   "start": 55.775,
+   "speechStart": 55.775,
+   "end": 60.125,
+   "builds": 0,
+   "text": "If she needs help, she’ll use the distress signals in lesson fourteen."
   }
  ]
 }

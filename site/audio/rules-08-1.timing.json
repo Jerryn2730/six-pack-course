@@ -3,66 +3,138 @@
  "lessonId": "rules-08",
  "n": 1,
  "audio": "rules-08-1.mp3",
- "duration": 36.55,
+ "duration": 66.15,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.6,
+   "end": 3.275,
    "builds": 0,
-   "text": "Rule nineteen is one of the most important and most tested rules, and it’s often misunderstood."
+   "text": "Picture a January morning on Tampa Bay."
   },
   {
    "i": 1,
-   "start": 6.85,
-   "speechStart": 6.85,
-   "end": 14.65,
+   "start": 3.525,
+   "speechStart": 3.525,
+   "end": 8.25,
    "builds": 0,
-   "text": "It applies to vessels not in sight of one another when navigating in or near an area of restricted visibility."
+   "text": "You leave the dock in sunshine, and half a mile out, the world turns white."
   },
   {
    "i": 2,
-   "start": 14.9,
-   "speechStart": 14.9,
-   "end": 17.025,
+   "start": 8.5,
+   "speechStart": 8.5,
+   "end": 10.65,
+   "builds": 0,
+   "text": "You can’t see your own bow rail."
+  },
+  {
+   "i": 3,
+   "start": 10.9,
+   "speechStart": 10.9,
+   "end": 13.1,
+   "builds": 0,
+   "text": "Which steering rules apply now?"
+  },
+  {
+   "i": 4,
+   "start": 13.35,
+   "speechStart": 14.1,
+   "end": 16.4,
+   "builds": 0,
+   "text": "Not the ones we’ve been studying."
+  },
+  {
+   "i": 5,
+   "start": 16.65,
+   "speechStart": 16.65,
+   "end": 21.35,
+   "builds": 0,
+   "text": "This is Rule nineteen, and it’s one of the most tested rules in the book."
+  },
+  {
+   "i": 6,
+   "start": 21.6,
+   "speechStart": 21.6,
+   "end": 25.1,
+   "builds": 1,
+   "text": "It applies to vessels not in sight of one another."
+  },
+  {
+   "i": 7,
+   "start": 25.35,
+   "speechStart": 25.35,
+   "end": 30.925,
+   "builds": 1,
+   "text": "And it applies when you’re navigating in or near an area of restricted visibility."
+  },
+  {
+   "i": 8,
+   "start": 31.175,
+   "speechStart": 31.175,
+   "end": 33.3,
    "builds": 0,
    "text": "Notice the words or near."
   },
   {
-   "i": 3,
-   "start": 17.275,
-   "speechStart": 17.275,
-   "end": 20.45,
+   "i": 9,
+   "start": 33.55,
+   "speechStart": 33.55,
+   "end": 42.025,
    "builds": 0,
-   "text": "You may be in clear weather beside a fog bank."
+   "text": "You can be in clear air, running alongside a fog bank, and Rule nineteen still applies to you and to whatever is inside that bank."
   },
   {
-   "i": 4,
-   "start": 20.7,
-   "speechStart": 20.7,
-   "end": 25.55,
-   "builds": 0,
-   "text": "Under Rule nineteen there is no stand-on vessel and no give-way vessel."
+   "i": 10,
+   "start": 42.275,
+   "speechStart": 42.275,
+   "end": 44.125,
+   "builds": 1,
+   "text": "Now the big idea."
   },
   {
-   "i": 5,
-   "start": 25.8,
-   "speechStart": 25.8,
-   "end": 29.225,
+   "i": 11,
+   "start": 44.375,
+   "speechStart": 44.375,
+   "end": 49.25,
    "builds": 0,
-   "text": "The steering rules for vessels in sight don’t apply."
+   "text": "Under Rule nineteen, there is no stand-on vessel and no give-way vessel."
   },
   {
-   "i": 6,
-   "start": 29.475,
-   "speechStart": 29.475,
-   "end": 36.25,
+   "i": 12,
+   "start": 49.5,
+   "speechStart": 49.5,
+   "end": 50.825,
    "builds": 0,
-   "text": "Every vessel has the same duty to avoid a close-quarters situation, and every vessel must take action."
+   "text": "None."
+  },
+  {
+   "i": 13,
+   "start": 51.075,
+   "speechStart": 51.075,
+   "end": 55.525,
+   "builds": 0,
+   "text": "The crossing rule, the head-on rule and the ladder are all switched off."
+  },
+  {
+   "i": 14,
+   "start": 55.775,
+   "speechStart": 55.775,
+   "end": 61.375,
+   "builds": 1,
+   "text": "Instead, every vessel shares the same duty to avoid a close-quarters situation."
+  },
+  {
+   "i": 15,
+   "start": 61.625,
+   "speechStart": 61.625,
+   "end": 65.85,
+   "builds": 0,
+   "text": "Nobody gets to hold her course and wait for the other boat to act."
   }
  ]
 }

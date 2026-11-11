@@ -3,26 +3,146 @@
  "lessonId": "rules-14",
  "n": 5,
  "audio": "rules-14-5.mp3",
- "duration": 50.175,
+ "duration": 74.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 8,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 9.675,
+   "end": 4.7,
    "builds": 0,
-   "text": "Rule thirty-seven says that when a vessel is in distress and requires assistance, she shall use or exhibit the signals described in Annex four."
+   "text": "Now the list I most want you to know cold, and not only for the exam."
   },
   {
    "i": 1,
-   "start": 9.925,
-   "speechStart": 9.925,
-   "end": 49.875,
+   "start": 4.95,
+   "speechStart": 4.95,
+   "end": 11.45,
    "builds": 0,
-   "text": "They are: a gun or other explosive signal fired at intervals of about a minute; a continuous sounding with any fog-signal apparatus; rockets or shells throwing red stars fired one at a time at short intervals; the signal SOS by any signaling method; the spoken word Mayday by radio; the code flags November Charlie; a square flag with a ball, or anything like a ball, above or below it; flames on the vessel; a rocket parachute flare or hand flare showing a red light; orange smoke; slowly and repeatedly raising and lowering arms outstretched to each side; a digital selective calling distress alert; an EPIRB signal; and a dye marker."
+   "text": "Rule thirty-seven says a vessel in distress, needing help, uses the signals in Annex four."
+  },
+  {
+   "i": 2,
+   "start": 11.7,
+   "speechStart": 11.7,
+   "end": 13.775,
+   "builds": 0,
+   "text": "Follow the list on screen."
+  },
+  {
+   "i": 3,
+   "start": 14.025,
+   "speechStart": 14.025,
+   "end": 18.275,
+   "builds": 1,
+   "text": "A gun or other explosive signal, fired about once a minute."
+  },
+  {
+   "i": 4,
+   "start": 18.525,
+   "speechStart": 18.525,
+   "end": 22.5,
+   "builds": 1,
+   "text": "A continuous sounding of any fog-signal apparatus."
+  },
+  {
+   "i": 5,
+   "start": 22.75,
+   "speechStart": 22.75,
+   "end": 24.725,
+   "builds": 0,
+   "text": "Your horn, held down."
+  },
+  {
+   "i": 6,
+   "start": 24.975,
+   "speechStart": 24.975,
+   "end": 30.3,
+   "builds": 1,
+   "text": "Rockets or shells throwing red stars, fired one at a time at short intervals."
+  },
+  {
+   "i": 7,
+   "start": 30.55,
+   "speechStart": 30.55,
+   "end": 35.95,
+   "builds": 1,
+   "text": "The signal SOS, by any method, and the spoken word Mayday by radio."
+  },
+  {
+   "i": 8,
+   "start": 36.2,
+   "speechStart": 36.2,
+   "end": 43.475,
+   "builds": 1,
+   "text": "The code flags November over Charlie, or a square flag with a ball, or anything like a ball, above or below it."
+  },
+  {
+   "i": 9,
+   "start": 43.725,
+   "speechStart": 43.725,
+   "end": 49.225,
+   "builds": 1,
+   "text": "Flames on the vessel, a red parachute flare or red hand flare, and orange smoke."
+  },
+  {
+   "i": 10,
+   "start": 49.475,
+   "speechStart": 49.475,
+   "end": 54.525,
+   "builds": 1,
+   "text": "Slowly and repeatedly raising and lowering your arms, outstretched to each side."
+  },
+  {
+   "i": 11,
+   "start": 54.775,
+   "speechStart": 54.775,
+   "end": 57.15,
+   "builds": 0,
+   "text": "That one needs no equipment at all."
+  },
+  {
+   "i": 12,
+   "start": 57.4,
+   "speechStart": 57.4,
+   "end": 64.25,
+   "builds": 1,
+   "text": "And the modern ones: a digital selective calling distress alert, an EPIRB signal, and a dye marker."
+  },
+  {
+   "i": 13,
+   "start": 64.5,
+   "speechStart": 65.25,
+   "end": 67.025,
+   "builds": 0,
+   "text": "Look for the pattern."
+  },
+  {
+   "i": 14,
+   "start": 67.275,
+   "speechStart": 67.275,
+   "end": 69.15,
+   "builds": 0,
+   "text": "Red and orange."
+  },
+  {
+   "i": 15,
+   "start": 69.4,
+   "speechStart": 69.4,
+   "end": 71.2,
+   "builds": 0,
+   "text": "Continuous sound."
+  },
+  {
+   "i": 16,
+   "start": 71.45,
+   "speechStart": 71.45,
+   "end": 74.5,
+   "builds": 0,
+   "text": "And anything that says Mayday or SOS."
   }
  ]
 }

@@ -3,74 +3,210 @@
  "lessonId": "rules-15",
  "n": 1,
  "audio": "rules-15-1.mp3",
- "duration": 53.025,
+ "duration": 87.15,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 6,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 9.475,
+   "end": 6.175,
    "builds": 0,
-   "text": "This final lesson pulls together the differences between Inland and International rules, because they produce a large share of exam questions."
+   "text": "This is the last Rules lesson, and it’s the one that turns a pass into a comfortable pass."
   },
   {
    "i": 1,
-   "start": 9.725,
-   "speechStart": 9.725,
-   "end": 11.7,
+   "start": 6.425,
+   "speechStart": 6.425,
+   "end": 11.9,
    "builds": 0,
-   "text": "Start with sound signals."
+   "text": "The two rule books are nearly the same, so the exam hunts for the places where they aren’t."
   },
   {
    "i": 2,
-   "start": 11.95,
-   "speechStart": 11.95,
-   "end": 20.125,
+   "start": 12.15,
+   "speechStart": 12.15,
+   "end": 15.025,
    "builds": 0,
-   "text": "International maneuvering signals announce action being taken whenever a power-driven vessel maneuvers in sight of another."
+   "text": "Remember your first habit from lesson one?"
   },
   {
    "i": 3,
-   "start": 20.375,
-   "speechStart": 20.375,
-   "end": 29.025,
+   "start": 15.275,
+   "speechStart": 15.275,
+   "end": 19.675,
    "builds": 0,
-   "text": "Inland signals propose an intention and need agreement between power-driven vessels meeting or crossing within half a mile."
+   "text": "Find the word Inland, International or Both before you answer."
   },
   {
    "i": 4,
-   "start": 29.275,
-   "speechStart": 29.275,
-   "end": 35.85,
+   "start": 19.925,
+   "speechStart": 19.925,
+   "end": 23.35,
    "builds": 0,
-   "text": "International overtaking signals are used in narrow channels and start with two prolonged blasts."
+   "text": "Today we gather every difference into two tables."
   },
   {
    "i": 5,
-   "start": 36.1,
-   "speechStart": 36.1,
-   "end": 41.15,
+   "start": 23.6,
+   "speechStart": 23.6,
+   "end": 25.6,
    "builds": 0,
-   "text": "Inland overtaking signals are one or two short blasts, in any waters."
+   "text": "First, sound signals."
   },
   {
    "i": 6,
-   "start": 41.4,
-   "speechStart": 41.4,
-   "end": 49.125,
-   "builds": 0,
-   "text": "Inland, a radio agreement replaces the whistle signals, and a vessel leaving a berth sounds one prolonged blast."
+   "start": 25.85,
+   "speechStart": 25.85,
+   "end": 28.075,
+   "builds": 1,
+   "text": "One and two short blasts."
   },
   {
    "i": 7,
-   "start": 49.375,
-   "speechStart": 49.375,
-   "end": 52.725,
+   "start": 28.325,
+   "speechStart": 28.325,
+   "end": 31.775,
    "builds": 0,
-   "text": "Inland maneuvering lights may be white or yellow."
+   "text": "International: they announce action being taken."
+  },
+  {
+   "i": 8,
+   "start": 32.025,
+   "speechStart": 32.025,
+   "end": 35.625,
+   "builds": 0,
+   "text": "Inland: they propose an intention, and need agreement."
+  },
+  {
+   "i": 9,
+   "start": 35.875,
+   "speechStart": 35.875,
+   "end": 37.6,
+   "builds": 1,
+   "text": "When they’re required."
+  },
+  {
+   "i": 10,
+   "start": 37.85,
+   "speechStart": 37.85,
+   "end": 42.95,
+   "builds": 0,
+   "text": "International: whenever a power-driven vessel maneuvers in sight of another."
+  },
+  {
+   "i": 11,
+   "start": 43.2,
+   "speechStart": 43.2,
+   "end": 47.875,
+   "builds": 0,
+   "text": "Inland: when power-driven vessels meet or cross within half a mile."
+  },
+  {
+   "i": 12,
+   "start": 48.125,
+   "speechStart": 48.125,
+   "end": 50.025,
+   "builds": 1,
+   "text": "Overtaking signals."
+  },
+  {
+   "i": 13,
+   "start": 50.275,
+   "speechStart": 50.275,
+   "end": 54.875,
+   "builds": 0,
+   "text": "International: in narrow channels, starting with two prolonged blasts."
+  },
+  {
+   "i": 14,
+   "start": 55.125,
+   "speechStart": 55.125,
+   "end": 58.45,
+   "builds": 0,
+   "text": "Inland: in any waters, just one or two short."
+  },
+  {
+   "i": 15,
+   "start": 58.7,
+   "speechStart": 58.7,
+   "end": 60.525,
+   "builds": 1,
+   "text": "Radio agreement."
+  },
+  {
+   "i": 16,
+   "start": 60.775,
+   "speechStart": 60.775,
+   "end": 63.975,
+   "builds": 0,
+   "text": "International: it doesn’t replace the whistle."
+  },
+  {
+   "i": 17,
+   "start": 64.225,
+   "speechStart": 64.225,
+   "end": 66.275,
+   "builds": 0,
+   "text": "Inland: it does."
+  },
+  {
+   "i": 18,
+   "start": 66.525,
+   "speechStart": 66.525,
+   "end": 68.25,
+   "builds": 1,
+   "text": "Leaving a berth."
+  },
+  {
+   "i": 19,
+   "start": 68.5,
+   "speechStart": 68.5,
+   "end": 70.85,
+   "builds": 0,
+   "text": "International: no signal."
+  },
+  {
+   "i": 20,
+   "start": 71.1,
+   "speechStart": 71.1,
+   "end": 73.65,
+   "builds": 0,
+   "text": "Inland: one prolonged blast."
+  },
+  {
+   "i": 21,
+   "start": 73.9,
+   "speechStart": 73.9,
+   "end": 75.825,
+   "builds": 1,
+   "text": "And the maneuvering light."
+  },
+  {
+   "i": 22,
+   "start": 76.075,
+   "speechStart": 76.075,
+   "end": 78.175,
+   "builds": 0,
+   "text": "International: white."
+  },
+  {
+   "i": 23,
+   "start": 78.425,
+   "speechStart": 78.425,
+   "end": 80.7,
+   "builds": 0,
+   "text": "Inland: white or yellow."
+  },
+  {
+   "i": 24,
+   "start": 80.95,
+   "speechStart": 81.7,
+   "end": 86.85,
+   "builds": 0,
+   "text": "If you remember one line, make it this: offshore I tell you, inshore I ask you."
   }
  ]
 }

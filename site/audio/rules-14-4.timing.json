@@ -3,42 +3,106 @@
  "lessonId": "rules-14",
  "n": 4,
  "audio": "rules-14-4.mp3",
- "duration": 38.85,
+ "duration": 53.925,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 18.375,
+   "end": 2.35,
    "builds": 0,
-   "text": "Rule thirty-six lets any vessel attract the attention of another by making light or sound signals that cannot be mistaken for any signal authorized elsewhere in the rules, or by directing the beam of her searchlight in the direction of the danger, in such a way as not to embarrass any vessel."
+   "text": "Rule thirty-six is short."
   },
   {
    "i": 1,
-   "start": 18.625,
-   "speechStart": 18.625,
-   "end": 24.3,
+   "start": 2.6,
+   "speechStart": 2.6,
+   "end": 6.425,
    "builds": 0,
-   "text": "A light used to attract attention should not be mistaken for an aid to navigation."
+   "text": "It’s about getting another vessel’s attention when you need it."
   },
   {
    "i": 2,
-   "start": 24.55,
-   "speechStart": 24.55,
-   "end": 31.075,
-   "builds": 0,
-   "text": "High-intensity intermittent or revolving lights, such as strobe lights, shall be avoided for this purpose."
+   "start": 6.675,
+   "speechStart": 6.675,
+   "end": 15.675,
+   "builds": 1,
+   "text": "Any vessel may make a light or sound signal to attract attention, as long as it can’t be mistaken for any signal the rules already use."
   },
   {
    "i": 3,
-   "start": 31.325,
-   "speechStart": 31.325,
-   "end": 38.55,
+   "start": 15.925,
+   "speechStart": 15.925,
+   "end": 22.475,
+   "builds": 1,
+   "text": "Or she may direct the beam of her searchlight toward the danger, in a way that doesn’t embarrass any vessel."
+  },
+  {
+   "i": 4,
+   "start": 22.725,
+   "speechStart": 22.725,
+   "end": 25.15,
    "builds": 0,
-   "text": "Embarrass here means dazzle or interfere with another vessel’s crew, so never aim a searchlight into a wheelhouse."
+   "text": "Embarrass is an old word here."
+  },
+  {
+   "i": 5,
+   "start": 25.4,
+   "speechStart": 25.4,
+   "end": 27.825,
+   "builds": 0,
+   "text": "It means to dazzle or hamper."
+  },
+  {
+   "i": 6,
+   "start": 28.075,
+   "speechStart": 28.075,
+   "end": 30.55,
+   "builds": 0,
+   "text": "So where do you never point a spotlight?"
+  },
+  {
+   "i": 7,
+   "start": 30.8,
+   "speechStart": 31.55,
+   "end": 33.8,
+   "builds": 0,
+   "text": "Into another boat’s wheelhouse."
+  },
+  {
+   "i": 8,
+   "start": 34.05,
+   "speechStart": 34.05,
+   "end": 37.1,
+   "builds": 0,
+   "text": "You’d blind the very person you need to see you."
+  },
+  {
+   "i": 9,
+   "start": 37.35,
+   "speechStart": 37.35,
+   "end": 41.2,
+   "builds": 0,
+   "text": "Shine it at the hazard, or onto your own sails or deck."
+  },
+  {
+   "i": 10,
+   "start": 41.45,
+   "speechStart": 41.45,
+   "end": 47.275,
+   "builds": 1,
+   "text": "And one thing to avoid: high-intensity flashing or revolving lights, such as strobes."
+  },
+  {
+   "i": 11,
+   "start": 47.525,
+   "speechStart": 47.525,
+   "end": 53.625,
+   "builds": 0,
+   "text": "A light used to attract attention also shouldn’t be mistakable for an aid to navigation."
   }
  ]
 }

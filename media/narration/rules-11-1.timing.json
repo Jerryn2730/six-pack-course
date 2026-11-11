@@ -3,58 +3,138 @@
  "lessonId": "rules-11",
  "n": 1,
  "audio": "rules-11-1.mp3",
- "duration": 38.45,
+ "duration": 63.675,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.025,
+   "end": 6.525,
    "builds": 0,
-   "text": "Rule twenty-five covers sailing vessels and rowing boats."
+   "text": "Tonight’s lights belong to the two kinds of vessel that stand above you on the ladder: sail and fishing."
   },
   {
    "i": 1,
-   "start": 4.275,
-   "speechStart": 4.275,
-   "end": 9.775,
+   "start": 6.775,
+   "speechStart": 6.775,
+   "end": 10.875,
    "builds": 0,
-   "text": "A sailing vessel underway shows sidelights and a sternlight, and no masthead light."
+   "text": "If you can’t recognize them in the dark, you can’t give way to them."
   },
   {
    "i": 2,
-   "start": 10.025,
-   "speechStart": 10.025,
-   "end": 20.4,
+   "start": 11.125,
+   "speechStart": 11.125,
+   "end": 14.55,
    "builds": 0,
-   "text": "On a sailing vessel under twenty meters, those lights may be combined in one tricolor lantern at or near the top of the mast, where they’re easier to see over waves."
+   "text": "We’ll start with Rule twenty-five, sailing vessels."
   },
   {
    "i": 3,
-   "start": 20.65,
-   "speechStart": 20.65,
-   "end": 29.6,
-   "builds": 0,
-   "text": "A sailing vessel may also show two all-round lights at or near the masthead, red over green, in addition to her sidelights and sternlight."
+   "start": 14.8,
+   "speechStart": 14.8,
+   "end": 18.875,
+   "builds": 1,
+   "text": "A sailing vessel underway shows sidelights and a sternlight."
   },
   {
    "i": 4,
-   "start": 29.85,
-   "speechStart": 29.85,
-   "end": 32.925,
+   "start": 19.125,
+   "speechStart": 19.125,
+   "end": 20.75,
    "builds": 0,
-   "text": "Remember: red over green, sailing machine."
+   "text": "And that’s all."
   },
   {
    "i": 5,
-   "start": 33.175,
-   "speechStart": 33.175,
-   "end": 38.15,
+   "start": 21.0,
+   "speechStart": 21.0,
+   "end": 22.675,
    "builds": 0,
-   "text": "But those optional lights may not be shown together with the tricolor lantern."
+   "text": "What’s missing?"
+  },
+  {
+   "i": 6,
+   "start": 22.925,
+   "speechStart": 23.675,
+   "end": 25.475,
+   "builds": 0,
+   "text": "The masthead light."
+  },
+  {
+   "i": 7,
+   "start": 25.725,
+   "speechStart": 25.725,
+   "end": 27.625,
+   "builds": 0,
+   "text": "No white light forward."
+  },
+  {
+   "i": 8,
+   "start": 27.875,
+   "speechStart": 27.875,
+   "end": 33.175,
+   "builds": 0,
+   "text": "So red and green with no white above them is a boat under sail, coming at you."
+  },
+  {
+   "i": 9,
+   "start": 33.425,
+   "speechStart": 33.425,
+   "end": 41.2,
+   "builds": 1,
+   "text": "On a sailing vessel under twenty meters, those three lights can be combined in one lantern at or near the top of the mast."
+  },
+  {
+   "i": 10,
+   "start": 41.45,
+   "speechStart": 41.45,
+   "end": 43.65,
+   "builds": 0,
+   "text": "Sailors call it a tricolor."
+  },
+  {
+   "i": 11,
+   "start": 43.9,
+   "speechStart": 43.9,
+   "end": 46.725,
+   "builds": 0,
+   "text": "It’s high up, so it shows over the waves."
+  },
+  {
+   "i": 12,
+   "start": 46.975,
+   "speechStart": 46.975,
+   "end": 53.075,
+   "builds": 1,
+   "text": "And a sailing vessel may add two all-round lights at or near the masthead: red over green."
+  },
+  {
+   "i": 13,
+   "start": 53.325,
+   "speechStart": 53.325,
+   "end": 55.85,
+   "builds": 0,
+   "text": "Red over green, sailing machine."
+  },
+  {
+   "i": 14,
+   "start": 56.1,
+   "speechStart": 56.1,
+   "end": 59.425,
+   "builds": 0,
+   "text": "She shows those along with her sidelights and sternlight."
+  },
+  {
+   "i": 15,
+   "start": 59.675,
+   "speechStart": 59.675,
+   "end": 63.375,
+   "builds": 0,
+   "text": "But she can’t show them together with the tricolor lantern."
   }
  ]
 }

@@ -3,58 +3,130 @@
  "lessonId": "rules-12",
  "n": 5,
  "audio": "rules-12-5.mp3",
- "duration": 37.95,
+ "duration": 63.95,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.65,
+   "end": 3.1,
    "builds": 0,
-   "text": "Rule thirty covers anchored and aground vessels."
+   "text": "Rule thirty: at anchor, and aground."
   },
   {
    "i": 1,
-   "start": 3.9,
-   "speechStart": 3.9,
-   "end": 13.2,
+   "start": 3.35,
+   "speechStart": 3.35,
+   "end": 7.3,
    "builds": 0,
-   "text": "A vessel at anchor shows an all-round white light in the fore part, and at or near the stern a second all-round white light, lower than the forward one."
+   "text": "You’ll use this one yourself every time you anchor up at night."
   },
   {
    "i": 2,
-   "start": 13.45,
-   "speechStart": 13.45,
-   "end": 19.8,
-   "builds": 0,
-   "text": "A vessel under fifty meters may instead show one all-round white light where it can best be seen."
+   "start": 7.55,
+   "speechStart": 7.55,
+   "end": 14.15,
+   "builds": 1,
+   "text": "A vessel under fifty meters at anchor may show a single all-round white light, where it can best be seen."
   },
   {
    "i": 3,
-   "start": 20.05,
-   "speechStart": 20.05,
-   "end": 25.65,
+   "start": 14.4,
+   "speechStart": 14.4,
+   "end": 16.3,
    "builds": 0,
-   "text": "A vessel one hundred meters or more must also illuminate her decks with working lights."
+   "text": "That’s your anchor light."
   },
   {
    "i": 4,
-   "start": 25.9,
-   "speechStart": 25.9,
-   "end": 31.825,
-   "builds": 0,
-   "text": "A vessel aground shows her anchor lights plus two all-round red lights in a vertical line."
+   "start": 16.55,
+   "speechStart": 16.55,
+   "end": 25.325,
+   "builds": 1,
+   "text": "A larger vessel shows two: an all-round white light in the fore part, and a second one at or near the stern, lower than the forward one."
   },
   {
    "i": 5,
-   "start": 32.075,
-   "speechStart": 32.075,
-   "end": 37.65,
+   "start": 25.575,
+   "speechStart": 25.575,
+   "end": 31.45,
    "builds": 0,
-   "text": "By day, one ball means at anchor, and three balls in a vertical line means aground."
+   "text": "And a vessel of one hundred meters or more must also light up her decks with her working lights."
+  },
+  {
+   "i": 6,
+   "start": 31.7,
+   "speechStart": 31.7,
+   "end": 36.15,
+   "builds": 0,
+   "text": "So a big ship at anchor is lit up like a parking lot, on purpose."
+  },
+  {
+   "i": 7,
+   "start": 36.4,
+   "speechStart": 36.4,
+   "end": 42.35,
+   "builds": 1,
+   "text": "A vessel aground shows her anchor lights, plus two all-round red lights in a vertical line."
+  },
+  {
+   "i": 8,
+   "start": 42.6,
+   "speechStart": 43.35,
+   "end": 45.25,
+   "builds": 0,
+   "text": "Now the day shapes."
+  },
+  {
+   "i": 9,
+   "start": 45.5,
+   "speechStart": 45.5,
+   "end": 48.375,
+   "builds": 0,
+   "text": "One ball in the fore part means at anchor."
+  },
+  {
+   "i": 10,
+   "start": 48.625,
+   "speechStart": 48.625,
+   "end": 51.95,
+   "builds": 0,
+   "text": "Three balls in a vertical line means aground."
+  },
+  {
+   "i": 11,
+   "start": 52.2,
+   "speechStart": 52.2,
+   "end": 54.65,
+   "builds": 0,
+   "text": "Here’s how I remember aground."
+  },
+  {
+   "i": 12,
+   "start": 54.9,
+   "speechStart": 54.9,
+   "end": 57.6,
+   "builds": 0,
+   "text": "Two red lights say she can’t maneuver."
+  },
+  {
+   "i": 13,
+   "start": 57.85,
+   "speechStart": 57.85,
+   "end": 60.475,
+   "builds": 0,
+   "text": "The anchor lights say she isn’t moving."
+  },
+  {
+   "i": 14,
+   "start": 60.725,
+   "speechStart": 60.725,
+   "end": 63.65,
+   "builds": 0,
+   "text": "Put them together, and she’s stuck on the bottom."
   }
  ]
 }

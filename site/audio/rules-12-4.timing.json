@@ -3,74 +3,138 @@
  "lessonId": "rules-12",
  "n": 4,
  "audio": "rules-12-4.mp3",
- "duration": 39.1,
+ "duration": 67.275,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.225,
+   "end": 2.2,
    "builds": 0,
-   "text": "Rule twenty-eight is International only."
+   "text": "Two shorter rules now."
   },
   {
    "i": 1,
-   "start": 3.475,
-   "speechStart": 3.475,
-   "end": 13.675,
-   "builds": 0,
-   "text": "A vessel constrained by her draft may show, in addition to her power-driven lights, three all-round red lights in a vertical line, or by day a cylinder."
+   "start": 2.45,
+   "speechStart": 2.45,
+   "end": 5.525,
+   "builds": 1,
+   "text": "Rule twenty-eight is International only."
   },
   {
    "i": 2,
-   "start": 13.925,
-   "speechStart": 13.925,
-   "end": 18.275,
+   "start": 5.775,
+   "speechStart": 5.775,
+   "end": 14.55,
    "builds": 0,
-   "text": "Rule twenty-nine covers pilot vessels on pilotage duty."
+   "text": "A vessel constrained by her draft may show, along with her ordinary power-driven lights, three all-round red lights in a vertical line."
   },
   {
    "i": 3,
-   "start": 18.525,
-   "speechStart": 18.525,
-   "end": 22.95,
+   "start": 14.8,
+   "speechStart": 14.8,
+   "end": 16.85,
    "builds": 0,
-   "text": "She shows white over red all-round lights at or near the masthead."
+   "text": "By day, a cylinder."
   },
   {
    "i": 4,
-   "start": 23.2,
-   "speechStart": 23.2,
-   "end": 25.575,
+   "start": 17.1,
+   "speechStart": 17.1,
+   "end": 19.9,
+   "builds": 0,
+   "text": "You met her on the ladder in lesson seven."
+  },
+  {
+   "i": 5,
+   "start": 20.15,
+   "speechStart": 20.15,
+   "end": 26.05,
+   "builds": 0,
+   "text": "And you’ll never see those lights on Inland waters, because that category doesn’t exist there."
+  },
+  {
+   "i": 6,
+   "start": 26.3,
+   "speechStart": 26.3,
+   "end": 29.025,
+   "builds": 1,
+   "text": "Rule twenty-nine is the pilot boat."
+  },
+  {
+   "i": 7,
+   "start": 29.275,
+   "speechStart": 29.275,
+   "end": 36.225,
+   "builds": 0,
+   "text": "A pilot vessel on pilotage duty shows two all-round lights at or near the masthead: white over red."
+  },
+  {
+   "i": 8,
+   "start": 36.475,
+   "speechStart": 36.475,
+   "end": 38.85,
    "builds": 0,
    "text": "White over red, pilot ahead."
   },
   {
-   "i": 5,
-   "start": 25.825,
-   "speechStart": 25.825,
-   "end": 29.1,
+   "i": 9,
+   "start": 39.1,
+   "speechStart": 39.1,
+   "end": 42.25,
    "builds": 0,
-   "text": "When underway she adds sidelights and a sternlight."
+   "text": "Underway, she adds sidelights and a sternlight."
   },
   {
-   "i": 6,
-   "start": 29.35,
-   "speechStart": 29.35,
-   "end": 32.25,
-   "builds": 0,
-   "text": "At anchor she adds her anchor light or lights."
+   "i": 10,
+   "start": 42.5,
+   "speechStart": 42.5,
+   "end": 47.4,
+   "builds": 1,
+   "text": "At anchor, she keeps the white over red and adds her anchor light or lights."
   },
   {
-   "i": 7,
-   "start": 32.5,
-   "speechStart": 32.5,
-   "end": 38.8,
+   "i": 11,
+   "start": 47.65,
+   "speechStart": 47.65,
+   "end": 53.6,
    "builds": 0,
-   "text": "When a pilot vessel isn’t on pilotage duty, she shows the normal lights for a vessel of her length."
+   "text": "And when she’s not on pilotage duty, she shows only the ordinary lights for a vessel of her length."
+  },
+  {
+   "i": 12,
+   "start": 53.85,
+   "speechStart": 54.6,
+   "end": 59.05,
+   "builds": 0,
+   "text": "Now be careful with the rhymes, because two of them are mirror images."
+  },
+  {
+   "i": 13,
+   "start": 59.3,
+   "speechStart": 59.3,
+   "end": 61.475,
+   "builds": 0,
+   "text": "White over red is a pilot."
+  },
+  {
+   "i": 14,
+   "start": 61.725,
+   "speechStart": 61.725,
+   "end": 63.85,
+   "builds": 0,
+   "text": "Red over white is fishing."
+  },
+  {
+   "i": 15,
+   "start": 64.1,
+   "speechStart": 64.1,
+   "end": 66.975,
+   "builds": 0,
+   "text": "So ask yourself which color is on top."
   }
  ]
 }

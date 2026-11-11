@@ -3,7 +3,7 @@
  "lessonId": "rules-07",
  "n": 1,
  "audio": "rules-07-1.mp3",
- "duration": 35.1,
+ "duration": 57.55,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,89 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 9.25,
+   "end": 4.75,
    "builds": 0,
-   "text": "Rule eighteen sets the responsibilities between different kinds of vessels, except where Rules nine, ten and thirteen otherwise require."
+   "text": "So far, every steering rule has been about two boats of the same kind."
   },
   {
    "i": 1,
-   "start": 9.5,
-   "speechStart": 9.5,
-   "end": 21.875,
+   "start": 5.0,
+   "speechStart": 5.0,
+   "end": 7.275,
    "builds": 0,
-   "text": "A power-driven vessel underway shall keep out of the way of a vessel not under command, a vessel restricted in her ability to maneuver, a vessel engaged in fishing, and a sailing vessel."
+   "text": "Today’s question is different."
   },
   {
    "i": 2,
-   "start": 22.125,
-   "speechStart": 22.125,
-   "end": 25.05,
+   "start": 7.525,
+   "speechStart": 7.525,
+   "end": 13.425,
    "builds": 0,
-   "text": "Read the ladder on screen from the bottom up."
+   "text": "What happens when a powerboat meets a sailboat, or a sailboat meets a trawler with her nets down?"
   },
   {
    "i": 3,
-   "start": 25.3,
-   "speechStart": 25.3,
-   "end": 29.725,
+   "start": 13.675,
+   "speechStart": 13.675,
+   "end": 17.0,
    "builds": 0,
-   "text": "Each type of vessel generally keeps out of the way of the types above it."
+   "text": "Rule eighteen answers it with what I call the ladder."
   },
   {
    "i": 4,
-   "start": 29.975,
-   "speechStart": 29.975,
-   "end": 34.8,
+   "start": 17.25,
+   "speechStart": 17.25,
+   "end": 20.325,
    "builds": 0,
-   "text": "Power-driven vessels sit at the bottom, which is where most charter boats live."
+   "text": "Look at the screen, and read it from the bottom up."
+  },
+  {
+   "i": 5,
+   "start": 20.575,
+   "speechStart": 21.325,
+   "end": 24.825,
+   "builds": 0,
+   "text": "Each vessel keeps out of the way of the vessels above her."
+  },
+  {
+   "i": 6,
+   "start": 25.075,
+   "speechStart": 25.075,
+   "end": 37.7,
+   "builds": 0,
+   "text": "A power-driven vessel underway keeps out of the way of four kinds of vessel: one not under command, one restricted in her ability to maneuver, one engaged in fishing, and a sailing vessel."
+  },
+  {
+   "i": 7,
+   "start": 37.95,
+   "speechStart": 37.95,
+   "end": 42.7,
+   "builds": 0,
+   "text": "Power-driven sits on the bottom rung, and that’s where your charter boat lives."
+  },
+  {
+   "i": 8,
+   "start": 42.95,
+   "speechStart": 42.95,
+   "end": 45.025,
+   "builds": 0,
+   "text": "So here’s the plain truth."
+  },
+  {
+   "i": 9,
+   "start": 45.275,
+   "speechStart": 45.275,
+   "end": 51.45,
+   "builds": 0,
+   "text": "Most days, almost everything out there that isn’t another powerboat has priority over you."
+  },
+  {
+   "i": 10,
+   "start": 51.7,
+   "speechStart": 51.7,
+   "end": 57.25,
+   "builds": 0,
+   "text": "The logic of the ladder is simple: the less a vessel can maneuver, the higher she stands."
   }
  ]
 }

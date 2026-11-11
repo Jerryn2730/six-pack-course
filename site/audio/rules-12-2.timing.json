@@ -3,50 +3,106 @@
  "lessonId": "rules-12",
  "n": 2,
  "audio": "rules-12-2.mp3",
- "duration": 46.5,
+ "duration": 65.125,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 1,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 9.7,
+   "end": 8.6,
    "builds": 0,
-   "text": "A vessel engaged in dredging or underwater operations, when restricted in her ability to maneuver, also shows where an obstruction exists."
+   "text": "Dredges work Florida’s inlets and channels all year, and they’re restricted vessels with one extra job: telling you which side is safe."
   },
   {
    "i": 1,
-   "start": 9.95,
-   "speechStart": 9.95,
-   "end": 16.975,
-   "builds": 0,
-   "text": "Two all-round red lights in a vertical line, or two balls by day, mark the side where the obstruction is."
+   "start": 8.85,
+   "speechStart": 8.85,
+   "end": 10.55,
+   "builds": 1,
+   "text": "Look at the picture."
   },
   {
    "i": 2,
-   "start": 17.225,
-   "speechStart": 17.225,
-   "end": 24.925,
+   "start": 10.8,
+   "speechStart": 10.8,
+   "end": 15.925,
    "builds": 0,
-   "text": "Two all-round green lights in a vertical line, or two diamonds by day, mark the side on which another vessel may pass."
+   "text": "A vessel dredging or doing underwater work shows her red, white, red lights."
   },
   {
    "i": 3,
-   "start": 25.175,
-   "speechStart": 25.175,
-   "end": 41.325,
+   "start": 16.175,
+   "speechStart": 16.175,
+   "end": 23.5,
    "builds": 0,
-   "text": "When a vessel engaged in diving operations is too small to show all these lights and shapes, she shows the red, white, red all-round lights and a rigid replica of the International Code flag A, at least one meter high, visible all around."
+   "text": "Then, on the side where the obstruction is, two all-round red lights in a vertical line, or two balls by day."
   },
   {
    "i": 4,
-   "start": 41.575,
-   "speechStart": 41.575,
-   "end": 46.2,
+   "start": 23.75,
+   "speechStart": 23.75,
+   "end": 30.525,
    "builds": 0,
-   "text": "In Florida, also remember the state’s red-and-white diver-down flag."
+   "text": "And on the side where you may pass, two all-round green lights in a vertical line, or two diamonds by day."
+  },
+  {
+   "i": 5,
+   "start": 30.775,
+   "speechStart": 30.775,
+   "end": 32.7,
+   "builds": 0,
+   "text": "So which side do you take?"
+  },
+  {
+   "i": 6,
+   "start": 32.95,
+   "speechStart": 33.7,
+   "end": 35.425,
+   "builds": 0,
+   "text": "The green side."
+  },
+  {
+   "i": 7,
+   "start": 35.675,
+   "speechStart": 35.675,
+   "end": 38.75,
+   "builds": 0,
+   "text": "Green means go, just like a traffic light."
+  },
+  {
+   "i": 8,
+   "start": 39.0,
+   "speechStart": 39.0,
+   "end": 40.725,
+   "builds": 0,
+   "text": "Now, diving."
+  },
+  {
+   "i": 9,
+   "start": 40.975,
+   "speechStart": 40.975,
+   "end": 55.05,
+   "builds": 0,
+   "text": "A boat engaged in diving operations that’s too small to show all of that shows the red, white, red lights, and a rigid replica of the International Code flag A, at least one meter high, visible all around."
+  },
+  {
+   "i": 10,
+   "start": 55.3,
+   "speechStart": 55.3,
+   "end": 60.025,
+   "builds": 0,
+   "text": "In Florida you’ll also see the state’s red and white diver-down flag."
+  },
+  {
+   "i": 11,
+   "start": 60.275,
+   "speechStart": 60.275,
+   "end": 64.825,
+   "builds": 0,
+   "text": "Either one means the same thing to you: slow down and stay well clear."
   }
  ]
 }

@@ -3,66 +3,98 @@
  "lessonId": "rules-10",
  "n": 3,
  "audio": "rules-10-3.mp3",
- "duration": 45.95,
+ "duration": 66.15,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 2,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.35,
+   "end": 4.225,
    "builds": 0,
-   "text": "Now the vessels being towed."
+   "text": "Now the other end of the towline: what does the tow itself show?"
   },
   {
    "i": 1,
-   "start": 2.6,
-   "speechStart": 2.6,
-   "end": 11.65,
-   "builds": 0,
-   "text": "A vessel or object towed astern shows sidelights and a sternlight, plus a diamond shape by day when the tow is over two hundred meters."
+   "start": 4.475,
+   "speechStart": 4.475,
+   "end": 7.0,
+   "builds": 1,
+   "text": "Start with a barge being pushed ahead."
   },
   {
    "i": 2,
-   "start": 11.9,
-   "speechStart": 11.9,
-   "end": 17.875,
+   "start": 7.25,
+   "speechStart": 7.25,
+   "end": 11.75,
    "builds": 0,
-   "text": "Under International rules, a vessel being pushed ahead shows sidelights at the forward end."
+   "text": "Under the International rules, she shows sidelights at her forward end."
   },
   {
    "i": 3,
-   "start": 18.125,
-   "speechStart": 18.125,
-   "end": 23.825,
+   "start": 12.0,
+   "speechStart": 12.0,
+   "end": 17.825,
    "builds": 0,
-   "text": "Under Inland rules, she shows sidelights and a special flashing light at the forward end."
+   "text": "Under the Inland rules, she shows sidelights and a special flashing light at the forward end."
   },
   {
    "i": 4,
-   "start": 24.075,
-   "speechStart": 24.075,
-   "end": 34.375,
+   "start": 18.075,
+   "speechStart": 18.075,
+   "end": 29.075,
    "builds": 0,
-   "text": "The special flashing light is yellow, flashes fifty to seventy times a minute, and shows forward over an arc between one hundred eighty and two hundred twenty-five degrees."
+   "text": "That special flashing light is yellow, it flashes fifty to seventy times a minute, and it shines forward over an arc of between one hundred eighty and two hundred twenty-five degrees."
   },
   {
    "i": 5,
-   "start": 34.625,
-   "speechStart": 34.625,
-   "end": 39.775,
+   "start": 29.325,
+   "speechStart": 29.325,
+   "end": 36.2,
    "builds": 0,
-   "text": "A vessel towed alongside shows a sternlight and, at the forward end, sidelights."
+   "text": "So a flashing yellow light low on the water, with a red and a green beside it, is the front of a pushed barge."
   },
   {
    "i": 6,
-   "start": 40.025,
-   "speechStart": 40.025,
-   "end": 45.65,
+   "start": 36.45,
+   "speechStart": 36.45,
+   "end": 39.45,
    "builds": 0,
-   "text": "Any number of vessels pushed or towed alongside in a group are lit as one vessel."
+   "text": "And the tug may be a long way behind it."
+  },
+  {
+   "i": 7,
+   "start": 39.7,
+   "speechStart": 39.7,
+   "end": 51.5,
+   "builds": 1,
+   "text": "A vessel or object towed astern shows sidelights and a sternlight, just like any vessel without a masthead light, plus a diamond by day if the tow is over two hundred meters."
+  },
+  {
+   "i": 8,
+   "start": 51.75,
+   "speechStart": 52.5,
+   "end": 53.95,
+   "builds": 0,
+   "text": "Two more."
+  },
+  {
+   "i": 9,
+   "start": 54.2,
+   "speechStart": 54.2,
+   "end": 59.3,
+   "builds": 0,
+   "text": "A vessel towed alongside shows a sternlight, and sidelights at her forward end."
+  },
+  {
+   "i": 10,
+   "start": 59.55,
+   "speechStart": 59.55,
+   "end": 65.85,
+   "builds": 0,
+   "text": "And any number of vessels pushed or towed alongside in a group are lit as if they were one vessel."
   }
  ]
 }

@@ -3,50 +3,122 @@
  "lessonId": "rules-12",
  "n": 6,
  "audio": "rules-12-6.mp3",
- "duration": 41.775,
+ "duration": 70.025,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.275,
+   "end": 4.05,
    "builds": 0,
-   "text": "There are some exemptions to know."
+   "text": "A few exemptions to finish, and they’re worth easy points."
   },
   {
    "i": 1,
-   "start": 2.525,
-   "speechStart": 2.525,
-   "end": 14.15,
-   "builds": 0,
-   "text": "A vessel under seven meters at anchor, when not in or near a narrow channel, fairway or anchorage, or where other vessels normally navigate, doesn’t need anchor lights or a shape."
+   "start": 4.3,
+   "speechStart": 4.3,
+   "end": 17.1,
+   "builds": 1,
+   "text": "A vessel under seven meters at anchor doesn’t need an anchor light or shape, as long as she’s not in or near a narrow channel, a fairway, an anchorage, or anywhere other vessels normally navigate."
   },
   {
    "i": 2,
-   "start": 14.4,
-   "speechStart": 14.4,
-   "end": 19.525,
-   "builds": 0,
+   "start": 17.35,
+   "speechStart": 17.35,
+   "end": 22.475,
+   "builds": 1,
    "text": "A vessel under twelve meters aground doesn’t need the aground lights or shapes."
   },
   {
    "i": 3,
-   "start": 19.775,
-   "speechStart": 19.775,
-   "end": 29.3,
-   "builds": 0,
-   "text": "Inland, a vessel under twenty meters at anchor in a special anchorage area designated by the Coast Guard doesn’t need anchor lights or a shape."
+   "start": 22.725,
+   "speechStart": 22.725,
+   "end": 33.05,
+   "builds": 1,
+   "text": "And an Inland one: a vessel under twenty meters at anchor in a special anchorage area designated by the Coast Guard doesn’t need an anchor light or shape."
   },
   {
    "i": 4,
-   "start": 29.55,
-   "speechStart": 29.55,
-   "end": 41.475,
+   "start": 33.3,
+   "speechStart": 33.3,
+   "end": 36.075,
    "builds": 0,
-   "text": "Finally, Rule thirty-one says that where a seaplane or wing-in-ground craft can’t show lights and shapes exactly as required, she shows lights and shapes as closely similar as possible."
+   "text": "You’ll find those areas marked on the chart."
+  },
+  {
+   "i": 5,
+   "start": 36.325,
+   "speechStart": 36.325,
+   "end": 38.575,
+   "builds": 1,
+   "text": "Finally, Rule thirty-one."
+  },
+  {
+   "i": 6,
+   "start": 38.825,
+   "speechStart": 38.825,
+   "end": 46.9,
+   "builds": 0,
+   "text": "A seaplane or wing-in-ground craft that can’t show lights and shapes exactly as required shows them as closely as she can."
+  },
+  {
+   "i": 7,
+   "start": 47.15,
+   "speechStart": 47.9,
+   "end": 51.2,
+   "builds": 0,
+   "text": "That’s lesson twelve, and it finishes the lights."
+  },
+  {
+   "i": 8,
+   "start": 51.45,
+   "speechStart": 51.45,
+   "end": 54.25,
+   "builds": 0,
+   "text": "Red over red: not under command."
+  },
+  {
+   "i": 9,
+   "start": 54.5,
+   "speechStart": 54.5,
+   "end": 56.95,
+   "builds": 0,
+   "text": "Red, white, red: restricted."
+  },
+  {
+   "i": 10,
+   "start": 57.2,
+   "speechStart": 57.2,
+   "end": 59.525,
+   "builds": 0,
+   "text": "Pass a dredge on the green side."
+  },
+  {
+   "i": 11,
+   "start": 59.775,
+   "speechStart": 59.775,
+   "end": 61.975,
+   "builds": 0,
+   "text": "White over red: pilot."
+  },
+  {
+   "i": 12,
+   "start": 62.225,
+   "speechStart": 62.225,
+   "end": 65.325,
+   "builds": 0,
+   "text": "One white light or one ball: at anchor."
+  },
+  {
+   "i": 13,
+   "start": 65.575,
+   "speechStart": 65.575,
+   "end": 69.725,
+   "builds": 0,
+   "text": "Next time, we stop looking and start listening: sound signals."
   }
  ]
 }

@@ -3,50 +3,146 @@
  "lessonId": "rules-07",
  "n": 4,
  "audio": "rules-07-4.mp3",
- "duration": 37.925,
+ "duration": 69.3,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.625,
+   "end": 1.825,
    "builds": 0,
-   "text": "Rule eighteen opens with an important exception: except where Rules nine, ten and thirteen otherwise require."
+   "text": "Now for the trap."
   },
   {
    "i": 1,
-   "start": 7.875,
-   "speechStart": 7.875,
-   "end": 19.425,
+   "start": 2.075,
+   "speechStart": 2.075,
+   "end": 10.125,
    "builds": 0,
-   "text": "So in a narrow channel, a sailing vessel or a vessel under twenty meters must not impede a large ship that can navigate only in the channel, even though the ship is power-driven."
+   "text": "Rule eighteen opens with six words that the exam loves: except where Rules nine, ten and thirteen otherwise require."
   },
   {
    "i": 2,
-   "start": 19.675,
-   "speechStart": 19.675,
-   "end": 24.675,
+   "start": 10.375,
+   "speechStart": 10.375,
+   "end": 12.825,
    "builds": 0,
-   "text": "In a traffic separation scheme, the same applies to vessels following a lane."
+   "text": "So the ladder has three exceptions."
   },
   {
    "i": 3,
-   "start": 24.925,
-   "speechStart": 24.925,
-   "end": 29.375,
-   "builds": 0,
-   "text": "And a vessel overtaking always keeps clear, whatever type she is."
+   "start": 13.075,
+   "speechStart": 13.075,
+   "end": 15.425,
+   "builds": 1,
+   "text": "Rule nine, narrow channels."
   },
   {
    "i": 4,
-   "start": 29.625,
-   "speechStart": 29.625,
-   "end": 37.625,
+   "start": 15.675,
+   "speechStart": 15.675,
+   "end": 23.175,
    "builds": 0,
-   "text": "On the exam, check whether a question mentions a narrow channel, a traffic lane or overtaking before you apply the ladder."
+   "text": "A sailing vessel, or any vessel under twenty meters, shall not impede a vessel that can navigate only within the channel."
+  },
+  {
+   "i": 5,
+   "start": 23.425,
+   "speechStart": 23.425,
+   "end": 26.5,
+   "builds": 1,
+   "text": "Rule ten, traffic separation schemes."
+  },
+  {
+   "i": 6,
+   "start": 26.75,
+   "speechStart": 26.75,
+   "end": 30.9,
+   "builds": 0,
+   "text": "The same idea applies to vessels following a traffic lane."
+  },
+  {
+   "i": 7,
+   "start": 31.15,
+   "speechStart": 31.15,
+   "end": 33.75,
+   "builds": 1,
+   "text": "And Rule thirteen, overtaking."
+  },
+  {
+   "i": 8,
+   "start": 34.0,
+   "speechStart": 34.0,
+   "end": 37.975,
+   "builds": 0,
+   "text": "The overtaking vessel always keeps clear, whatever she is."
+  },
+  {
+   "i": 9,
+   "start": 38.225,
+   "speechStart": 38.225,
+   "end": 40.0,
+   "builds": 1,
+   "text": "So try this one."
+  },
+  {
+   "i": 10,
+   "start": 40.25,
+   "speechStart": 40.25,
+   "end": 46.025,
+   "builds": 0,
+   "text": "A sailboat is tacking up the ship channel in Tampa Bay, and a loaded tanker is coming down it."
+  },
+  {
+   "i": 11,
+   "start": 46.275,
+   "speechStart": 46.275,
+   "end": 49.275,
+   "builds": 0,
+   "text": "On the ladder, sail stands above power."
+  },
+  {
+   "i": 12,
+   "start": 49.525,
+   "speechStart": 49.525,
+   "end": 51.725,
+   "builds": 0,
+   "text": "Who has to stay out of the way?"
+  },
+  {
+   "i": 13,
+   "start": 51.975,
+   "speechStart": 52.725,
+   "end": 54.325,
+   "builds": 0,
+   "text": "The sailboat."
+  },
+  {
+   "i": 14,
+   "start": 54.575,
+   "speechStart": 54.575,
+   "end": 59.25,
+   "builds": 0,
+   "text": "She must not impede the tanker, because Rule nine overrides the ladder."
+  },
+  {
+   "i": 15,
+   "start": 59.5,
+   "speechStart": 59.5,
+   "end": 61.55,
+   "builds": 0,
+   "text": "Here’s your exam habit."
+  },
+  {
+   "i": 16,
+   "start": 61.8,
+   "speechStart": 61.8,
+   "end": 69.0,
+   "builds": 0,
+   "text": "Before you apply the ladder, check the question for three things: a narrow channel, a traffic lane, or overtaking."
   }
  ]
 }

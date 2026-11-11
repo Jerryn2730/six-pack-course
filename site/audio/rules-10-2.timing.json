@@ -3,58 +3,122 @@
  "lessonId": "rules-10",
  "n": 2,
  "audio": "rules-10-2.mp3",
- "duration": 52.05,
+ "duration": 77.5,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 11.25,
+   "end": 2.85,
    "builds": 0,
-   "text": "When a pushing vessel and a vessel pushed ahead are rigidly connected in a composite unit, they are regarded as one power-driven vessel and show the lights of Rule twenty-three."
+   "text": "Not every tow is behind the tug."
   },
   {
    "i": 1,
-   "start": 11.5,
-   "speechStart": 11.5,
-   "end": 20.0,
+   "start": 3.1,
+   "speechStart": 3.1,
+   "end": 8.375,
    "builds": 0,
-   "text": "Otherwise, a power-driven vessel pushing ahead or towing alongside shows two masthead lights in a vertical line and sidelights."
+   "text": "On the Intracoastal you’ll mostly see barges pushed ahead, or lashed alongside."
   },
   {
    "i": 2,
-   "start": 20.25,
-   "speechStart": 20.25,
-   "end": 24.1,
+   "start": 8.625,
+   "speechStart": 8.625,
+   "end": 10.85,
    "builds": 0,
-   "text": "Under International rules, she also shows a sternlight."
+   "text": "First, one special case."
   },
   {
    "i": 3,
-   "start": 24.35,
-   "speechStart": 24.35,
-   "end": 30.7,
+   "start": 11.1,
+   "speechStart": 11.1,
+   "end": 22.275,
    "builds": 0,
-   "text": "Under Inland rules, she shows two yellow towing lights in a vertical line instead of the sternlight."
+   "text": "When a pushing vessel and the vessel she pushes are rigidly connected as a composite unit, they count as one power-driven vessel, and show ordinary Rule twenty-three lights."
   },
   {
    "i": 4,
-   "start": 30.95,
-   "speechStart": 30.95,
-   "end": 40.225,
+   "start": 22.525,
+   "speechStart": 22.525,
+   "end": 24.825,
    "builds": 0,
-   "text": "So from astern at night, a single white light suggests International rules, and two yellow lights mean an Inland pushing or alongside tow."
+   "text": "Otherwise, here’s what you’ll see."
   },
   {
    "i": 5,
-   "start": 40.475,
-   "speechStart": 40.475,
-   "end": 51.75,
+   "start": 25.075,
+   "speechStart": 25.075,
+   "end": 32.8,
+   "builds": 1,
+   "text": "From ahead, a vessel pushing ahead or towing alongside shows two masthead lights in a vertical line, and sidelights."
+  },
+  {
+   "i": 6,
+   "start": 33.05,
+   "speechStart": 33.05,
+   "end": 36.2,
+   "builds": 1,
+   "text": "From astern is where the two rule books split."
+  },
+  {
+   "i": 7,
+   "start": 36.45,
+   "speechStart": 36.45,
+   "end": 39.95,
    "builds": 0,
-   "text": "Inland, on the Western Rivers and other specified waters, a vessel pushing ahead or towing alongside shows sidelights and two towing lights, without masthead lights."
+   "text": "Under the International rules, she shows a sternlight."
+  },
+  {
+   "i": 8,
+   "start": 40.2,
+   "speechStart": 40.2,
+   "end": 41.925,
+   "builds": 0,
+   "text": "One white light."
+  },
+  {
+   "i": 9,
+   "start": 42.175,
+   "speechStart": 42.175,
+   "end": 47.675,
+   "builds": 1,
+   "text": "Under the Inland rules, she shows two yellow towing lights in a vertical line instead."
+  },
+  {
+   "i": 10,
+   "start": 47.925,
+   "speechStart": 47.925,
+   "end": 56.775,
+   "builds": 0,
+   "text": "So picture yourself overtaking something big and slow on the Intracoastal at night, and all you see is two yellow lights, one above the other."
+  },
+  {
+   "i": 11,
+   "start": 57.025,
+   "speechStart": 57.025,
+   "end": 58.5,
+   "builds": 0,
+   "text": "What is it?"
+  },
+  {
+   "i": 12,
+   "start": 58.75,
+   "speechStart": 59.5,
+   "end": 64.075,
+   "builds": 0,
+   "text": "A towboat pushing ahead or towing alongside, under Inland rules."
+  },
+  {
+   "i": 13,
+   "start": 64.325,
+   "speechStart": 64.325,
+   "end": 77.2,
+   "builds": 0,
+   "text": "And one more Inland detail: on the Western Rivers and certain other waters, a vessel pushing ahead or towing alongside shows sidelights and the two towing lights, with no masthead lights at all."
   }
  ]
 }

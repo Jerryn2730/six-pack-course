@@ -3,34 +3,122 @@
  "lessonId": "rules-07",
  "n": 2,
  "audio": "rules-07-2.mp3",
- "duration": 34.85,
+ "duration": 63.975,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 12.075,
+   "end": 2.525,
    "builds": 0,
-   "text": "Moving up the ladder, a sailing vessel underway shall keep out of the way of a vessel not under command, a vessel restricted in her ability to maneuver, and a vessel engaged in fishing."
+   "text": "Let’s climb it one rung at a time."
   },
   {
    "i": 1,
-   "start": 12.325,
-   "speechStart": 12.325,
-   "end": 23.6,
-   "builds": 0,
-   "text": "A vessel engaged in fishing when underway shall, so far as possible, keep out of the way of a vessel not under command and a vessel restricted in her ability to maneuver."
+   "start": 2.775,
+   "speechStart": 2.775,
+   "end": 13.8,
+   "builds": 1,
+   "text": "A sailing vessel underway keeps out of the way of three: a vessel not under command, a vessel restricted in her ability to maneuver, and a vessel engaged in fishing."
   },
   {
    "i": 2,
-   "start": 23.85,
-   "speechStart": 23.85,
-   "end": 34.55,
+   "start": 14.05,
+   "speechStart": 14.05,
+   "end": 17.025,
    "builds": 0,
-   "text": "At the top of the ladder, vessels not under command and restricted vessels have no one listed above them, because by definition they can’t easily get out of anyone’s way."
+   "text": "So a sailboat gives way to a working trawler."
+  },
+  {
+   "i": 3,
+   "start": 17.275,
+   "speechStart": 17.275,
+   "end": 19.625,
+   "builds": 0,
+   "text": "Many sailors forget that one."
+  },
+  {
+   "i": 4,
+   "start": 19.875,
+   "speechStart": 19.875,
+   "end": 21.475,
+   "builds": 1,
+   "text": "Next rung."
+  },
+  {
+   "i": 5,
+   "start": 21.725,
+   "speechStart": 21.725,
+   "end": 31.4,
+   "builds": 0,
+   "text": "A vessel engaged in fishing, when underway, keeps out of the way of a vessel not under command and a vessel restricted in her ability to maneuver."
+  },
+  {
+   "i": 6,
+   "start": 31.65,
+   "speechStart": 31.65,
+   "end": 34.85,
+   "builds": 0,
+   "text": "But listen to the wording: so far as possible."
+  },
+  {
+   "i": 7,
+   "start": 35.1,
+   "speechStart": 35.1,
+   "end": 38.75,
+   "builds": 0,
+   "text": "Her gear limits what she can do, and the rule admits it."
+  },
+  {
+   "i": 8,
+   "start": 39.0,
+   "speechStart": 39.0,
+   "end": 45.55,
+   "builds": 1,
+   "text": "And at the top sit the vessel not under command and the vessel restricted in her ability to maneuver."
+  },
+  {
+   "i": 9,
+   "start": 45.8,
+   "speechStart": 45.8,
+   "end": 52.175,
+   "builds": 0,
+   "text": "Nobody is listed above them, because by definition they can’t easily get out of anyone’s way."
+  },
+  {
+   "i": 10,
+   "start": 52.425,
+   "speechStart": 53.175,
+   "end": 55.525,
+   "builds": 0,
+   "text": "Remember the trick from lesson two?"
+  },
+  {
+   "i": 11,
+   "start": 55.775,
+   "speechStart": 55.775,
+   "end": 57.725,
+   "builds": 0,
+   "text": "Broken, or busy."
+  },
+  {
+   "i": 12,
+   "start": 57.975,
+   "speechStart": 57.975,
+   "end": 60.625,
+   "builds": 0,
+   "text": "Broken or busy sits at the top."
+  },
+  {
+   "i": 13,
+   "start": 60.875,
+   "speechStart": 60.875,
+   "end": 63.675,
+   "builds": 0,
+   "text": "Then fishing, then sail, then power."
   }
  ]
 }

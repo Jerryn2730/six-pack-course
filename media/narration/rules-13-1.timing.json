@@ -3,66 +3,154 @@
  "lessonId": "rules-13",
  "n": 1,
  "audio": "rules-13-1.mp3",
- "duration": 43.45,
+ "duration": 73.025,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.1,
+   "end": 3.025,
    "builds": 0,
-   "text": "Part D covers sound and light signals."
+   "text": "For four lessons we’ve been reading lights."
   },
   {
    "i": 1,
-   "start": 3.35,
-   "speechStart": 3.35,
-   "end": 14.6,
+   "start": 3.275,
+   "speechStart": 3.275,
+   "end": 5.275,
    "builds": 0,
-   "text": "Rule thirty-two defines a whistle as any device that can produce the prescribed blasts, a short blast as about one second, and a prolonged blast as four to six seconds."
+   "text": "Today we use our ears."
   },
   {
    "i": 2,
-   "start": 14.85,
-   "speechStart": 14.85,
-   "end": 18.125,
+   "start": 5.525,
+   "speechStart": 5.525,
+   "end": 12.85,
    "builds": 0,
-   "text": "Rule thirty-three sets the equipment by length."
+   "text": "Sound signals are how two captains talk when they’re too far apart to shout, and the exam asks about them constantly."
   },
   {
    "i": 3,
-   "start": 18.375,
-   "speechStart": 18.375,
-   "end": 22.075,
+   "start": 13.1,
+   "speechStart": 13.1,
+   "end": 16.55,
    "builds": 0,
-   "text": "A vessel twelve meters or more must carry a whistle."
+   "text": "Rule thirty-two gives us the vocabulary."
   },
   {
    "i": 4,
-   "start": 22.325,
-   "speechStart": 22.325,
-   "end": 26.55,
+   "start": 16.8,
+   "speechStart": 16.8,
+   "end": 20.975,
    "builds": 0,
-   "text": "A vessel twenty meters or more must carry a whistle and a bell."
+   "text": "A whistle is any device that can make the required blasts."
   },
   {
    "i": 5,
-   "start": 26.8,
-   "speechStart": 26.8,
-   "end": 33.725,
+   "start": 21.225,
+   "speechStart": 21.225,
+   "end": 22.95,
    "builds": 0,
-   "text": "A vessel one hundred meters or more must also carry a gong, whose tone can’t be confused with the bell."
+   "text": "Your horn counts."
   },
   {
    "i": 6,
-   "start": 33.975,
-   "speechStart": 33.975,
-   "end": 43.15,
+   "start": 23.2,
+   "speechStart": 23.2,
+   "end": 26.075,
    "builds": 0,
-   "text": "A vessel under twelve meters isn’t required to carry these, but if she doesn’t, she must have some other means of making an efficient sound signal."
+   "text": "A short blast lasts about one second."
+  },
+  {
+   "i": 7,
+   "start": 26.325,
+   "speechStart": 26.325,
+   "end": 29.475,
+   "builds": 0,
+   "text": "A prolonged blast lasts four to six seconds."
+  },
+  {
+   "i": 8,
+   "start": 29.725,
+   "speechStart": 29.725,
+   "end": 31.55,
+   "builds": 0,
+   "text": "Short, one second."
+  },
+  {
+   "i": 9,
+   "start": 31.8,
+   "speechStart": 31.8,
+   "end": 33.825,
+   "builds": 0,
+   "text": "Prolonged, four to six."
+  },
+  {
+   "i": 10,
+   "start": 34.075,
+   "speechStart": 34.075,
+   "end": 38.55,
+   "builds": 0,
+   "text": "Rule thirty-three then says what you must carry, and it goes by length."
+  },
+  {
+   "i": 11,
+   "start": 38.8,
+   "speechStart": 38.8,
+   "end": 46.5,
+   "builds": 1,
+   "text": "Under twelve meters, you needn’t carry a whistle or a bell, but you must have some means of making an efficient sound signal."
+  },
+  {
+   "i": 12,
+   "start": 46.75,
+   "speechStart": 46.75,
+   "end": 48.55,
+   "builds": 0,
+   "text": "That’s most of us."
+  },
+  {
+   "i": 13,
+   "start": 48.8,
+   "speechStart": 48.8,
+   "end": 52.65,
+   "builds": 0,
+   "text": "A horn, or even a canister air horn, does the job."
+  },
+  {
+   "i": 14,
+   "start": 52.9,
+   "speechStart": 52.9,
+   "end": 55.675,
+   "builds": 1,
+   "text": "Twelve meters and over: a whistle."
+  },
+  {
+   "i": 15,
+   "start": 55.925,
+   "speechStart": 55.925,
+   "end": 59.3,
+   "builds": 1,
+   "text": "Twenty meters and over: a whistle and a bell."
+  },
+  {
+   "i": 16,
+   "start": 59.55,
+   "speechStart": 59.55,
+   "end": 66.85,
+   "builds": 1,
+   "text": "One hundred meters and over: a whistle, a bell, and a gong, with a tone that can’t be confused with the bell."
+  },
+  {
+   "i": 17,
+   "start": 67.1,
+   "speechStart": 67.85,
+   "end": 72.725,
+   "builds": 0,
+   "text": "So the pattern is twelve, twenty, one hundred: whistle, then bell, then gong."
   }
  ]
 }

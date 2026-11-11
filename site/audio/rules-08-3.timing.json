@@ -3,7 +3,7 @@
  "lessonId": "rules-08",
  "n": 3,
  "audio": "rules-08-3.mp3",
- "duration": 45.35,
+ "duration": 61.85,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,73 +12,105 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.55,
+   "end": 4.35,
    "builds": 0,
-   "text": "Here’s the heart of Rule nineteen."
+   "text": "Here’s the heart of Rule nineteen, and it’s for the boat with radar."
   },
   {
    "i": 1,
-   "start": 2.8,
-   "speechStart": 2.8,
-   "end": 12.0,
+   "start": 4.6,
+   "speechStart": 4.6,
+   "end": 14.175,
    "builds": 0,
-   "text": "A vessel that detects another by radar alone shall determine whether a close-quarters situation is developing or risk of collision exists."
+   "text": "If you detect another vessel by radar alone, you must work out whether a close-quarters situation is developing, or a risk of collision exists."
   },
   {
    "i": 2,
-   "start": 12.25,
-   "speechStart": 12.25,
-   "end": 16.025,
+   "start": 14.425,
+   "speechStart": 14.425,
+   "end": 18.05,
    "builds": 0,
-   "text": "If so, she shall take avoiding action in ample time."
+   "text": "If it is, you take avoiding action in ample time."
   },
   {
    "i": 3,
-   "start": 16.275,
-   "speechStart": 16.275,
-   "end": 22.525,
+   "start": 18.3,
+   "speechStart": 18.3,
+   "end": 24.25,
    "builds": 0,
-   "text": "If that action is an alteration of course, then so far as possible she shall avoid two things."
+   "text": "And if that action is a change of course, there are two things to avoid, so far as possible."
   },
   {
    "i": 4,
-   "start": 22.775,
-   "speechStart": 22.775,
-   "end": 29.725,
+   "start": 24.5,
+   "speechStart": 24.5,
+   "end": 26.4,
    "builds": 0,
-   "text": "First, an alteration of course to port for a vessel forward of the beam, other than a vessel being overtaken."
+   "text": "Look at the left picture."
   },
   {
    "i": 5,
-   "start": 29.975,
-   "speechStart": 29.975,
-   "end": 31.925,
+   "start": 26.65,
+   "speechStart": 26.65,
+   "end": 33.0,
    "builds": 0,
-   "text": "That’s the left picture."
+   "text": "First: avoid altering course to port for a vessel forward of your beam, unless you’re overtaking her."
   },
   {
    "i": 6,
-   "start": 32.175,
-   "speechStart": 32.175,
-   "end": 37.125,
+   "start": 33.25,
+   "speechStart": 33.25,
+   "end": 35.1,
    "builds": 0,
-   "text": "Second, an alteration of course toward a vessel abeam or abaft the beam."
+   "text": "Now the right picture."
   },
   {
    "i": 7,
-   "start": 37.375,
-   "speechStart": 37.375,
-   "end": 39.3,
+   "start": 35.35,
+   "speechStart": 35.35,
+   "end": 40.725,
    "builds": 0,
-   "text": "That’s the right picture."
+   "text": "Second: avoid altering course toward a vessel that’s abeam or abaft your beam."
   },
   {
    "i": 8,
-   "start": 39.55,
-   "speechStart": 39.55,
-   "end": 45.05,
+   "start": 40.975,
+   "speechStart": 41.725,
+   "end": 44.85,
    "builds": 0,
-   "text": "For a vessel ahead, a substantial turn to starboard is usually the safe choice."
+   "text": "Put those together and the pattern is simple."
+  },
+  {
+   "i": 9,
+   "start": 45.1,
+   "speechStart": 45.1,
+   "end": 47.975,
+   "builds": 0,
+   "text": "For a target ahead of you, don’t turn left."
+  },
+  {
+   "i": 10,
+   "start": 48.225,
+   "speechStart": 48.225,
+   "end": 51.9,
+   "builds": 0,
+   "text": "For a target beside or behind you, don’t turn toward her."
+  },
+  {
+   "i": 11,
+   "start": 52.15,
+   "speechStart": 52.15,
+   "end": 57.85,
+   "builds": 0,
+   "text": "So for a vessel ahead, a substantial turn to starboard is usually the safe choice."
+  },
+  {
+   "i": 12,
+   "start": 58.1,
+   "speechStart": 58.1,
+   "end": 61.55,
+   "builds": 0,
+   "text": "And slowing down, or stopping, is always allowed."
   }
  ]
 }

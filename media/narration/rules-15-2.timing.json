@@ -3,10 +3,10 @@
  "lessonId": "rules-15",
  "n": 2,
  "audio": "rules-15-2.mp3",
- "duration": 49.175,
+ "duration": 93.025,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 8,
  "sentences": [
   {
    "i": 0,
@@ -20,49 +20,185 @@
    "i": 1,
    "start": 3.275,
    "speechStart": 3.275,
-   "end": 7.45,
+   "end": 6.675,
    "builds": 0,
-   "text": "Constrained by draft exists only in International rules."
+   "text": "There are eight, and you’ve met every one of them already."
   },
   {
    "i": 2,
-   "start": 7.7,
-   "speechStart": 7.7,
-   "end": 19.225,
-   "builds": 0,
-   "text": "A vessel pushing ahead shows a sternlight under International rules, but two yellow towing lights Inland, and the barge she pushes carries a special flashing yellow light Inland."
+   "start": 6.925,
+   "speechStart": 6.925,
+   "end": 13.475,
+   "builds": 1,
+   "text": "Constrained by draft exists only in the International rules: three red lights, or a cylinder."
   },
   {
    "i": 3,
-   "start": 19.475,
-   "speechStart": 19.475,
-   "end": 25.4,
+   "start": 13.725,
+   "speechStart": 13.725,
+   "end": 16.25,
    "builds": 0,
-   "text": "On the Great Lakes, an all-round white light may replace the after masthead light and sternlight."
+   "text": "Inland, there’s no such vessel."
   },
   {
    "i": 4,
-   "start": 25.65,
-   "speechStart": 25.65,
-   "end": 34.625,
-   "builds": 0,
-   "text": "On the Great Lakes and Western Rivers, a downbound vessel with a following current has right of way, and a vessel crossing the river keeps clear."
+   "start": 16.5,
+   "speechStart": 16.5,
+   "end": 19.6,
+   "builds": 1,
+   "text": "A vessel pushing ahead, seen from astern."
   },
   {
    "i": 5,
-   "start": 34.875,
-   "speechStart": 34.875,
-   "end": 45.1,
+   "start": 19.85,
+   "speechStart": 19.85,
+   "end": 22.175,
    "builds": 0,
-   "text": "Inland, a vessel under twenty meters in a special anchorage area needs no anchor light, and a motorsailing vessel under twelve meters needn’t show the cone."
+   "text": "International: a sternlight."
   },
   {
    "i": 6,
-   "start": 45.35,
-   "speechStart": 45.35,
-   "end": 48.875,
+   "start": 22.425,
+   "speechStart": 22.425,
+   "end": 25.05,
    "builds": 0,
-   "text": "Inland also adds the flashing white distress light."
+   "text": "Inland: two yellow towing lights."
+  },
+  {
+   "i": 7,
+   "start": 25.3,
+   "speechStart": 25.3,
+   "end": 27.2,
+   "builds": 1,
+   "text": "The barge she pushes."
+  },
+  {
+   "i": 8,
+   "start": 27.45,
+   "speechStart": 27.45,
+   "end": 29.7,
+   "builds": 0,
+   "text": "International: sidelights."
+  },
+  {
+   "i": 9,
+   "start": 29.95,
+   "speechStart": 29.95,
+   "end": 33.9,
+   "builds": 0,
+   "text": "Inland: sidelights plus a special flashing yellow light."
+  },
+  {
+   "i": 10,
+   "start": 34.15,
+   "speechStart": 34.15,
+   "end": 42.2,
+   "builds": 1,
+   "text": "On the Great Lakes, a power-driven vessel may carry an all-round white light in place of the after masthead light and sternlight."
+  },
+  {
+   "i": 11,
+   "start": 42.45,
+   "speechStart": 42.45,
+   "end": 44.0,
+   "builds": 1,
+   "text": "Rivers."
+  },
+  {
+   "i": 12,
+   "start": 44.25,
+   "speechStart": 44.25,
+   "end": 53.325,
+   "builds": 0,
+   "text": "On the Great Lakes and Western Rivers, the downbound vessel with a following current has the right of way, and a vessel crossing the river keeps clear."
+  },
+  {
+   "i": 13,
+   "start": 53.575,
+   "speechStart": 53.575,
+   "end": 56.725,
+   "builds": 0,
+   "text": "The International rules have nothing like it."
+  },
+  {
+   "i": 14,
+   "start": 56.975,
+   "speechStart": 56.975,
+   "end": 61.075,
+   "builds": 1,
+   "text": "A vessel under twenty meters in a special anchorage area."
+  },
+  {
+   "i": 15,
+   "start": 61.325,
+   "speechStart": 61.325,
+   "end": 64.6,
+   "builds": 0,
+   "text": "Inland, she needs no anchor light or signal."
+  },
+  {
+   "i": 16,
+   "start": 64.85,
+   "speechStart": 64.85,
+   "end": 68.5,
+   "builds": 1,
+   "text": "The motorsailing cone on a vessel under twelve meters."
+  },
+  {
+   "i": 17,
+   "start": 68.75,
+   "speechStart": 68.75,
+   "end": 71.0,
+   "builds": 0,
+   "text": "International: required."
+  },
+  {
+   "i": 18,
+   "start": 71.25,
+   "speechStart": 71.25,
+   "end": 73.375,
+   "builds": 0,
+   "text": "Inland: optional."
+  },
+  {
+   "i": 19,
+   "start": 73.625,
+   "speechStart": 73.625,
+   "end": 75.25,
+   "builds": 1,
+   "text": "And distress."
+  },
+  {
+   "i": 20,
+   "start": 75.5,
+   "speechStart": 75.5,
+   "end": 80.125,
+   "builds": 0,
+   "text": "Inland adds the white light flashing fifty to seventy times a minute."
+  },
+  {
+   "i": 21,
+   "start": 80.375,
+   "speechStart": 81.125,
+   "end": 82.925,
+   "builds": 0,
+   "text": "Notice the theme."
+  },
+  {
+   "i": 22,
+   "start": 83.175,
+   "speechStart": 83.175,
+   "end": 89.625,
+   "builds": 0,
+   "text": "Nearly every Inland difference is about rivers, towboats, or small boats in sheltered water."
+  },
+  {
+   "i": 23,
+   "start": 89.875,
+   "speechStart": 89.875,
+   "end": 92.725,
+   "builds": 0,
+   "text": "That’s what makes the Inland waters different."
   }
  ]
 }

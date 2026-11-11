@@ -3,50 +3,146 @@
  "lessonId": "rules-08",
  "n": 4,
  "audio": "rules-08-4.mp3",
- "duration": 42.6,
+ "duration": 67.325,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.625,
+   "end": 5.575,
    "builds": 0,
-   "text": "The second key part of Rule nineteen applies unless you’ve already determined that no risk of collision exists."
+   "text": "Now the second half of the rule, and this one is for every vessel, radar or not."
   },
   {
    "i": 1,
-   "start": 7.875,
-   "speechStart": 7.875,
-   "end": 23.45,
+   "start": 5.825,
+   "speechStart": 5.825,
+   "end": 7.675,
    "builds": 0,
-   "text": "Every vessel that hears, apparently forward of her beam, the fog signal of another vessel, or that cannot avoid a close-quarters situation with another vessel forward of her beam, shall reduce her speed to the minimum at which she can be kept on her course."
+   "text": "It’s about what you hear."
   },
   {
    "i": 2,
-   "start": 23.7,
-   "speechStart": 23.7,
-   "end": 32.675,
-   "builds": 0,
-   "text": "She shall, if necessary, take all her way off, and in any event navigate with extreme caution until the danger of collision is over."
+   "start": 7.925,
+   "speechStart": 7.925,
+   "end": 12.75,
+   "builds": 1,
+   "text": "Suppose you hear a fog signal, and it seems to come from forward of your beam."
   },
   {
    "i": 3,
-   "start": 32.925,
-   "speechStart": 32.925,
-   "end": 34.9,
-   "builds": 0,
-   "text": "Note the word apparently."
+   "start": 13.0,
+   "speechStart": 13.0,
+   "end": 19.225,
+   "builds": 1,
+   "text": "Or suppose you simply can’t avoid a close-quarters situation with a vessel forward of your beam."
   },
   {
    "i": 4,
-   "start": 35.15,
-   "speechStart": 35.15,
-   "end": 42.3,
+   "start": 19.475,
+   "speechStart": 19.475,
+   "end": 24.125,
+   "builds": 1,
+   "text": "Then you shall reduce your speed to the minimum at which you can keep your course."
+  },
+  {
+   "i": 5,
+   "start": 24.375,
+   "speechStart": 24.375,
+   "end": 26.125,
    "builds": 0,
-   "text": "Sound travels unpredictably in fog, so you can’t fully trust the direction a signal seems to come from."
+   "text": "Bare steerageway."
+  },
+  {
+   "i": 6,
+   "start": 26.375,
+   "speechStart": 26.375,
+   "end": 29.275,
+   "builds": 1,
+   "text": "If necessary, you take all your way off."
+  },
+  {
+   "i": 7,
+   "start": 29.525,
+   "speechStart": 29.525,
+   "end": 31.025,
+   "builds": 0,
+   "text": "You stop."
+  },
+  {
+   "i": 8,
+   "start": 31.275,
+   "speechStart": 31.275,
+   "end": 37.325,
+   "builds": 1,
+   "text": "And in any event, you navigate with extreme caution until the danger of collision is over."
+  },
+  {
+   "i": 9,
+   "start": 37.575,
+   "speechStart": 37.575,
+   "end": 43.3,
+   "builds": 0,
+   "text": "The only exception is when you’ve already determined that no risk of collision exists."
+  },
+  {
+   "i": 10,
+   "start": 43.55,
+   "speechStart": 44.3,
+   "end": 47.825,
+   "builds": 0,
+   "text": "Notice one small word in the rule: apparently."
+  },
+  {
+   "i": 11,
+   "start": 48.075,
+   "speechStart": 48.075,
+   "end": 51.175,
+   "builds": 0,
+   "text": "The signal is apparently forward of your beam."
+  },
+  {
+   "i": 12,
+   "start": 51.425,
+   "speechStart": 51.425,
+   "end": 53.45,
+   "builds": 0,
+   "text": "Why would the rule say that?"
+  },
+  {
+   "i": 13,
+   "start": 53.7,
+   "speechStart": 53.7,
+   "end": 56.2,
+   "builds": 0,
+   "text": "Because sound plays tricks in fog."
+  },
+  {
+   "i": 14,
+   "start": 56.45,
+   "speechStart": 56.45,
+   "end": 61.0,
+   "builds": 0,
+   "text": "It bends, it echoes, and it can seem to come from the wrong direction."
+  },
+  {
+   "i": 15,
+   "start": 61.25,
+   "speechStart": 61.25,
+   "end": 64.9,
+   "builds": 0,
+   "text": "So when you hear a horn ahead, don’t guess, and don’t turn."
+  },
+  {
+   "i": 16,
+   "start": 65.15,
+   "speechStart": 65.15,
+   "end": 67.025,
+   "builds": 0,
+   "text": "Slow down first."
   }
  ]
 }

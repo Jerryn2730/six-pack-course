@@ -3,66 +3,154 @@
  "lessonId": "rules-12",
  "n": 1,
  "audio": "rules-12-1.mp3",
- "duration": 44.5,
+ "duration": 71.325,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.6,
+   "end": 4.175,
    "builds": 0,
-   "text": "Rule twenty-seven covers vessels not under command and vessels restricted in their ability to maneuver."
+   "text": "Today we light the top of the ladder: the broken and the busy."
   },
   {
    "i": 1,
-   "start": 7.85,
-   "speechStart": 7.85,
-   "end": 14.575,
+   "start": 4.425,
+   "speechStart": 4.425,
+   "end": 6.05,
    "builds": 0,
-   "text": "A vessel not under command shows two all-round red lights in a vertical line, and by day two balls."
+   "text": "Remember them?"
   },
   {
    "i": 2,
-   "start": 14.825,
-   "speechStart": 14.825,
-   "end": 18.3,
+   "start": 6.3,
+   "speechStart": 6.3,
+   "end": 10.525,
    "builds": 0,
-   "text": "When making way, she adds sidelights and a sternlight."
+   "text": "Not under command, and restricted in her ability to maneuver."
   },
   {
    "i": 3,
-   "start": 18.55,
-   "speechStart": 18.55,
-   "end": 29.025,
+   "start": 10.775,
+   "speechStart": 10.775,
+   "end": 14.675,
    "builds": 0,
-   "text": "A vessel restricted in her ability to maneuver shows three all-round lights in a vertical line, red, white, red, and by day a ball, a diamond and a ball."
+   "text": "Rule twenty-seven gives each a signal you can’t mistake."
   },
   {
    "i": 4,
-   "start": 29.275,
-   "speechStart": 29.275,
-   "end": 33.9,
-   "builds": 0,
-   "text": "When making way, she adds masthead lights, sidelights and a sternlight."
+   "start": 14.925,
+   "speechStart": 14.925,
+   "end": 20.125,
+   "builds": 1,
+   "text": "A vessel not under command shows two all-round red lights in a vertical line."
   },
   {
    "i": 5,
-   "start": 34.15,
-   "speechStart": 34.15,
-   "end": 38.475,
+   "start": 20.375,
+   "speechStart": 20.375,
+   "end": 22.375,
    "builds": 0,
-   "text": "When at anchor, she shows her restricted lights plus her anchor lights."
+   "text": "By day, two balls."
   },
   {
    "i": 6,
-   "start": 38.725,
-   "speechStart": 38.725,
-   "end": 44.2,
+   "start": 22.625,
+   "speechStart": 22.625,
+   "end": 25.325,
    "builds": 0,
-   "text": "The special lights tell you about her condition, and the other lights tell you whether she’s moving."
+   "text": "Red over red, the captain is dead."
+  },
+  {
+   "i": 7,
+   "start": 25.575,
+   "speechStart": 25.575,
+   "end": 28.75,
+   "builds": 0,
+   "text": "It’s a grim little rhyme, but you won’t forget it."
+  },
+  {
+   "i": 8,
+   "start": 29.0,
+   "speechStart": 29.0,
+   "end": 33.825,
+   "builds": 0,
+   "text": "In this picture she isn’t making way, so the two red lights are all she shows."
+  },
+  {
+   "i": 9,
+   "start": 34.075,
+   "speechStart": 34.075,
+   "end": 37.975,
+   "builds": 1,
+   "text": "When she is making way, she adds sidelights and a sternlight."
+  },
+  {
+   "i": 10,
+   "start": 38.225,
+   "speechStart": 38.225,
+   "end": 40.2,
+   "builds": 0,
+   "text": "But no masthead light."
+  },
+  {
+   "i": 11,
+   "start": 40.45,
+   "speechStart": 40.45,
+   "end": 48.425,
+   "builds": 1,
+   "text": "A vessel restricted in her ability to maneuver shows three all-round lights in a vertical line: red, white, red."
+  },
+  {
+   "i": 12,
+   "start": 48.675,
+   "speechStart": 48.675,
+   "end": 51.575,
+   "builds": 0,
+   "text": "By day, a ball, a diamond, and a ball."
+  },
+  {
+   "i": 13,
+   "start": 51.825,
+   "speechStart": 51.825,
+   "end": 56.75,
+   "builds": 0,
+   "text": "When she’s making way, she adds masthead lights, sidelights and a sternlight."
+  },
+  {
+   "i": 14,
+   "start": 57.0,
+   "speechStart": 57.0,
+   "end": 61.4,
+   "builds": 0,
+   "text": "And at anchor, she shows her restricted lights plus her anchor lights."
+  },
+  {
+   "i": 15,
+   "start": 61.65,
+   "speechStart": 62.4,
+   "end": 64.825,
+   "builds": 0,
+   "text": "So here’s how to read any of these."
+  },
+  {
+   "i": 16,
+   "start": 65.075,
+   "speechStart": 65.075,
+   "end": 67.75,
+   "builds": 0,
+   "text": "The special lights tell you her condition."
+  },
+  {
+   "i": 17,
+   "start": 68.0,
+   "speechStart": 68.0,
+   "end": 71.025,
+   "builds": 0,
+   "text": "The ordinary lights tell you whether she’s moving."
   }
  ]
 }

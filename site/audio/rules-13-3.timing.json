@@ -3,74 +3,210 @@
  "lessonId": "rules-13",
  "n": 3,
  "audio": "rules-13-3.mp3",
- "duration": 47.825,
+ "duration": 87.675,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 6,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.025,
+   "end": 2.525,
    "builds": 0,
-   "text": "Inland rules use the same blasts for a different purpose."
+   "text": "Same blasts, different meaning."
   },
   {
    "i": 1,
-   "start": 4.275,
-   "speechStart": 4.275,
-   "end": 14.725,
+   "start": 2.775,
+   "speechStart": 2.775,
+   "end": 9.95,
    "builds": 0,
-   "text": "When power-driven vessels are in sight of one another and meeting or crossing at a distance within half a mile of each other, each vessel shall indicate her intended maneuver."
+   "text": "This slide is the single biggest Inland difference on the exam, so let’s take the table one row at a time."
   },
   {
    "i": 2,
-   "start": 14.975,
-   "speechStart": 14.975,
-   "end": 18.9,
-   "builds": 0,
-   "text": "One short blast means I intend to leave you on my port side."
+   "start": 10.2,
+   "speechStart": 10.2,
+   "end": 12.075,
+   "builds": 1,
+   "text": "One short blast."
   },
   {
    "i": 3,
-   "start": 19.15,
-   "speechStart": 19.15,
-   "end": 23.65,
+   "start": 12.325,
+   "speechStart": 12.325,
+   "end": 15.875,
    "builds": 0,
-   "text": "Two short blasts means I intend to leave you on my starboard side."
+   "text": "International: I am altering course to starboard."
   },
   {
    "i": 4,
-   "start": 23.9,
-   "speechStart": 23.9,
-   "end": 27.975,
+   "start": 16.125,
+   "speechStart": 16.125,
+   "end": 19.35,
    "builds": 0,
-   "text": "Three short blasts means I am operating astern propulsion."
+   "text": "Inland: I intend to leave you on my port side."
   },
   {
    "i": 5,
-   "start": 28.225,
-   "speechStart": 28.225,
-   "end": 37.225,
-   "builds": 0,
-   "text": "Upon hearing the one or two blast signal, the other vessel shall, if in agreement, sound the same whistle signal and take the steps needed to pass."
+   "start": 19.6,
+   "speechStart": 19.6,
+   "end": 21.5,
+   "builds": 1,
+   "text": "Two short blasts."
   },
   {
    "i": 6,
-   "start": 37.475,
-   "speechStart": 37.475,
-   "end": 42.175,
+   "start": 21.75,
+   "speechStart": 21.75,
+   "end": 25.05,
    "builds": 0,
-   "text": "If she doubts the safety of the proposal, she sounds the danger signal."
+   "text": "International: I am altering course to port."
   },
   {
    "i": 7,
-   "start": 42.425,
-   "speechStart": 42.425,
-   "end": 47.525,
+   "start": 25.3,
+   "speechStart": 25.3,
+   "end": 28.9,
    "builds": 0,
-   "text": "Inland light signals may be white or yellow, and are synchronized with the whistle."
+   "text": "Inland: I intend to leave you on my starboard side."
+  },
+  {
+   "i": 8,
+   "start": 29.15,
+   "speechStart": 29.15,
+   "end": 34.35,
+   "builds": 1,
+   "text": "Three short blasts mean the same in both: I am operating astern propulsion."
+  },
+  {
+   "i": 9,
+   "start": 34.6,
+   "speechStart": 34.6,
+   "end": 36.325,
+   "builds": 1,
+   "text": "When are they used?"
+  },
+  {
+   "i": 10,
+   "start": 36.575,
+   "speechStart": 36.575,
+   "end": 40.825,
+   "builds": 0,
+   "text": "International, whenever you maneuver in sight of another vessel."
+  },
+  {
+   "i": 11,
+   "start": 41.075,
+   "speechStart": 41.075,
+   "end": 46.85,
+   "builds": 0,
+   "text": "Inland, when power-driven vessels are meeting or crossing within half a mile of each other."
+  },
+  {
+   "i": 12,
+   "start": 47.1,
+   "speechStart": 47.1,
+   "end": 48.675,
+   "builds": 1,
+   "text": "The reply."
+  },
+  {
+   "i": 13,
+   "start": 48.925,
+   "speechStart": 48.925,
+   "end": 51.625,
+   "builds": 0,
+   "text": "International, none is required."
+  },
+  {
+   "i": 14,
+   "start": 51.875,
+   "speechStart": 51.875,
+   "end": 54.475,
+   "builds": 0,
+   "text": "Inland, the other vessel answers."
+  },
+  {
+   "i": 15,
+   "start": 54.725,
+   "speechStart": 54.725,
+   "end": 60.15,
+   "builds": 0,
+   "text": "If she agrees, she sounds the same signal back, and both of you take steps to pass."
+  },
+  {
+   "i": 16,
+   "start": 60.4,
+   "speechStart": 60.4,
+   "end": 63.975,
+   "builds": 0,
+   "text": "If she doubts it’s safe, she sounds the danger signal."
+  },
+  {
+   "i": 17,
+   "start": 64.225,
+   "speechStart": 64.225,
+   "end": 65.725,
+   "builds": 1,
+   "text": "And the light."
+  },
+  {
+   "i": 18,
+   "start": 65.975,
+   "speechStart": 65.975,
+   "end": 68.125,
+   "builds": 0,
+   "text": "International, it’s white."
+  },
+  {
+   "i": 19,
+   "start": 68.375,
+   "speechStart": 68.375,
+   "end": 73.125,
+   "builds": 0,
+   "text": "Inland, it may be white or yellow, and it’s flashed in time with the whistle."
+  },
+  {
+   "i": 20,
+   "start": 73.375,
+   "speechStart": 74.125,
+   "end": 76.125,
+   "builds": 0,
+   "text": "So remember it like this."
+  },
+  {
+   "i": 21,
+   "start": 76.375,
+   "speechStart": 76.375,
+   "end": 78.325,
+   "builds": 0,
+   "text": "Offshore, I’m telling you."
+  },
+  {
+   "i": 22,
+   "start": 78.575,
+   "speechStart": 78.575,
+   "end": 80.575,
+   "builds": 0,
+   "text": "Inshore, I’m asking you."
+  },
+  {
+   "i": 23,
+   "start": 80.825,
+   "speechStart": 80.825,
+   "end": 83.5,
+   "builds": 0,
+   "text": "International signals are statements."
+  },
+  {
+   "i": 24,
+   "start": 83.75,
+   "speechStart": 83.75,
+   "end": 87.375,
+   "builds": 0,
+   "text": "Inland signals are proposals that need an answer."
   }
  ]
 }

@@ -3,58 +3,138 @@
  "lessonId": "rules-09",
  "n": 4,
  "audio": "rules-09-4.mp3",
- "duration": 39.325,
+ "duration": 65.675,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.25,
+   "end": 2.375,
    "builds": 0,
-   "text": "Rule twenty-three covers power-driven vessels underway."
+   "text": "Now let’s put lights on a boat."
   },
   {
    "i": 1,
-   "start": 4.5,
-   "speechStart": 4.5,
-   "end": 8.675,
+   "start": 2.625,
+   "speechStart": 2.625,
+   "end": 10.9,
    "builds": 0,
-   "text": "She shows a masthead light forward, sidelights and a sternlight."
+   "text": "Rule twenty-three covers a power-driven vessel underway, and she shows a masthead light forward, sidelights, and a sternlight."
   },
   {
    "i": 2,
-   "start": 8.925,
-   "speechStart": 8.925,
-   "end": 16.4,
-   "builds": 0,
-   "text": "A vessel fifty meters or more must also show a second masthead light abaft of and higher than the forward one."
+   "start": 11.15,
+   "speechStart": 11.15,
+   "end": 14.775,
+   "builds": 1,
+   "text": "Here’s a vessel under fifty meters, coming straight at you."
   },
   {
    "i": 3,
-   "start": 16.65,
-   "speechStart": 16.65,
-   "end": 22.45,
+   "start": 15.025,
+   "speechStart": 15.025,
+   "end": 19.325,
    "builds": 0,
-   "text": "A vessel under fifty meters may show the second masthead light but isn’t required to."
+   "text": "You see one white masthead light, with red and green below it."
   },
   {
    "i": 4,
-   "start": 22.7,
-   "speechStart": 22.7,
-   "end": 29.65,
+   "start": 19.575,
+   "speechStart": 19.575,
+   "end": 22.575,
    "builds": 0,
-   "text": "The two masthead lights act like a range, telling you which way a big ship is heading and when she starts to turn."
+   "text": "Red and green together means she’s head-on."
   },
   {
    "i": 5,
-   "start": 29.9,
-   "speechStart": 29.9,
-   "end": 39.025,
+   "start": 22.825,
+   "speechStart": 22.825,
+   "end": 27.375,
+   "builds": 1,
+   "text": "Now a vessel of fifty meters or more, showing you her starboard side."
+  },
+  {
+   "i": 6,
+   "start": 27.625,
+   "speechStart": 27.625,
+   "end": 32.05,
    "builds": 0,
-   "text": "A power-driven vessel under twelve meters may instead show an all-round white light and sidelights, which is what most center consoles carry."
+   "text": "She must carry a second masthead light, behind the first and higher."
+  },
+  {
+   "i": 7,
+   "start": 32.3,
+   "speechStart": 32.3,
+   "end": 35.95,
+   "builds": 0,
+   "text": "A smaller vessel may carry one, but doesn’t have to."
+  },
+  {
+   "i": 8,
+   "start": 36.2,
+   "speechStart": 36.2,
+   "end": 37.95,
+   "builds": 0,
+   "text": "Why does it matter?"
+  },
+  {
+   "i": 9,
+   "start": 38.2,
+   "speechStart": 38.2,
+   "end": 40.875,
+   "builds": 0,
+   "text": "Those two white lights work like a range."
+  },
+  {
+   "i": 10,
+   "start": 41.125,
+   "speechStart": 41.125,
+   "end": 44.75,
+   "builds": 0,
+   "text": "The lower one is forward, so it points the way she’s heading."
+  },
+  {
+   "i": 11,
+   "start": 45.0,
+   "speechStart": 45.0,
+   "end": 49.05,
+   "builds": 0,
+   "text": "And when the two lights start to close up or open out, she’s turning."
+  },
+  {
+   "i": 12,
+   "start": 49.3,
+   "speechStart": 49.3,
+   "end": 55.425,
+   "builds": 1,
+   "text": "And here’s the option for boats under twelve meters: one all-round white light, plus sidelights."
+  },
+  {
+   "i": 13,
+   "start": 55.675,
+   "speechStart": 55.675,
+   "end": 59.05,
+   "builds": 0,
+   "text": "That’s probably what’s on your center console right now."
+  },
+  {
+   "i": 14,
+   "start": 59.3,
+   "speechStart": 60.05,
+   "end": 62.975,
+   "builds": 0,
+   "text": "So tonight at the dock, look at your own boat."
+  },
+  {
+   "i": 15,
+   "start": 63.225,
+   "speechStart": 63.225,
+   "end": 65.375,
+   "builds": 0,
+   "text": "Which arrangement do you carry?"
   }
  ]
 }

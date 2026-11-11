@@ -3,50 +3,106 @@
  "lessonId": "rules-11",
  "n": 2,
  "audio": "rules-11-2.mp3",
- "duration": 40.45,
+ "duration": 64.375,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.15,
+   "end": 3.25,
    "builds": 0,
-   "text": "A sailing vessel under seven meters shall, if practicable, show sidelights and a sternlight."
+   "text": "Now the small stuff, and one daytime shape."
   },
   {
    "i": 1,
-   "start": 6.4,
-   "speechStart": 6.4,
-   "end": 16.375,
-   "builds": 0,
-   "text": "If she doesn’t, she must have ready at hand an electric torch or lighted lantern showing a white light, exhibited in sufficient time to prevent collision."
+   "start": 3.5,
+   "speechStart": 3.5,
+   "end": 9.25,
+   "builds": 1,
+   "text": "A sailing vessel under seven meters shows sidelights and a sternlight if practicable."
   },
   {
    "i": 2,
-   "start": 16.625,
-   "speechStart": 16.625,
-   "end": 24.475,
-   "builds": 0,
-   "text": "A vessel under oars may show the sailing vessel lights, but if not, she must have that same white torch or lantern ready."
+   "start": 9.5,
+   "speechStart": 9.5,
+   "end": 18.55,
+   "builds": 1,
+   "text": "If she doesn’t, she must have an electric torch or a lighted lantern ready, showing a white light, and show it in enough time to prevent collision."
   },
   {
    "i": 3,
-   "start": 24.725,
-   "speechStart": 24.725,
-   "end": 34.35,
+   "start": 18.8,
+   "speechStart": 18.8,
+   "end": 25.475,
    "builds": 0,
-   "text": "By day, a vessel proceeding under sail while also propelled by machinery shall show a cone, apex downward, forward where it can best be seen."
+   "text": "So that single white light waving at you off the beach at dusk may be a little daysailer, telling you she’s there."
   },
   {
    "i": 4,
-   "start": 34.6,
-   "speechStart": 34.6,
-   "end": 40.15,
+   "start": 25.725,
+   "speechStart": 25.725,
+   "end": 28.975,
+   "builds": 1,
+   "text": "A vessel under oars may show the sailing lights."
+  },
+  {
+   "i": 5,
+   "start": 29.225,
+   "speechStart": 29.225,
+   "end": 33.175,
    "builds": 0,
-   "text": "Inland, a vessel under twelve meters isn’t required to show this cone, but may."
+   "text": "If not, she needs that same white torch or lantern ready."
+  },
+  {
+   "i": 6,
+   "start": 33.425,
+   "speechStart": 33.425,
+   "end": 35.075,
+   "builds": 1,
+   "text": "Now the shape."
+  },
+  {
+   "i": 7,
+   "start": 35.325,
+   "speechStart": 35.325,
+   "end": 44.175,
+   "builds": 0,
+   "text": "By day, a vessel under sail that’s also being propelled by her engine shows a cone, point down, forward where it can best be seen."
+  },
+  {
+   "i": 8,
+   "start": 44.425,
+   "speechStart": 44.425,
+   "end": 46.225,
+   "builds": 0,
+   "text": "Why would she bother?"
+  },
+  {
+   "i": 9,
+   "start": 46.475,
+   "speechStart": 47.225,
+   "end": 53.25,
+   "builds": 0,
+   "text": "Because with her sails up she looks like a sailboat, but under the rules she’s a power-driven vessel."
+  },
+  {
+   "i": 10,
+   "start": 53.5,
+   "speechStart": 53.5,
+   "end": 55.65,
+   "builds": 0,
+   "text": "The cone tells you the truth."
+  },
+  {
+   "i": 11,
+   "start": 55.9,
+   "speechStart": 55.9,
+   "end": 64.075,
+   "builds": 1,
+   "text": "And the Inland difference: under the Inland rules, a vessel under twelve meters isn’t required to show that cone, but may."
   }
  ]
 }

@@ -3,58 +3,130 @@
  "lessonId": "rules-10",
  "n": 1,
  "audio": "rules-10-1.mp3",
- "duration": 41.475,
+ "duration": 78.775,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.05,
+   "end": 8.85,
    "builds": 0,
-   "text": "Rule twenty-four covers towing and pushing."
+   "text": "Florida’s waters are full of tugs: fuel barges on the Intracoastal, dredge pipe in the inlets, big ocean tows off the coast."
   },
   {
    "i": 1,
-   "start": 3.3,
-   "speechStart": 3.3,
-   "end": 8.9,
+   "start": 9.1,
+   "speechStart": 9.1,
+   "end": 18.0,
    "builds": 0,
-   "text": "A power-driven vessel towing astern shows two masthead lights in a vertical line."
+   "text": "A tow is the most dangerous thing you can misread at night, because there may be hundreds of feet of cable between the tug and whatever she’s pulling."
   },
   {
    "i": 2,
-   "start": 9.15,
-   "speechStart": 9.15,
-   "end": 19.675,
+   "start": 18.25,
+   "speechStart": 18.25,
+   "end": 21.4,
    "builds": 0,
-   "text": "When the length of the tow, measured from the stern of the towing vessel to the after end of the tow, exceeds two hundred meters, she shows three masthead lights in a vertical line."
+   "text": "Rule twenty-four tells you how to spot one."
   },
   {
    "i": 3,
-   "start": 19.925,
-   "speechStart": 19.925,
-   "end": 26.825,
-   "builds": 0,
-   "text": "She also shows sidelights, a sternlight, and a yellow towing light in a vertical line above the sternlight."
+   "start": 21.65,
+   "speechStart": 21.65,
+   "end": 23.3,
+   "builds": 1,
+   "text": "Start from astern."
   },
   {
    "i": 4,
-   "start": 27.075,
-   "speechStart": 27.075,
-   "end": 32.65,
+   "start": 23.55,
+   "speechStart": 23.55,
+   "end": 29.15,
    "builds": 0,
-   "text": "A towing vessel fifty meters or more still shows her other masthead light as well."
+   "text": "A vessel towing astern shows a yellow towing light directly above her white sternlight."
   },
   {
    "i": 5,
-   "start": 32.9,
-   "speechStart": 32.9,
-   "end": 41.175,
+   "start": 29.4,
+   "speechStart": 29.4,
+   "end": 31.95,
    "builds": 0,
-   "text": "When the tow exceeds two hundred meters, both the towing vessel and the tow show a diamond shape by day where it can best be seen."
+   "text": "Yellow over white, towing tonight."
+  },
+  {
+   "i": 6,
+   "start": 32.2,
+   "speechStart": 32.2,
+   "end": 38.25,
+   "builds": 0,
+   "text": "If you’re coming up behind those two lights, something is trailing behind her, between you and the tug."
+  },
+  {
+   "i": 7,
+   "start": 38.5,
+   "speechStart": 38.5,
+   "end": 40.225,
+   "builds": 1,
+   "text": "Now from ahead."
+  },
+  {
+   "i": 8,
+   "start": 40.475,
+   "speechStart": 40.475,
+   "end": 47.1,
+   "builds": 0,
+   "text": "A power-driven vessel towing astern shows two masthead lights in a vertical line, plus sidelights."
+  },
+  {
+   "i": 9,
+   "start": 47.35,
+   "speechStart": 47.35,
+   "end": 51.55,
+   "builds": 0,
+   "text": "Two white lights stacked means a tow of two hundred meters or less."
+  },
+  {
+   "i": 10,
+   "start": 51.8,
+   "speechStart": 51.8,
+   "end": 58.125,
+   "builds": 1,
+   "text": "And when the tow is longer than two hundred meters, she shows three masthead lights in a vertical line."
+  },
+  {
+   "i": 11,
+   "start": 58.375,
+   "speechStart": 58.375,
+   "end": 60.5,
+   "builds": 0,
+   "text": "How is that length measured?"
+  },
+  {
+   "i": 12,
+   "start": 60.75,
+   "speechStart": 61.5,
+   "end": 65.425,
+   "builds": 0,
+   "text": "From the stern of the towing vessel to the after end of the tow."
+  },
+  {
+   "i": 13,
+   "start": 65.675,
+   "speechStart": 65.675,
+   "end": 72.975,
+   "builds": 0,
+   "text": "By day, a tow over two hundred meters is marked with a diamond shape, on both the towing vessel and the tow."
+  },
+  {
+   "i": 14,
+   "start": 73.225,
+   "speechStart": 73.225,
+   "end": 78.475,
+   "builds": 0,
+   "text": "And a tug of fifty meters or more still carries her other masthead light as well."
   }
  ]
 }

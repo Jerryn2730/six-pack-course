@@ -3,50 +3,114 @@
  "lessonId": "rules-07",
  "n": 3,
  "audio": "rules-07-3.mp3",
- "duration": 40.125,
+ "duration": 62.7,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 18.175,
+   "end": 4.35,
    "builds": 0,
-   "text": "Under International rules, any vessel other than a vessel not under command or a vessel restricted in her ability to maneuver shall, if circumstances admit, avoid impeding the safe passage of a vessel constrained by her draft that is showing the signals of Rule twenty-eight."
+   "text": "There’s one more vessel to place, and she only exists offshore."
   },
   {
    "i": 1,
-   "start": 18.425,
-   "speechStart": 18.425,
-   "end": 26.1,
-   "builds": 0,
-   "text": "The vessel constrained by her draft shall navigate with particular caution, having full regard to her special condition."
+   "start": 4.6,
+   "speechStart": 4.6,
+   "end": 8.1,
+   "builds": 1,
+   "text": "Constrained by her draft is International only."
   },
   {
    "i": 2,
-   "start": 26.35,
-   "speechStart": 26.35,
-   "end": 31.45,
+   "start": 8.35,
+   "speechStart": 8.35,
+   "end": 10.85,
    "builds": 0,
-   "text": "Remember from Rule eight that not impeding means acting early to leave sea room."
+   "text": "You won’t find her in the Inland rules."
   },
   {
    "i": 3,
-   "start": 31.7,
-   "speechStart": 31.7,
-   "end": 34.475,
-   "builds": 0,
-   "text": "It’s different from give-way and stand-on."
+   "start": 11.1,
+   "speechStart": 11.1,
+   "end": 25.925,
+   "builds": 1,
+   "text": "Under the International rules, any vessel other than one not under command, or one restricted in her ability to maneuver, shall, if the circumstances allow, avoid impeding the safe passage of a vessel constrained by her draft."
   },
   {
    "i": 4,
-   "start": 34.725,
-   "speechStart": 34.725,
-   "end": 39.825,
+   "start": 26.175,
+   "speechStart": 26.175,
+   "end": 31.575,
    "builds": 0,
-   "text": "And remember that constrained by draft doesn’t exist under Inland rules."
+   "text": "That’s a deep ship in a channel she can’t leave, showing the signals of Rule twenty-eight."
+  },
+  {
+   "i": 5,
+   "start": 31.825,
+   "speechStart": 31.825,
+   "end": 35.75,
+   "builds": 1,
+   "text": "In return, the constrained vessel has a duty of her own."
+  },
+  {
+   "i": 6,
+   "start": 36.0,
+   "speechStart": 36.0,
+   "end": 41.3,
+   "builds": 0,
+   "text": "She navigates with particular caution, with full regard to her special condition."
+  },
+  {
+   "i": 7,
+   "start": 41.55,
+   "speechStart": 41.55,
+   "end": 44.15,
+   "builds": 1,
+   "text": "Now notice the words avoid impeding."
+  },
+  {
+   "i": 8,
+   "start": 44.4,
+   "speechStart": 44.4,
+   "end": 47.075,
+   "builds": 0,
+   "text": "Remember from Rule eight what that means?"
+  },
+  {
+   "i": 9,
+   "start": 47.325,
+   "speechStart": 48.075,
+   "end": 51.05,
+   "builds": 0,
+   "text": "It means acting early to leave her sea room."
+  },
+  {
+   "i": 10,
+   "start": 51.3,
+   "speechStart": 51.3,
+   "end": 54.4,
+   "builds": 0,
+   "text": "It isn’t the same thing as give-way and stand-on."
+  },
+  {
+   "i": 11,
+   "start": 54.65,
+   "speechStart": 54.65,
+   "end": 59.75,
+   "builds": 0,
+   "text": "So if an exam question asks who is the stand-on vessel here, be careful."
+  },
+  {
+   "i": 12,
+   "start": 60.0,
+   "speechStart": 60.0,
+   "end": 62.4,
+   "builds": 0,
+   "text": "The rule doesn’t use those words."
   }
  ]
 }

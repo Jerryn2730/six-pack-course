@@ -3,58 +3,138 @@
  "lessonId": "rules-11",
  "n": 5,
  "audio": "rules-11-5.mp3",
- "duration": 41.975,
+ "duration": 79.05,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.2,
+   "end": 4.775,
    "builds": 0,
-   "text": "Annex two describes extra signals for fishing vessels fishing in close proximity."
+   "text": "Last, the extra signals for fishing vessels working close together."
   },
   {
    "i": 1,
-   "start": 6.45,
-   "speechStart": 6.45,
-   "end": 12.2,
+   "start": 5.025,
+   "speechStart": 5.025,
+   "end": 8.375,
    "builds": 0,
-   "text": "These lights are placed lower than the Rule twenty-six lights and are visible at least one mile."
+   "text": "In the International rules they’re in Annex two."
   },
   {
    "i": 2,
-   "start": 12.45,
-   "speechStart": 12.45,
-   "end": 24.225,
+   "start": 8.625,
+   "speechStart": 8.625,
+   "end": 13.225,
    "builds": 0,
-   "text": "A trawler may show two white lights in a vertical line when shooting her nets, white over red when hauling her nets, and two red lights in a vertical line when her net is fast on an obstruction."
+   "text": "In the Inland rules they now sit inside Rule twenty-six itself."
   },
   {
    "i": 3,
-   "start": 24.475,
-   "speechStart": 24.475,
-   "end": 30.3,
+   "start": 13.475,
+   "speechStart": 13.475,
+   "end": 19.375,
    "builds": 0,
-   "text": "Vessels pair trawling may direct a searchlight forward and toward the other vessel of the pair."
+   "text": "They’re optional, they’re carried lower than the main fishing lights, and they’re visible at least a mile."
   },
   {
    "i": 4,
-   "start": 30.55,
-   "speechStart": 30.55,
-   "end": 37.375,
+   "start": 19.625,
+   "speechStart": 19.625,
+   "end": 24.95,
    "builds": 0,
-   "text": "A purse seiner hampered by her gear may show two yellow lights in a vertical line, flashing alternately."
+   "text": "The exam asks you to match each signal to its meaning, so let’s go down the table."
   },
   {
    "i": 5,
-   "start": 37.625,
-   "speechStart": 37.625,
-   "end": 41.675,
+   "start": 25.2,
+   "speechStart": 25.2,
+   "end": 30.475,
+   "builds": 1,
+   "text": "A trawler shooting her nets, putting them out: two white lights in a vertical line."
+  },
+  {
+   "i": 6,
+   "start": 30.725,
+   "speechStart": 30.725,
+   "end": 34.7,
+   "builds": 1,
+   "text": "A trawler hauling her nets, bringing them in: white over red."
+  },
+  {
+   "i": 7,
+   "start": 34.95,
+   "speechStart": 34.95,
+   "end": 40.775,
+   "builds": 1,
+   "text": "A trawler whose net has come fast on an obstruction: two red lights in a vertical line."
+  },
+  {
+   "i": 8,
+   "start": 41.025,
+   "speechStart": 41.025,
+   "end": 45.625,
    "builds": 0,
-   "text": "The exam usually asks you to match each signal to its meaning."
+   "text": "Two reds usually means trouble, and here the trouble is a snagged net."
+  },
+  {
+   "i": 9,
+   "start": 45.875,
+   "speechStart": 45.875,
+   "end": 51.575,
+   "builds": 1,
+   "text": "Vessels pair trawling may each aim a searchlight forward and toward the other boat of the pair."
+  },
+  {
+   "i": 10,
+   "start": 51.825,
+   "speechStart": 51.825,
+   "end": 58.775,
+   "builds": 1,
+   "text": "And a purse seiner hampered by her gear may show two yellow lights in a vertical line, flashing alternately."
+  },
+  {
+   "i": 11,
+   "start": 59.025,
+   "speechStart": 59.775,
+   "end": 61.75,
+   "builds": 0,
+   "text": "That’s lesson eleven."
+  },
+  {
+   "i": 12,
+   "start": 62.0,
+   "speechStart": 62.0,
+   "end": 67.575,
+   "builds": 0,
+   "text": "Sail: sidelights and sternlight, no masthead light, and red over green if she likes."
+  },
+  {
+   "i": 13,
+   "start": 67.825,
+   "speechStart": 67.825,
+   "end": 69.975,
+   "builds": 0,
+   "text": "Trawling: green over white."
+  },
+  {
+   "i": 14,
+   "start": 70.225,
+   "speechStart": 70.225,
+   "end": 72.675,
+   "builds": 0,
+   "text": "Other fishing: red over white."
+  },
+  {
+   "i": 15,
+   "start": 72.925,
+   "speechStart": 72.925,
+   "end": 78.75,
+   "builds": 0,
+   "text": "Next time, the vessels at the top of the ladder, and the lights of boats at anchor and aground."
   }
  ]
 }

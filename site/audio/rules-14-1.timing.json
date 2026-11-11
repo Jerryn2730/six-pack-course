@@ -3,66 +3,130 @@
  "lessonId": "rules-14",
  "n": 1,
  "audio": "rules-14-1.mp3",
- "duration": 53.35,
+ "duration": 84.5,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.225,
+   "end": 1.9,
    "builds": 0,
-   "text": "Rule thirty-five covers sound signals in or near an area of restricted visibility, by day or night."
+   "text": "Back into the fog."
   },
   {
    "i": 1,
-   "start": 7.475,
-   "speechStart": 7.475,
-   "end": 12.025,
+   "start": 2.15,
+   "speechStart": 2.15,
+   "end": 6.35,
    "builds": 0,
-   "text": "Underway, signals are sounded at intervals of not more than two minutes."
+   "text": "In lesson eight, we learned what to do when you hear a fog signal."
   },
   {
    "i": 2,
-   "start": 12.275,
-   "speechStart": 12.275,
-   "end": 17.5,
+   "start": 6.6,
+   "speechStart": 6.6,
+   "end": 10.75,
    "builds": 0,
-   "text": "A power-driven vessel making way through the water sounds one prolonged blast."
+   "text": "Today, we learn what those signals are, and what you sound yourself."
   },
   {
    "i": 3,
-   "start": 17.75,
-   "speechStart": 17.75,
-   "end": 24.9,
+   "start": 11.0,
+   "speechStart": 11.0,
+   "end": 17.4,
    "builds": 0,
-   "text": "A power-driven vessel underway but stopped sounds two prolonged blasts, with about two seconds between them."
+   "text": "Rule thirty-five applies in or near an area of restricted visibility, by day or by night."
   },
   {
    "i": 4,
-   "start": 25.15,
-   "speechStart": 25.15,
-   "end": 37.05,
+   "start": 17.65,
+   "speechStart": 17.65,
+   "end": 22.725,
    "builds": 0,
-   "text": "A vessel not under command, restricted, constrained by her draft, sailing, engaged in fishing, or towing or pushing sounds one prolonged blast followed by two short blasts."
+   "text": "Underway, every signal is repeated at intervals of not more than two minutes."
   },
   {
    "i": 5,
-   "start": 37.3,
-   "speechStart": 37.3,
-   "end": 48.1,
-   "builds": 0,
-   "text": "A vessel towed, or the last vessel of a tow, if manned, sounds one prolonged followed by three short blasts, right after the towing vessel’s signal if practicable."
+   "start": 22.975,
+   "speechStart": 22.975,
+   "end": 27.35,
+   "builds": 1,
+   "text": "A power-driven vessel making way sounds one prolonged blast."
   },
   {
    "i": 6,
-   "start": 48.35,
-   "speechStart": 48.35,
-   "end": 53.05,
+   "start": 27.6,
+   "speechStart": 27.6,
+   "end": 32.9,
    "builds": 0,
-   "text": "A composite pushing unit gives the signals of a power-driven vessel."
+   "text": "That’s you, running slowly home in the fog: one long blast, every two minutes."
+  },
+  {
+   "i": 7,
+   "start": 33.15,
+   "speechStart": 33.15,
+   "end": 41.475,
+   "builds": 1,
+   "text": "A power-driven vessel underway but stopped, not making way, sounds two prolonged blasts, with about two seconds between them."
+  },
+  {
+   "i": 8,
+   "start": 41.725,
+   "speechStart": 41.725,
+   "end": 47.5,
+   "builds": 1,
+   "text": "Then comes one signal shared by a whole group: one prolonged blast followed by two short."
+  },
+  {
+   "i": 9,
+   "start": 47.75,
+   "speechStart": 47.75,
+   "end": 58.525,
+   "builds": 0,
+   "text": "It’s sounded by a vessel not under command, restricted in her ability to maneuver, constrained by her draft, sailing, engaged in fishing, or towing or pushing."
+  },
+  {
+   "i": 10,
+   "start": 58.775,
+   "speechStart": 58.775,
+   "end": 60.5,
+   "builds": 0,
+   "text": "Sound familiar?"
+  },
+  {
+   "i": 11,
+   "start": 60.75,
+   "speechStart": 61.5,
+   "end": 64.55,
+   "builds": 0,
+   "text": "It’s almost everybody above you on the ladder."
+  },
+  {
+   "i": 12,
+   "start": 64.8,
+   "speechStart": 64.8,
+   "end": 68.675,
+   "builds": 0,
+   "text": "So one long and two short means: I’m hampered, stay clear."
+  },
+  {
+   "i": 13,
+   "start": 68.925,
+   "speechStart": 68.925,
+   "end": 78.75,
+   "builds": 1,
+   "text": "And a vessel being towed, or the last vessel of the tow, if she’s manned, sounds one prolonged and three short, right after the tug’s signal if practicable."
+  },
+  {
+   "i": 14,
+   "start": 79.0,
+   "speechStart": 79.0,
+   "end": 84.2,
+   "builds": 0,
+   "text": "A composite pushing unit simply sounds the signals of a power-driven vessel."
   }
  ]
 }

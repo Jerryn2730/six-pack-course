@@ -3,42 +3,114 @@
  "lessonId": "rules-11",
  "n": 4,
  "audio": "rules-11-4.mp3",
- "duration": 34.4,
+ "duration": 53.625,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 2,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.025,
+   "end": 2.825,
    "builds": 0,
-   "text": "By day, a vessel engaged in fishing shows two cones with their apexes together, one above the other."
+   "text": "By day, fishing vessels use shapes."
   },
   {
    "i": 1,
-   "start": 7.275,
-   "speechStart": 7.275,
-   "end": 16.975,
-   "builds": 0,
-   "text": "A vessel fishing with outlying gear extending more than one hundred fifty meters also shows a cone, apex upward, in the direction of the gear."
+   "start": 3.075,
+   "speechStart": 3.075,
+   "end": 8.975,
+   "builds": 1,
+   "text": "A vessel engaged in fishing shows two cones with their points together, one above the other."
   },
   {
    "i": 2,
-   "start": 17.225,
-   "speechStart": 17.225,
-   "end": 24.625,
+   "start": 9.225,
+   "speechStart": 9.225,
+   "end": 11.275,
    "builds": 0,
-   "text": "When a fishing vessel is not engaged in fishing, she shows only the normal lights or shapes for a vessel of her length."
+   "text": "It looks like an hourglass."
   },
   {
    "i": 3,
-   "start": 24.875,
-   "speechStart": 24.875,
-   "end": 34.1,
+   "start": 11.525,
+   "speechStart": 11.525,
+   "end": 19.25,
+   "builds": 1,
+   "text": "And when her gear extends more than one hundred fifty meters, she adds a single cone, point up, in the direction of the gear."
+  },
+  {
+   "i": 4,
+   "start": 19.5,
+   "speechStart": 19.5,
+   "end": 23.925,
    "builds": 0,
-   "text": "So a shrimp boat steaming home at night with her nets stowed shows ordinary power-driven lights, and has none of the privileges of a fishing vessel."
+   "text": "Same idea as the white light at night: it points to where the gear is."
+  },
+  {
+   "i": 5,
+   "start": 24.175,
+   "speechStart": 24.925,
+   "end": 29.0,
+   "builds": 0,
+   "text": "Now the other half of the rule, and it’s a favorite on the exam."
+  },
+  {
+   "i": 6,
+   "start": 29.25,
+   "speechStart": 29.25,
+   "end": 36.65,
+   "builds": 0,
+   "text": "When a fishing vessel isn’t engaged in fishing, she shows only the ordinary lights or shapes for a vessel of her length."
+  },
+  {
+   "i": 7,
+   "start": 36.9,
+   "speechStart": 36.9,
+   "end": 41.3,
+   "builds": 0,
+   "text": "So think of a shrimper steaming home before dawn with her nets stowed."
+  },
+  {
+   "i": 8,
+   "start": 41.55,
+   "speechStart": 41.55,
+   "end": 43.175,
+   "builds": 0,
+   "text": "What does she show?"
+  },
+  {
+   "i": 9,
+   "start": 43.425,
+   "speechStart": 43.425,
+   "end": 45.55,
+   "builds": 0,
+   "text": "Plain power-driven lights."
+  },
+  {
+   "i": 10,
+   "start": 45.8,
+   "speechStart": 45.8,
+   "end": 48.625,
+   "builds": 0,
+   "text": "And what privileges does she have over you?"
+  },
+  {
+   "i": 11,
+   "start": 48.875,
+   "speechStart": 48.875,
+   "end": 50.2,
+   "builds": 0,
+   "text": "None."
+  },
+  {
+   "i": 12,
+   "start": 50.45,
+   "speechStart": 50.45,
+   "end": 53.325,
+   "builds": 0,
+   "text": "She’s just another power-driven vessel."
   }
  ]
 }

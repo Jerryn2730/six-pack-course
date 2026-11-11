@@ -3,58 +3,130 @@
  "lessonId": "rules-09",
  "n": 5,
  "audio": "rules-09-5.mp3",
- "duration": 53.025,
+ "duration": 84.875,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.25,
+   "end": 5.275,
    "builds": 0,
-   "text": "A few special cases."
+   "text": "A few special cases to finish, and each one is a favorite exam question."
   },
   {
    "i": 1,
-   "start": 2.5,
-   "speechStart": 2.5,
-   "end": 8.925,
-   "builds": 0,
-   "text": "An air-cushion vessel operating in the non-displacement mode adds an all-round flashing yellow light."
+   "start": 5.525,
+   "speechStart": 5.525,
+   "end": 12.6,
+   "builds": 1,
+   "text": "An air-cushion vessel, when she’s operating in the non-displacement mode, adds an all-round flashing yellow light."
   },
   {
    "i": 2,
-   "start": 9.175,
-   "speechStart": 9.175,
-   "end": 17.25,
+   "start": 12.85,
+   "speechStart": 12.85,
+   "end": 15.175,
    "builds": 0,
-   "text": "A wing-in-ground craft taking off, landing or flying near the surface adds a high-intensity all-round flashing red light."
+   "text": "Hovercraft, flashing yellow."
   },
   {
    "i": 3,
-   "start": 17.5,
-   "speechStart": 17.5,
-   "end": 29.425,
-   "builds": 0,
-   "text": "A power-driven vessel under seven meters whose maximum speed doesn’t exceed seven knots may show an all-round white light instead, and shall, if practicable, also show sidelights."
+   "start": 15.425,
+   "speechStart": 15.425,
+   "end": 23.9,
+   "builds": 1,
+   "text": "A wing-in-ground craft, when taking off, landing or flying near the surface, adds a high-intensity all-round flashing red light."
   },
   {
    "i": 4,
-   "start": 29.675,
-   "speechStart": 29.675,
-   "end": 43.6,
-   "builds": 0,
-   "text": "On a power-driven vessel under twelve meters, the masthead or all-round light may be off the centerline if centerline fitting isn’t practicable, provided the sidelights are combined in one lantern near the centerline."
+   "start": 24.15,
+   "speechStart": 24.15,
+   "end": 26.55,
+   "builds": 1,
+   "text": "Next, the smallest powerboats."
   },
   {
    "i": 5,
-   "start": 43.85,
-   "speechStart": 43.85,
-   "end": 52.725,
+   "start": 26.8,
+   "speechStart": 26.8,
+   "end": 39.175,
    "builds": 0,
-   "text": "Inland, on the Great Lakes, a power-driven vessel may show an all-round white light in place of the second masthead light and the sternlight."
+   "text": "Under the International rules, a power-driven vessel under seven meters, whose top speed is no more than seven knots, may show just an all-round white light, and sidelights too if practicable."
+  },
+  {
+   "i": 6,
+   "start": 39.425,
+   "speechStart": 39.425,
+   "end": 41.9,
+   "builds": 0,
+   "text": "Seven meters, seven knots."
+  },
+  {
+   "i": 7,
+   "start": 42.15,
+   "speechStart": 42.15,
+   "end": 51.625,
+   "builds": 1,
+   "text": "On a boat under twelve meters, the masthead light or all-round white light doesn’t have to be exactly on the centerline, if that isn’t practicable."
+  },
+  {
+   "i": 8,
+   "start": 51.875,
+   "speechStart": 51.875,
+   "end": 54.2,
+   "builds": 1,
+   "text": "And one for the Inland rules."
+  },
+  {
+   "i": 9,
+   "start": 54.45,
+   "speechStart": 54.45,
+   "end": 62.65,
+   "builds": 0,
+   "text": "On the Great Lakes, a power-driven vessel may carry an all-round white light in place of the second masthead light and the sternlight."
+  },
+  {
+   "i": 10,
+   "start": 62.9,
+   "speechStart": 63.65,
+   "end": 65.525,
+   "builds": 0,
+   "text": "That’s lesson nine."
+  },
+  {
+   "i": 11,
+   "start": 65.775,
+   "speechStart": 65.775,
+   "end": 70.225,
+   "builds": 0,
+   "text": "Lights from sunset to sunrise and in restricted visibility."
+  },
+  {
+   "i": 12,
+   "start": 70.475,
+   "speechStart": 70.475,
+   "end": 76.375,
+   "builds": 0,
+   "text": "Masthead two twenty-five, sidelights one twelve and a half, sternlight one thirty-five."
+  },
+  {
+   "i": 13,
+   "start": 76.625,
+   "speechStart": 76.625,
+   "end": 80.95,
+   "builds": 0,
+   "text": "And for ranges, think six and three, five and two, two and one."
+  },
+  {
+   "i": 14,
+   "start": 81.2,
+   "speechStart": 81.2,
+   "end": 84.575,
+   "builds": 0,
+   "text": "Next time: the lights of vessels that are towing."
   }
  ]
 }

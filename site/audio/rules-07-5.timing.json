@@ -3,10 +3,10 @@
  "lessonId": "rules-07",
  "n": 5,
  "audio": "rules-07-5.mp3",
- "duration": 33.45,
+ "duration": 62.5,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
@@ -14,39 +14,87 @@
    "speechStart": 0.15,
    "end": 4.525,
    "builds": 0,
-   "text": "Rule eighteen also covers seaplanes and wing-in-ground craft."
+   "text": "Last, two unusual craft that Rule eighteen also covers."
   },
   {
    "i": 1,
    "start": 4.775,
    "speechStart": 4.775,
    "end": 12.05,
-   "builds": 0,
+   "builds": 1,
    "text": "A seaplane on the water shall, in general, keep well clear of all vessels and avoid impeding their navigation."
   },
   {
    "i": 2,
    "start": 12.3,
    "speechStart": 12.3,
-   "end": 16.925,
+   "end": 17.5,
    "builds": 0,
-   "text": "But where risk of collision exists, she shall comply with the steering rules."
+   "text": "Think of it this way: she can leave by air, so she stays out of the way on the water."
   },
   {
    "i": 3,
-   "start": 17.175,
-   "speechStart": 17.175,
-   "end": 27.4,
-   "builds": 0,
-   "text": "A wing-in-ground craft, when taking off, landing and in flight near the surface, shall keep well clear of all other vessels and avoid impeding their navigation."
+   "start": 17.75,
+   "speechStart": 17.75,
+   "end": 23.075,
+   "builds": 1,
+   "text": "But where risk of collision exists, she follows the steering rules like everyone else."
   },
   {
    "i": 4,
-   "start": 27.65,
-   "speechStart": 27.65,
-   "end": 33.15,
+   "start": 23.325,
+   "speechStart": 23.325,
+   "end": 33.35,
+   "builds": 1,
+   "text": "A wing-in-ground craft, when taking off, landing, or flying near the surface, keeps well clear of all other vessels and avoids impeding their navigation."
+  },
+  {
+   "i": 5,
+   "start": 33.6,
+   "speechStart": 33.6,
+   "end": 39.6,
+   "builds": 1,
+   "text": "And when she’s operating on the water surface, she follows the rules as a power-driven vessel."
+  },
+  {
+   "i": 6,
+   "start": 39.85,
+   "speechStart": 40.6,
+   "end": 42.525,
    "builds": 0,
-   "text": "When operating on the water surface, she follows the rules as a power-driven vessel."
+   "text": "That’s lesson seven."
+  },
+  {
+   "i": 7,
+   "start": 42.775,
+   "speechStart": 42.775,
+   "end": 48.25,
+   "builds": 0,
+   "text": "The ladder, from the top: broken or busy, then fishing, then sail, then power."
+  },
+  {
+   "i": 8,
+   "start": 48.5,
+   "speechStart": 48.5,
+   "end": 51.85,
+   "builds": 0,
+   "text": "Constrained by draft is International only."
+  },
+  {
+   "i": 9,
+   "start": 52.1,
+   "speechStart": 52.1,
+   "end": 56.85,
+   "builds": 0,
+   "text": "And narrow channels, traffic lanes and overtaking override the ladder."
+  },
+  {
+   "i": 10,
+   "start": 57.1,
+   "speechStart": 57.1,
+   "end": 62.2,
+   "builds": 0,
+   "text": "Next time, we go where none of this applies: into the fog, and Rule nineteen."
   }
  ]
 }

@@ -3,42 +3,138 @@
  "lessonId": "rules-08",
  "n": 2,
  "audio": "rules-08-2.mp3",
- "duration": 36.15,
+ "duration": 63.5,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 8.575,
+   "end": 2.425,
    "builds": 0,
-   "text": "Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility."
+   "text": "So what does the rule ask of you?"
   },
   {
    "i": 1,
-   "start": 8.825,
-   "speechStart": 8.825,
-   "end": 13.575,
+   "start": 2.675,
+   "speechStart": 2.675,
+   "end": 5.075,
    "builds": 0,
-   "text": "A power-driven vessel shall have her engines ready for immediate maneuver."
+   "text": "Start with speed and readiness."
   },
   {
    "i": 2,
-   "start": 13.825,
-   "speechStart": 13.825,
-   "end": 23.225,
-   "builds": 0,
-   "text": "Every vessel shall have due regard to the prevailing circumstances and conditions of restricted visibility when complying with Rules four through ten."
+   "start": 5.325,
+   "speechStart": 5.325,
+   "end": 11.85,
+   "builds": 1,
+   "text": "Every vessel shall proceed at a safe speed adapted to the conditions of restricted visibility."
   },
   {
    "i": 3,
-   "start": 23.475,
-   "speechStart": 23.475,
-   "end": 35.85,
+   "start": 12.1,
+   "speechStart": 12.1,
+   "end": 15.65,
    "builds": 0,
-   "text": "In practice, that means slowing down, posting an extra lookout to listen, sounding the fog signals of Rule thirty-five, keeping your navigation lights on, and plotting every radar target."
+   "text": "That’s Rule six, with the fog pressed down hard on it."
+  },
+  {
+   "i": 4,
+   "start": 15.9,
+   "speechStart": 15.9,
+   "end": 20.65,
+   "builds": 1,
+   "text": "A power-driven vessel shall have her engines ready for immediate maneuver."
+  },
+  {
+   "i": 5,
+   "start": 20.9,
+   "speechStart": 20.9,
+   "end": 23.675,
+   "builds": 0,
+   "text": "No autopilot and a cup of coffee."
+  },
+  {
+   "i": 6,
+   "start": 23.925,
+   "speechStart": 23.925,
+   "end": 26.0,
+   "builds": 0,
+   "text": "A hand near the throttles."
+  },
+  {
+   "i": 7,
+   "start": 26.25,
+   "speechStart": 26.25,
+   "end": 35.575,
+   "builds": 1,
+   "text": "And every vessel applies Rules four through ten with the visibility in mind: the lookout, safe speed, risk of collision, and action to avoid it."
+  },
+  {
+   "i": 8,
+   "start": 35.825,
+   "speechStart": 35.825,
+   "end": 38.45,
+   "builds": 1,
+   "text": "So here’s what that looks like on your boat."
+  },
+  {
+   "i": 9,
+   "start": 38.7,
+   "speechStart": 38.7,
+   "end": 40.3,
+   "builds": 0,
+   "text": "Slow down."
+  },
+  {
+   "i": 10,
+   "start": 40.55,
+   "speechStart": 40.55,
+   "end": 44.45,
+   "builds": 0,
+   "text": "Put someone forward to listen, away from the engine noise."
+  },
+  {
+   "i": 11,
+   "start": 44.7,
+   "speechStart": 44.7,
+   "end": 46.65,
+   "builds": 0,
+   "text": "Sound your fog signals."
+  },
+  {
+   "i": 12,
+   "start": 46.9,
+   "speechStart": 46.9,
+   "end": 50.15,
+   "builds": 0,
+   "text": "Turn your navigation lights on, even at noon."
+  },
+  {
+   "i": 13,
+   "start": 50.4,
+   "speechStart": 50.4,
+   "end": 54.8,
+   "builds": 0,
+   "text": "And if you have radar, plot every target, don’t just glance at it."
+  },
+  {
+   "i": 14,
+   "start": 55.05,
+   "speechStart": 55.8,
+   "end": 59.55,
+   "builds": 0,
+   "text": "One more thing your passengers won’t like: quiet on deck."
+  },
+  {
+   "i": 15,
+   "start": 59.8,
+   "speechStart": 59.8,
+   "end": 63.2,
+   "builds": 0,
+   "text": "In fog, your ears are a navigation instrument."
   }
  ]
 }

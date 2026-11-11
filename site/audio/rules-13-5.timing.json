@@ -3,50 +3,130 @@
  "lessonId": "rules-13",
  "n": 5,
  "audio": "rules-13-5.mp3",
- "duration": 45.525,
+ "duration": 72.525,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 2,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 12.95,
+   "end": 3.8,
    "builds": 0,
-   "text": "When vessels in sight are approaching each other and either fails to understand the other’s intentions, or doubts the other is taking enough action, she shall immediately sound at least five short and rapid blasts."
+   "text": "Three more signals, and the first one could save your life."
   },
   {
    "i": 1,
-   "start": 13.2,
-   "speechStart": 13.2,
-   "end": 19.9,
-   "builds": 0,
-   "text": "That’s the danger or doubt signal, and it may be supplemented by at least five short and rapid flashes."
+   "start": 4.05,
+   "speechStart": 4.05,
+   "end": 5.875,
+   "builds": 1,
+   "text": "The danger signal."
   },
   {
    "i": 2,
-   "start": 20.15,
-   "speechStart": 20.15,
-   "end": 31.575,
+   "start": 6.125,
+   "speechStart": 6.125,
+   "end": 18.75,
    "builds": 0,
-   "text": "A vessel nearing a bend or area where other vessels may be hidden sounds one prolonged blast, and any vessel around the bend that hears it answers with one prolonged blast."
+   "text": "When vessels in sight are approaching each other, and one doesn’t understand the other’s intentions, or doubts she’s doing enough to avoid a collision, she immediately sounds at least five short, rapid blasts."
   },
   {
    "i": 3,
-   "start": 31.825,
-   "speechStart": 31.825,
-   "end": 37.7,
+   "start": 19.0,
+   "speechStart": 19.0,
+   "end": 20.675,
    "builds": 0,
-   "text": "Inland, a power-driven vessel leaving a dock or berth sounds one prolonged blast."
+   "text": "Five or more."
   },
   {
    "i": 4,
-   "start": 37.95,
-   "speechStart": 37.95,
-   "end": 45.225,
+   "start": 20.925,
+   "speechStart": 20.925,
+   "end": 25.4,
    "builds": 0,
-   "text": "And if a vessel has whistles more than one hundred meters apart, only one whistle is used for maneuvering signals."
+   "text": "It can be backed up with at least five short, rapid flashes of a light."
+  },
+  {
+   "i": 5,
+   "start": 25.65,
+   "speechStart": 25.65,
+   "end": 27.625,
+   "builds": 0,
+   "text": "So when should you use it?"
+  },
+  {
+   "i": 6,
+   "start": 27.875,
+   "speechStart": 28.625,
+   "end": 30.525,
+   "builds": 0,
+   "text": "The moment you’re in doubt."
+  },
+  {
+   "i": 7,
+   "start": 30.775,
+   "speechStart": 30.775,
+   "end": 32.4,
+   "builds": 0,
+   "text": "Not after."
+  },
+  {
+   "i": 8,
+   "start": 32.65,
+   "speechStart": 32.65,
+   "end": 36.075,
+   "builds": 0,
+   "text": "It doesn’t mean you’re angry, and it doesn’t mean you’re right."
+  },
+  {
+   "i": 9,
+   "start": 36.325,
+   "speechStart": 36.325,
+   "end": 39.35,
+   "builds": 0,
+   "text": "It means: I don’t understand what you’re doing."
+  },
+  {
+   "i": 10,
+   "start": 39.6,
+   "speechStart": 39.6,
+   "end": 41.925,
+   "builds": 1,
+   "text": "Next, one prolonged blast."
+  },
+  {
+   "i": 11,
+   "start": 42.175,
+   "speechStart": 42.175,
+   "end": 54.55,
+   "builds": 0,
+   "text": "You met it in lesson four: a vessel nearing a bend, or a place where other vessels may be hidden, sounds one prolonged blast, and any vessel around the bend answers with one prolonged blast."
+  },
+  {
+   "i": 12,
+   "start": 54.8,
+   "speechStart": 54.8,
+   "end": 62.775,
+   "builds": 0,
+   "text": "Under the Inland rules, one prolonged blast has a second use: a power-driven vessel leaving a dock or berth sounds it."
+  },
+  {
+   "i": 13,
+   "start": 63.025,
+   "speechStart": 63.025,
+   "end": 65.025,
+   "builds": 0,
+   "text": "And one small detail."
+  },
+  {
+   "i": 14,
+   "start": 65.275,
+   "speechStart": 65.275,
+   "end": 72.225,
+   "builds": 0,
+   "text": "If a ship has whistles more than one hundred meters apart, she uses only one of them for maneuvering signals."
   }
  ]
 }

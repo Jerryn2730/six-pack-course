@@ -141,6 +141,7 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .lm{color:var(--muted);font-size:.95rem}
 .lm .fin{color:var(--ok);font-weight:600}
 .mod-h{margin-top:1.6rem}
+.lcov{font-weight:500;color:var(--muted);white-space:nowrap}
 .player{max-width:900px}
 .back-link{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;text-decoration:none}
 .les-title{font-size:clamp(1.8rem,5vw,2.6rem);margin-bottom:1rem}
@@ -154,6 +155,9 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .vpoints li::marker,.vscript li::marker{color:var(--mag);font-weight:700}
 .vrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.8rem;width:100%}
 .vrow figure{margin:0}
+.hear{margin-top:.35rem;font:inherit;font-size:.85rem;font-weight:600;color:var(--mag);background:var(--surface);border:1.5px solid var(--mag);border-radius:999px;padding:.15rem .7rem;cursor:pointer}
+.hookq{color:#fff;font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;font-size:clamp(1.3rem,4vw,1.8rem);text-align:center;padding:1.6rem 1rem;line-height:1.25}
+.due{margin:0 0 1.6rem;padding:1rem 1.2rem;border:1px solid var(--line);border-left:6px solid var(--mag);border-radius:12px;background:var(--surface);display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;justify-content:space-between}.due p{margin:0}
 .vrow figcaption{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;text-align:center;margin-top:.35rem;font-size:1rem;line-height:1.25}
 .vformula{text-align:center}
 .vformula .big{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;font-size:clamp(2.2rem,7vw,3.6rem);color:var(--mag);margin-bottom:.7rem;line-height:1}
@@ -296,11 +300,13 @@ try{const s=localStorage.getItem("oupv-v1");if(s){const p=JSON.parse(s);if(p&&p.
 function save(){try{localStorage.setItem("oupv-v1",JSON.stringify(store));}catch(e){}updateBadge();}
 function record(id,ok){
   const s=store.stats[id]||[0,0,0];s[0]++;if(ok)s[1]++;s[2]=ok?1:0;store.stats[id]=s;
+  const sr=store.sr||(store.sr={}),o=sr[id]||{b:0},DAY=864e5;if(ok){o.due=Date.now()+[1,2,4,8,16,32][o.b]*DAY;o.b=Math.min(5,o.b+1);}else{o.b=0;o.due=Date.now()+6e5;}sr[id]=o;
   const i=store.misses.indexOf(id);
   if(!ok&&i<0)store.misses.push(id);
   if(ok&&i>=0)store.misses.splice(i,1);
   save();
 }
+function dueList(){const sr=store.sr||{},now=Date.now();return BANK.filter(x=>sr[x.id]&&sr[x.id].due<=now);}
 function updateBadge(){const b=document.getElementById("badge");const n=store.misses.filter(id=>BANK.some(x=>x.id===id)).length;b.hidden=!n;b.textContent=n;}
 
 /* ---------- Helpers ---------- */
@@ -359,6 +365,7 @@ function home(){
     return `<div class="mod"><div><h3>${info.name}</h3><div class="meta">${ok} of ${qs.length} answered right on the latest try. ${seen} seen. Pass mark ${info.pass}%.</div></div><button class="btn ghost" data-mod="${m}">Practice</button><div class="track"><span style="width:${(ok/qs.length*100).toFixed(0)}%"></span></div></div>`;
   }).join("");
   main.innerHTML=`<section class="hero"><div><h1>Study for your six-pack captain’s exam</h1><p class="lede">Narrated lessons with slides, ${BANK.length} practice questions, light and sound-signal flashcards, and endless plotting drills for all four modules of the Coast Guard OUPV exam. Progress is saved in this browser.</p><div class="row"><a class="btn" href="#lessons">Start the lessons</a><a class="btn ghost" href="#test">Take a practice test</a></div></div>${rose()}</section>
+  ${(()=>{const n=dueList().length;return n?`<div class="due"><p><strong>${n} question${n===1?"":"s"} due for review today.</strong> Reviewing just before you’d forget is what makes it stick.</p><button class="btn" id="rev">Review now</button></div>`:"";})()}
   <section><h2>Your progress</h2><p class="muted">${LESSONS.filter(l=>(store.done||[]).includes(l.id)).length} of ${LESSONS.length} lessons finished.</p><div class="mods">${rows}</div></section>
   <section class="tips"><h2>Before exam day</h2><ul>
   <li>Rules of the Road needs 90%. Drill lights, shapes and sound signals daily until they’re instant.</li>
@@ -367,6 +374,7 @@ function home(){
   <li>Aim for 90% on Rules and 80% everywhere else on two practice tests in a row before you sit the exam.</li></ul></section>
   <p><button class="link" id="reset">Clear my progress</button></p>`;
   main.querySelectorAll("[data-mod]").forEach(b=>b.onclick=()=>{quizMod=b.dataset.mod;quizAuto=true;location.hash="quiz";});
+  const rv=document.getElementById("rev");if(rv)rv.onclick=()=>startSession(shuffle(dueList()).slice(0,20),{mode:"learn",title:"Spaced review",key:"review"});
   const r=document.getElementById("reset");let armed=false;
   r.onclick=()=>{if(!armed){armed=true;r.textContent="Click again to clear all progress";return;}store={stats:{},misses:[]};save();home();};
 }
@@ -476,8 +484,43 @@ document.addEventListener("keydown",e=>{
   else if(e.key==="Enter"){const n=document.getElementById("next");if(n&&!n.hidden&&document.activeElement!==n){e.preventDefault();n.click();}}
 });
 
+/* ---------- Hear a sound signal (Web Audio; a synthesized horn, no files) ---------- */
+let HORN=null;
+function playSignal(pat){
+  try{const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;HORN=HORN||new AC();if(HORN.state==="suspended")HORN.resume();
+    if(HORN._g){try{HORN._g.gain.cancelScheduledValues(0);HORN._g.gain.value=0;HORN._g.disconnect();}catch(e){}}
+    const g=HORN.createGain(),f=HORN.createBiquadFilter();f.type="lowpass";f.frequency.value=900;g.gain.value=0;f.connect(g);g.connect(HORN.destination);HORN._g=g;
+    const o=[155,233,311].map(hz=>{const x=HORN.createOscillator();x.type="sawtooth";x.frequency.value=hz;x.connect(f);x.start();return x;});
+    let at=HORN.currentTime+.05;[...pat].forEach(c=>{const d=c==="P"?4.5:1;g.gain.setValueAtTime(0,at);g.gain.linearRampToValueAtTime(.16,at+.06);g.gain.setValueAtTime(.16,at+d-.08);g.gain.linearRampToValueAtTime(0,at+d);at+=d+1;});
+    o.forEach(x=>x.stop(at));
+  }catch(e){}
+}
+document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest(".hear");if(!b)return;if(PL.playing){stopSpeech();setPP();}playSignal(b.dataset.p);});
+
 /* ---------- Flashcards ---------- */
-const DECKS={lights:{name:"Lights at night",cards:LIGHTS},shapes:{name:"Day shapes",cards:SHAPES},sounds:{name:"Sound signals",cards:SOUNDS}};
+const HOOKS=[
+ {q:"Two all-round red lights, one above the other",a:"Red over red, the captain is dead",n:"Not under command."},
+ {q:"Not under command, or restricted in her ability to maneuver?",a:"Broken, or busy?",n:"Broken: not under command. Busy with her work: restricted."},
+ {q:"Green over white, all-round",a:"Green over white, trawling tonight",n:"A vessel engaged in trawling."},
+ {q:"Red over white, all-round",a:"Red over white, fishing tonight",n:"Fishing other than trawling."},
+ {q:"White over red, all-round",a:"White over red, pilot ahead",n:"A pilot vessel on duty. Check which color is on top."},
+ {q:"Red over green at the masthead",a:"Red over green, sailing machine",n:"Optional lights for a sailing vessel. Not shown with a tricolor."},
+ {q:"A yellow light above a white light, seen from astern",a:"Yellow over white, towing tonight",n:"The towing light above the sternlight: something is being towed behind her."},
+ {q:"Crossing at night, you see her red sidelight",a:"Red means stop: you give way",n:"Green means go: you stand on. Power-driven vessels in sight only."},
+ {q:"The stand-on vessel’s three stages",a:"Shall hold, may act, shall act",n:"Rule 17."},
+ {q:"Joining a traffic lane, and crossing one",a:"Merge at a small angle, cross at a right angle",n:"Rule 10."},
+ {q:"One short blast: International and Inland",a:"Offshore I tell you, inshore I ask you",n:"International signals state an action. Inland signals propose and need an answer."},
+ {q:"The ladder, from the top",a:"Broken or busy, fishing, sail, power",n:"Rule 18. Narrow channels, traffic lanes and overtaking override it."},
+ {q:"Light ranges: masthead and the rest",a:"Six and three, five and two, two and one",n:"50 m and over; 12 to 50 m (masthead 3 under 20 m); under 12 m (sidelights 1)."},
+ {q:"Passing a dredge",a:"Pass on the green side",n:"Two green lights or two diamonds mark the safe side; two reds or two balls mark the obstruction."},
+ {q:"Buoys when coming in from sea",a:"Red, right, returning",n:"Keep red marks on your starboard side returning from sea."},
+ {q:"Compass and magnetic differ: which way is the error?",a:"Compass least, error east; compass best, error west",n:"Deviation and variation both follow it."},
+ {q:"Speed, time and distance",a:"60 D Street",n:"60 × D = S × T, with time in minutes."},
+ {q:"Using a fire extinguisher",a:"PASS",n:"Pull, Aim at the base, Squeeze, Sweep."},
+ {q:"Falling into cold water",a:"1-10-1",n:"1 minute of cold shock, 10 minutes of useful movement, 1 hour to unconsciousness."},
+ {q:"Fog signal of a hampered vessel",a:"One long, two short",n:"Not under command, restricted, constrained by draft, sailing, fishing, towing or pushing."}
+];
+const DECKS={lights:{name:"Lights at night",cards:LIGHTS},shapes:{name:"Day shapes",cards:SHAPES},sounds:{name:"Sound signals",cards:SOUNDS},hooks:{name:"Memory hooks",cards:HOOKS}};
 let C={deck:"lights",order:[],i:0,shown:false,got:0,seen:0};
 const LC={r:"#ff453a",g:"#30d158",w:"#fff4d6",y:"#ffd60a"};
 function drawLights(c){
@@ -504,7 +547,7 @@ function drawSound(c){
 function cards(){C.order=shuffle(DECKS[C.deck].cards.map((_,i)=>i));C.i=0;C.shown=false;C.got=0;C.seen=0;renderCard();}
 function renderCard(){
   const deck=DECKS[C.deck],card=deck.cards[C.order[C.i]];
-  const art=C.deck==="lights"?drawLights(card):C.deck==="shapes"?drawShapes(card):drawSound(card);
+  const art=C.deck==="hooks"?`<div class="hookq">${card.q}</div>`:C.deck==="lights"?drawLights(card):C.deck==="shapes"?drawShapes(card):drawSound(card)+`<p style="text-align:center;margin:0 0 .6rem"><button class="hear" data-p="${card.p}">Hear it</button></p>`;
   main.innerHTML=`<section><h1>Lights, shapes and sound signals</h1><p class="lede">Name it before you reveal the answer. These make up a big share of the Rules of the Road module.</p>
   <div class="chips">${Object.entries(DECKS).map(([k,d])=>`<button class="chip" data-deck="${k}" aria-pressed="${k===C.deck}">${d.name}</button>`).join("")}</div>
   <div class="card"><div class="stage ${C.deck==="shapes"?"day":""}">${art}</div>${card.ctx?`<p class="ctx">${card.ctx}</p>`:""}
@@ -935,7 +978,7 @@ function stopSpeech(){PL.playing=false;PL.tok++;if(synth)try{synth.cancel();}cat
 function lessons(){
   const done=store.done||[],total=LESSONS.reduce((t,l)=>t+mins(l),0);
   main.innerHTML=`<section><h1>Lessons</h1><p class="lede">${LESSONS.length} narrated lessons with slides, about ${total} minutes in all. Press play and each lesson reads itself aloud in your device’s built-in voice, moving through the slides as it goes. You can also read along or tap any sentence to jump to it.</p>
-  ${Object.entries(MODS).map(([m,info])=>{const ls=LESSONS.filter(l=>l.m===m);return `<h2 class="mod-h">${info.name}</h2><ol class="les-list">${ls.map(l=>`<li><a href="#lesson-${l.id}"><span class="lt">${l.t}</span><span class="lm">${l.slides.length} slides, about ${mins(l)} min${BANK.some(x=>x.tag===l.id)?`, ${BANK.filter(x=>x.tag===l.id).length}-question check`:""}${done.includes(l.id)?`. <span class="fin">Finished</span>`:""}</span></a></li>`).join("")}</ol>`;}).join("")}</section>`;
+  ${Object.entries(MODS).map(([m,info])=>{const ls=LESSONS.filter(l=>l.m===m);return `<h2 class="mod-h">${info.name}</h2><ol class="les-list">${ls.map(l=>`<li><a href="#lesson-${l.id}"><span class="lt">${l.t}${l.c?` <span class="lcov">(${l.c})</span>`:""}</span><span class="lm">${l.slides.length} slides, about ${mins(l)} min${BANK.some(x=>x.tag===l.id)?`, ${BANK.filter(x=>x.tag===l.id).length}-question check`:""}${done.includes(l.id)?`. <span class="fin">Finished</span>`:""}</span></a></li>`).join("")}</ol>`;}).join("")}</section>`;
 }
 function visual(v){
   const fg=v.fig&&(typeof v.fig==="string"?(FIG[v.fig]||DG[v.fig]):FIGT[v.fig.t]);
@@ -952,7 +995,7 @@ function visualBody(v){
   const fig=(art,l,day)=>`<figure class="rv-item"><div class="stage${day?" day":""}">${art}</div><figcaption>${l}</figcaption></figure>`;
   if(v.k==="lights")return `<div class="vrow">${v.items.map(([d,l])=>fig(drawLights({d}),l)).join("")}</div>`;
   if(v.k==="shapes")return `<div class="vrow">${v.items.map(([s,l])=>fig(drawShapes({s}),l,true)).join("")}</div>`;
-  if(v.k==="sounds")return `<div class="vrow">${v.items.map(([p,l])=>fig(drawSound({p}),l)).join("")}</div>`;
+  if(v.k==="sounds")return `<div class="vrow">${v.items.map(([p,l])=>fig(drawSound({p}),`${l}<br><button class="hear" data-p="${p}">Hear it</button>`)).join("")}</div>`;
   return "";
 }
 function splitS(t){return (t.match(/[^.!?]+(?:[.!?]+[”’"]?|$)/g)||[t]).map(s=>s.trim()).filter(Boolean);}

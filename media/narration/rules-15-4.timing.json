@@ -3,64 +3,120 @@
  "lessonId": "rules-15",
  "n": 4,
  "audio": "rules-15-4.mp3",
- "duration": 37.875,
+ "duration": 66.875,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.05,
+   "end": 1.6,
    "builds": 0,
-   "text": "You’ve now covered every rule in the Rules of the Road module."
+   "text": "That’s it."
   },
   {
    "i": 1,
-   "start": 4.3,
-   "speechStart": 4.3,
-   "end": 7.175,
+   "start": 1.85,
+   "speechStart": 1.85,
+   "end": 12.275,
    "builds": 0,
-   "text": "Here’s how to turn that into a passing score."
+   "text": "You’ve now covered every rule in the Rules of the Road module, and I want to leave you with a plan, because knowing the rules and scoring ninety percent aren’t quite the same thing."
   },
   {
    "i": 2,
-   "start": 7.425,
-   "speechStart": 7.425,
-   "end": 14.925,
-   "builds": 0,
-   "text": "Drill the lights, shapes and sound signals every day with the flashcards in this app, because they’re pure memorization."
+   "start": 12.525,
+   "speechStart": 12.525,
+   "end": 18.325,
+   "builds": 1,
+   "text": "First, drill the lights, shapes and sound signals every day with the flashcards in this app."
   },
   {
    "i": 3,
-   "start": 15.175,
-   "speechStart": 15.175,
-   "end": 19.2,
+   "start": 18.575,
+   "speechStart": 18.575,
+   "end": 22.35,
    "builds": 0,
-   "text": "Retake each lesson check until you score one hundred percent."
+   "text": "They’re pure memory, and memory fades without practice."
   },
   {
    "i": 4,
-   "start": 19.45,
-   "speechStart": 19.45,
-   "end": 25.2,
+   "start": 22.6,
+   "speechStart": 22.6,
+   "end": 25.85,
    "builds": 0,
-   "text": "Then take the Rules of the Road quiz until you score at least ninety percent twice in a row."
+   "text": "Five minutes a day beats an hour on Sunday."
   },
   {
    "i": 5,
-   "start": 25.45,
-   "speechStart": 25.45,
-   "end": 35.45,
-   "builds": 0,
-   "text": "Finally, the week before your exam, read the rules once more in the Coast Guard handbook, side by side, paying special attention to the Inland differences."
+   "start": 26.1,
+   "speechStart": 26.1,
+   "end": 30.725,
+   "builds": 1,
+   "text": "Second, retake every lesson check until you score one hundred percent."
   },
   {
    "i": 6,
-   "start": 35.7,
-   "speechStart": 35.7,
-   "end": 37.575,
+   "start": 30.975,
+   "speechStart": 30.975,
+   "end": 32.55,
+   "builds": 0,
+   "text": "Not ninety."
+  },
+  {
+   "i": 7,
+   "start": 32.8,
+   "speechStart": 32.8,
+   "end": 34.475,
+   "builds": 0,
+   "text": "One hundred."
+  },
+  {
+   "i": 8,
+   "start": 34.725,
+   "speechStart": 34.725,
+   "end": 40.75,
+   "builds": 1,
+   "text": "Third, take the Rules of the Road quiz until you score at least ninety percent twice in a row."
+  },
+  {
+   "i": 9,
+   "start": 41.0,
+   "speechStart": 41.0,
+   "end": 42.775,
+   "builds": 0,
+   "text": "Once could be luck."
+  },
+  {
+   "i": 10,
+   "start": 43.025,
+   "speechStart": 43.025,
+   "end": 54.325,
+   "builds": 1,
+   "text": "And fourth, in the week before your exam, read the rules once more in the Coast Guard handbook, Inland and International side by side, watching for the differences we just covered."
+  },
+  {
+   "i": 11,
+   "start": 54.575,
+   "speechStart": 55.325,
+   "end": 60.5,
+   "builds": 0,
+   "text": "You started this module wondering where the rules change on a run out of Tampa Bay."
+  },
+  {
+   "i": 12,
+   "start": 60.75,
+   "speechStart": 60.75,
+   "end": 64.45,
+   "builds": 0,
+   "text": "Now you know exactly where, and why, and what changes."
+  },
+  {
+   "i": 13,
+   "start": 64.7,
+   "speechStart": 64.7,
+   "end": 66.575,
    "builds": 0,
    "text": "Good luck, Captain."
   }

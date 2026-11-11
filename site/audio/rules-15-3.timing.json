@@ -3,42 +3,114 @@
  "lessonId": "rules-15",
  "n": 3,
  "audio": "rules-15-3.mp3",
- "duration": 47.425,
+ "duration": 70.025,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 16.425,
+   "end": 7.475,
    "builds": 0,
-   "text": "The Vessel Bridge-to-Bridge Radiotelephone Act requires certain vessels on American waters to keep a listening watch on the designated bridge-to-bridge channel, which is VHF channel thirteen in most areas, so that captains can talk directly to each other."
+   "text": "One more law lives beside the rules, and it explains why the tugs and ships are always talking on channel thirteen."
   },
   {
    "i": 1,
-   "start": 16.675,
-   "speechStart": 16.675,
-   "end": 32.85,
+   "start": 7.725,
+   "speechStart": 7.725,
+   "end": 11.325,
    "builds": 0,
-   "text": "It applies to power-driven vessels of twenty meters or more, vessels of one hundred gross tons or more carrying one or more passengers for hire, towing vessels of twenty-six feet or more, and dredges and floating plant working in or near a channel."
+   "text": "It’s the Vessel Bridge-to-Bridge Radiotelephone Act."
   },
   {
    "i": 2,
-   "start": 33.1,
-   "speechStart": 33.1,
-   "end": 37.425,
+   "start": 11.575,
+   "speechStart": 11.575,
+   "end": 21.075,
    "builds": 0,
-   "text": "The person keeping the watch must be able to communicate in English."
+   "text": "It requires certain vessels on American waters to keep a listening watch on the bridge-to-bridge channel, so that captains can speak to each other directly."
   },
   {
    "i": 3,
-   "start": 37.675,
-   "speechStart": 37.675,
-   "end": 47.125,
+   "start": 21.325,
+   "speechStart": 21.325,
+   "end": 23.0,
    "builds": 0,
-   "text": "Most six-pack charter boats aren’t required to participate, but monitoring channels thirteen and sixteen near ship channels is good seamanship."
+   "text": "Who has to?"
+  },
+  {
+   "i": 4,
+   "start": 23.25,
+   "speechStart": 23.25,
+   "end": 26.55,
+   "builds": 1,
+   "text": "Power-driven vessels of twenty meters or more."
+  },
+  {
+   "i": 5,
+   "start": 26.8,
+   "speechStart": 26.8,
+   "end": 32.5,
+   "builds": 1,
+   "text": "Vessels of one hundred gross tons or more carrying one or more passengers for hire."
+  },
+  {
+   "i": 6,
+   "start": 32.75,
+   "speechStart": 32.75,
+   "end": 39.3,
+   "builds": 1,
+   "text": "Towing vessels of twenty-six feet or more, and dredges and floating plant working in or near a channel."
+  },
+  {
+   "i": 7,
+   "start": 39.55,
+   "speechStart": 39.55,
+   "end": 47.95,
+   "builds": 1,
+   "text": "The watch is kept on VHF channel thirteen in most areas, and the person keeping it must be able to communicate in English."
+  },
+  {
+   "i": 8,
+   "start": 48.2,
+   "speechStart": 48.2,
+   "end": 51.375,
+   "builds": 1,
+   "text": "So is your six-pack boat required to take part?"
+  },
+  {
+   "i": 9,
+   "start": 51.625,
+   "speechStart": 52.375,
+   "end": 54.35,
+   "builds": 0,
+   "text": "In most cases, no."
+  },
+  {
+   "i": 10,
+   "start": 54.6,
+   "speechStart": 54.6,
+   "end": 56.55,
+   "builds": 0,
+   "text": "But here’s my advice."
+  },
+  {
+   "i": 11,
+   "start": 56.8,
+   "speechStart": 56.8,
+   "end": 62.375,
+   "builds": 0,
+   "text": "Any time you’re near a ship channel, keep one radio on thirteen and one on sixteen."
+  },
+  {
+   "i": 12,
+   "start": 62.625,
+   "speechStart": 62.625,
+   "end": 69.725,
+   "builds": 0,
+   "text": "When a tug captain says, I’ll see you on one whistle, you’ll know he means port to port, and you’ll know he’s talking to you."
   }
  ]
 }

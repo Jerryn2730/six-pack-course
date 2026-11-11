@@ -3,58 +3,162 @@
  "lessonId": "rules-14",
  "n": 6,
  "audio": "rules-14-6.mp3",
- "duration": 38.6,
+ "duration": 77.875,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 9.725,
+   "end": 2.4,
    "builds": 0,
-   "text": "Inland rules add one more distress signal: a high-intensity white light flashing at regular intervals from fifty to seventy times per minute."
+   "text": "Two last points on distress."
   },
   {
    "i": 1,
-   "start": 9.975,
-   "speechStart": 9.975,
-   "end": 20.0,
-   "builds": 0,
-   "text": "Using any of these signals except to indicate distress and need of assistance is prohibited, as is using any signal that might be confused with them."
+   "start": 2.65,
+   "speechStart": 2.65,
+   "end": 11.55,
+   "builds": 1,
+   "text": "The Inland rules add one more signal: a high-intensity white light flashing at regular intervals, fifty to seventy times a minute."
   },
   {
    "i": 2,
-   "start": 20.25,
-   "speechStart": 20.25,
-   "end": 26.275,
-   "builds": 0,
-   "text": "A favorite exam question lists four signals and asks which one is not a distress signal."
+   "start": 11.8,
+   "speechStart": 11.8,
+   "end": 17.475,
+   "builds": 1,
+   "text": "Second, these signals are for one purpose only: to show distress and the need for help."
   },
   {
    "i": 3,
-   "start": 26.525,
-   "speechStart": 26.525,
-   "end": 31.25,
+   "start": 17.725,
+   "speechStart": 17.725,
+   "end": 20.875,
    "builds": 0,
-   "text": "Watch for traps like three short blasts, a green flare, or a white flare."
+   "text": "Using them for anything else is prohibited."
   },
   {
    "i": 4,
-   "start": 31.5,
-   "speechStart": 31.5,
-   "end": 33.625,
-   "builds": 0,
-   "text": "Those aren’t distress signals."
+   "start": 21.125,
+   "speechStart": 21.125,
+   "end": 25.075,
+   "builds": 1,
+   "text": "So is using any signal that might be confused with them."
   },
   {
    "i": 5,
-   "start": 33.875,
-   "speechStart": 33.875,
-   "end": 38.3,
+   "start": 25.325,
+   "speechStart": 25.325,
+   "end": 28.275,
+   "builds": 1,
+   "text": "Which brings us to a favorite exam question."
+  },
+  {
+   "i": 6,
+   "start": 28.525,
+   "speechStart": 28.525,
+   "end": 32.9,
    "builds": 0,
-   "text": "A continuously sounding fog horn is, and so is orange smoke."
+   "text": "It lists four signals and asks which one is not a distress signal."
+  },
+  {
+   "i": 7,
+   "start": 33.15,
+   "speechStart": 33.15,
+   "end": 34.725,
+   "builds": 0,
+   "text": "So try it."
+  },
+  {
+   "i": 8,
+   "start": 34.975,
+   "speechStart": 34.975,
+   "end": 41.15,
+   "builds": 0,
+   "text": "Orange smoke, a continuously sounding fog horn, three short blasts, or a red hand flare."
+  },
+  {
+   "i": 9,
+   "start": 41.4,
+   "speechStart": 41.4,
+   "end": 43.475,
+   "builds": 0,
+   "text": "Which one doesn’t belong?"
+  },
+  {
+   "i": 10,
+   "start": 43.725,
+   "speechStart": 44.475,
+   "end": 46.425,
+   "builds": 0,
+   "text": "Three short blasts."
+  },
+  {
+   "i": 11,
+   "start": 46.675,
+   "speechStart": 46.675,
+   "end": 48.825,
+   "builds": 0,
+   "text": "That’s astern propulsion."
+  },
+  {
+   "i": 12,
+   "start": 49.075,
+   "speechStart": 49.075,
+   "end": 52.225,
+   "builds": 0,
+   "text": "Watch for a green flare or a white flare too."
+  },
+  {
+   "i": 13,
+   "start": 52.475,
+   "speechStart": 52.475,
+   "end": 54.725,
+   "builds": 0,
+   "text": "Neither is a distress signal."
+  },
+  {
+   "i": 14,
+   "start": 54.975,
+   "speechStart": 54.975,
+   "end": 57.025,
+   "builds": 0,
+   "text": "That’s lesson fourteen."
+  },
+  {
+   "i": 15,
+   "start": 57.275,
+   "speechStart": 57.275,
+   "end": 64.175,
+   "builds": 0,
+   "text": "In fog: one prolonged for power making way, two for stopped, one and two short for the hampered vessels."
+  },
+  {
+   "i": 16,
+   "start": 64.425,
+   "speechStart": 64.425,
+   "end": 66.5,
+   "builds": 0,
+   "text": "A rapid bell at anchor."
+  },
+  {
+   "i": 17,
+   "start": 66.75,
+   "speechStart": 66.75,
+   "end": 70.925,
+   "builds": 0,
+   "text": "And for distress, think red, orange, continuous, Mayday."
+  },
+  {
+   "i": 18,
+   "start": 71.175,
+   "speechStart": 71.175,
+   "end": 77.575,
+   "builds": 0,
+   "text": "Next time, our last Rules lesson, we pull together every Inland and International difference."
   }
  ]
 }
