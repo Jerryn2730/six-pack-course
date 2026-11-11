@@ -40,7 +40,8 @@
        "Rules of the Road: the module that needs 90%",
        "15 lessons, Rules 1 through 37 and the annexes",
        "A short lesson check after every lesson"
-      ]
+      ],
+      "fig": "passmark"
      },
      "video": "Instructor on a charter boat’s flybridge at the dock, early morning.",
      "script": "Welcome aboard. I’m glad you’re here. Over the next fifteen lessons, we’re going to work through the Navigation Rules together, the part of the captain’s exam that trips up more people than any other. [+] Here’s why. Every other module needs seventy percent to pass. This one needs ninety. Out of fifty questions, you can miss only about five. [+] So we’ll cover all thirty-seven rules, plus the annexes the exam pulls from, [+] and after each lesson there’s a short check so you can make sure it stuck. [pause] Don’t worry about memorizing everything today. Just get comfortable with how the rules are built. The memorizing comes later, and I’ll give you plenty of tricks for it.",
@@ -91,7 +92,8 @@
         "All vessels on those waters",
         "All vessels on U.S. inland waters, and U.S. vessels on Canadian Great Lakes waters"
        ]
-      ]
+      ],
+      "fig": "twobooks"
      },
      "video": "Chart close-up: a dashed magenta COLREGS demarcation line across a Florida inlet.",
      "script": "There are two rule books, and they’re mostly identical. [+] The International rules, usually called the COLREGS, govern the high seas and the waters connected to them. [+] They come from a 1972 treaty, while the Inland rules are American law, covering our harbors, bays, rivers and the Intracoastal Waterway. [+] Each set applies to every vessel on its waters, whatever flag she flies. [pause] So where’s the line? It’s called the COLREGS demarcation line, and it’s printed on your chart as a dashed magenta line, usually stretched across the mouth of a harbor or inlet. In Florida, you cross it every time you head out an inlet. Here’s some homework: find it on your local chart this week. It makes all of this real.",
@@ -108,7 +110,8 @@
        "Extra station or signal lights for warships, convoys and fishing fleets",
        "Traffic separation schemes adopted by IMO",
        "Vessels of special construction comply as closely as possible"
-      ]
+      ],
+      "fig": "rule1"
      },
      "video": "Navy ship at a Florida port at dusk, showing unusual extra lights.",
      "script": "Rule one also tells you what can sit alongside these rules, and there are four things to know. [+] First, local authorities can make special rules for a particular harbor, river or lake. But those rules must conform as closely as possible to the Navigation Rules. They can add to them, not throw them out. [+] Second, governments can allow extra lights, shapes or whistle signals for warships, convoys, or fishing fleets working together. So if you see an odd light on a Navy ship, that’s why. [+] Third, traffic separation schemes, the highway lanes for big ships, are adopted internationally. We’ll cover them in lesson four. [+] And fourth, a vessel of unusual construction that can’t place her lights exactly as required may use the closest alternative her government approves. Inland, that’s called a certificate of alternative compliance.",
@@ -125,7 +128,8 @@
        "Have due regard to all dangers and special circumstances",
        "Depart from the rules when needed to avoid immediate danger",
        "The rules say who keeps clear, not who has a “right of way”"
-      ]
+      ],
+      "fig": "rule2"
      },
      "video": "A tug pushing a barge in a channel while a small boat holds course toward it, then turns away.",
      "script": "Now, Rule two. If you remember only one rule from this whole course, make it this one. [+] Rule two says nothing in the rules excuses you from the consequences of neglecting ordinary seamanship. In plain English: the rule book is not a shield. [+] You must pay attention to every danger and every special circumstance, including what the other boat can and can’t do. [+] And sometimes, to avoid immediate danger, you have to depart from the rules. That isn’t just allowed, it’s expected. [pause] Here’s how I think about it. Picture yourself as the stand-on boat, holding your course, while a tug pushing a barge clearly isn’t turning. If you hold your course right into that barge, you followed the rules, and you’ll still be found at fault. [+] Notice too that the rules almost never say right of way. They say who keeps out of the way, and who stands on. That’s a mindset, not a privilege.",
@@ -162,7 +166,8 @@
         "V",
         "Inland only: pilot rules, such as law enforcement lights and special anchorage areas"
        ]
-      ]
+      ],
+      "fig": "annexes"
      },
      "video": "Montage: a masthead light being mounted, a ship’s whistle, a red hand flare, a law enforcement boat’s blue light.",
      "script": "The rules end with annexes, and yes, the exam asks about them. Let me give you a one-line handle on each. [+] Annex one is the engineering annex: exactly where lights go, how far apart, how bright. [+] Annex two covers extra signals for fishing boats working close together, like trawlers in a fleet. [+] Annex three is the technical spec for whistles, bells and gongs. [+] Annex four is the big one for you: distress signals. We’ll spend real time on those in lesson fourteen. [+] And the Inland rules add Annex five, the pilot rules, which cover things like the blue lights on law enforcement boats and special anchorage areas.",
@@ -207,7 +212,8 @@
        "Every rule depends on Rule 3’s definitions",
        "Many exam questions are definitions in disguise",
        "Get these right and later lessons get easier"
-      ]
+      ],
+      "fig": "defmap"
      },
      "video": "Instructor at the helm, Rule 3 text visible in the handbook on the console.",
      "script": "Today’s lesson might sound dry, definitions, but stay with me, because this is where a lot of easy points live. [+] Every rule we’ll study depends on the words defined in Rule three. Is that boat sailing or power-driven? Is she underway? Is she engaged in fishing? [+] A huge number of exam questions are really definition questions in disguise. [+] Get these words right, and every later lesson gets easier. So let’s go through them the way a captain would, with real examples.",
@@ -276,7 +282,8 @@
         "Engine failure, jammed rudder",
         "Dredging; buoy, cable or pipeline work; surveying; diving; a tow that limits her course"
        ]
-      ]
+      ],
+      "fig": "brokenbusy"
      },
      "video": "A disabled sportfisher drifting with no power, then a dredge working in a channel.",
      "script": "These two get mixed up all the time, so let’s separate them. [+] Not under command is about cause: some exceptional circumstance, like a failed engine or a jammed rudder, means the vessel can’t maneuver as the rules require. [+] So the word to remember is broken. [+] Restricted in her ability to maneuver is about work: the job she’s doing keeps her from getting out of the way. Dredging, laying cable, servicing a buoy, diving operations, surveying, or a tow that pins her to her course. [pause] Here’s my trick. Ask yourself: is she broken, or is she busy? Broken means not under command. Busy means restricted.",
@@ -357,7 +364,8 @@
        "Lookout by sight and hearing, at all times",
        "Use every available means: radar, AIS, radio",
        "Goal: a full appraisal of the situation and the risk"
-      ]
+      ],
+      "fig": "lookout"
      },
      "video": "A busy charter cockpit: fish on, lines tangled, and the captain glancing forward.",
      "script": "Let’s start with the duty that shows up in nearly every collision report: the lookout. [+] Rules four through ten apply in any visibility, clear or foggy, day or night. [+] Rule five says every vessel shall at all times keep a proper lookout, by sight and by hearing. [+] And by all available means. If you have radar, AIS and a VHF, they’re part of your lookout. [+] The goal is a full appraisal of the situation and the risk of collision. [pause] Now be honest with yourself. On a busy charter, with a fish on, a tangled line, and a customer asking a question, who’s keeping the lookout? If the answer is nobody, that’s exactly the gap where accidents happen.",
@@ -376,7 +384,8 @@
        "Background lights at night",
        "Wind, sea, current and nearby hazards",
        "Draft compared to available depth"
-      ]
+      ],
+      "fig": "stopping"
      },
      "video": "Night view from a helm: a boat’s running lights almost lost against the condo lights of Clearwater Beach.",
      "script": "Rule six is safe speed, and the first thing to know is that there’s no number in it. Safe speed means you can take proper action to avoid a collision, and stop within a distance that fits the conditions. So you weigh the factors. [+] Visibility, obviously. [+] Traffic density, including clusters of fishing boats. [+] Your own boat’s maneuverability: how fast she stops, how tightly she turns. [+] At night, background lights. Try picking out a running light against the condo lights of Clearwater Beach. [+] The state of the wind, sea and current, and nearby hazards. [+] And your draft compared to the depth of the water. [pause] Twenty knots might be perfectly safe in the open Gulf at noon, and reckless in the Intracoastal at dusk.",
@@ -395,7 +404,8 @@
        "Small boats and floating objects may go undetected",
        "How many vessels radar shows, and how they move",
        "A better measure of visibility, using radar ranges"
-      ]
+      ],
+      "fig": "clutter"
      },
      "video": "Radar display with sea clutter turned up, hiding a small boat target, then clutter reduced.",
      "script": "If you have radar, Rule six adds six more factors, and they boil down to one idea: radar is a tool with limits. [+] Know your radar’s characteristics, efficiency and limitations. [+] Know what the range scale you’ve selected can and can’t show you. [+] Sea state, rain and interference can hide targets in clutter. [+] Small boats, logs and other floating objects may not show up until they’re close. [+] Radar tells you how many vessels are around and how they’re moving. [+] And it can give you a more exact measure of visibility, by showing how far away that boat is that you can just barely see. [pause] The exam trap is assuming radar lets you go faster. It doesn’t. It just gives you better information for judging what’s safe.",
@@ -460,7 +470,8 @@
        "Slow, stop or back down to buy time",
        "“Not to impede”: act early to leave plenty of room",
        "That duty continues even when risk of collision develops"
-      ]
+      ],
+      "fig": "impede"
      },
      "video": "A small boat slowing and turning early to give a ship in the channel plenty of room.",
      "script": "Two more parts of Rule eight. [+] Your action must get you past at a safe distance, and you keep checking that it’s working until the other vessel is finally past and clear. [+] If you need more time to figure things out, slow down, stop, or back down. Slowing down is always on the menu, and it buys you time. [+] Rule eight also defines a phrase you’ll meet again and again: not to impede. A vessel required not to impede another must act early, leaving plenty of room. [+] And that duty doesn’t disappear just because the boats get close and a risk of collision develops. [pause] That’s lesson three. Next time, we’ll head into narrow channels and the big-ship highways called traffic separation schemes, where small boats like ours have special duties.",
