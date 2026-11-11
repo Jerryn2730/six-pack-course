@@ -213,6 +213,11 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .chip.fin{background:var(--mag);border-color:var(--mag);color:var(--mag-ink)}.chip small{display:block;font-size:.72rem;font-weight:500}
 .plain{padding-left:1.2rem}.plain li{margin:.3rem 0}.record{display:none}
 @media print{header,nav,.site-foot,.prog>*:not(.record){display:none!important}.record{display:block;color:#000}.record table{width:100%;border-collapse:collapse;margin:.4rem 0 1rem}.record th,.record td{border:1px solid #999;padding:.25rem .5rem;text-align:left;font-size:.9rem}.record .disc{margin-top:1.5rem;font-size:.9rem;border-top:1px solid #999;padding-top:.6rem}body{background:#fff}}
+body.render>header,body.render nav,body.render .site-foot{display:none!important}body.render{background:var(--paper);margin:0;padding:0}body.render main{max-width:none;padding:0;margin:0}
+.rframe{width:1920px;height:1080px;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;background:var(--paper);overflow:hidden}
+.rframe .slide{width:900px;flex:none}.rframe .rv-item{transition:none}
+.rframe .lower{width:1665px;display:flex;justify-content:space-between;font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;font-size:28px;color:var(--muted)}
+.rframe.card{gap:18px;text-align:center}.rframe.card .tag{font-size:34px}.rframe.card h1{font-size:104px;max-width:1500px;line-height:1.05;margin:0}.rframe.card .rsub{font-size:44px;color:var(--muted);margin:0}.rframe.card .rdisc{font-size:26px;color:var(--muted);margin-top:60px}
 .site-foot{max-width:900px;margin:40px auto 0;padding:16px 16px 28px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text-align:center}
 .narr-src{align-self:center;color:var(--muted);font-size:.9rem}
 </style>
@@ -309,11 +314,29 @@ function pickQ(m,n){return shuffle(BANK.filter(x=>m==="A"||x.m===m)).slice(0,n);
 function ri(a,b){return a+Math.floor(Math.random()*(b-a+1));}
 function fmtTime(ms){const s=Math.max(0,Math.round(ms/1000));return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");}
 
+/* ---------- Render mode for video (scripts/video.js): index.html?render=1#render-<lesson>-<slide>-<builds> ----------
+   Draws one slide state, or a title card, at 1920x1080 with no navigation. Sets body[data-frame] when ready. */
+const RENDER=new URLSearchParams(location.search).get("render")==="1";
+function renderFrame(spec){
+  document.documentElement.dataset.theme="light";document.body.classList.add("render");
+  const c=spec.match(/^card-(intro|outro)-(.+)$/),m=spec.match(/^(.+)-(\d+)-(\d+)$/);
+  const les=LESSONS.find(l=>l.id===(c?c[2]:m?m[1]:""));
+  if(!les){main.innerHTML="";document.body.dataset.frame=spec;return;}
+  const n=LESSONS.filter(l=>l.m===les.m).indexOf(les)+1,where=`${MODS[les.m].name}, lesson ${n}`;
+  if(c){main.innerHTML=`<div class="rframe card"><p class="tag">${c[1]==="intro"?"Six-Pack Prep":"End of lesson"}</p><h1>${c[1]==="intro"?les.t:"Now take the lesson check"}</h1><p class="rsub">${c[1]==="intro"?where:les.t}</p><p class="rdisc">Practice material. Not an official U.S. Coast Guard examination or approved course.</p></div>`;}
+  else{const s=les.slides[+m[2]-1],k=+m[3];
+    main.innerHTML=`<div class="rframe"><div class="slide"><h2>${s.h}</h2><div class="visual">${visual(s.v)}</div></div><div class="lower"><span>${where}</span><span>${les.t}</span></div></div>`;
+    const items=[...main.querySelectorAll(".rv-item")];if(/\[\+\]/.test(s.say))items.forEach((el,i)=>el.classList.toggle("dim",i>=k));
+    const sl=main.querySelector(".slide");sl.style.zoom=Math.min(1.85,940/sl.offsetHeight);}
+  (document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(()=>requestAnimationFrame(()=>{document.body.dataset.frame=spec;}));
+}
+
 /* ---------- Router ---------- */
 const VIEWS={home,quiz,test,cards,drills,misses,lessons,progress};
 function route(){
   clearInterval(timer);stopSpeech();
   let h=(location.hash||"#home").slice(1);S=null;
+  if(RENDER){renderFrame(h.replace(/^render-/,""));return;}
   if(h.startsWith("lesson-")&&LESSONS.some(l=>"lesson-"+l.id===h)){player(h.slice(7));h="lessons";}
   else if(h.startsWith("check-")&&LESSONS.some(l=>"check-"+l.id===h)){const les=LESSONS.find(l=>"check-"+l.id===h);if(!(store.sess&&store.sess.key===h&&resumeSess(store.sess)))startSession(shuffle(BANK.filter(x=>x.tag===les.id)),{mode:"learn",title:"Lesson check: "+les.t,key:h});h="lessons";}
   else{if(!VIEWS[h])h="home";VIEWS[h]();}
