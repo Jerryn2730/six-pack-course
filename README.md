@@ -65,3 +65,14 @@ Then:
 | `npm run audio -- --phonemes "COLREGS"` | How Kokoro will pronounce something, after the dictionary |
 
 Unchanged slides are skipped; add `--force` to regenerate. Voice, speed, pauses and loudness are in `config/voice.json`. Fix mispronunciations in `QA/pronunciation_dictionary.md`, not in the lesson text. Output: `media/narration/` (MP3 + timing), `media/captions/` (VTT), copied to `site/audio/`. The app uses the timing files for exact transcript and build sync when served over http (for example `npx serve site`); opened straight from disk, it still plays the audio with approximate sync.
+
+## Website (Task 4): Netlify free tier
+
+`npm run deploy` builds (and validates) the site, then publishes `site/` with the free Netlify CLI. It skips the deploy if nothing changed. The free plan has a hard limit of 300 credits a month and is never billed; a deploy costs 15 credits.
+
+One-time setup:
+1. Create a free Netlify account yourself at app.netlify.com (no payment method needed for the Free plan).
+2. Log in the CLI: `npx netlify-cli login` on your computer (opens a browser), or set `NETLIFY_AUTH_TOKEN` to a personal access token.
+3. First deploy: `npm run deploy -- --site-name <name>` creates `https://<name>.netlify.app`. Commit `config/deploy.json` afterwards.
+
+Every page shows the footer “Personal study material. Not an official U.S. Coast Guard examination or approved course.” The site asks search engines not to index it (`noindex`), but anyone with the link can open it.

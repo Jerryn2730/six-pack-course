@@ -1,0 +1,4 @@
+# Netlify free tier (Task 4). Deploys are made from this computer with `npm run deploy`
+# (Netlify CLI), not by Netlify building the repository. Response headers live in site/_headers.
+[build]
+  publish = "site"
