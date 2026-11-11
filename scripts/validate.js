@@ -134,7 +134,9 @@ for (const [li, L] of lessons.entries()) {
       warn(sw, `"spoken" text differs from the script with markers removed (re-export the snapshot)`);
 
     // Straight quotes in learner-facing text (typographic quotes are the convention).
-    const straight = strings({ h: s.heading, v: s.visual, say }).filter((x) => /['"]/.test(x));
+    // Figure specs may hold SVG markup, which needs straight quotes; check their visible labels only.
+    const vis = Object.assign({}, s.visual, { fig: s.visual && s.visual.fig && typeof s.visual.fig === "object" && Array.isArray(s.visual.fig.els) ? s.visual.fig.els.filter((e) => e[0] !== "raw") : s.visual && s.visual.fig });
+    const straight = strings({ h: s.heading, v: vis, say }).filter((x) => /['"]/.test(x));
     if (straight.length) warn(sw, `straight quote(s) in: “${straight[0].slice(0, 60)}”`);
 
     findVerify(sw, { h: s.heading, v: s.visual, say });
