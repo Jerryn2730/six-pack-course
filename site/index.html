@@ -1037,7 +1037,7 @@ function player(id){
   <div id="slide"></div>
   <div id="qstop" class="qstop" hidden></div>
   <div class="controls"><button class="btn ghost ctl" id="pv">Previous</button><button class="btn ctl" id="pp">Play</button><button class="btn ghost ctl" id="nx">Next</button><button class="btn ghost ctl" id="askb" title="Like raising your hand in class">Ask a question</button><span class="count" id="cnt"></span></div>
-  <div class="opts-row" id="vopts"><label>Speed<select id="rate">${[0.8,0.9,1,1.1,1.25,1.5].map(r=>`<option value="${r}" ${r==PL.rate?"selected":""}>${r}×</option>`).join("")}</select></label><label title="Used only for slides that don’t have recorded narration yet">Device voice<select id="voice"><option value="">Device default</option></select></label><span id="narrsrc" class="narr-src" aria-live="polite"></span><label title="Stop at each question the lecture asks so you can answer before you hear the answer">Questions<select id="stopq"><option value="0">Keep playing</option><option value="1" ${store.stopq===1?"selected":""}>Stop and ask me</option></select></label><label>Mode<select id="mode"><option value="voice">Read aloud</option><option value="silent" ${PL.silent?"selected":""}>Silent, timed</option></select></label></div>
+  <div class="opts-row" id="vopts"><label>Speed<select id="rate">${[0.8,0.9,1,1.1,1.25,1.5].map(r=>`<option value="${r}" ${r==PL.rate?"selected":""}>${r}×</option>`).join("")}</select></label><label id="voicewrap" ${AUDIO_BASE?"hidden":""} title="Used only when a slide has no recorded narration">Device voice<select id="voice"><option value="">Device default</option></select></label><span id="narrsrc" class="narr-src" aria-live="polite"></span><label title="Stop at each question the lecture asks so you can answer before you hear the answer">Questions<select id="stopq"><option value="0">Keep playing</option><option value="1" ${store.stopq===1?"selected":""}>Stop and ask me</option></select></label><label>Mode<select id="mode"><option value="voice">Read aloud</option><option value="silent" ${PL.silent?"selected":""}>Silent, timed</option></select></label></div>
   <p class="muted sq-hint" id="sqhint">${store.stopq===1?SQ_ON:SQ_OFF}</p>
   <div id="ask" class="askbox" hidden></div>
   <p class="muted" id="nospeech" hidden>This browser can’t read aloud. Read the transcript below instead.</p>
@@ -1152,7 +1152,7 @@ function speak(noFile){
   if(!PL.les)return;const tok=++PL.tok;if(synth)synth.cancel();if(PL.audio)try{PL.audio.pause();}catch(e){}
   const ss=splitS(cur().say);
   const useFile=AUDIO_BASE&&!noFile&&!PL.silent&&!(PL.missing&&PL.missing[`${PL.les.id}-${PL.i+1}`]);
-  narrSrc(PL.silent?"":useFile?"Recorded narration":"Device voice");
+  narrSrc(PL.silent?"":useFile?"Recorded narration":"Device voice");if(!useFile&&!PL.silent){const w=document.getElementById("voicewrap");if(w)w.hidden=false;}
   if(useFile){playFile(tok,ss);return;}
   const next=()=>{if(tok!==PL.tok)return;PL.sent++;step();};
   const step=()=>{
