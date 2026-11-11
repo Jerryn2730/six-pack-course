@@ -16,6 +16,7 @@ Fixed in `rules-01` slides 1, 4 and 6, and the audio re-recorded. F2 also notes 
 | F2 | `rules-01` slide 6, Annex II | Annex II covers extra signals for fishing vessels fishing close together | True of the International rules. In the Inland rules, Annex II (33 CFR Part 85) is now **reserved**: it has no content. [S3] | Say Annex II is International; Inland Annex II is reserved. Also check lesson `rules-11` slide 5, which teaches the Annex II signals. |
 | F3 | `rules-01` slide 6, Annex V | Annex V covers “law enforcement lights and special anchorage areas” | Annex V (33 CFR Part 88) now contains only: purpose, definitions, law enforcement vessels (88.05) and public safety activities (88.07). Special anchorage areas are not in it. [S6] | Replace “special anchorage areas” with “public safety activities”. |
 | F4 | `rules-01` slide 4 | Fishing fleets may be allowed extra “lights, shapes or whistle signals” | Whistle signals are for ships of war and convoys only; fishing fleets get lights and shapes. 33 CFR 83.01(c). [S1] | Minor wording fix in the narration. |
+| F5 | `rules-09` quiz question(s) on the 7 m / 7 knot all-round white light option, tagged BOTH | The option applies under both rule books | The 7 m / 7 knot option is in International Rule 23(d)(ii); it was not found in Inland 33 CFR 83.23 [S1]. The `rules-09` narration already says “International”. | Open. Retag the question INTERNATIONAL, or reword it, after owner review. `[VERIFY]` |
 
 ## rules-01 Where the rules apply
 
