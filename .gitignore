@@ -4,3 +4,4 @@ media/video/*
 !media/video/.gitkeep
 *.log
 .DS_Store
+.venv/

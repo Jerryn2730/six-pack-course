@@ -1,0 +1,5 @@
+# Free, local narration engine (COURSE_MASTER.md Task 2). Installed by: npm run audio:setup
+# Licenses recorded in SOURCES/asset_licenses.md.
+kokoro==0.9.4
+misaki[en]==0.9.4
+soundfile>=0.12
