@@ -4784,26 +4784,7 @@
        "Volume III: Florida’s Atlantic coast through the Big Bend",
        "Volume IV: the rest of the Gulf coast to Texas"
       ],
-      "fig": {
-       "t": "rows",
-       "items": [
-        [
-         "book",
-         "Light List",
-         "Every light, buoy and daybeacon in a region"
-        ],
-        [
-         "txt:III",
-         "Volume III",
-         "Florida’s Atlantic coast through the Big Bend"
-        ],
-        [
-         "txt:IV",
-         "Volume IV",
-         "The rest of the Gulf coast to Texas"
-        ]
-       ]
-      }
+      "fig": "lightlist"
      },
      "video": null,
      "script": "Where do you look a light up? In the Light List. [+] It’s published by the Coast Guard, and it lists every Coast Guard light, buoy and daybeacon in a region. [+] For each one it gives the characteristic, the height above water, the nominal range, and a description of the structure. [+] The remarks column holds the details the chart has no room for, like sector bearings and fog signals. [+] It comes in seven volumes. Volume three is yours. It runs from South Carolina, around Florida, to the Big Bend. [+] Volume four carries on along the Gulf to Texas. And how do you keep it current? [pause] With the Local Notice to Mariners, which lists every change since your edition was printed.",
@@ -5012,26 +4993,7 @@
        "Coast Pilot 5: Gulf coast, Puerto Rico and Virgin Islands",
        "Free to download; updated regularly"
       ],
-      "fig": {
-       "t": "rows",
-       "items": [
-        [
-         "book",
-         "U.S. Coast Pilot",
-         "What the chart can’t show"
-        ],
-        [
-         "txt:CP 4",
-         "Coast Pilot 4",
-         "Cape Henry to Key West"
-        ],
-        [
-         "txt:CP 5",
-         "Coast Pilot 5",
-         "Gulf coast, Puerto Rico and Virgin Islands"
-        ]
-       ]
-      }
+      "fig": "coastpilot"
      },
      "video": null,
      "script": "A chart can only show what fits on paper. It can’t tell you that the inlet shoals after a blow, that the bridge opens on the half hour, or where to find fuel. For that, a captain keeps a small library, and today I’ll walk you along the shelf. First, the Coast Pilot. [+] The United States Coast Pilot is published by NOAA, and it holds what the chart can’t show. [+] Navigation regulations, local hazards, anchorages, bridge and cable clearances, currents, weather, and descriptions of ports and channels. [+] It comes in nine volumes. Coast Pilot four covers the Atlantic coast, from Cape Henry in Virginia down to Key West. [+] Coast Pilot five covers the Gulf coast, Puerto Rico and the Virgin Islands. So a captain working out of Tampa Bay needs which one? [pause] Five. [+] And it’s free to download, and updated regularly. Before you run any inlet for the first time, read its page.",
@@ -9296,27 +9258,7 @@
        "Avoid seagrass where possible",
        "Leave swing room for other boats"
       ],
-      "fig": {
-       "t": "tiles",
-       "items": [
-        [
-         "no",
-         "Not in channels or cable areas"
-        ],
-        [
-         "shapes:ball",
-         "Ball by day, anchor light at night"
-        ],
-        [
-         "warn",
-         "Never on coral: use mooring buoys"
-        ],
-        [
-         "boat",
-         "Leave swing room for others"
-        ]
-       ]
-      }
+      "fig": "keys"
      },
      "video": null,
      "script": "Finally, where not to anchor. [+] Not in navigation channels, cable or pipeline areas, or restricted areas, and not where you block other traffic. [+] At night show your anchor light, and by day a black ball. That’s Rule thirty, which you already know. [+] In the Florida Keys National Marine Sanctuary, anchoring on coral is prohibited. So what do you do at a popular reef? [pause] Pick up one of the mooring buoys. That’s what they’re there for. [+] Stay off seagrass where you can. [+] And leave room for the other boats to swing when the wind or tide turns. Everyone swings, but not everyone swings the same way. That’s lesson nine. Match the anchor to the bottom. Scope is seven to one, measured from the bow. Lower it, don’t throw it. And always from the bow. Next time: heavy weather, inlets and trouble.",
@@ -10731,27 +10673,7 @@
        "Training chart 1210-Tr: Martha’s Vineyard to Block Island",
        "Practice with the same tools you’ll use on test day"
       ],
-      "fig": {
-       "t": "tiles",
-       "items": [
-        [
-         "rulers",
-         "Parallel rulers or a course plotter"
-        ],
-        [
-         "dividers",
-         "Dividers"
-        ],
-        [
-         "pencil",
-         "Sharp pencils and an eraser"
-        ],
-        [
-         "chart",
-         "Training chart 1210-Tr"
-        ]
-       ]
-      }
+      "fig": "trainingchart"
      },
      "video": null,
      "script": "Welcome to Chart Plotting. This is the module you do with your hands. No memorizing rhymes here. You’ll draw lines on a real chart and measure them, and the exam checks whether your lines land in the right place. First, the kit. [+] Parallel rulers, or a course plotter, for directions. [+] A pair of dividers, for distances. [+] Sharp pencils, a good eraser, and a simple calculator if your exam allows one. [+] And the chart itself. The exam is usually worked on NOAA training chart twelve ten T R. It covers Martha’s Vineyard to Block Island, up in New England. A Florida captain, tested on a Massachusetts chart? [pause] Yes. Everyone in the country uses the same one. So buy it now. [+] And practice with the very tools you’ll carry into the exam room, so your hands already know them on test day.",
