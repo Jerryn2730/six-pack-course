@@ -3613,7 +3613,88 @@
        "A statute mile is 5,280 ft; a nautical mile is about 15% longer",
        "1 knot = 1 nautical mile per hour (never “knots per hour”)",
        "A minute of longitude shrinks toward the poles: never measure distance with it"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         20,
+         40,
+         "1 minute of latitude = 1 nautical mile",
+         "start"
+        ],
+        [
+         "r",
+         20,
+         80,
+         400,
+         38,
+         "s-mag"
+        ],
+        [
+         "t",
+         32,
+         105,
+         "Nautical mile: about 6,076 ft",
+         "start",
+         15,
+         "s-on"
+        ],
+        [
+         "r",
+         20,
+         134,
+         348,
+         38
+        ],
+        [
+         "t",
+         32,
+         159,
+         "Statute mile: 5,280 ft",
+         "start",
+         15
+        ],
+        [
+         "m",
+         20,
+         196,
+         "A nautical mile is about 15% longer",
+         "start"
+        ],
+        [
+         "i",
+         "gauge",
+         70,
+         290,
+         1.7
+        ],
+        [
+         "t",
+         130,
+         282,
+         "1 knot",
+         "start",
+         24,
+         "s-mag"
+        ],
+        [
+         "m",
+         130,
+         306,
+         "1 nautical mile per hour",
+         "start"
+        ],
+        [
+         "m",
+         130,
+         326,
+         "Never “knots per hour”",
+         "start"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "One minute of latitude equals one nautical mile, about six thousand seventy-six feet, roughly fifteen percent longer than a statute mile. A knot is a speed of one nautical mile per hour, so never say knots per hour. Minutes of longitude are a nautical mile long only at the equator and get shorter toward the poles, which is why you never measure distance on the longitude scale. Modern charts and GPS units divide minutes into tenths, while older charts show seconds.",
@@ -3630,7 +3711,58 @@
        "Straight lines are rhumb lines: constant direction",
        "The latitude scale stretches toward the poles",
        "Measure distance at the latitude where you’re working"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         30,
+         "Mercator projection"
+        ],
+        [
+         "p",
+         "M40,350 H400 M40,312 H400 M40,268 H400 M40,216 H400 M40,154 H400 M40,80 H400",
+         "s-lst",
+         1.6
+        ],
+        [
+         "p",
+         "M60,56 V360 M130,56 V360 M200,56 V360 M270,56 V360 M340,56 V360",
+         "s-lst",
+         1.6
+        ],
+        [
+         "p",
+         "M70,340 L380,100",
+         "s-magst",
+         3.5
+        ],
+        [
+         "t",
+         214,
+         206,
+         "Rhumb line",
+         "end",
+         15,
+         "s-mag"
+        ],
+        [
+         "m",
+         214,
+         224,
+         "one constant direction",
+         "end"
+        ],
+        [
+         "m",
+         220,
+         388,
+         "Latitude scale stretches toward the poles"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Most nautical charts use the Mercator projection. Its big advantage is that a straight line on the chart is a rhumb line, a line of constant direction, so you can lay a course with parallel rulers and steer it. The trade-off is distortion. The latitude scale gets longer as you move away from the equator, so on a small-scale chart a nautical mile measured near the top is longer than one measured near the bottom. That’s why you always measure distance on the part of the latitude scale beside where you’re working.",
@@ -3673,7 +3805,22 @@
         "1:40,000 and larger",
         "Strip and folio charts, like the ICW"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "globe",
+         "Small scale",
+         "Big area, little detail: sailing and general charts"
+        ],
+        [
+         "target",
+         "Large scale",
+         "Small area, lots of detail: harbor charts"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Chart scale is the ratio between a distance on the chart and the same distance on the earth. A scale of one to forty thousand is larger than one to eighty thousand, because each inch covers less ground and shows more detail. Remember: large scale, large detail, small area. NOAA groups charts into sailing charts for offshore passages, general charts for coastwise navigation, coast charts for inshore work, harbor charts for harbors and anchorages, and small-craft charts, such as the strip charts that follow the Intracoastal Waterway. Always use the largest-scale chart available for the waters you’re in.",
@@ -3691,7 +3838,37 @@
        "Horizontal datum: NAD 83, matching WGS 84 on your GPS",
        "Heights and clearances above mean high water",
        "Edition date: keep it corrected"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "doc",
+         "Number, title, scale",
+         ""
+        ],
+        [
+         "depth",
+         "Soundings",
+         "Feet, fathoms or meters, at MLLW"
+        ],
+        [
+         "globe",
+         "Datum",
+         "NAD 83 matches WGS 84 on your GPS"
+        ],
+        [
+         "bridge",
+         "Heights",
+         "Above mean high water"
+        ],
+        [
+         "clock",
+         "Edition date",
+         "Keep the chart corrected"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The title block is the first thing to read on any chart. It gives the chart number, title and scale; the units for soundings, which may be feet, fathoms or meters; the vertical datum for depths, usually mean lower low water; and the horizontal datum, normally the North American Datum of 1983, which for practical purposes matches the WGS 84 datum your GPS uses. If your plotter and chart use different datums, positions can be off. Heights of lights and landmarks and bridge clearances are measured above mean high water. Check the edition date too, and keep the chart corrected. NOAA is moving from traditional paper charts to electronic charts, so check what’s currently available for your area.",
@@ -3719,7 +3896,101 @@
        "Blue: shallower water",
        "White: deeper water",
        "Magenta: lights, aids, cables and restricted areas"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "x",
+         20,
+         14,
+         96,
+         62,
+         "#EADFC0"
+        ],
+        [
+         "t",
+         136,
+         52,
+         "Land",
+         "start"
+        ],
+        [
+         "x",
+         20,
+         90,
+         96,
+         62,
+         "#B9D7A8"
+        ],
+        [
+         "t",
+         136,
+         116,
+         "Covers and uncovers",
+         "start"
+        ],
+        [
+         "m",
+         136,
+         136,
+         "with the tide",
+         "start"
+        ],
+        [
+         "x",
+         20,
+         166,
+         96,
+         62,
+         "#BFE0F2"
+        ],
+        [
+         "t",
+         136,
+         204,
+         "Shallower water",
+         "start"
+        ],
+        [
+         "x",
+         20,
+         242,
+         96,
+         62,
+         "#FFFFFF"
+        ],
+        [
+         "t",
+         136,
+         280,
+         "Deeper water",
+         "start"
+        ],
+        [
+         "x",
+         20,
+         318,
+         96,
+         62,
+         "#A3195B"
+        ],
+        [
+         "t",
+         136,
+         344,
+         "Lights, aids, cables,",
+         "start"
+        ],
+        [
+         "t",
+         136,
+         364,
+         "restricted areas",
+         "start"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Chart Number One, published by NOAA and the National Geospatial-Intelligence Agency, explains every symbol and abbreviation on nautical charts, and the exam draws on it. Start with color. Land is buff or tan. Green marks areas that cover and uncover with the tide, like mud flats and oyster bars that dry at low water. Blue tints show shallower water, usually inside a chosen depth contour, and white shows deeper water. Magenta is used for lights, aids to navigation, cables, and restricted or regulated areas, so it draws your eye to things that matter.",
@@ -3737,7 +4008,120 @@
        "Bottom: S sand, M mud, Sh shells, Rk rock, Co coral, G gravel",
        "Qualifiers: hrd hard, sft soft, fne fine, crs coarse",
        "Charted depths can be out of date, especially near inlets"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "r",
+         0,
+         0,
+         440,
+         400,
+         "s-bg"
+        ],
+        [
+         "f",
+         "M0,0 H70 Q120,200 60,400 H0 Z",
+         "s-land"
+        ],
+        [
+         "p",
+         "M150,0 Q200,200 140,400 M240,0 Q290,200 230,400 M340,0 Q390,200 330,400",
+         "s-lst",
+         2.2
+        ],
+        [
+         "t",
+         118,
+         90,
+         "4",
+         "middle",
+         16
+        ],
+        [
+         "t",
+         128,
+         250,
+         "5",
+         "middle",
+         16
+        ],
+        [
+         "t",
+         208,
+         150,
+         "9",
+         "middle",
+         16
+        ],
+        [
+         "t",
+         216,
+         320,
+         "11",
+         "middle",
+         16
+        ],
+        [
+         "t",
+         302,
+         100,
+         "18",
+         "middle",
+         16
+        ],
+        [
+         "t",
+         308,
+         270,
+         "21",
+         "middle",
+         16
+        ],
+        [
+         "t",
+         396,
+         180,
+         "34",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         118,
+         180,
+         "S"
+        ],
+        [
+         "m",
+         216,
+         230,
+         "M"
+        ],
+        [
+         "m",
+         308,
+         190,
+         "Sh"
+        ],
+        [
+         "t",
+         230,
+         36,
+         "Depth contours",
+         "start",
+         15,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         388,
+         "Soundings: depths below chart datum (MLLW)"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Soundings are the small numbers in the water, showing depth below the chart datum, usually mean lower low water. Depth contours are lines joining points of equal depth, so you can see a shoal or channel edge at a glance. Bottom characteristics are abbreviated: S for sand, M for mud, S h for shells, R k for rock, C o for coral, G for gravel, with qualifiers like h r d for hard and s f t for soft. These matter for anchoring, because sand and mud hold well while rock and coral don’t. Remember that charted depths may be old, and channels shoal, especially near Florida’s inlets.",
@@ -3782,7 +4166,27 @@
         "PA, PD, ED, Rep",
         "Position approximate, position doubtful, existence doubtful, reported"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "warn",
+         "Rocks",
+         "Bare, covering and uncovering, awash or sunken"
+        ],
+        [
+         "boat",
+         "Wrecks",
+         "Visible or submerged"
+        ],
+        [
+         "q",
+         "PA, PD, ED, Rep",
+         "Position or existence is uncertain"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Hazards have their own symbols. A rock that does not cover is always above water, with its height given above mean high water. A rock that covers and uncovers is exposed at low tide. A rock awash is right at the surface at chart datum. A sunken rock, marked with a cross, is always submerged and may be dangerous. Wrecks show as a hull symbol when visible and crossed lines when submerged. Watch for qualifiers: P A means position approximate, P D position doubtful, E D existence doubtful, and Rep means reported but not confirmed. Treat every one of them as real.",
@@ -3800,7 +4204,28 @@
        "Restricted areas, danger zones, security zones",
        "Bridges: type, horizontal and vertical clearance",
        "Landmarks: tanks, towers, stacks, spires"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "anchor",
+         "Anchorage areas"
+        ],
+        [
+         "no",
+         "Cable and pipeline areas: no anchoring"
+        ],
+        [
+         "warn",
+         "Restricted, danger and security zones"
+        ],
+        [
+         "bridge",
+         "Bridges: type and clearances"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Charts also show regulated areas, usually in magenta. Anchorage areas and special anchorage areas are outlined, and in a special anchorage area small vessels may anchor without anchor lights under Inland rules. Cable and pipeline areas mean don’t anchor or drag gear. Restricted areas, danger zones and security zones each have rules explained in the chart notes and the Coast Pilot. Bridges show their type and their horizontal and vertical clearances. Conspicuous landmarks like water tanks, radio towers, stacks and spires are useful for bearings, and a small circle on the symbol marks the exact position.",
@@ -3818,7 +4243,22 @@
        "Raster charts: images of paper charts",
        "ENCs: vector data; details can hide when zoomed out",
        "Always use the most current edition"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "",
+        "Raster chart",
+        "chart",
+        "An image of the paper chart"
+       ],
+       "b": [
+        "",
+        "ENC (vector chart)",
+        "grid",
+        "Data in layers. Zoom in, or details can hide"
+       ]
+      }
      },
      "video": null,
      "script": "Read every note printed on a chart before you navigate with it. Notes explain regulations, cautions about shoaling or unreliable aids, and datum information. On electronic charts you’ll see two kinds. Raster charts are scanned images of paper charts and look just like them. Electronic navigational charts, or E N Cs, are vector data that the plotter draws. They’re powerful, but soundings and hazards can disappear when you zoom out, so always zoom in to check your route. Whatever kind of chart you use, make sure it’s the most current edition.",
@@ -3858,7 +4298,32 @@
        "Quick flashing: sharp turn, junction or special caution",
        "Lighted buoys are pillars or spars: read color and number",
        "Preferred channel: composite group flashing (2+1)"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "dots:r",
+         "Red marks",
+         "Red lights"
+        ],
+        [
+         "dots:g",
+         "Green marks",
+         "Green lights"
+        ],
+        [
+         "txt:Q",
+         "Quick flashing",
+         "Sharp turn, junction or special caution"
+        ],
+        [
+         "txt:2+1",
+         "Preferred channel",
+         "Composite group flashing"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Lighted lateral buoys usually aren’t nun or can shaped. They’re pillar or spar buoys, so you identify them by color, number and light. A red mark shows a red light and a green mark shows a green light. Lateral lights use flashing, occulting, quick or isophase rhythms. A quick-flashing light often marks a sharp turn, a junction, or a spot needing special caution. A preferred channel mark shows a composite group-flashing light, two flashes followed by one, in the color of its top band. Unlighted buoys carry reflective tape in the mark’s color, so a spotlight at night can identify them.",
@@ -3876,7 +4341,50 @@
        "Green squares, odd numbers: keep on your left returning",
        "More reliable in position than buoys",
        "Often in shallow water: don’t cut close"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<line x1='120' y1='150' x2='120' y2='290' class='s-st' stroke-width='6'/><polygon points='120,50 182,160 58,160' fill='#C8312A'/><text x='120' y='142' text-anchor='middle' font-size='36' font-weight='700' fill='#fff'>4</text><line x1='320' y1='150' x2='320' y2='290' class='s-st' stroke-width='6'/><rect x='268' y='58' width='104' height='102' fill='#1E8A4C'/><text x='320' y='124' text-anchor='middle' font-size='36' font-weight='700' fill='#fff'>3</text>"
+        ],
+        [
+         "p",
+         "M30,290 H410",
+         "s-magst",
+         2.5
+        ],
+        [
+         "t",
+         120,
+         326,
+         "Red triangle, even",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         120,
+         348,
+         "On your right returning"
+        ],
+        [
+         "t",
+         320,
+         326,
+         "Green square, odd",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         320,
+         348,
+         "On your left returning"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Daybeacons are fixed aids, dayboards mounted on piles, common in Florida bays and along the Intracoastal Waterway. Red daybeacons are triangles with even numbers, and green daybeacons are squares with odd numbers, following the same red right returning rule. Because daybeacons are fixed, they’re more reliable in position than buoys. But they often stand in shallow water right at the edge of a channel, so give them a reasonable berth rather than cutting close.",
@@ -3906,7 +4414,55 @@
        "Use buoys as a guide, not a fixed position",
        "Report discrepancies to the Coast Guard",
        "Private aids (PATONs) follow the same colors and shapes"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         46,
+         "A guide, not a fixed position"
+        ],
+        [
+         "raw",
+         "<circle cx='140' cy='180' r='26' class='s-magst' stroke-width='2' stroke-dasharray='5 4'/>"
+        ],
+        [
+         "m",
+         140,
+         228,
+         "Charted position"
+        ],
+        [
+         "a",
+         "M168,188 L262,214",
+         "s-st"
+        ],
+        [
+         "i",
+         "buoyR",
+         300,
+         222,
+         1.7
+        ],
+        [
+         "t",
+         300,
+         276,
+         "Off station",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         350,
+         "Buoys drag, sink, capsize and lose their lights"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Buoys are anchored floating objects. They can drag off station in storms, be struck by vessels, sink, or have their lights fail. The Light List warns mariners not to rely on buoys alone for position. Use them as a guide, and cross-check with charted features, depths and GPS. If you find an aid off station or not working, report it to the Coast Guard. Private aids to navigation, called PATONs, are placed by private owners like marinas. They must follow the same color and shape rules, but they may not be maintained to Coast Guard standards.",
@@ -3969,7 +4525,27 @@
        "Mileage boards show statute miles along the river",
        "Passing daymarks: red triangles and green squares",
        "Crossing daymarks: diamonds where the channel crosses the river"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "river",
+         "No numbers on buoys",
+         "The channels shift"
+        ],
+        [
+         "txt:MILE",
+         "Mileage boards",
+         "Statute miles along the river"
+        ],
+        [
+         "shapes:diamond",
+         "Crossing daymarks",
+         "Diamonds where the channel crosses the river"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The Western Rivers use a modified lateral system. Buoys there aren’t numbered, because channels shift with the river. Shore-mounted mileage boards show the distance in statute miles from a fixed point. Passing daymarks, red triangles and green squares, mark the side of the channel along a bank, and diamond-shaped crossing daymarks show where the channel crosses from one bank to the other. You may never see these from Florida, but the exam can ask about them.",
@@ -4017,7 +4593,32 @@
         "Yellow",
         "Yellow"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "buoyR",
+         "Starboard side",
+         "Red, red light"
+        ],
+        [
+         "buoyG",
+         "Port side",
+         "Green, green light"
+        ],
+        [
+         "txt:Mo(A)",
+         "Safe water",
+         "Red and white, white light"
+        ],
+        [
+         "txt:Fl(2)",
+         "Isolated danger",
+         "Black and red, white light"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Here’s a summary to memorize. Starboard-side lateral marks are red with red lights, and port-side marks are green with green lights. Preferred channel marks have red and green bands and a composite group-flashing light in the color of the top band. Safe water marks have red and white vertical stripes and a white Morse A light. Isolated danger marks are black with red bands and a white light flashing in groups of two. Special marks are yellow, with yellow lights. If you know this table, you can identify nearly any mark the exam describes.",
@@ -4057,7 +4658,27 @@
        "Sector bearings and fog signals in the remarks",
        "Volume III: Florida’s Atlantic coast through the Big Bend",
        "Volume IV: the rest of the Gulf coast to Texas"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "book",
+         "Light List",
+         "Every light, buoy and daybeacon in a region"
+        ],
+        [
+         "txt:III",
+         "Volume III",
+         "Florida’s Atlantic coast through the Big Bend"
+        ],
+        [
+         "txt:IV",
+         "Volume IV",
+         "The rest of the Gulf coast to Texas"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The Light List, published by the Coast Guard, describes every aid in its region: name and position, light characteristic, height above water, nominal range, the structure, and remarks such as sector bearings or fog signals. It’s divided into seven volumes. Volume three covers the Atlantic and Gulf coasts from Little River, South Carolina, around Florida to the Econfina River in the Big Bend, so it includes most of Florida. Volume four continues along the Gulf to Texas. Check the Local Notice to Mariners for changes since the edition you’re using.",
@@ -4090,7 +4711,27 @@
         "Visible range",
         "The lesser of luminous and geographic range"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "bulb",
+         "Nominal range",
+         "Clear weather. Shown on the chart"
+        ],
+        [
+         "fog",
+         "Luminous range",
+         "In tonight’s visibility"
+        ],
+        [
+         "globe",
+         "Geographic range",
+         "Until the earth’s curve hides it"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Three ranges describe how far a light can be seen. Nominal range is the distance a light carries in clear weather, defined as a meteorological visibility of ten nautical miles. That’s the number on the chart and in the Light List. Luminous range is how far the light carries in the visibility actually present tonight, which you find with the luminous range diagram in the Light List. Geographic range is how far you could see the light before the curve of the earth hides it, which depends on the light’s height and your height of eye. The distance at which you’ll actually first see the light is the lesser of the luminous range and the geographic range.",
@@ -4120,7 +4761,86 @@
        "Your horizon: 1.17 × √16 = 4.7 nm",
        "Geographic range: 11.7 + 4.7 = 16.4 nm",
        "Luminous range tonight 12 nm: you’ll see it at about 12 nm"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "f",
+         "M0,300 Q220,196 440,300 V400 H0 Z",
+         "s-bg"
+        ],
+        [
+         "raw",
+         "<rect x='52' y='160' width='12' height='122' class='s-ink'/><circle cx='58' cy='154' r='8' fill='#ffd34d'/>"
+        ],
+        [
+         "i",
+         "boat",
+         392,
+         276,
+         0.9
+        ],
+        [
+         "l",
+         "M58,154 L392,262"
+        ],
+        [
+         "m",
+         58,
+         136,
+         "Light: 100 ft"
+        ],
+        [
+         "m",
+         392,
+         246,
+         "Eye: 16 ft"
+        ],
+        [
+         "t",
+         170,
+         176,
+         "11.7 nm",
+         "middle",
+         17,
+         "s-mag"
+        ],
+        [
+         "t",
+         316,
+         222,
+         "4.7 nm",
+         "middle",
+         17,
+         "s-mag"
+        ],
+        [
+         "t",
+         220,
+         60,
+         "11.7 + 4.7 = 16.4 nm"
+        ],
+        [
+         "m",
+         220,
+         82,
+         "Geographic range"
+        ],
+        [
+         "m",
+         220,
+         350,
+         "Tonight’s luminous range is 12 nm,"
+        ],
+        [
+         "m",
+         220,
+         370,
+         "so you see it at about 12 nm"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Let’s work one more. A light stands one hundred feet above the water, and your eye is sixteen feet up on a flybridge. The square root of one hundred is ten, and ten times one point one seven gives about eleven point seven miles. The square root of sixteen is four, and four times one point one seven gives about four point seven miles. The geographic range is the sum, about sixteen point four miles. But if tonight’s visibility limits the luminous range to twelve miles, you’ll only see the light at about twelve miles. The lesser range always wins.",
@@ -4160,7 +4880,27 @@
        "Coast Pilot 4: Cape Henry, VA to Key West",
        "Coast Pilot 5: Gulf coast, Puerto Rico and Virgin Islands",
        "Free to download; updated regularly"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "book",
+         "U.S. Coast Pilot",
+         "What the chart can’t show"
+        ],
+        [
+         "txt:CP 4",
+         "Coast Pilot 4",
+         "Cape Henry to Key West"
+        ],
+        [
+         "txt:CP 5",
+         "Coast Pilot 5",
+         "Gulf coast, Puerto Rico and Virgin Islands"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The United States Coast Pilot, published by NOAA, supplements the chart with information that can’t be drawn on it: navigation regulations, local hazards, anchorages, bridge and cable clearances, currents, weather, and descriptions of ports and channels. It comes in nine volumes. Coast Pilot four covers the Atlantic coast from Cape Henry, Virginia, to Key West, and Coast Pilot five covers the Gulf coast, Puerto Rico and the Virgin Islands. Read the relevant chapters before you run a new inlet or harbor. It’s free to download and updated regularly.",
@@ -4177,7 +4917,27 @@
        "Aid changes and discrepancies, dredging, hazards, events, chart corrections",
        "NGA Notice to Mariners: weekly, for ocean charts",
        "Broadcast Notices: urgent info, announced on VHF 16, read on 22A"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "doc",
+         "Local Notice to Mariners",
+         "Weekly, from each Coast Guard district"
+        ],
+        [
+         "globe",
+         "NGA Notice to Mariners",
+         "Weekly, for ocean charts"
+        ],
+        [
+         "radio",
+         "Broadcast Notice",
+         "Announced on VHF 16, read on 22A"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Notices to Mariners keep your charts and publications current. The Local Notice to Mariners is published weekly by each Coast Guard district. It covers aids that have been added, moved or are off station, dredging and construction, marine events, hazards, and chart corrections for local waters. The National Geospatial-Intelligence Agency publishes a weekly Notice to Mariners for ocean charts and international publications. For urgent information, the Coast Guard makes Broadcast Notices to Mariners, announced on VHF channel sixteen and then read on channel twenty-two alpha.",
@@ -4195,7 +4955,28 @@
        "Navigation Rules and Regulations Handbook",
        "Chart No. 1",
        "Code of Federal Regulations: 33 CFR navigation, 46 CFR shipping"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "tide",
+         "Tide and current predictions"
+        ],
+        [
+         "book",
+         "Navigation Rules handbook"
+        ],
+        [
+         "chart",
+         "Chart No. 1"
+        ],
+        [
+         "doc",
+         "33 CFR and 46 CFR"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Several other publications round out the captain’s library. NOAA publishes tide and tidal current predictions on its Tides and Currents website, and the exam uses extracts from the classic Tide Tables and Tidal Current Tables, which we’ll practice in the next two lessons. You already know the Navigation Rules handbook and Chart Number One. The Code of Federal Regulations contains the laws you operate under. Title thirty-three covers navigation and navigable waters. Title forty-six covers shipping, including uninspected passenger vessels and your license.",
@@ -4213,7 +4994,16 @@
        "Mark corrections neatly and log them",
        "Chartplotters: install chart updates regularly",
        "When sources disagree, use the newest and go carefully"
-      ]
+      ],
+      "fig": {
+       "t": "steps",
+       "items": [
+        "Note the chart’s edition date",
+        "Check every Local Notice since then",
+        "Mark each correction and log it",
+        "Update chartplotter charts too"
+       ]
+      }
      },
      "video": null,
      "script": "Correcting charts is a basic duty. Start with the edition date of your chart, then check every Local Notice to Mariners issued since that date for corrections that affect it. On paper charts, mark corrections neatly and record them in a correction log, so you know the chart is up to date. On chartplotters, install chart updates regularly, since an old memory card can be years out of date. When sources disagree, use the most recent information and navigate with extra caution.",
@@ -4253,7 +5043,99 @@
        "Actual depth = charted depth + height of tide",
        "Negative tide: water below MLLW, shallower than charted",
        "Stand: the pause at high or low water"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         30,
+         "Depth = charted depth + height of tide"
+        ],
+        [
+         "raw",
+         "<rect x='300' y='62' width='130' height='12' class='s-ink'/>"
+        ],
+        [
+         "a",
+         "M364,118 V80",
+         "s-st"
+        ],
+        [
+         "m",
+         356,
+         104,
+         "Clearance",
+         "end"
+        ],
+        [
+         "l",
+         "M10,124 H430"
+        ],
+        [
+         "m",
+         14,
+         116,
+         "MHW",
+         "start"
+        ],
+        [
+         "p",
+         "M10,196 H430",
+         "s-magst",
+         3
+        ],
+        [
+         "t",
+         14,
+         188,
+         "Water now",
+         "start",
+         14,
+         "s-mag"
+        ],
+        [
+         "l",
+         "M10,262 H430"
+        ],
+        [
+         "m",
+         14,
+         254,
+         "MLLW",
+         "start"
+        ],
+        [
+         "a",
+         "M250,258 V202"
+        ],
+        [
+         "m",
+         262,
+         236,
+         "Height of tide",
+         "start"
+        ],
+        [
+         "a",
+         "M150,334 V268",
+         "s-st"
+        ],
+        [
+         "m",
+         162,
+         306,
+         "Charted depth",
+         "start"
+        ],
+        [
+         "f",
+         "M0,340 Q220,322 440,342 V400 H0 Z",
+         "s-land"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A few terms. High water and low water are the highest and lowest levels in each tide cycle, and the range is the difference between them. Charted depths are measured from mean lower low water, so the actual depth at any moment equals the charted depth plus the height of tide. A tide height can be negative, meaning the water is below mean lower low water and shallower than charted. That happens around spring tides, especially with strong offshore winds. The stand of the tide is the brief period at high or low water when the level barely changes.",
@@ -4294,7 +5176,27 @@
         "Table 3",
         "Height of tide at any time between high and low"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "num:1",
+         "Reference stations",
+         "Daily high and low times and heights"
+        ],
+        [
+         "num:2",
+         "Subordinate stations",
+         "Time and height corrections"
+        ],
+        [
+         "num:3",
+         "Any time",
+         "Height between high and low"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The classic Tide Tables used on the exam have three main tables. Table one gives the daily times and heights of high and low water at reference stations. Table two lists subordinate stations, each tied to a reference station, with time differences for high and low water and height corrections. Height corrections are either a number of feet to add or subtract, or a ratio, marked with an asterisk, that you multiply by the reference heights. Table three lets you find the height of tide at any time between high and low water. Times are in local standard time, so add one hour during daylight saving time.",
@@ -4312,7 +5214,32 @@
        "High: 10:42 + 0:35 = 11:17, height 3.6 + 0.4 = 4.0 ft",
        "Low: 16:50 + 0:48 = 17:38, height 0.4 − 0.1 = 0.3 ft",
        "Daylight saving time: add 1 hour, giving 12:17 and 18:38"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "clock",
+         "High water time",
+         "10:42 + 0:35 = 11:17"
+        ],
+        [
+         "up",
+         "High water height",
+         "3.6 + 0.4 = 4.0 ft"
+        ],
+        [
+         "clock",
+         "Low water time",
+         "16:50 + 0:48 = 17:38"
+        ],
+        [
+         "down",
+         "Low water height",
+         "0.4 − 0.1 = 0.3 ft"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Let’s work a subordinate station. The reference station predicts high water at ten forty-two, three point six feet, and low water at sixteen fifty, zero point four feet. The subordinate station’s corrections are plus thirty-five minutes and plus zero point four feet for high water, and plus forty-eight minutes and minus zero point one feet for low water. So high water at the subordinate station is at eleven seventeen, four point zero feet, and low water is at seventeen thirty-eight, zero point three feet. In summer, with daylight saving time in effect, add one hour: twelve seventeen and eighteen thirty-eight.",
@@ -4330,7 +5257,8 @@
        "6/12 × 6 ft = 3 ft above low water",
        "Height of tide at 09:00 ≈ 0.5 + 3 = 3.5 ft",
        "Charted 5 ft spot: about 8.5 ft of water at 09:00"
-      ]
+      ],
+      "fig": "tide"
      },
      "video": null,
      "script": "To estimate the height of tide between high and low, use the rule of twelfths or Table three. Say low water is zero point five feet at six hundred hours and high water is six point five feet at noon, a range of six feet over six hours. By nine hundred, three hours in, the tide has risen one plus two plus three twelfths, which is six twelfths, or half the range: three feet. Add that to the low water height, and the tide is about three point five feet. Where the chart shows five feet, you’ll have about eight and a half feet of water at nine hundred.",
@@ -4358,7 +5286,22 @@
        "Flood toward land, ebb away, slack between",
        "Reversing currents in channels; rotary currents offshore",
        "Slack often doesn’t match high or low tide"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "",
+        "Current: where it flows TOWARD",
+        "current",
+        "A set of 090° flows toward the east"
+       ],
+       "b": [
+        "",
+        "Wind: where it comes FROM",
+        "wind",
+        "A north wind blows from the north"
+       ]
+      }
      },
      "video": null,
      "script": "Tidal current is the horizontal flow of water caused by the tide. A current is named for the direction it flows toward, called its set, while wind is named for the direction it comes from. So a north wind blows toward the south, but a north-setting current flows toward the north. That difference shows up on the exam. Flood current flows toward land, ebb away from it, and slack water is the brief period between. In rivers and inlets currents reverse direction, while offshore they may be rotary, turning steadily around the compass. Slack water often doesn’t coincide with high or low tide, especially in inlets, so never assume one from the other.",
@@ -4387,7 +5330,27 @@
         "Table 3",
         "Current speed at any time between slack and maximum"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "num:1",
+         "Reference stations",
+         "Slack and maximum current times"
+        ],
+        [
+         "num:2",
+         "Subordinate stations",
+         "Time differences and speed ratios"
+        ],
+        [
+         "num:3",
+         "Any time",
+         "Speed between slack and maximum"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The Tidal Current Tables work like the Tide Tables. Table one gives daily times of slack water and maximum current at reference stations, with maximum flood and ebb speeds. Table two gives corrections for subordinate stations: time differences for slack and maximum current, speed ratios for flood and ebb, and the true directions of flood and ebb. Table three gives the current speed at any time between slack and maximum. For example, if the reference station predicts a maximum flood of two knots at fourteen hundred, and a subordinate station has a time difference of minus twenty minutes and a flood ratio of point six, expect a maximum flood of one point two knots at thirteen forty.",
@@ -4405,7 +5368,8 @@
        "North wind against the Stream: steep, dangerous seas",
        "The Loop Current in the Gulf feeds it",
        "Inlets: strong ebb against an onshore wind breaks"
-      ]
+      ],
+      "fig": "flcurrents"
      },
      "video": null,
      "script": "Florida captains deal with one of the strongest ocean currents in the world. The Florida Current, the beginning of the Gulf Stream, flows north along the east coast, often at two to four knots and sometimes more, and it comes closest to shore off Palm Beach County. When a strong north wind blows against the northbound Stream, seas become short, steep and dangerous, so experienced captains don’t cross in a norther. In the Gulf, the Loop Current feeds the Florida Current. Closer in, a strong ebb running out of an inlet against an onshore wind can produce breaking seas right in the entrance.",
@@ -4435,7 +5399,75 @@
        "Set = 150°T, the direction from DR to fix",
        "Drift = 3 nm ÷ 2 hours = 1.5 knots",
        "Use it to correct your next course"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<circle cx='90' cy='320' r='8' class='s-magst' stroke-width='2.5'/><path d='M292,118 A10,10 0 0 1 312,118' class='s-st' stroke-width='2.5'/><circle cx='347' cy='200' r='8' class='s-magst' stroke-width='2.5'/>"
+        ],
+        [
+         "p",
+         "M97,314 L296,124",
+         "s-st",
+         2
+        ],
+        [
+         "m",
+         90,
+         350,
+         "0800 fix"
+        ],
+        [
+         "m",
+         300,
+         98,
+         "1000 DR"
+        ],
+        [
+         "a",
+         "M306,128 L342,192"
+        ],
+        [
+         "m",
+         360,
+         206,
+         "1000 fix",
+         "start"
+        ],
+        [
+         "t",
+         250,
+         170,
+         "3 nm",
+         "end",
+         15,
+         "s-mag"
+        ],
+        [
+         "t",
+         220,
+         40,
+         "Set and drift from two fixes"
+        ],
+        [
+         "t",
+         220,
+         290,
+         "Set 150°T: from DR to fix",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         314,
+         "Drift: 3 nm ÷ 2 hours = 1.5 knots"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "When you don’t know the current in advance, you can measure it. Plot your dead reckoning position from course and speed, then take a fix. The current’s set is the direction from your DR position to your fix, and its drift is the distance between them divided by the time since your last fix. For example, if your ten hundred fix lies three nautical miles from your ten hundred DR position, bearing one five zero true, and your last fix was at eight hundred, the set is one five zero true and the drift is one and a half knots. This also captures the effects of wind and steering error.",
@@ -4463,7 +5495,70 @@
        "Mount it on or parallel to the centerline",
        "Keep magnets, electronics, speakers and tools away",
        "Gimbals keep it level as the boat rolls"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<circle cx='220' cy='210' r='120' class='s-surfb'/><circle cx='220' cy='210' r='96' class='s-lst' stroke-width='1.5'/><path d='M220,90 V110 M220,310 V330 M100,210 H120 M320,210 H340' class='s-st' stroke-width='3'/><line x1='220' y1='60' x2='220' y2='96' class='s-magst' stroke-width='5'/>"
+        ],
+        [
+         "t",
+         220,
+         142,
+         "N",
+         "middle",
+         26
+        ],
+        [
+         "t",
+         298,
+         219,
+         "E",
+         "middle",
+         22
+        ],
+        [
+         "t",
+         220,
+         296,
+         "S",
+         "middle",
+         22
+        ],
+        [
+         "t",
+         142,
+         219,
+         "W",
+         "middle",
+         22
+        ],
+        [
+         "i",
+         "north",
+         220,
+         204,
+         1.2
+        ],
+        [
+         "t",
+         220,
+         44,
+         "Lubber line = the boat’s heading",
+         "middle",
+         16,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         372,
+         "The card points to magnetic north"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The magnetic compass is the one navigation instrument that needs no electricity. A magnetized card floats in liquid and aligns itself with the earth’s magnetic field. The lubber line, a mark on the compass bowl, is aligned with the boat’s centerline, and your heading is the number on the card at the lubber line. Mount the compass on or parallel to the centerline where the helmsman can see it, and keep magnetic and electrical items away from it: speakers, radios, phones, tools, even a drink holder with a magnet. Moving any of these can change your compass error.",
@@ -4493,7 +5588,68 @@
        "Update for annual change to the current year",
        "Florida: roughly 2° to 8° west, depending on location",
        "Westerly variation: magnetic north lies west of true north"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "a",
+         "M240,330 V84",
+         "s-st"
+        ],
+        [
+         "t",
+         260,
+         74,
+         "True north",
+         "start",
+         15
+        ],
+        [
+         "a",
+         "M240,330 L166,96"
+        ],
+        [
+         "t",
+         150,
+         82,
+         "Magnetic north",
+         "end",
+         15,
+         "s-mag"
+        ],
+        [
+         "p",
+         "M240,180 A150,150 0 0 0 195,187",
+         "s-magst",
+         2
+        ],
+        [
+         "t",
+         118,
+         210,
+         "Westerly",
+         "middle",
+         15,
+         "s-mag"
+        ],
+        [
+         "t",
+         118,
+         228,
+         "variation",
+         "middle",
+         15,
+         "s-mag"
+        ],
+        [
+         "m",
+         220,
+         372,
+         "Read it from the chart’s compass rose"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Variation is the angle between true north and magnetic north at your location. It’s the same no matter which way the boat is heading. Read it from the center of the nearest compass rose on your chart, which also gives the year it was measured and the annual change. Multiply the annual change by the number of years since then, and apply it. In Florida, variation is a few degrees west, from roughly two degrees in the western Panhandle to around eight degrees on the Atlantic coast, and it changes slowly over time. Westerly variation means magnetic north lies to the west of true north.",
@@ -4511,7 +5667,68 @@
        "Recorded on a deviation card for each heading",
        "Use the deviation for your HEADING, even when taking a bearing",
        "“Compass least, error east; compass best, error west”"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         44,
+         "Deviation changes with heading"
+        ],
+        [
+         "m",
+         220,
+         68,
+         "It comes from the boat’s own magnetism"
+        ],
+        [
+         "h",
+         120,
+         200,
+         0,
+         "s-ink",
+         1.9
+        ],
+        [
+         "t",
+         120,
+         292,
+         "Heading 000°",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         120,
+         314,
+         "Deviation 2°E"
+        ],
+        [
+         "h",
+         320,
+         200,
+         90,
+         "s-ink",
+         1.9
+        ],
+        [
+         "t",
+         320,
+         292,
+         "Heading 090°",
+         "middle",
+         16
+        ],
+        [
+         "m",
+         320,
+         314,
+         "Deviation 2°W"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Deviation is the error caused by your boat’s own magnetic fields. Unlike variation, it changes as your heading changes, so it’s recorded on a deviation card listing the error for each heading. Here’s a key exam point. When you take a compass bearing of a landmark, you correct it using the deviation for the boat’s heading, not the direction of the bearing, because deviation depends on how the boat is pointed. And a handy rule for naming the error: compass least, error east; compass best, error west. If the compass reads less than magnetic, deviation is east.",
@@ -4529,7 +5746,27 @@
        "120° − 2° (deviation for your heading) = 118° magnetic",
        "118° − 5° (variation) = 113° true",
        "Plot the bearing as 113°T"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "compass",
+         "Compass bearing",
+         "120°"
+        ],
+        [
+         "magnet",
+         "Deviation 2°W, for heading 045°",
+         "120° − 2° = 118° magnetic"
+        ],
+        [
+         "globe",
+         "Variation 5°W",
+         "118° − 5° = 113° true"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Here’s that bearing trap worked out. You’re steering zero four five by compass, and your deviation card shows two degrees west on that heading. Variation is five degrees west. You take a compass bearing on a lighthouse and read one two zero. Use the deviation for your heading, two west, not the deviation for one two zero. Correcting toward true, subtract west: one two zero minus two is one one eight magnetic, and one one eight minus five is one one three true. Bearings are always plotted on the chart as true, so you’d plot one one three.",
@@ -4576,7 +5813,32 @@
         "Bearing",
         "Direction from you to an object"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "north",
+         "Heading",
+         "Where the bow points"
+        ],
+        [
+         "turn",
+         "Course",
+         "Where you mean to steer"
+        ],
+        [
+         "current",
+         "Track",
+         "Where you actually go"
+        ],
+        [
+         "eye",
+         "Bearing",
+         "Direction to an object"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Navigators use precise words. Heading is the direction the bow is pointing at this moment, which wanders as the boat yaws. Course is the direction you intend to steer. Track, or course over ground on a GPS, is the direction the boat actually moves over the bottom, which differs from heading when wind and current push you sideways. Speed over ground is your actual speed over the bottom, as opposed to speed through the water. A bearing is the direction from your boat to an object, and it can be true, magnetic, compass or relative.",
@@ -4629,7 +5891,13 @@
         "150°",
         "2°W"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "big",
+       "ic": "compass",
+       "v": "2°E to 3°W",
+       "cap": "Deviation depends on your heading. Enter the table with the heading you’re steering."
+      }
      },
      "video": null,
      "script": "A deviation table lists the error for each heading. Find your heading in the table, and if it falls between two entries, interpolate. Using this table, a magnetic heading of zero seven five falls halfway between zero six zero, with no deviation, and zero nine zero, with two degrees west, so the deviation is about one degree west. Some tables are arranged by compass heading and some by magnetic heading, so check which you’re using. Exam questions often give you a table like this and ask for the deviation or the compass course to steer.",
@@ -4647,7 +5915,55 @@
        "GPS course over ground is a rough check in calm, slack water",
        "Swinging ship: check all headings and record them",
        "Recheck after installing electronics or moving gear"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         40,
+         "Line up on a range"
+        ],
+        [
+         "raw",
+         "<rect x='206' y='70' width='28' height='44' fill='#C8312A'/><rect x='216' y='70' width='8' height='44' fill='#fff'/><rect x='210' y='140' width='20' height='32' fill='#C8312A'/><rect x='217' y='140' width='6' height='32' fill='#fff'/>"
+        ],
+        [
+         "l",
+         "M220,172 V300"
+        ],
+        [
+         "h",
+         220,
+         320,
+         0,
+         "s-ink",
+         1.4
+        ],
+        [
+         "m",
+         330,
+         96,
+         "Rear mark"
+        ],
+        [
+         "m",
+         330,
+         160,
+         "Front mark"
+        ],
+        [
+         "t",
+         220,
+         376,
+         "Compass vs charted direction = deviation",
+         "middle",
+         15,
+         "s-mag"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Check your compass regularly. The easiest way is with a range. Lined up on a range, compare your compass reading with the range’s magnetic direction from the chart, and the difference is your deviation on that heading. You can also compare your compass heading with GPS course over ground in calm conditions with no current, though that’s less precise. Checking the compass on all headings and recording the results is called swinging ship. A compass adjuster can reduce deviation with small corrector magnets. Recheck whenever you install new electronics or move gear near the compass.",
@@ -4665,7 +5981,27 @@
        "On the range, your compass reads 051°",
        "Compass reads 3° more than magnetic: deviation 3°W",
        "“Compass best, error west”"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "chart",
+         "Range on the chart",
+         "042°T + 6°W = 048° magnetic"
+        ],
+        [
+         "compass",
+         "Compass on the range",
+         "Reads 051°"
+        ],
+        [
+         "magnet",
+         "Deviation 3°W",
+         "Compass best, error west"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Let’s check a compass on a range. The chart shows the range line at zero four two true. Variation is six west, and going from true toward magnetic you add west, so the magnetic direction is zero four eight. Lined up on the range, your compass reads zero five one. The compass reads three degrees more than magnetic, so the deviation on this heading is three degrees west. Compass best, error west. Record it on your deviation card for that heading.",
@@ -4693,7 +6029,28 @@
        "Speed and course over ground come from position changes",
        "Set the datum to match your chart",
        "GPS can fail or be jammed: keep backup skills"
-      ]
+      ],
+      "fig": {
+       "t": "tiles",
+       "items": [
+        [
+         "globe",
+         "Satellites fix your position"
+        ],
+        [
+         "target",
+         "Accurate to a few meters"
+        ],
+        [
+         "gauge",
+         "Speed and course over ground"
+        ],
+        [
+         "warn",
+         "Can fail: keep backup skills"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "GPS gives your position from satellite signals, typically accurate to within a few meters, and better with WAAS, a correction system available across North America. A GPS receiver also gives speed over ground and course over ground, which come from changes in position, not from the compass. Make sure the receiver’s datum matches your chart, normally WGS 84 matched to NAD 83. GPS can fail, lose power or be jammed, so a good captain keeps dead reckoning skills, paper charts and a compass as backups. The Loran system that once backed up GPS was shut down in 2010.",
@@ -4711,7 +6068,64 @@
        "Cross-track error: distance off your intended track",
        "Zoom in to see all detail on vector charts",
        "Keep charts updated; never rely on one source"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "raw",
+         "<circle cx='60' cy='330' r='8' class='s-magst' stroke-width='2.5'/><circle cx='380' cy='90' r='8' class='s-magst' stroke-width='2.5'/>"
+        ],
+        [
+         "p",
+         "M66,325 L374,95",
+         "s-st",
+         2
+        ],
+        [
+         "m",
+         60,
+         362,
+         "Waypoint 1"
+        ],
+        [
+         "m",
+         380,
+         70,
+         "Waypoint 2"
+        ],
+        [
+         "h",
+         256,
+         248,
+         53,
+         "s-ink",
+         1
+        ],
+        [
+         "p",
+         "M220,210 L250,240",
+         "s-magst",
+         3
+        ],
+        [
+         "t",
+         286,
+         262,
+         "Cross-track error",
+         "start",
+         15,
+         "s-mag"
+        ],
+        [
+         "m",
+         176,
+         186,
+         "Intended track",
+         "end"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "A chartplotter shows your GPS position on an electronic chart. You can enter waypoints and build routes, but before you follow a route, zoom in and check every leg for shoals, markers and obstructions, because a straight line between waypoints may cross a shoal or even land. Cross-track error shows how far you are to the side of your intended track. Vector charts may hide details when zoomed out. The Coast Guard and the courts expect a prudent captain not to rely solely on any single aid, so cross-check the plotter with buoys, depths and visual bearings.",
@@ -4729,7 +6143,32 @@
        "Class A: larger commercial vessels; Class B: smaller boats",
        "Many vessels don’t carry AIS: keep a lookout",
        "AIS contact isn’t “in sight” under the Rules"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "radio",
+         "VHF data broadcasts",
+         "Name, MMSI, position, course and speed"
+        ],
+        [
+         "txt:A",
+         "Class A",
+         "Larger commercial vessels"
+        ],
+        [
+         "txt:B",
+         "Class B",
+         "Smaller boats"
+        ],
+        [
+         "eye",
+         "Not everyone has AIS",
+         "Keep a lookout"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The Automatic Identification System, or AIS, broadcasts a vessel’s identity, position, course and speed over VHF data channels. With an AIS receiver you can see a ship’s name and call her directly, and your plotter can calculate the closest point of approach. Class A transponders are required on many commercial vessels, and Class B units are designed for smaller boats. Many vessels carry no AIS at all, so it never replaces a proper lookout. And seeing a vessel on AIS doesn’t mean you’re in sight of her under the Navigation Rules.",
@@ -4747,7 +6186,63 @@
        "Compare with charted depth plus tide to confirm position",
        "Follow a depth contour in poor visibility",
        "Use a shallow-water alarm"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "p",
+         "M10,110 H430",
+         "s-magst",
+         2.5
+        ],
+        [
+         "i",
+         "boat",
+         220,
+         96,
+         3
+        ],
+        [
+         "f",
+         "M220,136 L160,330 H280 Z",
+         "s-mag",
+         0.18
+        ],
+        [
+         "f",
+         "M0,330 Q220,312 440,334 V400 H0 Z",
+         "s-land"
+        ],
+        [
+         "a",
+         "M330,140 V318",
+         "s-st"
+        ],
+        [
+         "t",
+         342,
+         220,
+         "Depth below",
+         "start",
+         15
+        ],
+        [
+         "t",
+         342,
+         238,
+         "the transducer",
+         "start",
+         15
+        ],
+        [
+         "m",
+         220,
+         378,
+         "Set an offset for depth below the keel"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The depth sounder sends a sound pulse down and times its echo. It shows depth below the transducer, unless you’ve set an offset to show depth below the keel or below the waterline, so know how yours is set. Depth is a powerful navigation check. Compare your reading with the charted depth plus the height of tide to confirm your position, and in poor visibility you can follow a depth contour toward a harbor. Set a shallow-water alarm as a safety net, especially in Florida’s skinny water.",
@@ -4765,7 +6260,37 @@
        "13: bridge-to-bridge; 22A: Coast Guard working",
        "DSC: register an MMSI and connect GPS",
        "WX channels: NOAA Weather Radio, 162.400 to 162.550 MHz"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "txt:16",
+         "Channel 16",
+         "Distress, safety and calling"
+        ],
+        [
+         "txt:9",
+         "Channel 9",
+         "Recreational calling"
+        ],
+        [
+         "txt:13",
+         "Channel 13",
+         "Bridge-to-bridge"
+        ],
+        [
+         "txt:22A",
+         "Channel 22A",
+         "Coast Guard working channel"
+        ],
+        [
+         "txt:WX",
+         "Weather channels",
+         "NOAA Weather Radio"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Your VHF radio is also a navigation tool. Its range is roughly line of sight, so antenna height matters more than power. Channel sixteen is for distress, safety and calling. Channel nine is an alternate calling channel for recreational boats. Channel thirteen is the bridge-to-bridge channel, and channel twenty-two alpha is the Coast Guard working channel. A DSC radio needs a registered MMSI number and a GPS connection to send your position in a distress alert. The weather channels carry continuous NOAA Weather Radio broadcasts.",
@@ -4805,7 +6330,32 @@
        "Rain clutter (FTC): breaks up rain returns",
        "Too much clutter control erases real targets",
        "Head-up, north-up and course-up displays"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "radar",
+         "Gain",
+         "Overall sensitivity"
+        ],
+        [
+         "wave",
+         "Sea clutter (STC)",
+         "Cuts echoes from nearby waves"
+        ],
+        [
+         "rain",
+         "Rain clutter (FTC)",
+         "Breaks up rain returns"
+        ],
+        [
+         "warn",
+         "Too much clutter control",
+         "Erases real targets"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Three controls matter most. Gain sets overall sensitivity: too low and you miss weak targets, too high and the screen fills with speckle. Sea clutter control reduces echoes from waves close to the boat. Rain clutter control breaks up the solid returns from rain. The danger is turning these controls up so far that real targets, like a small boat or a buoy, disappear. Displays can be head-up, with the heading line straight up, or north-up and course-up, which stabilize the picture using a heading sensor and make plotting easier.",
@@ -4823,7 +6373,32 @@
        "Small fiberglass, wood and rubber boats return weak echoes",
        "Large objects cast shadows that hide targets",
        "False echoes: side lobes, multiple echoes, second-trace returns"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "boat",
+         "Small boats",
+         "Fiberglass, wood and rubber return weak echoes"
+        ],
+        [
+         "ship",
+         "Shadows",
+         "Large objects hide the targets behind them"
+        ],
+        [
+         "q",
+         "False echoes",
+         "Side lobes, multiple echoes"
+        ],
+        [
+         "wave",
+         "Low beaches",
+         "May not show at all"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Know radar’s limits. The radar horizon is only a little farther than the visual horizon, so a low target beyond it won’t show. A low sandy beach may give little return, and the first strong echo may come from higher land or buildings well inland, which can make you think you’re farther off than you are. Small fiberglass, wooden or rubber boats return weak echoes, which is why a radar reflector is worth carrying. Large ships and islands cast shadows that hide targets behind them. And radar can show false echoes, such as side-lobe echoes or multiple echoes between you and a nearby ship.",
@@ -4841,7 +6416,8 @@
        "CPA: closest point of approach; TCPA: time to it",
        "MARPA or ARPA can track targets automatically",
        "Rule 7: no decisions on scanty radar information"
-      ]
+      ],
+      "fig": "radarplot"
      },
      "video": null,
      "script": "To judge risk of collision on radar, mark a target’s position several times over a few minutes. The line through those marks is its relative motion line. Extend it past the center of the screen, and the closest distance between that line and your boat is the closest point of approach, or C P A. The time until you reach it is the T C P A. Many radars can track targets automatically, called MARPA on small boats or ARPA on ships, and compute C P A for you. Remember Rule seven: radar plotting or equivalent systematic observation is required, and decisions must not be based on scanty radar information, like a single glance at the screen.",
@@ -4859,7 +6435,32 @@
        "Rule 19: don’t turn to port for targets forward of the beam",
        "A radar reflector helps others see you",
        "Practice in clear weather before you need it in fog"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "radar",
+         "If fitted, use it properly",
+         "Rule 7"
+        ],
+        [
+         "eye",
+         "A radar-only contact",
+         "Isn’t “in sight” (Rule 3)"
+        ],
+        [
+         "no",
+         "Target forward of the beam",
+         "Don’t turn to port (Rule 19)"
+        ],
+        [
+         "target",
+         "Radar reflector",
+         "Helps others see you"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Radar ties directly into the Navigation Rules. If your boat has radar, Rule seven requires you to use it properly, including long-range scanning for early warning. A target seen only on radar is not in sight, so in fog Rule nineteen applies, and you avoid turning to port for a target forward of the beam. Make your own boat a better target with a radar reflector mounted as high as practical. And practice with radar on clear days, comparing the screen with what you see, so you can trust your interpretation when the fog rolls in.",
@@ -4899,7 +6500,16 @@
        "Behind: wind veers west, then northwest and north",
        "Barometer rises; clear, cool, often rough for a day or two",
        "East coast: north winds against the Gulf Stream"
-      ]
+      ],
+      "fig": {
+       "t": "steps",
+       "items": [
+        "Ahead: southerly wind, falling barometer",
+        "At the front: squalls and a sudden wind shift",
+        "Behind: wind veers west, then north",
+        "Barometer rises: clear, cool, often rough"
+       ]
+      }
      },
      "video": null,
      "script": "In Florida, winter cold fronts set the rhythm of offshore fishing. Ahead of a front, winds blow from the south or southwest, the barometer falls, and clouds build. As the front passes, a squall line can bring gusty winds and rain, and the wind shifts suddenly. Behind it, the wind veers to the west, then northwest and north, often blowing hard for a day or two, while the barometer rises and the sky clears. On the Atlantic side, those north winds blow against the Gulf Stream and make it dangerous. The best fishing windows often come just before a front, or after the wind lies down behind it.",
@@ -4918,7 +6528,32 @@
        "Cirrus thickening and lowering: warm front coming",
        "Towering cumulus with anvil tops: thunderstorms",
        "Buys Ballot: back to the wind, low on your left"
-      ]
+      ],
+      "fig": {
+       "t": "rows",
+       "items": [
+        [
+         "down",
+         "Falling barometer",
+         "A low or front is approaching"
+        ],
+        [
+         "up",
+         "Rising barometer",
+         "Improving weather"
+        ],
+        [
+         "cloud",
+         "Cirrus thickening, lowering",
+         "Warm front coming"
+        ],
+        [
+         "bolt",
+         "Towering cumulus, anvil tops",
+         "Thunderstorms"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Your barometer and the sky give early warning. A falling barometer signals an approaching low or front, and a rapid fall means strong wind is coming soon. A rising barometer means improving weather. High, thin cirrus clouds that thicken and lower over several hours often mean a warm front is approaching. Towering cumulus clouds that grow into anvil-topped cumulonimbus mean thunderstorms. And remember Buys Ballot’s law: in the Northern Hemisphere, stand with your back to the wind and low pressure is on your left.",
@@ -4955,7 +6590,32 @@
         "Special marine warning",
         "Short-lived hazards: thunderstorms, waterspouts, strong gusts"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "flag",
+         "Small craft advisory",
+         "About 20 to 33 knots"
+        ],
+        [
+         "wind",
+         "Gale warning",
+         "34 to 47 knots"
+        ],
+        [
+         "wind",
+         "Storm warning",
+         "48 to 63 knots"
+        ],
+        [
+         "warn",
+         "Hurricane force",
+         "64 knots and over"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Get the marine forecast before every trip. The National Weather Service issues coastal waters and offshore forecasts, available online and broadcast continuously on NOAA Weather Radio. Learn the warning levels. A small craft advisory is issued for winds roughly in the twenty to thirty-three knot range, or for hazardous seas, with exact thresholds varying by region. A gale warning means thirty-four to forty-seven knots. A storm warning means forty-eight to sixty-three knots. A hurricane force wind warning means sixty-four knots or more. A special marine warning covers short-lived hazards like severe thunderstorms and waterspouts.",
@@ -5013,7 +6673,32 @@
         "Hurricane",
         "64 and over"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "txt:F 0",
+         "Calm",
+         "Less than 1 knot"
+        ],
+        [
+         "txt:F 6",
+         "Strong breeze",
+         "22 to 27 knots"
+        ],
+        [
+         "txt:F 8",
+         "Gale",
+         "34 to 40 knots"
+        ],
+        [
+         "txt:F 12",
+         "Hurricane",
+         "64 knots and over"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "The Beaufort scale describes wind force by its effect on the sea. Force zero is calm. Force three, a gentle breeze of seven to ten knots, brings scattered whitecaps. Force four, a moderate breeze of eleven to sixteen knots, brings frequent whitecaps. Force six, a strong breeze of twenty-two to twenty-seven knots, builds large waves with extensive foam crests, which is where many small charter boats stay at the dock. Force eight is a gale, thirty-four to forty knots, and force twelve is hurricane force, sixty-four knots and above.",
@@ -5041,7 +6726,61 @@
        "Outflow gusts can hit before the rain",
        "Caught out: everyone low, away from metal, out of the water",
        "Waterspouts: move away at right angles to their path"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "t",
+         220,
+         40,
+         "Hear thunder? Head in"
+        ],
+        [
+         "i",
+         "bolt",
+         90,
+         130,
+         2.2
+        ],
+        [
+         "a",
+         "M340,90 V330",
+         "s-st"
+        ],
+        [
+         "m",
+         340,
+         76,
+         "Waterspout’s path"
+        ],
+        [
+         "raw",
+         "<path d='M322,150 Q340,200 330,250 Q350,200 358,150 Z' class='s-mut' opacity='.6'/>"
+        ],
+        [
+         "h",
+         230,
+         230,
+         -90,
+         "s-ink",
+         1
+        ],
+        [
+         "a",
+         "M200,230 H80"
+        ],
+        [
+         "t",
+         150,
+         280,
+         "Move away at right angles",
+         "middle",
+         15,
+         "s-mag"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Florida leads the nation in lightning, and summer thunderstorms are a near-daily hazard. They usually build over land in the early afternoon and drift toward the coast. Gusts flowing out of a storm can hit well before the rain, sometimes at gale force. If you hear thunder, you’re within striking distance, so head in early. If you’re caught out, get everyone low, away from metal, rods and the console, and out of the water. Waterspouts are common in the Keys and along both coasts. Most are fair-weather spouts, but treat every one as dangerous and move away at right angles to its path.",
@@ -5074,7 +6813,32 @@
         "Major hurricane",
         "Category 3 and up: 96 knots and over"
        ]
-      ]
+      ],
+      "fig": {
+       "t": "band",
+       "items": [
+        [
+         "cloud",
+         "Tropical depression",
+         "Under 34 knots"
+        ],
+        [
+         "rain",
+         "Tropical storm",
+         "34 to 63 knots"
+        ],
+        [
+         "wind",
+         "Hurricane",
+         "64 knots and over"
+        ],
+        [
+         "warn",
+         "Major hurricane",
+         "96 knots and over"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Tropical cyclones are classified by sustained wind. A tropical depression has winds under thirty-four knots, a tropical storm thirty-four to sixty-three knots, and a hurricane sixty-four knots or more. Category three and higher hurricanes, ninety-six knots and above, are called major hurricanes. Atlantic hurricane season runs from June first through November thirtieth, with the peak from August through October. The National Hurricane Center issues a watch when hurricane conditions are possible, usually within forty-eight hours, and a warning when they are expected, usually within thirty-six hours.",
@@ -5104,7 +6868,22 @@
        "Florida sea fog: mostly winter and spring",
        "When visibility drops: Rule 19 and fog signals",
        "Slow down, lights on, radar plotting, extra lookout"
-      ]
+      ],
+      "fig": {
+       "t": "cmp",
+       "a": [
+        "",
+        "Advection fog",
+        "fog",
+        "Warm, moist air moving over cooler water"
+       ],
+       "b": [
+        "",
+        "Radiation fog",
+        "moon",
+        "Clear, calm nights. Drifts over rivers and bays"
+       ]
+      }
      },
      "video": null,
      "script": "Fog forms when air cools to its dew point. Advection fog forms when warm, moist air moves over cooler water, and it can persist for hours or even days. In Florida, it’s most common in winter and spring, when warm air flows over cooler nearshore water. Radiation fog forms on clear, calm nights as the land cools, and it can drift over rivers, bays and harbors until the morning sun burns it off. When visibility drops, follow Rule nineteen: slow to a safe speed, turn on your navigation lights, sound fog signals, plot radar targets and post an extra lookout.",
@@ -5122,7 +6901,52 @@
        "Swell: waves that have left the area where they formed",
        "Forecast heights are significant wave height: the average of the highest third",
        "Expect some waves much larger, occasionally about double"
-      ]
+      ],
+      "fig": {
+       "t": "td",
+       "els": [
+        [
+         "a",
+         "M60,70 H400",
+         "s-st"
+        ],
+        [
+         "t",
+         230,
+         56,
+         "Wind"
+        ],
+        [
+         "f",
+         "M0,120 H50 V400 H0 Z",
+         "s-land"
+        ],
+        [
+         "p",
+         "M56,240 q12,-6 24,0 t24,0 q16,-14 32,0 t32,0 q24,-30 48,0 t48,0 q32,-50 64,0 t64,0",
+         "s-magst",
+         3.5
+        ],
+        [
+         "l",
+         "M56,290 H400"
+        ],
+        [
+         "t",
+         230,
+         318,
+         "Fetch: open water the wind crosses",
+         "middle",
+         15
+        ],
+        [
+         "m",
+         230,
+         352,
+         "More wind, more fetch, more time: bigger waves"
+        ]
+       ]
+      }
      },
      "video": null,
      "script": "Waves grow with three things: wind speed; fetch, the distance of open water the wind blows across; and duration, how long it has blown. That’s why an offshore wind leaves a calm strip near the beach, while the same wind blowing onshore across a long fetch builds big seas. Swell is waves that have traveled away from where they formed, and it can arrive well ahead of a distant storm. Forecast wave heights are significant wave heights, the average of the highest one third of the waves, so expect some individual waves much larger, occasionally around twice the forecast height.",

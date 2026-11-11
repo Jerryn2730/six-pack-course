@@ -53,7 +53,7 @@ for (const L of data.lessons)
   for (const s of L.slides)
     if (s.visual && s.visual.fig) {
       const f = s.visual.fig;
-      if (typeof f === "string") { if (!figures.has(f)) missing.push(`${L.id}-${s.n}: figure "${f}"`); }
+      if (typeof f === "string") { if (!figures.has(f) && !diagrams.has(f)) missing.push(`${L.id}-${s.n}: figure "${f}"`); }
       else {
         if (!layouts.has(f.t)) missing.push(`${L.id}-${s.n}: figure layout "${f.t}"`);
         const names = f.t === "cmp" ? [f.a[2], f.b[2]] : f.t === "big" ? (f.ic ? [f.ic] : []) : f.t === "steps" ? [] : (f.items || []).map((x) => x[0]);
