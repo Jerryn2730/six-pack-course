@@ -2,6 +2,7 @@
 // npm run deploy — publish site/ to the Netlify free tier (Task 4).
 //
 //   npm run deploy -- --site-name my-six-pack   first deploy: creates the free site my-six-pack.netlify.app
+//     (add --team <slug> if the CLI says "No teams available"; the slug is shown in Netlify under Team settings)
 //   npm run deploy                              later deploys (site id is kept in config/deploy.json)
 //   npm run deploy -- --force                   deploy even if site/ hasn't changed
 //
@@ -24,6 +25,8 @@ const args = process.argv.slice(2);
 const force = args.includes("--force");
 const nameIdx = args.indexOf("--site-name");
 const siteName = nameIdx >= 0 ? args[nameIdx + 1] : null;
+const teamIdx = args.indexOf("--team");
+const team = teamIdx >= 0 ? args[teamIdx + 1] : null; // Netlify team slug, only needed when creating the site
 
 const cfg = fs.existsSync(cfgPath) ? JSON.parse(fs.readFileSync(cfgPath, "utf8")) : {};
 
@@ -63,7 +66,10 @@ const git = spawnSync("git", ["rev-parse", "--short", "HEAD"], { cwd: root, enco
 const message = `Deploy ${git.status === 0 ? git.stdout.trim() : ""}`.trim();
 const cliArgs = ["--yes", NETLIFY_CLI, "deploy", "--prod", "--no-build", "--dir", site, "--json", "--message", message];
 if (cfg.siteId) cliArgs.push("--site", cfg.siteId);
-else cliArgs.push("--site-name", siteName);
+else {
+  cliArgs.push("--site-name", siteName);
+  if (team) cliArgs.push("--team", team);
+}
 console.log(`Deploying site/ to Netlify (${cfg.siteId ? cfg.siteName : "new site " + siteName})…`);
 const npx = process.platform === "win32" ? "npx.cmd" : "npx";
 const r = spawnSync(npx, cliArgs, { cwd: root, encoding: "utf8", stdio: ["inherit", "pipe", "inherit"], shell: process.platform === "win32" });
