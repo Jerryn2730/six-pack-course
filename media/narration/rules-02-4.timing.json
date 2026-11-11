@@ -1,0 +1,84 @@
+{
+ "slide": "rules-02-4",
+ "lessonId": "rules-02",
+ "n": 4,
+ "audio": "rules-02-4.mp3",
+ "duration": 44.625,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 3,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.0,
+   "builds": 0,
+   "text": "These two get mixed up all the time, so let’s separate them."
+  },
+  {
+   "i": 1,
+   "start": 4.25,
+   "speechStart": 4.25,
+   "end": 15.1,
+   "builds": 1,
+   "text": "Not under command is about cause: some exceptional circumstance, like a failed engine or a jammed rudder, means the vessel can’t maneuver as the rules require."
+  },
+  {
+   "i": 2,
+   "start": 15.35,
+   "speechStart": 15.35,
+   "end": 17.875,
+   "builds": 1,
+   "text": "So the word to remember is broken."
+  },
+  {
+   "i": 3,
+   "start": 18.125,
+   "speechStart": 18.125,
+   "end": 25.175,
+   "builds": 1,
+   "text": "Restricted in her ability to maneuver is about work: the job she’s doing keeps her from getting out of the way."
+  },
+  {
+   "i": 4,
+   "start": 25.425,
+   "speechStart": 25.425,
+   "end": 32.875,
+   "builds": 0,
+   "text": "Dredging, laying cable, servicing a buoy, diving operations, surveying, or a tow that pins her to her course."
+  },
+  {
+   "i": 5,
+   "start": 33.125,
+   "speechStart": 33.875,
+   "end": 35.65,
+   "builds": 0,
+   "text": "Here’s my trick."
+  },
+  {
+   "i": 6,
+   "start": 35.9,
+   "speechStart": 35.9,
+   "end": 39.3,
+   "builds": 0,
+   "text": "Ask yourself: is she broken, or is she busy?"
+  },
+  {
+   "i": 7,
+   "start": 39.55,
+   "speechStart": 39.55,
+   "end": 41.95,
+   "builds": 0,
+   "text": "Broken means not under command."
+  },
+  {
+   "i": 8,
+   "start": 42.2,
+   "speechStart": 42.2,
+   "end": 44.325,
+   "builds": 0,
+   "text": "Busy means restricted."
+  }
+ ]
+}

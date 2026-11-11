@@ -1,0 +1,84 @@
+{
+ "slide": "rules-03-7",
+ "lessonId": "rules-03",
+ "n": 7,
+ "audio": "rules-03-7.mp3",
+ "duration": 51.15,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.275,
+   "builds": 0,
+   "text": "Two more parts of Rule eight."
+  },
+  {
+   "i": 1,
+   "start": 2.525,
+   "speechStart": 2.525,
+   "end": 11.2,
+   "builds": 1,
+   "text": "Your action must get you past at a safe distance, and you keep checking that it’s working until the other vessel is finally past and clear."
+  },
+  {
+   "i": 2,
+   "start": 11.45,
+   "speechStart": 11.45,
+   "end": 16.475,
+   "builds": 1,
+   "text": "If you need more time to figure things out, slow down, stop, or back down."
+  },
+  {
+   "i": 3,
+   "start": 16.725,
+   "speechStart": 16.725,
+   "end": 20.75,
+   "builds": 0,
+   "text": "Slowing down is always on the menu, and it buys you time."
+  },
+  {
+   "i": 4,
+   "start": 21.0,
+   "speechStart": 21.0,
+   "end": 25.95,
+   "builds": 1,
+   "text": "Rule eight also defines a phrase you’ll meet again and again: not to impede."
+  },
+  {
+   "i": 5,
+   "start": 26.2,
+   "speechStart": 26.2,
+   "end": 31.525,
+   "builds": 0,
+   "text": "A vessel required not to impede another must act early, leaving plenty of room."
+  },
+  {
+   "i": 6,
+   "start": 31.775,
+   "speechStart": 31.775,
+   "end": 38.05,
+   "builds": 1,
+   "text": "And that duty doesn’t disappear just because the boats get close and a risk of collision develops."
+  },
+  {
+   "i": 7,
+   "start": 38.3,
+   "speechStart": 39.05,
+   "end": 40.975,
+   "builds": 0,
+   "text": "That’s lesson three."
+  },
+  {
+   "i": 8,
+   "start": 41.225,
+   "speechStart": 41.225,
+   "end": 50.85,
+   "builds": 0,
+   "text": "Next time, we’ll head into narrow channels and the big-ship highways called traffic separation schemes, where small boats like ours have special duties."
+  }
+ ]
+}

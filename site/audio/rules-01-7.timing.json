@@ -1,0 +1,100 @@
+{
+ "slide": "rules-01-7",
+ "lessonId": "rules-01",
+ "n": 7,
+ "audio": "rules-01-7.mp3",
+ "duration": 55.9,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.8,
+   "builds": 0,
+   "text": "Before we move on, here are four habits that will save you points on every rules question."
+  },
+  {
+   "i": 1,
+   "start": 6.05,
+   "speechStart": 6.05,
+   "end": 13.2,
+   "builds": 1,
+   "text": "First, find the word Inland, International or Both at the start of the question, and answer for that rule book."
+  },
+  {
+   "i": 2,
+   "start": 13.45,
+   "speechStart": 13.45,
+   "end": 15.575,
+   "builds": 0,
+   "text": "Circle it if you’re on paper."
+  },
+  {
+   "i": 3,
+   "start": 15.825,
+   "speechStart": 15.825,
+   "end": 18.075,
+   "builds": 1,
+   "text": "Second, watch vessel lengths."
+  },
+  {
+   "i": 4,
+   "start": 18.325,
+   "speechStart": 18.325,
+   "end": 25.45,
+   "builds": 0,
+   "text": "Seven, twelve, twenty, fifty and one hundred meters are the magic numbers, and rules change at each one."
+  },
+  {
+   "i": 5,
+   "start": 25.7,
+   "speechStart": 25.7,
+   "end": 30.675,
+   "builds": 1,
+   "text": "Third, ask yourself: are these boats in sight of each other, or are we in fog?"
+  },
+  {
+   "i": 6,
+   "start": 30.925,
+   "speechStart": 30.925,
+   "end": 34.4,
+   "builds": 0,
+   "text": "Different rules apply, and you’ll see why in lesson eight."
+  },
+  {
+   "i": 7,
+   "start": 34.65,
+   "speechStart": 34.65,
+   "end": 41.35,
+   "builds": 1,
+   "text": "And fourth, when two answers both sound reasonable, pick the one that matches the rule’s actual wording."
+  },
+  {
+   "i": 8,
+   "start": 41.6,
+   "speechStart": 41.6,
+   "end": 46.7,
+   "builds": 0,
+   "text": "The exam is written straight from the rule book, not from what people do at the dock."
+  },
+  {
+   "i": 9,
+   "start": 46.95,
+   "speechStart": 47.7,
+   "end": 49.525,
+   "builds": 0,
+   "text": "That’s lesson one."
+  },
+  {
+   "i": 10,
+   "start": 49.775,
+   "speechStart": 49.775,
+   "end": 55.6,
+   "builds": 0,
+   "text": "Next, we’ll nail down the definitions, the vocabulary every other rule depends on."
+  }
+ ]
+}

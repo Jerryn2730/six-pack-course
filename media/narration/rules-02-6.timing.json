@@ -1,0 +1,100 @@
+{
+ "slide": "rules-02-6",
+ "lessonId": "rules-02",
+ "n": 6,
+ "audio": "rules-02-6.mp3",
+ "duration": 48.425,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.45,
+   "builds": 0,
+   "text": "A few more precise phrases."
+  },
+  {
+   "i": 1,
+   "start": 2.7,
+   "speechStart": 2.7,
+   "end": 6.525,
+   "builds": 1,
+   "text": "Length and breadth mean length overall and greatest breadth."
+  },
+  {
+   "i": 2,
+   "start": 6.775,
+   "speechStart": 6.775,
+   "end": 8.625,
+   "builds": 0,
+   "text": "Nothing fancy."
+  },
+  {
+   "i": 3,
+   "start": 8.875,
+   "speechStart": 8.875,
+   "end": 14.375,
+   "builds": 1,
+   "text": "In sight of one another means one vessel can actually be seen visually from the other."
+  },
+  {
+   "i": 4,
+   "start": 14.625,
+   "speechStart": 14.625,
+   "end": 16.75,
+   "builds": 0,
+   "text": "Eyes, not electronics."
+  },
+  {
+   "i": 5,
+   "start": 17.0,
+   "speechStart": 17.0,
+   "end": 25.75,
+   "builds": 1,
+   "text": "Restricted visibility means visibility reduced by fog, mist, falling snow, heavy rain, sandstorms or anything similar."
+  },
+  {
+   "i": 6,
+   "start": 26.0,
+   "speechStart": 26.0,
+   "end": 29.025,
+   "builds": 0,
+   "text": "Notice what’s not on that list: darkness."
+  },
+  {
+   "i": 7,
+   "start": 29.275,
+   "speechStart": 29.275,
+   "end": 32.5,
+   "builds": 0,
+   "text": "A clear night is not restricted visibility."
+  },
+  {
+   "i": 8,
+   "start": 32.75,
+   "speechStart": 32.75,
+   "end": 35.25,
+   "builds": 1,
+   "text": "And here’s the one that catches people."
+  },
+  {
+   "i": 9,
+   "start": 35.5,
+   "speechStart": 35.5,
+   "end": 41.9,
+   "builds": 0,
+   "text": "If you see a target on your radar or AIS in thick fog, you are not in sight of that vessel."
+  },
+  {
+   "i": 10,
+   "start": 42.15,
+   "speechStart": 42.15,
+   "end": 48.125,
+   "builds": 0,
+   "text": "That single fact decides which steering rules apply, and we’ll lean on it heavily in lesson eight."
+  }
+ ]
+}

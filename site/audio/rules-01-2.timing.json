@@ -1,0 +1,100 @@
+{
+ "slide": "rules-01-2",
+ "lessonId": "rules-01",
+ "n": 2,
+ "audio": "rules-01-2.mp3",
+ "duration": 39.9,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 3,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.175,
+   "builds": 0,
+   "text": "Let’s start with a picture."
+  },
+  {
+   "i": 1,
+   "start": 2.425,
+   "speechStart": 2.425,
+   "end": 8.175,
+   "builds": 1,
+   "text": "It’s five-thirty in the morning, and you’re leaving the dock in Tampa Bay with four anglers aboard."
+  },
+  {
+   "i": 2,
+   "start": 8.425,
+   "speechStart": 8.425,
+   "end": 14.175,
+   "builds": 1,
+   "text": "You run down the bay, out past Egmont Key, and into the open Gulf to fish a ledge."
+  },
+  {
+   "i": 3,
+   "start": 14.425,
+   "speechStart": 14.425,
+   "end": 16.3,
+   "builds": 1,
+   "text": "Here’s my question."
+  },
+  {
+   "i": 4,
+   "start": 16.55,
+   "speechStart": 16.55,
+   "end": 20.275,
+   "builds": 0,
+   "text": "Somewhere on that run, the rules you were following changed."
+  },
+  {
+   "i": 5,
+   "start": 20.525,
+   "speechStart": 20.525,
+   "end": 22.175,
+   "builds": 0,
+   "text": "Did you notice?"
+  },
+  {
+   "i": 6,
+   "start": 22.425,
+   "speechStart": 23.175,
+   "end": 27.175,
+   "builds": 0,
+   "text": "Most captains never do, because the differences are small."
+  },
+  {
+   "i": 7,
+   "start": 27.425,
+   "speechStart": 27.425,
+   "end": 30.375,
+   "builds": 0,
+   "text": "But they’re real, and the exam loves them."
+  },
+  {
+   "i": 8,
+   "start": 30.625,
+   "speechStart": 30.625,
+   "end": 33.575,
+   "builds": 0,
+   "text": "In the bay, you were under the Inland rules."
+  },
+  {
+   "i": 9,
+   "start": 33.825,
+   "speechStart": 33.825,
+   "end": 37.4,
+   "builds": 0,
+   "text": "Out in the Gulf, you were under the International rules."
+  },
+  {
+   "i": 10,
+   "start": 37.65,
+   "speechStart": 37.65,
+   "end": 39.6,
+   "builds": 0,
+   "text": "So let’s find that line."
+  }
+ ]
+}

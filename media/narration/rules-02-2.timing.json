@@ -1,0 +1,100 @@
+{
+ "slide": "rules-02-2",
+ "lessonId": "rules-02",
+ "n": 2,
+ "audio": "rules-02-2.mp3",
+ "duration": 51.75,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 2.5,
+   "builds": 0,
+   "text": "First, what counts as a vessel?"
+  },
+  {
+   "i": 1,
+   "start": 2.75,
+   "speechStart": 2.75,
+   "end": 13.15,
+   "builds": 1,
+   "text": "Pretty much anything that floats and can carry people or things across the water: boats, ships, barges, hovercraft, even seaplanes and wing-in-ground craft."
+  },
+  {
+   "i": 2,
+   "start": 13.4,
+   "speechStart": 13.4,
+   "end": 17.425,
+   "builds": 1,
+   "text": "A power-driven vessel is anything propelled by machinery."
+  },
+  {
+   "i": 3,
+   "start": 17.675,
+   "speechStart": 17.675,
+   "end": 19.15,
+   "builds": 0,
+   "text": "Simple."
+  },
+  {
+   "i": 4,
+   "start": 19.4,
+   "speechStart": 19.4,
+   "end": 26.0,
+   "builds": 1,
+   "text": "A sailing vessel is under sail, with one important catch: any engine she has must not be in use."
+  },
+  {
+   "i": 5,
+   "start": 26.25,
+   "speechStart": 27.0,
+   "end": 29.6,
+   "builds": 0,
+   "text": "So here’s a classic exam question."
+  },
+  {
+   "i": 6,
+   "start": 29.85,
+   "speechStart": 29.85,
+   "end": 35.9,
+   "builds": 0,
+   "text": "A sailboat is heading out the pass with every sail up, and her engine is running to help her along."
+  },
+  {
+   "i": 7,
+   "start": 36.15,
+   "speechStart": 36.15,
+   "end": 37.65,
+   "builds": 0,
+   "text": "What is she?"
+  },
+  {
+   "i": 8,
+   "start": 37.9,
+   "speechStart": 38.65,
+   "end": 40.85,
+   "builds": 0,
+   "text": "She’s a power-driven vessel."
+  },
+  {
+   "i": 9,
+   "start": 41.1,
+   "speechStart": 41.1,
+   "end": 46.375,
+   "builds": 0,
+   "text": "The moment that engine turns the prop, the rules treat her like any other powerboat."
+  },
+  {
+   "i": 10,
+   "start": 46.625,
+   "speechStart": 46.625,
+   "end": 51.45,
+   "builds": 1,
+   "text": "And a seaplane is simply an aircraft designed to maneuver on the water."
+  }
+ ]
+}

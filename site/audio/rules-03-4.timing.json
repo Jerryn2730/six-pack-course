@@ -1,0 +1,124 @@
+{
+ "slide": "rules-03-4",
+ "lessonId": "rules-03",
+ "n": 4,
+ "audio": "rules-03-4.mp3",
+ "duration": 58.125,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 0,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.575,
+   "builds": 0,
+   "text": "Rule seven is about one question: is there a risk of collision?"
+  },
+  {
+   "i": 1,
+   "start": 4.825,
+   "speechStart": 4.825,
+   "end": 10.8,
+   "builds": 0,
+   "text": "And it starts with a powerful sentence: if there’s any doubt, the risk shall be deemed to exist."
+  },
+  {
+   "i": 2,
+   "start": 11.05,
+   "speechStart": 11.05,
+   "end": 12.775,
+   "builds": 0,
+   "text": "Doubt means yes."
+  },
+  {
+   "i": 3,
+   "start": 13.025,
+   "speechStart": 13.775,
+   "end": 15.7,
+   "builds": 0,
+   "text": "So how do you judge it?"
+  },
+  {
+   "i": 4,
+   "start": 15.95,
+   "speechStart": 15.95,
+   "end": 17.775,
+   "builds": 0,
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 5,
+   "start": 18.025,
+   "speechStart": 18.025,
+   "end": 23.5,
+   "builds": 0,
+   "text": "You’re the boat at the bottom, heading up the page, and another boat is crossing from your right."
+  },
+  {
+   "i": 6,
+   "start": 23.75,
+   "speechStart": 23.75,
+   "end": 27.65,
+   "builds": 0,
+   "text": "Each dashed line is a bearing taken a minute or so apart."
+  },
+  {
+   "i": 7,
+   "start": 27.9,
+   "speechStart": 27.9,
+   "end": 30.275,
+   "builds": 0,
+   "text": "See how the lines stay parallel?"
+  },
+  {
+   "i": 8,
+   "start": 30.525,
+   "speechStart": 30.525,
+   "end": 33.9,
+   "builds": 0,
+   "text": "The bearing isn’t changing, while the distance shrinks."
+  },
+  {
+   "i": 9,
+   "start": 34.15,
+   "speechStart": 34.15,
+   "end": 37.1,
+   "builds": 0,
+   "text": "That’s the classic sign of a collision course."
+  },
+  {
+   "i": 10,
+   "start": 37.35,
+   "speechStart": 38.1,
+   "end": 40.475,
+   "builds": 0,
+   "text": "You can do this with your eyes, too."
+  },
+  {
+   "i": 11,
+   "start": 40.725,
+   "speechStart": 40.725,
+   "end": 45.15,
+   "builds": 0,
+   "text": "Line the other boat up with a stanchion or a corner of your windshield."
+  },
+  {
+   "i": 12,
+   "start": 45.4,
+   "speechStart": 45.4,
+   "end": 49.775,
+   "builds": 0,
+   "text": "If it stays in that spot while it gets bigger, you’re on a collision course."
+  },
+  {
+   "i": 13,
+   "start": 50.025,
+   "speechStart": 50.025,
+   "end": 57.825,
+   "builds": 0,
+   "text": "One warning: with a very large ship, a tow, or anything very close, risk can exist even when the bearing is changing."
+  }
+ ]
+}

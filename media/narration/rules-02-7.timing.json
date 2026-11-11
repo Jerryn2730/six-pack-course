@@ -1,0 +1,76 @@
+{
+ "slide": "rules-02-7",
+ "lessonId": "rules-02",
+ "n": 7,
+ "audio": "rules-02-7.mp3",
+ "duration": 45.1,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.45,
+   "builds": 0,
+   "text": "Finally, the Inland rules add a few definitions of their own."
+  },
+  {
+   "i": 1,
+   "start": 4.7,
+   "speechStart": 4.7,
+   "end": 11.225,
+   "builds": 1,
+   "text": "Inland waters are the navigable waters of the United States shoreward of the demarcation lines."
+  },
+  {
+   "i": 2,
+   "start": 11.475,
+   "speechStart": 11.475,
+   "end": 15.625,
+   "builds": 1,
+   "text": "The Great Lakes include their connecting and tributary waters."
+  },
+  {
+   "i": 3,
+   "start": 15.875,
+   "speechStart": 15.875,
+   "end": 22.2,
+   "builds": 1,
+   "text": "The Western Rivers are the Mississippi River system, including the Atchafalaya and the Red River."
+  },
+  {
+   "i": 4,
+   "start": 22.45,
+   "speechStart": 22.45,
+   "end": 27.025,
+   "builds": 1,
+   "text": "When a question mentions any of these places, expect a special rule."
+  },
+  {
+   "i": 5,
+   "start": 27.275,
+   "speechStart": 27.275,
+   "end": 32.625,
+   "builds": 0,
+   "text": "You may never run a charter on the Mississippi, but the exam will still ask about it."
+  },
+  {
+   "i": 6,
+   "start": 32.875,
+   "speechStart": 33.625,
+   "end": 35.7,
+   "builds": 0,
+   "text": "That’s our vocabulary."
+  },
+  {
+   "i": 7,
+   "start": 35.95,
+   "speechStart": 35.95,
+   "end": 44.8,
+   "builds": 0,
+   "text": "Next, we’ll put it to work with the duties every vessel has in any visibility: lookout, safe speed, and judging the risk of collision."
+  }
+ ]
+}

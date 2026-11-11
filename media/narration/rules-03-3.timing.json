@@ -1,0 +1,92 @@
+{
+ "slide": "rules-03-3",
+ "lessonId": "rules-03",
+ "n": 3,
+ "audio": "rules-03-3.mp3",
+ "duration": 49.95,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 6,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 7.975,
+   "builds": 0,
+   "text": "If you have radar, Rule six adds six more factors, and they boil down to one idea: radar is a tool with limits."
+  },
+  {
+   "i": 1,
+   "start": 8.225,
+   "speechStart": 8.225,
+   "end": 12.675,
+   "builds": 1,
+   "text": "Know your radar’s characteristics, efficiency and limitations."
+  },
+  {
+   "i": 2,
+   "start": 12.925,
+   "speechStart": 12.925,
+   "end": 16.825,
+   "builds": 1,
+   "text": "Know what the range scale you’ve selected can and can’t show you."
+  },
+  {
+   "i": 3,
+   "start": 17.075,
+   "speechStart": 17.075,
+   "end": 21.25,
+   "builds": 1,
+   "text": "Sea state, rain and interference can hide targets in clutter."
+  },
+  {
+   "i": 4,
+   "start": 21.5,
+   "speechStart": 21.5,
+   "end": 26.75,
+   "builds": 1,
+   "text": "Small boats, logs and other floating objects may not show up until they’re close."
+  },
+  {
+   "i": 5,
+   "start": 27.0,
+   "speechStart": 27.0,
+   "end": 31.2,
+   "builds": 1,
+   "text": "Radar tells you how many vessels are around and how they’re moving."
+  },
+  {
+   "i": 6,
+   "start": 31.45,
+   "speechStart": 31.45,
+   "end": 39.025,
+   "builds": 1,
+   "text": "And it can give you a more exact measure of visibility, by showing how far away that boat is that you can just barely see."
+  },
+  {
+   "i": 7,
+   "start": 39.275,
+   "speechStart": 40.025,
+   "end": 44.025,
+   "builds": 0,
+   "text": "The exam trap is assuming radar lets you go faster."
+  },
+  {
+   "i": 8,
+   "start": 44.275,
+   "speechStart": 44.275,
+   "end": 45.75,
+   "builds": 0,
+   "text": "It doesn’t."
+  },
+  {
+   "i": 9,
+   "start": 46.0,
+   "speechStart": 46.0,
+   "end": 49.65,
+   "builds": 0,
+   "text": "It just gives you better information for judging what’s safe."
+  }
+ ]
+}

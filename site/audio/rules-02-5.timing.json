@@ -1,0 +1,100 @@
+{
+ "slide": "rules-02-5",
+ "lessonId": "rules-02",
+ "n": 5,
+ "audio": "rules-02-5.mp3",
+ "duration": 46.675,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.55,
+   "builds": 0,
+   "text": "Next, a category that only exists offshore."
+  },
+  {
+   "i": 1,
+   "start": 3.8,
+   "speechStart": 3.8,
+   "end": 7.3,
+   "builds": 1,
+   "text": "Constrained by her draft is International only."
+  },
+  {
+   "i": 2,
+   "start": 7.55,
+   "speechStart": 7.55,
+   "end": 14.7,
+   "builds": 0,
+   "text": "It’s a big ship whose draft, compared with the depth and width of the water, means she really can’t deviate from her course."
+  },
+  {
+   "i": 3,
+   "start": 14.95,
+   "speechStart": 14.95,
+   "end": 17.725,
+   "builds": 0,
+   "text": "You won’t find it in the Inland rules at all."
+  },
+  {
+   "i": 4,
+   "start": 17.975,
+   "speechStart": 17.975,
+   "end": 19.675,
+   "builds": 1,
+   "text": "Now, underway."
+  },
+  {
+   "i": 5,
+   "start": 19.925,
+   "speechStart": 19.925,
+   "end": 25.85,
+   "builds": 0,
+   "text": "A vessel is underway if she’s not at anchor, not made fast to the shore, and not aground."
+  },
+  {
+   "i": 6,
+   "start": 26.1,
+   "speechStart": 26.1,
+   "end": 30.5,
+   "builds": 1,
+   "text": "Making way means actually moving through the water under her own power."
+  },
+  {
+   "i": 7,
+   "start": 30.75,
+   "speechStart": 31.5,
+   "end": 34.75,
+   "builds": 0,
+   "text": "So imagine you shut down to drift over a wreck."
+  },
+  {
+   "i": 8,
+   "start": 35.0,
+   "speechStart": 35.0,
+   "end": 38.125,
+   "builds": 0,
+   "text": "You’re not anchored, not tied up, and not aground."
+  },
+  {
+   "i": 9,
+   "start": 38.375,
+   "speechStart": 38.375,
+   "end": 41.0,
+   "builds": 1,
+   "text": "You’re underway, but not making way."
+  },
+  {
+   "i": 10,
+   "start": 41.25,
+   "speechStart": 41.25,
+   "end": 46.375,
+   "builds": 0,
+   "text": "As you’ll see later, both your lights and your fog signals depend on that difference."
+  }
+ ]
+}

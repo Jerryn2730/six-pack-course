@@ -1,0 +1,92 @@
+{
+ "slide": "rules-01-4",
+ "lessonId": "rules-01",
+ "n": 4,
+ "audio": "rules-01-4.mp3",
+ "duration": 57.675,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.9,
+   "builds": 0,
+   "text": "Rule one also tells you what can sit alongside these rules, and there are four things to know."
+  },
+  {
+   "i": 1,
+   "start": 6.15,
+   "speechStart": 6.15,
+   "end": 12.125,
+   "builds": 1,
+   "text": "First, local authorities can make special rules for a particular harbor, river or lake."
+  },
+  {
+   "i": 2,
+   "start": 12.375,
+   "speechStart": 12.375,
+   "end": 17.45,
+   "builds": 0,
+   "text": "But those rules must conform as closely as possible to the Navigation Rules."
+  },
+  {
+   "i": 3,
+   "start": 17.7,
+   "speechStart": 17.7,
+   "end": 20.475,
+   "builds": 0,
+   "text": "They can add to them, not throw them out."
+  },
+  {
+   "i": 4,
+   "start": 20.725,
+   "speechStart": 20.725,
+   "end": 29.175,
+   "builds": 1,
+   "text": "Second, governments can allow extra lights, shapes or whistle signals for warships, convoys, or fishing fleets working together."
+  },
+  {
+   "i": 5,
+   "start": 29.425,
+   "speechStart": 29.425,
+   "end": 33.0,
+   "builds": 0,
+   "text": "So if you see an odd light on a Navy ship, that’s why."
+  },
+  {
+   "i": 6,
+   "start": 33.25,
+   "speechStart": 33.25,
+   "end": 39.675,
+   "builds": 1,
+   "text": "Third, traffic separation schemes, the highway lanes for big ships, are adopted internationally."
+  },
+  {
+   "i": 7,
+   "start": 39.925,
+   "speechStart": 39.925,
+   "end": 42.325,
+   "builds": 0,
+   "text": "We’ll cover them in lesson four."
+  },
+  {
+   "i": 8,
+   "start": 42.575,
+   "speechStart": 42.575,
+   "end": 53.0,
+   "builds": 1,
+   "text": "And fourth, a vessel of unusual construction that can’t place her lights exactly as required may use the closest alternative her government approves."
+  },
+  {
+   "i": 9,
+   "start": 53.25,
+   "speechStart": 53.25,
+   "end": 57.375,
+   "builds": 0,
+   "text": "Inland, that’s called a certificate of alternative compliance."
+  }
+ ]
+}

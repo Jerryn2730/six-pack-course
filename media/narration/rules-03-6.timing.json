@@ -1,0 +1,76 @@
+{
+ "slide": "rules-03-6",
+ "lessonId": "rules-03",
+ "n": 6,
+ "audio": "rules-03-6.mp3",
+ "duration": 43.775,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.425,
+   "builds": 0,
+   "text": "Once you’ve decided there’s a risk, Rule eight tells you how to act."
+  },
+  {
+   "i": 1,
+   "start": 4.675,
+   "speechStart": 4.675,
+   "end": 9.55,
+   "builds": 1,
+   "text": "Your action should be positive, made in ample time, and with good seamanship."
+  },
+  {
+   "i": 2,
+   "start": 9.8,
+   "speechStart": 9.8,
+   "end": 16.075,
+   "builds": 1,
+   "text": "It should be big enough to be obvious, whether the other captain is watching with his eyes or on radar."
+  },
+  {
+   "i": 3,
+   "start": 16.325,
+   "speechStart": 16.325,
+   "end": 18.975,
+   "builds": 0,
+   "text": "A five degree nudge is invisible."
+  },
+  {
+   "i": 4,
+   "start": 19.225,
+   "speechStart": 19.225,
+   "end": 21.925,
+   "builds": 0,
+   "text": "A forty degree turn tells a story."
+  },
+  {
+   "i": 5,
+   "start": 22.175,
+   "speechStart": 22.175,
+   "end": 26.6,
+   "builds": 1,
+   "text": "Which is why the rule says to avoid a series of small alterations."
+  },
+  {
+   "i": 6,
+   "start": 26.85,
+   "speechStart": 26.85,
+   "end": 38.125,
+   "builds": 1,
+   "text": "And if you have sea room, a course change alone is often your best move, as long as it’s early, substantial, and doesn’t just set you up for another close call with someone else."
+  },
+  {
+   "i": 7,
+   "start": 38.375,
+   "speechStart": 39.125,
+   "end": 43.475,
+   "builds": 0,
+   "text": "Think of it like driving: signal clearly, commit, and don’t weave."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "slide": "rules-03-1",
+ "lessonId": "rules-03",
+ "n": 1,
+ "audio": "rules-03-1.mp3",
+ "duration": 46.025,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.55,
+   "builds": 0,
+   "text": "Let’s start with the duty that shows up in nearly every collision report: the lookout."
+  },
+  {
+   "i": 1,
+   "start": 5.8,
+   "speechStart": 5.8,
+   "end": 11.125,
+   "builds": 1,
+   "text": "Rules four through ten apply in any visibility, clear or foggy, day or night."
+  },
+  {
+   "i": 2,
+   "start": 11.375,
+   "speechStart": 11.375,
+   "end": 17.45,
+   "builds": 1,
+   "text": "Rule five says every vessel shall at all times keep a proper lookout, by sight and by hearing."
+  },
+  {
+   "i": 3,
+   "start": 17.7,
+   "speechStart": 17.7,
+   "end": 20.025,
+   "builds": 1,
+   "text": "And by all available means."
+  },
+  {
+   "i": 4,
+   "start": 20.275,
+   "speechStart": 20.275,
+   "end": 24.975,
+   "builds": 0,
+   "text": "If you have radar, AIS and a VHF, they’re part of your lookout."
+  },
+  {
+   "i": 5,
+   "start": 25.225,
+   "speechStart": 25.225,
+   "end": 30.0,
+   "builds": 1,
+   "text": "The goal is a full appraisal of the situation and the risk of collision."
+  },
+  {
+   "i": 6,
+   "start": 30.25,
+   "speechStart": 31.0,
+   "end": 33.2,
+   "builds": 0,
+   "text": "Now be honest with yourself."
+  },
+  {
+   "i": 7,
+   "start": 33.45,
+   "speechStart": 33.45,
+   "end": 40.6,
+   "builds": 0,
+   "text": "On a busy charter, with a fish on, a tangled line, and a customer asking a question, who’s keeping the lookout?"
+  },
+  {
+   "i": 8,
+   "start": 40.85,
+   "speechStart": 40.85,
+   "end": 45.725,
+   "builds": 0,
+   "text": "If the answer is nobody, that’s exactly the gap where accidents happen."
+  }
+ ]
+}

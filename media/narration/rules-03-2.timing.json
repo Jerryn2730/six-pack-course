@@ -1,0 +1,100 @@
+{
+ "slide": "rules-03-2",
+ "lessonId": "rules-03",
+ "n": 2,
+ "audio": "rules-03-2.mp3",
+ "duration": 50.4,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 6,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 5.5,
+   "builds": 0,
+   "text": "Rule six is safe speed, and the first thing to know is that there’s no number in it."
+  },
+  {
+   "i": 1,
+   "start": 5.75,
+   "speechStart": 5.75,
+   "end": 13.3,
+   "builds": 0,
+   "text": "Safe speed means you can take proper action to avoid a collision, and stop within a distance that fits the conditions."
+  },
+  {
+   "i": 2,
+   "start": 13.55,
+   "speechStart": 13.55,
+   "end": 15.45,
+   "builds": 0,
+   "text": "So you weigh the factors."
+  },
+  {
+   "i": 3,
+   "start": 15.7,
+   "speechStart": 15.7,
+   "end": 18.025,
+   "builds": 1,
+   "text": "Visibility, obviously."
+  },
+  {
+   "i": 4,
+   "start": 18.275,
+   "speechStart": 18.275,
+   "end": 21.975,
+   "builds": 1,
+   "text": "Traffic density, including clusters of fishing boats."
+  },
+  {
+   "i": 5,
+   "start": 22.225,
+   "speechStart": 22.225,
+   "end": 27.425,
+   "builds": 1,
+   "text": "Your own boat’s maneuverability: how fast she stops, how tightly she turns."
+  },
+  {
+   "i": 6,
+   "start": 27.675,
+   "speechStart": 27.675,
+   "end": 29.9,
+   "builds": 1,
+   "text": "At night, background lights."
+  },
+  {
+   "i": 7,
+   "start": 30.15,
+   "speechStart": 30.15,
+   "end": 35.025,
+   "builds": 0,
+   "text": "Try picking out a running light against the condo lights of Clearwater Beach."
+  },
+  {
+   "i": 8,
+   "start": 35.275,
+   "speechStart": 35.275,
+   "end": 39.225,
+   "builds": 1,
+   "text": "The state of the wind, sea and current, and nearby hazards."
+  },
+  {
+   "i": 9,
+   "start": 39.475,
+   "speechStart": 39.475,
+   "end": 42.5,
+   "builds": 1,
+   "text": "And your draft compared to the depth of the water."
+  },
+  {
+   "i": 10,
+   "start": 42.75,
+   "speechStart": 43.5,
+   "end": 50.1,
+   "builds": 0,
+   "text": "Twenty knots might be perfectly safe in the open Gulf at noon, and reckless in the Intracoastal at dusk."
+  }
+ ]
+}

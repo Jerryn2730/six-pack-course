@@ -5,3 +5,6 @@ media/video/*
 *.log
 .DS_Store
 .venv/
+# Duplicate of site/audio/*.mp3 (restored from there by npm run audio)
+media/narration/*.mp3
+media/auditions/*.wav

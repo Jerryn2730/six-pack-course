@@ -1,0 +1,76 @@
+{
+ "slide": "rules-01-6",
+ "lessonId": "rules-01",
+ "n": 6,
+ "audio": "rules-01-6.mp3",
+ "duration": 43.725,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 5,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.9,
+   "builds": 0,
+   "text": "The rules end with annexes, and yes, the exam asks about them."
+  },
+  {
+   "i": 1,
+   "start": 5.15,
+   "speechStart": 5.15,
+   "end": 7.95,
+   "builds": 0,
+   "text": "Let me give you a one-line handle on each."
+  },
+  {
+   "i": 2,
+   "start": 8.2,
+   "speechStart": 8.2,
+   "end": 14.45,
+   "builds": 1,
+   "text": "Annex one is the engineering annex: exactly where lights go, how far apart, how bright."
+  },
+  {
+   "i": 3,
+   "start": 14.7,
+   "speechStart": 14.7,
+   "end": 21.2,
+   "builds": 1,
+   "text": "Annex two covers extra signals for fishing boats working close together, like trawlers in a fleet."
+  },
+  {
+   "i": 4,
+   "start": 21.45,
+   "speechStart": 21.45,
+   "end": 26.025,
+   "builds": 1,
+   "text": "Annex three is the technical spec for whistles, bells and gongs."
+  },
+  {
+   "i": 5,
+   "start": 26.275,
+   "speechStart": 26.275,
+   "end": 29.9,
+   "builds": 1,
+   "text": "Annex four is the big one for you: distress signals."
+  },
+  {
+   "i": 6,
+   "start": 30.15,
+   "speechStart": 30.15,
+   "end": 33.575,
+   "builds": 0,
+   "text": "We’ll spend real time on those in lesson fourteen."
+  },
+  {
+   "i": 7,
+   "start": 33.825,
+   "speechStart": 33.825,
+   "end": 43.425,
+   "builds": 1,
+   "text": "And the Inland rules add Annex five, the pilot rules, which cover things like the blue lights on law enforcement boats and special anchorage areas."
+  }
+ ]
+}

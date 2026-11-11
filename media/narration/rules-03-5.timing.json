@@ -1,0 +1,84 @@
+{
+ "slide": "rules-03-5",
+ "lessonId": "rules-03",
+ "n": 5,
+ "audio": "rules-03-5.mp3",
+ "duration": 49.85,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 3,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.25,
+   "builds": 0,
+   "text": "Rule seven also covers radar, so here’s a scenario."
+  },
+  {
+   "i": 1,
+   "start": 4.5,
+   "speechStart": 4.5,
+   "end": 9.075,
+   "builds": 1,
+   "text": "Imagine you’re heading out of Port Everglades on a rare foggy morning."
+  },
+  {
+   "i": 2,
+   "start": 9.325,
+   "speechStart": 9.325,
+   "end": 13.575,
+   "builds": 1,
+   "text": "You glance at the radar and see a target about three miles ahead."
+  },
+  {
+   "i": 3,
+   "start": 13.825,
+   "speechStart": 13.825,
+   "end": 19.375,
+   "builds": 0,
+   "text": "One look tells you almost nothing: where it’s going, how fast, whether it’ll pass clear."
+  },
+  {
+   "i": 4,
+   "start": 19.625,
+   "speechStart": 19.625,
+   "end": 29.575,
+   "builds": 1,
+   "text": "Rule seven says radar must be used properly, with long-range scanning for early warning, and radar plotting or equivalent systematic observation."
+  },
+  {
+   "i": 5,
+   "start": 29.825,
+   "speechStart": 29.825,
+   "end": 33.925,
+   "builds": 0,
+   "text": "Mark the target, watch it for a few minutes, and see how it moves."
+  },
+  {
+   "i": 6,
+   "start": 34.175,
+   "speechStart": 34.925,
+   "end": 44.8,
+   "builds": 0,
+   "text": "And the rule adds a sentence worth memorizing: assumptions shall not be made on the basis of scanty information, especially scanty radar information."
+  },
+  {
+   "i": 7,
+   "start": 45.05,
+   "speechStart": 45.05,
+   "end": 47.2,
+   "builds": 0,
+   "text": "One glance is scanty."
+  },
+  {
+   "i": 8,
+   "start": 47.45,
+   "speechStart": 47.45,
+   "end": 49.55,
+   "builds": 0,
+   "text": "A plot is information."
+  }
+ ]
+}

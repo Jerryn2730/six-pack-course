@@ -2,7 +2,7 @@
   "engine": "kokoro",
   "model": "hexgrad/Kokoro-82M",
   "langCode": "a",
-  "voice": "am_michael",
+  "voice": "af_heart",
   "speed": 0.97,
   "pauseMs": 750,
   "sentenceGapMs": 250,
@@ -12,5 +12,5 @@
   "bitrate": "96k",
   "loudnessLUFS": -16,
   "truePeakDb": -1.5,
-  "_note": "voice is a placeholder until the owner picks one from the audition (Task 2, pilot step 1)."
+  "_note": "Voice af_heart chosen by the owner from the rules-01-2 audition on 2026-11-11; speed 0.97 approved as about right."
 }

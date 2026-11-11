@@ -1,0 +1,108 @@
+{
+ "slide": "rules-02-3",
+ "lessonId": "rules-02",
+ "n": 3,
+ "audio": "rules-02-3.mp3",
+ "duration": 52.325,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 4,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 4.9,
+   "builds": 0,
+   "text": "Now one that matters to you as a charter captain: engaged in fishing."
+  },
+  {
+   "i": 1,
+   "start": 5.15,
+   "speechStart": 5.15,
+   "end": 12.475,
+   "builds": 1,
+   "text": "Under the rules, it means fishing with nets, lines, trawls or other gear that restricts your ability to maneuver."
+  },
+  {
+   "i": 2,
+   "start": 12.725,
+   "speechStart": 12.725,
+   "end": 16.275,
+   "builds": 1,
+   "text": "And here’s the key: it does not include trolling lines."
+  },
+  {
+   "i": 3,
+   "start": 16.525,
+   "speechStart": 17.275,
+   "end": 19.175,
+   "builds": 0,
+   "text": "So picture your morning."
+  },
+  {
+   "i": 4,
+   "start": 19.425,
+   "speechStart": 19.425,
+   "end": 23.3,
+   "builds": 0,
+   "text": "You’ve got four lines out, trolling for kingfish along the beach."
+  },
+  {
+   "i": 5,
+   "start": 23.55,
+   "speechStart": 23.55,
+   "end": 25.575,
+   "builds": 0,
+   "text": "Are you engaged in fishing?"
+  },
+  {
+   "i": 6,
+   "start": 25.825,
+   "speechStart": 25.825,
+   "end": 27.2,
+   "builds": 1,
+   "text": "No."
+  },
+  {
+   "i": 7,
+   "start": 27.45,
+   "speechStart": 27.45,
+   "end": 30.45,
+   "builds": 0,
+   "text": "Legally you’re just a power-driven vessel."
+  },
+  {
+   "i": 8,
+   "start": 30.7,
+   "speechStart": 30.7,
+   "end": 36.15,
+   "builds": 0,
+   "text": "You get no special privileges, and you keep clear of sailboats like any other powerboat."
+  },
+  {
+   "i": 9,
+   "start": 36.4,
+   "speechStart": 36.4,
+   "end": 41.35,
+   "builds": 1,
+   "text": "Meanwhile, the shrimp boat working her nets nearby is engaged in fishing."
+  },
+  {
+   "i": 10,
+   "start": 41.6,
+   "speechStart": 41.6,
+   "end": 47.925,
+   "builds": 0,
+   "text": "But when that same shrimper stows her nets and heads home, she’s an ordinary power-driven vessel too."
+  },
+  {
+   "i": 11,
+   "start": 48.175,
+   "speechStart": 48.175,
+   "end": 52.025,
+   "builds": 0,
+   "text": "It’s about what the gear is doing, not what kind of boat it is."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "slide": "rules-01-3",
+ "lessonId": "rules-01",
+ "n": 3,
+ "audio": "rules-01-3.mp3",
+ "duration": 49.475,
+ "voice": "af_heart",
+ "speed": 0.97,
+ "buildCount": 3,
+ "sentences": [
+  {
+   "i": 0,
+   "start": 0.15,
+   "speechStart": 0.15,
+   "end": 3.75,
+   "builds": 0,
+   "text": "There are two rule books, and they’re mostly identical."
+  },
+  {
+   "i": 1,
+   "start": 4.0,
+   "speechStart": 4.0,
+   "end": 10.825,
+   "builds": 1,
+   "text": "The International rules, usually called the COLREGS, govern the high seas and the waters connected to them."
+  },
+  {
+   "i": 2,
+   "start": 11.075,
+   "speechStart": 11.075,
+   "end": 20.975,
+   "builds": 1,
+   "text": "They come from a 1972 treaty, while the Inland rules are American law, covering our harbors, bays, rivers and the Intracoastal Waterway."
+  },
+  {
+   "i": 3,
+   "start": 21.225,
+   "speechStart": 21.225,
+   "end": 26.325,
+   "builds": 1,
+   "text": "Each set applies to every vessel on its waters, whatever flag she flies."
+  },
+  {
+   "i": 4,
+   "start": 26.575,
+   "speechStart": 27.325,
+   "end": 29.1,
+   "builds": 0,
+   "text": "So where’s the line?"
+  },
+  {
+   "i": 5,
+   "start": 29.35,
+   "speechStart": 29.35,
+   "end": 39.0,
+   "builds": 0,
+   "text": "It’s called the COLREGS demarcation line, and it’s printed on your chart as a dashed magenta line, usually stretched across the mouth of a harbor or inlet."
+  },
+  {
+   "i": 6,
+   "start": 39.25,
+   "speechStart": 39.25,
+   "end": 43.0,
+   "builds": 0,
+   "text": "In Florida, you cross it every time you head out an inlet."
+  },
+  {
+   "i": 7,
+   "start": 43.25,
+   "speechStart": 43.25,
+   "end": 46.95,
+   "builds": 0,
+   "text": "Here’s some homework: find it on your local chart this week."
+  },
+  {
+   "i": 8,
+   "start": 47.2,
+   "speechStart": 47.2,
+   "end": 49.175,
+   "builds": 0,
+   "text": "It makes all of this real."
+  }
+ ]
+}

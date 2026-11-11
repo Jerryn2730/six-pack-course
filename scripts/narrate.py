@@ -370,6 +370,9 @@ def main():
         sents = prepare(sl["script"], apply_dict)
         h = slide_hash(sents, cfg, versions)
         prev = manifest["slides"].get(sid, {})
+        # Only site/audio/*.mp3 is committed (no duplicate in git); restore the media/ copy from it.
+        if prev.get("hash") == h and not (NARR / f"{sid}.mp3").exists() and (SITE_AUDIO / f"{sid}.mp3").exists():
+            shutil.copyfile(SITE_AUDIO / f"{sid}.mp3", NARR / f"{sid}.mp3")
         have = all(p.exists() for p in (NARR / f"{sid}.mp3", NARR / f"{sid}.timing.json",
                                         SITE_AUDIO / f"{sid}.mp3", SITE_AUDIO / f"{sid}.timing.json",
                                         CAPS / f"{sid}.vtt"))
