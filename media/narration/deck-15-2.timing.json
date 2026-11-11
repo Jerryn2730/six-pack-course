@@ -3,48 +3,104 @@
  "lessonId": "deck-15",
  "n": 2,
  "audio": "deck-15-2.mp3",
- "duration": 37.0,
+ "duration": 51.575,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 8.575,
+   "end": 2.275,
    "builds": 0,
-   "text": "Report a marine casualty to the nearest Coast Guard sector or station immediately, as soon as you’ve dealt with the emergency."
+   "text": "And here’s how you report."
   },
   {
    "i": 1,
-   "start": 8.825,
-   "speechStart": 8.825,
-   "end": 14.725,
-   "builds": 0,
-   "text": "Then file a written report on Form C G twenty-six ninety-two within five days."
+   "start": 2.525,
+   "speechStart": 2.525,
+   "end": 7.5,
+   "builds": 1,
+   "text": "First, notify the nearest Coast Guard sector or station immediately."
   },
   {
    "i": 2,
-   "start": 14.975,
-   "speechStart": 14.975,
-   "end": 27.475,
+   "start": 7.75,
+   "speechStart": 7.75,
+   "end": 12.025,
    "builds": 0,
-   "text": "If the casualty is a serious marine incident, such as one involving a death or serious injury, drug and alcohol testing is also required, with alcohol testing within two hours."
+   "text": "That means as soon as the emergency itself is under control."
   },
   {
    "i": 3,
-   "start": 27.725,
-   "speechStart": 27.725,
-   "end": 31.9,
-   "builds": 0,
-   "text": "Keep your logbook entries, photos and the names of witnesses."
+   "start": 12.275,
+   "speechStart": 12.275,
+   "end": 17.9,
+   "builds": 1,
+   "text": "Then file the written report, Form C G twenty-six ninety-two, within five days."
   },
   {
    "i": 4,
-   "start": 32.15,
-   "speechStart": 32.15,
-   "end": 36.7,
+   "start": 18.15,
+   "speechStart": 18.15,
+   "end": 27.075,
+   "builds": 1,
+   "text": "If it’s a serious marine incident, for instance one with a death or a serious injury, drug and alcohol testing is required as well."
+  },
+  {
+   "i": 5,
+   "start": 27.325,
+   "speechStart": 27.325,
+   "end": 29.75,
+   "builds": 0,
+   "text": "Remember the clock from lesson one?"
+  },
+  {
+   "i": 6,
+   "start": 30.0,
+   "speechStart": 30.75,
+   "end": 33.05,
+   "builds": 0,
+   "text": "Alcohol within two hours."
+  },
+  {
+   "i": 7,
+   "start": 33.3,
+   "speechStart": 33.3,
+   "end": 38.45,
+   "builds": 1,
+   "text": "Keep your evidence: logbook entries, photographs, and the names of witnesses."
+  },
+  {
+   "i": 8,
+   "start": 38.7,
+   "speechStart": 38.7,
+   "end": 40.575,
+   "builds": 0,
+   "text": "Write it while it’s fresh."
+  },
+  {
+   "i": 9,
+   "start": 40.825,
+   "speechStart": 40.825,
+   "end": 43.35,
+   "builds": 1,
+   "text": "And one distinction for the exam."
+  },
+  {
+   "i": 10,
+   "start": 43.6,
+   "speechStart": 43.6,
+   "end": 46.475,
+   "builds": 0,
+   "text": "These rules are for commercial vessels."
+  },
+  {
+   "i": 11,
+   "start": 46.725,
+   "speechStart": 46.725,
+   "end": 51.275,
    "builds": 0,
    "text": "Accidents on recreational boats are reported to the state instead."
   }

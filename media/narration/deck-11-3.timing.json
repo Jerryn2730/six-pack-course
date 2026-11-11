@@ -3,58 +3,122 @@
  "lessonId": "deck-11",
  "n": 3,
  "audio": "deck-11-3.mp3",
- "duration": 33.0,
+ "duration": 52.2,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.15,
+   "end": 2.05,
    "builds": 0,
-   "text": "Approach the person slowly, ideally heading into the wind or sea so you can stop alongside under control."
+   "text": "You’re back alongside."
   },
   {
    "i": 1,
-   "start": 7.4,
-   "speechStart": 7.4,
-   "end": 11.925,
+   "start": 2.3,
+   "speechStart": 2.3,
+   "end": 5.1,
    "builds": 0,
-   "text": "Shift to neutral well before you reach them, and keep the propeller away."
+   "text": "Getting him aboard is the hardest part."
   },
   {
    "i": 2,
-   "start": 12.175,
-   "speechStart": 12.175,
-   "end": 14.325,
-   "builds": 0,
-   "text": "Never approach stern first."
+   "start": 5.35,
+   "speechStart": 5.35,
+   "end": 11.7,
+   "builds": 1,
+   "text": "Approach slowly, heading into the wind or sea if you can, so you can stop next to him under control."
   },
   {
    "i": 3,
-   "start": 14.575,
-   "speechStart": 14.575,
-   "end": 23.425,
-   "builds": 0,
-   "text": "Bring them aboard over the side, not at the stern near the propeller, using a boarding ladder, a sling, or a parbuckle made from a line or net."
+   "start": 11.95,
+   "speechStart": 11.95,
+   "end": 14.725,
+   "builds": 1,
+   "text": "Go to neutral well before you reach him."
   },
   {
    "i": 4,
-   "start": 23.675,
-   "speechStart": 23.675,
-   "end": 27.85,
-   "builds": 0,
-   "text": "A tired or cold person can’t climb, so plan to lift them."
+   "start": 14.975,
+   "speechStart": 14.975,
+   "end": 17.3,
+   "builds": 1,
+   "text": "Bring him aboard over the side."
   },
   {
    "i": 5,
-   "start": 28.1,
-   "speechStart": 28.1,
-   "end": 32.7,
+   "start": 17.55,
+   "speechStart": 17.55,
+   "end": 19.35,
    "builds": 0,
-   "text": "Once aboard, treat for hypothermia and shock, and get medical help."
+   "text": "Never at the stern."
+  },
+  {
+   "i": 6,
+   "start": 19.6,
+   "speechStart": 19.6,
+   "end": 22.875,
+   "builds": 0,
+   "text": "Why not the stern, where the swim platform is?"
+  },
+  {
+   "i": 7,
+   "start": 23.125,
+   "speechStart": 23.875,
+   "end": 26.3,
+   "builds": 0,
+   "text": "Because that’s where the propeller is."
+  },
+  {
+   "i": 8,
+   "start": 26.55,
+   "speechStart": 26.55,
+   "end": 29.675,
+   "builds": 0,
+   "text": "And never back down on a person in the water."
+  },
+  {
+   "i": 9,
+   "start": 29.925,
+   "speechStart": 29.925,
+   "end": 35.2,
+   "builds": 1,
+   "text": "Use a boarding ladder, a sling, or a parbuckle rigged from a line or a net."
+  },
+  {
+   "i": 10,
+   "start": 35.45,
+   "speechStart": 35.45,
+   "end": 40.45,
+   "builds": 0,
+   "text": "A cold, tired, frightened person can’t climb, so plan on lifting him."
+  },
+  {
+   "i": 11,
+   "start": 40.7,
+   "speechStart": 40.7,
+   "end": 43.275,
+   "builds": 1,
+   "text": "And once he’s aboard, you’re not finished."
+  },
+  {
+   "i": 12,
+   "start": 43.525,
+   "speechStart": 43.525,
+   "end": 47.45,
+   "builds": 0,
+   "text": "Treat him for hypothermia and shock, and get medical help."
+  },
+  {
+   "i": 13,
+   "start": 47.7,
+   "speechStart": 47.7,
+   "end": 51.9,
+   "builds": 0,
+   "text": "People have survived the water and died an hour later on deck."
   }
  ]
 }

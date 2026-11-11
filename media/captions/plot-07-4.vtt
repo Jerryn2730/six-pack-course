@@ -1,29 +1,53 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:02.075
-Here’s a DR track.
+00:00:00.150 --> 00:00:03.375
+Let’s run a DR track with a course change in it.
 
 2
-00:00:02.325 --> 00:00:06.975
-You leave an eight hundred fix on course one two five true at ten knots.
+00:00:03.625 --> 00:00:05.475
+Follow the diagram.
 
 3
-00:00:07.225 --> 00:00:11.475
-At nine hundred, plot a DR ten miles along that course.
+00:00:05.725 --> 00:00:10.450
+You leave an eight hundred fix on course one two five true, at ten knots.
 
 4
-00:00:11.725 --> 00:00:18.050
-At nine thirty you change course, so plot a DR there, five more miles along one two five.
+00:00:10.700 --> 00:00:13.325
+At nine hundred, plot a DR.
 
 5
-00:00:18.300 --> 00:00:26.875
-From that nine thirty DR, draw the new course line at one six zero true, and at ten hundred plot a DR five miles along it.
+00:00:13.575 --> 00:00:17.975
+One hour at ten knots puts it ten miles along one two five.
 
 6
-00:00:27.125 --> 00:00:29.700
-Label each position with its time.
+00:00:18.225 --> 00:00:20.625
+At nine thirty you change course.
 
 7
-00:00:29.950 --> 00:00:34.550
-If you get a fix along the way, start a fresh DR track from the fix.
+00:00:20.875 --> 00:00:24.075
+A change of course means a DR at that moment.
+
+8
+00:00:24.325 --> 00:00:26.950
+How far from the nine hundred DR?
+
+9
+00:00:27.950 --> 00:00:32.625
+Half an hour at ten knots: five miles further along one two five.
+
+10
+00:00:32.875 --> 00:00:37.900
+From that nine thirty DR, draw the new course line at one six zero true.
+
+11
+00:00:38.150 --> 00:00:41.975
+At ten hundred, plot a DR five miles along it.
+
+12
+00:00:42.225 --> 00:00:45.150
+And label every position with its time.
+
+13
+00:00:45.400 --> 00:00:49.150
+If a fix comes in at any point, start a fresh track from it.

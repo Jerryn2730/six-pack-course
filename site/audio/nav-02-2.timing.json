@@ -3,50 +3,122 @@
  "lessonId": "nav-02",
  "n": 2,
  "audio": "nav-02-2.mp3",
- "duration": 41.9,
+ "duration": 55.675,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.525,
+   "end": 3.025,
    "builds": 0,
-   "text": "Soundings are the small numbers in the water, showing depth below the chart datum, usually mean lower low water."
+   "text": "Now the numbers and lines in the water."
   },
   {
    "i": 1,
-   "start": 7.775,
-   "speechStart": 7.775,
-   "end": 14.75,
-   "builds": 0,
-   "text": "Depth contours are lines joining points of equal depth, so you can see a shoal or channel edge at a glance."
+   "start": 3.275,
+   "speechStart": 3.275,
+   "end": 6.975,
+   "builds": 1,
+   "text": "Soundings are the small numbers scattered over the water."
   },
   {
    "i": 2,
-   "start": 15.0,
-   "speechStart": 15.0,
-   "end": 29.175,
+   "start": 7.225,
+   "speechStart": 7.225,
+   "end": 12.05,
    "builds": 0,
-   "text": "Bottom characteristics are abbreviated: S for sand, M for mud, S h for shells, R k for rock, C o for coral, G for gravel, with qualifiers like h r d for hard and s f t for soft."
+   "text": "Each is a depth below the chart datum, usually mean lower low water."
   },
   {
    "i": 3,
-   "start": 29.425,
-   "speechStart": 29.425,
-   "end": 34.875,
-   "builds": 0,
-   "text": "These matter for anchoring, because sand and mud hold well while rock and coral don’t."
+   "start": 12.3,
+   "speechStart": 12.3,
+   "end": 19.85,
+   "builds": 1,
+   "text": "Depth contours are lines that join points of equal depth, so you can see the edge of a shoal or a channel at a glance."
   },
   {
    "i": 4,
-   "start": 35.125,
-   "speechStart": 35.125,
-   "end": 41.6,
+   "start": 20.1,
+   "speechStart": 20.1,
+   "end": 22.6,
+   "builds": 1,
+   "text": "Small letters describe the bottom."
+  },
+  {
+   "i": 5,
+   "start": 22.85,
+   "speechStart": 22.85,
+   "end": 29.375,
    "builds": 0,
-   "text": "Remember that charted depths may be old, and channels shoal, especially near Florida’s inlets."
+   "text": "S is sand, M is mud, S h is shells, R k is rock, C o is coral, and G is gravel."
+  },
+  {
+   "i": 6,
+   "start": 29.625,
+   "speechStart": 29.625,
+   "end": 34.525,
+   "builds": 1,
+   "text": "Qualifiers go with them: h r d for hard, s f t for soft."
+  },
+  {
+   "i": 7,
+   "start": 34.775,
+   "speechStart": 34.775,
+   "end": 37.7,
+   "builds": 0,
+   "text": "Why would you care what the bottom is made of?"
+  },
+  {
+   "i": 8,
+   "start": 37.95,
+   "speechStart": 38.7,
+   "end": 40.225,
+   "builds": 0,
+   "text": "Anchoring."
+  },
+  {
+   "i": 9,
+   "start": 40.475,
+   "speechStart": 40.475,
+   "end": 43.05,
+   "builds": 0,
+   "text": "Sand and mud hold an anchor well."
+  },
+  {
+   "i": 10,
+   "start": 43.3,
+   "speechStart": 43.3,
+   "end": 45.325,
+   "builds": 0,
+   "text": "Rock and coral don’t."
+  },
+  {
+   "i": 11,
+   "start": 45.575,
+   "speechStart": 45.575,
+   "end": 47.35,
+   "builds": 1,
+   "text": "And one caution."
+  },
+  {
+   "i": 12,
+   "start": 47.6,
+   "speechStart": 47.6,
+   "end": 52.3,
+   "builds": 0,
+   "text": "A charted depth is only as good as the last survey, and bottoms move."
+  },
+  {
+   "i": 13,
+   "start": 52.55,
+   "speechStart": 52.55,
+   "end": 55.375,
+   "builds": 0,
+   "text": "Near Florida’s inlets, they move a lot."
   }
  ]
 }

@@ -3,58 +3,114 @@
  "lessonId": "nav-06",
  "n": 3,
  "audio": "nav-06-3.mp3",
- "duration": 40.125,
+ "duration": 54.4,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.325,
+   "end": 1.95,
    "builds": 0,
-   "text": "Several other publications round out the captain’s library."
+   "text": "The rest of the shelf."
   },
   {
    "i": 1,
-   "start": 4.575,
-   "speechStart": 4.575,
-   "end": 18.775,
-   "builds": 0,
-   "text": "NOAA publishes tide and tidal current predictions on its Tides and Currents website, and the exam uses extracts from the classic Tide Tables and Tidal Current Tables, which we’ll practice in the next two lessons."
+   "start": 2.2,
+   "speechStart": 2.2,
+   "end": 7.35,
+   "builds": 1,
+   "text": "Tide and current predictions come from NOAA’s Tides and Currents service."
   },
   {
    "i": 2,
-   "start": 19.025,
-   "speechStart": 19.025,
-   "end": 23.5,
-   "builds": 0,
-   "text": "You already know the Navigation Rules handbook and Chart Number One."
+   "start": 7.6,
+   "speechStart": 7.6,
+   "end": 15.925,
+   "builds": 1,
+   "text": "But the exam uses pages from the classic printed Tide Tables and Tidal Current Tables, so you need to know how those are laid out."
   },
   {
    "i": 3,
-   "start": 23.75,
-   "speechStart": 23.75,
-   "end": 28.55,
+   "start": 16.175,
+   "speechStart": 16.175,
+   "end": 18.95,
    "builds": 0,
-   "text": "The Code of Federal Regulations contains the laws you operate under."
+   "text": "We’ll practice them in the next two lessons."
   },
   {
    "i": 4,
-   "start": 28.8,
-   "speechStart": 28.8,
-   "end": 33.275,
-   "builds": 0,
-   "text": "Title thirty-three covers navigation and navigable waters."
+   "start": 19.2,
+   "speechStart": 19.2,
+   "end": 23.1,
+   "builds": 1,
+   "text": "The Navigation Rules handbook, which you know well by now."
   },
   {
    "i": 5,
-   "start": 33.525,
-   "speechStart": 33.525,
-   "end": 39.825,
+   "start": 23.35,
+   "speechStart": 23.35,
+   "end": 26.675,
+   "builds": 1,
+   "text": "Chart Number One, the key to every chart symbol."
+  },
+  {
+   "i": 6,
+   "start": 26.925,
+   "speechStart": 26.925,
+   "end": 31.2,
+   "builds": 1,
+   "text": "And the Code of Federal Regulations, the law you operate under."
+  },
+  {
+   "i": 7,
+   "start": 31.45,
+   "speechStart": 31.45,
+   "end": 33.525,
    "builds": 0,
-   "text": "Title forty-six covers shipping, including uninspected passenger vessels and your license."
+   "text": "Two titles matter to you."
+  },
+  {
+   "i": 8,
+   "start": 33.775,
+   "speechStart": 33.775,
+   "end": 38.025,
+   "builds": 0,
+   "text": "Title thirty-three is navigation and navigable waters."
+  },
+  {
+   "i": 9,
+   "start": 38.275,
+   "speechStart": 38.275,
+   "end": 44.5,
+   "builds": 0,
+   "text": "Title forty-six is shipping, which includes uninspected passenger vessels and your license."
+  },
+  {
+   "i": 10,
+   "start": 44.75,
+   "speechStart": 44.75,
+   "end": 47.025,
+   "builds": 0,
+   "text": "Here’s how I keep them apart."
+  },
+  {
+   "i": 11,
+   "start": 47.275,
+   "speechStart": 48.025,
+   "end": 50.5,
+   "builds": 0,
+   "text": "Thirty-three is about the water."
+  },
+  {
+   "i": 12,
+   "start": 50.75,
+   "speechStart": 50.75,
+   "end": 54.1,
+   "builds": 0,
+   "text": "Forty-six is about the boat and the people on it."
   }
  ]
 }

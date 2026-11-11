@@ -3,50 +3,146 @@
  "lessonId": "deck-06",
  "n": 5,
  "audio": "deck-06-5.mp3",
- "duration": 32.35,
+ "duration": 58.35,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.275,
+   "end": 2.975,
+   "builds": 0,
+   "text": "Last, the sea that comes from behind."
+  },
+  {
+   "i": 1,
+   "start": 3.225,
+   "speechStart": 3.225,
+   "end": 7.35,
    "builds": 0,
    "text": "Following seas are especially dangerous for small powerboats."
   },
   {
-   "i": 1,
-   "start": 4.525,
-   "speechStart": 4.525,
-   "end": 11.925,
-   "builds": 0,
-   "text": "A broach happens when a wave from astern lifts the stern and slews the boat sideways, where the next wave can roll it."
-  },
-  {
    "i": 2,
-   "start": 12.175,
-   "speechStart": 12.175,
-   "end": 18.375,
-   "builds": 0,
-   "text": "In extreme cases a boat can pitchpole, with the bow burying and the stern flipping over the top."
+   "start": 7.6,
+   "speechStart": 7.6,
+   "end": 13.025,
+   "builds": 1,
+   "text": "A broach happens when a wave from astern lifts your stern and slews the boat sideways."
   },
   {
    "i": 3,
-   "start": 18.625,
-   "speechStart": 18.625,
-   "end": 27.225,
+   "start": 13.275,
+   "speechStart": 13.275,
+   "end": 16.475,
    "builds": 0,
-   "text": "When running before big seas or entering an inlet, ride on the back of a wave, matching its speed, rather than surfing down its face."
+   "text": "Now you’re beam-on, and the next wave can roll you."
   },
   {
    "i": 4,
-   "start": 27.475,
-   "speechStart": 27.475,
-   "end": 32.05,
+   "start": 16.725,
+   "speechStart": 16.725,
+   "end": 21.15,
+   "builds": 1,
+   "text": "In the worst case, the bow digs in and the stern goes over the top."
+  },
+  {
+   "i": 5,
+   "start": 21.4,
+   "speechStart": 21.4,
+   "end": 23.175,
    "builds": 0,
-   "text": "Raise the trim tabs to keep the bow up, and be ready with the throttle."
+   "text": "That’s a pitchpole."
+  },
+  {
+   "i": 6,
+   "start": 23.425,
+   "speechStart": 23.425,
+   "end": 28.25,
+   "builds": 1,
+   "text": "So when you run before big seas, or come in an inlet, where do you put the boat?"
+  },
+  {
+   "i": 7,
+   "start": 28.5,
+   "speechStart": 29.25,
+   "end": 31.05,
+   "builds": 0,
+   "text": "On the back of a wave."
+  },
+  {
+   "i": 8,
+   "start": 31.3,
+   "speechStart": 31.3,
+   "end": 33.5,
+   "builds": 0,
+   "text": "Match its speed and stay there."
+  },
+  {
+   "i": 9,
+   "start": 33.75,
+   "speechStart": 33.75,
+   "end": 35.725,
+   "builds": 0,
+   "text": "Don’t surf down the face."
+  },
+  {
+   "i": 10,
+   "start": 35.975,
+   "speechStart": 35.975,
+   "end": 40.6,
+   "builds": 1,
+   "text": "Raise the trim tabs to keep the bow up, and keep a hand on the throttle."
+  },
+  {
+   "i": 11,
+   "start": 40.85,
+   "speechStart": 40.85,
+   "end": 42.75,
+   "builds": 0,
+   "text": "That’s lesson six."
+  },
+  {
+   "i": 12,
+   "start": 43.0,
+   "speechStart": 43.0,
+   "end": 44.625,
+   "builds": 0,
+   "text": "Know your hull."
+  },
+  {
+   "i": 13,
+   "start": 44.875,
+   "speechStart": 44.875,
+   "end": 48.85,
+   "builds": 0,
+   "text": "Clear scuppers, double clamps, a plug at every through-hull."
+  },
+  {
+   "i": 14,
+   "start": 49.1,
+   "speechStart": 49.1,
+   "end": 52.05,
+   "builds": 0,
+   "text": "Find it, stop it, pump it, call early."
+  },
+  {
+   "i": 15,
+   "start": 52.3,
+   "speechStart": 52.3,
+   "end": 54.375,
+   "builds": 0,
+   "text": "And ride the back of the wave."
+  },
+  {
+   "i": 16,
+   "start": 54.625,
+   "speechStart": 54.625,
+   "end": 58.05,
+   "builds": 0,
+   "text": "Next time: making the boat go where you want her to."
   }
  ]
 }

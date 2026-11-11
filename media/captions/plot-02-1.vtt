@@ -1,21 +1,49 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:07.075
-To read a position, measure its latitude on the side scale and its longitude on the top or bottom scale.
+00:00:00.150 --> 00:00:06.400
+Every plotting problem starts or ends with a position: here’s where you are, or tell me where you are.
 
 2
-00:00:07.325 --> 00:00:19.225
-For latitude, set the dividers from the point to the nearest parallel of latitude, carry them to the side scale and count the minutes, or lay a straightedge horizontally from the point to the scale.
+00:00:06.650 --> 00:00:10.275
+So you need to read one off the chart quickly and correctly.
 
 3
-00:00:19.475 --> 00:00:26.450
-For longitude, measure from the nearest meridian to the point, and read the minutes on the top or bottom scale.
+00:00:10.525 --> 00:00:12.350
+Look at the diagram.
 
 4
-00:00:26.700 --> 00:00:32.900
-In west longitude, the numbers increase to the left, and in north latitude, they increase upward.
+00:00:12.600 --> 00:00:15.200
+Latitude comes from the side scales.
 
 5
-00:00:33.150 --> 00:00:36.400
-Getting that direction wrong is a common mistake.
+00:00:15.450 --> 00:00:18.325
+Longitude comes from the top or bottom.
+
+6
+00:00:18.575 --> 00:00:24.175
+For latitude, lay a straightedge level from your point across to the side scale, and read it.
+
+7
+00:00:24.425 --> 00:00:30.450
+Or set your dividers from the point to the nearest line of latitude, and carry them to the scale.
+
+8
+00:00:30.700 --> 00:00:37.425
+For longitude, measure from the nearest meridian to your point, and read that on the top or bottom scale.
+
+9
+00:00:37.675 --> 00:00:40.225
+Now, which way do the numbers grow?
+
+10
+00:00:41.225 --> 00:00:44.400
+In north latitude, they increase going up.
+
+11
+00:00:44.650 --> 00:00:48.050
+In west longitude, they increase going left.
+
+12
+00:00:48.300 --> 00:00:53.325
+That second one feels backward, and it’s the commonest mistake in this lesson.

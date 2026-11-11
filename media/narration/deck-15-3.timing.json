@@ -3,66 +3,122 @@
  "lessonId": "deck-15",
  "n": 3,
  "audio": "deck-15-3.mp3",
- "duration": 40.15,
+ "duration": 56.7,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.3,
+   "end": 5.45,
    "builds": 0,
-   "text": "Florida’s waterways are full of drawbridges."
+   "text": "Florida’s waterways are full of drawbridges, and they have a little language of their own."
   },
   {
    "i": 1,
-   "start": 3.55,
-   "speechStart": 3.55,
-   "end": 11.35,
-   "builds": 0,
-   "text": "To request an opening, sound one prolonged blast followed by one short blast, or call the bridge tender by radio."
+   "start": 5.7,
+   "speechStart": 5.7,
+   "end": 10.525,
+   "builds": 1,
+   "text": "To ask for an opening, sound one prolonged blast followed by one short."
   },
   {
    "i": 2,
-   "start": 11.6,
-   "speechStart": 11.6,
-   "end": 15.375,
+   "start": 10.775,
+   "speechStart": 10.775,
+   "end": 13.6,
    "builds": 0,
-   "text": "Most Florida bridges monitor VHF channel nine."
+   "text": "Or just call the bridge tender on the radio."
   },
   {
    "i": 3,
-   "start": 15.625,
-   "speechStart": 15.625,
-   "end": 20.675,
-   "builds": 0,
-   "text": "If the bridge will open, it answers with one prolonged and one short blast."
+   "start": 13.85,
+   "speechStart": 13.85,
+   "end": 17.975,
+   "builds": 1,
+   "text": "In Florida, most bridges monitor VHF channel nine."
   },
   {
    "i": 4,
-   "start": 20.925,
-   "speechStart": 20.925,
-   "end": 24.9,
-   "builds": 0,
-   "text": "If it can’t open right away, it sounds five short blasts."
+   "start": 18.225,
+   "speechStart": 18.225,
+   "end": 24.375,
+   "builds": 1,
+   "text": "If the bridge is going to open, it answers with the same signal: one prolonged and one short."
   },
   {
    "i": 5,
-   "start": 25.15,
-   "speechStart": 25.15,
-   "end": 36.4,
-   "builds": 0,
-   "text": "Many bridges open only on a schedule, such as on the hour and half hour, at certain times of day, and the schedules are published in the federal regulations and the Coast Pilot."
+   "start": 24.625,
+   "speechStart": 24.625,
+   "end": 26.925,
+   "builds": 1,
+   "text": "And if it can’t open right now?"
   },
   {
    "i": 6,
-   "start": 36.65,
-   "speechStart": 36.65,
-   "end": 39.85,
+   "start": 27.175,
+   "speechStart": 27.925,
+   "end": 29.875,
    "builds": 0,
-   "text": "Hold well back until the bridge is fully open."
+   "text": "Five short blasts."
+  },
+  {
+   "i": 7,
+   "start": 30.125,
+   "speechStart": 30.125,
+   "end": 31.85,
+   "builds": 0,
+   "text": "Sound familiar?"
+  },
+  {
+   "i": 8,
+   "start": 32.1,
+   "speechStart": 32.1,
+   "end": 34.1,
+   "builds": 0,
+   "text": "It’s the danger signal."
+  },
+  {
+   "i": 9,
+   "start": 34.35,
+   "speechStart": 34.35,
+   "end": 36.425,
+   "builds": 0,
+   "text": "It means, don’t come ahead."
+  },
+  {
+   "i": 10,
+   "start": 36.675,
+   "speechStart": 36.675,
+   "end": 41.475,
+   "builds": 1,
+   "text": "Many bridges only open on a schedule, say on the hour and the half hour."
+  },
+  {
+   "i": 11,
+   "start": 41.725,
+   "speechStart": 41.725,
+   "end": 48.0,
+   "builds": 0,
+   "text": "The schedules are in the federal regulations and in the Coast Pilot, so look them up before you go."
+  },
+  {
+   "i": 12,
+   "start": 48.25,
+   "speechStart": 48.25,
+   "end": 51.65,
+   "builds": 0,
+   "text": "And hold well back until the span is fully open."
+  },
+  {
+   "i": 13,
+   "start": 51.9,
+   "speechStart": 51.9,
+   "end": 56.4,
+   "builds": 0,
+   "text": "A current can carry you into a half-open bridge faster than you’d believe."
   }
  ]
 }

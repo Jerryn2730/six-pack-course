@@ -1,21 +1,73 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:07.825
-When your fix doesn’t match your dead reckoning position, the difference is current, along with any wind effect or steering error.
+00:00:00.150 --> 00:00:01.925
+You plot a DR.
 
 2
-00:00:08.075 --> 00:00:13.175
-The set is the direction from the DR position to the fix at the same time.
+00:00:02.175 --> 00:00:03.900
+You take a fix.
 
 3
-00:00:13.425 --> 00:00:18.825
-The drift is the distance between them divided by the hours since your last fix.
+00:00:04.150 --> 00:00:05.750
+They don’t agree.
 
 4
-00:00:19.075 --> 00:00:23.075
-Notice the direction: always from the DR toward the fix.
+00:00:06.000 --> 00:00:07.900
+That isn’t a mistake.
 
 5
-00:00:23.325 --> 00:00:33.625
-Measuring from the fix back to the DR gives the reciprocal, exactly one hundred eighty degrees wrong, and that wrong answer is almost always one of the choices.
+00:00:08.150 --> 00:00:09.900
+It’s information.
+
+6
+00:00:10.150 --> 00:00:15.775
+The gap between them is the current, plus any wind and steering error, and you can measure it.
+
+7
+00:00:16.025 --> 00:00:17.850
+Look at the diagram.
+
+8
+00:00:18.100 --> 00:00:19.650
+Two words.
+
+9
+00:00:19.900 --> 00:00:23.000
+Set is the direction the current is pushing you.
+
+10
+00:00:23.250 --> 00:00:25.150
+Drift is its speed.
+
+11
+00:00:25.400 --> 00:00:31.275
+To find the set, measure the direction from your DR position to your fix, at the same time.
+
+12
+00:00:31.525 --> 00:00:37.650
+To find the drift, measure the distance between them, and divide by the hours since your last fix.
+
+13
+00:00:38.650 --> 00:00:42.150
+Now the trap, and it catches nearly everyone once.
+
+14
+00:00:42.400 --> 00:00:44.350
+Which way do you measure?
+
+15
+00:00:44.600 --> 00:00:46.975
+From the DR, toward the fix.
+
+16
+00:00:47.225 --> 00:00:50.400
+From where you thought you were, to where you really are.
+
+17
+00:00:50.650 --> 00:00:56.225
+Measure it backward, and you get the reciprocal, exactly one hundred eighty degrees wrong.
+
+18
+00:00:56.475 --> 00:01:00.400
+And that wrong answer is almost always one of the choices.

@@ -3,50 +3,130 @@
  "lessonId": "deck-04",
  "n": 1,
  "audio": "deck-04-1.mp3",
- "duration": 35.5,
+ "duration": 58.425,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 11.1,
+   "end": 2.425,
    "builds": 0,
-   "text": "Gasoline vapor is heavier than air, so it flows downhill and collects in the bilge and low compartments, where a single spark from a switch, pump or starter can ignite it."
+   "text": "Last time we fought the fire."
   },
   {
    "i": 1,
-   "start": 11.35,
-   "speechStart": 11.35,
-   "end": 18.575,
+   "start": 2.675,
+   "speechStart": 2.675,
+   "end": 8.55,
    "builds": 0,
-   "text": "A surprisingly small amount of vaporized gasoline can produce an explosion strong enough to destroy a boat."
+   "text": "Today we stop it from starting, and that begins with understanding one thing about gasoline."
   },
   {
    "i": 2,
-   "start": 18.825,
-   "speechStart": 18.825,
-   "end": 21.2,
+   "start": 8.8,
+   "speechStart": 8.8,
+   "end": 11.2,
    "builds": 0,
-   "text": "Propane behaves the same way."
+   "text": "It isn’t the liquid that explodes."
   },
   {
    "i": 3,
-   "start": 21.45,
-   "speechStart": 21.45,
-   "end": 30.825,
+   "start": 11.45,
+   "speechStart": 11.45,
+   "end": 13.125,
    "builds": 0,
-   "text": "Diesel fuel is much less volatile and much harder to ignite, which is one reason most commercial boats run diesel, but it still burns once lit."
+   "text": "It’s the vapor."
   },
   {
    "i": 4,
-   "start": 31.075,
-   "speechStart": 31.075,
-   "end": 35.2,
+   "start": 13.375,
+   "speechStart": 13.375,
+   "end": 16.3,
+   "builds": 1,
+   "text": "Gasoline vapor is heavier than air."
+  },
+  {
+   "i": 5,
+   "start": 16.55,
+   "speechStart": 16.55,
+   "end": 18.25,
    "builds": 0,
-   "text": "Most boat explosions happen during or just after fueling."
+   "text": "So where does it go?"
+  },
+  {
+   "i": 6,
+   "start": 18.5,
+   "speechStart": 19.25,
+   "end": 20.625,
+   "builds": 0,
+   "text": "Down."
+  },
+  {
+   "i": 7,
+   "start": 20.875,
+   "speechStart": 20.875,
+   "end": 29.5,
+   "builds": 0,
+   "text": "It flows like water into the bilge and the low compartments, and it sits there, waiting for a spark from a switch, a pump or a starter."
+  },
+  {
+   "i": 8,
+   "start": 29.75,
+   "speechStart": 29.75,
+   "end": 31.675,
+   "builds": 1,
+   "text": "And it doesn’t take much."
+  },
+  {
+   "i": 9,
+   "start": 31.925,
+   "speechStart": 31.925,
+   "end": 37.2,
+   "builds": 0,
+   "text": "A small amount of vapor can produce an explosion strong enough to destroy the boat."
+  },
+  {
+   "i": 10,
+   "start": 37.45,
+   "speechStart": 37.45,
+   "end": 39.825,
+   "builds": 1,
+   "text": "Propane behaves the same way."
+  },
+  {
+   "i": 11,
+   "start": 40.075,
+   "speechStart": 40.075,
+   "end": 41.775,
+   "builds": 0,
+   "text": "It sinks too."
+  },
+  {
+   "i": 12,
+   "start": 42.025,
+   "speechStart": 42.025,
+   "end": 48.8,
+   "builds": 1,
+   "text": "Diesel is far less volatile and much harder to light, which is one reason most commercial boats burn it."
+  },
+  {
+   "i": 13,
+   "start": 49.05,
+   "speechStart": 49.05,
+   "end": 51.675,
+   "builds": 0,
+   "text": "But once it’s lit, it still burns."
+  },
+  {
+   "i": 14,
+   "start": 51.925,
+   "speechStart": 51.925,
+   "end": 58.125,
+   "builds": 0,
+   "text": "Here’s the fact to carry with you: most boat explosions happen during fueling, or just after it."
   }
  ]
 }

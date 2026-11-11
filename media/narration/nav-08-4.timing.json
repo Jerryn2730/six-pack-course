@@ -3,7 +3,7 @@
  "lessonId": "nav-08",
  "n": 4,
  "audio": "nav-08-4.mp3",
- "duration": 37.15,
+ "duration": 55.45,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,57 +12,97 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.05,
+   "end": 5.975,
    "builds": 0,
-   "text": "Current sailing means finding a course to steer that cancels a known current."
+   "text": "If a current is pushing you sideways and you point straight at your destination, you’ll miss it."
   },
   {
    "i": 1,
-   "start": 5.3,
-   "speechStart": 5.3,
-   "end": 9.525,
+   "start": 6.225,
+   "speechStart": 6.225,
+   "end": 9.65,
    "builds": 0,
-   "text": "Draw your intended track from your position to your destination."
+   "text": "So you aim off, upstream, by just the right amount."
   },
   {
    "i": 2,
-   "start": 9.775,
-   "speechStart": 9.775,
-   "end": 15.05,
+   "start": 9.9,
+   "speechStart": 9.9,
+   "end": 12.8,
    "builds": 0,
-   "text": "From your starting point, draw the current vector, its set and its drift for one hour."
+   "text": "Finding that amount is called current sailing."
   },
   {
    "i": 3,
-   "start": 15.3,
-   "speechStart": 15.3,
-   "end": 22.6,
+   "start": 13.05,
+   "speechStart": 13.05,
+   "end": 16.2,
    "builds": 0,
-   "text": "Then, from the end of the current vector, swing an arc equal to your boat speed until it crosses the intended track."
+   "text": "Look at the diagram, and follow the three steps."
   },
   {
    "i": 4,
-   "start": 22.85,
-   "speechStart": 22.85,
-   "end": 28.4,
+   "start": 16.45,
+   "speechStart": 16.45,
+   "end": 20.95,
    "builds": 0,
-   "text": "The line from the end of the current vector to that crossing point is your course to steer."
+   "text": "First, draw your intended track, from where you are to where you want to go."
   },
   {
    "i": 5,
-   "start": 28.65,
-   "speechStart": 28.65,
-   "end": 33.85,
+   "start": 21.2,
+   "speechStart": 21.2,
+   "end": 26.775,
    "builds": 0,
-   "text": "The distance from your start to the crossing point along the track is your speed made good."
+   "text": "Second, from your starting point, draw the current: its set, and its drift for one hour."
   },
   {
    "i": 6,
-   "start": 34.1,
-   "speechStart": 34.1,
-   "end": 36.85,
+   "start": 27.025,
+   "speechStart": 27.025,
+   "end": 34.825,
    "builds": 0,
-   "text": "You’ll practice this in the plotting module."
+   "text": "Third, from the end of that current line, swing an arc equal to your boat speed for one hour, until it cuts your intended track."
+  },
+  {
+   "i": 7,
+   "start": 35.075,
+   "speechStart": 35.825,
+   "end": 38.0,
+   "builds": 0,
+   "text": "Now read off two answers."
+  },
+  {
+   "i": 8,
+   "start": 38.25,
+   "speechStart": 38.25,
+   "end": 43.325,
+   "builds": 0,
+   "text": "The line from the end of the current to that crossing point is your course to steer."
+  },
+  {
+   "i": 9,
+   "start": 43.575,
+   "speechStart": 43.575,
+   "end": 49.4,
+   "builds": 0,
+   "text": "And the distance from your start to that crossing point, along the track, is your speed made good."
+  },
+  {
+   "i": 10,
+   "start": 49.65,
+   "speechStart": 49.65,
+   "end": 51.9,
+   "builds": 0,
+   "text": "Current first, then your speed."
+  },
+  {
+   "i": 11,
+   "start": 52.15,
+   "speechStart": 52.15,
+   "end": 55.15,
+   "builds": 0,
+   "text": "We’ll draw these for real in the plotting module."
   }
  ]
 }

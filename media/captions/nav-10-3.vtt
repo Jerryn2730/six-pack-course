@@ -1,21 +1,77 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:03.725
-A deviation table lists the error for each heading.
+00:00:00.150 --> 00:00:05.000
+A deviation table is your compass’s report card, heading by heading.
 
 2
-00:00:03.975 --> 00:00:09.050
-Find your heading in the table, and if it falls between two entries, interpolate.
+00:00:05.250 --> 00:00:07.450
+Look at this one as it builds.
 
 3
-00:00:09.300 --> 00:00:23.475
-Using this table, a magnetic heading of zero seven five falls halfway between zero six zero, with no deviation, and zero nine zero, with two degrees west, so the deviation is about one degree west.
+00:00:07.700 --> 00:00:10.725
+On zero zero zero, two degrees east.
 
 4
-00:00:23.725 --> 00:00:30.150
-Some tables are arranged by compass heading and some by magnetic heading, so check which you’re using.
+00:00:10.975 --> 00:00:13.525
+On zero three zero, one east.
 
 5
-00:00:30.400 --> 00:00:37.425
-Exam questions often give you a table like this and ask for the deviation or the compass course to steer.
+00:00:13.775 --> 00:00:16.000
+On zero six zero, none.
+
+6
+00:00:16.250 --> 00:00:18.900
+On zero nine zero, two west.
+
+7
+00:00:19.150 --> 00:00:21.650
+On one two zero, three west.
+
+8
+00:00:21.900 --> 00:00:24.500
+And on one five zero, two west.
+
+9
+00:00:24.750 --> 00:00:27.725
+See how it swings smoothly from east to west?
+
+10
+00:00:27.975 --> 00:00:29.600
+That’s normal.
+
+11
+00:00:29.850 --> 00:00:33.225
+Now, what if your heading falls between two lines?
+
+12
+00:00:33.475 --> 00:00:35.250
+You interpolate.
+
+13
+00:00:35.500 --> 00:00:38.775
+Say you’re steering zero seven five magnetic.
+
+14
+00:00:39.025 --> 00:00:45.500
+That’s halfway between zero six zero, with no deviation, and zero nine zero, with two west.
+
+15
+00:00:45.750 --> 00:00:47.825
+So what’s the deviation?
+
+16
+00:00:48.825 --> 00:00:50.750
+About one degree west.
+
+17
+00:00:51.000 --> 00:00:52.700
+One caution.
+
+18
+00:00:52.950 --> 00:00:58.100
+Some tables are entered with the compass heading, and some with the magnetic heading.
+
+19
+00:00:58.350 --> 00:01:01.250
+Read the top of the column before you use it.

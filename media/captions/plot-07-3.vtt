@@ -1,25 +1,53 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:02.925
-Know the difference between these positions.
+00:00:00.150 --> 00:00:03.450
+Three kinds of position, three levels of trust.
 
 2
-00:00:03.175 --> 00:00:09.175
-A DR uses only the course steered and the speed through the water, ignoring current and wind.
+00:00:03.700 --> 00:00:08.325
+A DR uses only the course you steered and your speed through the water.
 
 3
-00:00:09.425 --> 00:00:17.875
-An estimated position improves on the DR with any other information, such as a known current or a single line of position.
+00:00:08.575 --> 00:00:10.500
+Nothing about current.
 
 4
-00:00:18.125 --> 00:00:23.800
-With one L O P, the E P is the point on that line nearest your DR position.
+00:00:10.750 --> 00:00:12.675
+Nothing about wind.
 
 5
-00:00:24.050 --> 00:00:29.000
-A fix uses two or more good lines of position taken at the same time.
+00:00:12.925 --> 00:00:19.500
+An estimated position, an E P, starts with the DR and improves it with whatever else you know.
 
 6
-00:00:29.250 --> 00:00:35.200
-In order of reliability: trust a fix over an E P, and an E P over a DR.
+00:00:19.750 --> 00:00:23.425
+A known current, say, or a single line of position.
+
+7
+00:00:23.675 --> 00:00:25.425
+Here’s a neat case.
+
+8
+00:00:25.675 --> 00:00:28.675
+You have one line of position and a DR.
+
+9
+00:00:28.925 --> 00:00:30.750
+Where’s your E P?
+
+10
+00:00:31.750 --> 00:00:34.700
+The point on that line nearest your DR.
+
+11
+00:00:34.950 --> 00:00:38.650
+You know you’re on the line, and that’s the best guess as to where.
+
+12
+00:00:38.900 --> 00:00:43.275
+A fix is two or more good lines of position at the same time.
+
+13
+00:00:43.525 --> 00:00:48.600
+So the ranking is: a fix beats an E P, and an E P beats a DR.

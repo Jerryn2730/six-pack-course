@@ -3,58 +3,106 @@
  "lessonId": "nav-13",
  "n": 3,
  "audio": "nav-13-3.mp3",
- "duration": 36.0,
+ "duration": 49.55,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 6,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.425,
+   "end": 4.575,
    "builds": 0,
-   "text": "Your barometer and the sky give early warning."
+   "text": "You carry two free forecasting tools: a barometer, and the sky."
   },
   {
    "i": 1,
-   "start": 3.675,
-   "speechStart": 3.675,
-   "end": 10.7,
-   "builds": 0,
-   "text": "A falling barometer signals an approaching low or front, and a rapid fall means strong wind is coming soon."
+   "start": 4.825,
+   "speechStart": 4.825,
+   "end": 9.05,
+   "builds": 1,
+   "text": "A falling barometer means a low or a front is on its way."
   },
   {
    "i": 2,
-   "start": 10.95,
-   "speechStart": 10.95,
-   "end": 14.225,
-   "builds": 0,
-   "text": "A rising barometer means improving weather."
+   "start": 9.3,
+   "speechStart": 9.3,
+   "end": 12.45,
+   "builds": 1,
+   "text": "A rapid fall means strong wind, and soon."
   },
   {
    "i": 3,
-   "start": 14.475,
-   "speechStart": 14.475,
-   "end": 21.5,
-   "builds": 0,
-   "text": "High, thin cirrus clouds that thicken and lower over several hours often mean a warm front is approaching."
+   "start": 12.7,
+   "speechStart": 12.7,
+   "end": 15.975,
+   "builds": 1,
+   "text": "A rising barometer means improving weather."
   },
   {
    "i": 4,
-   "start": 21.75,
-   "speechStart": 21.75,
-   "end": 27.725,
-   "builds": 0,
-   "text": "Towering cumulus clouds that grow into anvil-topped cumulonimbus mean thunderstorms."
+   "start": 16.225,
+   "speechStart": 16.225,
+   "end": 17.8,
+   "builds": 1,
+   "text": "Now look up."
   },
   {
    "i": 5,
-   "start": 27.975,
-   "speechStart": 27.975,
-   "end": 35.7,
+   "start": 18.05,
+   "speechStart": 18.05,
+   "end": 25.55,
    "builds": 0,
-   "text": "And remember Buys Ballot’s law: in the Northern Hemisphere, stand with your back to the wind and low pressure is on your left."
+   "text": "High, thin, wispy cirrus that thickens and lowers over several hours usually means a warm front is coming."
+  },
+  {
+   "i": 6,
+   "start": 25.8,
+   "speechStart": 25.8,
+   "end": 31.4,
+   "builds": 1,
+   "text": "Towering cumulus, the tall cauliflower clouds, growing into a flat anvil top?"
+  },
+  {
+   "i": 7,
+   "start": 31.65,
+   "speechStart": 32.4,
+   "end": 34.1,
+   "builds": 0,
+   "text": "Thunderstorms."
+  },
+  {
+   "i": 8,
+   "start": 34.35,
+   "speechStart": 34.35,
+   "end": 38.025,
+   "builds": 0,
+   "text": "In a Florida summer, that’s your signal to start home."
+  },
+  {
+   "i": 9,
+   "start": 38.275,
+   "speechStart": 38.275,
+   "end": 40.475,
+   "builds": 1,
+   "text": "And a trick for finding the low."
+  },
+  {
+   "i": 10,
+   "start": 40.725,
+   "speechStart": 40.725,
+   "end": 43.025,
+   "builds": 0,
+   "text": "It’s called Buys Ballot’s law."
+  },
+  {
+   "i": 11,
+   "start": 43.275,
+   "speechStart": 43.275,
+   "end": 49.25,
+   "builds": 0,
+   "text": "In the Northern Hemisphere, stand with your back to the wind, and the low pressure is on your left."
   }
  ]
 }

@@ -3,66 +3,146 @@
  "lessonId": "nav-04",
  "n": 5,
  "audio": "nav-04-5.mp3",
- "duration": 37.2,
+ "duration": 69.325,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 6,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.425,
+   "end": 3.525,
    "builds": 0,
-   "text": "Here’s a summary to memorize."
+   "text": "Let’s pull the whole buoyage system into one table."
   },
   {
    "i": 1,
-   "start": 2.675,
-   "speechStart": 2.675,
-   "end": 8.875,
+   "start": 3.775,
+   "speechStart": 3.775,
+   "end": 8.65,
    "builds": 0,
-   "text": "Starboard-side lateral marks are red with red lights, and port-side marks are green with green lights."
+   "text": "If you know this table, you can name almost any mark the exam describes."
   },
   {
    "i": 2,
-   "start": 9.125,
-   "speechStart": 9.125,
-   "end": 16.35,
-   "builds": 0,
-   "text": "Preferred channel marks have red and green bands and a composite group-flashing light in the color of the top band."
+   "start": 8.9,
+   "speechStart": 8.9,
+   "end": 12.8,
+   "builds": 1,
+   "text": "Starboard-side lateral marks: red, with a red light."
   },
   {
    "i": 3,
-   "start": 16.6,
-   "speechStart": 16.6,
-   "end": 21.7,
-   "builds": 0,
-   "text": "Safe water marks have red and white vertical stripes and a white Morse A light."
+   "start": 13.05,
+   "speechStart": 13.05,
+   "end": 16.875,
+   "builds": 1,
+   "text": "Port-side lateral marks: green, with a green light."
   },
   {
    "i": 4,
-   "start": 21.95,
-   "speechStart": 21.95,
-   "end": 28.1,
-   "builds": 0,
-   "text": "Isolated danger marks are black with red bands and a white light flashing in groups of two."
+   "start": 17.125,
+   "speechStart": 17.125,
+   "end": 25.4,
+   "builds": 1,
+   "text": "Preferred channel marks: red and green bands, with a composite group-flashing light, two plus one, in the color of the top band."
   },
   {
    "i": 5,
-   "start": 28.35,
-   "speechStart": 28.35,
-   "end": 31.4,
-   "builds": 0,
-   "text": "Special marks are yellow, with yellow lights."
+   "start": 25.65,
+   "speechStart": 25.65,
+   "end": 31.575,
+   "builds": 1,
+   "text": "Safe water marks: red and white vertical stripes, with a white light flashing Morse A."
   },
   {
    "i": 6,
-   "start": 31.65,
-   "speechStart": 31.65,
-   "end": 36.9,
+   "start": 31.825,
+   "speechStart": 31.825,
+   "end": 38.025,
+   "builds": 1,
+   "text": "Isolated danger marks: black with red bands, and a white light flashing in groups of two."
+  },
+  {
+   "i": 7,
+   "start": 38.275,
+   "speechStart": 38.275,
+   "end": 41.4,
+   "builds": 1,
+   "text": "Special marks: yellow, with a yellow light."
+  },
+  {
+   "i": 8,
+   "start": 41.65,
+   "speechStart": 42.4,
+   "end": 44.625,
    "builds": 0,
-   "text": "If you know this table, you can identify nearly any mark the exam describes."
+   "text": "Notice the pattern in the lights."
+  },
+  {
+   "i": 9,
+   "start": 44.875,
+   "speechStart": 44.875,
+   "end": 48.4,
+   "builds": 0,
+   "text": "Red and green lights are only on lateral marks."
+  },
+  {
+   "i": 10,
+   "start": 48.65,
+   "speechStart": 48.65,
+   "end": 52.45,
+   "builds": 0,
+   "text": "White lights are on safe water and isolated danger."
+  },
+  {
+   "i": 11,
+   "start": 52.7,
+   "speechStart": 52.7,
+   "end": 54.55,
+   "builds": 0,
+   "text": "Yellow is special."
+  },
+  {
+   "i": 12,
+   "start": 54.8,
+   "speechStart": 54.8,
+   "end": 56.675,
+   "builds": 0,
+   "text": "That’s lesson four."
+  },
+  {
+   "i": 13,
+   "start": 56.925,
+   "speechStart": 56.925,
+   "end": 59.175,
+   "builds": 0,
+   "text": "Morse A means safe water."
+  },
+  {
+   "i": 14,
+   "start": 59.425,
+   "speechStart": 59.425,
+   "end": 62.325,
+   "builds": 0,
+   "text": "Two balls and two flashes mean danger."
+  },
+  {
+   "i": 15,
+   "start": 62.575,
+   "speechStart": 62.575,
+   "end": 65.375,
+   "builds": 0,
+   "text": "On the Intracoastal, follow the yellow."
+  },
+  {
+   "i": 16,
+   "start": 65.625,
+   "speechStart": 65.625,
+   "end": 69.025,
+   "builds": 0,
+   "text": "Next time: lights, and how far you can see them."
   }
  ]
 }

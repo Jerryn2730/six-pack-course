@@ -3,66 +3,146 @@
  "lessonId": "nav-05",
  "n": 5,
  "audio": "nav-05-5.mp3",
- "duration": 38.925,
+ "duration": 58.9,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.05,
+   "end": 2.725,
    "builds": 0,
-   "text": "Let’s work one more."
+   "text": "Let’s work one more, so the steps stick."
   },
   {
    "i": 1,
-   "start": 2.3,
-   "speechStart": 2.3,
-   "end": 8.3,
+   "start": 2.975,
+   "speechStart": 2.975,
+   "end": 4.85,
    "builds": 0,
-   "text": "A light stands one hundred feet above the water, and your eye is sixteen feet up on a flybridge."
+   "text": "Follow it on screen."
   },
   {
    "i": 2,
-   "start": 8.55,
-   "speechStart": 8.55,
-   "end": 16.0,
-   "builds": 0,
-   "text": "The square root of one hundred is ten, and ten times one point one seven gives about eleven point seven miles."
+   "start": 5.1,
+   "speechStart": 5.1,
+   "end": 11.45,
+   "builds": 1,
+   "text": "A light stands one hundred feet above the water, and you’re on a flybridge with your eye sixteen feet up."
   },
   {
    "i": 3,
-   "start": 16.25,
-   "speechStart": 16.25,
-   "end": 23.4,
-   "builds": 0,
-   "text": "The square root of sixteen is four, and four times one point one seven gives about four point seven miles."
+   "start": 11.7,
+   "speechStart": 11.7,
+   "end": 13.525,
+   "builds": 1,
+   "text": "The light’s horizon."
   },
   {
    "i": 4,
-   "start": 23.65,
-   "speechStart": 23.65,
-   "end": 28.25,
+   "start": 13.775,
+   "speechStart": 13.775,
+   "end": 20.7,
    "builds": 0,
-   "text": "The geographic range is the sum, about sixteen point four miles."
+   "text": "The square root of one hundred is ten, and ten times one point one seven is eleven point seven miles."
   },
   {
    "i": 5,
-   "start": 28.5,
-   "speechStart": 28.5,
-   "end": 35.875,
-   "builds": 0,
-   "text": "But if tonight’s visibility limits the luminous range to twelve miles, you’ll only see the light at about twelve miles."
+   "start": 20.95,
+   "speechStart": 20.95,
+   "end": 22.575,
+   "builds": 1,
+   "text": "Your horizon."
   },
   {
    "i": 6,
-   "start": 36.125,
-   "speechStart": 36.125,
-   "end": 38.625,
+   "start": 22.825,
+   "speechStart": 22.825,
+   "end": 29.75,
+   "builds": 0,
+   "text": "The square root of sixteen is four, and four times one point one seven is about four point seven miles."
+  },
+  {
+   "i": 7,
+   "start": 30.0,
+   "speechStart": 30.0,
+   "end": 32.725,
+   "builds": 1,
+   "text": "Add them: sixteen point four miles."
+  },
+  {
+   "i": 8,
+   "start": 32.975,
+   "speechStart": 32.975,
+   "end": 35.2,
+   "builds": 0,
+   "text": "That’s the geographic range."
+  },
+  {
+   "i": 9,
+   "start": 35.45,
+   "speechStart": 35.45,
+   "end": 37.15,
+   "builds": 1,
+   "text": "Now the twist."
+  },
+  {
+   "i": 10,
+   "start": 37.4,
+   "speechStart": 37.4,
+   "end": 41.65,
+   "builds": 0,
+   "text": "Tonight it’s hazy, and the luminous range is only twelve miles."
+  },
+  {
+   "i": 11,
+   "start": 41.9,
+   "speechStart": 41.9,
+   "end": 43.725,
+   "builds": 0,
+   "text": "When do you see the light?"
+  },
+  {
+   "i": 12,
+   "start": 43.975,
+   "speechStart": 44.725,
+   "end": 46.65,
+   "builds": 0,
+   "text": "At about twelve miles."
+  },
+  {
+   "i": 13,
+   "start": 46.9,
+   "speechStart": 46.9,
+   "end": 49.975,
+   "builds": 0,
+   "text": "This time the air is the limit, not the earth."
+  },
+  {
+   "i": 14,
+   "start": 50.225,
+   "speechStart": 50.225,
+   "end": 52.725,
    "builds": 0,
    "text": "The lesser range always wins."
+  },
+  {
+   "i": 15,
+   "start": 52.975,
+   "speechStart": 52.975,
+   "end": 56.025,
+   "builds": 0,
+   "text": "Notice I picked heights with easy square roots."
+  },
+  {
+   "i": 16,
+   "start": 56.275,
+   "speechStart": 56.275,
+   "end": 58.6,
+   "builds": 0,
+   "text": "The exam usually does too."
   }
  ]
 }

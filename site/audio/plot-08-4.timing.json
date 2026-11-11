@@ -3,42 +3,130 @@
  "lessonId": "plot-08",
  "n": 4,
  "audio": "plot-08-4.mp3",
- "duration": 34.8,
+ "duration": 59.3,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.65,
+   "end": 5.725,
    "builds": 0,
-   "text": "Bow and beam is one case of a general rule called doubling the angle on the bow."
+   "text": "Bow and beam is one case of a more general trick, called doubling the angle on the bow."
   },
   {
    "i": 1,
-   "start": 5.9,
-   "speechStart": 5.9,
-   "end": 14.975,
+   "start": 5.975,
+   "speechStart": 5.975,
+   "end": 14.575,
    "builds": 0,
-   "text": "Whenever an object’s angle on the bow doubles, the distance run between the two bearings equals your distance from the object at the second bearing."
+   "text": "Whenever the angle on the bow doubles, the distance you ran between the two bearings equals your distance from the object at the second bearing."
   },
   {
    "i": 2,
-   "start": 15.225,
-   "speechStart": 15.225,
-   "end": 21.8,
+   "start": 14.825,
+   "speechStart": 14.825,
+   "end": 16.6,
    "builds": 0,
-   "text": "With thirty and sixty degrees, the distance run equals your distance off at the sixty degree bearing."
+   "text": "Go down the table."
   },
   {
    "i": 3,
-   "start": 22.05,
-   "speechStart": 22.05,
-   "end": 34.5,
+   "start": 16.85,
+   "speechStart": 16.85,
+   "end": 19.4,
+   "builds": 1,
+   "text": "Forty-five degrees, then ninety."
+  },
+  {
+   "i": 4,
+   "start": 19.65,
+   "speechStart": 19.65,
+   "end": 21.55,
    "builds": 0,
-   "text": "A useful extra: with twenty-two and a half and forty-five degrees, your distance off when you pass abeam will be about seven tenths of the distance run, which warns you early if you’ll pass too close."
+   "text": "That’s bow and beam."
+  },
+  {
+   "i": 5,
+   "start": 21.8,
+   "speechStart": 21.8,
+   "end": 24.975,
+   "builds": 0,
+   "text": "Distance off abeam equals distance run."
+  },
+  {
+   "i": 6,
+   "start": 25.225,
+   "speechStart": 25.225,
+   "end": 27.575,
+   "builds": 1,
+   "text": "Thirty degrees, then sixty."
+  },
+  {
+   "i": 7,
+   "start": 27.825,
+   "speechStart": 27.825,
+   "end": 31.65,
+   "builds": 0,
+   "text": "Distance off at the second bearing equals distance run."
+  },
+  {
+   "i": 8,
+   "start": 31.9,
+   "speechStart": 31.9,
+   "end": 34.725,
+   "builds": 1,
+   "text": "Twenty-two and a half, then forty-five."
+  },
+  {
+   "i": 9,
+   "start": 34.975,
+   "speechStart": 34.975,
+   "end": 36.7,
+   "builds": 0,
+   "text": "Here’s a bonus."
+  },
+  {
+   "i": 10,
+   "start": 36.95,
+   "speechStart": 36.95,
+   "end": 42.775,
+   "builds": 0,
+   "text": "Your distance off when you finally pass abeam will be about seven tenths of the distance run."
+  },
+  {
+   "i": 11,
+   "start": 43.025,
+   "speechStart": 43.025,
+   "end": 44.925,
+   "builds": 0,
+   "text": "Why is that useful?"
+  },
+  {
+   "i": 12,
+   "start": 45.175,
+   "speechStart": 45.925,
+   "end": 50.825,
+   "builds": 0,
+   "text": "It tells you early, well before you get there, whether you’re going to pass too close."
+  },
+  {
+   "i": 13,
+   "start": 51.075,
+   "speechStart": 51.075,
+   "end": 54.925,
+   "builds": 1,
+   "text": "And the general rule: any angle, then twice that angle."
+  },
+  {
+   "i": 14,
+   "start": 55.175,
+   "speechStart": 55.175,
+   "end": 59.0,
+   "builds": 0,
+   "text": "Distance off at the second bearing equals distance run."
   }
  ]
 }

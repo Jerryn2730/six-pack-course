@@ -3,7 +3,7 @@
  "lessonId": "plot-08",
  "n": 3,
  "audio": "plot-08-3.mp3",
- "duration": 30.7,
+ "duration": 53.15,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,129 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.175,
+   "end": 5.65,
    "builds": 0,
-   "text": "Some special bearings give your distance off without plotting."
+   "text": "There are shortcuts that give you your distance off a light with no plotting at all, just a watch."
   },
   {
    "i": 1,
-   "start": 4.425,
-   "speechStart": 4.425,
-   "end": 7.2,
+   "start": 5.9,
+   "speechStart": 5.9,
+   "end": 8.775,
    "builds": 0,
-   "text": "The bow and beam bearing is the easiest."
+   "text": "The easiest is the bow and beam bearing."
   },
   {
    "i": 2,
-   "start": 7.45,
-   "speechStart": 7.45,
-   "end": 14.975,
+   "start": 9.025,
+   "speechStart": 9.025,
+   "end": 10.85,
    "builds": 0,
-   "text": "Note the time when a light is forty-five degrees off your bow, and again when it’s abeam, ninety degrees off the bow."
+   "text": "Look at the diagram."
   },
   {
    "i": 3,
-   "start": 15.225,
-   "speechStart": 15.225,
-   "end": 20.975,
+   "start": 11.1,
+   "speechStart": 11.1,
+   "end": 14.975,
    "builds": 0,
-   "text": "The distance you ran between those two times equals your distance off the light when abeam."
+   "text": "Note the time when the light is forty-five degrees off your bow."
   },
   {
    "i": 4,
-   "start": 21.225,
-   "speechStart": 21.225,
-   "end": 26.1,
+   "start": 15.225,
+   "speechStart": 15.225,
+   "end": 17.275,
    "builds": 0,
-   "text": "This works because the bearings form a right triangle with two equal sides."
+   "text": "Hold your course and speed."
   },
   {
    "i": 5,
-   "start": 26.35,
-   "speechStart": 26.35,
-   "end": 30.4,
+   "start": 17.525,
+   "speechStart": 17.525,
+   "end": 21.7,
    "builds": 0,
-   "text": "It’s a quick way to check your distance off a light or a headland."
+   "text": "Note the time again when it’s abeam, ninety degrees off the bow."
+  },
+  {
+   "i": 6,
+   "start": 21.95,
+   "speechStart": 21.95,
+   "end": 25.025,
+   "builds": 0,
+   "text": "Work out how far you ran between the two times."
+  },
+  {
+   "i": 7,
+   "start": 25.275,
+   "speechStart": 25.275,
+   "end": 29.575,
+   "builds": 0,
+   "text": "That distance equals your distance off the light when it was abeam."
+  },
+  {
+   "i": 8,
+   "start": 29.825,
+   "speechStart": 30.575,
+   "end": 32.2,
+   "builds": 0,
+   "text": "Why does it work?"
+  },
+  {
+   "i": 9,
+   "start": 32.45,
+   "speechStart": 32.45,
+   "end": 33.825,
+   "builds": 0,
+   "text": "Draw it."
+  },
+  {
+   "i": 10,
+   "start": 34.075,
+   "speechStart": 34.075,
+   "end": 36.625,
+   "builds": 0,
+   "text": "Forty-five degrees, then ninety."
+  },
+  {
+   "i": 11,
+   "start": 36.875,
+   "speechStart": 36.875,
+   "end": 40.025,
+   "builds": 0,
+   "text": "That’s a right triangle with two equal sides."
+  },
+  {
+   "i": 12,
+   "start": 40.275,
+   "speechStart": 40.275,
+   "end": 42.925,
+   "builds": 0,
+   "text": "One side is the distance you ran."
+  },
+  {
+   "i": 13,
+   "start": 43.175,
+   "speechStart": 43.175,
+   "end": 45.4,
+   "builds": 0,
+   "text": "The other is your distance off."
+  },
+  {
+   "i": 14,
+   "start": 45.65,
+   "speechStart": 45.65,
+   "end": 47.35,
+   "builds": 0,
+   "text": "They’re the same."
+  },
+  {
+   "i": 15,
+   "start": 47.6,
+   "speechStart": 47.6,
+   "end": 52.85,
+   "builds": 0,
+   "text": "So next time you pass a lighthouse, try it, and check the answer against your plotter."
   }
  ]
 }

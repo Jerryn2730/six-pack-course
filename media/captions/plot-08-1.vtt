@@ -1,29 +1,65 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:03.100
-Sometimes only one landmark is in sight.
+00:00:00.150 --> 00:00:03.000
+What if there’s only one landmark in sight?
 
 2
-00:00:03.350 --> 00:00:05.725
-A running fix uses it twice.
+00:00:03.250 --> 00:00:05.750
+One lighthouse on an empty coast.
 
 3
-00:00:05.975 --> 00:00:09.025
-Take a bearing and plot the line of position.
+00:00:06.000 --> 00:00:10.025
+One bearing gives you one line, and one line isn’t a fix.
 
 4
-00:00:09.275 --> 00:00:16.075
-Keep running on a steady course and speed, and later take a second bearing on the same or another object.
+00:00:10.275 --> 00:00:12.250
+The answer is clever.
 
 5
-00:00:16.325 --> 00:00:24.975
-Then advance the first L O P: move it parallel to itself, in the direction of your course, by the distance you ran between bearings.
+00:00:12.500 --> 00:00:14.800
+Use the same landmark twice.
 
 6
-00:00:25.225 --> 00:00:30.025
-Where the advanced line crosses the second L O P is your running fix.
+00:00:15.050 --> 00:00:16.950
+That’s a running fix.
 
 7
-00:00:30.275 --> 00:00:37.425
-Its accuracy depends on your course and speed being right, so unknown current between bearings creates error.
+00:00:17.200 --> 00:00:19.025
+Look at the diagram.
+
+8
+00:00:19.275 --> 00:00:22.325
+Take a bearing, and plot the line of position.
+
+9
+00:00:22.575 --> 00:00:25.450
+Keep going, on a steady course and speed.
+
+10
+00:00:25.700 --> 00:00:28.075
+Later, take a second bearing.
+
+11
+00:00:28.325 --> 00:00:30.550
+Now advance the first line.
+
+12
+00:00:30.800 --> 00:00:37.400
+Slide it, parallel to itself, in the direction of your course, by the distance you ran between the bearings.
+
+13
+00:00:37.650 --> 00:00:42.025
+Where the advanced line crosses the second line is your running fix.
+
+14
+00:00:43.025 --> 00:00:44.750
+What’s the weak point?
+
+15
+00:00:45.000 --> 00:00:49.750
+It depends on your course and speed over the ground being what you think they are.
+
+16
+00:00:50.000 --> 00:00:55.575
+If an unknown current is pushing you between the two bearings, the running fix will be off.

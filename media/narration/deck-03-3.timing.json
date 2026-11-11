@@ -3,50 +3,170 @@
  "lessonId": "deck-03",
  "n": 3,
  "audio": "deck-03-3.mp3",
- "duration": 34.05,
+ "duration": 60.525,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.375,
+   "end": 2.1,
    "builds": 0,
-   "text": "When fire breaks out, raise the alarm, get life jackets on everyone, and move passengers away from the fire."
+   "text": "So a fire breaks out."
   },
   {
    "i": 1,
-   "start": 7.625,
-   "speechStart": 7.625,
-   "end": 14.875,
+   "start": 2.35,
+   "speechStart": 2.35,
+   "end": 4.775,
    "builds": 0,
-   "text": "Maneuver the boat so the wind carries smoke and flames away from people, which often means putting the fire downwind."
+   "text": "What do you do, and in what order?"
   },
   {
    "i": 2,
-   "start": 15.125,
-   "speechStart": 15.125,
-   "end": 23.075,
-   "builds": 0,
-   "text": "Use a portable extinguisher with PASS: pull the pin, aim at the base of the fire, squeeze the handle and sweep side to side."
+   "start": 5.025,
+   "speechStart": 5.025,
+   "end": 11.6,
+   "builds": 1,
+   "text": "First, raise the alarm, get life jackets on everyone, and move your passengers away from the fire."
   },
   {
    "i": 3,
-   "start": 23.325,
-   "speechStart": 23.325,
-   "end": 25.55,
+   "start": 11.85,
+   "speechStart": 11.85,
+   "end": 13.525,
    "builds": 0,
-   "text": "Keep an escape route behind you."
+   "text": "People first."
   },
   {
    "i": 4,
-   "start": 25.8,
-   "speechStart": 25.8,
-   "end": 33.75,
+   "start": 13.775,
+   "speechStart": 13.775,
+   "end": 15.7,
+   "builds": 1,
+   "text": "Second, use the boat."
+  },
+  {
+   "i": 5,
+   "start": 15.95,
+   "speechStart": 15.95,
+   "end": 20.5,
    "builds": 0,
-   "text": "Small boat fires grow very fast, so if the fire isn’t out within seconds, call Mayday and prepare to abandon the boat."
+   "text": "Turn so the wind carries the smoke and flames away from your people."
+  },
+  {
+   "i": 6,
+   "start": 20.75,
+   "speechStart": 20.75,
+   "end": 23.8,
+   "builds": 0,
+   "text": "Usually that means putting the fire downwind."
+  },
+  {
+   "i": 7,
+   "start": 24.05,
+   "speechStart": 24.05,
+   "end": 28.325,
+   "builds": 1,
+   "text": "Third, the extinguisher, and here’s the word to remember: PASS."
+  },
+  {
+   "i": 8,
+   "start": 28.575,
+   "speechStart": 28.575,
+   "end": 30.2,
+   "builds": 0,
+   "text": "Pull the pin."
+  },
+  {
+   "i": 9,
+   "start": 30.45,
+   "speechStart": 30.45,
+   "end": 32.575,
+   "builds": 0,
+   "text": "Aim at the base of the fire."
+  },
+  {
+   "i": 10,
+   "start": 32.825,
+   "speechStart": 32.825,
+   "end": 34.575,
+   "builds": 0,
+   "text": "Squeeze the handle."
+  },
+  {
+   "i": 11,
+   "start": 34.825,
+   "speechStart": 34.825,
+   "end": 36.925,
+   "builds": 0,
+   "text": "Sweep from side to side."
+  },
+  {
+   "i": 12,
+   "start": 37.175,
+   "speechStart": 37.175,
+   "end": 38.775,
+   "builds": 0,
+   "text": "Why the base?"
+  },
+  {
+   "i": 13,
+   "start": 39.025,
+   "speechStart": 39.775,
+   "end": 42.05,
+   "builds": 0,
+   "text": "Because that’s where the fuel is."
+  },
+  {
+   "i": 14,
+   "start": 42.3,
+   "speechStart": 42.3,
+   "end": 44.65,
+   "builds": 0,
+   "text": "Spraying the flames does nothing."
+  },
+  {
+   "i": 15,
+   "start": 44.9,
+   "speechStart": 44.9,
+   "end": 47.125,
+   "builds": 1,
+   "text": "Keep an escape route behind you."
+  },
+  {
+   "i": 16,
+   "start": 47.375,
+   "speechStart": 47.375,
+   "end": 50.675,
+   "builds": 0,
+   "text": "Never let the fire get between you and the way out."
+  },
+  {
+   "i": 17,
+   "start": 50.925,
+   "speechStart": 50.925,
+   "end": 52.8,
+   "builds": 1,
+   "text": "And know when to quit."
+  },
+  {
+   "i": 18,
+   "start": 53.05,
+   "speechStart": 53.05,
+   "end": 55.6,
+   "builds": 0,
+   "text": "A small boat fire grows fast."
+  },
+  {
+   "i": 19,
+   "start": 55.85,
+   "speechStart": 55.85,
+   "end": 60.225,
+   "builds": 0,
+   "text": "If it isn’t out in seconds, call Mayday and prepare to abandon."
   }
  ]
 }

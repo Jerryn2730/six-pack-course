@@ -1,25 +1,73 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:06.925
-To find geographic range, find the distance to the horizon from the light and from your eye, and add them.
+00:00:00.150 --> 00:00:05.275
+Geographic range is one you can calculate, and the exam will ask you to.
 
 2
-00:00:07.175 --> 00:00:14.325
-The distance to the horizon in nautical miles is one point one seven times the square root of the height in feet.
+00:00:05.525 --> 00:00:07.350
+Look at the diagram.
 
 3
-00:00:14.575 --> 00:00:21.275
-For a light sixty-four feet high, the square root is eight, so its horizon is about nine point four miles.
+00:00:07.600 --> 00:00:10.225
+The light can see to its own horizon.
 
 4
-00:00:21.525 --> 00:00:27.750
-For your eye at nine feet, the square root is three, so your horizon is about three and a half miles.
+00:00:10.475 --> 00:00:12.575
+Your eye can see to yours.
 
 5
-00:00:28.000 --> 00:00:32.550
-Add them, and the geographic range is about twelve point nine miles.
+00:00:12.825 --> 00:00:17.975
+Add the two distances, and that’s how far apart you can be and still see the light.
 
 6
-00:00:32.800 --> 00:00:41.725
-If the light’s luminous range tonight is fifteen miles, you’ll still only see it at about twelve point nine miles, because the lesser range wins.
+00:00:18.225 --> 00:00:25.550
+The distance to the horizon, in nautical miles, is one point one seven times the square root of the height in feet.
+
+7
+00:00:25.800 --> 00:00:27.225
+Try it.
+
+8
+00:00:27.475 --> 00:00:29.775
+A light sixty-four feet high.
+
+9
+00:00:30.025 --> 00:00:32.525
+The square root of sixty-four is eight.
+
+10
+00:00:32.775 --> 00:00:37.350
+Eight times one point one seven is about nine point four miles.
+
+11
+00:00:37.600 --> 00:00:39.675
+Your eye is nine feet up.
+
+12
+00:00:39.925 --> 00:00:44.525
+The square root is three, so your horizon is about three and a half miles.
+
+13
+00:00:44.775 --> 00:00:46.275
+Add them.
+
+14
+00:00:47.275 --> 00:00:49.500
+About twelve point nine miles.
+
+15
+00:00:49.750 --> 00:00:53.050
+And if the luminous range tonight is fifteen miles?
+
+16
+00:00:53.300 --> 00:00:55.825
+You still see it at twelve point nine.
+
+17
+00:00:56.075 --> 00:00:58.025
+The earth is in the way.
+
+18
+00:00:58.275 --> 00:01:00.275
+The lesser range wins.

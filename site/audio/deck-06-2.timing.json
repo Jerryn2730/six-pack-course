@@ -3,58 +3,106 @@
  "lessonId": "deck-06",
  "n": 2,
  "audio": "deck-06-2.mp3",
- "duration": 35.675,
+ "duration": 50.675,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.2,
+   "end": 5.475,
    "builds": 0,
-   "text": "Watertight integrity means keeping water out of the hull."
+   "text": "Watertight integrity is a long phrase for a simple idea: don’t let the sea in."
   },
   {
    "i": 1,
-   "start": 4.45,
-   "speechStart": 4.45,
-   "end": 7.925,
-   "builds": 0,
-   "text": "In rough water, close hatches, ports and doors."
+   "start": 5.725,
+   "speechStart": 5.725,
+   "end": 9.4,
+   "builds": 1,
+   "text": "In rough water, close the hatches, ports and doors."
   },
   {
    "i": 2,
-   "start": 8.175,
-   "speechStart": 8.175,
-   "end": 15.125,
-   "builds": 0,
-   "text": "Scuppers and freeing ports must be kept clear so water on deck drains overboard instead of building up."
+   "start": 9.65,
+   "speechStart": 9.65,
+   "end": 12.5,
+   "builds": 1,
+   "text": "Keep the scuppers and freeing ports clear."
   },
   {
    "i": 3,
-   "start": 15.375,
-   "speechStart": 15.375,
-   "end": 22.15,
+   "start": 12.75,
+   "speechStart": 12.75,
+   "end": 16.65,
    "builds": 0,
-   "text": "Below the waterline, inspect every seacock, hose and fitting, and use double stainless hose clamps."
+   "text": "They’re the drains that let water on deck run back overboard."
   },
   {
    "i": 4,
-   "start": 22.4,
-   "speechStart": 22.4,
-   "end": 28.125,
+   "start": 16.9,
+   "speechStart": 16.9,
+   "end": 21.475,
    "builds": 0,
-   "text": "A failed hose or through-hull fitting is one of the most common reasons boats sink at the dock."
+   "text": "A scupper plugged with bait and leaves turns your cockpit into a bathtub."
   },
   {
    "i": 5,
-   "start": 28.375,
-   "speechStart": 28.375,
-   "end": 35.375,
+   "start": 21.725,
+   "speechStart": 21.725,
+   "end": 29.225,
+   "builds": 1,
+   "text": "Below the waterline, inspect every seacock, hose and fitting, and use double stainless clamps on every hose."
+  },
+  {
+   "i": 6,
+   "start": 29.475,
+   "speechStart": 29.475,
+   "end": 32.0,
    "builds": 0,
-   "text": "Underway, water pouring through an open hatch in heavy seas, called down-flooding, can sink a boat in minutes."
+   "text": "Here’s a fact that surprises people."
+  },
+  {
+   "i": 7,
+   "start": 32.25,
+   "speechStart": 32.25,
+   "end": 34.175,
+   "builds": 0,
+   "text": "Where do most boats sink?"
+  },
+  {
+   "i": 8,
+   "start": 34.425,
+   "speechStart": 35.175,
+   "end": 36.725,
+   "builds": 0,
+   "text": "At the dock."
+  },
+  {
+   "i": 9,
+   "start": 36.975,
+   "speechStart": 36.975,
+   "end": 41.475,
+   "builds": 0,
+   "text": "A hose splits or a fitting fails, and nobody’s aboard to notice."
+  },
+  {
+   "i": 10,
+   "start": 41.725,
+   "speechStart": 41.725,
+   "end": 47.85,
+   "builds": 1,
+   "text": "And underway, the danger is down-flooding: water pouring through an open hatch in heavy seas."
+  },
+  {
+   "i": 11,
+   "start": 48.1,
+   "speechStart": 48.1,
+   "end": 50.375,
+   "builds": 0,
+   "text": "That can sink a boat in minutes."
   }
  ]
 }

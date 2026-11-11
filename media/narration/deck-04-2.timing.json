@@ -3,58 +3,122 @@
  "lessonId": "deck-04",
  "n": 2,
  "audio": "deck-04-2.mp3",
- "duration": 36.975,
+ "duration": 53.15,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.725,
+   "end": 3.95,
    "builds": 0,
-   "text": "Fuel with a routine every time."
+   "text": "So fuel the same careful way, every single time."
   },
   {
    "i": 1,
-   "start": 2.975,
-   "speechStart": 2.975,
-   "end": 7.2,
+   "start": 4.2,
+   "speechStart": 4.2,
+   "end": 6.025,
    "builds": 0,
-   "text": "Moor securely and, if practical, have passengers wait ashore."
+   "text": "Here’s the routine."
   },
   {
    "i": 2,
-   "start": 7.45,
-   "speechStart": 7.45,
-   "end": 13.175,
-   "builds": 0,
-   "text": "Stop the engines and all electrical motors, and allow no smoking or open flame."
+   "start": 6.275,
+   "speechStart": 6.275,
+   "end": 10.9,
+   "builds": 1,
+   "text": "Moor the boat securely, and if it’s practical, put your passengers ashore."
   },
   {
    "i": 3,
-   "start": 13.425,
-   "speechStart": 13.425,
-   "end": 17.825,
-   "builds": 0,
-   "text": "Close hatches, ports and cabin doors so vapor can’t get below."
+   "start": 11.15,
+   "speechStart": 11.15,
+   "end": 14.4,
+   "builds": 1,
+   "text": "Stop the engines and every electric motor."
   },
   {
    "i": 4,
-   "start": 18.075,
-   "speechStart": 18.075,
-   "end": 26.4,
+   "start": 14.65,
+   "speechStart": 14.65,
+   "end": 17.275,
    "builds": 0,
-   "text": "Keep the nozzle in contact with the fill pipe to prevent a static spark, and don’t overfill, since fuel expands as it warms."
+   "text": "No smoking, no open flame."
   },
   {
    "i": 5,
-   "start": 26.65,
-   "speechStart": 26.65,
-   "end": 36.675,
+   "start": 17.525,
+   "speechStart": 17.525,
+   "end": 20.575,
+   "builds": 1,
+   "text": "Close the hatches, ports and cabin doors."
+  },
+  {
+   "i": 6,
+   "start": 20.825,
+   "speechStart": 20.825,
+   "end": 22.475,
    "builds": 0,
-   "text": "Afterward, wipe up any spills, open everything, run the blower for at least four minutes, and sniff the bilge and engine compartment before starting the engine."
+   "text": "Why close up?"
+  },
+  {
+   "i": 7,
+   "start": 22.725,
+   "speechStart": 23.475,
+   "end": 27.925,
+   "builds": 0,
+   "text": "Because the vapor is heavier than air, and you don’t want it flowing below."
+  },
+  {
+   "i": 8,
+   "start": 28.175,
+   "speechStart": 28.175,
+   "end": 33.425,
+   "builds": 1,
+   "text": "Keep the nozzle touching the fill pipe the whole time, which prevents a static spark."
+  },
+  {
+   "i": 9,
+   "start": 33.675,
+   "speechStart": 33.675,
+   "end": 35.725,
+   "builds": 0,
+   "text": "And don’t fill to the brim."
+  },
+  {
+   "i": 10,
+   "start": 35.975,
+   "speechStart": 35.975,
+   "end": 38.3,
+   "builds": 0,
+   "text": "Fuel expands as it warms."
+  },
+  {
+   "i": 11,
+   "start": 38.55,
+   "speechStart": 38.55,
+   "end": 48.675,
+   "builds": 1,
+   "text": "When you’re done, wipe up any spills, open everything back up, run the blower for at least four minutes, and sniff the bilge and the engine space before you turn the key."
+  },
+  {
+   "i": 12,
+   "start": 48.925,
+   "speechStart": 48.925,
+   "end": 50.725,
+   "builds": 0,
+   "text": "Close up to fuel."
+  },
+  {
+   "i": 13,
+   "start": 50.975,
+   "speechStart": 50.975,
+   "end": 52.85,
+   "builds": 0,
+   "text": "Open up to start."
   }
  ]
 }

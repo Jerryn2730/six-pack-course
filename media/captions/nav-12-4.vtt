@@ -1,25 +1,65 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:06.325
-To judge risk of collision on radar, mark a target’s position several times over a few minutes.
+00:00:00.150 --> 00:00:02.850
+So how do you get from a blip to a decision?
 
 2
-00:00:06.575 --> 00:00:10.450
-The line through those marks is its relative motion line.
+00:00:03.100 --> 00:00:04.625
+You plot it.
 
 3
-00:00:10.700 --> 00:00:19.900
-Extend it past the center of the screen, and the closest distance between that line and your boat is the closest point of approach, or C P A.
+00:00:04.875 --> 00:00:09.000
+Mark the target’s position several times, over a few minutes.
 
 4
-00:00:20.150 --> 00:00:23.375
-The time until you reach it is the T C P A.
+00:00:09.250 --> 00:00:13.125
+The line through those marks is its relative motion line.
 
 5
-00:00:23.625 --> 00:00:32.050
-Many radars can track targets automatically, called MARPA on small boats or ARPA on ships, and compute C P A for you.
+00:00:13.375 --> 00:00:16.725
+That’s how the target is moving in relation to you.
 
 6
-00:00:32.300 --> 00:00:45.175
-Remember Rule seven: radar plotting or equivalent systematic observation is required, and decisions must not be based on scanty radar information, like a single glance at the screen.
+00:00:16.975 --> 00:00:20.050
+Extend that line past the center of the screen.
+
+7
+00:00:20.300 --> 00:00:25.650
+The closest it comes to the center is the closest point of approach, the C P A.
+
+8
+00:00:25.900 --> 00:00:28.725
+The time until then is the T C P A.
+
+9
+00:00:28.975 --> 00:00:33.075
+So if the line runs straight through the center, what’s your C P A?
+
+10
+00:00:34.075 --> 00:00:35.475
+Zero.
+
+11
+00:00:35.725 --> 00:00:37.700
+That’s a collision course.
+
+12
+00:00:37.950 --> 00:00:40.800
+Many radars will track targets for you.
+
+13
+00:00:41.050 --> 00:00:44.625
+On small boats it’s called MARPA, on ships ARPA.
+
+14
+00:00:44.875 --> 00:00:47.825
+And Rule seven is behind all of this.
+
+15
+00:00:48.075 --> 00:00:52.625
+Plotting, or equivalent systematic observation, is required.
+
+16
+00:00:52.875 --> 00:00:56.275
+No decisions on scanty radar information.

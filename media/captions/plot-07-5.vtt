@@ -1,25 +1,65 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:03.975
-With GPS on every boat, why learn dead reckoning?
+00:00:00.150 --> 00:00:02.600
+Every boat has GPS now.
 
 2
-00:00:04.225 --> 00:00:06.375
-Because electronics fail.
+00:00:02.850 --> 00:00:05.800
+So why did I just make you do this by hand?
 
 3
-00:00:06.625 --> 00:00:14.450
-If your GPS or power quits, your last fix plus a DR from your logged courses and speeds is how you get home.
+00:00:06.050 --> 00:00:12.400
+Because you should be keeping a log anyway: your courses, your speeds, and the time of every change.
 
 4
-00:00:14.700 --> 00:00:19.350
-Keep a written log of course, speed and the times of every change.
+00:00:12.650 --> 00:00:15.350
+Your chartplotter track isn’t a DR.
 
 5
-00:00:19.600 --> 00:00:24.175
-Your chartplotter track only records where you went; it isn’t a DR.
+00:00:15.600 --> 00:00:17.575
+It shows where you’ve been.
 
 6
-00:00:24.425 --> 00:00:33.000
-And comparing your DR with a GPS fix shows you exactly how much the current is setting you, which helps you plan the rest of the trip.
+00:00:17.825 --> 00:00:21.100
+It says nothing about where you’ll be if the screen dies.
+
+7
+00:00:21.350 --> 00:00:28.325
+And if the GPS or the power does fail, your last fix plus a DR from your log is how you get home.
+
+8
+00:00:28.575 --> 00:00:30.600
+There’s a daily use too.
+
+9
+00:00:30.850 --> 00:00:33.750
+Compare your DR with the GPS fix.
+
+10
+00:00:34.000 --> 00:00:36.375
+What does the gap between them tell you?
+
+11
+00:00:37.375 --> 00:00:40.225
+How the current is setting you, and how hard.
+
+12
+00:00:40.475 --> 00:00:44.250
+So practice on calm days, when nothing depends on it.
+
+13
+00:00:44.500 --> 00:00:46.425
+That’s lesson seven.
+
+14
+00:00:46.675 --> 00:00:50.825
+Circle for a fix, half circle for a DR, square for an E P.
+
+15
+00:00:51.075 --> 00:00:53.775
+Plot on the hour and at every change.
+
+16
+00:00:54.025 --> 00:00:57.250
+Next time: fixes from a single landmark.

@@ -1,21 +1,57 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:01.700
-Step one.
+00:00:00.150 --> 00:00:03.525
+Step one of our problem: departure and course.
 
 2
-00:00:01.950 --> 00:00:10.875
-At seven hundred you depart from a charted buoy, and the first question asks for its latitude and longitude, which you read from the scales.
+00:00:03.775 --> 00:00:05.625
+Follow the diagram.
 
 3
-00:00:11.125 --> 00:00:16.325
-Next, lay a course to the next mark and read zero six eight true from the rose.
+00:00:05.875 --> 00:00:09.400
+At seven hundred, you depart from a charted buoy.
 
 4
-00:00:16.575 --> 00:00:26.500
-The question gives variation fifteen west and deviation two east, so the compass course is zero six eight plus fifteen minus two: zero eight one.
+00:00:09.650 --> 00:00:15.925
+The first question asks for its position, and you read the latitude and longitude from the scales.
 
 5
-00:00:26.750 --> 00:00:34.550
-The leg measures nine point six miles; at twelve knots, that’s forty-eight minutes, for an ETA of seven forty-eight.
+00:00:16.175 --> 00:00:18.900
+Next, lay the course to the next mark.
+
+6
+00:00:19.150 --> 00:00:21.900
+The rulers read zero six eight true.
+
+7
+00:00:22.150 --> 00:00:27.000
+The question gives you variation fifteen west and deviation two east.
+
+8
+00:00:27.250 --> 00:00:30.825
+Going from true toward compass, what do you do with each?
+
+9
+00:00:31.825 --> 00:00:34.050
+Add west, subtract east.
+
+10
+00:00:34.300 --> 00:00:37.550
+Zero six eight, plus fifteen, minus two.
+
+11
+00:00:37.800 --> 00:00:39.975
+Zero eight one, compass.
+
+12
+00:00:40.225 --> 00:00:43.050
+The leg measures nine point six miles.
+
+13
+00:00:43.300 --> 00:00:49.125
+At twelve knots, sixty times nine point six divided by twelve is forty-eight minutes.
+
+14
+00:00:49.375 --> 00:00:53.150
+So your estimated time of arrival is seven forty-eight.

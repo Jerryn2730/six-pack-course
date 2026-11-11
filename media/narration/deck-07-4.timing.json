@@ -3,58 +3,122 @@
  "lessonId": "deck-07",
  "n": 4,
  "audio": "deck-07-4.mp3",
- "duration": 35.475,
+ "duration": 53.325,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.55,
+   "end": 4.85,
    "builds": 0,
-   "text": "Good docking is about planning."
+   "text": "Good docking is nearly all planning, and very little of it is hand skill."
   },
   {
    "i": 1,
-   "start": 2.8,
-   "speechStart": 2.8,
-   "end": 6.85,
-   "builds": 0,
-   "text": "Approach slowly, never faster than you’re willing to hit the dock."
+   "start": 5.1,
+   "speechStart": 5.1,
+   "end": 6.9,
+   "builds": 1,
+   "text": "Approach slowly."
   },
   {
    "i": 2,
-   "start": 7.1,
-   "speechStart": 7.1,
-   "end": 14.675,
+   "start": 7.15,
+   "speechStart": 7.15,
+   "end": 11.9,
    "builds": 0,
-   "text": "Figure out whether wind or current is stronger, and approach into it, which gives you control and lets you stop easily."
+   "text": "The old rule is: never approach a dock faster than you’re willing to hit it."
   },
   {
    "i": 3,
-   "start": 14.925,
-   "speechStart": 14.925,
-   "end": 21.45,
-   "builds": 0,
-   "text": "Have fenders and lines rigged before you arrive, and brief your crew or mate on which line goes where."
+   "start": 12.15,
+   "speechStart": 12.15,
+   "end": 16.625,
+   "builds": 1,
+   "text": "Work out which is stronger, the wind or the current, and approach into it."
   },
   {
    "i": 4,
-   "start": 21.7,
-   "speechStart": 21.7,
-   "end": 27.95,
+   "start": 16.875,
+   "speechStart": 16.875,
+   "end": 18.525,
    "builds": 0,
-   "text": "A spring line can hold the boat against the dock while others are made fast, or pivot it in or out."
+   "text": "Why into it?"
   },
   {
    "i": 5,
-   "start": 28.2,
-   "speechStart": 28.2,
-   "end": 35.175,
+   "start": 18.775,
+   "speechStart": 19.525,
+   "end": 21.675,
    "builds": 0,
-   "text": "Never let anyone fend off with their hands or feet, since crushing injuries between boat and dock are common."
+   "text": "Because it acts as your brake."
+  },
+  {
+   "i": 6,
+   "start": 21.925,
+   "speechStart": 21.925,
+   "end": 25.35,
+   "builds": 0,
+   "text": "You keep steerage, and you can stop whenever you like."
+  },
+  {
+   "i": 7,
+   "start": 25.6,
+   "speechStart": 25.6,
+   "end": 31.625,
+   "builds": 1,
+   "text": "Have your fenders and lines rigged before you arrive, not while you’re drifting down on the pilings."
+  },
+  {
+   "i": 8,
+   "start": 31.875,
+   "speechStart": 31.875,
+   "end": 33.75,
+   "builds": 1,
+   "text": "Use a spring line."
+  },
+  {
+   "i": 9,
+   "start": 34.0,
+   "speechStart": 34.0,
+   "end": 40.9,
+   "builds": 0,
+   "text": "One spring made fast will hold the boat against the dock while you get the others on, or pivot her in or out."
+  },
+  {
+   "i": 10,
+   "start": 41.15,
+   "speechStart": 41.15,
+   "end": 43.95,
+   "builds": 1,
+   "text": "And brief your crew and your passengers."
+  },
+  {
+   "i": 11,
+   "start": 44.2,
+   "speechStart": 44.2,
+   "end": 46.85,
+   "builds": 0,
+   "text": "Fend off with a fender or a boat hook."
+  },
+  {
+   "i": 12,
+   "start": 47.1,
+   "speechStart": 47.1,
+   "end": 49.3,
+   "builds": 0,
+   "text": "Never with hands or feet."
+  },
+  {
+   "i": 13,
+   "start": 49.55,
+   "speechStart": 49.55,
+   "end": 53.025,
+   "builds": 0,
+   "text": "A boat weighs tons, and it doesn’t stop for a foot."
   }
  ]
 }

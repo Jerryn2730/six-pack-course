@@ -1,29 +1,49 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:05.475
-A VHF radio with digital selective calling has a red distress button.
+00:00:00.150 --> 00:00:04.100
+Modern equipment can call for help faster than you can talk.
 
 2
-00:00:05.725 --> 00:00:17.075
-Pressing it sends an automatic alert with your MMSI number and GPS position on channel seventy, which the Coast Guard and nearby DSC radios receive.
+00:00:04.350 --> 00:00:09.675
+A VHF radio with digital selective calling has a red distress button.
 
 3
-00:00:17.325 --> 00:00:20.400
-Then follow up by voice on channel sixteen.
+00:00:09.925 --> 00:00:17.975
+Press it, and it sends an automatic alert, with your MMSI number and your GPS position, on channel seventy.
 
 4
-00:00:20.650 --> 00:00:29.250
-An EPIRB sends a distress signal on four hundred six megahertz to satellites, which relay your identity and position to rescuers.
+00:00:18.225 --> 00:00:21.300
+Then follow up by voice on channel sixteen.
 
 5
-00:00:29.500 --> 00:00:32.125
-It must be registered with NOAA.
+00:00:21.550 --> 00:00:23.225
+Here’s the catch.
 
 6
-00:00:32.375 --> 00:00:36.550
-A personal locator beacon does the same for an individual.
+00:00:23.475 --> 00:00:32.725
+That button only sends your position if the radio is connected to a GPS, and it only identifies you if you registered an MMSI.
 
 7
-00:00:36.800 --> 00:00:41.825
-Keep beacon registrations, batteries and hydrostatic releases current.
+00:00:32.975 --> 00:00:34.700
+Have you done both?
+
+8
+00:00:35.700 --> 00:00:37.300
+Check tonight.
+
+9
+00:00:37.550 --> 00:00:46.100
+An EPIRB sends a distress signal on four hundred six megahertz to satellites, which pass your identity and position to the rescuers.
+
+10
+00:00:46.350 --> 00:00:48.975
+It must be registered with NOAA.
+
+11
+00:00:49.225 --> 00:00:54.275
+A personal locator beacon does the same thing for one person, and you wear it.
+
+12
+00:00:54.525 --> 00:01:00.300
+And keep all of it current: the registrations, the batteries, and the hydrostatic release.

@@ -3,50 +3,114 @@
  "lessonId": "nav-06",
  "n": 1,
  "audio": "nav-06-1.mp3",
- "duration": 39.45,
+ "duration": 63.375,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 16.75,
+   "end": 3.15,
    "builds": 0,
-   "text": "The United States Coast Pilot, published by NOAA, supplements the chart with information that can’t be drawn on it: navigation regulations, local hazards, anchorages, bridge and cable clearances, currents, weather, and descriptions of ports and channels."
+   "text": "A chart can only show what fits on paper."
   },
   {
    "i": 1,
-   "start": 17.0,
-   "speechStart": 17.0,
-   "end": 19.3,
+   "start": 3.4,
+   "speechStart": 3.4,
+   "end": 10.625,
    "builds": 0,
-   "text": "It comes in nine volumes."
+   "text": "It can’t tell you that the inlet shoals after a blow, that the bridge opens on the half hour, or where to find fuel."
   },
   {
    "i": 2,
-   "start": 19.55,
-   "speechStart": 19.55,
-   "end": 30.75,
+   "start": 10.875,
+   "speechStart": 10.875,
+   "end": 16.25,
    "builds": 0,
-   "text": "Coast Pilot four covers the Atlantic coast from Cape Henry, Virginia, to Key West, and Coast Pilot five covers the Gulf coast, Puerto Rico and the Virgin Islands."
+   "text": "For that, a captain keeps a small library, and today I’ll walk you along the shelf."
   },
   {
    "i": 3,
-   "start": 31.0,
-   "speechStart": 31.0,
-   "end": 35.5,
+   "start": 16.5,
+   "speechStart": 16.5,
+   "end": 18.65,
    "builds": 0,
-   "text": "Read the relevant chapters before you run a new inlet or harbor."
+   "text": "First, the Coast Pilot."
   },
   {
    "i": 4,
-   "start": 35.75,
-   "speechStart": 35.75,
-   "end": 39.15,
+   "start": 18.9,
+   "speechStart": 18.9,
+   "end": 24.95,
+   "builds": 1,
+   "text": "The United States Coast Pilot is published by NOAA, and it holds what the chart can’t show."
+  },
+  {
+   "i": 5,
+   "start": 25.2,
+   "speechStart": 25.2,
+   "end": 34.525,
+   "builds": 1,
+   "text": "Navigation regulations, local hazards, anchorages, bridge and cable clearances, currents, weather, and descriptions of ports and channels."
+  },
+  {
+   "i": 6,
+   "start": 34.775,
+   "speechStart": 34.775,
+   "end": 37.075,
+   "builds": 1,
+   "text": "It comes in nine volumes."
+  },
+  {
+   "i": 7,
+   "start": 37.325,
+   "speechStart": 37.325,
+   "end": 43.6,
    "builds": 0,
-   "text": "It’s free to download and updated regularly."
+   "text": "Coast Pilot four covers the Atlantic coast, from Cape Henry in Virginia down to Key West."
+  },
+  {
+   "i": 8,
+   "start": 43.85,
+   "speechStart": 43.85,
+   "end": 49.1,
+   "builds": 1,
+   "text": "Coast Pilot five covers the Gulf coast, Puerto Rico and the Virgin Islands."
+  },
+  {
+   "i": 9,
+   "start": 49.35,
+   "speechStart": 49.35,
+   "end": 52.825,
+   "builds": 0,
+   "text": "So a captain working out of Tampa Bay needs which one?"
+  },
+  {
+   "i": 10,
+   "start": 53.075,
+   "speechStart": 53.825,
+   "end": 55.25,
+   "builds": 0,
+   "text": "Five."
+  },
+  {
+   "i": 11,
+   "start": 55.5,
+   "speechStart": 55.5,
+   "end": 59.05,
+   "builds": 1,
+   "text": "And it’s free to download, and updated regularly."
+  },
+  {
+   "i": 12,
+   "start": 59.3,
+   "speechStart": 59.3,
+   "end": 63.075,
+   "builds": 0,
+   "text": "Before you run any inlet for the first time, read its page."
   }
  ]
 }

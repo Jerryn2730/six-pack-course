@@ -3,66 +3,138 @@
  "lessonId": "deck-05",
  "n": 2,
  "audio": "deck-05-2.mp3",
- "duration": 37.375,
+ "duration": 59.0,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 8.575,
+   "end": 2.35,
    "builds": 0,
-   "text": "Anything that raises G reduces stability: passengers crowding a tower, gear stacked high, a heavy load on the cabin top."
+   "text": "So what makes G M smaller?"
   },
   {
    "i": 1,
-   "start": 8.825,
-   "speechStart": 8.825,
-   "end": 11.95,
+   "start": 2.6,
+   "speechStart": 2.6,
+   "end": 4.675,
    "builds": 0,
-   "text": "Free surface effect is just as dangerous."
+   "text": "Anything that raises G."
   },
   {
    "i": 2,
-   "start": 12.2,
-   "speechStart": 12.2,
-   "end": 20.05,
-   "builds": 0,
-   "text": "Liquid sloshing in a half-full tank, or water in the bilge or on deck, shifts to the low side and acts like raising G."
+   "start": 4.925,
+   "speechStart": 4.925,
+   "end": 7.5,
+   "builds": 1,
+   "text": "Add weight high up, and G goes up."
   },
   {
    "i": 3,
-   "start": 20.3,
-   "speechStart": 20.3,
-   "end": 23.925,
+   "start": 7.75,
+   "speechStart": 7.75,
+   "end": 9.75,
    "builds": 0,
-   "text": "Keep tanks full or empty, and keep bilges dry."
+   "text": "Passengers in a tower."
   },
   {
    "i": 4,
-   "start": 24.175,
-   "speechStart": 24.175,
-   "end": 26.725,
+   "start": 10.0,
+   "speechStart": 10.0,
+   "end": 12.35,
    "builds": 0,
-   "text": "You can feel stability in the roll."
+   "text": "Gear stacked on the cabin top."
   },
   {
    "i": 5,
-   "start": 26.975,
-   "speechStart": 26.975,
-   "end": 31.05,
-   "builds": 0,
-   "text": "A quick, snappy roll means a stiff boat with a large G M."
+   "start": 12.6,
+   "speechStart": 12.6,
+   "end": 15.95,
+   "builds": 1,
+   "text": "The second enemy is sneakier: free surface."
   },
   {
    "i": 6,
-   "start": 31.3,
-   "speechStart": 31.3,
-   "end": 37.075,
+   "start": 16.2,
+   "speechStart": 16.2,
+   "end": 22.65,
    "builds": 0,
-   "text": "A slow, lazy roll means a tender boat with a small G M, and that’s a warning sign."
+   "text": "Liquid sloshing in a half-full tank runs to the low side when you heel, and it pushes you over further."
+  },
+  {
+   "i": 7,
+   "start": 22.9,
+   "speechStart": 22.9,
+   "end": 25.175,
+   "builds": 0,
+   "text": "It acts just like raising G."
+  },
+  {
+   "i": 8,
+   "start": 25.425,
+   "speechStart": 25.425,
+   "end": 30.475,
+   "builds": 1,
+   "text": "So keep tanks either full or empty when you can, and keep the bilges dry."
+  },
+  {
+   "i": 9,
+   "start": 30.725,
+   "speechStart": 30.725,
+   "end": 32.725,
+   "builds": 1,
+   "text": "Here’s the useful part."
+  },
+  {
+   "i": 10,
+   "start": 32.975,
+   "speechStart": 32.975,
+   "end": 35.8,
+   "builds": 0,
+   "text": "You can feel your stability through your feet."
+  },
+  {
+   "i": 11,
+   "start": 36.05,
+   "speechStart": 36.05,
+   "end": 40.35,
+   "builds": 0,
+   "text": "A quick, snappy roll means a stiff boat, with a large G M."
+  },
+  {
+   "i": 12,
+   "start": 40.6,
+   "speechStart": 40.6,
+   "end": 47.95,
+   "builds": 1,
+   "text": "A slow, lazy roll, where she leans over and takes her time coming back, means a tender boat, with a small G M."
+  },
+  {
+   "i": 13,
+   "start": 48.2,
+   "speechStart": 48.2,
+   "end": 53.975,
+   "builds": 0,
+   "text": "And if your boat rolls lazier this afternoon than she did this morning, what’s that telling you?"
+  },
+  {
+   "i": 14,
+   "start": 54.225,
+   "speechStart": 54.975,
+   "end": 56.775,
+   "builds": 0,
+   "text": "Something changed."
+  },
+  {
+   "i": 15,
+   "start": 57.025,
+   "speechStart": 57.025,
+   "end": 58.7,
+   "builds": 0,
+   "text": "Look for water."
   }
  ]
 }

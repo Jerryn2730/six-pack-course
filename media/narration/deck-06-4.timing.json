@@ -3,66 +3,146 @@
  "lessonId": "deck-06",
  "n": 4,
  "audio": "deck-06-4.mp3",
- "duration": 36.25,
+ "duration": 57.3,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.15,
+   "end": 2.0,
    "builds": 0,
-   "text": "If you discover flooding, act in order."
+   "text": "Now the bad day."
   },
   {
    "i": 1,
-   "start": 3.4,
-   "speechStart": 3.4,
-   "end": 8.925,
+   "start": 2.25,
+   "speechStart": 2.25,
+   "end": 5.8,
    "builds": 0,
-   "text": "First, find the source: check through-hulls, hoses, the shaft seal and the hull itself."
+   "text": "You open a hatch and see water over the floorboards."
   },
   {
    "i": 2,
-   "start": 9.175,
-   "speechStart": 9.175,
-   "end": 18.35,
+   "start": 6.05,
+   "speechStart": 6.05,
+   "end": 7.875,
    "builds": 0,
-   "text": "Second, stop or slow the leak: close the seacock, drive a soft wood plug into a failed fitting, or stuff cushions and rags into a hole."
+   "text": "Work in this order."
   },
   {
    "i": 3,
-   "start": 18.6,
-   "speechStart": 18.6,
-   "end": 22.7,
-   "builds": 0,
-   "text": "Tie a plug next to every through-hull so it’s there when you need it."
+   "start": 8.125,
+   "speechStart": 8.125,
+   "end": 10.125,
+   "builds": 1,
+   "text": "First, find the source."
   },
   {
    "i": 4,
-   "start": 22.95,
-   "speechStart": 22.95,
-   "end": 25.625,
+   "start": 10.375,
+   "speechStart": 10.375,
+   "end": 14.575,
    "builds": 0,
-   "text": "Third, pump with everything you have."
+   "text": "Check the through-hulls, the hoses, the shaft seal, and the hull itself."
   },
   {
    "i": 5,
-   "start": 25.875,
-   "speechStart": 25.875,
-   "end": 30.5,
-   "builds": 0,
-   "text": "Fourth, call for help early, with a pan-pan, or a Mayday if you’re sinking."
+   "start": 14.825,
+   "speechStart": 14.825,
+   "end": 17.125,
+   "builds": 1,
+   "text": "Second, stop it or slow it."
   },
   {
    "i": 6,
-   "start": 30.75,
-   "speechStart": 30.75,
-   "end": 35.95,
+   "start": 17.375,
+   "speechStart": 17.375,
+   "end": 19.2,
    "builds": 0,
-   "text": "Get life jackets on everyone, and if the leak is winning, head for shallow water."
+   "text": "Close the seacock."
+  },
+  {
+   "i": 7,
+   "start": 19.45,
+   "speechStart": 19.45,
+   "end": 22.55,
+   "builds": 0,
+   "text": "Drive a soft wood plug into a failed fitting."
+  },
+  {
+   "i": 8,
+   "start": 22.8,
+   "speechStart": 22.8,
+   "end": 25.6,
+   "builds": 0,
+   "text": "Stuff a cushion or rags into a hole."
+  },
+  {
+   "i": 9,
+   "start": 25.85,
+   "speechStart": 25.85,
+   "end": 32.4,
+   "builds": 0,
+   "text": "Here’s a tip worth more than any pump: tie a plug beside every through-hull now, so it’s there when you need it."
+  },
+  {
+   "i": 10,
+   "start": 32.65,
+   "speechStart": 32.65,
+   "end": 36.35,
+   "builds": 1,
+   "text": "Third, pump, with everything you have, buckets included."
+  },
+  {
+   "i": 11,
+   "start": 36.6,
+   "speechStart": 36.6,
+   "end": 38.85,
+   "builds": 1,
+   "text": "Fourth, call for help early."
+  },
+  {
+   "i": 12,
+   "start": 39.1,
+   "speechStart": 39.1,
+   "end": 43.15,
+   "builds": 0,
+   "text": "A pan-pan if you’re holding your own, a Mayday if you’re sinking."
+  },
+  {
+   "i": 13,
+   "start": 43.4,
+   "speechStart": 43.4,
+   "end": 44.975,
+   "builds": 0,
+   "text": "Why early?"
+  },
+  {
+   "i": 14,
+   "start": 45.225,
+   "speechStart": 45.975,
+   "end": 49.9,
+   "builds": 0,
+   "text": "Because the radio stops working when the batteries go under."
+  },
+  {
+   "i": 15,
+   "start": 50.15,
+   "speechStart": 50.15,
+   "end": 52.675,
+   "builds": 1,
+   "text": "And get life jackets on everyone."
+  },
+  {
+   "i": 16,
+   "start": 52.925,
+   "speechStart": 52.925,
+   "end": 57.0,
+   "builds": 0,
+   "text": "If the leak is winning and shallow water is close, head for it."
   }
  ]
 }

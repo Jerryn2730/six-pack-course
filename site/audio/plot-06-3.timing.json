@@ -3,7 +3,7 @@
  "lessonId": "plot-06",
  "n": 3,
  "audio": "plot-06-3.mp3",
- "duration": 33.175,
+ "duration": 51.975,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,57 +12,129 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.675,
+   "end": 3.65,
    "builds": 0,
-   "text": "A third bearing checks the other two."
+   "text": "Two lines always cross somewhere, right or wrong."
   },
   {
    "i": 1,
-   "start": 2.925,
-   "speechStart": 2.925,
-   "end": 7.9,
+   "start": 3.9,
+   "speechStart": 3.9,
+   "end": 6.5,
    "builds": 0,
-   "text": "Because of small errors, three bearings rarely meet at exactly one point."
+   "text": "So how do you know your fix is any good?"
   },
   {
    "i": 2,
-   "start": 8.15,
-   "speechStart": 8.15,
-   "end": 11.95,
+   "start": 6.75,
+   "speechStart": 6.75,
+   "end": 8.75,
    "builds": 0,
-   "text": "Instead, they form a small triangle, called a cocked hat."
+   "text": "You take a third bearing."
   },
   {
    "i": 3,
-   "start": 12.2,
-   "speechStart": 12.2,
-   "end": 15.05,
+   "start": 9.0,
+   "speechStart": 9.0,
+   "end": 10.825,
    "builds": 0,
-   "text": "Plot your fix in the middle of the triangle."
+   "text": "Look at the diagram."
   },
   {
    "i": 4,
-   "start": 15.3,
-   "speechStart": 15.3,
-   "end": 25.8,
+   "start": 11.075,
+   "speechStart": 11.075,
+   "end": 15.925,
    "builds": 0,
-   "text": "If the triangle is large, something is wrong: a misidentified landmark, a misread compass, a bearing plotted from the wrong side, or a forgotten correction."
+   "text": "With real instruments, three lines almost never meet at one exact point."
   },
   {
    "i": 5,
-   "start": 26.05,
-   "speechStart": 26.05,
-   "end": 28.2,
+   "start": 16.175,
+   "speechStart": 16.175,
+   "end": 19.3,
    "builds": 0,
-   "text": "Recheck before trusting it."
+   "text": "They make a small triangle, called a cocked hat."
   },
   {
    "i": 6,
-   "start": 28.45,
-   "speechStart": 28.45,
-   "end": 32.875,
+   "start": 19.55,
+   "speechStart": 19.55,
+   "end": 21.75,
    "builds": 0,
-   "text": "The ideal is three objects about one hundred twenty degrees apart."
+   "text": "Put your fix in the middle of it."
+  },
+  {
+   "i": 7,
+   "start": 22.0,
+   "speechStart": 22.0,
+   "end": 24.15,
+   "builds": 0,
+   "text": "That triangle is honest."
+  },
+  {
+   "i": 8,
+   "start": 24.4,
+   "speechStart": 24.4,
+   "end": 26.925,
+   "builds": 0,
+   "text": "It’s showing you the size of your error."
+  },
+  {
+   "i": 9,
+   "start": 27.175,
+   "speechStart": 27.175,
+   "end": 29.4,
+   "builds": 0,
+   "text": "A small one means good bearings."
+  },
+  {
+   "i": 10,
+   "start": 29.65,
+   "speechStart": 29.65,
+   "end": 31.25,
+   "builds": 0,
+   "text": "And a big one?"
+  },
+  {
+   "i": 11,
+   "start": 31.5,
+   "speechStart": 32.25,
+   "end": 34.0,
+   "builds": 0,
+   "text": "Something’s wrong."
+  },
+  {
+   "i": 12,
+   "start": 34.25,
+   "speechStart": 34.25,
+   "end": 41.675,
+   "builds": 0,
+   "text": "You misidentified a landmark, or misread the compass, or drew a bearing from the wrong side, or forgot a correction."
+  },
+  {
+   "i": 13,
+   "start": 41.925,
+   "speechStart": 41.925,
+   "end": 44.3,
+   "builds": 0,
+   "text": "Don’t average a big triangle."
+  },
+  {
+   "i": 14,
+   "start": 44.55,
+   "speechStart": 44.55,
+   "end": 46.25,
+   "builds": 0,
+   "text": "Find the mistake."
+  },
+  {
+   "i": 15,
+   "start": 46.5,
+   "speechStart": 46.5,
+   "end": 51.675,
+   "builds": 0,
+   "text": "The ideal is three objects about one hundred twenty degrees apart, all around you."
   }
  ]
 }

@@ -3,58 +3,106 @@
  "lessonId": "nav-10",
  "n": 1,
  "audio": "nav-10-1.mp3",
- "duration": 36.475,
+ "duration": 53.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.75,
+   "end": 8.4,
    "builds": 0,
-   "text": "Navigators use precise words."
+   "text": "Navigators use ordinary-sounding words with exact meanings, and the exam will happily swap one for another to see if you notice."
   },
   {
    "i": 1,
-   "start": 3.0,
-   "speechStart": 3.0,
-   "end": 8.725,
+   "start": 8.65,
+   "speechStart": 8.65,
+   "end": 10.7,
    "builds": 0,
-   "text": "Heading is the direction the bow is pointing at this moment, which wanders as the boat yaws."
+   "text": "So let’s pin down five."
   },
   {
    "i": 2,
-   "start": 8.975,
-   "speechStart": 8.975,
-   "end": 12.05,
-   "builds": 0,
-   "text": "Course is the direction you intend to steer."
+   "start": 10.95,
+   "speechStart": 10.95,
+   "end": 14.9,
+   "builds": 1,
+   "text": "Heading is the direction your bow is pointing at this instant."
   },
   {
    "i": 3,
-   "start": 12.3,
-   "speechStart": 12.3,
-   "end": 22.925,
+   "start": 15.15,
+   "speechStart": 15.15,
+   "end": 17.55,
    "builds": 0,
-   "text": "Track, or course over ground on a GPS, is the direction the boat actually moves over the bottom, which differs from heading when wind and current push you sideways."
+   "text": "It wanders as the boat yaws."
   },
   {
    "i": 4,
-   "start": 23.175,
-   "speechStart": 23.175,
-   "end": 29.05,
-   "builds": 0,
-   "text": "Speed over ground is your actual speed over the bottom, as opposed to speed through the water."
+   "start": 17.8,
+   "speechStart": 17.8,
+   "end": 20.875,
+   "builds": 1,
+   "text": "Course is the direction you intend to steer."
   },
   {
    "i": 5,
-   "start": 29.3,
-   "speechStart": 29.3,
-   "end": 36.175,
+   "start": 21.125,
+   "speechStart": 21.125,
+   "end": 28.025,
+   "builds": 1,
+   "text": "Track, which your GPS calls course over ground, is the direction the boat actually moves over the bottom."
+  },
+  {
+   "i": 6,
+   "start": 28.275,
+   "speechStart": 28.275,
+   "end": 30.825,
    "builds": 0,
-   "text": "A bearing is the direction from your boat to an object, and it can be true, magnetic, compass or relative."
+   "text": "So when would heading and track be different?"
+  },
+  {
+   "i": 7,
+   "start": 31.075,
+   "speechStart": 31.825,
+   "end": 35.4,
+   "builds": 0,
+   "text": "Whenever wind or current is pushing you sideways."
+  },
+  {
+   "i": 8,
+   "start": 35.65,
+   "speechStart": 35.65,
+   "end": 38.7,
+   "builds": 0,
+   "text": "You’re pointed one way and sliding another."
+  },
+  {
+   "i": 9,
+   "start": 38.95,
+   "speechStart": 38.95,
+   "end": 45.525,
+   "builds": 1,
+   "text": "Speed over ground is how fast you’re really covering the bottom, as opposed to your speed through the water."
+  },
+  {
+   "i": 10,
+   "start": 45.775,
+   "speechStart": 45.775,
+   "end": 49.625,
+   "builds": 1,
+   "text": "And a bearing is the direction from your boat to an object."
+  },
+  {
+   "i": 11,
+   "start": 49.875,
+   "speechStart": 49.875,
+   "end": 53.5,
+   "builds": 0,
+   "text": "It can be true, magnetic, compass, or relative."
   }
  ]
 }

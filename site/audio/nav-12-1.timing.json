@@ -3,7 +3,7 @@
  "lessonId": "nav-12",
  "n": 1,
  "audio": "nav-12-1.mp3",
- "duration": 39.55,
+ "duration": 67.3,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,153 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.35,
+   "end": 5.525,
    "builds": 0,
-   "text": "Radar transmits pulses of microwave energy and measures the time for echoes to return."
+   "text": "Radar is the only instrument aboard that shows you what’s actually out there right now."
   },
   {
    "i": 1,
-   "start": 6.6,
-   "speechStart": 6.6,
-   "end": 13.125,
+   "start": 5.775,
+   "speechStart": 5.775,
+   "end": 9.0,
    "builds": 0,
-   "text": "It measures range very accurately, and bearing somewhat less accurately, because the beam has width."
+   "text": "Not what was charted, and not what’s broadcasting."
   },
   {
    "i": 2,
-   "start": 13.375,
-   "speechStart": 13.375,
-   "end": 20.975,
+   "start": 9.25,
+   "speechStart": 9.25,
+   "end": 10.775,
    "builds": 0,
-   "text": "On the display, your boat is usually at the center, with a heading line pointing up and range rings to help judge distance."
+   "text": "What’s there."
   },
   {
    "i": 3,
-   "start": 21.225,
-   "speechStart": 21.225,
-   "end": 30.6,
+   "start": 11.025,
+   "speechStart": 11.025,
+   "end": 12.775,
    "builds": 0,
-   "text": "The variable range marker, or V R M, measures range to a target, and the electronic bearing line, or E B L, measures its bearing."
+   "text": "Here’s how it works."
   },
   {
    "i": 4,
-   "start": 30.85,
-   "speechStart": 30.85,
-   "end": 39.25,
+   "start": 13.025,
+   "speechStart": 13.025,
+   "end": 17.575,
    "builds": 0,
-   "text": "If a target stays on your E B L while its range closes, its bearing is steady, and Rule seven says risk of collision exists."
+   "text": "It sends out pulses of microwave energy, and times the echoes."
+  },
+  {
+   "i": 5,
+   "start": 17.825,
+   "speechStart": 17.825,
+   "end": 19.55,
+   "builds": 0,
+   "text": "Look at the display."
+  },
+  {
+   "i": 6,
+   "start": 19.8,
+   "speechStart": 19.8,
+   "end": 21.9,
+   "builds": 0,
+   "text": "Your boat is at the center."
+  },
+  {
+   "i": 7,
+   "start": 22.15,
+   "speechStart": 22.15,
+   "end": 26.875,
+   "builds": 0,
+   "text": "The line pointing up is your heading line, and the circles are range rings."
+  },
+  {
+   "i": 8,
+   "start": 27.125,
+   "speechStart": 27.125,
+   "end": 29.925,
+   "builds": 0,
+   "text": "Radar measures range very accurately."
+  },
+  {
+   "i": 9,
+   "start": 30.175,
+   "speechStart": 30.175,
+   "end": 34.975,
+   "builds": 0,
+   "text": "It measures bearing a little less accurately, because the beam has some width."
+  },
+  {
+   "i": 10,
+   "start": 35.225,
+   "speechStart": 35.225,
+   "end": 37.3,
+   "builds": 0,
+   "text": "Two tools do the measuring."
+  },
+  {
+   "i": 11,
+   "start": 37.55,
+   "speechStart": 37.55,
+   "end": 43.875,
+   "builds": 0,
+   "text": "The variable range marker, the V R M, is a circle you set on a target to read its range."
+  },
+  {
+   "i": 12,
+   "start": 44.125,
+   "speechStart": 44.125,
+   "end": 50.35,
+   "builds": 0,
+   "text": "The electronic bearing line, the E B L, is a line you lay through a target to read its bearing."
+  },
+  {
+   "i": 13,
+   "start": 50.6,
+   "speechStart": 51.35,
+   "end": 53.325,
+   "builds": 0,
+   "text": "Now tie it to the Rules."
+  },
+  {
+   "i": 14,
+   "start": 53.575,
+   "speechStart": 53.575,
+   "end": 56.0,
+   "builds": 0,
+   "text": "You put the E B L on a target."
+  },
+  {
+   "i": 15,
+   "start": 56.25,
+   "speechStart": 56.25,
+   "end": 60.2,
+   "builds": 0,
+   "text": "The target slides down that line toward you, never leaving it."
+  },
+  {
+   "i": 16,
+   "start": 60.45,
+   "speechStart": 60.45,
+   "end": 62.2,
+   "builds": 0,
+   "text": "What does that mean?"
+  },
+  {
+   "i": 17,
+   "start": 62.45,
+   "speechStart": 62.45,
+   "end": 64.9,
+   "builds": 0,
+   "text": "Steady bearing, closing range."
+  },
+  {
+   "i": 18,
+   "start": 65.15,
+   "speechStart": 65.15,
+   "end": 67.0,
+   "builds": 0,
+   "text": "Risk of collision."
   }
  ]
 }

@@ -3,7 +3,7 @@
  "lessonId": "deck-05",
  "n": 1,
  "audio": "deck-05-1.mp3",
- "duration": 35.825,
+ "duration": 59.975,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,57 +12,121 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.85,
+   "end": 2.325,
    "builds": 0,
-   "text": "Stability is about where the weight is."
+   "text": "Why does a boat stay upright?"
   },
   {
    "i": 1,
-   "start": 3.1,
-   "speechStart": 3.1,
-   "end": 6.5,
+   "start": 2.575,
+   "speechStart": 2.575,
+   "end": 4.85,
    "builds": 0,
-   "text": "G is the center of gravity, which pulls down."
+   "text": "And why, some days, doesn’t she?"
   },
   {
    "i": 2,
-   "start": 6.75,
-   "speechStart": 6.75,
-   "end": 12.375,
+   "start": 5.1,
+   "speechStart": 5.1,
+   "end": 9.4,
    "builds": 0,
-   "text": "B is the center of buoyancy, the center of the underwater hull, which pushes up."
+   "text": "Today’s lesson answers both, and it comes down to three letters."
   },
   {
    "i": 3,
-   "start": 12.625,
-   "speechStart": 12.625,
-   "end": 21.625,
+   "start": 9.65,
+   "speechStart": 9.65,
+   "end": 11.475,
    "builds": 0,
-   "text": "When the boat heels, B moves toward the low side, and the two forces create a righting arm, labeled G Z, that pushes the boat back upright."
+   "text": "Look at the diagram."
   },
   {
    "i": 4,
-   "start": 21.875,
-   "speechStart": 21.875,
-   "end": 27.25,
+   "start": 11.725,
+   "speechStart": 11.725,
+   "end": 14.275,
    "builds": 0,
-   "text": "M, the metacenter, is where the vertical line through B crosses the centerline."
+   "text": "G is the center of gravity."
   },
   {
    "i": 5,
-   "start": 27.5,
-   "speechStart": 27.5,
-   "end": 31.975,
+   "start": 14.525,
+   "speechStart": 14.525,
+   "end": 17.45,
    "builds": 0,
-   "text": "The distance from G up to M is called the metacentric height, G M."
+   "text": "It’s where all the weight acts, and it pulls down."
   },
   {
    "i": 6,
-   "start": 32.225,
-   "speechStart": 32.225,
-   "end": 35.525,
+   "start": 17.7,
+   "speechStart": 17.7,
+   "end": 23.975,
    "builds": 0,
-   "text": "A bigger G M means more initial stability."
+   "text": "B is the center of buoyancy, the center of the underwater part of the hull, and it pushes up."
+  },
+  {
+   "i": 7,
+   "start": 24.225,
+   "speechStart": 24.225,
+   "end": 26.0,
+   "builds": 0,
+   "text": "Now heel the boat."
+  },
+  {
+   "i": 8,
+   "start": 26.25,
+   "speechStart": 26.25,
+   "end": 28.05,
+   "builds": 0,
+   "text": "What happens to B?"
+  },
+  {
+   "i": 9,
+   "start": 28.3,
+   "speechStart": 29.05,
+   "end": 33.85,
+   "builds": 0,
+   "text": "It moves toward the low side, because more of the hull is underwater there."
+  },
+  {
+   "i": 10,
+   "start": 34.1,
+   "speechStart": 34.1,
+   "end": 42.0,
+   "builds": 0,
+   "text": "So now gravity pulls down in one place, and buoyancy pushes up in another, and together they twist the boat back upright."
+  },
+  {
+   "i": 11,
+   "start": 42.25,
+   "speechStart": 42.25,
+   "end": 44.15,
+   "builds": 0,
+   "text": "That’s the righting arm."
+  },
+  {
+   "i": 12,
+   "start": 44.4,
+   "speechStart": 44.4,
+   "end": 51.175,
+   "builds": 0,
+   "text": "The third letter is M, the metacenter: the point where the line straight up from B crosses the centerline."
+  },
+  {
+   "i": 13,
+   "start": 51.425,
+   "speechStart": 51.425,
+   "end": 55.8,
+   "builds": 0,
+   "text": "And the distance from G up to M is the metacentric height, G M."
+  },
+  {
+   "i": 14,
+   "start": 56.05,
+   "speechStart": 56.05,
+   "end": 59.675,
+   "builds": 0,
+   "text": "The bigger the G M, the more firmly she stands up."
   }
  ]
 }

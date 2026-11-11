@@ -3,58 +3,122 @@
  "lessonId": "deck-08",
  "n": 2,
  "audio": "deck-08-2.mp3",
- "duration": 32.925,
+ "duration": 49.5,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.875,
+   "end": 3.675,
    "builds": 0,
-   "text": "Lines come in different constructions."
+   "text": "Next, how the line is built, and how to keep it alive."
   },
   {
    "i": 1,
-   "start": 3.125,
-   "speechStart": 3.125,
-   "end": 8.925,
-   "builds": 0,
-   "text": "Three-strand twisted line is easy to splice and stretches well, which suits anchor rodes."
+   "start": 3.925,
+   "speechStart": 3.925,
+   "end": 8.45,
+   "builds": 1,
+   "text": "Three-strand twisted line is easy to splice and stretches well."
   },
   {
    "i": 2,
-   "start": 9.175,
-   "speechStart": 9.175,
-   "end": 14.175,
+   "start": 8.7,
+   "speechStart": 8.7,
+   "end": 10.875,
    "builds": 0,
-   "text": "Double-braid line is strong and smooth, easier on hands and winches."
+   "text": "That suits an anchor rode."
   },
   {
    "i": 3,
-   "start": 14.425,
-   "speechStart": 14.425,
-   "end": 21.675,
-   "builds": 0,
-   "text": "Chafe is the biggest enemy of line, so protect lines where they pass through chocks or over edges with chafe gear."
+   "start": 11.125,
+   "speechStart": 11.125,
+   "end": 16.15,
+   "builds": 1,
+   "text": "Double braid is strong and smooth, and kinder to your hands and your winches."
   },
   {
    "i": 4,
-   "start": 21.925,
-   "speechStart": 21.925,
-   "end": 25.175,
+   "start": 16.4,
+   "speechStart": 16.4,
+   "end": 18.475,
    "builds": 0,
-   "text": "Rinse out salt and store lines out of the sun."
+   "text": "That suits dock lines."
   },
   {
    "i": 5,
-   "start": 25.425,
-   "speechStart": 25.425,
-   "end": 32.625,
+   "start": 18.725,
+   "speechStart": 18.725,
+   "end": 21.3,
+   "builds": 1,
+   "text": "The great enemy of any line is chafe."
+  },
+  {
+   "i": 6,
+   "start": 21.55,
+   "speechStart": 21.55,
+   "end": 27.125,
    "builds": 0,
-   "text": "Remember that tying a knot in a line can reduce its strength by a third or more, while a good splice keeps most of it."
+   "text": "Wherever a line passes through a chock or bends over an edge, protect it with chafe gear."
+  },
+  {
+   "i": 7,
+   "start": 27.375,
+   "speechStart": 27.375,
+   "end": 31.625,
+   "builds": 1,
+   "text": "Rinse the salt out now and then, and store your lines out of the sun."
+  },
+  {
+   "i": 8,
+   "start": 31.875,
+   "speechStart": 31.875,
+   "end": 34.2,
+   "builds": 1,
+   "text": "And here’s the one for the exam."
+  },
+  {
+   "i": 9,
+   "start": 34.45,
+   "speechStart": 34.45,
+   "end": 37.925,
+   "builds": 0,
+   "text": "A knot weakens a line far more than a splice does."
+  },
+  {
+   "i": 10,
+   "start": 38.175,
+   "speechStart": 38.175,
+   "end": 39.65,
+   "builds": 0,
+   "text": "How much?"
+  },
+  {
+   "i": 11,
+   "start": 39.9,
+   "speechStart": 40.65,
+   "end": 43.825,
+   "builds": 0,
+   "text": "A knot can cost you a third of the strength or more."
+  },
+  {
+   "i": 12,
+   "start": 44.075,
+   "speechStart": 44.075,
+   "end": 46.375,
+   "builds": 0,
+   "text": "A good splice keeps most of it."
+  },
+  {
+   "i": 13,
+   "start": 46.625,
+   "speechStart": 46.625,
+   "end": 49.2,
+   "builds": 0,
+   "text": "So anything permanent gets spliced."
   }
  ]
 }

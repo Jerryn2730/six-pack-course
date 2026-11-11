@@ -3,58 +3,170 @@
  "lessonId": "plot-03",
  "n": 4,
  "audio": "plot-03-4.mp3",
- "duration": 31.825,
+ "duration": 56.7,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.075,
+   "end": 3.325,
    "builds": 0,
-   "text": "Here’s a complete leg."
+   "text": "Let’s run one complete leg, start to finish."
   },
   {
    "i": 1,
-   "start": 2.325,
-   "speechStart": 2.325,
-   "end": 4.975,
+   "start": 3.575,
+   "speechStart": 3.575,
+   "end": 5.4,
    "builds": 0,
-   "text": "You’re going from buoy one to bell two."
+   "text": "Look at the diagram."
   },
   {
    "i": 2,
-   "start": 5.225,
-   "speechStart": 5.225,
-   "end": 10.425,
-   "builds": 0,
-   "text": "Walking the parallel rulers to the rose gives a true course of zero six eight."
+   "start": 5.65,
+   "speechStart": 5.65,
+   "end": 8.3,
+   "builds": 1,
+   "text": "You’re going from buoy one to bell two."
   },
   {
    "i": 3,
-   "start": 10.675,
-   "speechStart": 10.675,
-   "end": 19.1,
+   "start": 8.55,
+   "speechStart": 8.55,
+   "end": 10.25,
    "builds": 0,
-   "text": "The dividers span five point three minutes on the latitude scale beside the line, so the distance is five point three nautical miles."
+   "text": "Draw the line."
   },
   {
    "i": 4,
-   "start": 19.35,
-   "speechStart": 19.35,
-   "end": 26.775,
-   "builds": 0,
-   "text": "At twelve knots, the time is sixty times five point three, divided by twelve, about twenty-six and a half minutes."
+   "start": 10.5,
+   "speechStart": 10.5,
+   "end": 13.2,
+   "builds": 1,
+   "text": "Walk the parallel rulers to the rose."
   },
   {
    "i": 5,
-   "start": 27.025,
-   "speechStart": 27.025,
-   "end": 31.525,
+   "start": 13.45,
+   "speechStart": 13.45,
+   "end": 15.75,
    "builds": 0,
-   "text": "Departing at nine hundred, you’ll arrive at about nine twenty-seven."
+   "text": "They read zero six eight true."
+  },
+  {
+   "i": 6,
+   "start": 16.0,
+   "speechStart": 16.0,
+   "end": 20.25,
+   "builds": 1,
+   "text": "Set the dividers on the two marks, and carry them to the side scale."
+  },
+  {
+   "i": 7,
+   "start": 20.5,
+   "speechStart": 20.5,
+   "end": 22.9,
+   "builds": 0,
+   "text": "They span five point three minutes."
+  },
+  {
+   "i": 8,
+   "start": 23.15,
+   "speechStart": 23.15,
+   "end": 26.125,
+   "builds": 0,
+   "text": "So the distance is five point three miles."
+  },
+  {
+   "i": 9,
+   "start": 26.375,
+   "speechStart": 26.375,
+   "end": 28.375,
+   "builds": 1,
+   "text": "You’re making twelve knots."
+  },
+  {
+   "i": 10,
+   "start": 28.625,
+   "speechStart": 28.625,
+   "end": 30.45,
+   "builds": 0,
+   "text": "How long will it take?"
+  },
+  {
+   "i": 11,
+   "start": 30.7,
+   "speechStart": 30.7,
+   "end": 34.525,
+   "builds": 0,
+   "text": "Sixty times five point three, divided by twelve."
+  },
+  {
+   "i": 12,
+   "start": 34.775,
+   "speechStart": 35.525,
+   "end": 37.775,
+   "builds": 0,
+   "text": "Twenty-six and a half minutes."
+  },
+  {
+   "i": 13,
+   "start": 38.025,
+   "speechStart": 38.025,
+   "end": 40.0,
+   "builds": 1,
+   "text": "You leave at nine hundred."
+  },
+  {
+   "i": 14,
+   "start": 40.25,
+   "speechStart": 40.25,
+   "end": 43.225,
+   "builds": 0,
+   "text": "So you arrive at about nine twenty-seven."
+  },
+  {
+   "i": 15,
+   "start": 43.475,
+   "speechStart": 43.475,
+   "end": 45.4,
+   "builds": 0,
+   "text": "That’s lesson three."
+  },
+  {
+   "i": 16,
+   "start": 45.65,
+   "speechStart": 45.65,
+   "end": 48.475,
+   "builds": 0,
+   "text": "Course above the line, speed below."
+  },
+  {
+   "i": 17,
+   "start": 48.725,
+   "speechStart": 48.725,
+   "end": 50.65,
+   "builds": 0,
+   "text": "Three digits, always."
+  },
+  {
+   "i": 18,
+   "start": 50.9,
+   "speechStart": 50.9,
+   "end": 53.1,
+   "builds": 0,
+   "text": "Distance from the side scale."
+  },
+  {
+   "i": 19,
+   "start": 53.35,
+   "speechStart": 53.35,
+   "end": 56.4,
+   "builds": 0,
+   "text": "Next time: speed, time and distance."
   }
  ]
 }

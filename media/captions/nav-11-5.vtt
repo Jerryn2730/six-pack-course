@@ -1,29 +1,69 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:04.000
-Your VHF radio is also a navigation tool.
+00:00:00.150 --> 00:00:05.300
+Last, the radio, which is a navigation tool as much as a safety one.
 
 2
-00:00:04.250 --> 00:00:09.325
-Its range is roughly line of sight, so antenna height matters more than power.
+00:00:05.550 --> 00:00:08.600
+VHF range is roughly line of sight.
 
 3
-00:00:09.575 --> 00:00:13.375
-Channel sixteen is for distress, safety and calling.
+00:00:08.850 --> 00:00:12.925
+So what gives you more range: more power, or a higher antenna?
 
 4
-00:00:13.625 --> 00:00:18.075
-Channel nine is an alternate calling channel for recreational boats.
+00:00:13.925 --> 00:00:15.750
+The higher antenna.
 
 5
-00:00:18.325 --> 00:00:25.300
-Channel thirteen is the bridge-to-bridge channel, and channel twenty-two alpha is the Coast Guard working channel.
+00:00:16.000 --> 00:00:17.975
+Now the channels to know.
 
 6
-00:00:25.550 --> 00:00:34.200
-A DSC radio needs a registered MMSI number and a GPS connection to send your position in a distress alert.
+00:00:18.225 --> 00:00:21.450
+Sixteen is distress, safety and calling.
 
 7
-00:00:34.450 --> 00:00:39.525
-The weather channels carry continuous NOAA Weather Radio broadcasts.
+00:00:21.700 --> 00:00:25.925
+Nine is the alternate calling channel for recreational boats.
+
+8
+00:00:26.175 --> 00:00:30.050
+Thirteen is bridge-to-bridge, where the ships and tugs talk.
+
+9
+00:00:30.300 --> 00:00:34.175
+And twenty-two alpha is the Coast Guard’s working channel.
+
+10
+00:00:34.425 --> 00:00:43.425
+For the DSC distress button to do its job, the radio needs two things: a registered MMSI number, and a GPS connection.
+
+11
+00:00:43.675 --> 00:00:48.425
+And the weather channels carry NOAA Weather Radio around the clock.
+
+12
+00:00:48.675 --> 00:00:50.650
+That’s lesson eleven.
+
+13
+00:00:50.900 --> 00:00:53.450
+GPS course comes from movement.
+
+14
+00:00:53.700 --> 00:00:55.750
+Check every leg of a route.
+
+15
+00:00:56.000 --> 00:00:58.075
+AIS isn’t in sight.
+
+16
+00:00:58.325 --> 00:01:00.750
+Know what your depth reading means.
+
+17
+00:01:01.000 --> 00:01:03.150
+Next time: radar.

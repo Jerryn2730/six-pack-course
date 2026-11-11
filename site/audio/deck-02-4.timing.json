@@ -3,42 +3,114 @@
  "lessonId": "deck-02",
  "n": 4,
  "audio": "deck-02-4.mp3",
- "duration": 38.225,
+ "duration": 57.075,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 10.15,
+   "end": 4.05,
    "builds": 0,
-   "text": "Boats with gasoline engines in enclosed spaces must have ventilation to remove explosive vapor, usually natural vents plus a powered blower."
+   "text": "Now the equipment that keeps a gasoline boat from exploding."
   },
   {
    "i": 1,
-   "start": 10.4,
-   "speechStart": 10.4,
-   "end": 15.55,
-   "builds": 0,
-   "text": "Run the blower for at least four minutes before starting the engine, and sniff the bilge."
+   "start": 4.3,
+   "speechStart": 4.3,
+   "end": 12.8,
+   "builds": 1,
+   "text": "Any gasoline engine in an enclosed space needs ventilation to carry vapor away: natural vents, plus a powered blower."
   },
   {
    "i": 2,
-   "start": 15.8,
-   "speechStart": 15.8,
-   "end": 30.15,
-   "builds": 0,
-   "text": "Gasoline inboard and sterndrive engines must have a Coast Guard approved backfire flame arrestor on the carburetor or throttle body, kept clean and firmly secured, so a backfire can’t ignite vapor in the compartment."
+   "start": 13.05,
+   "speechStart": 13.05,
+   "end": 17.15,
+   "builds": 1,
+   "text": "Run that blower for at least four minutes before you start the engine."
   },
   {
    "i": 3,
-   "start": 30.4,
-   "speechStart": 30.4,
-   "end": 37.925,
+   "start": 17.4,
+   "speechStart": 17.4,
+   "end": 19.0,
    "builds": 0,
-   "text": "Diesel engines are far less explosive, but their spaces still need ventilation to supply combustion air."
+   "text": "Four minutes."
+  },
+  {
+   "i": 4,
+   "start": 19.25,
+   "speechStart": 19.25,
+   "end": 22.225,
+   "builds": 0,
+   "text": "Then use the best vapor detector aboard."
+  },
+  {
+   "i": 5,
+   "start": 22.475,
+   "speechStart": 22.475,
+   "end": 24.0,
+   "builds": 0,
+   "text": "What’s that?"
+  },
+  {
+   "i": 6,
+   "start": 24.25,
+   "speechStart": 25.0,
+   "end": 26.525,
+   "builds": 0,
+   "text": "Your nose."
+  },
+  {
+   "i": 7,
+   "start": 26.775,
+   "speechStart": 26.775,
+   "end": 29.225,
+   "builds": 0,
+   "text": "Open the hatch and sniff the bilge."
+  },
+  {
+   "i": 8,
+   "start": 29.475,
+   "speechStart": 29.475,
+   "end": 36.675,
+   "builds": 1,
+   "text": "Gasoline inboards and sterndrives must also have an approved backfire flame arrestor on the air intake."
+  },
+  {
+   "i": 9,
+   "start": 36.925,
+   "speechStart": 36.925,
+   "end": 42.8,
+   "builds": 0,
+   "text": "If the engine backfires, the arrestor stops the flame from reaching vapor in the compartment."
+  },
+  {
+   "i": 10,
+   "start": 43.05,
+   "speechStart": 43.05,
+   "end": 45.55,
+   "builds": 1,
+   "text": "Keep it clean and firmly secured."
+  },
+  {
+   "i": 11,
+   "start": 45.8,
+   "speechStart": 45.8,
+   "end": 49.0,
+   "builds": 0,
+   "text": "An oily, loose arrestor doesn’t do its job."
+  },
+  {
+   "i": 12,
+   "start": 49.25,
+   "speechStart": 49.25,
+   "end": 56.775,
+   "builds": 1,
+   "text": "Diesels are far less explosive, but their spaces still need ventilation, to feed the engine combustion air."
   }
  ]
 }

@@ -3,50 +3,98 @@
  "lessonId": "nav-06",
  "n": 2,
  "audio": "nav-06-2.mp3",
- "duration": 40.8,
+ "duration": 57.175,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.5,
+   "end": 3.375,
    "builds": 0,
-   "text": "Notices to Mariners keep your charts and publications current."
+   "text": "Charts and books go out of date the day they’re printed."
   },
   {
    "i": 1,
-   "start": 4.75,
-   "speechStart": 4.75,
-   "end": 9.975,
+   "start": 3.625,
+   "speechStart": 3.625,
+   "end": 6.425,
    "builds": 0,
-   "text": "The Local Notice to Mariners is published weekly by each Coast Guard district."
+   "text": "Notices to Mariners keep them current."
   },
   {
    "i": 2,
-   "start": 10.225,
-   "speechStart": 10.225,
-   "end": 20.375,
-   "builds": 0,
-   "text": "It covers aids that have been added, moved or are off station, dredging and construction, marine events, hazards, and chart corrections for local waters."
+   "start": 6.675,
+   "speechStart": 6.675,
+   "end": 11.625,
+   "builds": 1,
+   "text": "The Local Notice to Mariners comes out weekly from each Coast Guard district."
   },
   {
    "i": 3,
-   "start": 20.625,
-   "speechStart": 20.625,
-   "end": 29.425,
+   "start": 11.875,
+   "speechStart": 11.875,
+   "end": 14.425,
    "builds": 0,
-   "text": "The National Geospatial-Intelligence Agency publishes a weekly Notice to Mariners for ocean charts and international publications."
+   "text": "This is the one you’ll actually use."
   },
   {
    "i": 4,
-   "start": 29.675,
-   "speechStart": 29.675,
-   "end": 40.5,
+   "start": 14.675,
+   "speechStart": 14.675,
+   "end": 24.75,
+   "builds": 1,
+   "text": "It lists aids that have been added, moved, or are off station, plus dredging, construction, marine events, hazards, and chart corrections for local waters."
+  },
+  {
+   "i": 5,
+   "start": 25.0,
+   "speechStart": 25.0,
+   "end": 34.575,
+   "builds": 1,
+   "text": "The National Geospatial-Intelligence Agency publishes its own weekly Notice to Mariners, for ocean charts and international publications."
+  },
+  {
+   "i": 6,
+   "start": 34.825,
+   "speechStart": 34.825,
+   "end": 40.55,
+   "builds": 1,
+   "text": "And for things that can’t wait a week, the Coast Guard makes Broadcast Notices to Mariners."
+  },
+  {
+   "i": 7,
+   "start": 40.8,
+   "speechStart": 40.8,
+   "end": 46.075,
    "builds": 0,
-   "text": "For urgent information, the Coast Guard makes Broadcast Notices to Mariners, announced on VHF channel sixteen and then read on channel twenty-two alpha."
+   "text": "They’re announced on channel sixteen, and then read on channel twenty-two alpha."
+  },
+  {
+   "i": 8,
+   "start": 46.325,
+   "speechStart": 46.325,
+   "end": 51.325,
+   "builds": 0,
+   "text": "So when you hear the Coast Guard say, switch to twenty-two alpha, what should you do?"
+  },
+  {
+   "i": 9,
+   "start": 51.575,
+   "speechStart": 52.325,
+   "end": 54.15,
+   "builds": 0,
+   "text": "Switch, and listen."
+  },
+  {
+   "i": 10,
+   "start": 54.4,
+   "speechStart": 54.4,
+   "end": 56.875,
+   "builds": 0,
+   "text": "It may be about the channel you’re in."
   }
  ]
 }

@@ -3,7 +3,7 @@
  "lessonId": "plot-03",
  "n": 1,
  "audio": "plot-03-1.mp3",
- "duration": 35.725,
+ "duration": 56.05,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,89 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.275,
+   "end": 6.25,
    "builds": 0,
-   "text": "Every line you draw gets a label, so you and an examiner can follow your work."
+   "text": "A chart covered in unlabeled pencil lines is a puzzle, even to the person who drew it."
   },
   {
    "i": 1,
-   "start": 5.525,
-   "speechStart": 5.525,
-   "end": 12.375,
+   "start": 6.5,
+   "speechStart": 6.5,
+   "end": 10.85,
    "builds": 0,
-   "text": "Write the course above the line, with a C, the three-digit direction, and T for true or M for magnetic."
+   "text": "So navigators label everything, the same way every time."
   },
   {
    "i": 2,
-   "start": 12.625,
-   "speechStart": 12.625,
-   "end": 15.25,
+   "start": 11.1,
+   "speechStart": 11.1,
+   "end": 12.925,
    "builds": 0,
-   "text": "Write the speed below the line with an S."
+   "text": "Look at the diagram."
   },
   {
    "i": 3,
-   "start": 15.5,
-   "speechStart": 15.5,
-   "end": 26.575,
+   "start": 13.175,
+   "speechStart": 13.175,
+   "end": 19.475,
    "builds": 0,
-   "text": "Mark each position along the track with its symbol, a circle for a fix and a half circle for a dead reckoning position, and write the time beside it, using the twenty-four hour clock."
+   "text": "The course goes above the line: a C, then three digits, then T for true or M for magnetic."
   },
   {
    "i": 4,
-   "start": 26.825,
-   "speechStart": 26.825,
-   "end": 35.425,
+   "start": 19.725,
+   "speechStart": 19.725,
+   "end": 22.575,
    "builds": 0,
-   "text": "Here, a boat leaves an eight hundred fix on course zero six eight true at twelve knots, with DR positions at nine and ten hundred."
+   "text": "The speed goes below the line, with an S."
+  },
+  {
+   "i": 5,
+   "start": 22.825,
+   "speechStart": 22.825,
+   "end": 30.05,
+   "builds": 0,
+   "text": "Each position along the track gets its symbol: a circle for a fix, a half circle for a dead reckoning position."
+  },
+  {
+   "i": 6,
+   "start": 30.3,
+   "speechStart": 30.3,
+   "end": 34.3,
+   "builds": 0,
+   "text": "And beside each one, the time, on the twenty-four hour clock."
+  },
+  {
+   "i": 7,
+   "start": 34.55,
+   "speechStart": 34.55,
+   "end": 43.7,
+   "builds": 0,
+   "text": "Here, a boat leaves her eight hundred fix on course zero six eight true, at twelve knots, with DR positions at nine hundred and ten hundred."
+  },
+  {
+   "i": 8,
+   "start": 43.95,
+   "speechStart": 44.7,
+   "end": 48.125,
+   "builds": 0,
+   "text": "Why three digits, even for a course like sixty-eight?"
+  },
+  {
+   "i": 9,
+   "start": 48.375,
+   "speechStart": 48.375,
+   "end": 51.9,
+   "builds": 0,
+   "text": "So nobody ever wonders whether a digit is missing."
+  },
+  {
+   "i": 10,
+   "start": 52.15,
+   "speechStart": 52.15,
+   "end": 55.75,
+   "builds": 0,
+   "text": "Zero six eight can’t be mistaken for anything else."
   }
  ]
 }

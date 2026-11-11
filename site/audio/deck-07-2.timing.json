@@ -3,50 +3,130 @@
  "lessonId": "deck-07",
  "n": 2,
  "audio": "deck-07-2.mp3",
- "duration": 35.275,
+ "duration": 58.55,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.325,
+   "end": 2.85,
    "builds": 0,
-   "text": "An inboard boat steers by water flowing past the rudder, mostly prop wash."
+   "text": "Now, how does a boat actually steer?"
   },
   {
    "i": 1,
-   "start": 5.575,
-   "speechStart": 5.575,
-   "end": 10.5,
-   "builds": 0,
-   "text": "At low speed, especially in reverse, there’s little flow, and steering is poor."
+   "start": 3.1,
+   "speechStart": 3.1,
+   "end": 9.35,
+   "builds": 1,
+   "text": "An inboard boat steers by water flowing past the rudder, and most of that flow is prop wash."
   },
   {
    "i": 2,
-   "start": 10.75,
-   "speechStart": 10.75,
-   "end": 16.225,
-   "builds": 0,
-   "text": "A short burst of power with the rudder over gives steering without building much speed."
+   "start": 9.6,
+   "speechStart": 9.6,
+   "end": 12.65,
+   "builds": 1,
+   "text": "So when there’s little flow, there’s little steering."
   },
   {
    "i": 3,
-   "start": 16.475,
-   "speechStart": 16.475,
-   "end": 27.825,
+   "start": 12.9,
+   "speechStart": 12.9,
+   "end": 15.1,
    "builds": 0,
-   "text": "Going ahead, a boat pivots about a point roughly a third of its length back from the bow, so the stern swings wide in a turn, which matters when you’re turning near a dock or another boat."
+   "text": "Dead slow, she’s sluggish."
   },
   {
    "i": 4,
-   "start": 28.075,
-   "speechStart": 28.075,
-   "end": 34.975,
+   "start": 15.35,
+   "speechStart": 15.35,
+   "end": 18.15,
    "builds": 0,
-   "text": "Outboards and sterndrives steer by aiming the propeller’s thrust, so they respond well even at low speed."
+   "text": "In reverse, she barely answers at all."
+  },
+  {
+   "i": 5,
+   "start": 18.4,
+   "speechStart": 18.4,
+   "end": 22.725,
+   "builds": 1,
+   "text": "The cure is a short burst of power with the rudder already over."
+  },
+  {
+   "i": 6,
+   "start": 22.975,
+   "speechStart": 22.975,
+   "end": 29.4,
+   "builds": 0,
+   "text": "That throws a slug of water against the rudder and kicks the stern across, without building much speed."
+  },
+  {
+   "i": 7,
+   "start": 29.65,
+   "speechStart": 29.65,
+   "end": 32.225,
+   "builds": 1,
+   "text": "And here’s the thing that catches people."
+  },
+  {
+   "i": 8,
+   "start": 32.475,
+   "speechStart": 32.475,
+   "end": 34.725,
+   "builds": 0,
+   "text": "A boat doesn’t turn like a car."
+  },
+  {
+   "i": 9,
+   "start": 34.975,
+   "speechStart": 34.975,
+   "end": 40.4,
+   "builds": 0,
+   "text": "Going ahead, she pivots about a point roughly a third of her length back from the bow."
+  },
+  {
+   "i": 10,
+   "start": 40.65,
+   "speechStart": 40.65,
+   "end": 42.725,
+   "builds": 0,
+   "text": "So which end swings wide?"
+  },
+  {
+   "i": 11,
+   "start": 42.975,
+   "speechStart": 43.725,
+   "end": 45.325,
+   "builds": 0,
+   "text": "The stern."
+  },
+  {
+   "i": 12,
+   "start": 45.575,
+   "speechStart": 45.575,
+   "end": 49.75,
+   "builds": 0,
+   "text": "Turn away from a dock too sharply, and your stern swings into it."
+  },
+  {
+   "i": 13,
+   "start": 50.0,
+   "speechStart": 50.0,
+   "end": 52.75,
+   "builds": 1,
+   "text": "Outboards and sterndrives are different."
+  },
+  {
+   "i": 14,
+   "start": 53.0,
+   "speechStart": 53.0,
+   "end": 58.25,
+   "builds": 0,
+   "text": "They steer by aiming the propeller’s thrust, so they answer well even at low speed."
   }
  ]
 }

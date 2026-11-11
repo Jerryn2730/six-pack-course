@@ -1,25 +1,61 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:04.675
-Deviation is the error caused by your boat’s own magnetic fields.
+00:00:00.150 --> 00:00:03.450
+Now the second error, and this one belongs to you.
 
 2
-00:00:04.925 --> 00:00:13.350
-Unlike variation, it changes as your heading changes, so it’s recorded on a deviation card listing the error for each heading.
+00:00:03.700 --> 00:00:05.400
+Deviation.
 
 3
-00:00:13.600 --> 00:00:15.550
-Here’s a key exam point.
+00:00:05.650 --> 00:00:11.500
+It’s caused by your own boat’s magnetism: the engine, the wiring, the electronics.
 
 4
-00:00:15.800 --> 00:00:27.275
-When you take a compass bearing of a landmark, you correct it using the deviation for the boat’s heading, not the direction of the bearing, because deviation depends on how the boat is pointed.
+00:00:11.750 --> 00:00:16.400
+And unlike variation, it changes as the boat’s heading changes.
 
 5
-00:00:27.525 --> 00:00:33.750
-And a handy rule for naming the error: compass least, error east; compass best, error west.
+00:00:16.650 --> 00:00:20.050
+Turn the boat, and the iron moves around the compass.
 
 6
-00:00:34.000 --> 00:00:38.075
-If the compass reads less than magnetic, deviation is east.
+00:00:20.300 --> 00:00:24.650
+So it’s recorded on a deviation card, with the error for each heading.
+
+7
+00:00:24.900 --> 00:00:27.300
+Now the exam’s favorite trap.
+
+8
+00:00:27.550 --> 00:00:32.650
+You’re steering one course, and you take a compass bearing on a lighthouse off to the side.
+
+9
+00:00:32.900 --> 00:00:37.825
+Which deviation do you use: the one for your heading, or the one for the bearing?
+
+10
+00:00:38.825 --> 00:00:40.325
+Your heading.
+
+11
+00:00:40.575 --> 00:00:45.325
+Deviation depends on which way the boat is pointed, not where you’re looking.
+
+12
+00:00:45.575 --> 00:00:47.825
+And a rhyme for naming the error.
+
+13
+00:00:48.075 --> 00:00:50.300
+Compass least, error east.
+
+14
+00:00:50.550 --> 00:00:52.875
+Compass best, error west.
+
+15
+00:00:53.125 --> 00:00:57.450
+If the compass reads less than magnetic, the deviation is east.

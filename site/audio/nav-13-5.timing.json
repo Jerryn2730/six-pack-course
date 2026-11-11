@@ -3,58 +3,178 @@
  "lessonId": "nav-13",
  "n": 5,
  "audio": "nav-13-5.mp3",
- "duration": 37.375,
+ "duration": 73.075,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 8,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.45,
+   "end": 7.575,
    "builds": 0,
-   "text": "The Beaufort scale describes wind force by its effect on the sea."
+   "text": "The Beaufort scale is two hundred years old, and it’s still useful, because it lets you judge the wind by looking at the water."
   },
   {
    "i": 1,
-   "start": 4.7,
-   "speechStart": 4.7,
-   "end": 6.7,
+   "start": 7.825,
+   "speechStart": 7.825,
+   "end": 9.55,
    "builds": 0,
-   "text": "Force zero is calm."
+   "text": "Follow the table."
   },
   {
    "i": 2,
-   "start": 6.95,
-   "speechStart": 6.95,
-   "end": 12.275,
-   "builds": 0,
-   "text": "Force three, a gentle breeze of seven to ten knots, brings scattered whitecaps."
+   "start": 9.8,
+   "speechStart": 9.8,
+   "end": 11.8,
+   "builds": 1,
+   "text": "Force zero is calm."
   },
   {
    "i": 3,
-   "start": 12.525,
-   "speechStart": 12.525,
-   "end": 18.125,
+   "start": 12.05,
+   "speechStart": 12.05,
+   "end": 14.05,
    "builds": 0,
-   "text": "Force four, a moderate breeze of eleven to sixteen knots, brings frequent whitecaps."
+   "text": "The sea is like a mirror."
   },
   {
    "i": 4,
-   "start": 18.375,
-   "speechStart": 18.375,
-   "end": 29.125,
-   "builds": 0,
-   "text": "Force six, a strong breeze of twenty-two to twenty-seven knots, builds large waves with extensive foam crests, which is where many small charter boats stay at the dock."
+   "start": 14.3,
+   "speechStart": 14.3,
+   "end": 18.075,
+   "builds": 1,
+   "text": "Force three, a gentle breeze, seven to ten knots."
   },
   {
    "i": 5,
-   "start": 29.375,
-   "speechStart": 29.375,
-   "end": 37.075,
+   "start": 18.325,
+   "speechStart": 18.325,
+   "end": 20.15,
    "builds": 0,
-   "text": "Force eight is a gale, thirty-four to forty knots, and force twelve is hurricane force, sixty-four knots and above."
+   "text": "Scattered whitecaps."
+  },
+  {
+   "i": 6,
+   "start": 20.4,
+   "speechStart": 20.4,
+   "end": 24.55,
+   "builds": 1,
+   "text": "Force four, a moderate breeze, eleven to sixteen knots."
+  },
+  {
+   "i": 7,
+   "start": 24.8,
+   "speechStart": 24.8,
+   "end": 26.675,
+   "builds": 0,
+   "text": "Frequent whitecaps."
+  },
+  {
+   "i": 8,
+   "start": 26.925,
+   "speechStart": 26.925,
+   "end": 30.85,
+   "builds": 1,
+   "text": "Force five, a fresh breeze, seventeen to twenty-one."
+  },
+  {
+   "i": 9,
+   "start": 31.1,
+   "speechStart": 31.1,
+   "end": 35.375,
+   "builds": 1,
+   "text": "Force six, a strong breeze, twenty-two to twenty-seven knots."
+  },
+  {
+   "i": 10,
+   "start": 35.625,
+   "speechStart": 35.625,
+   "end": 38.575,
+   "builds": 0,
+   "text": "Large waves and foam crests everywhere."
+  },
+  {
+   "i": 11,
+   "start": 38.825,
+   "speechStart": 38.825,
+   "end": 42.1,
+   "builds": 0,
+   "text": "For most six-pack boats, that’s a day at the dock."
+  },
+  {
+   "i": 12,
+   "start": 42.35,
+   "speechStart": 42.35,
+   "end": 46.025,
+   "builds": 1,
+   "text": "Force seven, a near gale, twenty-eight to thirty-three."
+  },
+  {
+   "i": 13,
+   "start": 46.275,
+   "speechStart": 46.275,
+   "end": 49.8,
+   "builds": 1,
+   "text": "Force eight is a gale, thirty-four to forty knots."
+  },
+  {
+   "i": 14,
+   "start": 50.05,
+   "speechStart": 50.05,
+   "end": 52.7,
+   "builds": 0,
+   "text": "Notice that matches the gale warning."
+  },
+  {
+   "i": 15,
+   "start": 52.95,
+   "speechStart": 52.95,
+   "end": 57.525,
+   "builds": 1,
+   "text": "And force twelve is hurricane force, sixty-four knots and above."
+  },
+  {
+   "i": 16,
+   "start": 57.775,
+   "speechStart": 58.525,
+   "end": 60.55,
+   "builds": 0,
+   "text": "That’s lesson thirteen."
+  },
+  {
+   "i": 17,
+   "start": 60.8,
+   "speechStart": 60.8,
+   "end": 62.85,
+   "builds": 0,
+   "text": "Clockwise around a high."
+  },
+  {
+   "i": 18,
+   "start": 63.1,
+   "speechStart": 63.1,
+   "end": 66.575,
+   "builds": 0,
+   "text": "South wind ahead of a front, north wind behind."
+  },
+  {
+   "i": 19,
+   "start": 66.825,
+   "speechStart": 66.825,
+   "end": 69.6,
+   "builds": 0,
+   "text": "Thirty-four, forty-eight, sixty-four."
+  },
+  {
+   "i": 20,
+   "start": 69.85,
+   "speechStart": 69.85,
+   "end": 72.775,
+   "builds": 0,
+   "text": "Next time: Florida’s violent weather."
   }
  ]
 }

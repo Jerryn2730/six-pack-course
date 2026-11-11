@@ -3,58 +3,130 @@
  "lessonId": "nav-05",
  "n": 3,
  "audio": "nav-05-3.mp3",
- "duration": 42.375,
+ "duration": 54.65,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.475,
+   "end": 2.45,
    "builds": 0,
-   "text": "Three ranges describe how far a light can be seen."
+   "text": "How far away can you see a light?"
   },
   {
    "i": 1,
-   "start": 3.725,
-   "speechStart": 3.725,
-   "end": 12.575,
+   "start": 2.7,
+   "speechStart": 2.7,
+   "end": 6.9,
    "builds": 0,
-   "text": "Nominal range is the distance a light carries in clear weather, defined as a meteorological visibility of ten nautical miles."
+   "text": "There are three answers, and the exam wants you to keep them apart."
   },
   {
    "i": 2,
-   "start": 12.825,
-   "speechStart": 12.825,
-   "end": 16.0,
-   "builds": 0,
-   "text": "That’s the number on the chart and in the Light List."
+   "start": 7.15,
+   "speechStart": 7.15,
+   "end": 13.55,
+   "builds": 1,
+   "text": "Nominal range is how far the light carries in clear weather, defined as ten miles of visibility."
   },
   {
    "i": 3,
-   "start": 16.25,
-   "speechStart": 16.25,
-   "end": 25.65,
+   "start": 13.8,
+   "speechStart": 13.8,
+   "end": 16.325,
    "builds": 0,
-   "text": "Luminous range is how far the light carries in the visibility actually present tonight, which you find with the luminous range diagram in the Light List."
+   "text": "That’s the number printed on the chart."
   },
   {
    "i": 4,
-   "start": 25.9,
-   "speechStart": 25.9,
-   "end": 34.375,
+   "start": 16.575,
+   "speechStart": 16.575,
+   "end": 18.275,
    "builds": 0,
-   "text": "Geographic range is how far you could see the light before the curve of the earth hides it, which depends on the light’s height and your height of eye."
+   "text": "It’s about the lamp."
   },
   {
    "i": 5,
-   "start": 34.625,
-   "speechStart": 34.625,
-   "end": 42.075,
+   "start": 18.525,
+   "speechStart": 18.525,
+   "end": 23.325,
+   "builds": 1,
+   "text": "Luminous range is how far it carries in tonight’s actual visibility."
+  },
+  {
+   "i": 6,
+   "start": 23.575,
+   "speechStart": 23.575,
+   "end": 25.375,
    "builds": 0,
-   "text": "The distance at which you’ll actually first see the light is the lesser of the luminous range and the geographic range."
+   "text": "Haze shortens it."
+  },
+  {
+   "i": 7,
+   "start": 25.625,
+   "speechStart": 25.625,
+   "end": 27.375,
+   "builds": 0,
+   "text": "It’s about the air."
+  },
+  {
+   "i": 8,
+   "start": 27.625,
+   "speechStart": 27.625,
+   "end": 32.65,
+   "builds": 1,
+   "text": "Geographic range is how far you could see it before the curve of the earth hides it."
+  },
+  {
+   "i": 9,
+   "start": 32.9,
+   "speechStart": 32.9,
+   "end": 36.7,
+   "builds": 0,
+   "text": "That depends on the height of the light and the height of your eye."
+  },
+  {
+   "i": 10,
+   "start": 36.95,
+   "speechStart": 36.95,
+   "end": 38.65,
+   "builds": 0,
+   "text": "It’s about the earth."
+  },
+  {
+   "i": 11,
+   "start": 38.9,
+   "speechStart": 38.9,
+   "end": 42.3,
+   "builds": 1,
+   "text": "So which one tells you when you’ll actually see the light?"
+  },
+  {
+   "i": 12,
+   "start": 42.55,
+   "speechStart": 43.3,
+   "end": 47.25,
+   "builds": 0,
+   "text": "The lesser of the luminous range and the geographic range."
+  },
+  {
+   "i": 13,
+   "start": 47.5,
+   "speechStart": 47.5,
+   "end": 50.2,
+   "builds": 0,
+   "text": "Whichever limit you hit first, wins."
+  },
+  {
+   "i": 14,
+   "start": 50.45,
+   "speechStart": 50.45,
+   "end": 54.35,
+   "builds": 0,
+   "text": "Lamp, air, earth: nominal, luminous, geographic."
   }
  ]
 }

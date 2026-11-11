@@ -3,7 +3,7 @@
  "lessonId": "nav-07",
  "n": 3,
  "audio": "nav-07-3.mp3",
- "duration": 40.025,
+ "duration": 59.95,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,57 +12,121 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.825,
+   "end": 3.45,
    "builds": 0,
-   "text": "The range of the tide follows the moon."
+   "text": "The size of the tide isn’t the same every week."
   },
   {
    "i": 1,
-   "start": 3.075,
-   "speechStart": 3.075,
-   "end": 9.2,
+   "start": 3.7,
+   "speechStart": 3.7,
+   "end": 5.525,
    "builds": 0,
-   "text": "At new and full moon, the sun and moon line up and you get spring tides, with the biggest range."
+   "text": "It follows the moon."
   },
   {
    "i": 2,
-   "start": 9.45,
-   "speechStart": 9.45,
-   "end": 12.3,
+   "start": 5.775,
+   "speechStart": 5.775,
+   "end": 7.6,
+   "builds": 0,
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 3,
+   "start": 7.85,
+   "speechStart": 7.85,
+   "end": 13.1,
+   "builds": 0,
+   "text": "At new moon and full moon, the sun and the moon are lined up, and they pull together."
+  },
+  {
+   "i": 4,
+   "start": 13.35,
+   "speechStart": 13.35,
+   "end": 16.65,
+   "builds": 0,
+   "text": "That gives spring tides, with the biggest range."
+  },
+  {
+   "i": 5,
+   "start": 16.9,
+   "speechStart": 16.9,
+   "end": 19.75,
    "builds": 0,
    "text": "Spring has nothing to do with the season."
   },
   {
-   "i": 3,
-   "start": 12.55,
-   "speechStart": 12.55,
-   "end": 20.375,
-   "builds": 0,
-   "text": "At the first and third quarter moons, the sun and moon pull at right angles and you get neap tides, with the smallest range."
-  },
-  {
-   "i": 4,
-   "start": 20.625,
-   "speechStart": 20.625,
-   "end": 30.8,
-   "builds": 0,
-   "text": "When a spring tide coincides with the moon’s closest approach to the earth, perigean spring tides, often called king tides, flood low-lying Florida streets."
-  },
-  {
-   "i": 5,
-   "start": 31.05,
-   "speechStart": 31.05,
-   "end": 33.5,
-   "builds": 0,
-   "text": "Wind and weather matter too."
-  },
-  {
    "i": 6,
-   "start": 33.75,
-   "speechStart": 33.75,
-   "end": 39.725,
+   "start": 20.0,
+   "speechStart": 20.0,
+   "end": 22.225,
    "builds": 0,
-   "text": "Strong onshore winds and low pressure raise water levels, and offshore winds lower them."
+   "text": "Think of the water springing up."
+  },
+  {
+   "i": 7,
+   "start": 22.475,
+   "speechStart": 22.475,
+   "end": 28.725,
+   "builds": 0,
+   "text": "At the first and third quarter moons, the sun and the moon pull at right angles and partly cancel."
+  },
+  {
+   "i": 8,
+   "start": 28.975,
+   "speechStart": 28.975,
+   "end": 32.35,
+   "builds": 0,
+   "text": "That gives neap tides, with the smallest range."
+  },
+  {
+   "i": 9,
+   "start": 32.6,
+   "speechStart": 33.35,
+   "end": 38.775,
+   "builds": 0,
+   "text": "So when do you get the lowest low water of the month, the kind that leaves the flats dry?"
+  },
+  {
+   "i": 10,
+   "start": 39.025,
+   "speechStart": 39.025,
+   "end": 42.225,
+   "builds": 0,
+   "text": "On a spring tide, around new or full moon."
+  },
+  {
+   "i": 11,
+   "start": 42.475,
+   "speechStart": 42.475,
+   "end": 51.45,
+   "builds": 0,
+   "text": "And when a spring tide falls on the moon’s closest approach to the earth, you get what people call a king tide, the kind that puts water in the streets."
+  },
+  {
+   "i": 12,
+   "start": 51.7,
+   "speechStart": 51.7,
+   "end": 53.675,
+   "builds": 0,
+   "text": "Wind matters too."
+  },
+  {
+   "i": 13,
+   "start": 53.925,
+   "speechStart": 53.925,
+   "end": 57.15,
+   "builds": 0,
+   "text": "Onshore wind and low pressure pile water up."
+  },
+  {
+   "i": 14,
+   "start": 57.4,
+   "speechStart": 57.4,
+   "end": 59.65,
+   "builds": 0,
+   "text": "Offshore wind pushes it out."
   }
  ]
 }

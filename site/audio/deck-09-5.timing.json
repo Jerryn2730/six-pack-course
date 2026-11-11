@@ -3,42 +3,146 @@
  "lessonId": "deck-09",
  "n": 5,
  "audio": "deck-09-5.mp3",
- "duration": 32.95,
+ "duration": 59.05,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 9.125,
+   "end": 2.475,
    "builds": 0,
-   "text": "Don’t anchor in navigation channels, cable and pipeline areas, or restricted areas, and avoid anchoring where you’ll block other traffic."
+   "text": "Finally, where not to anchor."
   },
   {
    "i": 1,
-   "start": 9.375,
-   "speechStart": 9.375,
-   "end": 14.65,
-   "builds": 0,
-   "text": "At night show your anchor light, and by day a black ball, as Rule thirty requires."
+   "start": 2.725,
+   "speechStart": 2.725,
+   "end": 10.275,
+   "builds": 1,
+   "text": "Not in navigation channels, cable or pipeline areas, or restricted areas, and not where you block other traffic."
   },
   {
    "i": 2,
-   "start": 14.9,
-   "speechStart": 14.9,
-   "end": 23.95,
-   "builds": 0,
-   "text": "In the Florida Keys National Marine Sanctuary, anchoring on coral is prohibited, so use the mooring buoys provided at popular reefs."
+   "start": 10.525,
+   "speechStart": 10.525,
+   "end": 14.1,
+   "builds": 1,
+   "text": "At night show your anchor light, and by day a black ball."
   },
   {
    "i": 3,
-   "start": 24.2,
-   "speechStart": 24.2,
-   "end": 32.65,
+   "start": 14.35,
+   "speechStart": 14.35,
+   "end": 17.3,
    "builds": 0,
-   "text": "Avoid anchoring in seagrass where you can, and leave enough room for other boats to swing without hitting you when the wind or current changes."
+   "text": "That’s Rule thirty, which you already know."
+  },
+  {
+   "i": 4,
+   "start": 17.55,
+   "speechStart": 17.55,
+   "end": 23.025,
+   "builds": 1,
+   "text": "In the Florida Keys National Marine Sanctuary, anchoring on coral is prohibited."
+  },
+  {
+   "i": 5,
+   "start": 23.275,
+   "speechStart": 23.275,
+   "end": 25.9,
+   "builds": 0,
+   "text": "So what do you do at a popular reef?"
+  },
+  {
+   "i": 6,
+   "start": 26.15,
+   "speechStart": 26.9,
+   "end": 29.175,
+   "builds": 0,
+   "text": "Pick up one of the mooring buoys."
+  },
+  {
+   "i": 7,
+   "start": 29.425,
+   "speechStart": 29.425,
+   "end": 31.325,
+   "builds": 0,
+   "text": "That’s what they’re there for."
+  },
+  {
+   "i": 8,
+   "start": 31.575,
+   "speechStart": 31.575,
+   "end": 33.925,
+   "builds": 1,
+   "text": "Stay off seagrass where you can."
+  },
+  {
+   "i": 9,
+   "start": 34.175,
+   "speechStart": 34.175,
+   "end": 38.675,
+   "builds": 1,
+   "text": "And leave room for the other boats to swing when the wind or tide turns."
+  },
+  {
+   "i": 10,
+   "start": 38.925,
+   "speechStart": 38.925,
+   "end": 42.825,
+   "builds": 0,
+   "text": "Everyone swings, but not everyone swings the same way."
+  },
+  {
+   "i": 11,
+   "start": 43.075,
+   "speechStart": 43.075,
+   "end": 44.95,
+   "builds": 0,
+   "text": "That’s lesson nine."
+  },
+  {
+   "i": 12,
+   "start": 45.2,
+   "speechStart": 45.2,
+   "end": 47.375,
+   "builds": 0,
+   "text": "Match the anchor to the bottom."
+  },
+  {
+   "i": 13,
+   "start": 47.625,
+   "speechStart": 47.625,
+   "end": 50.9,
+   "builds": 0,
+   "text": "Scope is seven to one, measured from the bow."
+  },
+  {
+   "i": 14,
+   "start": 51.15,
+   "speechStart": 51.15,
+   "end": 53.075,
+   "builds": 0,
+   "text": "Lower it, don’t throw it."
+  },
+  {
+   "i": 15,
+   "start": 53.325,
+   "speechStart": 53.325,
+   "end": 55.275,
+   "builds": 0,
+   "text": "And always from the bow."
+  },
+  {
+   "i": 16,
+   "start": 55.525,
+   "speechStart": 55.525,
+   "end": 58.75,
+   "builds": 0,
+   "text": "Next time: heavy weather, inlets and trouble."
   }
  ]
 }

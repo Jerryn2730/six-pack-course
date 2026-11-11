@@ -3,50 +3,122 @@
  "lessonId": "plot-02",
  "n": 3,
  "audio": "plot-02-3.mp3",
- "duration": 33.55,
+ "duration": 52.525,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.425,
+   "end": 4.575,
    "builds": 0,
-   "text": "Each degree has sixty minutes."
+   "text": "A word on the numbers themselves, because the format trips people up."
   },
   {
    "i": 1,
-   "start": 2.675,
-   "speechStart": 2.675,
-   "end": 15.525,
-   "builds": 0,
-   "text": "The training chart’s scales divide each minute into tenths, so positions are written in degrees, minutes and tenths of a minute: forty-one degrees, eighteen point five minutes means eighteen and a half minutes."
+   "start": 4.825,
+   "speechStart": 4.825,
+   "end": 7.15,
+   "builds": 1,
+   "text": "One degree is sixty minutes."
   },
   {
    "i": 2,
-   "start": 15.775,
-   "speechStart": 15.775,
-   "end": 20.675,
+   "start": 7.4,
+   "speechStart": 7.4,
+   "end": 9.05,
    "builds": 0,
-   "text": "Don’t confuse that with eighteen minutes, fifty seconds, an older format."
+   "text": "Not a hundred."
   },
   {
    "i": 3,
-   "start": 20.925,
-   "speechStart": 20.925,
-   "end": 27.2,
-   "builds": 0,
-   "text": "Count the small tick marks carefully, since scales at different latitudes may be divided differently."
+   "start": 9.3,
+   "speechStart": 9.3,
+   "end": 13.25,
+   "builds": 1,
+   "text": "The training chart’s scales divide each minute into tenths."
   },
   {
    "i": 4,
-   "start": 27.45,
-   "speechStart": 27.45,
-   "end": 33.25,
+   "start": 13.5,
+   "speechStart": 13.5,
+   "end": 17.875,
+   "builds": 1,
+   "text": "So a position reads in degrees, minutes, and tenths of a minute."
+  },
+  {
+   "i": 5,
+   "start": 18.125,
+   "speechStart": 18.125,
+   "end": 23.1,
    "builds": 0,
-   "text": "Always write latitude first, with north or south, then longitude, with east or west."
+   "text": "Forty-one degrees, eighteen point five minutes means eighteen and a half minutes."
+  },
+  {
+   "i": 6,
+   "start": 23.35,
+   "speechStart": 23.35,
+   "end": 27.575,
+   "builds": 1,
+   "text": "Don’t confuse that with the older format of minutes and seconds."
+  },
+  {
+   "i": 7,
+   "start": 27.825,
+   "speechStart": 27.825,
+   "end": 32.2,
+   "builds": 0,
+   "text": "Eighteen point five minutes is eighteen minutes and how many seconds?"
+  },
+  {
+   "i": 8,
+   "start": 32.45,
+   "speechStart": 33.2,
+   "end": 34.625,
+   "builds": 0,
+   "text": "Thirty."
+  },
+  {
+   "i": 9,
+   "start": 34.875,
+   "speechStart": 34.875,
+   "end": 36.425,
+   "builds": 0,
+   "text": "Half a minute."
+  },
+  {
+   "i": 10,
+   "start": 36.675,
+   "speechStart": 36.675,
+   "end": 38.35,
+   "builds": 0,
+   "text": "Not fifty."
+  },
+  {
+   "i": 11,
+   "start": 38.6,
+   "speechStart": 38.6,
+   "end": 41.45,
+   "builds": 0,
+   "text": "Count the small tick marks carefully, too."
+  },
+  {
+   "i": 12,
+   "start": 41.7,
+   "speechStart": 41.7,
+   "end": 46.025,
+   "builds": 0,
+   "text": "The scale isn’t always divided the same way all over the chart."
+  },
+  {
+   "i": 13,
+   "start": 46.275,
+   "speechStart": 46.275,
+   "end": 52.225,
+   "builds": 1,
+   "text": "And always write latitude first, with north or south, then longitude, with east or west."
   }
  ]
 }

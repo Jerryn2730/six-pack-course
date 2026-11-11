@@ -3,58 +3,130 @@
  "lessonId": "deck-14",
  "n": 5,
  "audio": "deck-14-5.mp3",
- "duration": 43.25,
+ "duration": 71.525,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.625,
+   "end": 6.375,
    "builds": 0,
-   "text": "Florida’s waters are your business, so protect them."
+   "text": "Last, the rules that are particular to Florida, and to the animals your customers came to see."
   },
   {
    "i": 1,
-   "start": 3.875,
-   "speechStart": 3.875,
-   "end": 11.325,
-   "builds": 0,
-   "text": "Obey manatee zone speed signs, and keep a lookout for manatees and sea turtles, especially in shallow water."
+   "start": 6.625,
+   "speechStart": 6.625,
+   "end": 8.5,
+   "builds": 1,
+   "text": "Manatee zones."
   },
   {
    "i": 2,
-   "start": 11.575,
-   "speechStart": 11.575,
-   "end": 20.525,
+   "start": 8.75,
+   "speechStart": 8.75,
+   "end": 16.1,
    "builds": 0,
-   "text": "Running aground in seagrass and leaving propeller scars damages the habitat that supports your fishery and is illegal in many areas."
+   "text": "Obey the idle-speed and slow-speed signs, and watch for manatees and sea turtles, especially in shallow water."
   },
   {
    "i": 3,
-   "start": 20.775,
-   "speechStart": 20.775,
-   "end": 26.525,
-   "builds": 0,
-   "text": "Know the rules of the Florida Keys National Marine Sanctuary if you operate there."
+   "start": 16.35,
+   "speechStart": 16.35,
+   "end": 17.875,
+   "builds": 1,
+   "text": "Seagrass."
   },
   {
    "i": 4,
-   "start": 26.775,
-   "speechStart": 26.775,
-   "end": 32.325,
+   "start": 18.125,
+   "speechStart": 18.125,
+   "end": 26.475,
    "builds": 0,
-   "text": "Collect and recycle used fishing line, which kills birds, turtles and dolphins."
+   "text": "Running across a flat and cutting a prop scar destroys the nursery your fishery depends on, and it’s illegal in many areas."
   },
   {
    "i": 5,
-   "start": 32.575,
-   "speechStart": 32.575,
-   "end": 42.95,
+   "start": 26.725,
+   "speechStart": 26.725,
+   "end": 32.475,
+   "builds": 1,
+   "text": "If you work the Keys, know the sanctuary’s rules on anchoring, fishing and discharges."
+  },
+  {
+   "i": 6,
+   "start": 32.725,
+   "speechStart": 32.725,
+   "end": 35.925,
+   "builds": 1,
+   "text": "Collect your used fishing line and recycle it."
+  },
+  {
+   "i": 7,
+   "start": 36.175,
+   "speechStart": 36.175,
+   "end": 39.775,
    "builds": 0,
-   "text": "Report spills, injured wildlife and violations to the Fish and Wildlife Conservation Commission at eight eight eight, four zero four, three nine two two."
+   "text": "Loose line kills birds, turtles and dolphins."
+  },
+  {
+   "i": 8,
+   "start": 40.025,
+   "speechStart": 40.025,
+   "end": 50.675,
+   "builds": 1,
+   "text": "And report spills, injured wildlife and violations to the Fish and Wildlife Conservation Commission, at eight eight eight, four zero four, three nine two two."
+  },
+  {
+   "i": 9,
+   "start": 50.925,
+   "speechStart": 51.675,
+   "end": 53.725,
+   "builds": 0,
+   "text": "That’s lesson fourteen."
+  },
+  {
+   "i": 10,
+   "start": 53.975,
+   "speechStart": 53.975,
+   "end": 57.65,
+   "builds": 0,
+   "text": "No sheen, no soap, call the National Response Center."
+  },
+  {
+   "i": 11,
+   "start": 57.9,
+   "speechStart": 57.9,
+   "end": 59.625,
+   "builds": 0,
+   "text": "Plastic never."
+  },
+  {
+   "i": 12,
+   "start": 59.875,
+   "speechStart": 59.875,
+   "end": 62.225,
+   "builds": 0,
+   "text": "Food at three and twelve miles."
+  },
+  {
+   "i": 13,
+   "start": 62.475,
+   "speechStart": 62.475,
+   "end": 64.85,
+   "builds": 0,
+   "text": "Type three is a holding tank."
+  },
+  {
+   "i": 14,
+   "start": 65.1,
+   "speechStart": 65.1,
+   "end": 71.225,
+   "builds": 0,
+   "text": "Next time, our last Deck lesson: reports, bridges and running a professional operation."
   }
  ]
 }

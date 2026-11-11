@@ -3,50 +3,122 @@
  "lessonId": "deck-02",
  "n": 3,
  "audio": "deck-02-3.mp3",
- "duration": 39.3,
+ "duration": 58.825,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 11.45,
+   "end": 10.7,
    "builds": 0,
-   "text": "Visual distress signals are required on coastal waters, which include the ocean, the Gulf, and connected bays and sounds until they narrow to less than two miles wide."
+   "text": "Visual distress signals are required on coastal waters: the ocean, the Gulf, and connected bays and sounds until they narrow to less than two miles wide."
   },
   {
    "i": 1,
-   "start": 11.7,
-   "speechStart": 11.7,
-   "end": 16.4,
+   "start": 10.95,
+   "speechStart": 10.95,
+   "end": 15.9,
    "builds": 0,
-   "text": "Boats sixteen feet and longer must carry signals for both day and night."
+   "text": "A boat sixteen feet or longer must carry signals for both day and night."
   },
   {
    "i": 2,
-   "start": 16.65,
-   "speechStart": 16.65,
-   "end": 29.05,
+   "start": 16.15,
+   "speechStart": 16.15,
+   "end": 17.875,
    "builds": 0,
-   "text": "You can meet that with three pyrotechnic signals good for day and night, such as red hand flares, or with combinations like an orange distress flag for day and an electric distress light for night."
+   "text": "Follow the table."
   },
   {
    "i": 3,
-   "start": 29.3,
-   "speechStart": 29.3,
-   "end": 34.875,
-   "builds": 0,
-   "text": "Pyrotechnic signals expire forty-two months after manufacture, so check the dates."
+   "start": 18.125,
+   "speechStart": 18.125,
+   "end": 20.875,
+   "builds": 1,
+   "text": "Red hand flares count for day and night."
   },
   {
    "i": 4,
-   "start": 35.125,
-   "speechStart": 35.125,
-   "end": 39.0,
+   "start": 21.125,
+   "speechStart": 21.125,
+   "end": 24.25,
+   "builds": 1,
+   "text": "So do red meteor and parachute flares."
+  },
+  {
+   "i": 5,
+   "start": 24.5,
+   "speechStart": 24.5,
+   "end": 26.875,
+   "builds": 1,
+   "text": "Orange smoke is for day only."
+  },
+  {
+   "i": 6,
+   "start": 27.125,
+   "speechStart": 27.125,
+   "end": 28.375,
    "builds": 0,
-   "text": "Never fire flares except in a real emergency."
+   "text": "Why?"
+  },
+  {
+   "i": 7,
+   "start": 28.625,
+   "speechStart": 29.375,
+   "end": 31.55,
+   "builds": 0,
+   "text": "You can’t see smoke in the dark."
+  },
+  {
+   "i": 8,
+   "start": 31.8,
+   "speechStart": 31.8,
+   "end": 35.225,
+   "builds": 1,
+   "text": "The orange distress flag is also day only."
+  },
+  {
+   "i": 9,
+   "start": 35.475,
+   "speechStart": 35.475,
+   "end": 38.675,
+   "builds": 1,
+   "text": "And the electric SOS light is night only."
+  },
+  {
+   "i": 10,
+   "start": 38.925,
+   "speechStart": 38.925,
+   "end": 41.675,
+   "builds": 0,
+   "text": "So three red flares cover you for both."
+  },
+  {
+   "i": 11,
+   "start": 41.925,
+   "speechStart": 41.925,
+   "end": 48.275,
+   "builds": 0,
+   "text": "Or you can pair a flag for day with an electric light for night, and carry no pyrotechnics at all."
+  },
+  {
+   "i": 12,
+   "start": 48.525,
+   "speechStart": 48.525,
+   "end": 54.575,
+   "builds": 0,
+   "text": "One date to remember: pyrotechnic signals expire forty-two months after manufacture."
+  },
+  {
+   "i": 13,
+   "start": 54.825,
+   "speechStart": 54.825,
+   "end": 58.525,
+   "builds": 0,
+   "text": "And never fire one except in a real emergency."
   }
  ]
 }

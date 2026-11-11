@@ -3,7 +3,7 @@
  "lessonId": "plot-07",
  "n": 1,
  "audio": "plot-07-1.mp3",
- "duration": 34.225,
+ "duration": 57.875,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,113 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.55,
+   "end": 4.7,
    "builds": 0,
-   "text": "Plotting uses standard symbols."
+   "text": "Before satellites, every ship crossed every ocean on one idea."
   },
   {
    "i": 1,
-   "start": 2.8,
-   "speechStart": 2.8,
-   "end": 7.525,
+   "start": 4.95,
+   "speechStart": 4.95,
+   "end": 10.625,
+   "builds": 0,
+   "text": "If I know where I started, which way I went, how fast, and for how long, I know where I am."
+  },
+  {
+   "i": 2,
+   "start": 10.875,
+   "speechStart": 10.875,
+   "end": 17.4,
+   "builds": 0,
+   "text": "That’s dead reckoning, and it’s still on the exam, and it’s still what gets you home when the screen goes dark."
+  },
+  {
+   "i": 3,
+   "start": 17.65,
+   "speechStart": 17.65,
+   "end": 19.55,
+   "builds": 0,
+   "text": "First, the symbols."
+  },
+  {
+   "i": 4,
+   "start": 19.8,
+   "speechStart": 19.8,
+   "end": 21.625,
+   "builds": 0,
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 5,
+   "start": 21.875,
+   "speechStart": 21.875,
+   "end": 26.6,
    "builds": 0,
    "text": "A fix, from two or more good lines of position, is a small circle."
   },
   {
-   "i": 2,
-   "start": 7.775,
-   "speechStart": 7.775,
-   "end": 13.975,
+   "i": 6,
+   "start": 26.85,
+   "speechStart": 26.85,
+   "end": 32.6,
    "builds": 0,
-   "text": "A dead reckoning position, from course and speed alone, is a half circle drawn on the course line."
+   "text": "A dead reckoning position, from course and speed alone, is a half circle on the course line."
   },
   {
-   "i": 3,
-   "start": 14.225,
-   "speechStart": 14.225,
-   "end": 22.975,
+   "i": 7,
+   "start": 32.85,
+   "speechStart": 32.85,
+   "end": 39.1,
    "builds": 0,
-   "text": "An estimated position, a DR improved with other information such as current or a single line of position, is a small square."
+   "text": "An estimated position, which is a DR improved with other information, is a small square."
   },
   {
-   "i": 4,
-   "start": 23.225,
-   "speechStart": 23.225,
-   "end": 28.575,
+   "i": 8,
+   "start": 39.35,
+   "speechStart": 39.35,
+   "end": 43.8,
    "builds": 0,
-   "text": "An electronic fix, such as from GPS, is often shown as a triangle."
+   "text": "And an electronic fix, from GPS, is often a triangle."
   },
   {
-   "i": 5,
-   "start": 28.825,
-   "speechStart": 28.825,
-   "end": 33.925,
+   "i": 9,
+   "start": 44.05,
+   "speechStart": 44.05,
+   "end": 46.575,
    "builds": 0,
-   "text": "Write the time beside every position, followed by fix, D R or E P."
+   "text": "Write the time beside every one."
+  },
+  {
+   "i": 10,
+   "start": 46.825,
+   "speechStart": 47.575,
+   "end": 51.3,
+   "builds": 0,
+   "text": "So which do you trust more: the circle, or the half circle?"
+  },
+  {
+   "i": 11,
+   "start": 51.55,
+   "speechStart": 51.55,
+   "end": 53.075,
+   "builds": 0,
+   "text": "The circle."
+  },
+  {
+   "i": 12,
+   "start": 53.325,
+   "speechStart": 53.325,
+   "end": 55.175,
+   "builds": 0,
+   "text": "A fix is measured."
+  },
+  {
+   "i": 13,
+   "start": 55.425,
+   "speechStart": 55.425,
+   "end": 57.575,
+   "builds": 0,
+   "text": "A DR is calculated."
   }
  ]
 }

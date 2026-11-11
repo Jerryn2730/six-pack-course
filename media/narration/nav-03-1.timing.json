@@ -3,7 +3,7 @@
  "lessonId": "nav-03",
  "n": 1,
  "audio": "nav-03-1.mp3",
- "duration": 40.5,
+ "duration": 61.1,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,129 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 8.225,
+   "end": 5.375,
    "builds": 0,
-   "text": "The United States uses IALA Region B, the buoyage system of the Americas, Japan, Korea and the Philippines."
+   "text": "Every channel in America is marked on one idea, and it fits in three words."
   },
   {
    "i": 1,
-   "start": 8.475,
-   "speechStart": 8.475,
-   "end": 12.45,
+   "start": 5.625,
+   "speechStart": 5.625,
+   "end": 7.725,
    "builds": 0,
-   "text": "It is built on one phrase: red, right, returning."
+   "text": "Red, right, returning."
   },
   {
    "i": 2,
-   "start": 12.7,
-   "speechStart": 12.7,
-   "end": 29.15,
+   "start": 7.975,
+   "speechStart": 7.975,
+   "end": 11.6,
    "builds": 0,
-   "text": "Returning means coming in from seaward, heading upstream, or, along the coast, traveling in the conventional direction, which runs clockwise around the country: south along the Atlantic coast, north up Florida’s Gulf coast, then west along the Gulf."
+   "text": "Keep the red marks on your right side when you’re returning."
   },
   {
    "i": 3,
-   "start": 29.4,
-   "speechStart": 29.4,
-   "end": 33.825,
+   "start": 11.85,
+   "speechStart": 11.85,
+   "end": 13.85,
    "builds": 0,
-   "text": "Red buoys are nuns, with pointed tops, and carry even numbers."
+   "text": "But returning from where?"
   },
   {
    "i": 4,
-   "start": 34.075,
-   "speechStart": 34.075,
-   "end": 37.35,
+   "start": 14.1,
+   "speechStart": 14.1,
+   "end": 16.2,
    "builds": 0,
-   "text": "Green buoys are cans and carry odd numbers."
+   "text": "From seaward, heading in."
   },
   {
    "i": 5,
-   "start": 37.6,
-   "speechStart": 37.6,
-   "end": 40.2,
+   "start": 16.45,
+   "speechStart": 16.45,
+   "end": 18.4,
    "builds": 0,
-   "text": "Numbers increase heading inbound."
+   "text": "Or heading upstream."
+  },
+  {
+   "i": 6,
+   "start": 18.65,
+   "speechStart": 18.65,
+   "end": 30.6,
+   "builds": 0,
+   "text": "And along the coast, where there’s no in or out, it means traveling clockwise around the country: south down the Atlantic coast, north up Florida’s Gulf coast, then west along the Gulf."
+  },
+  {
+   "i": 7,
+   "start": 30.85,
+   "speechStart": 30.85,
+   "end": 32.675,
+   "builds": 0,
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 8,
+   "start": 32.925,
+   "speechStart": 32.925,
+   "end": 37.725,
+   "builds": 0,
+   "text": "The red buoys are nuns, with pointed tops, and they carry even numbers."
+  },
+  {
+   "i": 9,
+   "start": 37.975,
+   "speechStart": 37.975,
+   "end": 42.025,
+   "builds": 0,
+   "text": "The green buoys are cans, flat on top, with odd numbers."
+  },
+  {
+   "i": 10,
+   "start": 42.275,
+   "speechStart": 42.275,
+   "end": 45.05,
+   "builds": 0,
+   "text": "And the numbers get bigger as you head in."
+  },
+  {
+   "i": 11,
+   "start": 45.3,
+   "speechStart": 46.05,
+   "end": 50.5,
+   "builds": 0,
+   "text": "So you’re running out of the channel toward the Gulf, and there’s a red nun ahead."
+  },
+  {
+   "i": 12,
+   "start": 50.75,
+   "speechStart": 50.75,
+   "end": 52.85,
+   "builds": 0,
+   "text": "Which side do you leave it on?"
+  },
+  {
+   "i": 13,
+   "start": 53.1,
+   "speechStart": 53.1,
+   "end": 54.525,
+   "builds": 0,
+   "text": "Your left."
+  },
+  {
+   "i": 14,
+   "start": 54.775,
+   "speechStart": 54.775,
+   "end": 57.4,
+   "builds": 0,
+   "text": "Going out, everything reverses."
+  },
+  {
+   "i": 15,
+   "start": 57.65,
+   "speechStart": 57.65,
+   "end": 60.8,
+   "builds": 0,
+   "text": "Red, right, returning, and only returning."
   }
  ]
 }

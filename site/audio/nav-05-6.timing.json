@@ -3,7 +3,7 @@
  "lessonId": "nav-05",
  "n": 6,
  "audio": "nav-05-6.mp3",
- "duration": 35.125,
+ "duration": 68.925,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,185 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.575,
+   "end": 3.35,
+   "builds": 0,
+   "text": "Last, a light that changes color to warn you."
+  },
+  {
+   "i": 1,
+   "start": 3.6,
+   "speechStart": 3.6,
+   "end": 5.425,
+   "builds": 0,
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 2,
+   "start": 5.675,
+   "speechStart": 5.675,
+   "end": 8.1,
    "builds": 0,
    "text": "Some lights have colored sectors."
   },
   {
-   "i": 1,
-   "start": 2.825,
-   "speechStart": 2.825,
-   "end": 13.675,
-   "builds": 0,
-   "text": "A red sector usually covers a hazard, such as a shoal or reef, so if you see the light turn red, you’re standing into danger and should move back into the white sector."
-  },
-  {
-   "i": 2,
-   "start": 13.925,
-   "speechStart": 13.925,
-   "end": 21.675,
-   "builds": 0,
-   "text": "The Light List gives sector boundaries in degrees true, as seen from a vessel looking toward the light, not from the light outward."
-  },
-  {
    "i": 3,
-   "start": 21.925,
-   "speechStart": 21.925,
-   "end": 24.2,
+   "start": 8.35,
+   "speechStart": 8.35,
+   "end": 12.95,
    "builds": 0,
-   "text": "That’s a common exam trap."
+   "text": "A red sector usually covers a hazard, like a shoal or a reef."
   },
   {
    "i": 4,
-   "start": 24.45,
-   "speechStart": 24.45,
-   "end": 34.825,
+   "start": 13.2,
+   "speechStart": 13.2,
+   "end": 17.525,
    "builds": 0,
-   "text": "You can also use the moment a light first appears over the horizon, called bobbing a light, to estimate your distance off by comparing it with the geographic range."
+   "text": "So if you’re watching a white light and it turns red, what’s it telling you?"
+  },
+  {
+   "i": 5,
+   "start": 17.775,
+   "speechStart": 18.525,
+   "end": 20.625,
+   "builds": 0,
+   "text": "You’re standing into danger."
+  },
+  {
+   "i": 6,
+   "start": 20.875,
+   "speechStart": 20.875,
+   "end": 22.8,
+   "builds": 0,
+   "text": "Turn back toward the white."
+  },
+  {
+   "i": 7,
+   "start": 23.05,
+   "speechStart": 23.05,
+   "end": 24.975,
+   "builds": 0,
+   "text": "Now the exam trap."
+  },
+  {
+   "i": 8,
+   "start": 25.225,
+   "speechStart": 25.225,
+   "end": 30.075,
+   "builds": 0,
+   "text": "The Light List gives the edges of each sector as bearings in degrees true."
+  },
+  {
+   "i": 9,
+   "start": 30.325,
+   "speechStart": 30.325,
+   "end": 31.95,
+   "builds": 0,
+   "text": "But from where?"
+  },
+  {
+   "i": 10,
+   "start": 32.2,
+   "speechStart": 32.2,
+   "end": 34.925,
+   "builds": 0,
+   "text": "From the vessel, looking toward the light."
+  },
+  {
+   "i": 11,
+   "start": 35.175,
+   "speechStart": 35.175,
+   "end": 37.35,
+   "builds": 0,
+   "text": "Not from the light looking out."
+  },
+  {
+   "i": 12,
+   "start": 37.6,
+   "speechStart": 37.6,
+   "end": 40.2,
+   "builds": 0,
+   "text": "People get that backward all the time."
+  },
+  {
+   "i": 13,
+   "start": 40.45,
+   "speechStart": 40.45,
+   "end": 42.225,
+   "builds": 0,
+   "text": "One last trick."
+  },
+  {
+   "i": 14,
+   "start": 42.475,
+   "speechStart": 42.475,
+   "end": 47.85,
+   "builds": 0,
+   "text": "The moment a light first pops up over the horizon, you’re at its geographic range."
+  },
+  {
+   "i": 15,
+   "start": 48.1,
+   "speechStart": 48.1,
+   "end": 50.6,
+   "builds": 0,
+   "text": "So you know roughly how far off you are."
+  },
+  {
+   "i": 16,
+   "start": 50.85,
+   "speechStart": 50.85,
+   "end": 53.0,
+   "builds": 0,
+   "text": "That’s called bobbing a light."
+  },
+  {
+   "i": 17,
+   "start": 53.25,
+   "speechStart": 53.25,
+   "end": 55.15,
+   "builds": 0,
+   "text": "That’s lesson five."
+  },
+  {
+   "i": 18,
+   "start": 55.4,
+   "speechStart": 55.4,
+   "end": 57.05,
+   "builds": 0,
+   "text": "Time the period."
+  },
+  {
+   "i": 19,
+   "start": 57.3,
+   "speechStart": 57.3,
+   "end": 59.225,
+   "builds": 0,
+   "text": "Lamp, air, earth."
+  },
+  {
+   "i": 20,
+   "start": 59.475,
+   "speechStart": 59.475,
+   "end": 62.725,
+   "builds": 0,
+   "text": "One point one seven times the square root."
+  },
+  {
+   "i": 21,
+   "start": 62.975,
+   "speechStart": 62.975,
+   "end": 65.3,
+   "builds": 0,
+   "text": "And red sector means danger."
+  },
+  {
+   "i": 22,
+   "start": 65.55,
+   "speechStart": 65.55,
+   "end": 68.625,
+   "builds": 0,
+   "text": "Next time: the books every captain keeps."
   }
  ]
 }

@@ -3,58 +3,122 @@
  "lessonId": "plot-05",
  "n": 4,
  "audio": "plot-05-4.mp3",
- "duration": 36.9,
+ "duration": 52.175,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.925,
+   "end": 4.325,
    "builds": 0,
-   "text": "The variation printed in the rose applies to the year shown, so update it."
+   "text": "The variation printed in the rose is for the year it was measured."
   },
   {
    "i": 1,
-   "start": 5.175,
-   "speechStart": 5.175,
-   "end": 12.1,
+   "start": 4.575,
+   "speechStart": 4.575,
+   "end": 7.975,
    "builds": 0,
-   "text": "Suppose the rose says fourteen degrees forty-five minutes west in twenty ten, increasing two minutes a year."
+   "text": "Sometimes the exam asks you to bring it up to date."
   },
   {
    "i": 2,
-   "start": 12.35,
-   "speechStart": 12.35,
-   "end": 15.775,
+   "start": 8.225,
+   "speechStart": 8.225,
+   "end": 10.1,
    "builds": 0,
-   "text": "In twenty twenty-six, sixteen years have passed."
+   "text": "Follow it on screen."
   },
   {
    "i": 3,
-   "start": 16.025,
-   "speechStart": 16.025,
-   "end": 20.075,
-   "builds": 0,
-   "text": "Sixteen times two minutes is thirty-two minutes of increase."
+   "start": 10.35,
+   "speechStart": 10.35,
+   "end": 17.175,
+   "builds": 1,
+   "text": "The rose says fourteen degrees, forty-five minutes west, in twenty ten, increasing two minutes a year."
   },
   {
    "i": 4,
-   "start": 20.325,
-   "speechStart": 20.325,
-   "end": 28.375,
-   "builds": 0,
-   "text": "Fourteen forty-five plus thirty-two minutes is fifteen degrees seventeen minutes west, or about fifteen degrees west."
+   "start": 17.425,
+   "speechStart": 17.425,
+   "end": 19.675,
+   "builds": 1,
+   "text": "It’s now twenty twenty-six."
   },
   {
    "i": 5,
-   "start": 28.625,
-   "speechStart": 28.625,
-   "end": 36.6,
+   "start": 19.925,
+   "speechStart": 19.925,
+   "end": 22.2,
    "builds": 0,
-   "text": "Note that many exam questions simply give you the variation to use, so read the question carefully before doing this step."
+   "text": "So sixteen years have passed."
+  },
+  {
+   "i": 6,
+   "start": 22.45,
+   "speechStart": 22.45,
+   "end": 26.5,
+   "builds": 1,
+   "text": "Sixteen times two minutes is thirty-two minutes of increase."
+  },
+  {
+   "i": 7,
+   "start": 26.75,
+   "speechStart": 26.75,
+   "end": 30.825,
+   "builds": 1,
+   "text": "Fourteen degrees forty-five minutes, plus thirty-two minutes."
+  },
+  {
+   "i": 8,
+   "start": 31.075,
+   "speechStart": 31.075,
+   "end": 33.25,
+   "builds": 0,
+   "text": "Careful: carry at sixty."
+  },
+  {
+   "i": 9,
+   "start": 33.5,
+   "speechStart": 34.25,
+   "end": 37.425,
+   "builds": 0,
+   "text": "Fifteen degrees, seventeen minutes west."
+  },
+  {
+   "i": 10,
+   "start": 37.675,
+   "speechStart": 37.675,
+   "end": 40.75,
+   "builds": 1,
+   "text": "For plotting, call it fifteen degrees west."
+  },
+  {
+   "i": 11,
+   "start": 41.0,
+   "speechStart": 41.0,
+   "end": 42.65,
+   "builds": 0,
+   "text": "One warning."
+  },
+  {
+   "i": 12,
+   "start": 42.9,
+   "speechStart": 42.9,
+   "end": 47.2,
+   "builds": 0,
+   "text": "Many exam questions simply hand you the variation to use."
+  },
+  {
+   "i": 13,
+   "start": 47.45,
+   "speechStart": 47.45,
+   "end": 51.875,
+   "builds": 0,
+   "text": "If the question gives you a number, use that number, and skip this step."
   }
  ]
 }

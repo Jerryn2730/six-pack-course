@@ -1,25 +1,61 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:03.475
-Three ranges describe how far a light can be seen.
+00:00:00.150 --> 00:00:02.450
+How far away can you see a light?
 
 2
-00:00:03.725 --> 00:00:12.575
-Nominal range is the distance a light carries in clear weather, defined as a meteorological visibility of ten nautical miles.
+00:00:02.700 --> 00:00:06.900
+There are three answers, and the exam wants you to keep them apart.
 
 3
-00:00:12.825 --> 00:00:16.000
-That’s the number on the chart and in the Light List.
+00:00:07.150 --> 00:00:13.550
+Nominal range is how far the light carries in clear weather, defined as ten miles of visibility.
 
 4
-00:00:16.250 --> 00:00:25.650
-Luminous range is how far the light carries in the visibility actually present tonight, which you find with the luminous range diagram in the Light List.
+00:00:13.800 --> 00:00:16.325
+That’s the number printed on the chart.
 
 5
-00:00:25.900 --> 00:00:34.375
-Geographic range is how far you could see the light before the curve of the earth hides it, which depends on the light’s height and your height of eye.
+00:00:16.575 --> 00:00:18.275
+It’s about the lamp.
 
 6
-00:00:34.625 --> 00:00:42.075
-The distance at which you’ll actually first see the light is the lesser of the luminous range and the geographic range.
+00:00:18.525 --> 00:00:23.325
+Luminous range is how far it carries in tonight’s actual visibility.
+
+7
+00:00:23.575 --> 00:00:25.375
+Haze shortens it.
+
+8
+00:00:25.625 --> 00:00:27.375
+It’s about the air.
+
+9
+00:00:27.625 --> 00:00:32.650
+Geographic range is how far you could see it before the curve of the earth hides it.
+
+10
+00:00:32.900 --> 00:00:36.700
+That depends on the height of the light and the height of your eye.
+
+11
+00:00:36.950 --> 00:00:38.650
+It’s about the earth.
+
+12
+00:00:38.900 --> 00:00:42.300
+So which one tells you when you’ll actually see the light?
+
+13
+00:00:43.300 --> 00:00:47.250
+The lesser of the luminous range and the geographic range.
+
+14
+00:00:47.500 --> 00:00:50.200
+Whichever limit you hit first, wins.
+
+15
+00:00:50.450 --> 00:00:54.350
+Lamp, air, earth: nominal, luminous, geographic.

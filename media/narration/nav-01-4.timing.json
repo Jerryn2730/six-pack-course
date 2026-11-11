@@ -3,50 +3,130 @@
  "lessonId": "nav-01",
  "n": 4,
  "audio": "nav-01-4.mp3",
- "duration": 41.525,
+ "duration": 61.15,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.85,
+   "end": 4.9,
    "builds": 0,
-   "text": "Chart scale is the ratio between a distance on the chart and the same distance on the earth."
+   "text": "Chart scale confuses people, because large and small seem backward."
   },
   {
    "i": 1,
-   "start": 6.1,
-   "speechStart": 6.1,
-   "end": 14.925,
+   "start": 5.15,
+   "speechStart": 5.15,
+   "end": 10.35,
    "builds": 0,
-   "text": "A scale of one to forty thousand is larger than one to eighty thousand, because each inch covers less ground and shows more detail."
+   "text": "Scale is the ratio of a distance on the chart to the same distance on the earth."
   },
   {
    "i": 2,
-   "start": 15.175,
-   "speechStart": 15.175,
-   "end": 19.125,
+   "start": 10.6,
+   "speechStart": 10.6,
+   "end": 15.35,
    "builds": 0,
-   "text": "Remember: large scale, large detail, small area."
+   "text": "One to forty thousand is a larger scale than one to eighty thousand."
   },
   {
    "i": 3,
-   "start": 19.375,
-   "speechStart": 19.375,
-   "end": 36.475,
+   "start": 15.6,
+   "speechStart": 15.6,
+   "end": 16.85,
    "builds": 0,
-   "text": "NOAA groups charts into sailing charts for offshore passages, general charts for coastwise navigation, coast charts for inshore work, harbor charts for harbors and anchorages, and small-craft charts, such as the strip charts that follow the Intracoastal Waterway."
+   "text": "Why?"
   },
   {
    "i": 4,
-   "start": 36.725,
-   "speechStart": 36.725,
-   "end": 41.225,
+   "start": 17.1,
+   "speechStart": 17.1,
+   "end": 20.925,
    "builds": 0,
-   "text": "Always use the largest-scale chart available for the waters you’re in."
+   "text": "Each inch covers less ground, so it shows more detail."
+  },
+  {
+   "i": 5,
+   "start": 21.175,
+   "speechStart": 21.175,
+   "end": 25.425,
+   "builds": 0,
+   "text": "Here’s the handle: large scale, large detail, small area."
+  },
+  {
+   "i": 6,
+   "start": 25.675,
+   "speechStart": 25.675,
+   "end": 29.475,
+   "builds": 0,
+   "text": "Now the chart types, from the smallest scale to the largest."
+  },
+  {
+   "i": 7,
+   "start": 29.725,
+   "speechStart": 29.725,
+   "end": 33.175,
+   "builds": 1,
+   "text": "Sailing charts, for planning offshore passages."
+  },
+  {
+   "i": 8,
+   "start": 33.425,
+   "speechStart": 33.425,
+   "end": 37.325,
+   "builds": 1,
+   "text": "General charts, for coastwise navigation well offshore."
+  },
+  {
+   "i": 9,
+   "start": 37.575,
+   "speechStart": 37.575,
+   "end": 40.975,
+   "builds": 1,
+   "text": "Coast charts, for inshore work and entering bays."
+  },
+  {
+   "i": 10,
+   "start": 41.225,
+   "speechStart": 41.225,
+   "end": 45.35,
+   "builds": 1,
+   "text": "Harbor charts, for harbors, anchorages and small waterways."
+  },
+  {
+   "i": 11,
+   "start": 45.6,
+   "speechStart": 45.6,
+   "end": 50.75,
+   "builds": 1,
+   "text": "And small-craft charts, like the strip charts that follow the Intracoastal Waterway."
+  },
+  {
+   "i": 12,
+   "start": 51.0,
+   "speechStart": 51.75,
+   "end": 53.75,
+   "builds": 0,
+   "text": "So which chart do you use?"
+  },
+  {
+   "i": 13,
+   "start": 54.0,
+   "speechStart": 54.0,
+   "end": 57.875,
+   "builds": 0,
+   "text": "Always the largest scale available for the water you’re in."
+  },
+  {
+   "i": 14,
+   "start": 58.125,
+   "speechStart": 58.125,
+   "end": 60.85,
+   "builds": 0,
+   "text": "More detail is never a problem."
   }
  ]
 }

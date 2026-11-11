@@ -3,50 +3,106 @@
  "lessonId": "plot-10",
  "n": 4,
  "audio": "plot-10-4.mp3",
- "duration": 32.65,
+ "duration": 47.9,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 1.75,
+   "end": 2.55,
    "builds": 0,
-   "text": "Step three."
+   "text": "Step three: fix the problem."
   },
   {
    "i": 1,
-   "start": 2.0,
-   "speechStart": 2.0,
-   "end": 6.05,
-   "builds": 0,
-   "text": "From the seven thirty fix, lay a new course line to the mark."
+   "start": 2.8,
+   "speechStart": 2.8,
+   "end": 6.825,
+   "builds": 1,
+   "text": "From your seven thirty fix, lay a new course line to the mark."
   },
   {
    "i": 2,
-   "start": 6.3,
-   "speechStart": 6.3,
-   "end": 17.475,
+   "start": 7.075,
+   "speechStart": 7.075,
+   "end": 10.55,
    "builds": 0,
-   "text": "Then draw a current diagram, with the current setting one six zero at one point six knots, to find the course to steer that keeps you on that line, and your speed made good along it."
+   "text": "You start from where you are, not from where you meant to be."
   },
   {
    "i": 3,
-   "start": 17.725,
-   "speechStart": 17.725,
-   "end": 24.3,
-   "builds": 0,
-   "text": "Convert the course to steer to a compass course, using the variation and the deviation for the new heading."
+   "start": 10.8,
+   "speechStart": 10.8,
+   "end": 16.45,
+   "builds": 1,
+   "text": "Draw a current diagram, with the current setting one six zero at one point six knots."
   },
   {
    "i": 4,
-   "start": 24.55,
-   "speechStart": 24.55,
-   "end": 32.35,
+   "start": 16.7,
+   "speechStart": 16.7,
+   "end": 22.425,
+   "builds": 1,
+   "text": "From it, read the course to steer that holds you on the new line, and your speed made good along it."
+  },
+  {
+   "i": 5,
+   "start": 22.675,
+   "speechStart": 22.675,
+   "end": 29.525,
+   "builds": 1,
+   "text": "Convert that course to compass for the helmsman, using the variation, and the deviation for the new heading."
+  },
+  {
+   "i": 6,
+   "start": 29.775,
+   "speechStart": 29.775,
+   "end": 32.2,
+   "builds": 1,
+   "text": "Last, the new arrival time."
+  },
+  {
+   "i": 7,
+   "start": 32.45,
+   "speechStart": 32.45,
+   "end": 36.45,
    "builds": 0,
-   "text": "Finally, measure the remaining distance and divide by the speed made good, not your boat speed, to get the new ETA."
+   "text": "Measure the distance still to run, and divide it by a speed."
+  },
+  {
+   "i": 8,
+   "start": 36.7,
+   "speechStart": 36.7,
+   "end": 38.3,
+   "builds": 0,
+   "text": "Which speed?"
+  },
+  {
+   "i": 9,
+   "start": 38.55,
+   "speechStart": 39.3,
+   "end": 41.175,
+   "builds": 0,
+   "text": "Your speed made good."
+  },
+  {
+   "i": 10,
+   "start": 41.425,
+   "speechStart": 41.425,
+   "end": 43.275,
+   "builds": 0,
+   "text": "Not your boat speed."
+  },
+  {
+   "i": 11,
+   "start": 43.525,
+   "speechStart": 43.525,
+   "end": 47.6,
+   "builds": 0,
+   "text": "That’s the last trap in the problem, and now you won’t fall into it."
   }
  ]
 }

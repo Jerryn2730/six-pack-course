@@ -3,42 +3,122 @@
  "lessonId": "plot-02",
  "n": 2,
  "audio": "plot-02-2.mp3",
- "duration": 31.675,
+ "duration": 52.625,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.3,
+   "end": 2.075,
    "builds": 0,
-   "text": "To plot a position, start with the latitude."
+   "text": "Now the other direction."
   },
   {
    "i": 1,
-   "start": 3.55,
-   "speechStart": 3.55,
-   "end": 14.325,
+   "start": 2.325,
+   "speechStart": 2.325,
+   "end": 5.875,
    "builds": 0,
-   "text": "Find forty-one degrees, eighteen and a half minutes on the side scale, and lay a straightedge or one arm of your parallel rulers horizontally across the chart at that latitude."
+   "text": "You’re given a position, and you have to put it on the chart."
   },
   {
    "i": 2,
-   "start": 14.575,
-   "speechStart": 14.575,
-   "end": 25.825,
+   "start": 6.125,
+   "speechStart": 6.125,
+   "end": 8.275,
    "builds": 0,
-   "text": "Next, find seventy-one degrees, thirty-five minutes on the top scale, set your dividers from the nearest meridian to that longitude, and carry that distance along your straightedge."
+   "text": "Follow the steps on screen."
   },
   {
    "i": 3,
-   "start": 26.075,
-   "speechStart": 26.075,
-   "end": 31.375,
+   "start": 8.525,
+   "speechStart": 8.525,
+   "end": 15.125,
+   "builds": 1,
+   "text": "We want forty-one degrees, eighteen and a half minutes north, seventy-one degrees, thirty-five minutes west."
+  },
+  {
+   "i": 4,
+   "start": 15.375,
+   "speechStart": 15.375,
+   "end": 17.225,
+   "builds": 1,
+   "text": "Latitude first."
+  },
+  {
+   "i": 5,
+   "start": 17.475,
+   "speechStart": 17.475,
+   "end": 24.775,
    "builds": 0,
-   "text": "Mark the spot with a sharp dot, circle it if it’s a fix, and write the time beside it."
+   "text": "Find forty-one degrees, eighteen and a half minutes on the side scale, and lay a straightedge level across the chart there."
+  },
+  {
+   "i": 6,
+   "start": 25.025,
+   "speechStart": 25.025,
+   "end": 26.85,
+   "builds": 1,
+   "text": "Then longitude."
+  },
+  {
+   "i": 7,
+   "start": 27.1,
+   "speechStart": 27.1,
+   "end": 31.3,
+   "builds": 0,
+   "text": "Find seventy-one degrees, thirty-five minutes on the top scale."
+  },
+  {
+   "i": 8,
+   "start": 31.55,
+   "speechStart": 31.55,
+   "end": 37.7,
+   "builds": 0,
+   "text": "Set your dividers from the nearest meridian to that mark, and carry that distance along your straightedge."
+  },
+  {
+   "i": 9,
+   "start": 37.95,
+   "speechStart": 37.95,
+   "end": 41.4,
+   "builds": 1,
+   "text": "Mark the spot with a small sharp dot, and circle it."
+  },
+  {
+   "i": 10,
+   "start": 41.65,
+   "speechStart": 41.65,
+   "end": 43.7,
+   "builds": 1,
+   "text": "And write the time beside it."
+  },
+  {
+   "i": 11,
+   "start": 43.95,
+   "speechStart": 43.95,
+   "end": 45.625,
+   "builds": 0,
+   "text": "Why the time?"
+  },
+  {
+   "i": 12,
+   "start": 45.875,
+   "speechStart": 46.625,
+   "end": 49.7,
+   "builds": 0,
+   "text": "Because a position without a time is useless."
+  },
+  {
+   "i": 13,
+   "start": 49.95,
+   "speechStart": 49.95,
+   "end": 52.325,
+   "builds": 0,
+   "text": "The boat was only there for a moment."
   }
  ]
 }

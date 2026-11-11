@@ -3,7 +3,7 @@
  "lessonId": "plot-09",
  "n": 1,
  "audio": "plot-09-1.mp3",
- "duration": 33.925,
+ "duration": 60.7,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,145 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.825,
+   "end": 1.925,
    "builds": 0,
-   "text": "When your fix doesn’t match your dead reckoning position, the difference is current, along with any wind effect or steering error."
+   "text": "You plot a DR."
   },
   {
    "i": 1,
-   "start": 8.075,
-   "speechStart": 8.075,
-   "end": 13.175,
+   "start": 2.175,
+   "speechStart": 2.175,
+   "end": 3.9,
    "builds": 0,
-   "text": "The set is the direction from the DR position to the fix at the same time."
+   "text": "You take a fix."
   },
   {
    "i": 2,
-   "start": 13.425,
-   "speechStart": 13.425,
-   "end": 18.825,
+   "start": 4.15,
+   "speechStart": 4.15,
+   "end": 5.75,
    "builds": 0,
-   "text": "The drift is the distance between them divided by the hours since your last fix."
+   "text": "They don’t agree."
   },
   {
    "i": 3,
-   "start": 19.075,
-   "speechStart": 19.075,
-   "end": 23.075,
+   "start": 6.0,
+   "speechStart": 6.0,
+   "end": 7.9,
    "builds": 0,
-   "text": "Notice the direction: always from the DR toward the fix."
+   "text": "That isn’t a mistake."
   },
   {
    "i": 4,
-   "start": 23.325,
-   "speechStart": 23.325,
-   "end": 33.625,
+   "start": 8.15,
+   "speechStart": 8.15,
+   "end": 9.9,
    "builds": 0,
-   "text": "Measuring from the fix back to the DR gives the reciprocal, exactly one hundred eighty degrees wrong, and that wrong answer is almost always one of the choices."
+   "text": "It’s information."
+  },
+  {
+   "i": 5,
+   "start": 10.15,
+   "speechStart": 10.15,
+   "end": 15.775,
+   "builds": 0,
+   "text": "The gap between them is the current, plus any wind and steering error, and you can measure it."
+  },
+  {
+   "i": 6,
+   "start": 16.025,
+   "speechStart": 16.025,
+   "end": 17.85,
+   "builds": 0,
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 7,
+   "start": 18.1,
+   "speechStart": 18.1,
+   "end": 19.65,
+   "builds": 0,
+   "text": "Two words."
+  },
+  {
+   "i": 8,
+   "start": 19.9,
+   "speechStart": 19.9,
+   "end": 23.0,
+   "builds": 0,
+   "text": "Set is the direction the current is pushing you."
+  },
+  {
+   "i": 9,
+   "start": 23.25,
+   "speechStart": 23.25,
+   "end": 25.15,
+   "builds": 0,
+   "text": "Drift is its speed."
+  },
+  {
+   "i": 10,
+   "start": 25.4,
+   "speechStart": 25.4,
+   "end": 31.275,
+   "builds": 0,
+   "text": "To find the set, measure the direction from your DR position to your fix, at the same time."
+  },
+  {
+   "i": 11,
+   "start": 31.525,
+   "speechStart": 31.525,
+   "end": 37.65,
+   "builds": 0,
+   "text": "To find the drift, measure the distance between them, and divide by the hours since your last fix."
+  },
+  {
+   "i": 12,
+   "start": 37.9,
+   "speechStart": 38.65,
+   "end": 42.15,
+   "builds": 0,
+   "text": "Now the trap, and it catches nearly everyone once."
+  },
+  {
+   "i": 13,
+   "start": 42.4,
+   "speechStart": 42.4,
+   "end": 44.35,
+   "builds": 0,
+   "text": "Which way do you measure?"
+  },
+  {
+   "i": 14,
+   "start": 44.6,
+   "speechStart": 44.6,
+   "end": 46.975,
+   "builds": 0,
+   "text": "From the DR, toward the fix."
+  },
+  {
+   "i": 15,
+   "start": 47.225,
+   "speechStart": 47.225,
+   "end": 50.4,
+   "builds": 0,
+   "text": "From where you thought you were, to where you really are."
+  },
+  {
+   "i": 16,
+   "start": 50.65,
+   "speechStart": 50.65,
+   "end": 56.225,
+   "builds": 0,
+   "text": "Measure it backward, and you get the reciprocal, exactly one hundred eighty degrees wrong."
+  },
+  {
+   "i": 17,
+   "start": 56.475,
+   "speechStart": 56.475,
+   "end": 60.4,
+   "builds": 0,
+   "text": "And that wrong answer is almost always one of the choices."
   }
  ]
 }

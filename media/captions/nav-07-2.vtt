@@ -1,25 +1,49 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:01.875
-A few terms.
+00:00:00.150 --> 00:00:04.050
+A few terms, and one formula you’ll use on every trip.
 
 2
-00:00:02.125 --> 00:00:09.725
-High water and low water are the highest and lowest levels in each tide cycle, and the range is the difference between them.
+00:00:04.300 --> 00:00:09.075
+The range of the tide is the difference between high water and low water.
 
 3
-00:00:09.975 --> 00:00:18.575
-Charted depths are measured from mean lower low water, so the actual depth at any moment equals the charted depth plus the height of tide.
+00:00:09.325 --> 00:00:12.875
+Charted depths are measured from mean lower low water.
 
 4
-00:00:18.825 --> 00:00:25.675
-A tide height can be negative, meaning the water is below mean lower low water and shallower than charted.
+00:00:13.125 --> 00:00:17.325
+Heights and bridge clearances are measured from mean high water.
 
 5
-00:00:25.925 --> 00:00:30.625
-That happens around spring tides, especially with strong offshore winds.
+00:00:17.575 --> 00:00:19.550
+So here’s the formula.
 
 6
-00:00:30.875 --> 00:00:36.875
-The stand of the tide is the brief period at high or low water when the level barely changes.
+00:00:19.800 --> 00:00:24.950
+The actual depth at any moment equals the charted depth plus the height of tide.
+
+7
+00:00:25.200 --> 00:00:26.800
+Now the trap.
+
+8
+00:00:27.050 --> 00:00:30.025
+Can the height of tide be a negative number?
+
+9
+00:00:31.025 --> 00:00:32.425
+Yes.
+
+10
+00:00:32.675 --> 00:00:38.975
+A minus tide means the water is below mean lower low water, so it’s shallower than the chart says.
+
+11
+00:00:39.225 --> 00:00:43.975
+It happens around spring tides, especially with a strong offshore wind.
+
+12
+00:00:44.225 --> 00:00:50.300
+And the stand of the tide is the short pause at high or low water, when the level barely changes.

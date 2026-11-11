@@ -3,66 +3,162 @@
  "lessonId": "nav-08",
  "n": 1,
  "audio": "nav-08-1.mp3",
- "duration": 44.7,
+ "duration": 68.675,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.825,
+   "end": 2.7,
    "builds": 0,
-   "text": "Tidal current is the horizontal flow of water caused by the tide."
+   "text": "Tide is water going up and down."
   },
   {
    "i": 1,
-   "start": 5.075,
-   "speechStart": 5.075,
-   "end": 12.7,
+   "start": 2.95,
+   "speechStart": 2.95,
+   "end": 5.5,
    "builds": 0,
-   "text": "A current is named for the direction it flows toward, called its set, while wind is named for the direction it comes from."
+   "text": "Current is water going sideways."
   },
   {
    "i": 2,
-   "start": 12.95,
-   "speechStart": 12.95,
-   "end": 18.4,
+   "start": 5.75,
+   "speechStart": 5.75,
+   "end": 9.25,
    "builds": 0,
-   "text": "So a north wind blows toward the south, but a north-setting current flows toward the north."
+   "text": "People mix them up, and so do exam answers."
   },
   {
    "i": 3,
-   "start": 18.65,
-   "speechStart": 18.65,
-   "end": 21.425,
+   "start": 9.5,
+   "speechStart": 9.5,
+   "end": 13.85,
    "builds": 0,
-   "text": "That difference shows up on the exam."
+   "text": "A tidal current is the horizontal flow that the tide causes."
   },
   {
    "i": 4,
-   "start": 21.675,
-   "speechStart": 21.675,
-   "end": 28.15,
-   "builds": 0,
-   "text": "Flood current flows toward land, ebb away from it, and slack water is the brief period between."
+   "start": 14.1,
+   "speechStart": 14.1,
+   "end": 18.025,
+   "builds": 1,
+   "text": "First, the naming rule, which trips up almost everyone."
   },
   {
    "i": 5,
-   "start": 28.4,
-   "speechStart": 28.4,
-   "end": 36.25,
+   "start": 18.275,
+   "speechStart": 18.275,
+   "end": 21.8,
    "builds": 0,
-   "text": "In rivers and inlets currents reverse direction, while offshore they may be rotary, turning steadily around the compass."
+   "text": "A current is named for the direction it flows toward."
   },
   {
    "i": 6,
-   "start": 36.5,
-   "speechStart": 36.5,
-   "end": 44.4,
+   "start": 22.05,
+   "speechStart": 22.05,
+   "end": 24.45,
    "builds": 0,
-   "text": "Slack water often doesn’t coincide with high or low tide, especially in inlets, so never assume one from the other."
+   "text": "That direction is called its set."
+  },
+  {
+   "i": 7,
+   "start": 24.7,
+   "speechStart": 24.7,
+   "end": 26.825,
+   "builds": 1,
+   "text": "Wind is the opposite."
+  },
+  {
+   "i": 8,
+   "start": 27.075,
+   "speechStart": 27.075,
+   "end": 29.4,
+   "builds": 0,
+   "text": "It’s named for where it comes from."
+  },
+  {
+   "i": 9,
+   "start": 29.65,
+   "speechStart": 29.65,
+   "end": 34.225,
+   "builds": 0,
+   "text": "So a north wind and a north-setting current: are they moving the same way?"
+  },
+  {
+   "i": 10,
+   "start": 34.475,
+   "speechStart": 35.225,
+   "end": 36.6,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 11,
+   "start": 36.85,
+   "speechStart": 36.85,
+   "end": 41.575,
+   "builds": 0,
+   "text": "The wind is blowing toward the south, and the current is flowing toward the north."
+  },
+  {
+   "i": 12,
+   "start": 41.825,
+   "speechStart": 41.825,
+   "end": 47.9,
+   "builds": 1,
+   "text": "Flood current flows toward the land, ebb flows away, and slack water is the pause between."
+  },
+  {
+   "i": 13,
+   "start": 48.15,
+   "speechStart": 48.15,
+   "end": 51.425,
+   "builds": 1,
+   "text": "In rivers and inlets, the current reverses."
+  },
+  {
+   "i": 14,
+   "start": 51.675,
+   "speechStart": 51.675,
+   "end": 56.075,
+   "builds": 0,
+   "text": "Offshore, it may be rotary, swinging steadily around the compass."
+  },
+  {
+   "i": 15,
+   "start": 56.325,
+   "speechStart": 56.325,
+   "end": 58.525,
+   "builds": 1,
+   "text": "And here’s the practical one."
+  },
+  {
+   "i": 16,
+   "start": 58.775,
+   "speechStart": 58.775,
+   "end": 62.5,
+   "builds": 0,
+   "text": "Slack water often doesn’t happen at high or low tide."
+  },
+  {
+   "i": 17,
+   "start": 62.75,
+   "speechStart": 62.75,
+   "end": 65.675,
+   "builds": 0,
+   "text": "In an inlet it can be an hour or more off."
+  },
+  {
+   "i": 18,
+   "start": 65.925,
+   "speechStart": 65.925,
+   "end": 68.375,
+   "builds": 0,
+   "text": "Never assume one from the other."
   }
  ]
 }

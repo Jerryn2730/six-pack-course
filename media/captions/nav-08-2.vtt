@@ -1,21 +1,49 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:03.650
-The Tidal Current Tables work like the Tide Tables.
+00:00:00.150 --> 00:00:05.875
+The Tidal Current Tables are built just like the Tide Tables, so this will feel familiar.
 
 2
-00:00:03.900 --> 00:00:12.250
-Table one gives daily times of slack water and maximum current at reference stations, with maximum flood and ebb speeds.
+00:00:06.125 --> 00:00:15.125
+Table one gives the daily times of slack water and maximum current at the reference stations, with the maximum flood and ebb speeds.
 
 3
-00:00:12.500 --> 00:00:24.350
-Table two gives corrections for subordinate stations: time differences for slack and maximum current, speed ratios for flood and ebb, and the true directions of flood and ebb.
+00:00:15.375 --> 00:00:18.550
+Table two is for the subordinate stations.
 
 4
-00:00:24.600 --> 00:00:29.725
-Table three gives the current speed at any time between slack and maximum.
+00:00:18.800 --> 00:00:25.475
+It gives time differences, speed ratios for flood and ebb, and the true directions of flood and ebb.
 
 5
-00:00:29.975 --> 00:00:46.875
-For example, if the reference station predicts a maximum flood of two knots at fourteen hundred, and a subordinate station has a time difference of minus twenty minutes and a flood ratio of point six, expect a maximum flood of one point two knots at thirteen forty.
+00:00:25.725 --> 00:00:30.425
+Table three gives the speed at any time between slack and maximum.
+
+6
+00:00:30.675 --> 00:00:32.375
+Let’s try one.
+
+7
+00:00:32.625 --> 00:00:37.900
+The reference station predicts a maximum flood of two knots at fourteen hundred.
+
+8
+00:00:38.150 --> 00:00:44.975
+Your subordinate station has a time difference of minus twenty minutes, and a flood ratio of point six.
+
+9
+00:00:45.225 --> 00:00:48.125
+When is your maximum flood, and how strong?
+
+10
+00:00:49.125 --> 00:00:53.700
+Thirteen forty, and two times point six is one point two knots.
+
+11
+00:00:53.950 --> 00:00:56.475
+Times get added or subtracted.
+
+12
+00:00:56.725 --> 00:00:58.825
+Speeds get multiplied.

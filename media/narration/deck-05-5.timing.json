@@ -3,34 +3,162 @@
  "lessonId": "deck-05",
  "n": 5,
  "audio": "deck-05-5.mp3",
- "duration": 30.95,
+ "duration": 61.2,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 17.35,
+   "end": 3.15,
    "builds": 0,
-   "text": "Small boats usually capsize from a combination of causes: too much weight or weight carried too high, water in the boat, a sharp turn at speed, a breaking wave on the beam or a broach in a following sea, and water pouring in through open hatches or over a low transom."
+   "text": "So how do small boats actually capsize?"
   },
   {
    "i": 1,
-   "start": 17.6,
-   "speechStart": 17.6,
-   "end": 22.85,
+   "start": 3.4,
+   "speechStart": 3.4,
+   "end": 5.775,
    "builds": 0,
-   "text": "The common thread is that stability was already marginal before the final wave."
+   "text": "Almost never from one cause."
   },
   {
    "i": 2,
-   "start": 23.1,
-   "speechStart": 23.1,
-   "end": 30.65,
+   "start": 6.025,
+   "speechStart": 6.025,
+   "end": 7.825,
    "builds": 0,
-   "text": "Keep weight low, keep water out, slow down in rough water, and keep the bow or stern, not the beam, toward breaking seas."
+   "text": "It’s a stack of them."
+  },
+  {
+   "i": 3,
+   "start": 8.075,
+   "speechStart": 8.075,
+   "end": 10.825,
+   "builds": 1,
+   "text": "Too much weight, or weight carried too high."
+  },
+  {
+   "i": 4,
+   "start": 11.075,
+   "speechStart": 11.075,
+   "end": 14.125,
+   "builds": 1,
+   "text": "Free surface, and water already in the boat."
+  },
+  {
+   "i": 5,
+   "start": 14.375,
+   "speechStart": 14.375,
+   "end": 16.3,
+   "builds": 1,
+   "text": "A sharp turn at speed."
+  },
+  {
+   "i": 6,
+   "start": 16.55,
+   "speechStart": 16.55,
+   "end": 20.25,
+   "builds": 1,
+   "text": "A following sea that slews her sideways into a broach."
+  },
+  {
+   "i": 7,
+   "start": 20.5,
+   "speechStart": 20.5,
+   "end": 25.8,
+   "builds": 1,
+   "text": "And down-flooding: water pouring in through an open hatch, or over a low transom."
+  },
+  {
+   "i": 8,
+   "start": 26.05,
+   "speechStart": 26.05,
+   "end": 27.975,
+   "builds": 0,
+   "text": "What’s the common thread?"
+  },
+  {
+   "i": 9,
+   "start": 28.225,
+   "speechStart": 28.975,
+   "end": 33.35,
+   "builds": 0,
+   "text": "The boat was already near her limit before the last wave arrived."
+  },
+  {
+   "i": 10,
+   "start": 33.6,
+   "speechStart": 33.6,
+   "end": 35.425,
+   "builds": 0,
+   "text": "So keep weight low."
+  },
+  {
+   "i": 11,
+   "start": 35.675,
+   "speechStart": 35.675,
+   "end": 37.4,
+   "builds": 0,
+   "text": "Keep water out."
+  },
+  {
+   "i": 12,
+   "start": 37.65,
+   "speechStart": 37.65,
+   "end": 39.825,
+   "builds": 0,
+   "text": "Slow down in rough water."
+  },
+  {
+   "i": 13,
+   "start": 40.075,
+   "speechStart": 40.075,
+   "end": 44.5,
+   "builds": 0,
+   "text": "And keep your bow or your stern, never your beam, toward breaking seas."
+  },
+  {
+   "i": 14,
+   "start": 44.75,
+   "speechStart": 44.75,
+   "end": 46.65,
+   "builds": 0,
+   "text": "That’s lesson five."
+  },
+  {
+   "i": 15,
+   "start": 46.9,
+   "speechStart": 46.9,
+   "end": 51.175,
+   "builds": 0,
+   "text": "G pulls down, B pushes up, and G M is your stability."
+  },
+  {
+   "i": 16,
+   "start": 51.425,
+   "speechStart": 51.425,
+   "end": 54.2,
+   "builds": 0,
+   "text": "Snappy is stiff, lazy is tender."
+  },
+  {
+   "i": 17,
+   "start": 54.45,
+   "speechStart": 54.45,
+   "end": 56.675,
+   "builds": 0,
+   "text": "Heel heals, a list lasts."
+  },
+  {
+   "i": 18,
+   "start": 56.925,
+   "speechStart": 56.925,
+   "end": 60.9,
+   "builds": 0,
+   "text": "Next time: hulls, and keeping the water on the outside."
   }
  ]
 }

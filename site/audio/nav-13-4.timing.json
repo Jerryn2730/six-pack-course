@@ -3,74 +3,106 @@
  "lessonId": "nav-13",
  "n": 4,
  "audio": "nav-13-4.mp3",
- "duration": 46.1,
+ "duration": 57.75,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.125,
+   "end": 3.5,
    "builds": 0,
-   "text": "Get the marine forecast before every trip."
+   "text": "Never leave the dock without the marine forecast."
   },
   {
    "i": 1,
-   "start": 3.375,
-   "speechStart": 3.375,
-   "end": 14.025,
+   "start": 3.75,
+   "speechStart": 3.75,
+   "end": 11.325,
    "builds": 0,
-   "text": "The National Weather Service issues coastal waters and offshore forecasts, available online and broadcast continuously on NOAA Weather Radio."
+   "text": "The National Weather Service issues coastal and offshore forecasts, online and on NOAA Weather Radio."
   },
   {
    "i": 2,
-   "start": 14.275,
-   "speechStart": 14.275,
+   "start": 11.575,
+   "speechStart": 11.575,
    "end": 16.175,
    "builds": 0,
-   "text": "Learn the warning levels."
+   "text": "And learn what the warnings mean, because the exam asks for the numbers."
   },
   {
    "i": 3,
    "start": 16.425,
    "speechStart": 16.425,
-   "end": 26.825,
-   "builds": 0,
-   "text": "A small craft advisory is issued for winds roughly in the twenty to thirty-three knot range, or for hazardous seas, with exact thresholds varying by region."
+   "end": 22.625,
+   "builds": 1,
+   "text": "A small craft advisory: winds of roughly twenty to thirty-three knots, or hazardous seas."
   },
   {
    "i": 4,
-   "start": 27.075,
-   "speechStart": 27.075,
-   "end": 30.65,
+   "start": 22.875,
+   "speechStart": 22.875,
+   "end": 25.8,
    "builds": 0,
-   "text": "A gale warning means thirty-four to forty-seven knots."
+   "text": "The exact threshold varies by region."
   },
   {
    "i": 5,
-   "start": 30.9,
-   "speechStart": 30.9,
-   "end": 34.425,
-   "builds": 0,
-   "text": "A storm warning means forty-eight to sixty-three knots."
+   "start": 26.05,
+   "speechStart": 26.05,
+   "end": 29.55,
+   "builds": 1,
+   "text": "A gale warning: thirty-four to forty-seven knots."
   },
   {
    "i": 6,
-   "start": 34.675,
-   "speechStart": 34.675,
-   "end": 39.0,
-   "builds": 0,
-   "text": "A hurricane force wind warning means sixty-four knots or more."
+   "start": 29.8,
+   "speechStart": 29.8,
+   "end": 33.325,
+   "builds": 1,
+   "text": "A storm warning: forty-eight to sixty-three knots."
   },
   {
    "i": 7,
-   "start": 39.25,
-   "speechStart": 39.25,
-   "end": 45.8,
+   "start": 33.575,
+   "speechStart": 33.575,
+   "end": 37.85,
+   "builds": 1,
+   "text": "A hurricane force wind warning: sixty-four knots and over."
+  },
+  {
+   "i": 8,
+   "start": 38.1,
+   "speechStart": 38.1,
+   "end": 45.5,
+   "builds": 1,
+   "text": "And a special marine warning, for short-lived hazards: severe thunderstorms, waterspouts, sudden strong gusts."
+  },
+  {
+   "i": 9,
+   "start": 45.75,
+   "speechStart": 45.75,
+   "end": 49.4,
    "builds": 0,
-   "text": "A special marine warning covers short-lived hazards like severe thunderstorms and waterspouts."
+   "text": "That last one can be issued with minutes of notice."
+  },
+  {
+   "i": 10,
+   "start": 49.65,
+   "speechStart": 50.4,
+   "end": 55.125,
+   "builds": 0,
+   "text": "So the numbers to hold on to are thirty-four, forty-eight and sixty-four."
+  },
+  {
+   "i": 11,
+   "start": 55.375,
+   "speechStart": 55.375,
+   "end": 57.45,
+   "builds": 0,
+   "text": "Gale, storm, hurricane."
   }
  ]
 }

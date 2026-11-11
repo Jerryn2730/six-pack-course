@@ -3,50 +3,154 @@
  "lessonId": "plot-08",
  "n": 5,
  "audio": "plot-08-5.mp3",
- "duration": 28.625,
+ "duration": 55.275,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.675,
+   "end": 3.05,
    "builds": 0,
-   "text": "Here’s doubling the angle at work."
+   "text": "Let’s put numbers on doubling the angle."
   },
   {
    "i": 1,
-   "start": 2.925,
-   "speechStart": 2.925,
-   "end": 10.75,
+   "start": 3.3,
+   "speechStart": 3.3,
+   "end": 5.15,
    "builds": 0,
-   "text": "Running at ten knots, you see a light thirty degrees on the bow at ten twelve, and sixty degrees on the bow at ten thirty."
+   "text": "Follow the diagram."
   },
   {
    "i": 2,
-   "start": 11.0,
-   "speechStart": 11.0,
-   "end": 14.775,
-   "builds": 0,
-   "text": "In eighteen minutes at ten knots, you ran three miles."
+   "start": 5.4,
+   "speechStart": 5.4,
+   "end": 7.45,
+   "builds": 1,
+   "text": "You’re running at ten knots."
   },
   {
    "i": 3,
-   "start": 15.025,
-   "speechStart": 15.025,
-   "end": 18.3,
-   "builds": 0,
-   "text": "So at ten thirty you were three miles from the light."
+   "start": 7.7,
+   "speechStart": 7.7,
+   "end": 11.525,
+   "builds": 1,
+   "text": "At ten twelve, a light is thirty degrees on the bow."
   },
   {
    "i": 4,
-   "start": 18.55,
-   "speechStart": 18.55,
-   "end": 28.325,
+   "start": 11.775,
+   "speechStart": 11.775,
+   "end": 14.975,
    "builds": 0,
-   "text": "Combine that distance with the ten thirty bearing, and you have a fix: measure three miles from the light along the reciprocal of the bearing, and mark your position."
+   "text": "At ten thirty, it’s sixty degrees on the bow."
+  },
+  {
+   "i": 5,
+   "start": 15.225,
+   "speechStart": 15.225,
+   "end": 17.175,
+   "builds": 0,
+   "text": "The angle has doubled."
+  },
+  {
+   "i": 6,
+   "start": 17.425,
+   "speechStart": 17.425,
+   "end": 19.35,
+   "builds": 1,
+   "text": "How far did you run?"
+  },
+  {
+   "i": 7,
+   "start": 19.6,
+   "speechStart": 19.6,
+   "end": 21.85,
+   "builds": 0,
+   "text": "Eighteen minutes at ten knots."
+  },
+  {
+   "i": 8,
+   "start": 22.1,
+   "speechStart": 22.85,
+   "end": 24.475,
+   "builds": 0,
+   "text": "Three miles."
+  },
+  {
+   "i": 9,
+   "start": 24.725,
+   "speechStart": 24.725,
+   "end": 28.0,
+   "builds": 1,
+   "text": "So at ten thirty you were three miles from the light."
+  },
+  {
+   "i": 10,
+   "start": 28.25,
+   "speechStart": 28.25,
+   "end": 30.2,
+   "builds": 1,
+   "text": "And that gives you a fix."
+  },
+  {
+   "i": 11,
+   "start": 30.45,
+   "speechStart": 30.45,
+   "end": 33.975,
+   "builds": 0,
+   "text": "You have a bearing at ten thirty, and you have a distance."
+  },
+  {
+   "i": 12,
+   "start": 34.225,
+   "speechStart": 34.225,
+   "end": 40.225,
+   "builds": 0,
+   "text": "Measure three miles from the light, back along the reciprocal of the bearing, and mark your position."
+  },
+  {
+   "i": 13,
+   "start": 40.475,
+   "speechStart": 40.475,
+   "end": 42.275,
+   "builds": 0,
+   "text": "That’s lesson eight."
+  },
+  {
+   "i": 14,
+   "start": 42.525,
+   "speechStart": 42.525,
+   "end": 45.55,
+   "builds": 0,
+   "text": "Advance the first line by the distance run."
+  },
+  {
+   "i": 15,
+   "start": 45.8,
+   "speechStart": 45.8,
+   "end": 49.4,
+   "builds": 0,
+   "text": "Bow and beam: distance run equals distance off."
+  },
+  {
+   "i": 16,
+   "start": 49.65,
+   "speechStart": 49.65,
+   "end": 52.65,
+   "builds": 0,
+   "text": "Double the angle, and the same thing holds."
+  },
+  {
+   "i": 17,
+   "start": 52.9,
+   "speechStart": 52.9,
+   "end": 54.975,
+   "builds": 0,
+   "text": "Next time: current."
   }
  ]
 }

@@ -3,50 +3,98 @@
  "lessonId": "plot-10",
  "n": 1,
  "audio": "plot-10-1.mp3",
- "duration": 30.125,
+ "duration": 47.9,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.7,
+   "end": 2.875,
    "builds": 0,
-   "text": "The plotting exam is a set of questions you work on the training chart, and you need seventy percent to pass."
+   "text": "This is the last lesson of the course."
   },
   {
    "i": 1,
-   "start": 6.95,
-   "speechStart": 6.95,
-   "end": 17.875,
+   "start": 3.125,
+   "speechStart": 3.125,
+   "end": 5.325,
    "builds": 0,
-   "text": "The questions often build on each other, like a real voyage: you plot a departure, lay a course, take bearings, find a fix, work out the current, and compute an arrival time."
+   "text": "You have every skill you need."
   },
   {
    "i": 2,
-   "start": 18.125,
-   "speechStart": 18.125,
-   "end": 22.25,
+   "start": 5.575,
+   "speechStart": 5.575,
+   "end": 10.125,
    "builds": 0,
-   "text": "That means an early mistake can carry through several answers."
+   "text": "Today we use them all, in order, the way the exam will ask you to."
   },
   {
    "i": 3,
-   "start": 22.5,
-   "speechStart": 22.5,
-   "end": 27.1,
-   "builds": 0,
-   "text": "Keep a scratch sheet showing every step, so you can find an error quickly."
+   "start": 10.375,
+   "speechStart": 10.375,
+   "end": 14.825,
+   "builds": 1,
+   "text": "The plotting exam is a set of questions, worked on the training chart."
   },
   {
    "i": 4,
-   "start": 27.35,
-   "speechStart": 27.35,
-   "end": 29.825,
+   "start": 15.075,
+   "speechStart": 15.075,
+   "end": 17.5,
+   "builds": 1,
+   "text": "You need seventy percent to pass."
+  },
+  {
+   "i": 5,
+   "start": 17.75,
+   "speechStart": 17.75,
+   "end": 21.625,
+   "builds": 1,
+   "text": "The questions often build on each other, like a real trip."
+  },
+  {
+   "i": 6,
+   "start": 21.875,
+   "speechStart": 21.875,
+   "end": 29.0,
    "builds": 0,
-   "text": "Let’s walk through a complete problem."
+   "text": "You plot a departure, lay a course, take bearings, find a fix, work out the current, and compute an arrival time."
+  },
+  {
+   "i": 7,
+   "start": 29.25,
+   "speechStart": 29.25,
+   "end": 32.675,
+   "builds": 1,
+   "text": "So what happens if you get the second question wrong?"
+  },
+  {
+   "i": 8,
+   "start": 32.925,
+   "speechStart": 33.675,
+   "end": 35.95,
+   "builds": 0,
+   "text": "It can carry through the next three."
+  },
+  {
+   "i": 9,
+   "start": 36.2,
+   "speechStart": 36.2,
+   "end": 40.05,
+   "builds": 1,
+   "text": "That’s why you keep a scratch sheet with every step written down."
+  },
+  {
+   "i": 10,
+   "start": 40.3,
+   "speechStart": 40.3,
+   "end": 47.6,
+   "builds": 0,
+   "text": "When an answer doesn’t match a choice, you can walk back through your work and find the slip in a minute, instead of starting again."
   }
  ]
 }

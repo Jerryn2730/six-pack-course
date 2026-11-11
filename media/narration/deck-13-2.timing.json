@@ -3,50 +3,106 @@
  "lessonId": "deck-13",
  "n": 2,
  "audio": "deck-13-2.mp3",
- "duration": 34.0,
+ "duration": 49.05,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.325,
+   "end": 1.9,
    "builds": 0,
-   "text": "For serious bleeding, apply firm, direct pressure on the wound with a dressing and keep pressing."
+   "text": "Next, bleeding."
   },
   {
    "i": 1,
-   "start": 6.575,
-   "speechStart": 6.575,
-   "end": 16.525,
+   "start": 2.15,
+   "speechStart": 2.15,
+   "end": 5.575,
    "builds": 0,
-   "text": "For life-threatening bleeding from an arm or leg that pressure won’t control, apply a tourniquet high on the limb, tighten it until the bleeding stops, and note the time."
+   "text": "Fishing boats are full of knives, hooks and gaffs."
   },
   {
    "i": 2,
-   "start": 16.775,
-   "speechStart": 16.775,
-   "end": 24.25,
-   "builds": 0,
-   "text": "Watch for shock, a life-threatening drop in circulation, with pale, cold, clammy skin and a fast, weak pulse."
+   "start": 5.825,
+   "speechStart": 5.825,
+   "end": 12.95,
+   "builds": 1,
+   "text": "For serious bleeding, the first step is always the same: firm, direct pressure on the wound, with a dressing."
   },
   {
    "i": 3,
-   "start": 24.5,
-   "speechStart": 24.5,
-   "end": 29.5,
+   "start": 13.2,
+   "speechStart": 13.2,
+   "end": 14.95,
    "builds": 0,
-   "text": "Lay the person flat, keep them warm, and raise their legs if they aren’t injured."
+   "text": "And keep pressing."
   },
   {
    "i": 4,
-   "start": 29.75,
-   "speechStart": 29.75,
-   "end": 33.7,
+   "start": 15.2,
+   "speechStart": 15.2,
+   "end": 17.075,
    "builds": 0,
-   "text": "Don’t give anything to eat or drink to someone seriously hurt."
+   "text": "Don’t lift it to look."
+  },
+  {
+   "i": 5,
+   "start": 17.325,
+   "speechStart": 17.325,
+   "end": 23.4,
+   "builds": 1,
+   "text": "If it’s life-threatening bleeding from an arm or a leg, and pressure won’t stop it, use a tourniquet."
+  },
+  {
+   "i": 6,
+   "start": 23.65,
+   "speechStart": 23.65,
+   "end": 28.25,
+   "builds": 0,
+   "text": "High on the limb, tight enough to stop the bleeding, and write down the time."
+  },
+  {
+   "i": 7,
+   "start": 28.5,
+   "speechStart": 28.5,
+   "end": 32.6,
+   "builds": 1,
+   "text": "Then watch for shock: a dangerous drop in circulation."
+  },
+  {
+   "i": 8,
+   "start": 32.85,
+   "speechStart": 32.85,
+   "end": 34.575,
+   "builds": 0,
+   "text": "What does it look like?"
+  },
+  {
+   "i": 9,
+   "start": 34.825,
+   "speechStart": 35.575,
+   "end": 39.25,
+   "builds": 0,
+   "text": "Pale, cold, clammy skin, and a fast, weak pulse."
+  },
+  {
+   "i": 10,
+   "start": 39.5,
+   "speechStart": 39.5,
+   "end": 44.5,
+   "builds": 1,
+   "text": "Lay the person flat, keep them warm, and raise the legs if they aren’t injured."
+  },
+  {
+   "i": 11,
+   "start": 44.75,
+   "speechStart": 44.75,
+   "end": 48.75,
+   "builds": 1,
+   "text": "And give nothing to eat or drink to someone who’s seriously hurt."
   }
  ]
 }

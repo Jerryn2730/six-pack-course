@@ -3,50 +3,98 @@
  "lessonId": "nav-05",
  "n": 2,
  "audio": "nav-05-2.mp3",
- "duration": 38.6,
+ "duration": 47.625,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 14.5,
+   "end": 1.95,
    "builds": 0,
-   "text": "The Light List, published by the Coast Guard, describes every aid in its region: name and position, light characteristic, height above water, nominal range, the structure, and remarks such as sector bearings or fog signals."
+   "text": "Where do you look a light up?"
   },
   {
    "i": 1,
-   "start": 14.75,
-   "speechStart": 14.75,
-   "end": 17.4,
+   "start": 2.2,
+   "speechStart": 2.2,
+   "end": 3.9,
    "builds": 0,
-   "text": "It’s divided into seven volumes."
+   "text": "In the Light List."
   },
   {
    "i": 2,
-   "start": 17.65,
-   "speechStart": 17.65,
-   "end": 29.2,
-   "builds": 0,
-   "text": "Volume three covers the Atlantic and Gulf coasts from Little River, South Carolina, around Florida to the Econfina River in the Big Bend, so it includes most of Florida."
+   "start": 4.15,
+   "speechStart": 4.15,
+   "end": 10.425,
+   "builds": 1,
+   "text": "It’s published by the Coast Guard, and it lists every Coast Guard light, buoy and daybeacon in a region."
   },
   {
    "i": 3,
-   "start": 29.45,
-   "speechStart": 29.45,
-   "end": 33.125,
-   "builds": 0,
-   "text": "Volume four continues along the Gulf to Texas."
+   "start": 10.675,
+   "speechStart": 10.675,
+   "end": 18.075,
+   "builds": 1,
+   "text": "For each one it gives the characteristic, the height above water, the nominal range, and a description of the structure."
   },
   {
    "i": 4,
-   "start": 33.375,
-   "speechStart": 33.375,
-   "end": 38.3,
+   "start": 18.325,
+   "speechStart": 18.325,
+   "end": 24.925,
+   "builds": 1,
+   "text": "The remarks column holds the details the chart has no room for, like sector bearings and fog signals."
+  },
+  {
+   "i": 5,
+   "start": 25.175,
+   "speechStart": 25.175,
+   "end": 27.525,
+   "builds": 1,
+   "text": "It comes in seven volumes."
+  },
+  {
+   "i": 6,
+   "start": 27.775,
+   "speechStart": 27.775,
+   "end": 29.875,
    "builds": 0,
-   "text": "Check the Local Notice to Mariners for changes since the edition you’re using."
+   "text": "Volume three is yours."
+  },
+  {
+   "i": 7,
+   "start": 30.125,
+   "speechStart": 30.125,
+   "end": 34.6,
+   "builds": 0,
+   "text": "It runs from South Carolina, around Florida, to the Big Bend."
+  },
+  {
+   "i": 8,
+   "start": 34.85,
+   "speechStart": 34.85,
+   "end": 38.4,
+   "builds": 1,
+   "text": "Volume four carries on along the Gulf to Texas."
+  },
+  {
+   "i": 9,
+   "start": 38.65,
+   "speechStart": 38.65,
+   "end": 40.75,
+   "builds": 0,
+   "text": "And how do you keep it current?"
+  },
+  {
+   "i": 10,
+   "start": 41.0,
+   "speechStart": 41.75,
+   "end": 47.325,
+   "builds": 0,
+   "text": "With the Local Notice to Mariners, which lists every change since your edition was printed."
   }
  ]
 }

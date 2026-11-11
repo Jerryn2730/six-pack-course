@@ -1,25 +1,69 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:08.725
-To plot a bearing taken with the ship’s compass, first convert it to true, using the deviation for the boat’s heading, not for the bearing.
+00:00:00.150 --> 00:00:03.450
+Now the other direction, with a trap built in.
 
 2
-00:00:08.975 --> 00:00:17.225
-Steering zero eight zero by compass, with two degrees east deviation, you see a light bearing zero one five by compass.
+00:00:03.700 --> 00:00:08.200
+You take a bearing with the ship’s compass, and you want to draw it on the chart.
 
 3
-00:00:17.475 --> 00:00:20.725
-Add east: zero one seven magnetic.
+00:00:08.450 --> 00:00:10.325
+Follow it on screen.
 
 4
-00:00:20.975 --> 00:00:24.725
-Subtract fourteen west: zero zero three true.
+00:00:10.575 --> 00:00:16.725
+You’re steering zero eight zero by compass, and the deviation on that heading is two degrees east.
 
 5
-00:00:24.975 --> 00:00:28.075
-Now draw a line through the light in that direction.
+00:00:16.975 --> 00:00:19.950
+A light bears zero one five by compass.
 
 6
-00:00:28.325 --> 00:00:36.175
-Your boat lies somewhere along that line, on the side toward you, which runs from the light along the reciprocal, one eight three.
+00:00:20.200 --> 00:00:22.925
+Which deviation applies to that bearing?
+
+7
+00:00:23.175 --> 00:00:25.575
+The one for your heading, two east.
+
+8
+00:00:25.825 --> 00:00:28.525
+We’re going up the chain now, so add east.
+
+9
+00:00:28.775 --> 00:00:31.325
+Zero one seven, magnetic.
+
+10
+00:00:31.575 --> 00:00:34.275
+Then variation, fourteen west.
+
+11
+00:00:34.525 --> 00:00:36.750
+Going up, subtract west.
+
+12
+00:00:37.000 --> 00:00:39.175
+Zero zero three, true.
+
+13
+00:00:39.425 --> 00:00:42.800
+Now draw a line through the light at zero zero three.
+
+14
+00:00:43.050 --> 00:00:45.075
+But where on that line are you?
+
+15
+00:00:46.075 --> 00:00:47.950
+On the side toward you.
+
+16
+00:00:48.200 --> 00:00:51.975
+Looking from the light, that’s the reciprocal: one eight three.
+
+17
+00:00:52.225 --> 00:00:54.100
+You’re somewhere along it.

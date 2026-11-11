@@ -3,42 +3,138 @@
  "lessonId": "nav-01",
  "n": 2,
  "audio": "nav-01-2.mp3",
- "duration": 32.3,
+ "duration": 55.625,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 9.375,
+   "end": 5.1,
    "builds": 0,
-   "text": "One minute of latitude equals one nautical mile, about six thousand seventy-six feet, roughly fifteen percent longer than a statute mile."
+   "text": "Now the units, and one of them is the most useful fact in all of chart work."
   },
   {
    "i": 1,
-   "start": 9.625,
-   "speechStart": 9.625,
-   "end": 14.925,
-   "builds": 0,
-   "text": "A knot is a speed of one nautical mile per hour, so never say knots per hour."
+   "start": 5.35,
+   "speechStart": 5.35,
+   "end": 9.075,
+   "builds": 1,
+   "text": "One minute of latitude equals one nautical mile."
   },
   {
    "i": 2,
-   "start": 15.175,
-   "speechStart": 15.175,
-   "end": 25.45,
+   "start": 9.325,
+   "speechStart": 9.325,
+   "end": 12.025,
    "builds": 0,
-   "text": "Minutes of longitude are a nautical mile long only at the equator and get shorter toward the poles, which is why you never measure distance on the longitude scale."
+   "text": "About six thousand seventy-six feet."
   },
   {
    "i": 3,
-   "start": 25.7,
-   "speechStart": 25.7,
-   "end": 32.0,
+   "start": 12.275,
+   "speechStart": 12.275,
+   "end": 14.875,
    "builds": 0,
-   "text": "Modern charts and GPS units divide minutes into tenths, while older charts show seconds."
+   "text": "So the side of your chart is a ruler."
+  },
+  {
+   "i": 4,
+   "start": 15.125,
+   "speechStart": 15.125,
+   "end": 20.6,
+   "builds": 1,
+   "text": "A statute mile, the one on highway signs, is five thousand two hundred eighty feet."
+  },
+  {
+   "i": 5,
+   "start": 20.85,
+   "speechStart": 20.85,
+   "end": 24.675,
+   "builds": 0,
+   "text": "So a nautical mile is about fifteen percent longer."
+  },
+  {
+   "i": 6,
+   "start": 24.925,
+   "speechStart": 24.925,
+   "end": 27.85,
+   "builds": 1,
+   "text": "A knot is one nautical mile per hour."
+  },
+  {
+   "i": 7,
+   "start": 28.1,
+   "speechStart": 28.1,
+   "end": 29.95,
+   "builds": 0,
+   "text": "It’s already a speed."
+  },
+  {
+   "i": 8,
+   "start": 30.2,
+   "speechStart": 30.2,
+   "end": 32.825,
+   "builds": 0,
+   "text": "So what’s wrong with saying knots per hour?"
+  },
+  {
+   "i": 9,
+   "start": 33.075,
+   "speechStart": 33.825,
+   "end": 36.6,
+   "builds": 0,
+   "text": "You’d be saying miles per hour per hour."
+  },
+  {
+   "i": 10,
+   "start": 36.85,
+   "speechStart": 36.85,
+   "end": 38.575,
+   "builds": 0,
+   "text": "Just say knots."
+  },
+  {
+   "i": 11,
+   "start": 38.825,
+   "speechStart": 38.825,
+   "end": 40.5,
+   "builds": 1,
+   "text": "And one warning."
+  },
+  {
+   "i": 12,
+   "start": 40.75,
+   "speechStart": 40.75,
+   "end": 44.725,
+   "builds": 0,
+   "text": "A minute of longitude is only a mile long at the equator."
+  },
+  {
+   "i": 13,
+   "start": 44.975,
+   "speechStart": 44.975,
+   "end": 47.525,
+   "builds": 0,
+   "text": "It shrinks as you go toward the poles."
+  },
+  {
+   "i": 14,
+   "start": 47.775,
+   "speechStart": 47.775,
+   "end": 51.475,
+   "builds": 0,
+   "text": "So never measure distance on the top or bottom scale."
+  },
+  {
+   "i": 15,
+   "start": 51.725,
+   "speechStart": 51.725,
+   "end": 55.325,
+   "builds": 0,
+   "text": "Distance comes from the side, and only from the side."
   }
  ]
 }

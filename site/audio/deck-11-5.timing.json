@@ -3,50 +3,154 @@
  "lessonId": "deck-11",
  "n": 5,
  "audio": "deck-11-5.mp3",
- "duration": 37.3,
+ "duration": 67.525,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 8.5,
+   "end": 3.575,
    "builds": 0,
-   "text": "Abandon the boat only when it’s clearly lost, because even a swamped boat is easier for rescuers to find than people in the water."
+   "text": "The last decision is the biggest: leaving the boat."
   },
   {
    "i": 1,
-   "start": 8.75,
-   "speechStart": 8.75,
-   "end": 14.2,
-   "builds": 0,
-   "text": "Before leaving, send a Mayday by voice and DSC, and activate the EPIRB."
+   "start": 3.825,
+   "speechStart": 3.825,
+   "end": 6.725,
+   "builds": 1,
+   "text": "Abandon her only when she’s clearly lost."
   },
   {
    "i": 2,
-   "start": 14.45,
-   "speechStart": 14.45,
-   "end": 24.05,
+   "start": 6.975,
+   "speechStart": 6.975,
+   "end": 13.7,
    "builds": 0,
-   "text": "Make sure everyone has a life jacket on, and grab a ditch bag with a handheld radio, personal locator beacon, flares, water and medications."
+   "text": "Even a swamped, capsized boat is far easier for a helicopter to find than a head in the water."
   },
   {
    "i": 3,
-   "start": 24.3,
-   "speechStart": 24.3,
-   "end": 31.075,
-   "builds": 0,
-   "text": "The old saying is to step up into a life raft, meaning leave only when the boat is sinking out from under you."
+   "start": 13.95,
+   "speechStart": 13.95,
+   "end": 21.1,
+   "builds": 1,
+   "text": "Before you go, call for help every way you have: Mayday by voice, the DSC distress button, and the EPIRB."
   },
   {
    "i": 4,
-   "start": 31.325,
-   "speechStart": 31.325,
-   "end": 37.0,
+   "start": 21.35,
+   "speechStart": 21.35,
+   "end": 29.725,
+   "builds": 1,
+   "text": "Life jackets on everyone, and take the grab bag: handheld radio, personal locator beacon, flares, water, medications."
+  },
+  {
+   "i": 5,
+   "start": 29.975,
+   "speechStart": 29.975,
+   "end": 33.45,
+   "builds": 1,
+   "text": "There’s an old saying: step up into the life raft."
+  },
+  {
+   "i": 6,
+   "start": 33.7,
+   "speechStart": 33.7,
+   "end": 35.3,
    "builds": 0,
-   "text": "Stay together, and stay near the boat’s last known position, where searchers will start looking."
+   "text": "What does it mean?"
+  },
+  {
+   "i": 7,
+   "start": 35.55,
+   "speechStart": 36.3,
+   "end": 39.775,
+   "builds": 0,
+   "text": "Leave only when the boat is sinking out from under you."
+  },
+  {
+   "i": 8,
+   "start": 40.025,
+   "speechStart": 40.025,
+   "end": 43.5,
+   "builds": 0,
+   "text": "If you have to climb down into the raft, it’s too soon."
+  },
+  {
+   "i": 9,
+   "start": 43.75,
+   "speechStart": 43.75,
+   "end": 47.15,
+   "builds": 1,
+   "text": "And stay together, near the boat’s last position."
+  },
+  {
+   "i": 10,
+   "start": 47.4,
+   "speechStart": 47.4,
+   "end": 49.65,
+   "builds": 0,
+   "text": "That’s where the search will start."
+  },
+  {
+   "i": 11,
+   "start": 49.9,
+   "speechStart": 49.9,
+   "end": 51.875,
+   "builds": 0,
+   "text": "That’s lesson eleven."
+  },
+  {
+   "i": 12,
+   "start": 52.125,
+   "speechStart": 52.125,
+   "end": 54.0,
+   "builds": 0,
+   "text": "Shout, point, throw."
+  },
+  {
+   "i": 13,
+   "start": 54.25,
+   "speechStart": 54.25,
+   "end": 57.975,
+   "builds": 0,
+   "text": "Williamson: sixty degrees, then reverse the rudder."
+  },
+  {
+   "i": 14,
+   "start": 58.225,
+   "speechStart": 58.225,
+   "end": 60.275,
+   "builds": 0,
+   "text": "Recover over the side."
+  },
+  {
+   "i": 15,
+   "start": 60.525,
+   "speechStart": 60.525,
+   "end": 62.35,
+   "builds": 0,
+   "text": "One, ten, one."
+  },
+  {
+   "i": 16,
+   "start": 62.6,
+   "speechStart": 62.6,
+   "end": 64.65,
+   "builds": 0,
+   "text": "And step up into the raft."
+  },
+  {
+   "i": 17,
+   "start": 64.9,
+   "speechStart": 64.9,
+   "end": 67.225,
+   "builds": 0,
+   "text": "Next time: calling for help."
   }
  ]
 }

@@ -3,66 +3,114 @@
  "lessonId": "plot-07",
  "n": 4,
  "audio": "plot-07-4.mp3",
- "duration": 34.85,
+ "duration": 49.45,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.075,
+   "end": 3.375,
    "builds": 0,
-   "text": "Here’s a DR track."
+   "text": "Let’s run a DR track with a course change in it."
   },
   {
    "i": 1,
-   "start": 2.325,
-   "speechStart": 2.325,
-   "end": 6.975,
+   "start": 3.625,
+   "speechStart": 3.625,
+   "end": 5.475,
    "builds": 0,
-   "text": "You leave an eight hundred fix on course one two five true at ten knots."
+   "text": "Follow the diagram."
   },
   {
    "i": 2,
-   "start": 7.225,
-   "speechStart": 7.225,
-   "end": 11.475,
-   "builds": 0,
-   "text": "At nine hundred, plot a DR ten miles along that course."
+   "start": 5.725,
+   "speechStart": 5.725,
+   "end": 10.45,
+   "builds": 1,
+   "text": "You leave an eight hundred fix on course one two five true, at ten knots."
   },
   {
    "i": 3,
-   "start": 11.725,
-   "speechStart": 11.725,
-   "end": 18.05,
-   "builds": 0,
-   "text": "At nine thirty you change course, so plot a DR there, five more miles along one two five."
+   "start": 10.7,
+   "speechStart": 10.7,
+   "end": 13.325,
+   "builds": 1,
+   "text": "At nine hundred, plot a DR."
   },
   {
    "i": 4,
-   "start": 18.3,
-   "speechStart": 18.3,
-   "end": 26.875,
+   "start": 13.575,
+   "speechStart": 13.575,
+   "end": 17.975,
    "builds": 0,
-   "text": "From that nine thirty DR, draw the new course line at one six zero true, and at ten hundred plot a DR five miles along it."
+   "text": "One hour at ten knots puts it ten miles along one two five."
   },
   {
    "i": 5,
-   "start": 27.125,
-   "speechStart": 27.125,
-   "end": 29.7,
-   "builds": 0,
-   "text": "Label each position with its time."
+   "start": 18.225,
+   "speechStart": 18.225,
+   "end": 20.625,
+   "builds": 1,
+   "text": "At nine thirty you change course."
   },
   {
    "i": 6,
-   "start": 29.95,
-   "speechStart": 29.95,
-   "end": 34.55,
+   "start": 20.875,
+   "speechStart": 20.875,
+   "end": 24.075,
    "builds": 0,
-   "text": "If you get a fix along the way, start a fresh DR track from the fix."
+   "text": "A change of course means a DR at that moment."
+  },
+  {
+   "i": 7,
+   "start": 24.325,
+   "speechStart": 24.325,
+   "end": 26.95,
+   "builds": 0,
+   "text": "How far from the nine hundred DR?"
+  },
+  {
+   "i": 8,
+   "start": 27.2,
+   "speechStart": 27.95,
+   "end": 32.625,
+   "builds": 0,
+   "text": "Half an hour at ten knots: five miles further along one two five."
+  },
+  {
+   "i": 9,
+   "start": 32.875,
+   "speechStart": 32.875,
+   "end": 37.9,
+   "builds": 1,
+   "text": "From that nine thirty DR, draw the new course line at one six zero true."
+  },
+  {
+   "i": 10,
+   "start": 38.15,
+   "speechStart": 38.15,
+   "end": 41.975,
+   "builds": 0,
+   "text": "At ten hundred, plot a DR five miles along it."
+  },
+  {
+   "i": 11,
+   "start": 42.225,
+   "speechStart": 42.225,
+   "end": 45.15,
+   "builds": 1,
+   "text": "And label every position with its time."
+  },
+  {
+   "i": 12,
+   "start": 45.4,
+   "speechStart": 45.4,
+   "end": 49.15,
+   "builds": 0,
+   "text": "If a fix comes in at any point, start a fresh track from it."
   }
  ]
 }

@@ -3,50 +3,106 @@
  "lessonId": "plot-03",
  "n": 2,
  "audio": "plot-03-2.mp3",
- "duration": 34.475,
+ "duration": 48.975,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 8.075,
+   "end": 6.05,
    "builds": 0,
-   "text": "To lay a course, draw a straight line from your departure point to your destination, checking that it doesn’t cross land or shoals."
+   "text": "Laying a course is the most common thing you’ll do on the plotting exam, so let’s make it a routine."
   },
   {
    "i": 1,
-   "start": 8.325,
-   "speechStart": 8.325,
-   "end": 13.825,
-   "builds": 0,
-   "text": "Walk the parallel rulers to the nearest rose and read the true course on the outer ring."
+   "start": 6.3,
+   "speechStart": 6.3,
+   "end": 10.425,
+   "builds": 1,
+   "text": "Draw a straight line from your departure point to your destination."
   },
   {
    "i": 2,
-   "start": 14.075,
-   "speechStart": 14.075,
-   "end": 18.475,
+   "start": 10.675,
+   "speechStart": 10.675,
+   "end": 12.325,
    "builds": 0,
-   "text": "Measure the length of the line with dividers on the latitude scale."
+   "text": "And look along it."
   },
   {
    "i": 3,
-   "start": 18.725,
-   "speechStart": 18.725,
-   "end": 28.9,
+   "start": 12.575,
+   "speechStart": 12.575,
+   "end": 15.0,
    "builds": 0,
-   "text": "For a leg longer than your dividers can span, set them to a round number like one or five miles and step along the line, then measure the leftover piece."
+   "text": "Does it cross land, or a shoal?"
   },
   {
    "i": 4,
-   "start": 29.15,
-   "speechStart": 29.15,
-   "end": 34.175,
+   "start": 15.25,
+   "speechStart": 15.25,
+   "end": 20.75,
+   "builds": 1,
+   "text": "Walk the parallel rulers to the nearest rose, and read the true course on the outer ring."
+  },
+  {
+   "i": 5,
+   "start": 21.0,
+   "speechStart": 21.0,
+   "end": 25.625,
+   "builds": 1,
+   "text": "Measure the length of the line with your dividers on the latitude scale."
+  },
+  {
+   "i": 6,
+   "start": 25.875,
+   "speechStart": 25.875,
+   "end": 29.45,
+   "builds": 1,
+   "text": "What if the leg is longer than your dividers will open?"
+  },
+  {
+   "i": 7,
+   "start": 29.7,
+   "speechStart": 30.45,
+   "end": 34.875,
    "builds": 0,
-   "text": "Label the line, and write your estimated time of arrival at the destination."
+   "text": "Set them to a round number, say five miles, on the side scale."
+  },
+  {
+   "i": 8,
+   "start": 35.125,
+   "speechStart": 35.125,
+   "end": 40.1,
+   "builds": 0,
+   "text": "Step them along the line, count the steps, and then measure the leftover piece."
+  },
+  {
+   "i": 9,
+   "start": 40.35,
+   "speechStart": 40.35,
+   "end": 42.325,
+   "builds": 1,
+   "text": "Finally, label it."
+  },
+  {
+   "i": 10,
+   "start": 42.575,
+   "speechStart": 42.575,
+   "end": 44.825,
+   "builds": 0,
+   "text": "Course above, speed below."
+  },
+  {
+   "i": 11,
+   "start": 45.075,
+   "speechStart": 45.075,
+   "end": 48.675,
+   "builds": 0,
+   "text": "And write your estimated time of arrival at the far end."
   }
  ]
 }

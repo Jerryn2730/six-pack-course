@@ -3,7 +3,7 @@
  "lessonId": "nav-03",
  "n": 4,
  "audio": "nav-03-4.mp3",
- "duration": 41.025,
+ "duration": 55.9,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,129 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 10.675,
+   "end": 6.125,
    "builds": 0,
-   "text": "A range is a pair of fixed marks, the front one lower and closer, the rear one higher and farther away, placed so that when they line up you’re on the centerline of a channel."
+   "text": "The best aid in any channel is a range, because it tells you exactly where the centerline is."
   },
   {
    "i": 1,
-   "start": 10.925,
-   "speechStart": 10.925,
-   "end": 16.55,
+   "start": 6.375,
+   "speechStart": 6.375,
+   "end": 8.2,
    "builds": 0,
-   "text": "Range dayboards are rectangular, often with a vertical stripe, and they may be lighted."
+   "text": "Look at the diagram."
   },
   {
    "i": 2,
-   "start": 16.8,
-   "speechStart": 16.8,
-   "end": 24.3,
+   "start": 8.45,
+   "speechStart": 8.45,
+   "end": 10.725,
    "builds": 0,
-   "text": "If the rear mark appears to the right of the front mark, you’re left of the centerline, so steer right until they line up again."
+   "text": "A range is two fixed marks."
   },
   {
    "i": 3,
-   "start": 24.55,
-   "speechStart": 24.55,
-   "end": 26.925,
+   "start": 10.975,
+   "speechStart": 10.975,
+   "end": 13.425,
    "builds": 0,
-   "text": "Remember: follow the rear mark."
+   "text": "The front one is lower and nearer."
   },
   {
    "i": 4,
-   "start": 27.175,
-   "speechStart": 27.175,
-   "end": 34.275,
+   "start": 13.675,
+   "speechStart": 13.675,
+   "end": 16.475,
    "builds": 0,
-   "text": "Ranges are also excellent for checking your compass, because the chart gives the range line’s true direction."
+   "text": "The rear one is higher and farther away."
   },
   {
    "i": 5,
-   "start": 34.525,
-   "speechStart": 34.525,
-   "end": 40.725,
+   "start": 16.725,
+   "speechStart": 16.725,
+   "end": 20.7,
    "builds": 0,
-   "text": "Only follow a range within the charted channel, since the line can extend beyond safe water."
+   "text": "When the two line up, one above the other, you’re on the centerline."
+  },
+  {
+   "i": 6,
+   "start": 20.95,
+   "speechStart": 20.95,
+   "end": 22.65,
+   "builds": 0,
+   "text": "And when they don’t?"
+  },
+  {
+   "i": 7,
+   "start": 22.9,
+   "speechStart": 22.9,
+   "end": 26.15,
+   "builds": 0,
+   "text": "Say the rear mark shows to the right of the front one."
+  },
+  {
+   "i": 8,
+   "start": 26.4,
+   "speechStart": 26.4,
+   "end": 28.45,
+   "builds": 0,
+   "text": "You’re to the left of the line."
+  },
+  {
+   "i": 9,
+   "start": 28.7,
+   "speechStart": 28.7,
+   "end": 31.675,
+   "builds": 0,
+   "text": "So steer right, until they close up again."
+  },
+  {
+   "i": 10,
+   "start": 31.925,
+   "speechStart": 31.925,
+   "end": 34.75,
+   "builds": 0,
+   "text": "Here’s the handle: follow the rear mark."
+  },
+  {
+   "i": 11,
+   "start": 35.0,
+   "speechStart": 35.75,
+   "end": 38.575,
+   "builds": 0,
+   "text": "A range gives you something else for free."
+  },
+  {
+   "i": 12,
+   "start": 38.825,
+   "speechStart": 38.825,
+   "end": 45.0,
+   "builds": 0,
+   "text": "The chart prints the range’s true direction, so every time you’re lined up, you can check your compass."
+  },
+  {
+   "i": 13,
+   "start": 45.25,
+   "speechStart": 45.25,
+   "end": 46.95,
+   "builds": 0,
+   "text": "One caution."
+  },
+  {
+   "i": 14,
+   "start": 47.2,
+   "speechStart": 47.2,
+   "end": 50.625,
+   "builds": 0,
+   "text": "A range line keeps going after the channel ends."
+  },
+  {
+   "i": 15,
+   "start": 50.875,
+   "speechStart": 50.875,
+   "end": 55.6,
+   "builds": 0,
+   "text": "Use it only within the charted channel, or it will lead you straight aground."
   }
  ]
 }

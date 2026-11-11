@@ -3,50 +3,122 @@
  "lessonId": "plot-04",
  "n": 3,
  "audio": "plot-04-3.mp3",
- "duration": 32.275,
+ "duration": 48.1,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.45,
+   "end": 5.55,
    "builds": 0,
-   "text": "To find an estimated time of arrival, work out the running time and add it to your departure time."
+   "text": "Now put the formula and the clock together to find an estimated time of arrival."
   },
   {
    "i": 1,
-   "start": 6.7,
-   "speechStart": 6.7,
-   "end": 19.1,
+   "start": 5.8,
+   "speechStart": 5.8,
+   "end": 7.675,
    "builds": 0,
-   "text": "Departing at eight fifteen, running twenty-two miles at sixteen knots takes sixty times twenty-two, divided by sixteen, about eighty-two and a half minutes, or one hour twenty-three minutes."
+   "text": "Follow it on screen."
   },
   {
    "i": 2,
-   "start": 19.35,
-   "speechStart": 19.35,
-   "end": 21.825,
-   "builds": 0,
-   "text": "Your ETA is nine thirty-eight."
+   "start": 7.925,
+   "speechStart": 7.925,
+   "end": 9.975,
+   "builds": 1,
+   "text": "You leave at eight fifteen."
   },
   {
    "i": 3,
-   "start": 22.075,
-   "speechStart": 22.075,
-   "end": 26.075,
+   "start": 10.225,
+   "speechStart": 10.225,
+   "end": 13.8,
    "builds": 0,
-   "text": "If your speed changes, recompute from your latest position."
+   "text": "You have twenty-two miles to run, at sixteen knots."
   },
   {
    "i": 4,
-   "start": 26.325,
-   "speechStart": 26.325,
-   "end": 31.975,
+   "start": 14.05,
+   "speechStart": 14.05,
+   "end": 19.625,
+   "builds": 1,
+   "text": "Sixty times twenty-two, divided by sixteen, is eighty-two and a half minutes."
+  },
+  {
+   "i": 5,
+   "start": 19.875,
+   "speechStart": 19.875,
+   "end": 22.575,
    "builds": 0,
-   "text": "And remember that current changes your speed over the ground, so a head current makes you late."
+   "text": "About one hour and twenty-three minutes."
+  },
+  {
+   "i": 6,
+   "start": 22.825,
+   "speechStart": 22.825,
+   "end": 24.775,
+   "builds": 1,
+   "text": "Add it to eight fifteen."
+  },
+  {
+   "i": 7,
+   "start": 25.025,
+   "speechStart": 25.025,
+   "end": 27.75,
+   "builds": 0,
+   "text": "Your arrival time is nine thirty-eight."
+  },
+  {
+   "i": 8,
+   "start": 28.0,
+   "speechStart": 28.0,
+   "end": 32.2,
+   "builds": 1,
+   "text": "If your speed changes along the way, don’t patch the old answer."
+  },
+  {
+   "i": 9,
+   "start": 32.45,
+   "speechStart": 32.45,
+   "end": 35.025,
+   "builds": 0,
+   "text": "Start again from your latest position."
+  },
+  {
+   "i": 10,
+   "start": 35.275,
+   "speechStart": 35.275,
+   "end": 37.05,
+   "builds": 1,
+   "text": "And one caution."
+  },
+  {
+   "i": 11,
+   "start": 37.3,
+   "speechStart": 37.3,
+   "end": 39.3,
+   "builds": 0,
+   "text": "Which speed gets you there?"
+  },
+  {
+   "i": 12,
+   "start": 39.55,
+   "speechStart": 40.3,
+   "end": 42.325,
+   "builds": 0,
+   "text": "Your speed over the ground."
+  },
+  {
+   "i": 13,
+   "start": 42.575,
+   "speechStart": 42.575,
+   "end": 47.8,
+   "builds": 0,
+   "text": "A two-knot current on the nose makes you late, however fast you’re going through the water."
   }
  ]
 }

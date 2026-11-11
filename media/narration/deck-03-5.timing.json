@@ -3,58 +3,178 @@
  "lessonId": "deck-03",
  "n": 5,
  "audio": "deck-03-5.mp3",
- "duration": 37.1,
+ "duration": 71.525,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 8.175,
+   "end": 3.55,
    "builds": 0,
-   "text": "For an electrical fire, kill the power at the battery switch or breaker first, then use carbon dioxide or dry chemical."
+   "text": "Three more kinds of fire, each with its own trick."
   },
   {
    "i": 1,
-   "start": 8.425,
-   "speechStart": 8.425,
-   "end": 14.775,
-   "builds": 0,
-   "text": "For a grease fire on a galley stove, smother it with a lid or a fire blanket and turn off the heat."
+   "start": 3.8,
+   "speechStart": 3.8,
+   "end": 5.4,
+   "builds": 1,
+   "text": "Electrical."
   },
   {
    "i": 2,
-   "start": 15.025,
-   "speechStart": 15.025,
-   "end": 19.225,
+   "start": 5.65,
+   "speechStart": 5.65,
+   "end": 9.375,
    "builds": 0,
-   "text": "Never use water, which makes burning grease explode outward."
+   "text": "Kill the power first, at the battery switch or the breaker."
   },
   {
    "i": 3,
-   "start": 19.475,
-   "speechStart": 19.475,
-   "end": 25.275,
+   "start": 9.625,
+   "speechStart": 9.625,
+   "end": 13.0,
    "builds": 0,
-   "text": "Propane is heavier than air, so a leak sinks into the bilge just like gasoline vapor."
+   "text": "Then use carbon dioxide or dry chemical."
   },
   {
    "i": 4,
-   "start": 25.525,
-   "speechStart": 25.525,
-   "end": 31.5,
+   "start": 13.25,
+   "speechStart": 13.25,
+   "end": 17.275,
    "builds": 0,
-   "text": "Close the valve at the tank, and if you smell propane, ventilate thoroughly before any spark."
+   "text": "With the power off, it’s often just a small Class A fire."
   },
   {
    "i": 5,
-   "start": 31.75,
-   "speechStart": 31.75,
-   "end": 36.8,
+   "start": 17.525,
+   "speechStart": 17.525,
+   "end": 19.225,
+   "builds": 1,
+   "text": "Galley grease."
+  },
+  {
+   "i": 6,
+   "start": 19.475,
+   "speechStart": 19.475,
+   "end": 23.65,
    "builds": 0,
-   "text": "A fire blanket is also the fastest way to smother burning clothing."
+   "text": "Smother it with a lid or a fire blanket, and turn off the heat."
+  },
+  {
+   "i": 7,
+   "start": 23.9,
+   "speechStart": 23.9,
+   "end": 25.625,
+   "builds": 0,
+   "text": "Never water."
+  },
+  {
+   "i": 8,
+   "start": 25.875,
+   "speechStart": 25.875,
+   "end": 30.425,
+   "builds": 0,
+   "text": "Water turns to steam and throws burning grease across the cabin."
+  },
+  {
+   "i": 9,
+   "start": 30.675,
+   "speechStart": 30.675,
+   "end": 32.175,
+   "builds": 1,
+   "text": "Propane."
+  },
+  {
+   "i": 10,
+   "start": 32.425,
+   "speechStart": 32.425,
+   "end": 34.475,
+   "builds": 0,
+   "text": "Close the valve at the tank."
+  },
+  {
+   "i": 11,
+   "start": 34.725,
+   "speechStart": 34.725,
+   "end": 41.375,
+   "builds": 0,
+   "text": "And remember that propane is heavier than air, so a leak sinks into the bilge just like gasoline vapor."
+  },
+  {
+   "i": 12,
+   "start": 41.625,
+   "speechStart": 41.625,
+   "end": 45.65,
+   "builds": 0,
+   "text": "If you smell it, ventilate before you touch a single switch."
+  },
+  {
+   "i": 13,
+   "start": 45.9,
+   "speechStart": 45.9,
+   "end": 48.375,
+   "builds": 1,
+   "text": "And keep a fire blanket handy."
+  },
+  {
+   "i": 14,
+   "start": 48.625,
+   "speechStart": 48.625,
+   "end": 51.975,
+   "builds": 0,
+   "text": "It’s the fastest way to put out burning clothing, too."
+  },
+  {
+   "i": 15,
+   "start": 52.225,
+   "speechStart": 52.975,
+   "end": 54.9,
+   "builds": 0,
+   "text": "That’s lesson three."
+  },
+  {
+   "i": 16,
+   "start": 55.15,
+   "speechStart": 55.15,
+   "end": 58.025,
+   "builds": 0,
+   "text": "Heat, fuel, oxygen, chain reaction."
+  },
+  {
+   "i": 17,
+   "start": 58.275,
+   "speechStart": 58.275,
+   "end": 61.25,
+   "builds": 0,
+   "text": "A for ash, B for boil, C for current."
+  },
+  {
+   "i": 18,
+   "start": 61.5,
+   "speechStart": 61.5,
+   "end": 63.625,
+   "builds": 0,
+   "text": "PASS, aimed at the base."
+  },
+  {
+   "i": 19,
+   "start": 63.875,
+   "speechStart": 63.875,
+   "end": 67.4,
+   "builds": 0,
+   "text": "And never open the engine hatch for fifteen minutes."
+  },
+  {
+   "i": 20,
+   "start": 67.65,
+   "speechStart": 67.65,
+   "end": 71.225,
+   "builds": 0,
+   "text": "Next time: how to keep the fire from starting at all."
   }
  ]
 }

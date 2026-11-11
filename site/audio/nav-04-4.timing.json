@@ -3,50 +3,106 @@
  "lessonId": "nav-04",
  "n": 4,
  "audio": "nav-04-4.mp3",
- "duration": 31.475,
+ "duration": 51.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.15,
+   "end": 5.65,
    "builds": 0,
-   "text": "The Western Rivers use a modified lateral system."
+   "text": "One more system, for waters you may never see but the exam still asks about."
   },
   {
    "i": 1,
-   "start": 4.4,
-   "speechStart": 4.4,
-   "end": 8.4,
+   "start": 5.9,
+   "speechStart": 5.9,
+   "end": 7.8,
    "builds": 0,
-   "text": "Buoys there aren’t numbered, because channels shift with the river."
+   "text": "The Western Rivers."
   },
   {
    "i": 2,
-   "start": 8.65,
-   "speechStart": 8.65,
-   "end": 14.25,
+   "start": 8.05,
+   "speechStart": 8.05,
+   "end": 11.0,
    "builds": 0,
-   "text": "Shore-mounted mileage boards show the distance in statute miles from a fixed point."
+   "text": "That’s the Mississippi and its tributaries."
   },
   {
    "i": 3,
-   "start": 14.5,
-   "speechStart": 14.5,
-   "end": 26.35,
+   "start": 11.25,
+   "speechStart": 11.25,
+   "end": 14.925,
    "builds": 0,
-   "text": "Passing daymarks, red triangles and green squares, mark the side of the channel along a bank, and diamond-shaped crossing daymarks show where the channel crosses from one bank to the other."
+   "text": "The marks there are a modified version of what you know."
   },
   {
    "i": 4,
-   "start": 26.6,
-   "speechStart": 26.6,
-   "end": 31.175,
+   "start": 15.175,
+   "speechStart": 15.175,
+   "end": 17.15,
+   "builds": 1,
+   "text": "The buoys aren’t numbered."
+  },
+  {
+   "i": 5,
+   "start": 17.4,
+   "speechStart": 17.4,
+   "end": 18.95,
    "builds": 0,
-   "text": "You may never see these from Florida, but the exam can ask about them."
+   "text": "Why not?"
+  },
+  {
+   "i": 6,
+   "start": 19.2,
+   "speechStart": 19.95,
+   "end": 22.25,
+   "builds": 0,
+   "text": "Because the channel keeps moving."
+  },
+  {
+   "i": 7,
+   "start": 22.5,
+   "speechStart": 22.5,
+   "end": 28.225,
+   "builds": 0,
+   "text": "A river shifts its sandbars from one month to the next, and the buoys are moved to follow."
+  },
+  {
+   "i": 8,
+   "start": 28.475,
+   "speechStart": 28.475,
+   "end": 35.45,
+   "builds": 1,
+   "text": "Instead of numbers, there are mileage boards on the bank, showing the distance in statute miles from a fixed point."
+  },
+  {
+   "i": 9,
+   "start": 35.7,
+   "speechStart": 35.7,
+   "end": 38.2,
+   "builds": 0,
+   "text": "Statute miles, not nautical."
+  },
+  {
+   "i": 10,
+   "start": 38.45,
+   "speechStart": 38.45,
+   "end": 44.675,
+   "builds": 1,
+   "text": "Passing daymarks, red triangles and green squares, mark the side of the channel along a bank."
+  },
+  {
+   "i": 11,
+   "start": 44.925,
+   "speechStart": 44.925,
+   "end": 51.5,
+   "builds": 1,
+   "text": "And crossing daymarks, shaped like diamonds, show where the channel crosses from one bank to the other."
   }
  ]
 }

@@ -3,66 +3,146 @@
  "lessonId": "nav-10",
  "n": 5,
  "audio": "nav-10-5.mp3",
- "duration": 32.55,
+ "duration": 56.3,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.525,
+   "end": 2.95,
    "builds": 0,
-   "text": "Let’s check a compass on a range."
+   "text": "Let’s do a range check with real numbers."
   },
   {
    "i": 1,
-   "start": 2.775,
-   "speechStart": 2.775,
-   "end": 6.275,
+   "start": 3.2,
+   "speechStart": 3.2,
+   "end": 5.075,
    "builds": 0,
-   "text": "The chart shows the range line at zero four two true."
+   "text": "Follow it on screen."
   },
   {
    "i": 2,
-   "start": 6.525,
-   "speechStart": 6.525,
-   "end": 14.725,
-   "builds": 0,
-   "text": "Variation is six west, and going from true toward magnetic you add west, so the magnetic direction is zero four eight."
+   "start": 5.325,
+   "speechStart": 5.325,
+   "end": 9.1,
+   "builds": 1,
+   "text": "The chart shows the range line as zero four two, true."
   },
   {
    "i": 3,
-   "start": 14.975,
-   "speechStart": 14.975,
-   "end": 18.95,
-   "builds": 0,
-   "text": "Lined up on the range, your compass reads zero five one."
+   "start": 9.35,
+   "speechStart": 9.35,
+   "end": 12.025,
+   "builds": 1,
+   "text": "Variation is six degrees west."
   },
   {
    "i": 4,
-   "start": 19.2,
-   "speechStart": 19.2,
-   "end": 26.025,
+   "start": 12.275,
+   "speechStart": 12.275,
+   "end": 17.725,
    "builds": 0,
-   "text": "The compass reads three degrees more than magnetic, so the deviation on this heading is three degrees west."
+   "text": "We’re going from true toward magnetic, which is uncorrecting, so we add west."
   },
   {
    "i": 5,
-   "start": 26.275,
-   "speechStart": 26.275,
-   "end": 28.6,
+   "start": 17.975,
+   "speechStart": 17.975,
+   "end": 21.8,
+   "builds": 0,
+   "text": "Zero four two plus six is zero four eight, magnetic."
+  },
+  {
+   "i": 6,
+   "start": 22.05,
+   "speechStart": 22.05,
+   "end": 26.35,
+   "builds": 1,
+   "text": "You line up on the range, and your compass reads zero five one."
+  },
+  {
+   "i": 7,
+   "start": 26.6,
+   "speechStart": 26.6,
+   "end": 29.825,
+   "builds": 1,
+   "text": "The compass reads three degrees more than magnetic."
+  },
+  {
+   "i": 8,
+   "start": 30.075,
+   "speechStart": 30.075,
+   "end": 32.85,
+   "builds": 0,
+   "text": "So is the deviation east or west?"
+  },
+  {
+   "i": 9,
+   "start": 33.1,
+   "speechStart": 33.85,
+   "end": 36.175,
    "builds": 0,
    "text": "Compass best, error west."
   },
   {
-   "i": 6,
-   "start": 28.85,
-   "speechStart": 28.85,
-   "end": 32.25,
+   "i": 10,
+   "start": 36.425,
+   "speechStart": 36.425,
+   "end": 38.325,
    "builds": 0,
-   "text": "Record it on your deviation card for that heading."
+   "text": "Three degrees west."
+  },
+  {
+   "i": 11,
+   "start": 38.575,
+   "speechStart": 38.575,
+   "end": 41.675,
+   "builds": 1,
+   "text": "Write it on your deviation card for that heading."
+  },
+  {
+   "i": 12,
+   "start": 41.925,
+   "speechStart": 41.925,
+   "end": 43.85,
+   "builds": 0,
+   "text": "That’s lesson ten."
+  },
+  {
+   "i": 13,
+   "start": 44.1,
+   "speechStart": 44.1,
+   "end": 47.2,
+   "builds": 0,
+   "text": "Heading is where you point, track is where you go."
+  },
+  {
+   "i": 14,
+   "start": 47.45,
+   "speechStart": 47.45,
+   "end": 49.975,
+   "builds": 0,
+   "text": "Relative bearings start at the bow."
+  },
+  {
+   "i": 15,
+   "start": 50.225,
+   "speechStart": 50.225,
+   "end": 53.35,
+   "builds": 0,
+   "text": "And a range is the best compass check there is."
+  },
+  {
+   "i": 16,
+   "start": 53.6,
+   "speechStart": 53.6,
+   "end": 56.0,
+   "builds": 0,
+   "text": "Next time: the electronics."
   }
  ]
 }

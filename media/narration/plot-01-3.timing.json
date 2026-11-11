@@ -3,58 +3,106 @@
  "lessonId": "plot-01",
  "n": 3,
  "audio": "plot-01-3.mp3",
- "duration": 34.6,
+ "duration": 48.025,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.575,
+   "end": 4.375,
    "builds": 0,
-   "text": "The compass rose has two rings."
+   "text": "Now the compass rose itself, which holds more than it seems to."
   },
   {
    "i": 1,
-   "start": 2.825,
-   "speechStart": 2.825,
-   "end": 7.075,
-   "builds": 0,
+   "start": 4.625,
+   "speechStart": 4.625,
+   "end": 8.875,
+   "builds": 1,
    "text": "The outer ring shows true directions, with zero at true north."
   },
   {
    "i": 2,
-   "start": 7.325,
-   "speechStart": 7.325,
-   "end": 12.625,
-   "builds": 0,
-   "text": "The inner ring shows magnetic directions, offset by the local variation."
+   "start": 9.125,
+   "speechStart": 9.125,
+   "end": 12.225,
+   "builds": 1,
+   "text": "The inner ring shows magnetic directions."
   },
   {
    "i": 3,
-   "start": 12.875,
-   "speechStart": 12.875,
-   "end": 17.775,
+   "start": 12.475,
+   "speechStart": 12.475,
+   "end": 16.5,
    "builds": 0,
-   "text": "The center gives the variation, the year it applied, and the annual change."
+   "text": "It’s the same circle, twisted by the local variation."
   },
   {
    "i": 4,
-   "start": 18.025,
-   "speechStart": 18.025,
-   "end": 30.3,
-   "builds": 0,
-   "text": "Reading the inner ring gives you magnetic directions without arithmetic, but the rose may be years out of date, so most captains and most exam problems work in true and convert at the end."
+   "start": 16.75,
+   "speechStart": 16.75,
+   "end": 22.45,
+   "builds": 1,
+   "text": "In the center, it tells you the variation, the year it was measured, and the annual change."
   },
   {
    "i": 5,
-   "start": 30.55,
-   "speechStart": 30.55,
-   "end": 34.3,
+   "start": 22.7,
+   "speechStart": 22.7,
+   "end": 27.75,
+   "builds": 1,
+   "text": "Use the rose nearest your work, because variation changes across the chart."
+  },
+  {
+   "i": 6,
+   "start": 28.0,
+   "speechStart": 28.0,
+   "end": 30.1,
+   "builds": 1,
+   "text": "So which ring should you use?"
+  },
+  {
+   "i": 7,
+   "start": 30.35,
+   "speechStart": 30.35,
+   "end": 32.525,
    "builds": 0,
-   "text": "Always use the rose nearest the area you’re working in."
+   "text": "The inner ring looks tempting."
+  },
+  {
+   "i": 8,
+   "start": 32.775,
+   "speechStart": 32.775,
+   "end": 35.675,
+   "builds": 0,
+   "text": "It gives you magnetic with no arithmetic."
+  },
+  {
+   "i": 9,
+   "start": 35.925,
+   "speechStart": 35.925,
+   "end": 37.6,
+   "builds": 0,
+   "text": "What’s the catch?"
+  },
+  {
+   "i": 10,
+   "start": 37.85,
+   "speechStart": 38.6,
+   "end": 41.1,
+   "builds": 0,
+   "text": "The rose may be years out of date."
+  },
+  {
+   "i": 11,
+   "start": 41.35,
+   "speechStart": 41.35,
+   "end": 47.725,
+   "builds": 0,
+   "text": "So most captains, and most exam problems, work in true on the outer ring, and convert at the end."
   }
  ]
 }

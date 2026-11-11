@@ -3,7 +3,7 @@
  "lessonId": "deck-10",
  "n": 3,
  "audio": "deck-10-3.mp3",
- "duration": 36.625,
+ "duration": 54.775,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,121 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.975,
+   "end": 4.2,
    "builds": 0,
-   "text": "Sometimes you’ll be asked to tow another boat."
+   "text": "Sooner or later someone will wave you down and ask for a tow."
   },
   {
    "i": 1,
-   "start": 3.225,
-   "speechStart": 3.225,
-   "end": 11.775,
+   "start": 4.45,
+   "speechStart": 4.45,
+   "end": 7.075,
    "builds": 0,
-   "text": "Attach the towline to strong points with a bridle that spreads the load between two cleats, not to a single small cleat or a rail."
+   "text": "You’re allowed to help, but do it properly."
   },
   {
    "i": 2,
-   "start": 12.025,
-   "speechStart": 12.025,
-   "end": 19.55,
+   "start": 7.325,
+   "speechStart": 7.325,
+   "end": 9.15,
    "builds": 0,
-   "text": "Use a long towline with a sag in it, which absorbs shock like a spring, and keep the speed low, well below planing."
+   "text": "Look at the diagram."
   },
   {
    "i": 3,
-   "start": 19.8,
-   "speechStart": 19.8,
-   "end": 28.775,
+   "start": 9.4,
+   "speechStart": 9.4,
+   "end": 15.3,
    "builds": 0,
-   "text": "Keep everyone clear of the towline, since a parting line can snap back with deadly force, and keep a knife ready to cut free in an emergency."
+   "text": "Make the towline fast to strong points, with a bridle that spreads the load between two cleats."
   },
   {
    "i": 4,
-   "start": 29.025,
-   "speechStart": 29.025,
-   "end": 36.325,
+   "start": 15.55,
+   "speechStart": 15.55,
+   "end": 18.4,
    "builds": 0,
-   "text": "In serious conditions, it’s often wiser to stand by and call a professional towing service or the Coast Guard."
+   "text": "Not one small cleat, and never a rail."
+  },
+  {
+   "i": 5,
+   "start": 18.65,
+   "speechStart": 18.65,
+   "end": 21.2,
+   "builds": 0,
+   "text": "Use a long towline with a sag in it."
+  },
+  {
+   "i": 6,
+   "start": 21.45,
+   "speechStart": 21.45,
+   "end": 24.7,
+   "builds": 0,
+   "text": "The sag works like a spring and takes up the shock."
+  },
+  {
+   "i": 7,
+   "start": 24.95,
+   "speechStart": 24.95,
+   "end": 27.925,
+   "builds": 0,
+   "text": "Keep the speed low, well below planing."
+  },
+  {
+   "i": 8,
+   "start": 28.175,
+   "speechStart": 28.175,
+   "end": 30.45,
+   "builds": 0,
+   "text": "Keep everyone clear of the line."
+  },
+  {
+   "i": 9,
+   "start": 30.7,
+   "speechStart": 30.7,
+   "end": 33.2,
+   "builds": 0,
+   "text": "Remember snap-back from lesson eight?"
+  },
+  {
+   "i": 10,
+   "start": 33.45,
+   "speechStart": 33.45,
+   "end": 37.7,
+   "builds": 0,
+   "text": "And keep a knife where you can reach it, to cut free in an emergency."
+  },
+  {
+   "i": 11,
+   "start": 37.95,
+   "speechStart": 38.7,
+   "end": 40.575,
+   "builds": 0,
+   "text": "Now the judgment call."
+  },
+  {
+   "i": 12,
+   "start": 40.825,
+   "speechStart": 40.825,
+   "end": 45.05,
+   "builds": 0,
+   "text": "In serious conditions, is towing always the right thing to do?"
+  },
+  {
+   "i": 13,
+   "start": 45.3,
+   "speechStart": 45.3,
+   "end": 46.675,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 14,
+   "start": 46.925,
+   "speechStart": 46.925,
+   "end": 54.475,
+   "builds": 0,
+   "text": "Often the wiser move is to stand by, keep them company, and call a professional towing service or the Coast Guard."
   }
  ]
 }

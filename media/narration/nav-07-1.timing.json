@@ -3,7 +3,7 @@
  "lessonId": "nav-07",
  "n": 1,
  "audio": "nav-07-1.mp3",
- "duration": 37.45,
+ "duration": 59.875,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,113 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.675,
+   "end": 9.95,
+   "builds": 0,
+   "text": "Twice a day, more or less, the whole ocean rises and falls, and in Florida’s shallow water that can be the difference between floating and sitting on the bottom."
+  },
+  {
+   "i": 1,
+   "start": 10.2,
+   "speechStart": 10.2,
+   "end": 14.725,
    "builds": 0,
    "text": "Tides are caused mainly by the moon’s gravity, with help from the sun."
   },
   {
-   "i": 1,
-   "start": 4.925,
-   "speechStart": 4.925,
-   "end": 6.675,
-   "builds": 0,
-   "text": "There are three types."
-  },
-  {
    "i": 2,
-   "start": 6.925,
-   "speechStart": 6.925,
-   "end": 14.7,
+   "start": 14.975,
+   "speechStart": 14.975,
+   "end": 17.575,
    "builds": 0,
-   "text": "A semidiurnal tide has two high and two low waters each day of roughly equal height, like Florida’s Atlantic coast."
+   "text": "And they don’t behave the same everywhere."
   },
   {
    "i": 3,
-   "start": 14.95,
-   "speechStart": 14.95,
-   "end": 22.55,
+   "start": 17.825,
+   "speechStart": 17.825,
+   "end": 19.75,
    "builds": 0,
-   "text": "A mixed tide has two highs and two lows of noticeably unequal height, common along much of Florida’s Gulf coast."
+   "text": "Look at the three curves."
   },
   {
    "i": 4,
-   "start": 22.8,
-   "speechStart": 22.8,
-   "end": 28.8,
+   "start": 20.0,
+   "speechStart": 20.0,
+   "end": 25.375,
    "builds": 0,
-   "text": "A diurnal tide has just one high and one low each day, as in parts of the Panhandle."
+   "text": "A semidiurnal tide has two highs and two lows each day, about equal in height."
   },
   {
    "i": 5,
-   "start": 29.05,
-   "speechStart": 29.05,
-   "end": 37.15,
+   "start": 25.625,
+   "speechStart": 25.625,
+   "end": 28.1,
    "builds": 0,
-   "text": "Because the tidal day is about twenty-four hours and fifty minutes, high and low water come roughly fifty minutes later each day."
+   "text": "That’s Florida’s Atlantic coast."
+  },
+  {
+   "i": 6,
+   "start": 28.35,
+   "speechStart": 28.35,
+   "end": 33.4,
+   "builds": 0,
+   "text": "A mixed tide also has two highs and two lows, but noticeably unequal."
+  },
+  {
+   "i": 7,
+   "start": 33.65,
+   "speechStart": 33.65,
+   "end": 35.875,
+   "builds": 0,
+   "text": "That’s much of our Gulf coast."
+  },
+  {
+   "i": 8,
+   "start": 36.125,
+   "speechStart": 36.125,
+   "end": 42.0,
+   "builds": 0,
+   "text": "And a diurnal tide has just one high and one low a day, as in parts of the Panhandle."
+  },
+  {
+   "i": 9,
+   "start": 42.25,
+   "speechStart": 43.0,
+   "end": 44.7,
+   "builds": 0,
+   "text": "One more fact."
+  },
+  {
+   "i": 10,
+   "start": 44.95,
+   "speechStart": 44.95,
+   "end": 49.35,
+   "builds": 0,
+   "text": "The tidal day is about twenty-four hours and fifty minutes long."
+  },
+  {
+   "i": 11,
+   "start": 49.6,
+   "speechStart": 49.6,
+   "end": 54.425,
+   "builds": 0,
+   "text": "So if high water is at eight this morning, about when is it tomorrow morning?"
+  },
+  {
+   "i": 12,
+   "start": 54.675,
+   "speechStart": 54.675,
+   "end": 56.625,
+   "builds": 0,
+   "text": "Around eight fifty."
+  },
+  {
+   "i": 13,
+   "start": 56.875,
+   "speechStart": 56.875,
+   "end": 59.575,
+   "builds": 0,
+   "text": "Roughly fifty minutes later each day."
   }
  ]
 }

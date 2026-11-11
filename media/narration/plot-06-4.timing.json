@@ -3,58 +3,122 @@
  "lessonId": "plot-06",
  "n": 4,
  "audio": "plot-06-4.mp3",
- "duration": 34.35,
+ "duration": 51.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 7.875,
+   "end": 2.4,
    "builds": 0,
-   "text": "At ten fifteen you take two bearings: a light bears three four zero true, and a tower bears zero six five true."
+   "text": "Let’s plot a two-bearing fix."
   },
   {
    "i": 1,
-   "start": 8.125,
-   "speechStart": 8.125,
-   "end": 11.05,
+   "start": 2.65,
+   "speechStart": 2.65,
+   "end": 4.5,
    "builds": 0,
-   "text": "Through the light, draw a line along the bearing."
+   "text": "Follow the diagram."
   },
   {
    "i": 2,
-   "start": 11.3,
-   "speechStart": 11.3,
-   "end": 16.1,
-   "builds": 0,
-   "text": "Your boat is on the side toward you, along the reciprocal, one six zero."
+   "start": 4.75,
+   "speechStart": 4.75,
+   "end": 7.375,
+   "builds": 1,
+   "text": "At ten fifteen you take two bearings."
   },
   {
    "i": 3,
-   "start": 16.35,
-   "speechStart": 16.35,
-   "end": 22.05,
+   "start": 7.625,
+   "speechStart": 7.625,
+   "end": 10.275,
    "builds": 0,
-   "text": "Through the tower, draw the second line; your boat is along its reciprocal, two four five."
+   "text": "A light bears three four zero true."
   },
   {
    "i": 4,
-   "start": 22.3,
-   "speechStart": 22.3,
-   "end": 28.75,
+   "start": 10.525,
+   "speechStart": 10.525,
+   "end": 13.275,
    "builds": 0,
-   "text": "The lines are eighty-five degrees apart, nearly ideal, and they cross at your ten fifteen fix."
+   "text": "A tower bears zero six five true."
   },
   {
    "i": 5,
-   "start": 29.0,
-   "speechStart": 29.0,
-   "end": 34.05,
+   "start": 13.525,
+   "speechStart": 13.525,
+   "end": 15.2,
+   "builds": 1,
+   "text": "Start with the light."
+  },
+  {
+   "i": 6,
+   "start": 15.45,
+   "speechStart": 15.45,
+   "end": 19.025,
    "builds": 0,
-   "text": "Circle it, label it, and read its latitude and longitude from the scales."
+   "text": "A bearing is the direction from you to the object."
+  },
+  {
+   "i": 7,
+   "start": 19.275,
+   "speechStart": 19.275,
+   "end": 23.5,
+   "builds": 0,
+   "text": "So from the light, which way do you draw the line back toward yourself?"
+  },
+  {
+   "i": 8,
+   "start": 23.75,
+   "speechStart": 24.5,
+   "end": 27.4,
+   "builds": 0,
+   "text": "Along the reciprocal: one six zero."
+  },
+  {
+   "i": 9,
+   "start": 27.65,
+   "speechStart": 27.65,
+   "end": 29.35,
+   "builds": 1,
+   "text": "Now the tower."
+  },
+  {
+   "i": 10,
+   "start": 29.6,
+   "speechStart": 29.6,
+   "end": 34.975,
+   "builds": 0,
+   "text": "It bears zero six five, so from the tower you draw back along two four five."
+  },
+  {
+   "i": 11,
+   "start": 35.225,
+   "speechStart": 35.225,
+   "end": 42.4,
+   "builds": 1,
+   "text": "The two lines are eighty-five degrees apart, which is nearly ideal, and they cross at your ten fifteen fix."
+  },
+  {
+   "i": 12,
+   "start": 42.65,
+   "speechStart": 42.65,
+   "end": 44.675,
+   "builds": 0,
+   "text": "Circle it and label it."
+  },
+  {
+   "i": 13,
+   "start": 44.925,
+   "speechStart": 44.925,
+   "end": 51.5,
+   "builds": 1,
+   "text": "Then read its latitude and longitude from the scales, because that’s usually what the question asks for."
   }
  ]
 }

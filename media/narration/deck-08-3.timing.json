@@ -3,7 +3,7 @@
  "lessonId": "deck-08",
  "n": 3,
  "audio": "deck-08-3.mp3",
- "duration": 35.275,
+ "duration": 52.475,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,105 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.95,
+   "end": 2.2,
    "builds": 0,
-   "text": "A boat at a dock is usually held by four or more lines."
+   "text": "Now let’s tie the boat up."
   },
   {
    "i": 1,
-   "start": 4.2,
-   "speechStart": 4.2,
-   "end": 11.725,
+   "start": 2.45,
+   "speechStart": 2.45,
+   "end": 4.275,
    "builds": 0,
-   "text": "The bow line runs forward from the bow, and the stern line runs aft from the stern, both holding the boat in to the dock."
+   "text": "Look at the diagram."
   },
   {
    "i": 2,
-   "start": 11.975,
-   "speechStart": 11.975,
-   "end": 14.975,
+   "start": 4.525,
+   "speechStart": 4.525,
+   "end": 9.8,
    "builds": 0,
-   "text": "Spring lines control fore-and-aft movement."
+   "text": "A boat alongside is usually held by four lines or more, and each has a job."
   },
   {
    "i": 3,
-   "start": 15.225,
-   "speechStart": 15.225,
-   "end": 25.75,
+   "start": 10.05,
+   "speechStart": 10.05,
+   "end": 15.225,
    "builds": 0,
-   "text": "The bow spring runs from near the bow aft to the dock and stops the boat surging forward, while the stern spring runs from near the stern forward and stops it moving back."
+   "text": "The bow line leads forward from the bow, and the stern line leads aft from the stern."
   },
   {
    "i": 4,
-   "start": 26.0,
-   "speechStart": 26.0,
-   "end": 29.5,
+   "start": 15.475,
+   "speechStart": 15.475,
+   "end": 17.95,
    "builds": 0,
-   "text": "A breast line runs straight across to hold the boat close."
+   "text": "Those two hold her in to the dock."
   },
   {
    "i": 5,
-   "start": 29.75,
-   "speechStart": 29.75,
-   "end": 34.975,
+   "start": 18.2,
+   "speechStart": 18.2,
+   "end": 21.2,
    "builds": 0,
-   "text": "Leave slack for the tide, or the boat can hang from its lines as the water falls."
+   "text": "The spring lines stop her moving along it."
+  },
+  {
+   "i": 6,
+   "start": 21.45,
+   "speechStart": 21.45,
+   "end": 27.275,
+   "builds": 0,
+   "text": "The bow spring runs from near the bow, aft to the dock, and it stops the boat surging forward."
+  },
+  {
+   "i": 7,
+   "start": 27.525,
+   "speechStart": 27.525,
+   "end": 33.4,
+   "builds": 0,
+   "text": "The stern spring runs from near the stern, forward to the dock, and it stops her moving back."
+  },
+  {
+   "i": 8,
+   "start": 33.65,
+   "speechStart": 33.65,
+   "end": 37.325,
+   "builds": 0,
+   "text": "A breast line runs straight across, to hold her close."
+  },
+  {
+   "i": 9,
+   "start": 37.575,
+   "speechStart": 38.325,
+   "end": 41.425,
+   "builds": 0,
+   "text": "One more thing, and it matters in Florida."
+  },
+  {
+   "i": 10,
+   "start": 41.675,
+   "speechStart": 41.675,
+   "end": 43.7,
+   "builds": 0,
+   "text": "Leave slack for the tide."
+  },
+  {
+   "i": 11,
+   "start": 43.95,
+   "speechStart": 43.95,
+   "end": 47.775,
+   "builds": 0,
+   "text": "What happens if you tie her up tight at high water and go home?"
+  },
+  {
+   "i": 12,
+   "start": 48.025,
+   "speechStart": 48.025,
+   "end": 52.175,
+   "builds": 0,
+   "text": "The tide falls, and the boat ends up hanging from her own lines."
   }
  ]
 }

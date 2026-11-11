@@ -3,50 +3,138 @@
  "lessonId": "nav-14",
  "n": 2,
  "audio": "nav-14-2.mp3",
- "duration": 40.75,
+ "duration": 60.375,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.075,
+   "end": 1.975,
    "builds": 0,
-   "text": "Tropical cyclones are classified by sustained wind."
+   "text": "Now the big ones."
   },
   {
    "i": 1,
-   "start": 4.325,
-   "speechStart": 4.325,
-   "end": 13.825,
+   "start": 2.225,
+   "speechStart": 2.225,
+   "end": 6.175,
    "builds": 0,
-   "text": "A tropical depression has winds under thirty-four knots, a tropical storm thirty-four to sixty-three knots, and a hurricane sixty-four knots or more."
+   "text": "Tropical cyclones are sorted by their sustained wind."
   },
   {
    "i": 2,
-   "start": 14.075,
-   "speechStart": 14.075,
-   "end": 20.525,
-   "builds": 0,
-   "text": "Category three and higher hurricanes, ninety-six knots and above, are called major hurricanes."
+   "start": 6.425,
+   "speechStart": 6.425,
+   "end": 9.75,
+   "builds": 1,
+   "text": "A tropical depression: under thirty-four knots."
   },
   {
    "i": 3,
-   "start": 20.775,
-   "speechStart": 20.775,
-   "end": 28.2,
-   "builds": 0,
-   "text": "Atlantic hurricane season runs from June first through November thirtieth, with the peak from August through October."
+   "start": 10.0,
+   "speechStart": 10.0,
+   "end": 13.65,
+   "builds": 1,
+   "text": "A tropical storm: thirty-four to sixty-three knots."
   },
   {
    "i": 4,
-   "start": 28.45,
-   "speechStart": 28.45,
-   "end": 40.45,
+   "start": 13.9,
+   "speechStart": 13.9,
+   "end": 15.85,
    "builds": 0,
-   "text": "The National Hurricane Center issues a watch when hurricane conditions are possible, usually within forty-eight hours, and a warning when they are expected, usually within thirty-six hours."
+   "text": "That’s when it gets a name."
+  },
+  {
+   "i": 5,
+   "start": 16.1,
+   "speechStart": 16.1,
+   "end": 19.3,
+   "builds": 1,
+   "text": "A hurricane: sixty-four knots and over."
+  },
+  {
+   "i": 6,
+   "start": 19.55,
+   "speechStart": 19.55,
+   "end": 25.075,
+   "builds": 1,
+   "text": "And a major hurricane is Category three or higher: ninety-six knots and above."
+  },
+  {
+   "i": 7,
+   "start": 25.325,
+   "speechStart": 25.325,
+   "end": 28.15,
+   "builds": 0,
+   "text": "Notice thirty-four and sixty-four again."
+  },
+  {
+   "i": 8,
+   "start": 28.4,
+   "speechStart": 28.4,
+   "end": 32.775,
+   "builds": 0,
+   "text": "They’re the same numbers as the gale and hurricane force warnings."
+  },
+  {
+   "i": 9,
+   "start": 33.025,
+   "speechStart": 33.025,
+   "end": 39.8,
+   "builds": 0,
+   "text": "The Atlantic season runs from June first through November thirtieth, and it peaks from August through October."
+  },
+  {
+   "i": 10,
+   "start": 40.05,
+   "speechStart": 40.05,
+   "end": 42.3,
+   "builds": 0,
+   "text": "Two more words to keep straight."
+  },
+  {
+   "i": 11,
+   "start": 42.55,
+   "speechStart": 42.55,
+   "end": 45.675,
+   "builds": 0,
+   "text": "A hurricane watch, and a hurricane warning."
+  },
+  {
+   "i": 12,
+   "start": 45.925,
+   "speechStart": 45.925,
+   "end": 48.025,
+   "builds": 0,
+   "text": "Which one is more urgent?"
+  },
+  {
+   "i": 13,
+   "start": 48.275,
+   "speechStart": 49.025,
+   "end": 50.55,
+   "builds": 0,
+   "text": "The warning."
+  },
+  {
+   "i": 14,
+   "start": 50.8,
+   "speechStart": 50.8,
+   "end": 55.65,
+   "builds": 0,
+   "text": "A watch means conditions are possible, usually within forty-eight hours."
+  },
+  {
+   "i": 15,
+   "start": 55.9,
+   "speechStart": 55.9,
+   "end": 60.075,
+   "builds": 0,
+   "text": "A warning means they’re expected, usually within thirty-six."
   }
  ]
 }

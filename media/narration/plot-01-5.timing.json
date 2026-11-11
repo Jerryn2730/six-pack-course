@@ -3,58 +3,154 @@
  "lessonId": "plot-01",
  "n": 5,
  "audio": "plot-01-5.mp3",
- "duration": 34.15,
+ "duration": 60.925,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.275,
+   "end": 2.375,
    "builds": 0,
-   "text": "Plotting rewards neatness."
+   "text": "Plotting rewards neat people."
   },
   {
    "i": 1,
-   "start": 2.525,
-   "speechStart": 2.525,
-   "end": 7.85,
+   "start": 2.625,
+   "speechStart": 2.625,
+   "end": 4.825,
    "builds": 0,
-   "text": "Keep your pencil sharp, because a thick line on a coast chart can hide a tenth of a mile."
+   "text": "That isn’t a matter of taste."
   },
   {
    "i": 2,
-   "start": 8.1,
-   "speechStart": 8.1,
-   "end": 14.675,
+   "start": 5.075,
+   "speechStart": 5.075,
+   "end": 6.9,
    "builds": 0,
-   "text": "Label every line and position as you draw it, so you can find your work again in a multi-part problem."
+   "text": "It’s arithmetic."
   },
   {
    "i": 3,
-   "start": 14.925,
-   "speechStart": 14.925,
-   "end": 20.3,
-   "builds": 0,
-   "text": "Work in true directions and convert to magnetic or compass only at the end."
+   "start": 7.15,
+   "speechStart": 7.15,
+   "end": 9.025,
+   "builds": 1,
+   "text": "Keep your pencil sharp."
   },
   {
    "i": 4,
-   "start": 20.55,
-   "speechStart": 20.55,
-   "end": 27.575,
+   "start": 9.275,
+   "speechStart": 9.275,
+   "end": 16.425,
    "builds": 0,
-   "text": "Exam answers are usually to the nearest degree and the nearest tenth of a mile, with choices close together."
+   "text": "On this chart, a fat pencil line can hide a tenth of a mile, and the answer choices are a tenth of a mile apart."
   },
   {
    "i": 5,
-   "start": 27.825,
-   "speechStart": 27.825,
-   "end": 33.85,
+   "start": 16.675,
+   "speechStart": 16.675,
+   "end": 20.5,
+   "builds": 1,
+   "text": "Label every line and every position as you draw it."
+  },
+  {
+   "i": 6,
+   "start": 20.75,
+   "speechStart": 20.75,
+   "end": 24.75,
    "builds": 0,
-   "text": "If your answer doesn’t match any choice, go back and find the step that went wrong rather than guessing."
+   "text": "In a five-part problem, you’ll need to find your earlier work."
+  },
+  {
+   "i": 7,
+   "start": 25.0,
+   "speechStart": 25.0,
+   "end": 29.7,
+   "builds": 1,
+   "text": "Work in true, and convert to magnetic or compass only at the end."
+  },
+  {
+   "i": 8,
+   "start": 29.95,
+   "speechStart": 29.95,
+   "end": 34.25,
+   "builds": 1,
+   "text": "Give your answers to the nearest degree, and the nearest tenth of a mile."
+  },
+  {
+   "i": 9,
+   "start": 34.5,
+   "speechStart": 34.5,
+   "end": 37.4,
+   "builds": 1,
+   "text": "And if your answer isn’t one of the choices?"
+  },
+  {
+   "i": 10,
+   "start": 37.65,
+   "speechStart": 37.65,
+   "end": 39.75,
+   "builds": 0,
+   "text": "Don’t pick the closest one."
+  },
+  {
+   "i": 11,
+   "start": 40.0,
+   "speechStart": 40.0,
+   "end": 41.8,
+   "builds": 0,
+   "text": "What do you do instead?"
+  },
+  {
+   "i": 12,
+   "start": 42.05,
+   "speechStart": 42.8,
+   "end": 45.625,
+   "builds": 0,
+   "text": "Go back and find the step that went wrong."
+  },
+  {
+   "i": 13,
+   "start": 45.875,
+   "speechStart": 45.875,
+   "end": 49.325,
+   "builds": 0,
+   "text": "The right answer is almost always there exactly."
+  },
+  {
+   "i": 14,
+   "start": 49.575,
+   "speechStart": 49.575,
+   "end": 51.4,
+   "builds": 0,
+   "text": "That’s lesson one."
+  },
+  {
+   "i": 15,
+   "start": 51.65,
+   "speechStart": 51.65,
+   "end": 54.85,
+   "builds": 0,
+   "text": "Read the rose on the side you’re traveling toward."
+  },
+  {
+   "i": 16,
+   "start": 55.1,
+   "speechStart": 55.1,
+   "end": 58.175,
+   "builds": 0,
+   "text": "Measure on the side scale, level with your work."
+  },
+  {
+   "i": 17,
+   "start": 58.425,
+   "speechStart": 58.425,
+   "end": 60.625,
+   "builds": 0,
+   "text": "Next time: positions."
   }
  ]
 }

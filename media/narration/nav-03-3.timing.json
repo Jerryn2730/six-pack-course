@@ -3,42 +3,130 @@
  "lessonId": "nav-03",
  "n": 3,
  "audio": "nav-03-3.mp3",
- "duration": 31.0,
+ "duration": 54.025,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 8.075,
+   "end": 6.475,
    "builds": 0,
-   "text": "Daybeacons are fixed aids, dayboards mounted on piles, common in Florida bays and along the Intracoastal Waterway."
+   "text": "In Florida’s bays and along the Intracoastal, most of the marks you’ll steer by aren’t buoys at all."
   },
   {
    "i": 1,
-   "start": 8.325,
-   "speechStart": 8.325,
-   "end": 17.625,
+   "start": 6.725,
+   "speechStart": 6.725,
+   "end": 8.475,
    "builds": 0,
-   "text": "Red daybeacons are triangles with even numbers, and green daybeacons are squares with odd numbers, following the same red right returning rule."
+   "text": "They’re daybeacons."
   },
   {
    "i": 2,
-   "start": 17.875,
-   "speechStart": 17.875,
-   "end": 22.75,
-   "builds": 0,
-   "text": "Because daybeacons are fixed, they’re more reliable in position than buoys."
+   "start": 8.725,
+   "speechStart": 8.725,
+   "end": 13.45,
+   "builds": 1,
+   "text": "A daybeacon is a fixed mark: a signboard, called a dayboard, on a pile."
   },
   {
    "i": 3,
-   "start": 23.0,
-   "speechStart": 23.0,
-   "end": 30.7,
+   "start": 13.7,
+   "speechStart": 13.7,
+   "end": 16.95,
+   "builds": 1,
+   "text": "Red ones are triangles with even numbers."
+  },
+  {
+   "i": 4,
+   "start": 17.2,
+   "speechStart": 17.2,
+   "end": 19.6,
    "builds": 0,
-   "text": "But they often stand in shallow water right at the edge of a channel, so give them a reasonable berth rather than cutting close."
+   "text": "Keep them on your right, returning."
+  },
+  {
+   "i": 5,
+   "start": 19.85,
+   "speechStart": 19.85,
+   "end": 22.725,
+   "builds": 1,
+   "text": "Green ones are squares with odd numbers."
+  },
+  {
+   "i": 6,
+   "start": 22.975,
+   "speechStart": 22.975,
+   "end": 25.375,
+   "builds": 0,
+   "text": "Keep them on your left, returning."
+  },
+  {
+   "i": 7,
+   "start": 25.625,
+   "speechStart": 25.625,
+   "end": 29.5,
+   "builds": 0,
+   "text": "So triangles are like nuns, and squares are like cans."
+  },
+  {
+   "i": 8,
+   "start": 29.75,
+   "speechStart": 29.75,
+   "end": 33.85,
+   "builds": 1,
+   "text": "Because a daybeacon is driven into the bottom, it can’t drag."
+  },
+  {
+   "i": 9,
+   "start": 34.1,
+   "speechStart": 34.1,
+   "end": 37.225,
+   "builds": 0,
+   "text": "It’s more reliable in position than a buoy."
+  },
+  {
+   "i": 10,
+   "start": 37.475,
+   "speechStart": 37.475,
+   "end": 39.225,
+   "builds": 1,
+   "text": "But here’s the catch."
+  },
+  {
+   "i": 11,
+   "start": 39.475,
+   "speechStart": 39.475,
+   "end": 41.65,
+   "builds": 0,
+   "text": "Where does a pile have to stand?"
+  },
+  {
+   "i": 12,
+   "start": 41.9,
+   "speechStart": 42.65,
+   "end": 46.725,
+   "builds": 0,
+   "text": "In shallow water, right at the edge of the channel, or beyond it."
+  },
+  {
+   "i": 13,
+   "start": 46.975,
+   "speechStart": 46.975,
+   "end": 48.875,
+   "builds": 0,
+   "text": "So don’t shave it close."
+  },
+  {
+   "i": 14,
+   "start": 49.125,
+   "speechStart": 49.125,
+   "end": 53.725,
+   "builds": 0,
+   "text": "Give every daybeacon a reasonable berth, especially at low water."
   }
  ]
 }

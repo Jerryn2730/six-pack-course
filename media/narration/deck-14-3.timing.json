@@ -3,58 +3,130 @@
  "lessonId": "deck-14",
  "n": 3,
  "audio": "deck-14-3.mp3",
- "duration": 37.375,
+ "duration": 54.7,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.875,
+   "end": 5.55,
    "builds": 0,
-   "text": "Garbage rules come from MARPOL Annex five."
+   "text": "The garbage rules come from an international treaty, MARPOL Annex five."
   },
   {
    "i": 1,
-   "start": 4.125,
-   "speechStart": 4.125,
-   "end": 10.725,
-   "builds": 0,
-   "text": "Plastics, including monofilament fishing line, nets and bags, may never be discharged anywhere."
+   "start": 5.8,
+   "speechStart": 5.8,
+   "end": 7.55,
+   "builds": 1,
+   "text": "Plastics first."
   },
   {
    "i": 2,
-   "start": 10.975,
-   "speechStart": 10.975,
-   "end": 20.175,
+   "start": 7.8,
+   "speechStart": 7.8,
+   "end": 11.0,
    "builds": 0,
-   "text": "Food waste may be discharged only well offshore: three nautical miles or more if it’s ground up, and twelve nautical miles or more if it isn’t."
+   "text": "That includes fishing line, nets and bags."
   },
   {
    "i": 3,
-   "start": 20.425,
-   "speechStart": 20.425,
-   "end": 27.425,
+   "start": 11.25,
+   "speechStart": 11.25,
+   "end": 13.825,
    "builds": 0,
-   "text": "Most other garbage, like paper, glass and metal, may not be thrown overboard at all and must be brought ashore."
+   "text": "Where can you put plastic over the side?"
   },
   {
    "i": 4,
-   "start": 27.675,
-   "speechStart": 27.675,
-   "end": 32.4,
+   "start": 14.075,
+   "speechStart": 14.825,
+   "end": 16.3,
    "builds": 0,
-   "text": "Inside three miles and on inland waters, nothing goes overboard."
+   "text": "Nowhere."
   },
   {
    "i": 5,
-   "start": 32.65,
-   "speechStart": 32.65,
-   "end": 37.075,
+   "start": 16.55,
+   "speechStart": 16.55,
+   "end": 19.15,
    "builds": 0,
-   "text": "The simplest rule for a charter boat: bring everything back to the dock."
+   "text": "Never, at any distance from land."
+  },
+  {
+   "i": 6,
+   "start": 19.4,
+   "speechStart": 19.4,
+   "end": 22.9,
+   "builds": 1,
+   "text": "Food waste is the only thing with a distance attached."
+  },
+  {
+   "i": 7,
+   "start": 23.15,
+   "speechStart": 23.15,
+   "end": 27.15,
+   "builds": 0,
+   "text": "If it’s ground up, three nautical miles or more from land."
+  },
+  {
+   "i": 8,
+   "start": 27.4,
+   "speechStart": 27.4,
+   "end": 31.05,
+   "builds": 1,
+   "text": "If it isn’t ground, twelve nautical miles or more."
+  },
+  {
+   "i": 9,
+   "start": 31.3,
+   "speechStart": 31.3,
+   "end": 36.05,
+   "builds": 1,
+   "text": "Paper, glass, metal and most other garbage don’t go overboard at all."
+  },
+  {
+   "i": 10,
+   "start": 36.3,
+   "speechStart": 36.3,
+   "end": 38.0,
+   "builds": 0,
+   "text": "Bring them ashore."
+  },
+  {
+   "i": 11,
+   "start": 38.25,
+   "speechStart": 38.25,
+   "end": 42.8,
+   "builds": 1,
+   "text": "And inside three miles, or on inland waters, nothing goes over."
+  },
+  {
+   "i": 12,
+   "start": 43.05,
+   "speechStart": 43.05,
+   "end": 46.0,
+   "builds": 0,
+   "text": "Here’s the simple version for a charter boat."
+  },
+  {
+   "i": 13,
+   "start": 46.25,
+   "speechStart": 46.25,
+   "end": 48.6,
+   "builds": 0,
+   "text": "Bring everything back to the dock."
+  },
+  {
+   "i": 14,
+   "start": 48.85,
+   "speechStart": 48.85,
+   "end": 54.4,
+   "builds": 0,
+   "text": "Put a trash can where your customers can see it, and tell them about it in your safety briefing."
   }
  ]
 }

@@ -3,50 +3,186 @@
  "lessonId": "nav-07",
  "n": 6,
  "audio": "nav-07-6.mp3",
- "duration": 36.925,
+ "duration": 72.625,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.15,
+   "end": 3.8,
    "builds": 0,
-   "text": "To estimate the height of tide between high and low, use the rule of twelfths or Table three."
+   "text": "Often you need the depth at a time between high and low."
   },
   {
    "i": 1,
-   "start": 6.4,
-   "speechStart": 6.4,
-   "end": 16.525,
+   "start": 4.05,
+   "speechStart": 4.05,
+   "end": 7.075,
    "builds": 0,
-   "text": "Say low water is zero point five feet at six hundred hours and high water is six point five feet at noon, a range of six feet over six hours."
+   "text": "For a quick answer, use the rule of twelfths."
   },
   {
    "i": 2,
-   "start": 16.775,
-   "speechStart": 16.775,
-   "end": 25.825,
+   "start": 7.325,
+   "speechStart": 7.325,
+   "end": 9.725,
    "builds": 0,
-   "text": "By nine hundred, three hours in, the tide has risen one plus two plus three twelfths, which is six twelfths, or half the range: three feet."
+   "text": "The tide doesn’t rise evenly."
   },
   {
    "i": 3,
-   "start": 26.075,
-   "speechStart": 26.075,
-   "end": 30.925,
+   "start": 9.975,
+   "speechStart": 9.975,
+   "end": 14.3,
    "builds": 0,
-   "text": "Add that to the low water height, and the tide is about three point five feet."
+   "text": "It starts slowly, runs fastest in the middle, and slows again."
   },
   {
    "i": 4,
-   "start": 31.175,
-   "speechStart": 31.175,
-   "end": 36.625,
+   "start": 14.55,
+   "speechStart": 14.55,
+   "end": 19.95,
    "builds": 0,
-   "text": "Where the chart shows five feet, you’ll have about eight and a half feet of water at nine hundred."
+   "text": "Over six hours it rises one twelfth, two twelfths, three, three, two, and one."
+  },
+  {
+   "i": 5,
+   "start": 20.2,
+   "speechStart": 20.2,
+   "end": 21.725,
+   "builds": 0,
+   "text": "Now work it."
+  },
+  {
+   "i": 6,
+   "start": 21.975,
+   "speechStart": 21.975,
+   "end": 25.95,
+   "builds": 1,
+   "text": "Low water is zero point five feet at six in the morning."
+  },
+  {
+   "i": 7,
+   "start": 26.2,
+   "speechStart": 26.2,
+   "end": 29.2,
+   "builds": 0,
+   "text": "High water is six point five feet at noon."
+  },
+  {
+   "i": 8,
+   "start": 29.45,
+   "speechStart": 29.45,
+   "end": 32.35,
+   "builds": 0,
+   "text": "That’s a range of six feet over six hours."
+  },
+  {
+   "i": 9,
+   "start": 32.6,
+   "speechStart": 32.6,
+   "end": 35.45,
+   "builds": 1,
+   "text": "What about nine o’clock, three hours in?"
+  },
+  {
+   "i": 10,
+   "start": 35.7,
+   "speechStart": 35.7,
+   "end": 39.425,
+   "builds": 0,
+   "text": "Add the first three hours: one plus two plus three."
+  },
+  {
+   "i": 11,
+   "start": 39.675,
+   "speechStart": 39.675,
+   "end": 41.375,
+   "builds": 0,
+   "text": "Six twelfths."
+  },
+  {
+   "i": 12,
+   "start": 41.625,
+   "speechStart": 41.625,
+   "end": 44.575,
+   "builds": 1,
+   "text": "Six twelfths of six feet is three feet."
+  },
+  {
+   "i": 13,
+   "start": 44.825,
+   "speechStart": 44.825,
+   "end": 50.25,
+   "builds": 1,
+   "text": "So the height of tide at nine is zero point five plus three: about three and a half feet."
+  },
+  {
+   "i": 14,
+   "start": 50.5,
+   "speechStart": 50.5,
+   "end": 53.1,
+   "builds": 1,
+   "text": "And if the chart shows a five-foot spot?"
+  },
+  {
+   "i": 15,
+   "start": 53.35,
+   "speechStart": 54.1,
+   "end": 56.25,
+   "builds": 0,
+   "text": "Five plus three and a half."
+  },
+  {
+   "i": 16,
+   "start": 56.5,
+   "speechStart": 56.5,
+   "end": 58.9,
+   "builds": 0,
+   "text": "About eight and a half feet of water."
+  },
+  {
+   "i": 17,
+   "start": 59.15,
+   "speechStart": 59.15,
+   "end": 61.075,
+   "builds": 0,
+   "text": "That’s lesson seven."
+  },
+  {
+   "i": 18,
+   "start": 61.325,
+   "speechStart": 61.325,
+   "end": 64.625,
+   "builds": 0,
+   "text": "Depth equals charted depth plus height of tide."
+  },
+  {
+   "i": 19,
+   "start": 64.875,
+   "speechStart": 64.875,
+   "end": 67.35,
+   "builds": 0,
+   "text": "Spring tides at new and full moon."
+  },
+  {
+   "i": 20,
+   "start": 67.6,
+   "speechStart": 67.6,
+   "end": 70.025,
+   "builds": 0,
+   "text": "One, two, three, three, two, one."
+  },
+  {
+   "i": 21,
+   "start": 70.275,
+   "speechStart": 70.275,
+   "end": 72.325,
+   "builds": 0,
+   "text": "Next time: currents."
   }
  ]
 }

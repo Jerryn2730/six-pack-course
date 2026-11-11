@@ -3,7 +3,7 @@
  "lessonId": "nav-14",
  "n": 3,
  "audio": "nav-14-3.mp3",
- "duration": 40.175,
+ "duration": 59.775,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,137 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.75,
+   "end": 3.525,
    "builds": 0,
-   "text": "In the Northern Hemisphere, hurricane winds circulate counterclockwise."
+   "text": "A hurricane isn’t equally bad all the way around."
   },
   {
    "i": 1,
-   "start": 5.0,
-   "speechStart": 5.0,
-   "end": 18.775,
+   "start": 3.775,
+   "speechStart": 3.775,
+   "end": 5.6,
    "builds": 0,
-   "text": "On the right side of the storm’s track, the storm’s forward motion adds to the wind speed, so this is called the dangerous semicircle, and the right front quadrant usually has the strongest winds and the highest storm surge."
+   "text": "Look at the diagram."
   },
   {
    "i": 2,
-   "start": 19.025,
-   "speechStart": 19.025,
-   "end": 27.5,
+   "start": 5.85,
+   "speechStart": 5.85,
+   "end": 9.8,
    "builds": 0,
-   "text": "On the left side, forward motion subtracts from the wind, so it’s called the navigable semicircle, though it’s still extremely dangerous."
+   "text": "In the Northern Hemisphere, the winds spin counterclockwise."
   },
   {
    "i": 3,
-   "start": 27.75,
-   "speechStart": 27.75,
-   "end": 31.5,
+   "start": 10.05,
+   "speechStart": 10.05,
+   "end": 14.875,
    "builds": 0,
-   "text": "For a charter captain, the real lesson is preparation."
+   "text": "On the right side of the track, the storm’s own forward speed adds to the wind."
   },
   {
    "i": 4,
-   "start": 31.75,
-   "speechStart": 31.75,
-   "end": 39.875,
+   "start": 15.125,
+   "speechStart": 15.125,
+   "end": 23.7,
    "builds": 0,
-   "text": "Have a written hurricane plan, know where you’ll secure or haul the boat, and act early, because bridges lock down and marinas fill up."
+   "text": "That’s the dangerous semicircle, and its front half, the right front quadrant, usually has the strongest wind and the highest storm surge."
+  },
+  {
+   "i": 5,
+   "start": 23.95,
+   "speechStart": 23.95,
+   "end": 27.8,
+   "builds": 0,
+   "text": "On the left side, the forward speed subtracts from the wind."
+  },
+  {
+   "i": 6,
+   "start": 28.05,
+   "speechStart": 28.05,
+   "end": 30.775,
+   "builds": 0,
+   "text": "That’s called the navigable semicircle."
+  },
+  {
+   "i": 7,
+   "start": 31.025,
+   "speechStart": 31.775,
+   "end": 33.325,
+   "builds": 0,
+   "text": "Navigable."
+  },
+  {
+   "i": 8,
+   "start": 33.575,
+   "speechStart": 33.575,
+   "end": 35.325,
+   "builds": 0,
+   "text": "Does that mean safe?"
+  },
+  {
+   "i": 9,
+   "start": 35.575,
+   "speechStart": 35.575,
+   "end": 36.95,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 10,
+   "start": 37.2,
+   "speechStart": 37.2,
+   "end": 39.075,
+   "builds": 0,
+   "text": "It’s still a hurricane."
+  },
+  {
+   "i": 11,
+   "start": 39.325,
+   "speechStart": 39.325,
+   "end": 41.4,
+   "builds": 0,
+   "text": "It only means less bad."
+  },
+  {
+   "i": 12,
+   "start": 41.65,
+   "speechStart": 41.65,
+   "end": 45.1,
+   "builds": 0,
+   "text": "For you, the real lesson isn’t which side to be on."
+  },
+  {
+   "i": 13,
+   "start": 45.35,
+   "speechStart": 45.35,
+   "end": 47.425,
+   "builds": 0,
+   "text": "It’s not to be there at all."
+  },
+  {
+   "i": 14,
+   "start": 47.675,
+   "speechStart": 47.675,
+   "end": 49.925,
+   "builds": 0,
+   "text": "Have a written hurricane plan."
+  },
+  {
+   "i": 15,
+   "start": 50.175,
+   "speechStart": 50.175,
+   "end": 52.925,
+   "builds": 0,
+   "text": "Know where the boat will be tied or hauled."
+  },
+  {
+   "i": 16,
+   "start": 53.175,
+   "speechStart": 53.175,
+   "end": 59.475,
+   "builds": 0,
+   "text": "And act early, because the bridges lock down, and the marinas and haul-out yards fill up fast."
   }
  ]
 }

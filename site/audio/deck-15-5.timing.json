@@ -3,10 +3,10 @@
  "lessonId": "deck-15",
  "n": 5,
  "audio": "deck-15-5.mp3",
- "duration": 44.15,
+ "duration": 59.925,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
@@ -20,65 +20,105 @@
    "i": 1,
    "start": 3.175,
    "speechStart": 3.175,
-   "end": 7.25,
+   "end": 8.85,
    "builds": 0,
-   "text": "A few final habits separate professionals from amateurs."
+   "text": "Let me leave you with the habits that separate a professional from someone who just has a license."
   },
   {
    "i": 2,
-   "start": 7.5,
-   "speechStart": 7.5,
-   "end": 12.4,
-   "builds": 0,
-   "text": "Keep a log of every trip: passengers, weather, incidents and maintenance."
+   "start": 9.1,
+   "speechStart": 9.1,
+   "end": 13.8,
+   "builds": 1,
+   "text": "Keep a log of every trip: passengers, weather, incidents, maintenance."
   },
   {
    "i": 3,
-   "start": 12.65,
-   "speechStart": 12.65,
-   "end": 17.8,
-   "builds": 0,
-   "text": "Keep your credential, medical certificate and drug-testing enrollment current."
+   "start": 14.05,
+   "speechStart": 14.05,
+   "end": 19.325,
+   "builds": 1,
+   "text": "Keep your credential, your medical certificate and your drug-testing enrollment current."
   },
   {
    "i": 4,
-   "start": 18.05,
-   "speechStart": 18.05,
-   "end": 24.8,
+   "start": 19.575,
+   "speechStart": 19.575,
+   "end": 21.7,
    "builds": 0,
-   "text": "Carry commercial charter insurance, since recreational policies usually exclude paying passengers."
+   "text": "Put the dates on a calendar."
   },
   {
    "i": 5,
-   "start": 25.05,
-   "speechStart": 25.05,
-   "end": 28.525,
-   "builds": 0,
-   "text": "Use a pre-departure checklist every single trip."
+   "start": 21.95,
+   "speechStart": 21.95,
+   "end": 24.475,
+   "builds": 1,
+   "text": "Carry commercial charter insurance."
   },
   {
    "i": 6,
-   "start": 28.775,
-   "speechStart": 28.775,
-   "end": 34.6,
+   "start": 24.725,
+   "speechStart": 24.725,
+   "end": 29.925,
    "builds": 0,
-   "text": "And above all, know your limits and your boat’s limits, and cancel when conditions exceed them."
+   "text": "A recreational policy usually won’t cover you the moment a passenger pays."
   },
   {
    "i": 7,
-   "start": 34.85,
-   "speechStart": 34.85,
-   "end": 37.075,
-   "builds": 0,
-   "text": "Your customers will book again."
+   "start": 30.175,
+   "speechStart": 30.175,
+   "end": 35.05,
+   "builds": 1,
+   "text": "Use a pre-departure checklist on every single trip, even the hundredth."
   },
   {
    "i": 8,
-   "start": 37.325,
-   "speechStart": 37.325,
-   "end": 43.85,
+   "start": 35.3,
+   "speechStart": 35.3,
+   "end": 41.125,
+   "builds": 1,
+   "text": "And above all, know your limits and your boat’s limits, and cancel when conditions exceed them."
+  },
+  {
+   "i": 9,
+   "start": 41.375,
+   "speechStart": 41.375,
+   "end": 43.6,
    "builds": 0,
-   "text": "Next, take the lesson check, then the Deck General quiz, until you’re scoring eighty percent or better."
+   "text": "Will you lose that day’s money?"
+  },
+  {
+   "i": 10,
+   "start": 43.85,
+   "speechStart": 44.6,
+   "end": 46.0,
+   "builds": 0,
+   "text": "Yes."
+  },
+  {
+   "i": 11,
+   "start": 46.25,
+   "speechStart": 46.25,
+   "end": 50.85,
+   "builds": 0,
+   "text": "And your customers will book again, because you’re the captain who brought them home."
+  },
+  {
+   "i": 12,
+   "start": 51.1,
+   "speechStart": 51.1,
+   "end": 57.4,
+   "builds": 0,
+   "text": "Now take the lesson check, then the Deck General quiz, until you’re scoring eighty percent or better."
+  },
+  {
+   "i": 13,
+   "start": 57.65,
+   "speechStart": 57.65,
+   "end": 59.625,
+   "builds": 0,
+   "text": "Well done, Captain."
   }
  ]
 }

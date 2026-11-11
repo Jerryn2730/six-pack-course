@@ -3,50 +3,122 @@
  "lessonId": "nav-11",
  "n": 3,
  "audio": "nav-11-3.mp3",
- "duration": 38.625,
+ "duration": 54.675,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 10.05,
+   "end": 4.925,
    "builds": 0,
-   "text": "The Automatic Identification System, or AIS, broadcasts a vessel’s identity, position, course and speed over VHF data channels."
+   "text": "AIS is the tool that lets you put a name to that ship on the horizon."
   },
   {
    "i": 1,
-   "start": 10.3,
-   "speechStart": 10.3,
-   "end": 18.675,
-   "builds": 0,
-   "text": "With an AIS receiver you can see a ship’s name and call her directly, and your plotter can calculate the closest point of approach."
+   "start": 5.175,
+   "speechStart": 5.175,
+   "end": 11.55,
+   "builds": 1,
+   "text": "It stands for Automatic Identification System, and it broadcasts over VHF data channels."
   },
   {
    "i": 2,
-   "start": 18.925,
-   "speechStart": 18.925,
-   "end": 26.45,
-   "builds": 0,
-   "text": "Class A transponders are required on many commercial vessels, and Class B units are designed for smaller boats."
+   "start": 11.8,
+   "speechStart": 11.8,
+   "end": 17.225,
+   "builds": 1,
+   "text": "Each vessel sends her name, her MMSI number, position, course and speed."
   },
   {
    "i": 3,
-   "start": 26.7,
-   "speechStart": 26.7,
-   "end": 32.225,
+   "start": 17.475,
+   "speechStart": 17.475,
+   "end": 23.75,
    "builds": 0,
-   "text": "Many vessels carry no AIS at all, so it never replaces a proper lookout."
+   "text": "With a receiver, you can call a ship by name, and your plotter can work out the closest point of approach."
   },
   {
    "i": 4,
-   "start": 32.475,
-   "speechStart": 32.475,
-   "end": 38.325,
+   "start": 24.0,
+   "speechStart": 24.0,
+   "end": 28.675,
+   "builds": 1,
+   "text": "Class A units are the ones required on many commercial vessels."
+  },
+  {
+   "i": 5,
+   "start": 28.925,
+   "speechStart": 28.925,
+   "end": 31.925,
    "builds": 0,
-   "text": "And seeing a vessel on AIS doesn’t mean you’re in sight of her under the Navigation Rules."
+   "text": "Class B units are made for smaller boats."
+  },
+  {
+   "i": 6,
+   "start": 32.175,
+   "speechStart": 32.175,
+   "end": 33.85,
+   "builds": 1,
+   "text": "Now the limits."
+  },
+  {
+   "i": 7,
+   "start": 34.1,
+   "speechStart": 34.1,
+   "end": 37.075,
+   "builds": 0,
+   "text": "Does every boat out there show up on AIS?"
+  },
+  {
+   "i": 8,
+   "start": 37.325,
+   "speechStart": 38.075,
+   "end": 39.825,
+   "builds": 0,
+   "text": "Not even close."
+  },
+  {
+   "i": 9,
+   "start": 40.075,
+   "speechStart": 40.075,
+   "end": 42.375,
+   "builds": 0,
+   "text": "Most small boats don’t carry it."
+  },
+  {
+   "i": 10,
+   "start": 42.625,
+   "speechStart": 42.625,
+   "end": 45.075,
+   "builds": 0,
+   "text": "So it never replaces a lookout."
+  },
+  {
+   "i": 11,
+   "start": 45.325,
+   "speechStart": 45.325,
+   "end": 47.65,
+   "builds": 1,
+   "text": "And the one for the Rules exam."
+  },
+  {
+   "i": 12,
+   "start": 47.9,
+   "speechStart": 47.9,
+   "end": 51.875,
+   "builds": 0,
+   "text": "Seeing a vessel on AIS doesn’t put you in sight of her."
+  },
+  {
+   "i": 13,
+   "start": 52.125,
+   "speechStart": 52.125,
+   "end": 54.375,
+   "builds": 0,
+   "text": "In sight still means your eyes."
   }
  ]
 }

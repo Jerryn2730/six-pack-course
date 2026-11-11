@@ -3,50 +3,130 @@
  "lessonId": "nav-06",
  "n": 4,
  "audio": "nav-06-4.mp3",
- "duration": 32.475,
+ "duration": 55.85,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.9,
+   "end": 2.3,
    "builds": 0,
-   "text": "Correcting charts is a basic duty."
+   "text": "Owning a chart isn’t enough."
   },
   {
    "i": 1,
-   "start": 3.15,
-   "speechStart": 3.15,
-   "end": 11.35,
+   "start": 2.55,
+   "speechStart": 2.55,
+   "end": 6.75,
    "builds": 0,
-   "text": "Start with the edition date of your chart, then check every Local Notice to Mariners issued since that date for corrections that affect it."
+   "text": "Keeping it corrected is a basic duty, and here’s the routine."
   },
   {
    "i": 2,
-   "start": 11.6,
-   "speechStart": 11.6,
-   "end": 18.65,
-   "builds": 0,
-   "text": "On paper charts, mark corrections neatly and record them in a correction log, so you know the chart is up to date."
+   "start": 7.0,
+   "speechStart": 7.0,
+   "end": 9.35,
+   "builds": 1,
+   "text": "Start with the chart’s edition date."
   },
   {
    "i": 3,
-   "start": 18.9,
-   "speechStart": 18.9,
-   "end": 25.85,
-   "builds": 0,
-   "text": "On chartplotters, install chart updates regularly, since an old memory card can be years out of date."
+   "start": 9.6,
+   "speechStart": 9.6,
+   "end": 15.675,
+   "builds": 1,
+   "text": "Check every Local Notice to Mariners issued since that date for corrections that touch your chart."
   },
   {
    "i": 4,
-   "start": 26.1,
-   "speechStart": 26.1,
-   "end": 32.175,
+   "start": 15.925,
+   "speechStart": 15.925,
+   "end": 22.375,
+   "builds": 1,
+   "text": "On paper, mark each correction neatly, and record it in a log, so you can prove the chart is current."
+  },
+  {
+   "i": 5,
+   "start": 22.625,
+   "speechStart": 22.625,
+   "end": 26.55,
+   "builds": 1,
+   "text": "On a chartplotter, install the chart updates regularly."
+  },
+  {
+   "i": 6,
+   "start": 26.8,
+   "speechStart": 26.8,
+   "end": 29.175,
    "builds": 0,
-   "text": "When sources disagree, use the most recent information and navigate with extra caution."
+   "text": "Here’s a question to ask yourself."
+  },
+  {
+   "i": 7,
+   "start": 29.425,
+   "speechStart": 29.425,
+   "end": 32.65,
+   "builds": 0,
+   "text": "How old is the chart card in your plotter right now?"
+  },
+  {
+   "i": 8,
+   "start": 32.9,
+   "speechStart": 33.65,
+   "end": 36.65,
+   "builds": 0,
+   "text": "If you don’t know, it’s probably years old."
+  },
+  {
+   "i": 9,
+   "start": 36.9,
+   "speechStart": 36.9,
+   "end": 41.975,
+   "builds": 1,
+   "text": "And when two sources disagree, use the most recent one, and go carefully."
+  },
+  {
+   "i": 10,
+   "start": 42.225,
+   "speechStart": 42.225,
+   "end": 44.125,
+   "builds": 0,
+   "text": "That’s lesson six."
+  },
+  {
+   "i": 11,
+   "start": 44.375,
+   "speechStart": 44.375,
+   "end": 46.95,
+   "builds": 0,
+   "text": "The Coast Pilot says what the chart can’t."
+  },
+  {
+   "i": 12,
+   "start": 47.2,
+   "speechStart": 47.2,
+   "end": 49.525,
+   "builds": 0,
+   "text": "The Local Notice is weekly."
+  },
+  {
+   "i": 13,
+   "start": 49.775,
+   "speechStart": 49.775,
+   "end": 53.15,
+   "builds": 0,
+   "text": "Thirty-three for the water, forty-six for the boat."
+  },
+  {
+   "i": 14,
+   "start": 53.4,
+   "speechStart": 53.4,
+   "end": 55.55,
+   "builds": 0,
+   "text": "Next time: tides."
   }
  ]
 }

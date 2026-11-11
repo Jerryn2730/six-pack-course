@@ -1,21 +1,65 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:11.700
-GPS gives your position from satellite signals, typically accurate to within a few meters, and better with WAAS, a correction system available across North America.
+00:00:00.150 --> 00:00:04.850
+Your grandfather navigated with a compass, a watch and a lead line.
 
 2
-00:00:11.950 --> 00:00:20.850
-A GPS receiver also gives speed over ground and course over ground, which come from changes in position, not from the compass.
+00:00:05.100 --> 00:00:08.275
+You have a screen that shows a little boat on a chart.
 
 3
-00:00:21.100 --> 00:00:28.650
-Make sure the receiver’s datum matches your chart, normally WGS 84 matched to NAD 83.
+00:00:08.525 --> 00:00:12.475
+That’s a wonderful thing, right up to the moment it goes blank.
 
 4
-00:00:28.900 --> 00:00:37.900
-GPS can fail, lose power or be jammed, so a good captain keeps dead reckoning skills, paper charts and a compass as backups.
+00:00:12.725 --> 00:00:17.975
+So today we learn what the electronics really tell you, and where each one can fool you.
 
 5
-00:00:38.150 --> 00:00:43.150
-The Loran system that once backed up GPS was shut down in 2010.
+00:00:18.225 --> 00:00:20.125
+Start with GPS.
+
+6
+00:00:20.375 --> 00:00:25.375
+It fixes your position from satellite signals, typically within a few meters.
+
+7
+00:00:25.625 --> 00:00:32.100
+A correction system called WAAS, available across North America, makes it better still.
+
+8
+00:00:32.350 --> 00:00:36.275
+It also gives you speed over ground and course over ground.
+
+9
+00:00:36.525 --> 00:00:38.325
+Where do those come from?
+
+10
+00:00:39.325 --> 00:00:41.700
+From how your position changes.
+
+11
+00:00:41.950 --> 00:00:43.800
+Not from the compass.
+
+12
+00:00:44.050 --> 00:00:48.275
+So sitting still at the dock, your GPS heading means nothing.
+
+13
+00:00:48.525 --> 00:00:56.475
+Set the receiver’s datum to match your chart: WGS eighty-four, which matches the North American Datum on the chart.
+
+14
+00:00:56.725 --> 00:01:00.350
+And GPS can fail, lose power, or be jammed.
+
+15
+00:01:00.600 --> 00:01:04.125
+The old Loran backup was shut down in twenty ten.
+
+16
+00:01:04.375 --> 00:01:09.025
+Your backup now is you: dead reckoning, a paper chart and a compass.

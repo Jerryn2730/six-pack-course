@@ -3,7 +3,7 @@
  "lessonId": "nav-05",
  "n": 4,
  "audio": "nav-05-4.mp3",
- "duration": 42.025,
+ "duration": 60.575,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,145 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.925,
+   "end": 5.275,
    "builds": 0,
-   "text": "To find geographic range, find the distance to the horizon from the light and from your eye, and add them."
+   "text": "Geographic range is one you can calculate, and the exam will ask you to."
   },
   {
    "i": 1,
-   "start": 7.175,
-   "speechStart": 7.175,
-   "end": 14.325,
+   "start": 5.525,
+   "speechStart": 5.525,
+   "end": 7.35,
    "builds": 0,
-   "text": "The distance to the horizon in nautical miles is one point one seven times the square root of the height in feet."
+   "text": "Look at the diagram."
   },
   {
    "i": 2,
-   "start": 14.575,
-   "speechStart": 14.575,
-   "end": 21.275,
+   "start": 7.6,
+   "speechStart": 7.6,
+   "end": 10.225,
    "builds": 0,
-   "text": "For a light sixty-four feet high, the square root is eight, so its horizon is about nine point four miles."
+   "text": "The light can see to its own horizon."
   },
   {
    "i": 3,
-   "start": 21.525,
-   "speechStart": 21.525,
-   "end": 27.75,
+   "start": 10.475,
+   "speechStart": 10.475,
+   "end": 12.575,
    "builds": 0,
-   "text": "For your eye at nine feet, the square root is three, so your horizon is about three and a half miles."
+   "text": "Your eye can see to yours."
   },
   {
    "i": 4,
-   "start": 28.0,
-   "speechStart": 28.0,
-   "end": 32.55,
+   "start": 12.825,
+   "speechStart": 12.825,
+   "end": 17.975,
    "builds": 0,
-   "text": "Add them, and the geographic range is about twelve point nine miles."
+   "text": "Add the two distances, and that’s how far apart you can be and still see the light."
   },
   {
    "i": 5,
-   "start": 32.8,
-   "speechStart": 32.8,
-   "end": 41.725,
+   "start": 18.225,
+   "speechStart": 18.225,
+   "end": 25.55,
    "builds": 0,
-   "text": "If the light’s luminous range tonight is fifteen miles, you’ll still only see it at about twelve point nine miles, because the lesser range wins."
+   "text": "The distance to the horizon, in nautical miles, is one point one seven times the square root of the height in feet."
+  },
+  {
+   "i": 6,
+   "start": 25.8,
+   "speechStart": 25.8,
+   "end": 27.225,
+   "builds": 0,
+   "text": "Try it."
+  },
+  {
+   "i": 7,
+   "start": 27.475,
+   "speechStart": 27.475,
+   "end": 29.775,
+   "builds": 0,
+   "text": "A light sixty-four feet high."
+  },
+  {
+   "i": 8,
+   "start": 30.025,
+   "speechStart": 30.025,
+   "end": 32.525,
+   "builds": 0,
+   "text": "The square root of sixty-four is eight."
+  },
+  {
+   "i": 9,
+   "start": 32.775,
+   "speechStart": 32.775,
+   "end": 37.35,
+   "builds": 0,
+   "text": "Eight times one point one seven is about nine point four miles."
+  },
+  {
+   "i": 10,
+   "start": 37.6,
+   "speechStart": 37.6,
+   "end": 39.675,
+   "builds": 0,
+   "text": "Your eye is nine feet up."
+  },
+  {
+   "i": 11,
+   "start": 39.925,
+   "speechStart": 39.925,
+   "end": 44.525,
+   "builds": 0,
+   "text": "The square root is three, so your horizon is about three and a half miles."
+  },
+  {
+   "i": 12,
+   "start": 44.775,
+   "speechStart": 44.775,
+   "end": 46.275,
+   "builds": 0,
+   "text": "Add them."
+  },
+  {
+   "i": 13,
+   "start": 46.525,
+   "speechStart": 47.275,
+   "end": 49.5,
+   "builds": 0,
+   "text": "About twelve point nine miles."
+  },
+  {
+   "i": 14,
+   "start": 49.75,
+   "speechStart": 49.75,
+   "end": 53.05,
+   "builds": 0,
+   "text": "And if the luminous range tonight is fifteen miles?"
+  },
+  {
+   "i": 15,
+   "start": 53.3,
+   "speechStart": 53.3,
+   "end": 55.825,
+   "builds": 0,
+   "text": "You still see it at twelve point nine."
+  },
+  {
+   "i": 16,
+   "start": 56.075,
+   "speechStart": 56.075,
+   "end": 58.025,
+   "builds": 0,
+   "text": "The earth is in the way."
+  },
+  {
+   "i": 17,
+   "start": 58.275,
+   "speechStart": 58.275,
+   "end": 60.275,
+   "builds": 0,
+   "text": "The lesser range wins."
   }
  ]
 }

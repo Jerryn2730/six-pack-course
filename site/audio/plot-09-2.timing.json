@@ -3,50 +3,130 @@
  "lessonId": "plot-09",
  "n": 2,
  "audio": "plot-09-2.mp3",
- "duration": 35.75,
+ "duration": 51.9,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.175,
+   "end": 1.85,
    "builds": 0,
-   "text": "You leave an eight hundred fix steering zero four five true at eight knots."
+   "text": "Let’s work one."
   },
   {
    "i": 1,
-   "start": 5.425,
-   "speechStart": 5.425,
-   "end": 15.875,
+   "start": 2.1,
+   "speechStart": 2.1,
+   "end": 3.95,
    "builds": 0,
-   "text": "At ten hundred your DR is sixteen miles along that course, but a ten hundred fix lies two point four miles from the DR, in the direction one two zero true."
+   "text": "Follow the diagram."
   },
   {
    "i": 2,
-   "start": 16.125,
-   "speechStart": 16.125,
-   "end": 20.775,
-   "builds": 0,
-   "text": "The set is one two zero true, the direction from DR to fix."
+   "start": 4.2,
+   "speechStart": 4.2,
+   "end": 9.05,
+   "builds": 1,
+   "text": "You leave an eight hundred fix, steering zero four five true at eight knots."
   },
   {
    "i": 3,
-   "start": 21.025,
-   "speechStart": 21.025,
-   "end": 26.275,
-   "builds": 0,
-   "text": "The drift is two point four miles divided by two hours, one point two knots."
+   "start": 9.3,
+   "speechStart": 9.3,
+   "end": 11.85,
+   "builds": 1,
+   "text": "At ten hundred, where’s your DR?"
   },
   {
    "i": 4,
-   "start": 26.525,
-   "speechStart": 26.525,
-   "end": 35.45,
+   "start": 12.1,
+   "speechStart": 12.1,
+   "end": 16.775,
    "builds": 0,
-   "text": "To find what you actually made good, measure the line from the eight hundred fix to the ten hundred fix: that’s your track and speed over the ground."
+   "text": "Two hours at eight knots: sixteen miles along zero four five."
+  },
+  {
+   "i": 5,
+   "start": 17.025,
+   "speechStart": 17.025,
+   "end": 19.6,
+   "builds": 1,
+   "text": "But your ten hundred fix isn’t there."
+  },
+  {
+   "i": 6,
+   "start": 19.85,
+   "speechStart": 19.85,
+   "end": 25.225,
+   "builds": 0,
+   "text": "It lies two point four miles from the DR, in the direction one two zero true."
+  },
+  {
+   "i": 7,
+   "start": 25.475,
+   "speechStart": 25.475,
+   "end": 28.075,
+   "builds": 1,
+   "text": "So the set is one two zero true."
+  },
+  {
+   "i": 8,
+   "start": 28.325,
+   "speechStart": 28.325,
+   "end": 30.275,
+   "builds": 0,
+   "text": "From DR to fix."
+  },
+  {
+   "i": 9,
+   "start": 30.525,
+   "speechStart": 30.525,
+   "end": 32.075,
+   "builds": 0,
+   "text": "And the drift?"
+  },
+  {
+   "i": 10,
+   "start": 32.325,
+   "speechStart": 32.325,
+   "end": 35.1,
+   "builds": 0,
+   "text": "Two point four miles, in two hours."
+  },
+  {
+   "i": 11,
+   "start": 35.35,
+   "speechStart": 36.1,
+   "end": 38.05,
+   "builds": 0,
+   "text": "One point two knots."
+  },
+  {
+   "i": 12,
+   "start": 38.3,
+   "speechStart": 38.3,
+   "end": 41.35,
+   "builds": 1,
+   "text": "One more thing you can pull from the same picture."
+  },
+  {
+   "i": 13,
+   "start": 41.6,
+   "speechStart": 41.6,
+   "end": 46.325,
+   "builds": 0,
+   "text": "Draw a line from the eight hundred fix straight to the ten hundred fix."
+  },
+  {
+   "i": 14,
+   "start": 46.575,
+   "speechStart": 46.575,
+   "end": 51.6,
+   "builds": 0,
+   "text": "That line is what you actually did: your track, and your speed over the ground."
   }
  ]
 }

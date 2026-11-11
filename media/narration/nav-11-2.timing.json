@@ -3,50 +3,130 @@
  "lessonId": "nav-11",
  "n": 2,
  "audio": "nav-11-2.mp3",
- "duration": 37.9,
+ "duration": 59.05,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.75,
+   "end": 6.7,
    "builds": 0,
-   "text": "A chartplotter shows your GPS position on an electronic chart."
+   "text": "A chartplotter puts that GPS position on an electronic chart, and it’s the tool you’ll stare at most."
   },
   {
    "i": 1,
-   "start": 5.0,
-   "speechStart": 5.0,
-   "end": 18.375,
-   "builds": 0,
-   "text": "You can enter waypoints and build routes, but before you follow a route, zoom in and check every leg for shoals, markers and obstructions, because a straight line between waypoints may cross a shoal or even land."
+   "start": 6.95,
+   "speechStart": 6.95,
+   "end": 10.3,
+   "builds": 1,
+   "text": "It shows where you are, on the chart, in real time."
   },
   {
    "i": 2,
-   "start": 18.625,
-   "speechStart": 18.625,
-   "end": 23.25,
-   "builds": 0,
-   "text": "Cross-track error shows how far you are to the side of your intended track."
+   "start": 10.55,
+   "speechStart": 10.55,
+   "end": 13.775,
+   "builds": 1,
+   "text": "You can drop waypoints and string them into a route."
   },
   {
    "i": 3,
-   "start": 23.5,
-   "speechStart": 23.5,
-   "end": 26.7,
+   "start": 14.025,
+   "speechStart": 14.025,
+   "end": 15.7,
    "builds": 0,
-   "text": "Vector charts may hide details when zoomed out."
+   "text": "But here’s the trap."
   },
   {
    "i": 4,
-   "start": 26.95,
-   "speechStart": 26.95,
-   "end": 37.6,
+   "start": 15.95,
+   "speechStart": 15.95,
+   "end": 19.375,
    "builds": 0,
-   "text": "The Coast Guard and the courts expect a prudent captain not to rely solely on any single aid, so cross-check the plotter with buoys, depths and visual bearings."
+   "text": "The plotter draws a straight line between two waypoints."
+  },
+  {
+   "i": 5,
+   "start": 19.625,
+   "speechStart": 19.625,
+   "end": 22.025,
+   "builds": 0,
+   "text": "Does it care what’s under that line?"
+  },
+  {
+   "i": 6,
+   "start": 22.275,
+   "speechStart": 23.025,
+   "end": 24.4,
+   "builds": 0,
+   "text": "No."
+  },
+  {
+   "i": 7,
+   "start": 24.65,
+   "speechStart": 24.65,
+   "end": 28.225,
+   "builds": 0,
+   "text": "It will happily route you across a shoal, or an island."
+  },
+  {
+   "i": 8,
+   "start": 28.475,
+   "speechStart": 28.475,
+   "end": 32.175,
+   "builds": 0,
+   "text": "So zoom in and check every leg before you follow it."
+  },
+  {
+   "i": 9,
+   "start": 32.425,
+   "speechStart": 32.425,
+   "end": 37.575,
+   "builds": 1,
+   "text": "Cross-track error tells you how far you’ve slid to one side of your intended track."
+  },
+  {
+   "i": 10,
+   "start": 37.825,
+   "speechStart": 37.825,
+   "end": 39.875,
+   "builds": 0,
+   "text": "Watch it in a cross current."
+  },
+  {
+   "i": 11,
+   "start": 40.125,
+   "speechStart": 40.125,
+   "end": 43.95,
+   "builds": 1,
+   "text": "Remember that vector charts hide detail when you’re zoomed out."
+  },
+  {
+   "i": 12,
+   "start": 44.2,
+   "speechStart": 44.2,
+   "end": 45.7,
+   "builds": 0,
+   "text": "Zoom in."
+  },
+  {
+   "i": 13,
+   "start": 45.95,
+   "speechStart": 45.95,
+   "end": 50.3,
+   "builds": 1,
+   "text": "And keep the charts updated, and never rely on a single source."
+  },
+  {
+   "i": 14,
+   "start": 50.55,
+   "speechStart": 50.55,
+   "end": 58.75,
+   "builds": 0,
+   "text": "The Coast Guard, and the courts, expect a prudent captain to cross-check the plotter against the buoys, the depth, and what he can see."
   }
  ]
 }

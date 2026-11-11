@@ -3,7 +3,7 @@
  "lessonId": "nav-10",
  "n": 2,
  "audio": "nav-10-2.mp3",
- "duration": 38.2,
+ "duration": 59.8,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,33 +12,153 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 12.425,
+   "end": 3.55,
    "builds": 0,
-   "text": "A relative bearing is measured clockwise from the bow: zero zero zero dead ahead, zero nine zero on the starboard beam, one eight zero astern, and two seven zero on the port beam."
+   "text": "A relative bearing ignores north altogether."
   },
   {
    "i": 1,
-   "start": 12.675,
-   "speechStart": 12.675,
-   "end": 22.575,
+   "start": 3.8,
+   "speechStart": 3.8,
+   "end": 6.05,
    "builds": 0,
-   "text": "To convert a relative bearing to a true bearing, add it to your true heading, and subtract three hundred sixty if the total goes over three hundred sixty."
+   "text": "It’s measured from your own bow."
   },
   {
    "i": 2,
-   "start": 22.825,
-   "speechStart": 22.825,
-   "end": 31.1,
+   "start": 6.3,
+   "speechStart": 6.3,
+   "end": 8.125,
    "builds": 0,
-   "text": "For example, with a true heading of three hundred, an object bearing zero nine zero relative is at zero three zero true."
+   "text": "Look at the diagram."
   },
   {
    "i": 3,
-   "start": 31.35,
-   "speechStart": 31.35,
+   "start": 8.375,
+   "speechStart": 8.375,
+   "end": 10.9,
+   "builds": 0,
+   "text": "Zero zero zero is dead ahead."
+  },
+  {
+   "i": 4,
+   "start": 11.15,
+   "speechStart": 11.15,
+   "end": 14.425,
+   "builds": 0,
+   "text": "Zero nine zero is on your starboard beam."
+  },
+  {
+   "i": 5,
+   "start": 14.675,
+   "speechStart": 14.675,
+   "end": 17.075,
+   "builds": 0,
+   "text": "One eight zero is dead astern."
+  },
+  {
+   "i": 6,
+   "start": 17.325,
+   "speechStart": 17.325,
+   "end": 20.3,
+   "builds": 0,
+   "text": "Two seven zero is on your port beam."
+  },
+  {
+   "i": 7,
+   "start": 20.55,
+   "speechStart": 20.55,
+   "end": 23.325,
+   "builds": 0,
+   "text": "It always runs clockwise from the bow."
+  },
+  {
+   "i": 8,
+   "start": 23.575,
+   "speechStart": 23.575,
+   "end": 28.2,
+   "builds": 0,
+   "text": "To turn a relative bearing into a true bearing, add it to your true heading."
+  },
+  {
+   "i": 9,
+   "start": 28.45,
+   "speechStart": 28.45,
+   "end": 33.475,
+   "builds": 0,
+   "text": "If the total goes over three hundred sixty, subtract three hundred sixty."
+  },
+  {
+   "i": 10,
+   "start": 33.725,
+   "speechStart": 33.725,
+   "end": 35.25,
+   "builds": 0,
+   "text": "Try one."
+  },
+  {
+   "i": 11,
+   "start": 35.5,
+   "speechStart": 35.5,
    "end": 37.9,
    "builds": 0,
-   "text": "Lookouts often report this way: broad on the starboard bow means about forty-five degrees relative."
+   "text": "Your true heading is three hundred."
+  },
+  {
+   "i": 12,
+   "start": 38.15,
+   "speechStart": 38.15,
+   "end": 41.05,
+   "builds": 0,
+   "text": "A buoy bears zero nine zero relative."
+  },
+  {
+   "i": 13,
+   "start": 41.3,
+   "speechStart": 41.3,
+   "end": 43.15,
+   "builds": 0,
+   "text": "What’s its true bearing?"
+  },
+  {
+   "i": 14,
+   "start": 43.4,
+   "speechStart": 44.15,
+   "end": 47.2,
+   "builds": 0,
+   "text": "Three hundred plus ninety is three ninety."
+  },
+  {
+   "i": 15,
+   "start": 47.45,
+   "speechStart": 47.45,
+   "end": 49.475,
+   "builds": 0,
+   "text": "Take away three sixty."
+  },
+  {
+   "i": 16,
+   "start": 49.725,
+   "speechStart": 49.725,
+   "end": 51.9,
+   "builds": 0,
+   "text": "Zero three zero true."
+  },
+  {
+   "i": 17,
+   "start": 52.15,
+   "speechStart": 52.15,
+   "end": 54.825,
+   "builds": 0,
+   "text": "Lookouts report this way all the time."
+  },
+  {
+   "i": 18,
+   "start": 55.075,
+   "speechStart": 55.075,
+   "end": 59.5,
+   "builds": 0,
+   "text": "Broad on the starboard bow means about forty-five degrees relative."
   }
  ]
 }

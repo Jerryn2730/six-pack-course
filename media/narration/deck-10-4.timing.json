@@ -3,50 +3,146 @@
  "lessonId": "deck-10",
  "n": 4,
  "audio": "deck-10-4.mp3",
- "duration": 35.9,
+ "duration": 57.55,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.8,
+   "end": 1.925,
    "builds": 0,
-   "text": "If you run aground, stop the engine and check everyone for injuries."
+   "text": "Running aground."
   },
   {
    "i": 1,
-   "start": 5.05,
-   "speechStart": 5.05,
-   "end": 13.0,
+   "start": 2.175,
+   "speechStart": 2.175,
+   "end": 7.375,
    "builds": 0,
-   "text": "Before trying to move, check the bilge and hull for leaks, because backing a holed boat off a shoal can sink it in deeper water."
+   "text": "In Florida’s shallow water, there are captains who’ve done it, and captains who will."
   },
   {
    "i": 2,
-   "start": 13.25,
-   "speechStart": 13.25,
-   "end": 19.65,
+   "start": 7.625,
+   "speechStart": 7.625,
+   "end": 9.3,
    "builds": 0,
-   "text": "Don’t just back hard: you can pull sand and mud into the engine’s cooling system and make things worse."
+   "text": "Here’s the drill."
   },
   {
    "i": 3,
-   "start": 19.9,
-   "speechStart": 19.9,
-   "end": 28.95,
-   "builds": 0,
-   "text": "Try shifting weight, carrying an anchor out to deeper water and pulling yourself off, which is called kedging, or simply waiting for the rising tide."
+   "start": 9.55,
+   "speechStart": 9.55,
+   "end": 13.0,
+   "builds": 1,
+   "text": "Stop the engine, and check everyone for injuries."
   },
   {
    "i": 4,
-   "start": 29.2,
-   "speechStart": 29.2,
-   "end": 35.6,
+   "start": 13.25,
+   "speechStart": 13.25,
+   "end": 15.625,
    "builds": 0,
-   "text": "Remember that an unintended grounding of a commercial vessel is a reportable marine casualty."
+   "text": "A sudden stop throws people."
+  },
+  {
+   "i": 5,
+   "start": 15.875,
+   "speechStart": 15.875,
+   "end": 20.35,
+   "builds": 1,
+   "text": "Before you try to move, check the bilge and the hull for leaks and damage."
+  },
+  {
+   "i": 6,
+   "start": 20.6,
+   "speechStart": 20.6,
+   "end": 22.225,
+   "builds": 0,
+   "text": "Why first?"
+  },
+  {
+   "i": 7,
+   "start": 22.475,
+   "speechStart": 23.225,
+   "end": 26.525,
+   "builds": 0,
+   "text": "Because if she’s holed, the shoal is holding you up."
+  },
+  {
+   "i": 8,
+   "start": 26.775,
+   "speechStart": 26.775,
+   "end": 29.625,
+   "builds": 0,
+   "text": "Back off into deep water, and you sink."
+  },
+  {
+   "i": 9,
+   "start": 29.875,
+   "speechStart": 29.875,
+   "end": 31.975,
+   "builds": 1,
+   "text": "Don’t just back down hard."
+  },
+  {
+   "i": 10,
+   "start": 32.225,
+   "speechStart": 32.225,
+   "end": 37.45,
+   "builds": 0,
+   "text": "You’ll pull sand and mud into the cooling system, and you can make a small hole bigger."
+  },
+  {
+   "i": 11,
+   "start": 37.7,
+   "speechStart": 37.7,
+   "end": 39.75,
+   "builds": 1,
+   "text": "Instead, shift weight."
+  },
+  {
+   "i": 12,
+   "start": 40.0,
+   "speechStart": 40.0,
+   "end": 44.075,
+   "builds": 0,
+   "text": "Or carry an anchor out to deeper water and pull yourself off."
+  },
+  {
+   "i": 13,
+   "start": 44.325,
+   "speechStart": 44.325,
+   "end": 46.2,
+   "builds": 0,
+   "text": "That’s called kedging."
+  },
+  {
+   "i": 14,
+   "start": 46.45,
+   "speechStart": 46.45,
+   "end": 49.075,
+   "builds": 0,
+   "text": "Or simply wait for the rising tide."
+  },
+  {
+   "i": 15,
+   "start": 49.325,
+   "speechStart": 49.325,
+   "end": 51.425,
+   "builds": 1,
+   "text": "And remember the paperwork."
+  },
+  {
+   "i": 16,
+   "start": 51.675,
+   "speechStart": 51.675,
+   "end": 57.25,
+   "builds": 0,
+   "text": "An unintended grounding of a commercial vessel is a reportable marine casualty."
   }
  ]
 }

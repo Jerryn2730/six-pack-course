@@ -1,25 +1,57 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:02.400
-Three controls matter most.
+00:00:00.150 --> 00:00:05.525
+A radar is only as good as the way it’s tuned, and three knobs do most of the work.
 
 2
-00:00:02.650 --> 00:00:09.825
-Gain sets overall sensitivity: too low and you miss weak targets, too high and the screen fills with speckle.
+00:00:05.775 --> 00:00:08.600
+Gain is the overall sensitivity.
 
 3
-00:00:10.075 --> 00:00:14.525
-Sea clutter control reduces echoes from waves close to the boat.
+00:00:08.850 --> 00:00:11.475
+Too low, and you miss weak targets.
 
 4
-00:00:14.775 --> 00:00:18.975
-Rain clutter control breaks up the solid returns from rain.
+00:00:11.725 --> 00:00:14.575
+Too high, and the screen fills with speckle.
 
 5
-00:00:19.225 --> 00:00:26.500
-The danger is turning these controls up so far that real targets, like a small boat or a buoy, disappear.
+00:00:14.825 --> 00:00:21.100
+Sea clutter control, also called S T C, cuts down the echoes from waves close to the boat.
 
 6
-00:00:26.750 --> 00:00:36.475
-Displays can be head-up, with the heading line straight up, or north-up and course-up, which stabilize the picture using a heading sensor and make plotting easier.
+00:00:21.350 --> 00:00:26.700
+Rain clutter control, F T C, breaks up the solid smear of a rain squall.
+
+7
+00:00:26.950 --> 00:00:29.200
+Here’s the danger in all three.
+
+8
+00:00:29.450 --> 00:00:33.475
+Turn them up too far, and what disappears along with the clutter?
+
+9
+00:00:34.475 --> 00:00:36.250
+The real targets.
+
+10
+00:00:36.500 --> 00:00:40.450
+A small boat or a buoy looks just like clutter to the radar.
+
+11
+00:00:40.700 --> 00:00:42.975
+So use as little as you need.
+
+12
+00:00:43.225 --> 00:00:44.850
+And the display.
+
+13
+00:00:45.100 --> 00:00:47.425
+Head-up puts your heading straight up.
+
+14
+00:00:47.675 --> 00:00:53.950
+North-up and course-up use a heading sensor to hold the picture steady, which makes plotting easier.

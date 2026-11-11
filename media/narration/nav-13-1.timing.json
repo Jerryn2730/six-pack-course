@@ -3,7 +3,7 @@
  "lessonId": "nav-13",
  "n": 1,
  "audio": "nav-13-1.mp3",
- "duration": 43.625,
+ "duration": 68.475,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,145 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.375,
+   "end": 3.175,
    "builds": 0,
-   "text": "Weather moves in systems."
+   "text": "The sea doesn’t hurt many charter captains."
   },
   {
    "i": 1,
-   "start": 2.625,
-   "speechStart": 2.625,
-   "end": 7.975,
+   "start": 3.425,
+   "speechStart": 3.425,
+   "end": 5.15,
    "builds": 0,
-   "text": "Air flows from high pressure toward low pressure, and the earth’s rotation bends it."
+   "text": "The weather does."
   },
   {
    "i": 2,
-   "start": 8.225,
-   "speechStart": 8.225,
-   "end": 20.45,
+   "start": 5.4,
+   "speechStart": 5.4,
+   "end": 8.75,
    "builds": 0,
-   "text": "In the Northern Hemisphere, winds blow clockwise and outward around a high, which usually brings fair weather, and counterclockwise and inward around a low, which brings clouds, wind and rain."
+   "text": "So for the next two lessons, we learn to read it."
   },
   {
    "i": 3,
-   "start": 20.7,
-   "speechStart": 20.7,
-   "end": 23.9,
+   "start": 9.0,
+   "speechStart": 9.0,
+   "end": 12.675,
    "builds": 0,
-   "text": "A front is the boundary between air masses."
+   "text": "Weather comes in systems, and the engine is pressure."
   },
   {
    "i": 4,
-   "start": 24.15,
-   "speechStart": 24.15,
-   "end": 34.2,
+   "start": 12.925,
+   "speechStart": 12.925,
+   "end": 18.825,
    "builds": 0,
-   "text": "A cold front, drawn with triangles, moves fast and brings a sharp line of showers or thunderstorms, a sudden wind shift, and then clearing, cooler weather."
+   "text": "Air flows from high pressure toward low pressure, and the earth’s rotation bends it on the way."
   },
   {
    "i": 5,
-   "start": 34.45,
-   "speechStart": 34.45,
-   "end": 43.325,
+   "start": 19.075,
+   "speechStart": 19.075,
+   "end": 20.9,
    "builds": 0,
-   "text": "A warm front, drawn with semicircles, moves slowly and brings a long period of low clouds, drizzle and poor visibility ahead of it."
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 6,
+   "start": 21.15,
+   "speechStart": 21.15,
+   "end": 26.05,
+   "builds": 0,
+   "text": "In the Northern Hemisphere, wind blows clockwise and outward around a high."
+  },
+  {
+   "i": 7,
+   "start": 26.3,
+   "speechStart": 26.3,
+   "end": 28.775,
+   "builds": 0,
+   "text": "Highs usually bring fair weather."
+  },
+  {
+   "i": 8,
+   "start": 29.025,
+   "speechStart": 29.025,
+   "end": 32.65,
+   "builds": 0,
+   "text": "Around a low, it blows counterclockwise and inward."
+  },
+  {
+   "i": 9,
+   "start": 32.9,
+   "speechStart": 32.9,
+   "end": 35.6,
+   "builds": 0,
+   "text": "Lows bring cloud, wind and rain."
+  },
+  {
+   "i": 10,
+   "start": 35.85,
+   "speechStart": 35.85,
+   "end": 39.275,
+   "builds": 0,
+   "text": "A front is the boundary between two air masses."
+  },
+  {
+   "i": 11,
+   "start": 39.525,
+   "speechStart": 39.525,
+   "end": 42.3,
+   "builds": 0,
+   "text": "A cold front is drawn with triangles."
+  },
+  {
+   "i": 12,
+   "start": 42.55,
+   "speechStart": 42.55,
+   "end": 50.15,
+   "builds": 0,
+   "text": "It moves fast, and brings a sharp line of showers or thunderstorms, a sudden wind shift, and then clear, cooler air."
+  },
+  {
+   "i": 13,
+   "start": 50.4,
+   "speechStart": 50.4,
+   "end": 53.55,
+   "builds": 0,
+   "text": "A warm front is drawn with semicircles."
+  },
+  {
+   "i": 14,
+   "start": 53.8,
+   "speechStart": 53.8,
+   "end": 59.9,
+   "builds": 0,
+   "text": "It moves slowly, with a long stretch of low cloud, drizzle and poor visibility ahead of it."
+  },
+  {
+   "i": 15,
+   "start": 60.15,
+   "speechStart": 60.9,
+   "end": 63.35,
+   "builds": 0,
+   "text": "So which front gives you less warning?"
+  },
+  {
+   "i": 16,
+   "start": 63.6,
+   "speechStart": 63.6,
+   "end": 65.275,
+   "builds": 0,
+   "text": "The cold front."
+  },
+  {
+   "i": 17,
+   "start": 65.525,
+   "speechStart": 65.525,
+   "end": 68.175,
+   "builds": 0,
+   "text": "It’s fast, and it hits like a wall."
   }
  ]
 }

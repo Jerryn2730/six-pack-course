@@ -3,58 +3,106 @@
  "lessonId": "nav-07",
  "n": 4,
  "audio": "nav-07-4.mp3",
- "duration": 41.575,
+ "duration": 53.225,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.575,
+   "end": 4.475,
    "builds": 0,
-   "text": "The classic Tide Tables used on the exam have three main tables."
+   "text": "On the exam, you’ll work from pages of the classic Tide Tables."
   },
   {
    "i": 1,
-   "start": 4.825,
-   "speechStart": 4.825,
-   "end": 10.825,
+   "start": 4.725,
+   "speechStart": 4.725,
+   "end": 8.375,
    "builds": 0,
-   "text": "Table one gives the daily times and heights of high and low water at reference stations."
+   "text": "They have three tables, and each answers one question."
   },
   {
    "i": 2,
-   "start": 11.075,
-   "speechStart": 11.075,
-   "end": 20.125,
-   "builds": 0,
-   "text": "Table two lists subordinate stations, each tied to a reference station, with time differences for high and low water and height corrections."
+   "start": 8.625,
+   "speechStart": 8.625,
+   "end": 13.15,
+   "builds": 1,
+   "text": "Table one: when and how high are the tides at the reference stations?"
   },
   {
    "i": 3,
-   "start": 20.375,
-   "speechStart": 20.375,
-   "end": 29.775,
+   "start": 13.4,
+   "speechStart": 13.4,
+   "end": 18.5,
    "builds": 0,
-   "text": "Height corrections are either a number of feet to add or subtract, or a ratio, marked with an asterisk, that you multiply by the reference heights."
+   "text": "It gives the daily times and heights of high and low water at the major ports."
   },
   {
    "i": 4,
-   "start": 30.025,
-   "speechStart": 30.025,
-   "end": 35.7,
-   "builds": 0,
-   "text": "Table three lets you find the height of tide at any time between high and low water."
+   "start": 18.75,
+   "speechStart": 18.75,
+   "end": 21.375,
+   "builds": 1,
+   "text": "Table two: what about my spot?"
   },
   {
    "i": 5,
-   "start": 35.95,
-   "speechStart": 35.95,
-   "end": 41.275,
+   "start": 21.625,
+   "speechStart": 21.625,
+   "end": 28.85,
    "builds": 0,
-   "text": "Times are in local standard time, so add one hour during daylight saving time."
+   "text": "It lists the subordinate stations, each tied to a reference station, with time differences and height corrections."
+  },
+  {
+   "i": 6,
+   "start": 29.1,
+   "speechStart": 29.1,
+   "end": 36.425,
+   "builds": 0,
+   "text": "The height correction is either feet to add or subtract, or a ratio to multiply by, marked with an asterisk."
+  },
+  {
+   "i": 7,
+   "start": 36.675,
+   "speechStart": 36.675,
+   "end": 40.6,
+   "builds": 1,
+   "text": "Table three: what’s the height right now, between high and low?"
+  },
+  {
+   "i": 8,
+   "start": 40.85,
+   "speechStart": 41.6,
+   "end": 44.4,
+   "builds": 0,
+   "text": "One more thing that costs people points."
+  },
+  {
+   "i": 9,
+   "start": 44.65,
+   "speechStart": 44.65,
+   "end": 47.275,
+   "builds": 0,
+   "text": "The times are in local standard time."
+  },
+  {
+   "i": 10,
+   "start": 47.525,
+   "speechStart": 47.525,
+   "end": 49.85,
+   "builds": 0,
+   "text": "So in summer, what do you do?"
+  },
+  {
+   "i": 11,
+   "start": 50.1,
+   "speechStart": 50.1,
+   "end": 52.925,
+   "builds": 0,
+   "text": "Add one hour for daylight saving time."
   }
  ]
 }

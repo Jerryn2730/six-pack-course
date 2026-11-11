@@ -3,50 +3,114 @@
  "lessonId": "deck-06",
  "n": 1,
  "audio": "deck-06-1.mp3",
- "duration": 32.85,
+ "duration": 56.0,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.975,
+   "end": 4.825,
    "builds": 0,
-   "text": "Hull shape determines how a boat behaves."
+   "text": "A boat has one job above all others: keep the water on the outside."
   },
   {
    "i": 1,
-   "start": 3.225,
-   "speechStart": 3.225,
-   "end": 11.05,
+   "start": 5.075,
+   "speechStart": 5.075,
+   "end": 9.2,
    "builds": 0,
-   "text": "A displacement hull pushes through the water, and its top speed, called hull speed, is limited by its waterline length."
+   "text": "Today is about the hull that does it, and what to do when it doesn’t."
   },
   {
    "i": 2,
-   "start": 11.3,
-   "speechStart": 11.3,
-   "end": 19.475,
+   "start": 9.45,
+   "speechStart": 9.45,
+   "end": 13.45,
    "builds": 0,
-   "text": "A planing hull rises up and skims on the surface once it has enough power and speed, which is how most charter boats travel."
+   "text": "We start with shape, because shape decides how a boat behaves."
   },
   {
    "i": 3,
-   "start": 19.725,
-   "speechStart": 19.725,
-   "end": 22.675,
-   "builds": 0,
-   "text": "Semi-displacement hulls fall in between."
+   "start": 13.7,
+   "speechStart": 13.7,
+   "end": 16.7,
+   "builds": 1,
+   "text": "A displacement hull pushes through the water."
   },
   {
    "i": 4,
-   "start": 22.925,
-   "speechStart": 22.925,
-   "end": 32.55,
+   "start": 16.95,
+   "speechStart": 16.95,
+   "end": 24.625,
    "builds": 0,
-   "text": "A deep-V bottom cuts through chop and gives a smoother ride, while a flat bottom is very stable at rest and in shallow water but pounds hard in waves."
+   "text": "Her top speed, called hull speed, is limited by her waterline length, and no amount of horsepower will change it much."
+  },
+  {
+   "i": 5,
+   "start": 24.875,
+   "speechStart": 24.875,
+   "end": 30.325,
+   "builds": 1,
+   "text": "A planing hull climbs up and skims on the surface once she has enough power and speed."
+  },
+  {
+   "i": 6,
+   "start": 30.575,
+   "speechStart": 30.575,
+   "end": 33.15,
+   "builds": 0,
+   "text": "That’s how most charter boats travel."
+  },
+  {
+   "i": 7,
+   "start": 33.4,
+   "speechStart": 33.4,
+   "end": 36.5,
+   "builds": 1,
+   "text": "A semi-displacement hull falls in between."
+  },
+  {
+   "i": 8,
+   "start": 36.75,
+   "speechStart": 36.75,
+   "end": 38.975,
+   "builds": 1,
+   "text": "Now look at the bottom itself."
+  },
+  {
+   "i": 9,
+   "start": 39.225,
+   "speechStart": 39.225,
+   "end": 42.325,
+   "builds": 0,
+   "text": "A deep-V cuts through chop and rides smoother."
+  },
+  {
+   "i": 10,
+   "start": 42.575,
+   "speechStart": 42.575,
+   "end": 49.05,
+   "builds": 0,
+   "text": "A flat bottom is very stable at rest and floats in shallow water, but what does she do in a head sea?"
+  },
+  {
+   "i": 11,
+   "start": 49.3,
+   "speechStart": 50.05,
+   "end": 51.65,
+   "builds": 0,
+   "text": "She pounds."
+  },
+  {
+   "i": 12,
+   "start": 51.9,
+   "speechStart": 51.9,
+   "end": 55.7,
+   "builds": 0,
+   "text": "Every hull is a trade, and you should know which trade you bought."
   }
  ]
 }

@@ -3,34 +3,82 @@
  "lessonId": "deck-14",
  "n": 2,
  "audio": "deck-14-2.mp3",
- "duration": 36.925,
+ "duration": 51.95,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 13.825,
+   "end": 2.65,
    "builds": 0,
-   "text": "Boats twenty-six feet and over must post an oil discharge placard, at least five by eight inches, in the machinery space or at the bilge pump control station, warning that discharging oil is prohibited."
+   "text": "Next, the signs and paperwork."
   },
   {
    "i": 1,
-   "start": 14.075,
-   "speechStart": 14.075,
-   "end": 23.475,
+   "start": 2.9,
+   "speechStart": 2.9,
+   "end": 6.8,
    "builds": 0,
-   "text": "They must also post a garbage placard, at least four by nine inches, summarizing the garbage discharge rules where crew and passengers can read it."
+   "text": "They’re easy points on the exam, because they’re pure numbers."
   },
   {
    "i": 2,
-   "start": 23.725,
-   "speechStart": 23.725,
-   "end": 36.625,
+   "start": 7.05,
+   "speechStart": 7.05,
+   "end": 15.825,
+   "builds": 1,
+   "text": "An oil discharge placard, at least five by eight inches, is required on boats twenty-six feet and over with machinery spaces."
+  },
+  {
+   "i": 3,
+   "start": 16.075,
+   "speechStart": 16.075,
+   "end": 20.3,
    "builds": 0,
-   "text": "Ocean-going boats forty feet and over that have a galley and berthing must also have a written waste management plan describing how garbage is collected, stored and disposed of, and who’s responsible."
+   "text": "It goes in the machinery space, or at the bilge pump control."
+  },
+  {
+   "i": 4,
+   "start": 20.55,
+   "speechStart": 20.55,
+   "end": 27.175,
+   "builds": 1,
+   "text": "A garbage placard, at least four by nine inches, is also required at twenty-six feet and over."
+  },
+  {
+   "i": 5,
+   "start": 27.425,
+   "speechStart": 27.425,
+   "end": 30.575,
+   "builds": 0,
+   "text": "It goes where your crew and passengers can read it."
+  },
+  {
+   "i": 6,
+   "start": 30.825,
+   "speechStart": 30.825,
+   "end": 39.0,
+   "builds": 1,
+   "text": "And a written waste management plan is required on ocean-going boats of forty feet and over that have a galley and berthing."
+  },
+  {
+   "i": 7,
+   "start": 39.25,
+   "speechStart": 39.25,
+   "end": 44.625,
+   "builds": 0,
+   "text": "It says how garbage is collected, stored and disposed of, and who’s responsible."
+  },
+  {
+   "i": 8,
+   "start": 44.875,
+   "speechStart": 45.625,
+   "end": 51.65,
+   "builds": 0,
+   "text": "So the numbers to keep are twenty-six feet for the two placards, and forty feet for the plan."
   }
  ]
 }

@@ -1,25 +1,57 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:07.875
-At ten fifteen you take two bearings: a light bears three four zero true, and a tower bears zero six five true.
+00:00:00.150 --> 00:00:02.400
+Let’s plot a two-bearing fix.
 
 2
-00:00:08.125 --> 00:00:11.050
-Through the light, draw a line along the bearing.
+00:00:02.650 --> 00:00:04.500
+Follow the diagram.
 
 3
-00:00:11.300 --> 00:00:16.100
-Your boat is on the side toward you, along the reciprocal, one six zero.
+00:00:04.750 --> 00:00:07.375
+At ten fifteen you take two bearings.
 
 4
-00:00:16.350 --> 00:00:22.050
-Through the tower, draw the second line; your boat is along its reciprocal, two four five.
+00:00:07.625 --> 00:00:10.275
+A light bears three four zero true.
 
 5
-00:00:22.300 --> 00:00:28.750
-The lines are eighty-five degrees apart, nearly ideal, and they cross at your ten fifteen fix.
+00:00:10.525 --> 00:00:13.275
+A tower bears zero six five true.
 
 6
-00:00:29.000 --> 00:00:34.050
-Circle it, label it, and read its latitude and longitude from the scales.
+00:00:13.525 --> 00:00:15.200
+Start with the light.
+
+7
+00:00:15.450 --> 00:00:19.025
+A bearing is the direction from you to the object.
+
+8
+00:00:19.275 --> 00:00:23.500
+So from the light, which way do you draw the line back toward yourself?
+
+9
+00:00:24.500 --> 00:00:27.400
+Along the reciprocal: one six zero.
+
+10
+00:00:27.650 --> 00:00:29.350
+Now the tower.
+
+11
+00:00:29.600 --> 00:00:34.975
+It bears zero six five, so from the tower you draw back along two four five.
+
+12
+00:00:35.225 --> 00:00:42.400
+The two lines are eighty-five degrees apart, which is nearly ideal, and they cross at your ten fifteen fix.
+
+13
+00:00:42.650 --> 00:00:44.675
+Circle it and label it.
+
+14
+00:00:44.925 --> 00:00:51.500
+Then read its latitude and longitude from the scales, because that’s usually what the question asks for.

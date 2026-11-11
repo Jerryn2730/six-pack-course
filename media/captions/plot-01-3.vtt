@@ -1,25 +1,49 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:02.575
-The compass rose has two rings.
+00:00:00.150 --> 00:00:04.375
+Now the compass rose itself, which holds more than it seems to.
 
 2
-00:00:02.825 --> 00:00:07.075
+00:00:04.625 --> 00:00:08.875
 The outer ring shows true directions, with zero at true north.
 
 3
-00:00:07.325 --> 00:00:12.625
-The inner ring shows magnetic directions, offset by the local variation.
+00:00:09.125 --> 00:00:12.225
+The inner ring shows magnetic directions.
 
 4
-00:00:12.875 --> 00:00:17.775
-The center gives the variation, the year it applied, and the annual change.
+00:00:12.475 --> 00:00:16.500
+It’s the same circle, twisted by the local variation.
 
 5
-00:00:18.025 --> 00:00:30.300
-Reading the inner ring gives you magnetic directions without arithmetic, but the rose may be years out of date, so most captains and most exam problems work in true and convert at the end.
+00:00:16.750 --> 00:00:22.450
+In the center, it tells you the variation, the year it was measured, and the annual change.
 
 6
-00:00:30.550 --> 00:00:34.300
-Always use the rose nearest the area you’re working in.
+00:00:22.700 --> 00:00:27.750
+Use the rose nearest your work, because variation changes across the chart.
+
+7
+00:00:28.000 --> 00:00:30.100
+So which ring should you use?
+
+8
+00:00:30.350 --> 00:00:32.525
+The inner ring looks tempting.
+
+9
+00:00:32.775 --> 00:00:35.675
+It gives you magnetic with no arithmetic.
+
+10
+00:00:35.925 --> 00:00:37.600
+What’s the catch?
+
+11
+00:00:38.600 --> 00:00:41.100
+The rose may be years out of date.
+
+12
+00:00:41.350 --> 00:00:47.725
+So most captains, and most exam problems, work in true on the outer ring, and convert at the end.

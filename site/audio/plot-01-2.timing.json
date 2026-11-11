@@ -3,7 +3,7 @@
  "lessonId": "plot-01",
  "n": 2,
  "audio": "plot-01-2.mp3",
- "duration": 35.975,
+ "duration": 56.925,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,33 +12,105 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.1,
+   "end": 6.025,
    "builds": 0,
-   "text": "To find the direction of a line on the chart, line up one edge of the parallel rulers with the line."
+   "text": "The first skill is finding the direction of a line, and the tool is a pair of parallel rulers."
   },
   {
    "i": 1,
-   "start": 6.35,
-   "speechStart": 6.35,
-   "end": 17.075,
+   "start": 6.275,
+   "speechStart": 6.275,
+   "end": 8.1,
    "builds": 0,
-   "text": "Then walk the rulers across the chart, holding one ruler down firmly while you swing the other, until an edge passes through the small cross at the center of the compass rose."
+   "text": "Look at the diagram."
   },
   {
    "i": 2,
-   "start": 17.325,
-   "speechStart": 17.325,
-   "end": 26.85,
+   "start": 8.35,
+   "speechStart": 8.35,
+   "end": 11.4,
    "builds": 0,
-   "text": "Read the direction where that edge crosses the rose, on the side in your direction of travel, not the reciprocal side one hundred eighty degrees away."
+   "text": "Lay one edge of the rulers along your line."
   },
   {
    "i": 3,
-   "start": 27.1,
-   "speechStart": 27.1,
-   "end": 35.675,
+   "start": 11.65,
+   "speechStart": 11.65,
+   "end": 19.925,
    "builds": 0,
-   "text": "To lay down a course, reverse the process: set the rulers on the rose at your course, then walk them to your position and draw the line."
+   "text": "Now walk them across the chart: hold one ruler down firmly, swing the other out, then hold that one and bring the first along."
+  },
+  {
+   "i": 4,
+   "start": 20.175,
+   "speechStart": 20.175,
+   "end": 26.4,
+   "builds": 0,
+   "text": "Keep going until an edge passes through the small cross at the center of the nearest compass rose."
+  },
+  {
+   "i": 5,
+   "start": 26.65,
+   "speechStart": 26.65,
+   "end": 30.075,
+   "builds": 0,
+   "text": "Then read the direction where that edge cuts the rose."
+  },
+  {
+   "i": 6,
+   "start": 30.325,
+   "speechStart": 30.325,
+   "end": 34.6,
+   "builds": 0,
+   "text": "But the edge cuts the rose in two places, opposite each other."
+  },
+  {
+   "i": 7,
+   "start": 34.85,
+   "speechStart": 34.85,
+   "end": 36.675,
+   "builds": 0,
+   "text": "Which one do you read?"
+  },
+  {
+   "i": 8,
+   "start": 36.925,
+   "speechStart": 37.675,
+   "end": 40.225,
+   "builds": 0,
+   "text": "The one in your direction of travel."
+  },
+  {
+   "i": 9,
+   "start": 40.475,
+   "speechStart": 40.475,
+   "end": 44.775,
+   "builds": 0,
+   "text": "Read the other, and you’re exactly one hundred eighty degrees wrong."
+  },
+  {
+   "i": 10,
+   "start": 45.025,
+   "speechStart": 45.025,
+   "end": 47.825,
+   "builds": 0,
+   "text": "To lay a course down, do it backward."
+  },
+  {
+   "i": 11,
+   "start": 48.075,
+   "speechStart": 48.075,
+   "end": 53.475,
+   "builds": 0,
+   "text": "Set the rulers on the rose at your course, walk them to your position, and draw the line."
+  },
+  {
+   "i": 12,
+   "start": 53.725,
+   "speechStart": 53.725,
+   "end": 56.625,
+   "builds": 0,
+   "text": "If the rulers slip on the way, start again."
   }
  ]
 }

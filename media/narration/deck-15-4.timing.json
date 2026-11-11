@@ -3,58 +3,130 @@
  "lessonId": "deck-15",
  "n": 4,
  "audio": "deck-15-4.mp3",
- "duration": 41.975,
+ "duration": 61.775,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.025,
+   "end": 3.875,
    "builds": 0,
-   "text": "A few more rules."
+   "text": "A handful of other rules that catch charter captains."
   },
   {
    "i": 1,
-   "start": 2.275,
-   "speechStart": 2.275,
-   "end": 11.2,
-   "builds": 0,
-   "text": "You’re legally responsible for your wake and any damage or injury it causes, so slow down near docks, small boats and anchored vessels."
+   "start": 4.125,
+   "speechStart": 4.125,
+   "end": 5.6,
+   "builds": 1,
+   "text": "Your wake."
   },
   {
    "i": 2,
-   "start": 11.45,
-   "speechStart": 11.45,
-   "end": 21.35,
+   "start": 5.85,
+   "speechStart": 5.85,
+   "end": 10.825,
    "builds": 0,
-   "text": "Within five hundred yards of a large American naval vessel, you must operate at minimum speed, and you may not come within one hundred yards without permission."
+   "text": "You’re legally responsible for it, and for any damage or injury it causes."
   },
   {
    "i": 3,
-   "start": 21.6,
-   "speechStart": 21.6,
-   "end": 27.975,
+   "start": 11.075,
+   "speechStart": 11.075,
+   "end": 15.025,
    "builds": 0,
-   "text": "Many Florida ports enforce security zones around cruise ships, tankers and port facilities."
+   "text": "Slow down near docks, small boats and anchored vessels."
   },
   {
    "i": 4,
-   "start": 28.225,
-   "speechStart": 28.225,
-   "end": 33.6,
-   "builds": 0,
-   "text": "Florida law also covers boating under the influence and reckless operation."
+   "start": 15.275,
+   "speechStart": 15.275,
+   "end": 17.15,
+   "builds": 1,
+   "text": "Naval vessels."
   },
   {
    "i": 5,
-   "start": 33.85,
-   "speechStart": 33.85,
-   "end": 41.675,
+   "start": 17.4,
+   "speechStart": 17.4,
+   "end": 23.475,
    "builds": 0,
-   "text": "And when the Coast Guard or the Fish and Wildlife Conservation Commission signals you to stop for a boarding, comply promptly."
+   "text": "Within five hundred yards of a large American naval vessel, you operate at minimum speed."
+  },
+  {
+   "i": 6,
+   "start": 23.725,
+   "speechStart": 23.725,
+   "end": 27.575,
+   "builds": 0,
+   "text": "And you may not come within one hundred yards without permission."
+  },
+  {
+   "i": 7,
+   "start": 27.825,
+   "speechStart": 27.825,
+   "end": 29.725,
+   "builds": 0,
+   "text": "Five hundred, slow."
+  },
+  {
+   "i": 8,
+   "start": 29.975,
+   "speechStart": 29.975,
+   "end": 32.1,
+   "builds": 0,
+   "text": "One hundred, stay out."
+  },
+  {
+   "i": 9,
+   "start": 32.35,
+   "speechStart": 32.35,
+   "end": 38.725,
+   "builds": 1,
+   "text": "Many Florida ports enforce security zones around cruise ships, tankers and port facilities."
+  },
+  {
+   "i": 10,
+   "start": 38.975,
+   "speechStart": 38.975,
+   "end": 43.75,
+   "builds": 1,
+   "text": "Florida law covers boating under the influence and reckless operation."
+  },
+  {
+   "i": 11,
+   "start": 44.0,
+   "speechStart": 44.0,
+   "end": 47.725,
+   "builds": 0,
+   "text": "And remember your own limit as a commercial operator."
+  },
+  {
+   "i": 12,
+   "start": 47.975,
+   "speechStart": 47.975,
+   "end": 49.475,
+   "builds": 0,
+   "text": "What was it?"
+  },
+  {
+   "i": 13,
+   "start": 49.725,
+   "speechStart": 50.475,
+   "end": 52.45,
+   "builds": 0,
+   "text": "Zero point zero four."
+  },
+  {
+   "i": 14,
+   "start": 52.7,
+   "speechStart": 52.7,
+   "end": 61.475,
+   "builds": 1,
+   "text": "And when the Coast Guard or the Fish and Wildlife Conservation Commission signals you to stop for a boarding, comply promptly and politely."
   }
  ]
 }

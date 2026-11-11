@@ -3,50 +3,138 @@
  "lessonId": "plot-01",
  "n": 1,
  "audio": "plot-01-1.mp3",
- "duration": 34.55,
+ "duration": 60.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.55,
+   "end": 2.275,
    "builds": 0,
-   "text": "Welcome to Chart Plotting, the hands-on module."
+   "text": "Welcome to Chart Plotting."
   },
   {
    "i": 1,
-   "start": 3.8,
-   "speechStart": 3.8,
-   "end": 13.675,
+   "start": 2.525,
+   "speechStart": 2.525,
+   "end": 5.35,
    "builds": 0,
-   "text": "On the exam you’ll work problems on a real training chart, usually NOAA chart twelve ten T R, which covers Martha’s Vineyard to Block Island."
+   "text": "This is the module you do with your hands."
   },
   {
    "i": 2,
-   "start": 13.925,
-   "speechStart": 13.925,
-   "end": 16.125,
+   "start": 5.6,
+   "speechStart": 5.6,
+   "end": 7.85,
    "builds": 0,
-   "text": "Yes, even in Florida."
+   "text": "No memorizing rhymes here."
   },
   {
    "i": 3,
-   "start": 16.375,
-   "speechStart": 16.375,
-   "end": 25.95,
+   "start": 8.1,
+   "speechStart": 8.1,
+   "end": 14.9,
    "builds": 0,
-   "text": "You’ll need parallel rulers or a course plotter, a pair of dividers, sharp pencils, an eraser and, if your exam allows it, a simple calculator."
+   "text": "You’ll draw lines on a real chart and measure them, and the exam checks whether your lines land in the right place."
   },
   {
    "i": 4,
-   "start": 26.2,
-   "speechStart": 26.2,
-   "end": 34.25,
+   "start": 15.15,
+   "speechStart": 15.15,
+   "end": 16.825,
    "builds": 0,
-   "text": "Buy the chart and tools now, bring your own to the exam, and practice with the same ones, so your hands know them by test day."
+   "text": "First, the kit."
+  },
+  {
+   "i": 5,
+   "start": 17.075,
+   "speechStart": 17.075,
+   "end": 20.7,
+   "builds": 1,
+   "text": "Parallel rulers, or a course plotter, for directions."
+  },
+  {
+   "i": 6,
+   "start": 20.95,
+   "speechStart": 20.95,
+   "end": 23.55,
+   "builds": 1,
+   "text": "A pair of dividers, for distances."
+  },
+  {
+   "i": 7,
+   "start": 23.8,
+   "speechStart": 23.8,
+   "end": 29.525,
+   "builds": 1,
+   "text": "Sharp pencils, a good eraser, and a simple calculator if your exam allows one."
+  },
+  {
+   "i": 8,
+   "start": 29.775,
+   "speechStart": 29.775,
+   "end": 31.625,
+   "builds": 1,
+   "text": "And the chart itself."
+  },
+  {
+   "i": 9,
+   "start": 31.875,
+   "speechStart": 31.875,
+   "end": 36.975,
+   "builds": 0,
+   "text": "The exam is usually worked on NOAA training chart twelve ten T R."
+  },
+  {
+   "i": 10,
+   "start": 37.225,
+   "speechStart": 37.225,
+   "end": 41.625,
+   "builds": 0,
+   "text": "It covers Martha’s Vineyard to Block Island, up in New England."
+  },
+  {
+   "i": 11,
+   "start": 41.875,
+   "speechStart": 41.875,
+   "end": 45.5,
+   "builds": 0,
+   "text": "A Florida captain, tested on a Massachusetts chart?"
+  },
+  {
+   "i": 12,
+   "start": 45.75,
+   "speechStart": 46.5,
+   "end": 47.9,
+   "builds": 0,
+   "text": "Yes."
+  },
+  {
+   "i": 13,
+   "start": 48.15,
+   "speechStart": 48.15,
+   "end": 51.325,
+   "builds": 0,
+   "text": "Everyone in the country uses the same one."
+  },
+  {
+   "i": 14,
+   "start": 51.575,
+   "speechStart": 51.575,
+   "end": 53.275,
+   "builds": 0,
+   "text": "So buy it now."
+  },
+  {
+   "i": 15,
+   "start": 53.525,
+   "speechStart": 53.525,
+   "end": 60.5,
+   "builds": 1,
+   "text": "And practice with the very tools you’ll carry into the exam room, so your hands already know them on test day."
   }
  ]
 }

@@ -3,58 +3,138 @@
  "lessonId": "plot-07",
  "n": 5,
  "audio": "plot-07-5.mp3",
- "duration": 33.3,
+ "duration": 57.55,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.975,
+   "end": 2.6,
    "builds": 0,
-   "text": "With GPS on every boat, why learn dead reckoning?"
+   "text": "Every boat has GPS now."
   },
   {
    "i": 1,
-   "start": 4.225,
-   "speechStart": 4.225,
-   "end": 6.375,
+   "start": 2.85,
+   "speechStart": 2.85,
+   "end": 5.8,
    "builds": 0,
-   "text": "Because electronics fail."
+   "text": "So why did I just make you do this by hand?"
   },
   {
    "i": 2,
-   "start": 6.625,
-   "speechStart": 6.625,
-   "end": 14.45,
-   "builds": 0,
-   "text": "If your GPS or power quits, your last fix plus a DR from your logged courses and speeds is how you get home."
+   "start": 6.05,
+   "speechStart": 6.05,
+   "end": 12.4,
+   "builds": 1,
+   "text": "Because you should be keeping a log anyway: your courses, your speeds, and the time of every change."
   },
   {
    "i": 3,
-   "start": 14.7,
-   "speechStart": 14.7,
-   "end": 19.35,
-   "builds": 0,
-   "text": "Keep a written log of course, speed and the times of every change."
+   "start": 12.65,
+   "speechStart": 12.65,
+   "end": 15.35,
+   "builds": 1,
+   "text": "Your chartplotter track isn’t a DR."
   },
   {
    "i": 4,
-   "start": 19.6,
-   "speechStart": 19.6,
-   "end": 24.175,
+   "start": 15.6,
+   "speechStart": 15.6,
+   "end": 17.575,
    "builds": 0,
-   "text": "Your chartplotter track only records where you went; it isn’t a DR."
+   "text": "It shows where you’ve been."
   },
   {
    "i": 5,
-   "start": 24.425,
-   "speechStart": 24.425,
-   "end": 33.0,
+   "start": 17.825,
+   "speechStart": 17.825,
+   "end": 21.1,
    "builds": 0,
-   "text": "And comparing your DR with a GPS fix shows you exactly how much the current is setting you, which helps you plan the rest of the trip."
+   "text": "It says nothing about where you’ll be if the screen dies."
+  },
+  {
+   "i": 6,
+   "start": 21.35,
+   "speechStart": 21.35,
+   "end": 28.325,
+   "builds": 1,
+   "text": "And if the GPS or the power does fail, your last fix plus a DR from your log is how you get home."
+  },
+  {
+   "i": 7,
+   "start": 28.575,
+   "speechStart": 28.575,
+   "end": 30.6,
+   "builds": 1,
+   "text": "There’s a daily use too."
+  },
+  {
+   "i": 8,
+   "start": 30.85,
+   "speechStart": 30.85,
+   "end": 33.75,
+   "builds": 0,
+   "text": "Compare your DR with the GPS fix."
+  },
+  {
+   "i": 9,
+   "start": 34.0,
+   "speechStart": 34.0,
+   "end": 36.375,
+   "builds": 0,
+   "text": "What does the gap between them tell you?"
+  },
+  {
+   "i": 10,
+   "start": 36.625,
+   "speechStart": 37.375,
+   "end": 40.225,
+   "builds": 0,
+   "text": "How the current is setting you, and how hard."
+  },
+  {
+   "i": 11,
+   "start": 40.475,
+   "speechStart": 40.475,
+   "end": 44.25,
+   "builds": 1,
+   "text": "So practice on calm days, when nothing depends on it."
+  },
+  {
+   "i": 12,
+   "start": 44.5,
+   "speechStart": 44.5,
+   "end": 46.425,
+   "builds": 0,
+   "text": "That’s lesson seven."
+  },
+  {
+   "i": 13,
+   "start": 46.675,
+   "speechStart": 46.675,
+   "end": 50.825,
+   "builds": 0,
+   "text": "Circle for a fix, half circle for a DR, square for an E P."
+  },
+  {
+   "i": 14,
+   "start": 51.075,
+   "speechStart": 51.075,
+   "end": 53.775,
+   "builds": 0,
+   "text": "Plot on the hour and at every change."
+  },
+  {
+   "i": 15,
+   "start": 54.025,
+   "speechStart": 54.025,
+   "end": 57.25,
+   "builds": 0,
+   "text": "Next time: fixes from a single landmark."
   }
  ]
 }

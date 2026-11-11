@@ -3,50 +3,106 @@
  "lessonId": "nav-08",
  "n": 2,
  "audio": "nav-08-2.mp3",
- "duration": 47.175,
+ "duration": 59.125,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 3,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.65,
+   "end": 5.875,
    "builds": 0,
-   "text": "The Tidal Current Tables work like the Tide Tables."
+   "text": "The Tidal Current Tables are built just like the Tide Tables, so this will feel familiar."
   },
   {
    "i": 1,
-   "start": 3.9,
-   "speechStart": 3.9,
-   "end": 12.25,
-   "builds": 0,
-   "text": "Table one gives daily times of slack water and maximum current at reference stations, with maximum flood and ebb speeds."
+   "start": 6.125,
+   "speechStart": 6.125,
+   "end": 15.125,
+   "builds": 1,
+   "text": "Table one gives the daily times of slack water and maximum current at the reference stations, with the maximum flood and ebb speeds."
   },
   {
    "i": 2,
-   "start": 12.5,
-   "speechStart": 12.5,
-   "end": 24.35,
-   "builds": 0,
-   "text": "Table two gives corrections for subordinate stations: time differences for slack and maximum current, speed ratios for flood and ebb, and the true directions of flood and ebb."
+   "start": 15.375,
+   "speechStart": 15.375,
+   "end": 18.55,
+   "builds": 1,
+   "text": "Table two is for the subordinate stations."
   },
   {
    "i": 3,
-   "start": 24.6,
-   "speechStart": 24.6,
-   "end": 29.725,
+   "start": 18.8,
+   "speechStart": 18.8,
+   "end": 25.475,
    "builds": 0,
-   "text": "Table three gives the current speed at any time between slack and maximum."
+   "text": "It gives time differences, speed ratios for flood and ebb, and the true directions of flood and ebb."
   },
   {
    "i": 4,
-   "start": 29.975,
-   "speechStart": 29.975,
-   "end": 46.875,
+   "start": 25.725,
+   "speechStart": 25.725,
+   "end": 30.425,
+   "builds": 1,
+   "text": "Table three gives the speed at any time between slack and maximum."
+  },
+  {
+   "i": 5,
+   "start": 30.675,
+   "speechStart": 30.675,
+   "end": 32.375,
    "builds": 0,
-   "text": "For example, if the reference station predicts a maximum flood of two knots at fourteen hundred, and a subordinate station has a time difference of minus twenty minutes and a flood ratio of point six, expect a maximum flood of one point two knots at thirteen forty."
+   "text": "Let’s try one."
+  },
+  {
+   "i": 6,
+   "start": 32.625,
+   "speechStart": 32.625,
+   "end": 37.9,
+   "builds": 0,
+   "text": "The reference station predicts a maximum flood of two knots at fourteen hundred."
+  },
+  {
+   "i": 7,
+   "start": 38.15,
+   "speechStart": 38.15,
+   "end": 44.975,
+   "builds": 0,
+   "text": "Your subordinate station has a time difference of minus twenty minutes, and a flood ratio of point six."
+  },
+  {
+   "i": 8,
+   "start": 45.225,
+   "speechStart": 45.225,
+   "end": 48.125,
+   "builds": 0,
+   "text": "When is your maximum flood, and how strong?"
+  },
+  {
+   "i": 9,
+   "start": 48.375,
+   "speechStart": 49.125,
+   "end": 53.7,
+   "builds": 0,
+   "text": "Thirteen forty, and two times point six is one point two knots."
+  },
+  {
+   "i": 10,
+   "start": 53.95,
+   "speechStart": 53.95,
+   "end": 56.475,
+   "builds": 0,
+   "text": "Times get added or subtracted."
+  },
+  {
+   "i": 11,
+   "start": 56.725,
+   "speechStart": 56.725,
+   "end": 58.825,
+   "builds": 0,
+   "text": "Speeds get multiplied."
   }
  ]
 }

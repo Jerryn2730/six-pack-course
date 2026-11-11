@@ -3,7 +3,7 @@
  "lessonId": "deck-09",
  "n": 2,
  "audio": "deck-09-2.mp3",
- "duration": 39.175,
+ "duration": 58.375,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,137 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.6,
+   "end": 2.75,
    "builds": 0,
-   "text": "The rode is everything between the anchor and the boat."
+   "text": "The anchor is only half the system."
   },
   {
    "i": 1,
-   "start": 3.85,
-   "speechStart": 3.85,
-   "end": 15.65,
+   "start": 3.0,
+   "speechStart": 3.0,
+   "end": 7.475,
    "builds": 0,
-   "text": "Most small boats use a length of chain at the anchor, which keeps the pull low along the bottom and resists chafe on rocks and shells, then nylon line, which stretches to absorb shock."
+   "text": "The other half is the rode, everything between the anchor and the boat."
   },
   {
    "i": 2,
-   "start": 15.9,
-   "speechStart": 15.9,
-   "end": 24.675,
+   "start": 7.725,
+   "speechStart": 7.725,
+   "end": 9.55,
    "builds": 0,
-   "text": "Scope is the ratio of rode let out to the distance from your bow to the bottom: the water depth plus the height of the bow above the water."
+   "text": "Look at the diagram."
   },
   {
    "i": 3,
-   "start": 24.925,
-   "speechStart": 24.925,
-   "end": 30.625,
+   "start": 9.8,
+   "speechStart": 9.8,
+   "end": 14.4,
    "builds": 0,
-   "text": "Five to one is the minimum and seven to one is preferred, with more in heavy weather."
+   "text": "Most small boats use a length of chain at the anchor, then nylon line."
   },
   {
    "i": 4,
-   "start": 30.875,
-   "speechStart": 30.875,
-   "end": 38.875,
+   "start": 14.65,
+   "speechStart": 14.65,
+   "end": 19.8,
    "builds": 0,
-   "text": "In fifteen feet of water with a bow three feet high, seven to one means eighteen times seven, or one hundred twenty-six feet."
+   "text": "The chain keeps the pull low, along the bottom, and stands up to rocks and shells."
+  },
+  {
+   "i": 5,
+   "start": 20.05,
+   "speechStart": 20.05,
+   "end": 23.125,
+   "builds": 0,
+   "text": "The nylon stretches and absorbs the shock."
+  },
+  {
+   "i": 6,
+   "start": 23.375,
+   "speechStart": 23.375,
+   "end": 26.4,
+   "builds": 0,
+   "text": "Now the word that matters most: scope."
+  },
+  {
+   "i": 7,
+   "start": 26.65,
+   "speechStart": 26.65,
+   "end": 31.925,
+   "builds": 0,
+   "text": "It’s the ratio of the rode you let out, to the distance from your bow down to the bottom."
+  },
+  {
+   "i": 8,
+   "start": 32.175,
+   "speechStart": 32.175,
+   "end": 34.25,
+   "builds": 0,
+   "text": "Not just the water depth."
+  },
+  {
+   "i": 9,
+   "start": 34.5,
+   "speechStart": 34.5,
+   "end": 37.825,
+   "builds": 0,
+   "text": "The depth, plus the height of your bow above the water."
+  },
+  {
+   "i": 10,
+   "start": 38.075,
+   "speechStart": 38.075,
+   "end": 40.35,
+   "builds": 0,
+   "text": "Five to one is the minimum."
+  },
+  {
+   "i": 11,
+   "start": 40.6,
+   "speechStart": 40.6,
+   "end": 43.85,
+   "builds": 0,
+   "text": "Seven to one is better, and more in heavy weather."
+  },
+  {
+   "i": 12,
+   "start": 44.1,
+   "speechStart": 44.1,
+   "end": 45.775,
+   "builds": 0,
+   "text": "So try one."
+  },
+  {
+   "i": 13,
+   "start": 46.025,
+   "speechStart": 46.025,
+   "end": 49.575,
+   "builds": 0,
+   "text": "Fifteen feet of water, and your bow is three feet up."
+  },
+  {
+   "i": 14,
+   "start": 49.825,
+   "speechStart": 49.825,
+   "end": 52.2,
+   "builds": 0,
+   "text": "How much rode for seven to one?"
+  },
+  {
+   "i": 15,
+   "start": 52.45,
+   "speechStart": 53.2,
+   "end": 55.6,
+   "builds": 0,
+   "text": "Eighteen feet, times seven."
+  },
+  {
+   "i": 16,
+   "start": 55.85,
+   "speechStart": 55.85,
+   "end": 58.075,
+   "builds": 0,
+   "text": "One hundred twenty-six feet."
   }
  ]
 }

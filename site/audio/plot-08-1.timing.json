@@ -3,7 +3,7 @@
  "lessonId": "plot-08",
  "n": 1,
  "audio": "plot-08-1.mp3",
- "duration": 37.725,
+ "duration": 55.875,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,57 +12,129 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.1,
+   "end": 3.0,
    "builds": 0,
-   "text": "Sometimes only one landmark is in sight."
+   "text": "What if there’s only one landmark in sight?"
   },
   {
    "i": 1,
-   "start": 3.35,
-   "speechStart": 3.35,
-   "end": 5.725,
+   "start": 3.25,
+   "speechStart": 3.25,
+   "end": 5.75,
    "builds": 0,
-   "text": "A running fix uses it twice."
+   "text": "One lighthouse on an empty coast."
   },
   {
    "i": 2,
-   "start": 5.975,
-   "speechStart": 5.975,
-   "end": 9.025,
+   "start": 6.0,
+   "speechStart": 6.0,
+   "end": 10.025,
    "builds": 0,
-   "text": "Take a bearing and plot the line of position."
+   "text": "One bearing gives you one line, and one line isn’t a fix."
   },
   {
    "i": 3,
-   "start": 9.275,
-   "speechStart": 9.275,
-   "end": 16.075,
+   "start": 10.275,
+   "speechStart": 10.275,
+   "end": 12.25,
    "builds": 0,
-   "text": "Keep running on a steady course and speed, and later take a second bearing on the same or another object."
+   "text": "The answer is clever."
   },
   {
    "i": 4,
-   "start": 16.325,
-   "speechStart": 16.325,
-   "end": 24.975,
+   "start": 12.5,
+   "speechStart": 12.5,
+   "end": 14.8,
    "builds": 0,
-   "text": "Then advance the first L O P: move it parallel to itself, in the direction of your course, by the distance you ran between bearings."
+   "text": "Use the same landmark twice."
   },
   {
    "i": 5,
-   "start": 25.225,
-   "speechStart": 25.225,
-   "end": 30.025,
+   "start": 15.05,
+   "speechStart": 15.05,
+   "end": 16.95,
    "builds": 0,
-   "text": "Where the advanced line crosses the second L O P is your running fix."
+   "text": "That’s a running fix."
   },
   {
    "i": 6,
-   "start": 30.275,
-   "speechStart": 30.275,
-   "end": 37.425,
+   "start": 17.2,
+   "speechStart": 17.2,
+   "end": 19.025,
    "builds": 0,
-   "text": "Its accuracy depends on your course and speed being right, so unknown current between bearings creates error."
+   "text": "Look at the diagram."
+  },
+  {
+   "i": 7,
+   "start": 19.275,
+   "speechStart": 19.275,
+   "end": 22.325,
+   "builds": 0,
+   "text": "Take a bearing, and plot the line of position."
+  },
+  {
+   "i": 8,
+   "start": 22.575,
+   "speechStart": 22.575,
+   "end": 25.45,
+   "builds": 0,
+   "text": "Keep going, on a steady course and speed."
+  },
+  {
+   "i": 9,
+   "start": 25.7,
+   "speechStart": 25.7,
+   "end": 28.075,
+   "builds": 0,
+   "text": "Later, take a second bearing."
+  },
+  {
+   "i": 10,
+   "start": 28.325,
+   "speechStart": 28.325,
+   "end": 30.55,
+   "builds": 0,
+   "text": "Now advance the first line."
+  },
+  {
+   "i": 11,
+   "start": 30.8,
+   "speechStart": 30.8,
+   "end": 37.4,
+   "builds": 0,
+   "text": "Slide it, parallel to itself, in the direction of your course, by the distance you ran between the bearings."
+  },
+  {
+   "i": 12,
+   "start": 37.65,
+   "speechStart": 37.65,
+   "end": 42.025,
+   "builds": 0,
+   "text": "Where the advanced line crosses the second line is your running fix."
+  },
+  {
+   "i": 13,
+   "start": 42.275,
+   "speechStart": 43.025,
+   "end": 44.75,
+   "builds": 0,
+   "text": "What’s the weak point?"
+  },
+  {
+   "i": 14,
+   "start": 45.0,
+   "speechStart": 45.0,
+   "end": 49.75,
+   "builds": 0,
+   "text": "It depends on your course and speed over the ground being what you think they are."
+  },
+  {
+   "i": 15,
+   "start": 50.0,
+   "speechStart": 50.0,
+   "end": 55.575,
+   "builds": 0,
+   "text": "If an unknown current is pushing you between the two bearings, the running fix will be off."
   }
  ]
 }

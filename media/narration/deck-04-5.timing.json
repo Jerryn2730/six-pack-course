@@ -3,58 +3,122 @@
  "lessonId": "deck-04",
  "n": 5,
  "audio": "deck-04-5.mp3",
- "duration": 35.625,
+ "duration": 59.825,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.8,
+   "end": 5.0,
    "builds": 0,
-   "text": "Most boat fires are preventable."
+   "text": "Most boat fires are preventable, and prevention is plain housekeeping."
   },
   {
    "i": 1,
-   "start": 3.05,
-   "speechStart": 3.05,
-   "end": 8.425,
-   "builds": 0,
-   "text": "Keep bilges clean and free of oil and fuel, which also helps you spot new leaks."
+   "start": 5.25,
+   "speechStart": 5.25,
+   "end": 8.95,
+   "builds": 1,
+   "text": "Keep the bilges clean, with no oil or fuel in them."
   },
   {
    "i": 2,
-   "start": 8.675,
-   "speechStart": 8.675,
-   "end": 15.9,
+   "start": 9.2,
+   "speechStart": 9.2,
+   "end": 12.825,
    "builds": 0,
-   "text": "Inspect fuel lines, hose clamps, tank vents and fuel tanks regularly for chafe, corrosion and seepage."
+   "text": "A clean bilge also shows you a new leak right away."
   },
   {
    "i": 3,
-   "start": 16.15,
-   "speechStart": 16.15,
-   "end": 23.45,
-   "builds": 0,
-   "text": "Store oily rags, paints and solvents in proper containers, since oily rags can heat up and ignite on their own."
+   "start": 13.075,
+   "speechStart": 13.075,
+   "end": 19.3,
+   "builds": 1,
+   "text": "Inspect the fuel lines, hose clamps, tank vents and tanks for chafe, corrosion and weeping."
   },
   {
    "i": 4,
-   "start": 23.7,
-   "speechStart": 23.7,
-   "end": 27.35,
-   "builds": 0,
-   "text": "Limit smoking to safe areas, if you allow it at all."
+   "start": 19.55,
+   "speechStart": 19.55,
+   "end": 23.775,
+   "builds": 1,
+   "text": "Store oily rags, paints and solvents in proper containers."
   },
   {
    "i": 5,
-   "start": 27.6,
-   "speechStart": 27.6,
-   "end": 35.325,
+   "start": 24.025,
+   "speechStart": 24.025,
+   "end": 28.8,
    "builds": 0,
-   "text": "A few minutes of inspection before each trip is far easier than fighting a fire offshore with six passengers aboard."
+   "text": "An oily rag wadded up in a locker can heat up and light all by itself."
+  },
+  {
+   "i": 6,
+   "start": 29.05,
+   "speechStart": 29.05,
+   "end": 32.8,
+   "builds": 1,
+   "text": "Allow smoking only where it’s safe, if you allow it at all."
+  },
+  {
+   "i": 7,
+   "start": 33.05,
+   "speechStart": 33.05,
+   "end": 41.0,
+   "builds": 1,
+   "text": "And remember that a few minutes of looking at the dock is far easier than fighting a fire offshore with six passengers aboard."
+  },
+  {
+   "i": 8,
+   "start": 41.25,
+   "speechStart": 42.0,
+   "end": 43.875,
+   "builds": 0,
+   "text": "That’s lesson four."
+  },
+  {
+   "i": 9,
+   "start": 44.125,
+   "speechStart": 44.125,
+   "end": 45.85,
+   "builds": 0,
+   "text": "Vapor sinks."
+  },
+  {
+   "i": 10,
+   "start": 46.1,
+   "speechStart": 46.1,
+   "end": 50.45,
+   "builds": 0,
+   "text": "Close up to fuel, open up to start, four minutes on the blower."
+  },
+  {
+   "i": 11,
+   "start": 50.7,
+   "speechStart": 50.7,
+   "end": 53.575,
+   "builds": 0,
+   "text": "Carbon monoxide looks like seasickness."
+  },
+  {
+   "i": 12,
+   "start": 53.825,
+   "speechStart": 53.825,
+   "end": 56.475,
+   "builds": 0,
+   "text": "And nobody swims near shore power."
+  },
+  {
+   "i": 13,
+   "start": 56.725,
+   "speechStart": 56.725,
+   "end": 59.525,
+   "builds": 0,
+   "text": "Next time: what keeps a boat upright."
   }
  ]
 }

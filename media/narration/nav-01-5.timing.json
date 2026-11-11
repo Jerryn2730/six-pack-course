@@ -3,58 +3,170 @@
  "lessonId": "nav-01",
  "n": 5,
  "audio": "nav-01-5.mp3",
- "duration": 50.05,
+ "duration": 72.925,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.9,
+   "end": 3.5,
    "builds": 0,
-   "text": "The title block is the first thing to read on any chart."
+   "text": "Before you trust any chart, read its title block."
   },
   {
    "i": 1,
-   "start": 4.15,
-   "speechStart": 4.15,
-   "end": 26.4,
+   "start": 3.75,
+   "speechStart": 3.75,
+   "end": 7.5,
    "builds": 0,
-   "text": "It gives the chart number, title and scale; the units for soundings, which may be feet, fathoms or meters; the vertical datum for depths, usually mean lower low water; and the horizontal datum, normally the North American Datum of 1983, which for practical purposes matches the WGS 84 datum your GPS uses."
+   "text": "It takes a minute, and it tells you what all the numbers mean."
   },
   {
    "i": 2,
-   "start": 26.65,
-   "speechStart": 26.65,
-   "end": 31.2,
-   "builds": 0,
-   "text": "If your plotter and chart use different datums, positions can be off."
+   "start": 7.75,
+   "speechStart": 7.75,
+   "end": 10.55,
+   "builds": 1,
+   "text": "The chart number, the title and the scale."
   },
   {
    "i": 3,
-   "start": 31.45,
-   "speechStart": 31.45,
-   "end": 37.25,
-   "builds": 0,
-   "text": "Heights of lights and landmarks and bridge clearances are measured above mean high water."
+   "start": 10.8,
+   "speechStart": 10.8,
+   "end": 14.6,
+   "builds": 1,
+   "text": "The units for soundings: feet, fathoms or meters."
   },
   {
    "i": 4,
-   "start": 37.5,
-   "speechStart": 37.5,
-   "end": 41.3,
+   "start": 14.85,
+   "speechStart": 14.85,
+   "end": 19.8,
    "builds": 0,
-   "text": "Check the edition date too, and keep the chart corrected."
+   "text": "Get that one wrong and a six on the chart could be six feet, or thirty-six."
   },
   {
    "i": 5,
-   "start": 41.55,
-   "speechStart": 41.55,
-   "end": 49.75,
+   "start": 20.05,
+   "speechStart": 20.05,
+   "end": 25.2,
    "builds": 0,
-   "text": "NOAA is moving from traditional paper charts to electronic charts, so check what’s currently available for your area."
+   "text": "And the depths are measured from a low-water level, usually mean lower low water."
+  },
+  {
+   "i": 6,
+   "start": 25.45,
+   "speechStart": 25.45,
+   "end": 30.875,
+   "builds": 1,
+   "text": "The horizontal datum, normally the North American Datum of nineteen eighty-three."
+  },
+  {
+   "i": 7,
+   "start": 31.125,
+   "speechStart": 31.125,
+   "end": 37.3,
+   "builds": 0,
+   "text": "For practical purposes it matches the WGS eighty-four datum in your GPS."
+  },
+  {
+   "i": 8,
+   "start": 37.55,
+   "speechStart": 37.55,
+   "end": 41.075,
+   "builds": 0,
+   "text": "If the two don’t match, your plotted position is off."
+  },
+  {
+   "i": 9,
+   "start": 41.325,
+   "speechStart": 41.325,
+   "end": 43.15,
+   "builds": 1,
+   "text": "Heights are different."
+  },
+  {
+   "i": 10,
+   "start": 43.4,
+   "speechStart": 43.4,
+   "end": 48.7,
+   "builds": 0,
+   "text": "Lights, landmarks and bridge clearances are measured above mean high water."
+  },
+  {
+   "i": 11,
+   "start": 48.95,
+   "speechStart": 48.95,
+   "end": 52.925,
+   "builds": 0,
+   "text": "Why would depths use low water and bridges use high water?"
+  },
+  {
+   "i": 12,
+   "start": 53.175,
+   "speechStart": 53.925,
+   "end": 56.025,
+   "builds": 0,
+   "text": "Both are the cautious choice."
+  },
+  {
+   "i": 13,
+   "start": 56.275,
+   "speechStart": 56.275,
+   "end": 58.175,
+   "builds": 1,
+   "text": "And the edition date."
+  },
+  {
+   "i": 14,
+   "start": 58.425,
+   "speechStart": 58.425,
+   "end": 60.375,
+   "builds": 0,
+   "text": "Keep the chart corrected."
+  },
+  {
+   "i": 15,
+   "start": 60.625,
+   "speechStart": 60.625,
+   "end": 62.45,
+   "builds": 0,
+   "text": "That’s lesson one."
+  },
+  {
+   "i": 16,
+   "start": 62.7,
+   "speechStart": 62.7,
+   "end": 64.55,
+   "builds": 0,
+   "text": "Latitude first."
+  },
+  {
+   "i": 17,
+   "start": 64.8,
+   "speechStart": 64.8,
+   "end": 67.175,
+   "builds": 0,
+   "text": "A minute of latitude is a mile."
+  },
+  {
+   "i": 18,
+   "start": 67.425,
+   "speechStart": 67.425,
+   "end": 69.875,
+   "builds": 0,
+   "text": "Large scale, large detail."
+  },
+  {
+   "i": 19,
+   "start": 70.125,
+   "speechStart": 70.125,
+   "end": 72.625,
+   "builds": 0,
+   "text": "Next time: reading the symbols."
   }
  ]
 }

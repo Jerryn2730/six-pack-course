@@ -3,58 +3,122 @@
  "lessonId": "deck-09",
  "n": 4,
  "audio": "deck-09-4.mp3",
- "duration": 36.2,
+ "duration": 50.75,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 11.575,
+   "end": 2.5,
    "builds": 0,
-   "text": "Watch for signs of dragging: your bearings or GPS position keep changing, the rode jerks or vibrates, or the boat lies at a different angle to the wind than nearby boats."
+   "text": "How do you know your anchor is dragging?"
   },
   {
    "i": 1,
-   "start": 11.825,
-   "speechStart": 11.825,
-   "end": 14.925,
-   "builds": 0,
-   "text": "Let out more scope, or pick up and re-anchor."
+   "start": 2.75,
+   "speechStart": 2.75,
+   "end": 4.45,
+   "builds": 1,
+   "text": "Three signs."
   },
   {
    "i": 2,
-   "start": 15.175,
-   "speechStart": 15.175,
-   "end": 18.225,
+   "start": 4.7,
+   "speechStart": 4.7,
+   "end": 8.3,
    "builds": 0,
-   "text": "Always anchor from the bow, never the stern."
+   "text": "Your bearings or your GPS position keep changing."
   },
   {
    "i": 3,
-   "start": 18.475,
-   "speechStart": 18.475,
-   "end": 24.725,
+   "start": 8.55,
+   "speechStart": 8.55,
+   "end": 11.4,
    "builds": 0,
-   "text": "A boat anchored by the stern presents its low transom to the waves and can be swamped in minutes."
+   "text": "The rode jerks or vibrates in your hand."
   },
   {
    "i": 4,
-   "start": 24.975,
-   "speechStart": 24.975,
-   "end": 32.05,
+   "start": 11.65,
+   "speechStart": 11.65,
+   "end": 15.725,
    "builds": 0,
-   "text": "If your anchor fouls under a rock or ledge, a trip line tied to the anchor’s crown lets you pull it out backward."
+   "text": "Or your boat lies at a different angle than the boats around you."
   },
   {
    "i": 5,
-   "start": 32.3,
-   "speechStart": 32.3,
-   "end": 35.9,
+   "start": 15.975,
+   "speechStart": 15.975,
+   "end": 19.525,
+   "builds": 1,
+   "text": "The cure is more scope, or pick up and anchor again."
+  },
+  {
+   "i": 6,
+   "start": 19.775,
+   "speechStart": 19.775,
+   "end": 23.025,
+   "builds": 1,
+   "text": "Now the rule that has killed people who ignored it."
+  },
+  {
+   "i": 7,
+   "start": 23.275,
+   "speechStart": 23.275,
+   "end": 25.4,
    "builds": 0,
-   "text": "And keep an anchor watch whenever the weather is changing."
+   "text": "Always anchor from the bow."
+  },
+  {
+   "i": 8,
+   "start": 25.65,
+   "speechStart": 25.65,
+   "end": 27.5,
+   "builds": 0,
+   "text": "Never from the stern."
+  },
+  {
+   "i": 9,
+   "start": 27.75,
+   "speechStart": 27.75,
+   "end": 29.0,
+   "builds": 0,
+   "text": "Why?"
+  },
+  {
+   "i": 10,
+   "start": 29.25,
+   "speechStart": 30.0,
+   "end": 32.45,
+   "builds": 0,
+   "text": "Your transom is low and square."
+  },
+  {
+   "i": 11,
+   "start": 32.7,
+   "speechStart": 32.7,
+   "end": 38.775,
+   "builds": 0,
+   "text": "Anchored by the stern, the waves break straight over it, and a small boat can be swamped in minutes."
+  },
+  {
+   "i": 12,
+   "start": 39.025,
+   "speechStart": 39.025,
+   "end": 45.55,
+   "builds": 1,
+   "text": "If your anchor hooks under a rock or a ledge, a trip line tied to its crown lets you pull it out backward."
+  },
+  {
+   "i": 13,
+   "start": 45.8,
+   "speechStart": 45.8,
+   "end": 50.45,
+   "builds": 1,
+   "text": "And when the weather is changing, somebody stays up and keeps an anchor watch."
   }
  ]
 }

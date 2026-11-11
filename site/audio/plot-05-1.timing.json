@@ -3,7 +3,7 @@
  "lessonId": "plot-05",
  "n": 1,
  "audio": "plot-05-1.mp3",
- "duration": 32.3,
+ "duration": 58.1,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,137 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.35,
+   "end": 2.35,
    "builds": 0,
-   "text": "Plotting problems constantly convert between true, magnetic and compass."
+   "text": "You draw on the chart in true."
   },
   {
    "i": 1,
-   "start": 5.6,
-   "speechStart": 5.6,
-   "end": 13.2,
+   "start": 2.6,
+   "speechStart": 2.6,
+   "end": 4.6,
    "builds": 0,
-   "text": "Remember the chain: true, variation, magnetic, deviation, compass, or True Virgins Make Dull Companions."
+   "text": "You steer by a compass."
   },
   {
    "i": 2,
-   "start": 13.45,
-   "speechStart": 13.45,
-   "end": 18.475,
+   "start": 4.85,
+   "speechStart": 4.85,
+   "end": 13.1,
    "builds": 0,
-   "text": "Going down the chain, from true toward compass, add west and subtract east."
+   "text": "Getting from one to the other is where more plotting-exam points are lost than anywhere else, and nearly always from one wrong sign."
   },
   {
    "i": 3,
-   "start": 18.725,
-   "speechStart": 18.725,
-   "end": 23.9,
+   "start": 13.35,
+   "speechStart": 13.35,
+   "end": 15.375,
    "builds": 0,
-   "text": "Going up the chain, from compass toward true, add east and subtract west."
+   "text": "Look at the chain on screen."
   },
   {
    "i": 4,
-   "start": 24.15,
-   "speechStart": 24.15,
-   "end": 32.0,
+   "start": 15.625,
+   "speechStart": 15.625,
+   "end": 19.475,
    "builds": 0,
-   "text": "Write each step on paper with its sign, because a single sign error is the most common wrong answer on the plotting exam."
+   "text": "True, variation, magnetic, deviation, compass."
+  },
+  {
+   "i": 5,
+   "start": 19.725,
+   "speechStart": 19.725,
+   "end": 22.475,
+   "builds": 0,
+   "text": "You met it in the Navigation module."
+  },
+  {
+   "i": 6,
+   "start": 22.725,
+   "speechStart": 22.725,
+   "end": 28.05,
+   "builds": 0,
+   "text": "Going down the chain, from true toward compass, you add west and subtract east."
+  },
+  {
+   "i": 7,
+   "start": 28.3,
+   "speechStart": 28.3,
+   "end": 33.575,
+   "builds": 0,
+   "text": "Going up the chain, from compass toward true, you add east and subtract west."
+  },
+  {
+   "i": 8,
+   "start": 33.825,
+   "speechStart": 34.575,
+   "end": 37.175,
+   "builds": 0,
+   "text": "Now the advice that matters most."
+  },
+  {
+   "i": 9,
+   "start": 37.425,
+   "speechStart": 37.425,
+   "end": 39.35,
+   "builds": 0,
+   "text": "Don’t do this in your head."
+  },
+  {
+   "i": 10,
+   "start": 39.6,
+   "speechStart": 39.6,
+   "end": 43.925,
+   "builds": 0,
+   "text": "Write every step on paper, one under the other, each with its sign."
+  },
+  {
+   "i": 11,
+   "start": 44.175,
+   "speechStart": 44.175,
+   "end": 45.55,
+   "builds": 0,
+   "text": "True."
+  },
+  {
+   "i": 12,
+   "start": 45.8,
+   "speechStart": 45.8,
+   "end": 47.5,
+   "builds": 0,
+   "text": "Variation."
+  },
+  {
+   "i": 13,
+   "start": 47.75,
+   "speechStart": 47.75,
+   "end": 49.35,
+   "builds": 0,
+   "text": "Magnetic."
+  },
+  {
+   "i": 14,
+   "start": 49.6,
+   "speechStart": 49.6,
+   "end": 51.3,
+   "builds": 0,
+   "text": "Deviation."
+  },
+  {
+   "i": 15,
+   "start": 51.55,
+   "speechStart": 51.55,
+   "end": 53.05,
+   "builds": 0,
+   "text": "Compass."
+  },
+  {
+   "i": 16,
+   "start": 53.3,
+   "speechStart": 53.3,
+   "end": 57.8,
+   "builds": 0,
+   "text": "It takes ten seconds, and it’s the cheapest insurance on the exam."
   }
  ]
 }

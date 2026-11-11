@@ -3,50 +3,114 @@
  "lessonId": "nav-01",
  "n": 3,
  "audio": "nav-01-3.mp3",
- "duration": 34.75,
+ "duration": 54.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.875,
+   "end": 4.925,
    "builds": 0,
-   "text": "Most nautical charts use the Mercator projection."
+   "text": "The earth is round and your chart is flat, so every chart cheats a little."
   },
   {
    "i": 1,
-   "start": 4.125,
-   "speechStart": 4.125,
-   "end": 14.2,
+   "start": 5.175,
+   "speechStart": 5.175,
+   "end": 7.025,
    "builds": 0,
-   "text": "Its big advantage is that a straight line on the chart is a rhumb line, a line of constant direction, so you can lay a course with parallel rulers and steer it."
+   "text": "The question is how."
   },
   {
    "i": 2,
-   "start": 14.45,
-   "speechStart": 14.45,
-   "end": 16.675,
-   "builds": 0,
-   "text": "The trade-off is distortion."
+   "start": 7.275,
+   "speechStart": 7.275,
+   "end": 11.0,
+   "builds": 1,
+   "text": "Most nautical charts use the Mercator projection."
   },
   {
    "i": 3,
-   "start": 16.925,
-   "speechStart": 16.925,
-   "end": 27.925,
-   "builds": 0,
-   "text": "The latitude scale gets longer as you move away from the equator, so on a small-scale chart a nautical mile measured near the top is longer than one measured near the bottom."
+   "start": 11.25,
+   "speechStart": 11.25,
+   "end": 18.2,
+   "builds": 1,
+   "text": "Its great gift is this: a straight line on the chart is a rhumb line, a line of one constant direction."
   },
   {
    "i": 4,
-   "start": 28.175,
-   "speechStart": 28.175,
-   "end": 34.45,
+   "start": 18.45,
+   "speechStart": 18.45,
+   "end": 21.775,
    "builds": 0,
-   "text": "That’s why you always measure distance on the part of the latitude scale beside where you’re working."
+   "text": "You draw a line, read its direction, and steer it."
+  },
+  {
+   "i": 5,
+   "start": 22.025,
+   "speechStart": 22.025,
+   "end": 24.4,
+   "builds": 0,
+   "text": "That’s why navigators love it."
+  },
+  {
+   "i": 6,
+   "start": 24.65,
+   "speechStart": 24.65,
+   "end": 26.5,
+   "builds": 1,
+   "text": "The price is stretch."
+  },
+  {
+   "i": 7,
+   "start": 26.75,
+   "speechStart": 26.75,
+   "end": 32.55,
+   "builds": 0,
+   "text": "To keep directions true, the latitude scale gets longer as you move away from the equator."
+  },
+  {
+   "i": 8,
+   "start": 32.8,
+   "speechStart": 32.8,
+   "end": 40.35,
+   "builds": 1,
+   "text": "So on a chart that covers a lot of latitude, a mile measured near the top is drawn longer than a mile near the bottom."
+  },
+  {
+   "i": 9,
+   "start": 40.6,
+   "speechStart": 40.6,
+   "end": 42.45,
+   "builds": 0,
+   "text": "What do you do about that?"
+  },
+  {
+   "i": 10,
+   "start": 42.7,
+   "speechStart": 43.45,
+   "end": 48.825,
+   "builds": 0,
+   "text": "Measure distance on the part of the latitude scale that’s level with where you’re working."
+  },
+  {
+   "i": 11,
+   "start": 49.075,
+   "speechStart": 49.075,
+   "end": 52.275,
+   "builds": 0,
+   "text": "Not at the top of the chart, and not at the bottom."
+  },
+  {
+   "i": 12,
+   "start": 52.525,
+   "speechStart": 52.525,
+   "end": 54.5,
+   "builds": 0,
+   "text": "Right beside your line."
   }
  ]
 }

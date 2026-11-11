@@ -3,7 +3,7 @@
  "lessonId": "nav-04",
  "n": 2,
  "audio": "nav-04-2.mp3",
- "duration": 39.925,
+ "duration": 55.4,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,57 +12,89 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.275,
+   "end": 8.8,
    "builds": 0,
-   "text": "The Intracoastal Waterway is a big part of Florida boating."
+   "text": "The Intracoastal Waterway runs the length of Florida’s Atlantic coast and along much of the Gulf coast, so you’ll use it constantly."
   },
   {
    "i": 1,
-   "start": 4.525,
-   "speechStart": 4.525,
-   "end": 8.425,
+   "start": 9.05,
+   "speechStart": 9.05,
+   "end": 14.0,
    "builds": 0,
-   "text": "Its marks carry a yellow stripe, triangle or square."
+   "text": "Its marks carry a small yellow symbol, and that symbol is what you steer by."
   },
   {
    "i": 2,
-   "start": 8.675,
-   "speechStart": 8.675,
-   "end": 11.875,
+   "start": 14.25,
+   "speechStart": 14.25,
+   "end": 16.075,
    "builds": 0,
-   "text": "A yellow triangle means treat the mark as red."
+   "text": "Look at the diagram."
   },
   {
    "i": 3,
-   "start": 12.125,
-   "speechStart": 12.125,
-   "end": 17.375,
+   "start": 16.325,
+   "speechStart": 16.325,
+   "end": 20.05,
    "builds": 0,
-   "text": "A yellow square means treat it as green, no matter what color the mark itself is."
+   "text": "A yellow triangle means: treat this mark as red."
   },
   {
    "i": 4,
-   "start": 17.625,
-   "speechStart": 17.625,
-   "end": 22.675,
+   "start": 20.3,
+   "speechStart": 20.3,
+   "end": 23.375,
    "builds": 0,
-   "text": "That matters where the waterway crosses an inlet channel and shares its buoys."
+   "text": "A yellow square means: treat it as green."
   },
   {
    "i": 5,
-   "start": 22.925,
-   "speechStart": 22.925,
-   "end": 32.425,
+   "start": 23.625,
+   "speechStart": 23.625,
+   "end": 26.55,
    "builds": 0,
-   "text": "On the waterway, returning means traveling clockwise around the country: south along the Atlantic coast, then north and west along the Gulf."
+   "text": "No matter what color the mark itself is."
   },
   {
    "i": 6,
-   "start": 32.675,
-   "speechStart": 32.675,
-   "end": 39.625,
+   "start": 26.8,
+   "speechStart": 26.8,
+   "end": 29.825,
    "builds": 0,
-   "text": "In Florida, the waterway runs the length of the Atlantic coast and along long stretches of the Gulf coast."
+   "text": "Why would the mark’s own color ever disagree?"
+  },
+  {
+   "i": 7,
+   "start": 30.075,
+   "speechStart": 30.825,
+   "end": 34.85,
+   "builds": 0,
+   "text": "Because the waterway sometimes shares a channel with an inlet."
+  },
+  {
+   "i": 8,
+   "start": 35.1,
+   "speechStart": 35.1,
+   "end": 42.425,
+   "builds": 0,
+   "text": "The same buoy is green for a boat coming in from the sea, but it may be on the red side for a boat following the waterway."
+  },
+  {
+   "i": 9,
+   "start": 42.675,
+   "speechStart": 42.675,
+   "end": 45.725,
+   "builds": 0,
+   "text": "So on the Intracoastal, look for the yellow."
+  },
+  {
+   "i": 10,
+   "start": 45.975,
+   "speechStart": 45.975,
+   "end": 55.1,
+   "builds": 0,
+   "text": "And returning, on the waterway, means going clockwise around the country: south down the Atlantic side, then north and west along the Gulf."
   }
  ]
 }

@@ -3,7 +3,7 @@
  "lessonId": "plot-09",
  "n": 3,
  "audio": "plot-09-3.mp3",
- "duration": 31.6,
+ "duration": 58.975,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,129 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.65,
+   "end": 2.825,
    "builds": 0,
-   "text": "To counter a known current, draw a current diagram."
+   "text": "Measuring the current is half the job."
   },
   {
    "i": 1,
-   "start": 3.9,
-   "speechStart": 3.9,
-   "end": 7.8,
+   "start": 3.075,
+   "speechStart": 3.075,
+   "end": 9.125,
    "builds": 0,
-   "text": "Draw your intended track from the start toward your destination."
+   "text": "The other half is beating it: finding the course to steer so that you travel along the line you want."
   },
   {
    "i": 2,
-   "start": 8.05,
-   "speechStart": 8.05,
-   "end": 12.95,
+   "start": 9.375,
+   "speechStart": 9.375,
+   "end": 12.975,
    "builds": 0,
-   "text": "From the start, draw the current vector: its set and its drift for one hour."
+   "text": "You do it with a small drawing called a current diagram."
   },
   {
    "i": 3,
-   "start": 13.2,
-   "speechStart": 13.2,
-   "end": 20.675,
+   "start": 13.225,
+   "speechStart": 13.225,
+   "end": 16.4,
    "builds": 0,
-   "text": "From the end of the current vector, set your dividers to your boat speed, and swing an arc until it crosses the intended track."
+   "text": "Look at the diagram, and take it in three steps."
   },
   {
    "i": 4,
-   "start": 20.925,
-   "speechStart": 20.925,
-   "end": 25.9,
+   "start": 16.65,
+   "speechStart": 16.65,
+   "end": 17.925,
    "builds": 0,
-   "text": "The line from the end of the current vector to that crossing is your course to steer."
+   "text": "One."
   },
   {
    "i": 5,
-   "start": 26.15,
-   "speechStart": 26.15,
-   "end": 31.3,
+   "start": 18.175,
+   "speechStart": 18.175,
+   "end": 22.325,
    "builds": 0,
-   "text": "The distance from the start to the crossing, along the track, is your speed made good."
+   "text": "Draw your intended track, from your start toward your destination."
+  },
+  {
+   "i": 6,
+   "start": 22.575,
+   "speechStart": 22.575,
+   "end": 23.875,
+   "builds": 0,
+   "text": "Two."
+  },
+  {
+   "i": 7,
+   "start": 24.125,
+   "speechStart": 24.125,
+   "end": 28.725,
+   "builds": 0,
+   "text": "From the start, draw the current: its set, and its drift for one hour."
+  },
+  {
+   "i": 8,
+   "start": 28.975,
+   "speechStart": 28.975,
+   "end": 30.35,
+   "builds": 0,
+   "text": "Three."
+  },
+  {
+   "i": 9,
+   "start": 30.6,
+   "speechStart": 30.6,
+   "end": 38.225,
+   "builds": 0,
+   "text": "From the end of that current line, set your dividers to your boat speed, and swing an arc until it cuts the intended track."
+  },
+  {
+   "i": 10,
+   "start": 38.475,
+   "speechStart": 39.225,
+   "end": 41.375,
+   "builds": 0,
+   "text": "Now read your two answers."
+  },
+  {
+   "i": 11,
+   "start": 41.625,
+   "speechStart": 41.625,
+   "end": 46.7,
+   "builds": 0,
+   "text": "The line from the end of the current to that crossing point is your course to steer."
+  },
+  {
+   "i": 12,
+   "start": 46.95,
+   "speechStart": 46.95,
+   "end": 52.6,
+   "builds": 0,
+   "text": "And the distance along the track, from the start to the crossing point, is your speed made good."
+  },
+  {
+   "i": 13,
+   "start": 52.85,
+   "speechStart": 52.85,
+   "end": 54.475,
+   "builds": 0,
+   "text": "Current first."
+  },
+  {
+   "i": 14,
+   "start": 54.725,
+   "speechStart": 54.725,
+   "end": 56.425,
+   "builds": 0,
+   "text": "Then your speed."
+  },
+  {
+   "i": 15,
+   "start": 56.675,
+   "speechStart": 56.675,
+   "end": 58.675,
+   "builds": 0,
+   "text": "Always in that order."
   }
  ]
 }

@@ -1,25 +1,49 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:05.800
-Variation is the angle between true north and magnetic north at your location.
+00:00:00.150 --> 00:00:02.950
+Let’s take the two errors one at a time.
 
 2
-00:00:06.050 --> 00:00:09.550
-It’s the same no matter which way the boat is heading.
+00:00:03.200 --> 00:00:05.175
+Variation first.
 
 3
-00:00:09.800 --> 00:00:17.925
-Read it from the center of the nearest compass rose on your chart, which also gives the year it was measured and the annual change.
+00:00:05.425 --> 00:00:07.800
+It’s caused by the earth itself.
 
 4
-00:00:18.175 --> 00:00:23.125
-Multiply the annual change by the number of years since then, and apply it.
+00:00:08.050 --> 00:00:11.725
+Magnetic north and true north aren’t in the same place.
 
 5
-00:00:23.375 --> 00:00:34.875
-In Florida, variation is a few degrees west, from roughly two degrees in the western Panhandle to around eight degrees on the Atlantic coast, and it changes slowly over time.
+00:00:11.975 --> 00:00:15.025
+So variation depends only on where you are.
 
 6
-00:00:35.125 --> 00:00:40.325
-Westerly variation means magnetic north lies to the west of true north.
+00:00:15.275 --> 00:00:17.575
+It’s the same on every heading.
+
+7
+00:00:17.825 --> 00:00:22.375
+You read it from the center of the nearest compass rose on your chart.
+
+8
+00:00:22.625 --> 00:00:27.125
+The rose also gives the year it was measured and the annual change.
+
+9
+00:00:27.375 --> 00:00:30.675
+So what do you do with a rose that’s fifteen years old?
+
+10
+00:00:31.675 --> 00:00:36.175
+Multiply the annual change by the years, and bring it up to date.
+
+11
+00:00:36.425 --> 00:00:45.275
+In Florida, variation is a few degrees west, from roughly two degrees in the western Panhandle to around eight on the Atlantic coast.
+
+12
+00:00:45.525 --> 00:00:52.225
+And westerly variation means just what it says: magnetic north lies to the west of true north.

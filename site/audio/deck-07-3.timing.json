@@ -3,50 +3,114 @@
  "lessonId": "deck-07",
  "n": 3,
  "audio": "deck-07-3.mp3",
- "duration": 31.7,
+ "duration": 52.625,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.65,
+   "end": 5.675,
    "builds": 0,
-   "text": "Most twin-screw boats have counter-rotating propellers that cancel each other’s walk."
+   "text": "Twin screws change everything, and once you learn them, you’ll never want one engine again."
   },
   {
    "i": 1,
-   "start": 5.9,
-   "speechStart": 5.9,
-   "end": 9.0,
-   "builds": 0,
-   "text": "Twins give tremendous control at low speed."
+   "start": 5.925,
+   "speechStart": 5.925,
+   "end": 12.075,
+   "builds": 1,
+   "text": "Most twin-screw boats have counter-rotating propellers, so each one cancels the other’s walk."
   },
   {
    "i": 2,
-   "start": 9.25,
-   "speechStart": 9.25,
-   "end": 13.725,
-   "builds": 0,
-   "text": "With one engine ahead and the other astern, the boat spins in place."
+   "start": 12.325,
+   "speechStart": 12.325,
+   "end": 17.0,
+   "builds": 1,
+   "text": "Put one engine ahead and the other astern, and the boat spins in place."
   },
   {
    "i": 3,
-   "start": 13.975,
-   "speechStart": 13.975,
-   "end": 21.1,
+   "start": 17.25,
+   "speechStart": 17.25,
+   "end": 18.775,
    "builds": 0,
-   "text": "Put the starboard engine ahead and the port engine astern to turn to port, and the reverse to turn to starboard."
+   "text": "Which way?"
   },
   {
    "i": 4,
-   "start": 21.35,
-   "speechStart": 21.35,
-   "end": 31.4,
+   "start": 19.025,
+   "speechStart": 19.025,
+   "end": 20.675,
    "builds": 0,
-   "text": "Around docks, center the rudders and steer with the engines alone, using short bursts of power and plenty of neutral rather than holding the shifters in gear."
+   "text": "Think of a tank."
+  },
+  {
+   "i": 5,
+   "start": 20.925,
+   "speechStart": 20.925,
+   "end": 25.8,
+   "builds": 0,
+   "text": "Starboard engine ahead, port engine astern, and the bow swings to port."
+  },
+  {
+   "i": 6,
+   "start": 26.05,
+   "speechStart": 26.05,
+   "end": 28.875,
+   "builds": 0,
+   "text": "Swap them, and it swings to starboard."
+  },
+  {
+   "i": 7,
+   "start": 29.125,
+   "speechStart": 29.125,
+   "end": 33.125,
+   "builds": 1,
+   "text": "Around the docks, center the rudders and leave the wheel alone."
+  },
+  {
+   "i": 8,
+   "start": 33.375,
+   "speechStart": 33.375,
+   "end": 35.25,
+   "builds": 0,
+   "text": "Steer with the engines."
+  },
+  {
+   "i": 9,
+   "start": 35.5,
+   "speechStart": 35.5,
+   "end": 39.3,
+   "builds": 1,
+   "text": "And use small bursts, with plenty of neutral in between."
+  },
+  {
+   "i": 10,
+   "start": 39.55,
+   "speechStart": 39.55,
+   "end": 42.225,
+   "builds": 0,
+   "text": "What’s the commonest mistake with twins?"
+  },
+  {
+   "i": 11,
+   "start": 42.475,
+   "speechStart": 43.225,
+   "end": 45.1,
+   "builds": 0,
+   "text": "Leaving them in gear."
+  },
+  {
+   "i": 12,
+   "start": 45.35,
+   "speechStart": 45.35,
+   "end": 52.325,
+   "builds": 0,
+   "text": "A boat keeps moving long after you take her out of gear, so click in, click out, and wait to see what she does."
   }
  ]
 }

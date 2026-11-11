@@ -3,82 +3,114 @@
  "lessonId": "deck-08",
  "n": 4,
  "audio": "deck-08-4.mp3",
- "duration": 39.35,
+ "duration": 54.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 7,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.8,
+   "end": 2.2,
    "builds": 0,
-   "text": "A captain should be able to tie these knots without thinking."
+   "text": "There are hundreds of knots."
   },
   {
    "i": 1,
-   "start": 4.05,
-   "speechStart": 4.05,
-   "end": 9.95,
+   "start": 2.45,
+   "speechStart": 2.45,
+   "end": 5.975,
    "builds": 0,
-   "text": "The bowline makes a fixed loop that won’t slip and unties easily even after a heavy load."
+   "text": "A captain needs seven, and needs them without thinking."
   },
   {
    "i": 2,
-   "start": 10.2,
-   "speechStart": 10.2,
-   "end": 12.925,
-   "builds": 0,
-   "text": "The cleat hitch secures a line to a cleat."
+   "start": 6.225,
+   "speechStart": 6.225,
+   "end": 12.1,
+   "builds": 1,
+   "text": "The bowline: a fixed loop that won’t slip, and unties easily even after a heavy load."
   },
   {
    "i": 3,
-   "start": 13.175,
-   "speechStart": 13.175,
-   "end": 18.9,
+   "start": 12.35,
+   "speechStart": 12.35,
+   "end": 15.075,
    "builds": 0,
-   "text": "The clove hitch is a quick hitch around a piling or rail, but it can slip, so back it up."
+   "text": "If you learn one knot, learn this one."
   },
   {
    "i": 4,
-   "start": 19.15,
-   "speechStart": 19.15,
-   "end": 24.575,
-   "builds": 0,
-   "text": "A round turn and two half hitches secures a line to a ring or post under load."
+   "start": 15.325,
+   "speechStart": 15.325,
+   "end": 18.65,
+   "builds": 1,
+   "text": "The cleat hitch: how you make a line fast to a cleat."
   },
   {
    "i": 5,
-   "start": 24.825,
-   "speechStart": 24.825,
-   "end": 28.8,
-   "builds": 0,
-   "text": "The sheet bend joins two lines, even of different sizes."
+   "start": 18.9,
+   "speechStart": 18.9,
+   "end": 22.6,
+   "builds": 1,
+   "text": "The clove hitch: a quick hitch around a piling or rail."
   },
   {
    "i": 6,
-   "start": 29.05,
-   "speechStart": 29.05,
-   "end": 31.4,
+   "start": 22.85,
+   "speechStart": 22.85,
+   "end": 25.175,
    "builds": 0,
-   "text": "The figure-eight is a stopper knot."
+   "text": "It can slip, so back it up."
   },
   {
    "i": 7,
-   "start": 31.65,
-   "speechStart": 31.65,
-   "end": 35.85,
-   "builds": 0,
-   "text": "And the rolling hitch grips another line to take the strain off it."
+   "start": 25.425,
+   "speechStart": 25.425,
+   "end": 31.125,
+   "builds": 1,
+   "text": "A round turn and two half hitches: a secure hold on a ring or a post, under load."
   },
   {
    "i": 8,
-   "start": 36.1,
-   "speechStart": 36.1,
-   "end": 39.05,
+   "start": 31.375,
+   "speechStart": 31.375,
+   "end": 35.725,
+   "builds": 1,
+   "text": "The sheet bend: joins two lines, even when they’re different sizes."
+  },
+  {
+   "i": 9,
+   "start": 35.975,
+   "speechStart": 35.975,
+   "end": 41.15,
+   "builds": 1,
+   "text": "The figure-eight: a stopper knot in the end of a line, so it can’t run out through a block."
+  },
+  {
+   "i": 10,
+   "start": 41.4,
+   "speechStart": 41.4,
+   "end": 46.35,
+   "builds": 1,
+   "text": "And the rolling hitch: it grips another line, so you can take the strain off it."
+  },
+  {
+   "i": 11,
+   "start": 46.6,
+   "speechStart": 47.35,
+   "end": 49.3,
    "builds": 0,
-   "text": "Practice them until your hands know them."
+   "text": "Don’t just read these."
+  },
+  {
+   "i": 12,
+   "start": 49.55,
+   "speechStart": 49.55,
+   "end": 54.5,
+   "builds": 0,
+   "text": "Keep a short piece of line by your chair, and tie them until your hands know them."
   }
  ]
 }

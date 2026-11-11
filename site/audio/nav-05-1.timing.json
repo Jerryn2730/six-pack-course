@@ -3,7 +3,7 @@
  "lessonId": "nav-05",
  "n": 1,
  "audio": "nav-05-1.mp3",
- "duration": 47.975,
+ "duration": 61.625,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,81 +12,137 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.075,
+   "end": 3.2,
    "builds": 0,
-   "text": "Every lighted aid has a characteristic, the pattern that identifies it."
+   "text": "At night a lighthouse doesn’t tell you its name."
   },
   {
    "i": 1,
-   "start": 5.325,
-   "speechStart": 5.325,
-   "end": 7.2,
+   "start": 3.45,
+   "speechStart": 3.45,
+   "end": 6.225,
    "builds": 0,
-   "text": "Fixed means steady."
+   "text": "It tells you its rhythm, and you look it up."
   },
   {
    "i": 2,
-   "start": 7.45,
-   "speechStart": 7.45,
-   "end": 10.8,
+   "start": 6.475,
+   "speechStart": 6.475,
+   "end": 9.5,
    "builds": 0,
-   "text": "Flashing means the light is dark longer than lit."
+   "text": "That rhythm is called the light’s characteristic."
   },
   {
    "i": 3,
-   "start": 11.05,
-   "speechStart": 11.05,
-   "end": 13.9,
+   "start": 9.75,
+   "speechStart": 9.75,
+   "end": 11.975,
    "builds": 0,
-   "text": "Quick means about sixty flashes a minute."
+   "text": "Look at the patterns on screen."
   },
   {
    "i": 4,
-   "start": 14.15,
-   "speechStart": 14.15,
-   "end": 16.95,
+   "start": 12.225,
+   "speechStart": 12.225,
+   "end": 14.2,
+   "builds": 0,
+   "text": "Fixed is a steady light."
+  },
+  {
+   "i": 5,
+   "start": 14.45,
+   "speechStart": 14.45,
+   "end": 17.575,
+   "builds": 0,
+   "text": "Flashing means it’s dark longer than it’s lit."
+  },
+  {
+   "i": 6,
+   "start": 17.825,
+   "speechStart": 17.825,
+   "end": 20.6,
+   "builds": 0,
+   "text": "Quick is about sixty flashes a minute."
+  },
+  {
+   "i": 7,
+   "start": 20.85,
+   "speechStart": 20.85,
+   "end": 23.65,
    "builds": 0,
    "text": "Isophase means equal light and dark."
   },
   {
-   "i": 5,
-   "start": 17.2,
-   "speechStart": 17.2,
-   "end": 21.325,
-   "builds": 0,
-   "text": "Occulting means lit longer than dark, with brief eclipses."
-  },
-  {
-   "i": 6,
-   "start": 21.575,
-   "speechStart": 21.575,
-   "end": 24.525,
-   "builds": 0,
-   "text": "Group flashing shows flashes in groups."
-  },
-  {
-   "i": 7,
-   "start": 24.775,
-   "speechStart": 24.775,
-   "end": 27.275,
-   "builds": 0,
-   "text": "Morse A shows a short and a long."
-  },
-  {
    "i": 8,
-   "start": 27.525,
-   "speechStart": 27.525,
-   "end": 43.325,
+   "start": 23.9,
+   "speechStart": 23.9,
+   "end": 29.375,
    "builds": 0,
-   "text": "A chart label like F L two, white, ten seconds, forty-five feet, fourteen miles means a white light flashing two at a time every ten seconds, forty-five feet above mean high water, with a nominal range of fourteen nautical miles."
+   "text": "Occulting is the reverse of flashing: lit longer than dark, with short eclipses."
   },
   {
    "i": 9,
-   "start": 43.575,
-   "speechStart": 43.575,
-   "end": 47.675,
+   "start": 29.625,
+   "speechStart": 29.625,
+   "end": 32.725,
    "builds": 0,
-   "text": "Time the period with a watch to confirm which light you’re looking at."
+   "text": "Group flashing shows its flashes in groups."
+  },
+  {
+   "i": 10,
+   "start": 32.975,
+   "speechStart": 32.975,
+   "end": 35.55,
+   "builds": 0,
+   "text": "And Morse A is a short and a long."
+  },
+  {
+   "i": 11,
+   "start": 35.8,
+   "speechStart": 35.8,
+   "end": 38.1,
+   "builds": 0,
+   "text": "Now read a chart label with me."
+  },
+  {
+   "i": 12,
+   "start": 38.35,
+   "speechStart": 38.35,
+   "end": 42.825,
+   "builds": 0,
+   "text": "F L two, white, ten seconds, forty-five feet, fourteen miles."
+  },
+  {
+   "i": 13,
+   "start": 43.075,
+   "speechStart": 43.075,
+   "end": 44.675,
+   "builds": 0,
+   "text": "What does it say?"
+  },
+  {
+   "i": 14,
+   "start": 44.925,
+   "speechStart": 45.675,
+   "end": 55.0,
+   "builds": 0,
+   "text": "A white light, flashing in groups of two, every ten seconds, forty-five feet above mean high water, with a nominal range of fourteen miles."
+  },
+  {
+   "i": 15,
+   "start": 55.25,
+   "speechStart": 55.25,
+   "end": 58.65,
+   "builds": 0,
+   "text": "So when you think you’ve found your light, time it with a watch."
+  },
+  {
+   "i": 16,
+   "start": 58.9,
+   "speechStart": 58.9,
+   "end": 61.325,
+   "builds": 0,
+   "text": "The period will tell you if you’re right."
   }
  ]
 }

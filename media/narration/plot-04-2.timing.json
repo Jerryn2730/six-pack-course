@@ -3,50 +3,138 @@
  "lessonId": "plot-04",
  "n": 2,
  "audio": "plot-04-2.mp3",
- "duration": 34.375,
+ "duration": 56.6,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.7,
+   "end": 2.775,
    "builds": 0,
-   "text": "Many wrong answers come from time arithmetic, not navigation."
+   "text": "Here’s something that surprises people."
   },
   {
    "i": 1,
-   "start": 4.95,
-   "speechStart": 4.95,
-   "end": 10.55,
+   "start": 3.025,
+   "speechStart": 3.025,
+   "end": 7.15,
    "builds": 0,
-   "text": "Use the twenty-four hour clock, so one thirty in the afternoon is thirteen thirty."
+   "text": "Most wrong answers in this lesson aren’t navigation mistakes."
   },
   {
    "i": 2,
-   "start": 10.8,
-   "speechStart": 10.8,
-   "end": 19.425,
+   "start": 7.4,
+   "speechStart": 7.4,
+   "end": 9.25,
    "builds": 0,
-   "text": "When you add minutes, remember there are sixty minutes in an hour, not one hundred: nine forty-five plus fifty minutes is ten thirty-five."
+   "text": "They’re clock mistakes."
   },
   {
    "i": 3,
-   "start": 19.675,
-   "speechStart": 19.675,
-   "end": 28.75,
-   "builds": 0,
-   "text": "Convert decimal hours by multiplying the decimal by sixty, so one point seven five hours is one hour forty-five minutes."
+   "start": 9.5,
+   "speechStart": 9.5,
+   "end": 11.9,
+   "builds": 1,
+   "text": "Use the twenty-four hour clock."
   },
   {
    "i": 4,
-   "start": 29.0,
-   "speechStart": 29.0,
-   "end": 34.075,
+   "start": 12.15,
+   "speechStart": 12.15,
+   "end": 15.575,
    "builds": 0,
-   "text": "For trips with several legs, work out each leg’s time separately and add them."
+   "text": "One thirty in the afternoon is thirteen thirty."
+  },
+  {
+   "i": 5,
+   "start": 15.825,
+   "speechStart": 15.825,
+   "end": 19.525,
+   "builds": 1,
+   "text": "When you add minutes, carry at sixty, not at one hundred."
+  },
+  {
+   "i": 6,
+   "start": 19.775,
+   "speechStart": 19.775,
+   "end": 22.425,
+   "builds": 0,
+   "text": "Nine forty-five plus fifty minutes."
+  },
+  {
+   "i": 7,
+   "start": 22.675,
+   "speechStart": 22.675,
+   "end": 24.15,
+   "builds": 0,
+   "text": "What is it?"
+  },
+  {
+   "i": 8,
+   "start": 24.4,
+   "speechStart": 25.15,
+   "end": 26.95,
+   "builds": 0,
+   "text": "Ten thirty-five."
+  },
+  {
+   "i": 9,
+   "start": 27.2,
+   "speechStart": 27.2,
+   "end": 30.5,
+   "builds": 0,
+   "text": "Not nine ninety-five, and not ten ninety-five."
+  },
+  {
+   "i": 10,
+   "start": 30.75,
+   "speechStart": 30.75,
+   "end": 33.45,
+   "builds": 1,
+   "text": "Decimal hours are another trap."
+  },
+  {
+   "i": 11,
+   "start": 33.7,
+   "speechStart": 33.7,
+   "end": 38.625,
+   "builds": 0,
+   "text": "One point seven five hours is not one hour seventy-five minutes."
+  },
+  {
+   "i": 12,
+   "start": 38.875,
+   "speechStart": 38.875,
+   "end": 41.925,
+   "builds": 0,
+   "text": "Multiply the decimal part by sixty."
+  },
+  {
+   "i": 13,
+   "start": 42.175,
+   "speechStart": 42.175,
+   "end": 44.85,
+   "builds": 0,
+   "text": "It’s one hour and forty-five minutes."
+  },
+  {
+   "i": 14,
+   "start": 45.1,
+   "speechStart": 45.1,
+   "end": 50.45,
+   "builds": 1,
+   "text": "Going the other way, one hundred five minutes is one hour and forty-five minutes."
+  },
+  {
+   "i": 15,
+   "start": 50.7,
+   "speechStart": 50.7,
+   "end": 56.3,
+   "builds": 1,
+   "text": "And on a trip with several legs, work out each leg’s time by itself, then add them up."
   }
  ]
 }

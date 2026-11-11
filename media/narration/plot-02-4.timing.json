@@ -3,58 +3,178 @@
  "lessonId": "plot-02",
  "n": 4,
  "audio": "plot-02-4.mp3",
- "duration": 38.825,
+ "duration": 70.725,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.35,
+   "end": 2.475,
    "builds": 0,
-   "text": "Let’s read a light’s position."
+   "text": "Let’s read a real one together."
   },
   {
    "i": 1,
-   "start": 2.6,
-   "speechStart": 2.6,
-   "end": 10.1,
+   "start": 2.725,
+   "speechStart": 2.725,
+   "end": 6.0,
    "builds": 0,
-   "text": "Lay a straightedge from the light horizontally to the side scale, and read forty-one degrees, ten point two minutes north."
+   "text": "The question says: what’s the position of this light?"
   },
   {
    "i": 2,
-   "start": 10.35,
-   "speechStart": 10.35,
-   "end": 17.475,
+   "start": 6.25,
+   "speechStart": 6.25,
+   "end": 8.125,
    "builds": 0,
-   "text": "Next, measure with the dividers from the nearest meridian, seventy-one degrees thirty minutes west, to the light."
+   "text": "Follow it on screen."
   },
   {
    "i": 3,
-   "start": 17.725,
-   "speechStart": 17.725,
-   "end": 21.825,
-   "builds": 0,
-   "text": "Carry that to the top scale, and it spans four point six minutes."
+   "start": 8.375,
+   "speechStart": 8.375,
+   "end": 12.4,
+   "builds": 1,
+   "text": "Lay a straightedge level from the light across to the side scale."
   },
   {
    "i": 4,
-   "start": 22.075,
-   "speechStart": 22.075,
-   "end": 31.65,
-   "builds": 0,
-   "text": "Because the light is west of the meridian, and west longitude increases to the west, add: seventy-one degrees thirty-four point six minutes west."
+   "start": 12.65,
+   "speechStart": 12.65,
+   "end": 16.4,
+   "builds": 1,
+   "text": "It reads forty-one degrees, ten point two minutes north."
   },
   {
    "i": 5,
-   "start": 31.9,
-   "speechStart": 31.9,
-   "end": 38.525,
+   "start": 16.65,
+   "speechStart": 16.65,
+   "end": 18.75,
    "builds": 0,
-   "text": "The answer is forty-one degrees ten point two north, seventy-one degrees thirty-four point six west."
+   "text": "That’s the latitude done."
+  },
+  {
+   "i": 6,
+   "start": 19.0,
+   "speechStart": 19.0,
+   "end": 20.825,
+   "builds": 1,
+   "text": "Now longitude."
+  },
+  {
+   "i": 7,
+   "start": 21.075,
+   "speechStart": 21.075,
+   "end": 28.2,
+   "builds": 0,
+   "text": "With the dividers, measure from the nearest meridian, seventy-one degrees thirty minutes west, across to the light."
+  },
+  {
+   "i": 8,
+   "start": 28.45,
+   "speechStart": 28.45,
+   "end": 30.525,
+   "builds": 0,
+   "text": "Carry that to the top scale."
+  },
+  {
+   "i": 9,
+   "start": 30.775,
+   "speechStart": 30.775,
+   "end": 33.175,
+   "builds": 0,
+   "text": "It spans four point six minutes."
+  },
+  {
+   "i": 10,
+   "start": 33.425,
+   "speechStart": 33.425,
+   "end": 36.0,
+   "builds": 1,
+   "text": "The light is west of that meridian."
+  },
+  {
+   "i": 11,
+   "start": 36.25,
+   "speechStart": 36.25,
+   "end": 39.575,
+   "builds": 0,
+   "text": "So do we add the four point six, or subtract it?"
+  },
+  {
+   "i": 12,
+   "start": 39.825,
+   "speechStart": 40.575,
+   "end": 41.875,
+   "builds": 0,
+   "text": "Add."
+  },
+  {
+   "i": 13,
+   "start": 42.125,
+   "speechStart": 42.125,
+   "end": 44.875,
+   "builds": 0,
+   "text": "West longitude grows to the west."
+  },
+  {
+   "i": 14,
+   "start": 45.125,
+   "speechStart": 45.125,
+   "end": 48.975,
+   "builds": 0,
+   "text": "Seventy-one degrees, thirty-four point six minutes west."
+  },
+  {
+   "i": 15,
+   "start": 49.225,
+   "speechStart": 49.225,
+   "end": 56.0,
+   "builds": 1,
+   "text": "So the answer is forty-one degrees ten point two north, seventy-one degrees thirty-four point six west."
+  },
+  {
+   "i": 16,
+   "start": 56.25,
+   "speechStart": 56.25,
+   "end": 58.15,
+   "builds": 0,
+   "text": "That’s lesson two."
+  },
+  {
+   "i": 17,
+   "start": 58.4,
+   "speechStart": 58.4,
+   "end": 62.0,
+   "builds": 0,
+   "text": "Latitude from the side, longitude from the top."
+  },
+  {
+   "i": 18,
+   "start": 62.25,
+   "speechStart": 62.25,
+   "end": 64.25,
+   "builds": 0,
+   "text": "West grows to the left."
+  },
+  {
+   "i": 19,
+   "start": 64.5,
+   "speechStart": 64.5,
+   "end": 67.3,
+   "builds": 0,
+   "text": "And latitude is always written first."
+  },
+  {
+   "i": 20,
+   "start": 67.55,
+   "speechStart": 67.55,
+   "end": 70.425,
+   "builds": 0,
+   "text": "Next time: courses and distances."
   }
  ]
 }

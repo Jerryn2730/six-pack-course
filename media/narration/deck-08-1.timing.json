@@ -3,50 +3,130 @@
  "lessonId": "deck-08",
  "n": 1,
  "audio": "deck-08-1.mp3",
- "duration": 33.05,
+ "duration": 57.725,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.6,
+   "end": 5.9,
    "builds": 0,
-   "text": "Choose line by what it needs to do."
+   "text": "Every boat is held together, tied up and anchored with rope, and on a boat we call it line."
   },
   {
    "i": 1,
-   "start": 2.85,
-   "speechStart": 2.85,
-   "end": 11.075,
+   "start": 6.15,
+   "speechStart": 6.15,
+   "end": 10.55,
    "builds": 0,
-   "text": "Nylon is strong and stretchy, so it absorbs shock loads, which makes it ideal for anchor rodes, dock lines and towlines."
+   "text": "Using the wrong line for the job is a quiet way to lose a boat."
   },
   {
    "i": 2,
-   "start": 11.325,
-   "speechStart": 11.325,
-   "end": 17.8,
+   "start": 10.8,
+   "speechStart": 10.8,
+   "end": 13.05,
    "builds": 0,
-   "text": "Polyester, often sold as Dacron, is strong with little stretch, used for halyards and sheets."
+   "text": "So start with what it’s made of."
   },
   {
    "i": 3,
-   "start": 18.05,
-   "speechStart": 18.05,
-   "end": 25.825,
-   "builds": 0,
-   "text": "Polypropylene floats, which makes it useful for ring buoy lines and ski ropes, but it’s weaker and breaks down in sunlight."
+   "start": 13.3,
+   "speechStart": 13.3,
+   "end": 15.95,
+   "builds": 1,
+   "text": "Nylon is strong, and it stretches."
   },
   {
    "i": 4,
-   "start": 26.075,
-   "speechStart": 26.075,
-   "end": 32.75,
+   "start": 16.2,
+   "speechStart": 16.2,
+   "end": 23.025,
    "builds": 0,
-   "text": "Spectra and Dyneema are extremely strong, low-stretch, floating fibers used in specialty lines."
+   "text": "That stretch soaks up shock loads, which makes nylon the choice for anchor rodes, dock lines and towlines."
+  },
+  {
+   "i": 5,
+   "start": 23.275,
+   "speechStart": 23.275,
+   "end": 24.925,
+   "builds": 0,
+   "text": "It doesn’t float."
+  },
+  {
+   "i": 6,
+   "start": 25.175,
+   "speechStart": 25.175,
+   "end": 30.15,
+   "builds": 1,
+   "text": "Polyester, often sold as Dacron, is strong with very little stretch."
+  },
+  {
+   "i": 7,
+   "start": 30.4,
+   "speechStart": 30.4,
+   "end": 33.85,
+   "builds": 0,
+   "text": "It’s for halyards and sheets, where you don’t want any give."
+  },
+  {
+   "i": 8,
+   "start": 34.1,
+   "speechStart": 34.1,
+   "end": 36.1,
+   "builds": 1,
+   "text": "Polypropylene floats."
+  },
+  {
+   "i": 9,
+   "start": 36.35,
+   "speechStart": 36.35,
+   "end": 39.225,
+   "builds": 0,
+   "text": "That’s why it’s on ring buoys and ski ropes."
+  },
+  {
+   "i": 10,
+   "start": 39.475,
+   "speechStart": 39.475,
+   "end": 42.4,
+   "builds": 0,
+   "text": "But it’s weaker, and the sun breaks it down."
+  },
+  {
+   "i": 11,
+   "start": 42.65,
+   "speechStart": 42.65,
+   "end": 49.075,
+   "builds": 1,
+   "text": "And Spectra and Dyneema are the modern ones: extremely strong, very low stretch, and they float."
+  },
+  {
+   "i": 12,
+   "start": 49.325,
+   "speechStart": 49.325,
+   "end": 51.625,
+   "builds": 0,
+   "text": "So which one goes on your anchor?"
+  },
+  {
+   "i": 13,
+   "start": 51.875,
+   "speechStart": 52.625,
+   "end": 54.125,
+   "builds": 0,
+   "text": "Nylon."
+  },
+  {
+   "i": 14,
+   "start": 54.375,
+   "speechStart": 54.375,
+   "end": 57.425,
+   "builds": 0,
+   "text": "You want that spring in the line when the boat surges."
   }
  ]
 }

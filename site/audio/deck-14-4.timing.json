@@ -3,50 +3,122 @@
  "lessonId": "deck-14",
  "n": 4,
  "audio": "deck-14-4.mp3",
- "duration": 38.975,
+ "duration": 54.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.3,
+   "end": 1.75,
    "builds": 0,
-   "text": "A boat with an installed toilet must have a Coast Guard certified marine sanitation device."
+   "text": "Now sewage."
   },
   {
    "i": 1,
-   "start": 6.55,
-   "speechStart": 6.55,
-   "end": 14.425,
+   "start": 2.0,
+   "speechStart": 2.0,
+   "end": 9.925,
    "builds": 0,
-   "text": "Type one and Type two devices treat sewage so treated effluent can be discharged, except in no-discharge zones."
+   "text": "If your boat has an installed toilet, she needs a Coast Guard certified marine sanitation device, and there are three types."
   },
   {
    "i": 2,
-   "start": 14.675,
-   "speechStart": 14.675,
-   "end": 18.85,
-   "builds": 0,
-   "text": "Type one is limited to boats sixty-five feet and under."
+   "start": 10.175,
+   "speechStart": 10.175,
+   "end": 13.875,
+   "builds": 1,
+   "text": "Type one is a flow-through device that treats the sewage."
   },
   {
    "i": 3,
-   "start": 19.1,
-   "speechStart": 19.1,
-   "end": 27.8,
+   "start": 14.125,
+   "speechStart": 14.125,
+   "end": 18.7,
    "builds": 0,
-   "text": "A Type three device is a holding tank, emptied at a pump-out station, or discharged untreated only more than three miles offshore."
+   "text": "The treated effluent can be discharged, outside no-discharge zones."
   },
   {
    "i": 4,
-   "start": 28.05,
-   "speechStart": 28.05,
-   "end": 38.675,
+   "start": 18.95,
+   "speechStart": 18.95,
+   "end": 22.35,
    "builds": 0,
-   "text": "In no-discharge zones, including the whole Florida Keys sanctuary, no sewage at all may be discharged, treated or not, and Y-valves must be secured closed."
+   "text": "It’s limited to boats sixty-five feet and under."
+  },
+  {
+   "i": 5,
+   "start": 22.6,
+   "speechStart": 22.6,
+   "end": 25.325,
+   "builds": 1,
+   "text": "Type two treats to a higher standard."
+  },
+  {
+   "i": 6,
+   "start": 25.575,
+   "speechStart": 25.575,
+   "end": 29.8,
+   "builds": 0,
+   "text": "Same rule: treated effluent, outside no-discharge zones."
+  },
+  {
+   "i": 7,
+   "start": 30.05,
+   "speechStart": 30.05,
+   "end": 32.425,
+   "builds": 1,
+   "text": "Type three is a holding tank."
+  },
+  {
+   "i": 8,
+   "start": 32.675,
+   "speechStart": 32.675,
+   "end": 38.925,
+   "builds": 0,
+   "text": "You empty it at a pump-out station, or discharge it untreated only more than three miles offshore."
+  },
+  {
+   "i": 9,
+   "start": 39.175,
+   "speechStart": 39.175,
+   "end": 44.425,
+   "builds": 1,
+   "text": "And then there are no-discharge zones, which include the whole Florida Keys sanctuary."
+  },
+  {
+   "i": 10,
+   "start": 44.675,
+   "speechStart": 44.675,
+   "end": 46.725,
+   "builds": 0,
+   "text": "What can you discharge there?"
+  },
+  {
+   "i": 11,
+   "start": 46.975,
+   "speechStart": 47.725,
+   "end": 49.225,
+   "builds": 0,
+   "text": "Nothing."
+  },
+  {
+   "i": 12,
+   "start": 49.475,
+   "speechStart": 49.475,
+   "end": 51.225,
+   "builds": 0,
+   "text": "Treated or not."
+  },
+  {
+   "i": 13,
+   "start": 51.475,
+   "speechStart": 51.475,
+   "end": 54.5,
+   "builds": 0,
+   "text": "And the Y-valve has to be secured closed."
   }
  ]
 }

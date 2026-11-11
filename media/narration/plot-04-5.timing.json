@@ -3,50 +3,146 @@
  "lessonId": "plot-04",
  "n": 5,
  "audio": "plot-04-5.mp3",
- "duration": 28.825,
+ "duration": 57.85,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.025,
+   "end": 4.275,
    "builds": 0,
-   "text": "Two speeds matter."
+   "text": "Last, a distinction that the whole of current sailing depends on."
   },
   {
    "i": 1,
-   "start": 2.275,
-   "speechStart": 2.275,
-   "end": 5.925,
+   "start": 4.525,
+   "speechStart": 4.525,
+   "end": 6.525,
    "builds": 0,
-   "text": "A knotmeter or log measures your speed through the water."
+   "text": "Your boat has two speeds."
   },
   {
    "i": 2,
-   "start": 6.175,
-   "speechStart": 6.175,
-   "end": 9.075,
-   "builds": 0,
-   "text": "GPS shows your speed over the ground."
+   "start": 6.775,
+   "speechStart": 6.775,
+   "end": 10.65,
+   "builds": 1,
+   "text": "A knotmeter, or log, measures your speed through the water."
   },
   {
    "i": 3,
-   "start": 9.325,
-   "speechStart": 9.325,
-   "end": 17.875,
-   "builds": 0,
-   "text": "The difference between them is the current along your track: with a fair current you go faster over the ground, and with a foul current, slower."
+   "start": 10.9,
+   "speechStart": 10.9,
+   "end": 13.8,
+   "builds": 1,
+   "text": "GPS shows your speed over the ground."
   },
   {
    "i": 4,
-   "start": 18.125,
-   "speechStart": 18.125,
-   "end": 28.525,
+   "start": 14.05,
+   "speechStart": 14.05,
+   "end": 18.1,
+   "builds": 1,
+   "text": "And the difference between the two is the current along your track."
+  },
+  {
+   "i": 5,
+   "start": 18.35,
+   "speechStart": 18.35,
+   "end": 21.6,
    "builds": 0,
-   "text": "Exam problems usually give you the boat’s speed through the water, and ask you to find speed over the ground, or speed made good, from fixes or a current diagram."
+   "text": "A fair current, and you’re faster over the ground."
+  },
+  {
+   "i": 6,
+   "start": 21.85,
+   "speechStart": 21.85,
+   "end": 24.275,
+   "builds": 0,
+   "text": "A foul current, and you’re slower."
+  },
+  {
+   "i": 7,
+   "start": 24.525,
+   "speechStart": 24.525,
+   "end": 28.15,
+   "builds": 0,
+   "text": "So your knotmeter says ten, and your GPS says eight."
+  },
+  {
+   "i": 8,
+   "start": 28.4,
+   "speechStart": 28.4,
+   "end": 30.1,
+   "builds": 0,
+   "text": "What’s happening?"
+  },
+  {
+   "i": 9,
+   "start": 30.35,
+   "speechStart": 31.1,
+   "end": 33.55,
+   "builds": 0,
+   "text": "Two knots of current, against you."
+  },
+  {
+   "i": 10,
+   "start": 33.8,
+   "speechStart": 33.8,
+   "end": 38.025,
+   "builds": 1,
+   "text": "Exam problems usually give you the boat’s speed through the water."
+  },
+  {
+   "i": 11,
+   "start": 38.275,
+   "speechStart": 38.275,
+   "end": 45.45,
+   "builds": 1,
+   "text": "And then they ask you to find the speed over the ground, or speed made good, from two fixes or a current diagram."
+  },
+  {
+   "i": 12,
+   "start": 45.7,
+   "speechStart": 45.7,
+   "end": 47.575,
+   "builds": 0,
+   "text": "That’s lesson four."
+  },
+  {
+   "i": 13,
+   "start": 47.825,
+   "speechStart": 47.825,
+   "end": 49.675,
+   "builds": 0,
+   "text": "Sixty D street."
+  },
+  {
+   "i": 14,
+   "start": 49.925,
+   "speechStart": 49.925,
+   "end": 51.8,
+   "builds": 0,
+   "text": "Carry at sixty."
+  },
+  {
+   "i": 15,
+   "start": 52.05,
+   "speechStart": 52.05,
+   "end": 54.7,
+   "builds": 0,
+   "text": "Out, back, and a third in reserve."
+  },
+  {
+   "i": 16,
+   "start": 54.95,
+   "speechStart": 54.95,
+   "end": 57.55,
+   "builds": 0,
+   "text": "Next time: compass corrections."
   }
  ]
 }

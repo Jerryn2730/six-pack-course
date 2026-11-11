@@ -3,82 +3,122 @@
  "lessonId": "deck-13",
  "n": 3,
  "audio": "deck-13-3.mp3",
- "duration": 43.175,
+ "duration": 59.225,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.025,
+   "end": 6.5,
    "builds": 0,
-   "text": "Florida charters see a lot of heat illness."
+   "text": "In Florida, the sun injures more charter customers than anything else, so learn to tell these apart."
   },
   {
    "i": 1,
-   "start": 3.275,
-   "speechStart": 3.275,
-   "end": 8.45,
-   "builds": 0,
-   "text": "Heat exhaustion causes pale, cool, sweaty skin, weakness and nausea."
+   "start": 6.75,
+   "speechStart": 6.75,
+   "end": 11.575,
+   "builds": 1,
+   "text": "Heat exhaustion: pale, cool, sweaty skin, with weakness and nausea."
   },
   {
    "i": 2,
-   "start": 8.7,
-   "speechStart": 8.7,
-   "end": 13.3,
+   "start": 11.825,
+   "speechStart": 11.825,
+   "end": 15.95,
    "builds": 0,
-   "text": "Get the person into shade, cool them, give fluids and let them rest."
+   "text": "Get them into shade, cool them, give fluids, and let them rest."
   },
   {
    "i": 3,
-   "start": 13.55,
-   "speechStart": 13.55,
-   "end": 18.625,
-   "builds": 0,
-   "text": "Heat stroke is a true emergency, with hot skin, confusion or collapse."
+   "start": 16.2,
+   "speechStart": 16.2,
+   "end": 18.7,
+   "builds": 1,
+   "text": "Heat stroke is a different animal."
   },
   {
    "i": 4,
-   "start": 18.875,
-   "speechStart": 18.875,
-   "end": 23.725,
+   "start": 18.95,
+   "speechStart": 18.95,
+   "end": 21.675,
    "builds": 0,
-   "text": "Cool them aggressively with water and fanning, and call for help immediately."
+   "text": "Hot skin, confusion, or collapse."
   },
   {
    "i": 5,
-   "start": 23.975,
-   "speechStart": 23.975,
-   "end": 28.475,
+   "start": 21.925,
+   "speechStart": 21.925,
+   "end": 24.25,
    "builds": 0,
-   "text": "Hypothermia can happen even in Florida after time in the water."
+   "text": "So what’s the difference you look for?"
   },
   {
    "i": 6,
-   "start": 28.725,
-   "speechStart": 28.725,
-   "end": 33.325,
+   "start": 24.5,
+   "speechStart": 25.25,
+   "end": 27.125,
    "builds": 0,
-   "text": "Remove wet clothing, insulate the person, and warm the core gently."
+   "text": "The skin and the mind."
   },
   {
    "i": 7,
-   "start": 33.575,
-   "speechStart": 33.575,
-   "end": 37.35,
+   "start": 27.375,
+   "speechStart": 27.375,
+   "end": 29.7,
    "builds": 0,
-   "text": "Don’t rub their arms and legs, and don’t give alcohol."
+   "text": "Cool and sweaty is exhaustion."
   },
   {
    "i": 8,
-   "start": 37.6,
-   "speechStart": 37.6,
-   "end": 42.875,
+   "start": 29.95,
+   "speechStart": 29.95,
+   "end": 34.075,
    "builds": 0,
-   "text": "Prevent sunburn and dehydration with shade, sunscreen and plenty of water."
+   "text": "Hot and confused is stroke, and stroke is an emergency."
+  },
+  {
+   "i": 9,
+   "start": 34.325,
+   "speechStart": 34.325,
+   "end": 38.725,
+   "builds": 0,
+   "text": "Cool them hard with water and fanning, and call for help immediately."
+  },
+  {
+   "i": 10,
+   "start": 38.975,
+   "speechStart": 38.975,
+   "end": 42.875,
+   "builds": 1,
+   "text": "Hypothermia happens here too, after time in the water."
+  },
+  {
+   "i": 11,
+   "start": 43.125,
+   "speechStart": 43.125,
+   "end": 47.875,
+   "builds": 0,
+   "text": "Take off the wet clothes, insulate the person, and warm the core gently."
+  },
+  {
+   "i": 12,
+   "start": 48.125,
+   "speechStart": 48.125,
+   "end": 51.525,
+   "builds": 0,
+   "text": "Don’t rub the arms and legs, and no alcohol."
+  },
+  {
+   "i": 13,
+   "start": 51.775,
+   "speechStart": 51.775,
+   "end": 58.925,
+   "builds": 1,
+   "text": "And prevention beats all of it: shade, sunscreen, and plenty of water, starting before anyone feels thirsty."
   }
  ]
 }

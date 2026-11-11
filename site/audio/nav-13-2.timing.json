@@ -3,58 +3,122 @@
  "lessonId": "nav-13",
  "n": 2,
  "audio": "nav-13-2.mp3",
- "duration": 40.7,
+ "duration": 55.6,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.8,
+   "end": 7.05,
    "builds": 0,
-   "text": "In Florida, winter cold fronts set the rhythm of offshore fishing."
+   "text": "In a Florida winter, cold fronts set the rhythm of the fishing week, and each one follows the same script."
   },
   {
    "i": 1,
-   "start": 5.05,
-   "speechStart": 5.05,
-   "end": 11.425,
-   "builds": 0,
-   "text": "Ahead of a front, winds blow from the south or southwest, the barometer falls, and clouds build."
+   "start": 7.3,
+   "speechStart": 7.3,
+   "end": 11.4,
+   "builds": 1,
+   "text": "Ahead of the front, the wind blows from the south or southwest."
   },
   {
    "i": 2,
-   "start": 11.675,
-   "speechStart": 11.675,
-   "end": 17.975,
+   "start": 11.65,
+   "speechStart": 11.65,
+   "end": 14.725,
    "builds": 0,
-   "text": "As the front passes, a squall line can bring gusty winds and rain, and the wind shifts suddenly."
+   "text": "The barometer falls, and the clouds build."
   },
   {
    "i": 3,
-   "start": 18.225,
-   "speechStart": 18.225,
-   "end": 27.85,
+   "start": 14.975,
+   "speechStart": 14.975,
+   "end": 18.275,
    "builds": 0,
-   "text": "Behind it, the wind veers to the west, then northwest and north, often blowing hard for a day or two, while the barometer rises and the sky clears."
+   "text": "It’s often warm and pleasant, and that’s the trap."
   },
   {
    "i": 4,
-   "start": 28.1,
-   "speechStart": 28.1,
-   "end": 33.875,
-   "builds": 0,
-   "text": "On the Atlantic side, those north winds blow against the Gulf Stream and make it dangerous."
+   "start": 18.525,
+   "speechStart": 18.525,
+   "end": 24.475,
+   "builds": 1,
+   "text": "As the front passes, a squall line can bring gusts and rain, and the wind shifts suddenly."
   },
   {
    "i": 5,
-   "start": 34.125,
-   "speechStart": 34.125,
-   "end": 40.4,
+   "start": 24.725,
+   "speechStart": 24.725,
+   "end": 29.075,
+   "builds": 1,
+   "text": "Behind it, the wind veers: west, then northwest, then north."
+  },
+  {
+   "i": 6,
+   "start": 29.325,
+   "speechStart": 29.325,
+   "end": 32.2,
    "builds": 0,
-   "text": "The best fishing windows often come just before a front, or after the wind lies down behind it."
+   "text": "And it often blows hard for a day or two."
+  },
+  {
+   "i": 7,
+   "start": 32.45,
+   "speechStart": 32.45,
+   "end": 35.6,
+   "builds": 1,
+   "text": "The barometer rises, and the sky clears."
+  },
+  {
+   "i": 8,
+   "start": 35.85,
+   "speechStart": 35.85,
+   "end": 37.925,
+   "builds": 0,
+   "text": "Cool, bright, and rough."
+  },
+  {
+   "i": 9,
+   "start": 38.175,
+   "speechStart": 38.175,
+   "end": 41.625,
+   "builds": 1,
+   "text": "On the Atlantic side, think about that north wind."
+  },
+  {
+   "i": 10,
+   "start": 41.875,
+   "speechStart": 41.875,
+   "end": 43.775,
+   "builds": 0,
+   "text": "What’s it blowing against?"
+  },
+  {
+   "i": 11,
+   "start": 44.025,
+   "speechStart": 44.775,
+   "end": 46.5,
+   "builds": 0,
+   "text": "The Gulf Stream."
+  },
+  {
+   "i": 12,
+   "start": 46.75,
+   "speechStart": 46.75,
+   "end": 49.5,
+   "builds": 0,
+   "text": "And that’s when the Stream turns dangerous."
+  },
+  {
+   "i": 13,
+   "start": 49.75,
+   "speechStart": 49.75,
+   "end": 55.3,
+   "builds": 0,
+   "text": "So the good windows are just before a front, and after the wind lies down behind it."
   }
  ]
 }

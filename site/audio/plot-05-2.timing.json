@@ -3,66 +3,122 @@
  "lessonId": "plot-05",
  "n": 2,
  "audio": "plot-05-2.mp3",
- "duration": 33.3,
+ "duration": 48.75,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.6,
+   "end": 2.65,
    "builds": 0,
-   "text": "Here’s the most common conversion."
+   "text": "Here’s the conversion you’ll do most."
   },
   {
    "i": 1,
-   "start": 2.85,
-   "speechStart": 2.85,
-   "end": 5.8,
+   "start": 2.9,
+   "speechStart": 2.9,
+   "end": 7.2,
    "builds": 0,
-   "text": "You’ve plotted a course of zero six eight true."
+   "text": "You’ve plotted a course, and you need to tell the helmsman what to steer."
   },
   {
    "i": 2,
-   "start": 6.05,
-   "speechStart": 6.05,
-   "end": 10.75,
+   "start": 7.45,
+   "speechStart": 7.45,
+   "end": 9.325,
    "builds": 0,
-   "text": "The training chart area has variation of about fourteen degrees west."
+   "text": "Follow it on screen."
   },
   {
    "i": 3,
-   "start": 11.0,
-   "speechStart": 11.0,
-   "end": 18.2,
-   "builds": 0,
-   "text": "Going from true toward magnetic, add west: zero six eight plus fourteen is zero eight two magnetic."
+   "start": 9.575,
+   "speechStart": 9.575,
+   "end": 12.5,
+   "builds": 1,
+   "text": "The plotted course is zero six eight, true."
   },
   {
    "i": 4,
-   "start": 18.45,
-   "speechStart": 18.45,
-   "end": 23.475,
-   "builds": 0,
-   "text": "Look up the deviation for that heading on the deviation card, two degrees east."
+   "start": 12.75,
+   "speechStart": 12.75,
+   "end": 17.65,
+   "builds": 1,
+   "text": "Variation in the training chart’s area is about fourteen degrees west."
   },
   {
    "i": 5,
-   "start": 23.725,
-   "speechStart": 23.725,
-   "end": 30.725,
-   "builds": 0,
-   "text": "Going from magnetic toward compass, subtract east: zero eight two minus two gives zero eight zero."
+   "start": 17.9,
+   "speechStart": 17.9,
+   "end": 21.7,
+   "builds": 1,
+   "text": "We’re going down the chain, toward compass, so we add west."
   },
   {
    "i": 6,
-   "start": 30.975,
-   "speechStart": 30.975,
-   "end": 33.0,
+   "start": 21.95,
+   "speechStart": 21.95,
+   "end": 26.35,
    "builds": 0,
-   "text": "That’s the course you steer."
+   "text": "Zero six eight plus fourteen is zero eight two, magnetic."
+  },
+  {
+   "i": 7,
+   "start": 26.6,
+   "speechStart": 26.6,
+   "end": 28.475,
+   "builds": 1,
+   "text": "Now deviation."
+  },
+  {
+   "i": 8,
+   "start": 28.725,
+   "speechStart": 28.725,
+   "end": 31.7,
+   "builds": 0,
+   "text": "Which heading do you look up on the deviation card?"
+  },
+  {
+   "i": 9,
+   "start": 31.95,
+   "speechStart": 32.7,
+   "end": 36.3,
+   "builds": 0,
+   "text": "Zero eight two, the magnetic heading you just found."
+  },
+  {
+   "i": 10,
+   "start": 36.55,
+   "speechStart": 36.55,
+   "end": 38.875,
+   "builds": 0,
+   "text": "The card says two degrees east."
+  },
+  {
+   "i": 11,
+   "start": 39.125,
+   "speechStart": 39.125,
+   "end": 42.4,
+   "builds": 1,
+   "text": "Still going down the chain, so subtract east."
+  },
+  {
+   "i": 12,
+   "start": 42.65,
+   "speechStart": 42.65,
+   "end": 46.2,
+   "builds": 0,
+   "text": "Zero eight two minus two is zero eight zero."
+  },
+  {
+   "i": 13,
+   "start": 46.45,
+   "speechStart": 46.45,
+   "end": 48.45,
+   "builds": 0,
+   "text": "Steer zero eight zero."
   }
  ]
 }

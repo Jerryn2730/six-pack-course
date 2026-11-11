@@ -3,66 +3,146 @@
  "lessonId": "deck-11",
  "n": 4,
  "audio": "deck-11-4.mp3",
- "duration": 45.6,
+ "duration": 58.225,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.225,
+   "end": 2.175,
    "builds": 0,
-   "text": "In the water, a life jacket is the difference between surviving and drowning."
+   "text": "What if it’s you in the water?"
   },
   {
    "i": 1,
-   "start": 5.475,
-   "speechStart": 5.475,
-   "end": 14.025,
+   "start": 2.425,
+   "speechStart": 2.425,
+   "end": 4.5,
    "builds": 0,
-   "text": "Cold water shock makes people gasp and inhale water in the first minute, which is why so many drownings happen to people who could swim."
+   "text": "Here’s what keeps you alive."
   },
   {
    "i": 2,
-   "start": 14.275,
-   "speechStart": 14.275,
-   "end": 28.025,
-   "builds": 0,
-   "text": "A useful guide is one, ten, one: about one minute of cold shock, ten minutes of meaningful movement before muscles fail, and about an hour before hypothermia causes unconsciousness in cold water."
+   "start": 4.75,
+   "speechStart": 4.75,
+   "end": 6.9,
+   "builds": 1,
+   "text": "First, a life jacket."
   },
   {
    "i": 3,
-   "start": 28.275,
-   "speechStart": 28.275,
-   "end": 33.5,
+   "start": 7.15,
+   "speechStart": 7.15,
+   "end": 12.725,
    "builds": 0,
-   "text": "Florida’s water is warmer, which buys more time, but not unlimited time."
+   "text": "It’s the difference between living and drowning, and you can’t put one on after you’ve gone in."
   },
   {
    "i": 4,
-   "start": 33.75,
-   "speechStart": 33.75,
-   "end": 38.25,
-   "builds": 0,
-   "text": "Alone, hold the HELP position with knees to chest and arms crossed."
+   "start": 12.975,
+   "speechStart": 12.975,
+   "end": 16.05,
+   "builds": 1,
+   "text": "Second, a rule called one, ten, one."
   },
   {
    "i": 5,
-   "start": 38.5,
-   "speechStart": 38.5,
-   "end": 40.7,
+   "start": 16.3,
+   "speechStart": 16.3,
+   "end": 20.9,
    "builds": 0,
-   "text": "In a group, huddle together."
+   "text": "One minute of cold shock, when you gasp and can’t control your breathing."
   },
   {
    "i": 6,
-   "start": 40.95,
-   "speechStart": 40.95,
-   "end": 45.3,
+   "start": 21.15,
+   "speechStart": 21.15,
+   "end": 24.9,
    "builds": 0,
-   "text": "Stay with the boat if it floats, and don’t try to swim for distant shore."
+   "text": "Ten minutes of useful movement, before your muscles quit."
+  },
+  {
+   "i": 7,
+   "start": 25.15,
+   "speechStart": 25.15,
+   "end": 29.15,
+   "builds": 0,
+   "text": "And about one hour before hypothermia makes you unconscious."
+  },
+  {
+   "i": 8,
+   "start": 29.4,
+   "speechStart": 29.4,
+   "end": 32.375,
+   "builds": 0,
+   "text": "What does that tell you to do in the first minute?"
+  },
+  {
+   "i": 9,
+   "start": 32.625,
+   "speechStart": 33.375,
+   "end": 34.875,
+   "builds": 0,
+   "text": "Nothing."
+  },
+  {
+   "i": 10,
+   "start": 35.125,
+   "speechStart": 35.125,
+   "end": 37.65,
+   "builds": 0,
+   "text": "Just float and get your breathing back."
+  },
+  {
+   "i": 11,
+   "start": 37.9,
+   "speechStart": 37.9,
+   "end": 42.9,
+   "builds": 0,
+   "text": "Florida’s water is warmer, which buys time, but not unlimited time."
+  },
+  {
+   "i": 12,
+   "start": 43.15,
+   "speechStart": 43.15,
+   "end": 47.875,
+   "builds": 1,
+   "text": "If you’re alone, take the HELP position: knees to your chest, arms crossed."
+  },
+  {
+   "i": 13,
+   "start": 48.125,
+   "speechStart": 48.125,
+   "end": 50.325,
+   "builds": 1,
+   "text": "In a group, huddle together."
+  },
+  {
+   "i": 14,
+   "start": 50.575,
+   "speechStart": 50.575,
+   "end": 52.9,
+   "builds": 1,
+   "text": "And stay with the boat if it floats."
+  },
+  {
+   "i": 15,
+   "start": 53.15,
+   "speechStart": 53.15,
+   "end": 55.4,
+   "builds": 0,
+   "text": "Don’t swim for a distant shore."
+  },
+  {
+   "i": 16,
+   "start": 55.65,
+   "speechStart": 55.65,
+   "end": 57.925,
+   "builds": 0,
+   "text": "It’s always farther than it looks."
   }
  ]
 }

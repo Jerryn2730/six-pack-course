@@ -3,50 +3,178 @@
  "lessonId": "nav-08",
  "n": 5,
  "audio": "nav-08-5.mp3",
- "duration": 38.8,
+ "duration": 66.8,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.625,
+   "end": 2.6,
    "builds": 0,
-   "text": "When you don’t know the current in advance, you can measure it."
+   "text": "What if nobody tells you the current?"
   },
   {
    "i": 1,
-   "start": 3.875,
-   "speechStart": 3.875,
-   "end": 8.7,
+   "start": 2.85,
+   "speechStart": 2.85,
+   "end": 5.875,
    "builds": 0,
-   "text": "Plot your dead reckoning position from course and speed, then take a fix."
+   "text": "Then you measure it yourself, with two fixes."
   },
   {
    "i": 2,
-   "start": 8.95,
-   "speechStart": 8.95,
-   "end": 18.775,
+   "start": 6.125,
+   "speechStart": 6.125,
+   "end": 8.0,
    "builds": 0,
-   "text": "The current’s set is the direction from your DR position to your fix, and its drift is the distance between them divided by the time since your last fix."
+   "text": "Follow it on screen."
   },
   {
    "i": 3,
-   "start": 19.025,
-   "speechStart": 19.025,
-   "end": 34.275,
-   "builds": 0,
-   "text": "For example, if your ten hundred fix lies three nautical miles from your ten hundred DR position, bearing one five zero true, and your last fix was at eight hundred, the set is one five zero true and the drift is one and a half knots."
+   "start": 8.25,
+   "speechStart": 8.25,
+   "end": 10.625,
+   "builds": 1,
+   "text": "You have a good fix at eight hundred."
   },
   {
    "i": 4,
-   "start": 34.525,
-   "speechStart": 34.525,
-   "end": 38.5,
+   "start": 10.875,
+   "speechStart": 10.875,
+   "end": 15.25,
    "builds": 0,
-   "text": "This also captures the effects of wind and steering error."
+   "text": "You run your course and speed, and plot where you should be at ten hundred."
+  },
+  {
+   "i": 5,
+   "start": 15.5,
+   "speechStart": 15.5,
+   "end": 18.0,
+   "builds": 0,
+   "text": "That’s your dead reckoning position."
+  },
+  {
+   "i": 6,
+   "start": 18.25,
+   "speechStart": 18.25,
+   "end": 22.6,
+   "builds": 1,
+   "text": "At ten hundred you take another fix, and it isn’t on the DR."
+  },
+  {
+   "i": 7,
+   "start": 22.85,
+   "speechStart": 22.85,
+   "end": 27.625,
+   "builds": 0,
+   "text": "It lies three miles away, bearing one five zero true from the DR."
+  },
+  {
+   "i": 8,
+   "start": 27.875,
+   "speechStart": 27.875,
+   "end": 29.675,
+   "builds": 1,
+   "text": "So what pushed you there?"
+  },
+  {
+   "i": 9,
+   "start": 29.925,
+   "speechStart": 29.925,
+   "end": 31.375,
+   "builds": 0,
+   "text": "The current."
+  },
+  {
+   "i": 10,
+   "start": 31.625,
+   "speechStart": 31.625,
+   "end": 36.6,
+   "builds": 0,
+   "text": "Its set is the direction from the DR to the fix: one five zero true."
+  },
+  {
+   "i": 11,
+   "start": 36.85,
+   "speechStart": 36.85,
+   "end": 40.325,
+   "builds": 1,
+   "text": "Its drift is the distance divided by the time."
+  },
+  {
+   "i": 12,
+   "start": 40.575,
+   "speechStart": 40.575,
+   "end": 42.775,
+   "builds": 0,
+   "text": "Three miles in two hours."
+  },
+  {
+   "i": 13,
+   "start": 43.025,
+   "speechStart": 43.775,
+   "end": 45.575,
+   "builds": 0,
+   "text": "One and a half knots."
+  },
+  {
+   "i": 14,
+   "start": 45.825,
+   "speechStart": 45.825,
+   "end": 48.7,
+   "builds": 1,
+   "text": "Now use it, to correct your next course."
+  },
+  {
+   "i": 15,
+   "start": 48.95,
+   "speechStart": 48.95,
+   "end": 53.675,
+   "builds": 0,
+   "text": "And remember the direction: from where you thought you were, to where you really are."
+  },
+  {
+   "i": 16,
+   "start": 53.925,
+   "speechStart": 53.925,
+   "end": 55.725,
+   "builds": 0,
+   "text": "That’s lesson eight."
+  },
+  {
+   "i": 17,
+   "start": 55.975,
+   "speechStart": 55.975,
+   "end": 58.5,
+   "builds": 0,
+   "text": "Current is named for where it goes."
+  },
+  {
+   "i": 18,
+   "start": 58.75,
+   "speechStart": 58.75,
+   "end": 61.1,
+   "builds": 0,
+   "text": "Wind against current is trouble."
+  },
+  {
+   "i": 19,
+   "start": 61.35,
+   "speechStart": 61.35,
+   "end": 64.05,
+   "builds": 0,
+   "text": "And set runs from DR to fix."
+  },
+  {
+   "i": 20,
+   "start": 64.3,
+   "speechStart": 64.3,
+   "end": 66.5,
+   "builds": 0,
+   "text": "Next time: the compass."
   }
  ]
 }

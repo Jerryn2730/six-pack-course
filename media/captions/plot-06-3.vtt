@@ -1,29 +1,65 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:02.675
-A third bearing checks the other two.
+00:00:00.150 --> 00:00:03.650
+Two lines always cross somewhere, right or wrong.
 
 2
-00:00:02.925 --> 00:00:07.900
-Because of small errors, three bearings rarely meet at exactly one point.
+00:00:03.900 --> 00:00:06.500
+So how do you know your fix is any good?
 
 3
-00:00:08.150 --> 00:00:11.950
-Instead, they form a small triangle, called a cocked hat.
+00:00:06.750 --> 00:00:08.750
+You take a third bearing.
 
 4
-00:00:12.200 --> 00:00:15.050
-Plot your fix in the middle of the triangle.
+00:00:09.000 --> 00:00:10.825
+Look at the diagram.
 
 5
-00:00:15.300 --> 00:00:25.800
-If the triangle is large, something is wrong: a misidentified landmark, a misread compass, a bearing plotted from the wrong side, or a forgotten correction.
+00:00:11.075 --> 00:00:15.925
+With real instruments, three lines almost never meet at one exact point.
 
 6
-00:00:26.050 --> 00:00:28.200
-Recheck before trusting it.
+00:00:16.175 --> 00:00:19.300
+They make a small triangle, called a cocked hat.
 
 7
-00:00:28.450 --> 00:00:32.875
-The ideal is three objects about one hundred twenty degrees apart.
+00:00:19.550 --> 00:00:21.750
+Put your fix in the middle of it.
+
+8
+00:00:22.000 --> 00:00:24.150
+That triangle is honest.
+
+9
+00:00:24.400 --> 00:00:26.925
+It’s showing you the size of your error.
+
+10
+00:00:27.175 --> 00:00:29.400
+A small one means good bearings.
+
+11
+00:00:29.650 --> 00:00:31.250
+And a big one?
+
+12
+00:00:32.250 --> 00:00:34.000
+Something’s wrong.
+
+13
+00:00:34.250 --> 00:00:41.675
+You misidentified a landmark, or misread the compass, or drew a bearing from the wrong side, or forgot a correction.
+
+14
+00:00:41.925 --> 00:00:44.300
+Don’t average a big triangle.
+
+15
+00:00:44.550 --> 00:00:46.250
+Find the mistake.
+
+16
+00:00:46.500 --> 00:00:51.675
+The ideal is three objects about one hundred twenty degrees apart, all around you.

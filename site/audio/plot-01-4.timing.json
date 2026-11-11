@@ -3,7 +3,7 @@
  "lessonId": "plot-01",
  "n": 4,
  "audio": "plot-01-4.mp3",
- "duration": 31.675,
+ "duration": 50.825,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,33 +12,105 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 9.175,
+   "end": 4.7,
    "builds": 0,
-   "text": "Distance is measured on the latitude scale, the one running up the sides of the chart, where one minute of latitude equals one nautical mile."
+   "text": "The second skill is measuring distance, and the tool is your dividers."
   },
   {
    "i": 1,
-   "start": 9.425,
-   "speechStart": 9.425,
-   "end": 17.45,
+   "start": 4.95,
+   "speechStart": 4.95,
+   "end": 6.775,
    "builds": 0,
-   "text": "Set the dividers on the two points, then carry them to the side scale at about the same latitude and read the minutes and tenths."
+   "text": "Look at the diagram."
   },
   {
    "i": 2,
-   "start": 17.7,
-   "speechStart": 17.7,
-   "end": 25.325,
+   "start": 7.025,
+   "speechStart": 7.025,
+   "end": 11.325,
    "builds": 0,
-   "text": "On a Mercator chart, the latitude scale stretches as you go north, so always use the part of the scale level with your work."
+   "text": "Open the dividers so one point sits on each end of your line."
   },
   {
    "i": 3,
-   "start": 25.575,
-   "speechStart": 25.575,
-   "end": 31.375,
+   "start": 11.575,
+   "speechStart": 11.575,
+   "end": 17.5,
    "builds": 0,
-   "text": "Never measure distance on the longitude scale across the top or bottom of the chart."
+   "text": "Then carry them, without changing the opening, to the latitude scale on the side of the chart."
+  },
+  {
+   "i": 4,
+   "start": 17.75,
+   "speechStart": 17.75,
+   "end": 20.6,
+   "builds": 0,
+   "text": "Read the minutes and tenths between the points."
+  },
+  {
+   "i": 5,
+   "start": 20.85,
+   "speechStart": 20.85,
+   "end": 27.375,
+   "builds": 0,
+   "text": "One minute of latitude is one nautical mile, so five point three minutes is five point three miles."
+  },
+  {
+   "i": 6,
+   "start": 27.625,
+   "speechStart": 27.625,
+   "end": 29.325,
+   "builds": 0,
+   "text": "Two cautions."
+  },
+  {
+   "i": 7,
+   "start": 29.575,
+   "speechStart": 29.575,
+   "end": 33.075,
+   "builds": 0,
+   "text": "First, the Mercator chart stretches as you go north."
+  },
+  {
+   "i": 8,
+   "start": 33.325,
+   "speechStart": 33.325,
+   "end": 36.025,
+   "builds": 0,
+   "text": "So where on the side scale do you measure?"
+  },
+  {
+   "i": 9,
+   "start": 36.275,
+   "speechStart": 37.025,
+   "end": 38.825,
+   "builds": 0,
+   "text": "Level with your work."
+  },
+  {
+   "i": 10,
+   "start": 39.075,
+   "speechStart": 39.075,
+   "end": 42.275,
+   "builds": 0,
+   "text": "Not at the top of the chart, and not at the bottom."
+  },
+  {
+   "i": 11,
+   "start": 42.525,
+   "speechStart": 42.525,
+   "end": 46.35,
+   "builds": 0,
+   "text": "Second, never use the scale across the top or bottom."
+  },
+  {
+   "i": 12,
+   "start": 46.6,
+   "speechStart": 46.6,
+   "end": 50.525,
+   "builds": 0,
+   "text": "That’s longitude, and a minute of longitude isn’t a mile."
   }
  ]
 }

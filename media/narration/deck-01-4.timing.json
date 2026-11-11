@@ -3,50 +3,98 @@
  "lessonId": "deck-01",
  "n": 4,
  "audio": "deck-01-4.mp3",
- "duration": 37.45,
+ "duration": 57.05,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.875,
+   "end": 3.65,
    "builds": 0,
-   "text": "Your boat needs the right paperwork too."
+   "text": "Your boat needs the right paperwork too, not just you."
   },
   {
    "i": 1,
-   "start": 3.125,
-   "speechStart": 3.125,
-   "end": 17.75,
-   "builds": 0,
-   "text": "A boat of five net tons or more that carries passengers for hire between American points must be documented by the Coast Guard with a coastwise endorsement, which also has requirements about where the boat was built and who owns it."
+   "start": 3.9,
+   "speechStart": 3.9,
+   "end": 14.0,
+   "builds": 1,
+   "text": "A boat of five net tons or more, carrying passengers for hire between American points, must be documented by the Coast Guard with a coastwise endorsement."
   },
   {
    "i": 2,
-   "start": 18.0,
-   "speechStart": 18.0,
-   "end": 20.8,
+   "start": 14.25,
+   "speechStart": 14.25,
+   "end": 19.475,
    "builds": 0,
-   "text": "Smaller boats are registered with the state."
+   "text": "That endorsement also has rules about where the boat was built and who owns her."
   },
   {
    "i": 3,
-   "start": 21.05,
-   "speechStart": 21.05,
-   "end": 31.8,
-   "builds": 0,
-   "text": "In Florida, charter fishing operations also need the right saltwater fishing license from the Fish and Wildlife Conservation Commission so your customers are covered."
+   "start": 19.725,
+   "speechStart": 19.725,
+   "end": 23.025,
+   "builds": 1,
+   "text": "Smaller boats are simply registered with the state."
   },
   {
    "i": 4,
-   "start": 32.05,
-   "speechStart": 32.05,
-   "end": 37.15,
+   "start": 23.275,
+   "speechStart": 23.275,
+   "end": 25.95,
+   "builds": 1,
+   "text": "In Florida there’s one more piece."
+  },
+  {
+   "i": 5,
+   "start": 26.2,
+   "speechStart": 26.2,
+   "end": 34.2,
    "builds": 0,
-   "text": "Carry your credential, the boat’s documents and all required placards aboard."
+   "text": "A charter fishing operation needs the right saltwater charter license from the Fish and Wildlife Conservation Commission."
+  },
+  {
+   "i": 6,
+   "start": 34.45,
+   "speechStart": 34.45,
+   "end": 38.8,
+   "builds": 0,
+   "text": "That license covers your customers, so they don’t each need their own."
+  },
+  {
+   "i": 7,
+   "start": 39.05,
+   "speechStart": 39.05,
+   "end": 44.575,
+   "builds": 1,
+   "text": "And carry it all aboard: your credential, the boat’s papers, and the required placards."
+  },
+  {
+   "i": 8,
+   "start": 44.825,
+   "speechStart": 44.825,
+   "end": 49.625,
+   "builds": 0,
+   "text": "When the Coast Guard boards you, and one day they will, what do they ask for first?"
+  },
+  {
+   "i": 9,
+   "start": 49.875,
+   "speechStart": 50.625,
+   "end": 53.4,
+   "builds": 0,
+   "text": "Your license and the boat’s documents."
+  },
+  {
+   "i": 10,
+   "start": 53.65,
+   "speechStart": 53.65,
+   "end": 56.75,
+   "builds": 0,
+   "text": "Have them where you can reach them in ten seconds."
   }
  ]
 }

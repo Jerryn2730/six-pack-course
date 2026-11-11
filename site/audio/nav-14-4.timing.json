@@ -3,50 +3,106 @@
  "lessonId": "nav-14",
  "n": 4,
  "audio": "nav-14-4.mp3",
- "duration": 39.825,
+ "duration": 52.625,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.1,
+   "end": 2.275,
    "builds": 0,
-   "text": "Fog forms when air cools to its dew point."
+   "text": "The quiet hazard is fog."
   },
   {
    "i": 1,
-   "start": 3.35,
-   "speechStart": 3.35,
-   "end": 10.9,
+   "start": 2.525,
+   "speechStart": 2.525,
+   "end": 7.275,
    "builds": 0,
-   "text": "Advection fog forms when warm, moist air moves over cooler water, and it can persist for hours or even days."
+   "text": "It forms when air cools to its dew point, and there are two kinds to know."
   },
   {
    "i": 2,
-   "start": 11.15,
-   "speechStart": 11.15,
-   "end": 17.8,
-   "builds": 0,
-   "text": "In Florida, it’s most common in winter and spring, when warm air flows over cooler nearshore water."
+   "start": 7.525,
+   "speechStart": 7.525,
+   "end": 12.275,
+   "builds": 1,
+   "text": "Advection fog forms when warm, moist air moves over cooler water."
   },
   {
    "i": 3,
-   "start": 18.05,
-   "speechStart": 18.05,
-   "end": 28.0,
+   "start": 12.525,
+   "speechStart": 12.525,
+   "end": 16.75,
    "builds": 0,
-   "text": "Radiation fog forms on clear, calm nights as the land cools, and it can drift over rivers, bays and harbors until the morning sun burns it off."
+   "text": "It can last for hours, or for days, and wind doesn’t clear it."
   },
   {
    "i": 4,
-   "start": 28.25,
-   "speechStart": 28.25,
-   "end": 39.525,
+   "start": 17.0,
+   "speechStart": 17.0,
+   "end": 21.6,
+   "builds": 1,
+   "text": "Radiation fog forms on clear, calm nights, as the land cools."
+  },
+  {
+   "i": 5,
+   "start": 21.85,
+   "speechStart": 21.85,
+   "end": 27.125,
    "builds": 0,
-   "text": "When visibility drops, follow Rule nineteen: slow to a safe speed, turn on your navigation lights, sound fog signals, plot radar targets and post an extra lookout."
+   "text": "It drifts out over rivers, bays and harbors, and the morning sun burns it off."
+  },
+  {
+   "i": 6,
+   "start": 27.375,
+   "speechStart": 27.375,
+   "end": 34.525,
+   "builds": 1,
+   "text": "Florida’s sea fog is mostly a winter and spring problem, when warm air slides over cooler nearshore water."
+  },
+  {
+   "i": 7,
+   "start": 34.775,
+   "speechStart": 34.775,
+   "end": 36.725,
+   "builds": 0,
+   "text": "So which kind is that?"
+  },
+  {
+   "i": 8,
+   "start": 36.975,
+   "speechStart": 37.725,
+   "end": 39.6,
+   "builds": 0,
+   "text": "Advection fog."
+  },
+  {
+   "i": 9,
+   "start": 39.85,
+   "speechStart": 39.85,
+   "end": 42.625,
+   "builds": 1,
+   "text": "When visibility drops, you know the rule."
+  },
+  {
+   "i": 10,
+   "start": 42.875,
+   "speechStart": 42.875,
+   "end": 45.55,
+   "builds": 0,
+   "text": "Rule nineteen, and fog signals."
+  },
+  {
+   "i": 11,
+   "start": 45.8,
+   "speechStart": 45.8,
+   "end": 52.325,
+   "builds": 1,
+   "text": "Slow to a safe speed, lights on, plot your radar targets, and post an extra lookout to listen."
   }
  ]
 }

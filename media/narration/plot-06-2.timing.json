@@ -3,7 +3,7 @@
  "lessonId": "plot-06",
  "n": 2,
  "audio": "plot-06-2.mp3",
- "duration": 29.425,
+ "duration": 52.0,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,41 +12,105 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.375,
+   "end": 2.75,
    "builds": 0,
-   "text": "One L O P tells you you’re somewhere on a line."
+   "text": "One line says you’re somewhere along it."
   },
   {
    "i": 1,
-   "start": 3.625,
-   "speechStart": 3.625,
-   "end": 9.275,
+   "start": 3.0,
+   "speechStart": 3.0,
+   "end": 6.65,
    "builds": 0,
-   "text": "Two L O Ps taken at the same time cross at a point, and that point is a fix."
+   "text": "Two lines, taken at the same moment, cross at a point."
   },
   {
    "i": 2,
-   "start": 9.525,
-   "speechStart": 9.525,
-   "end": 19.925,
+   "start": 6.9,
+   "speechStart": 6.9,
+   "end": 8.8,
    "builds": 0,
-   "text": "Choose objects whose bearings are about sixty to ninety degrees apart, because when lines cross at a shallow angle, a small bearing error moves the fix a long way."
+   "text": "That point is a fix."
   },
   {
    "i": 3,
-   "start": 20.175,
-   "speechStart": 20.175,
-   "end": 25.725,
+   "start": 9.05,
+   "speechStart": 9.05,
+   "end": 10.875,
    "builds": 0,
-   "text": "Take the bearings quickly, one after the other, so the boat hasn’t moved much between them."
+   "text": "Look at the diagram."
   },
   {
    "i": 4,
-   "start": 25.975,
-   "speechStart": 25.975,
-   "end": 29.125,
+   "start": 11.125,
+   "speechStart": 11.125,
+   "end": 16.3,
    "builds": 0,
-   "text": "Mark the fix with a small circle and the time."
+   "text": "You take a bearing on one object, then quickly on another, and draw both lines."
+  },
+  {
+   "i": 5,
+   "start": 16.55,
+   "speechStart": 16.55,
+   "end": 18.775,
+   "builds": 0,
+   "text": "Where they cross is where you are."
+  },
+  {
+   "i": 6,
+   "start": 19.025,
+   "speechStart": 19.025,
+   "end": 22.225,
+   "builds": 0,
+   "text": "Mark it with a small circle, and write the time."
+  },
+  {
+   "i": 7,
+   "start": 22.475,
+   "speechStart": 22.475,
+   "end": 24.975,
+   "builds": 0,
+   "text": "Now, which two objects do you pick?"
+  },
+  {
+   "i": 8,
+   "start": 25.225,
+   "speechStart": 25.225,
+   "end": 29.35,
+   "builds": 0,
+   "text": "Choose a pair whose bearings are sixty to ninety degrees apart."
+  },
+  {
+   "i": 9,
+   "start": 29.6,
+   "speechStart": 29.6,
+   "end": 32.1,
+   "builds": 0,
+   "text": "Why not two that are close together?"
+  },
+  {
+   "i": 10,
+   "start": 32.35,
+   "speechStart": 33.1,
+   "end": 41.3,
+   "builds": 0,
+   "text": "Because when lines cross at a shallow angle, a one-degree error in either bearing slides the crossing a long way along the line."
+  },
+  {
+   "i": 11,
+   "start": 41.55,
+   "speechStart": 41.55,
+   "end": 45.5,
+   "builds": 0,
+   "text": "Lines that cross near a right angle forgive small errors."
+  },
+  {
+   "i": 12,
+   "start": 45.75,
+   "speechStart": 45.75,
+   "end": 51.7,
+   "builds": 0,
+   "text": "And take the two bearings quickly, one right after the other, so the boat hasn’t moved between them."
   }
  ]
 }

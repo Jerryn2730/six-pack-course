@@ -1,25 +1,81 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:03.900
-The title block is the first thing to read on any chart.
+00:00:00.150 --> 00:00:03.500
+Before you trust any chart, read its title block.
 
 2
-00:00:04.150 --> 00:00:26.400
-It gives the chart number, title and scale; the units for soundings, which may be feet, fathoms or meters; the vertical datum for depths, usually mean lower low water; and the horizontal datum, normally the North American Datum of 1983, which for practical purposes matches the WGS 84 datum your GPS uses.
+00:00:03.750 --> 00:00:07.500
+It takes a minute, and it tells you what all the numbers mean.
 
 3
-00:00:26.650 --> 00:00:31.200
-If your plotter and chart use different datums, positions can be off.
+00:00:07.750 --> 00:00:10.550
+The chart number, the title and the scale.
 
 4
-00:00:31.450 --> 00:00:37.250
-Heights of lights and landmarks and bridge clearances are measured above mean high water.
+00:00:10.800 --> 00:00:14.600
+The units for soundings: feet, fathoms or meters.
 
 5
-00:00:37.500 --> 00:00:41.300
-Check the edition date too, and keep the chart corrected.
+00:00:14.850 --> 00:00:19.800
+Get that one wrong and a six on the chart could be six feet, or thirty-six.
 
 6
-00:00:41.550 --> 00:00:49.750
-NOAA is moving from traditional paper charts to electronic charts, so check what’s currently available for your area.
+00:00:20.050 --> 00:00:25.200
+And the depths are measured from a low-water level, usually mean lower low water.
+
+7
+00:00:25.450 --> 00:00:30.875
+The horizontal datum, normally the North American Datum of nineteen eighty-three.
+
+8
+00:00:31.125 --> 00:00:37.300
+For practical purposes it matches the WGS eighty-four datum in your GPS.
+
+9
+00:00:37.550 --> 00:00:41.075
+If the two don’t match, your plotted position is off.
+
+10
+00:00:41.325 --> 00:00:43.150
+Heights are different.
+
+11
+00:00:43.400 --> 00:00:48.700
+Lights, landmarks and bridge clearances are measured above mean high water.
+
+12
+00:00:48.950 --> 00:00:52.925
+Why would depths use low water and bridges use high water?
+
+13
+00:00:53.925 --> 00:00:56.025
+Both are the cautious choice.
+
+14
+00:00:56.275 --> 00:00:58.175
+And the edition date.
+
+15
+00:00:58.425 --> 00:01:00.375
+Keep the chart corrected.
+
+16
+00:01:00.625 --> 00:01:02.450
+That’s lesson one.
+
+17
+00:01:02.700 --> 00:01:04.550
+Latitude first.
+
+18
+00:01:04.800 --> 00:01:07.175
+A minute of latitude is a mile.
+
+19
+00:01:07.425 --> 00:01:09.875
+Large scale, large detail.
+
+20
+00:01:10.125 --> 00:01:12.625
+Next time: reading the symbols.

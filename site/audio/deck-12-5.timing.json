@@ -3,42 +3,154 @@
  "lessonId": "deck-12",
  "n": 5,
  "audio": "deck-12-5.mp3",
- "duration": 28.75,
+ "duration": 59.5,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 8.525,
+   "end": 5.175,
    "builds": 0,
-   "text": "A float plan tells someone ashore where you’re going and when you’ll be back, so that if you don’t return, a search starts quickly and in the right place."
+   "text": "The cheapest piece of safety equipment you own costs nothing, and it stays ashore."
   },
   {
    "i": 1,
-   "start": 8.775,
-   "speechStart": 8.775,
-   "end": 18.075,
+   "start": 5.425,
+   "speechStart": 5.425,
+   "end": 7.2,
    "builds": 0,
-   "text": "Include who’s aboard, a description of the boat, your planned route, and your expected return time, plus instructions on when to call the Coast Guard."
+   "text": "It’s a float plan."
   },
   {
    "i": 2,
-   "start": 18.325,
-   "speechStart": 18.325,
-   "end": 24.15,
+   "start": 7.45,
+   "speechStart": 7.45,
+   "end": 9.05,
    "builds": 0,
-   "text": "Leave it with a responsible person, such as your office, marina or a family member."
+   "text": "Think about it."
   },
   {
    "i": 3,
-   "start": 24.4,
-   "speechStart": 24.4,
-   "end": 28.45,
+   "start": 9.3,
+   "speechStart": 9.3,
+   "end": 11.9,
    "builds": 0,
-   "text": "Update it if your plans change, and cancel it when you get back."
+   "text": "If you don’t come home tonight, who knows?"
+  },
+  {
+   "i": 4,
+   "start": 12.15,
+   "speechStart": 12.15,
+   "end": 14.9,
+   "builds": 0,
+   "text": "And where would they tell the Coast Guard to look?"
+  },
+  {
+   "i": 5,
+   "start": 15.15,
+   "speechStart": 15.9,
+   "end": 18.125,
+   "builds": 0,
+   "text": "A float plan answers both."
+  },
+  {
+   "i": 6,
+   "start": 18.375,
+   "speechStart": 18.375,
+   "end": 23.425,
+   "builds": 1,
+   "text": "Leave it with a responsible person: your office, the marina, or family."
+  },
+  {
+   "i": 7,
+   "start": 23.675,
+   "speechStart": 23.675,
+   "end": 28.775,
+   "builds": 1,
+   "text": "It says who’s aboard, what the boat looks like, where you’re going, and when you’ll be back."
+  },
+  {
+   "i": 8,
+   "start": 29.025,
+   "speechStart": 29.025,
+   "end": 32.675,
+   "builds": 1,
+   "text": "It says what to do, and whom to call, if you’re overdue."
+  },
+  {
+   "i": 9,
+   "start": 32.925,
+   "speechStart": 32.925,
+   "end": 35.6,
+   "builds": 1,
+   "text": "And it only works if you keep it honest."
+  },
+  {
+   "i": 10,
+   "start": 35.85,
+   "speechStart": 35.85,
+   "end": 39.7,
+   "builds": 0,
+   "text": "Update it when your plans change, and cancel it when you’re back."
+  },
+  {
+   "i": 11,
+   "start": 39.95,
+   "speechStart": 39.95,
+   "end": 41.9,
+   "builds": 0,
+   "text": "That’s lesson twelve."
+  },
+  {
+   "i": 12,
+   "start": 42.15,
+   "speechStart": 42.15,
+   "end": 44.8,
+   "builds": 0,
+   "text": "Mayday, pan-pan, securité."
+  },
+  {
+   "i": 13,
+   "start": 45.05,
+   "speechStart": 45.05,
+   "end": 46.825,
+   "builds": 0,
+   "text": "Position first."
+  },
+  {
+   "i": 14,
+   "start": 47.075,
+   "speechStart": 47.075,
+   "end": 49.7,
+   "builds": 0,
+   "text": "Red button, then channel sixteen."
+  },
+  {
+   "i": 15,
+   "start": 49.95,
+   "speechStart": 49.95,
+   "end": 52.05,
+   "builds": 0,
+   "text": "Let the basket touch down."
+  },
+  {
+   "i": 16,
+   "start": 52.3,
+   "speechStart": 52.3,
+   "end": 54.225,
+   "builds": 0,
+   "text": "And leave a float plan."
+  },
+  {
+   "i": 17,
+   "start": 54.475,
+   "speechStart": 54.475,
+   "end": 59.2,
+   "builds": 0,
+   "text": "Next time: first aid, for when the nearest doctor is an hour away."
   }
  ]
 }

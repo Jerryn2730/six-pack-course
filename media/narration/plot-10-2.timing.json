@@ -3,50 +3,122 @@
  "lessonId": "plot-10",
  "n": 2,
  "audio": "plot-10-2.mp3",
- "duration": 34.85,
+ "duration": 53.45,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 1.7,
+   "end": 3.525,
    "builds": 0,
-   "text": "Step one."
+   "text": "Step one of our problem: departure and course."
   },
   {
    "i": 1,
-   "start": 1.95,
-   "speechStart": 1.95,
-   "end": 10.875,
+   "start": 3.775,
+   "speechStart": 3.775,
+   "end": 5.625,
    "builds": 0,
-   "text": "At seven hundred you depart from a charted buoy, and the first question asks for its latitude and longitude, which you read from the scales."
+   "text": "Follow the diagram."
   },
   {
    "i": 2,
-   "start": 11.125,
-   "speechStart": 11.125,
-   "end": 16.325,
-   "builds": 0,
-   "text": "Next, lay a course to the next mark and read zero six eight true from the rose."
+   "start": 5.875,
+   "speechStart": 5.875,
+   "end": 9.4,
+   "builds": 1,
+   "text": "At seven hundred, you depart from a charted buoy."
   },
   {
    "i": 3,
-   "start": 16.575,
-   "speechStart": 16.575,
-   "end": 26.5,
+   "start": 9.65,
+   "speechStart": 9.65,
+   "end": 15.925,
    "builds": 0,
-   "text": "The question gives variation fifteen west and deviation two east, so the compass course is zero six eight plus fifteen minus two: zero eight one."
+   "text": "The first question asks for its position, and you read the latitude and longitude from the scales."
   },
   {
    "i": 4,
-   "start": 26.75,
-   "speechStart": 26.75,
-   "end": 34.55,
+   "start": 16.175,
+   "speechStart": 16.175,
+   "end": 18.9,
+   "builds": 1,
+   "text": "Next, lay the course to the next mark."
+  },
+  {
+   "i": 5,
+   "start": 19.15,
+   "speechStart": 19.15,
+   "end": 21.9,
    "builds": 0,
-   "text": "The leg measures nine point six miles; at twelve knots, that’s forty-eight minutes, for an ETA of seven forty-eight."
+   "text": "The rulers read zero six eight true."
+  },
+  {
+   "i": 6,
+   "start": 22.15,
+   "speechStart": 22.15,
+   "end": 27.0,
+   "builds": 1,
+   "text": "The question gives you variation fifteen west and deviation two east."
+  },
+  {
+   "i": 7,
+   "start": 27.25,
+   "speechStart": 27.25,
+   "end": 30.825,
+   "builds": 0,
+   "text": "Going from true toward compass, what do you do with each?"
+  },
+  {
+   "i": 8,
+   "start": 31.075,
+   "speechStart": 31.825,
+   "end": 34.05,
+   "builds": 0,
+   "text": "Add west, subtract east."
+  },
+  {
+   "i": 9,
+   "start": 34.3,
+   "speechStart": 34.3,
+   "end": 37.55,
+   "builds": 0,
+   "text": "Zero six eight, plus fifteen, minus two."
+  },
+  {
+   "i": 10,
+   "start": 37.8,
+   "speechStart": 37.8,
+   "end": 39.975,
+   "builds": 0,
+   "text": "Zero eight one, compass."
+  },
+  {
+   "i": 11,
+   "start": 40.225,
+   "speechStart": 40.225,
+   "end": 43.05,
+   "builds": 1,
+   "text": "The leg measures nine point six miles."
+  },
+  {
+   "i": 12,
+   "start": 43.3,
+   "speechStart": 43.3,
+   "end": 49.125,
+   "builds": 0,
+   "text": "At twelve knots, sixty times nine point six divided by twelve is forty-eight minutes."
+  },
+  {
+   "i": 13,
+   "start": 49.375,
+   "speechStart": 49.375,
+   "end": 53.15,
+   "builds": 1,
+   "text": "So your estimated time of arrival is seven forty-eight."
   }
  ]
 }

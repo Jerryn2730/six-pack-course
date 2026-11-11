@@ -1,29 +1,57 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:02.600
-Here’s the most common conversion.
+00:00:00.150 --> 00:00:02.650
+Here’s the conversion you’ll do most.
 
 2
-00:00:02.850 --> 00:00:05.800
-You’ve plotted a course of zero six eight true.
+00:00:02.900 --> 00:00:07.200
+You’ve plotted a course, and you need to tell the helmsman what to steer.
 
 3
-00:00:06.050 --> 00:00:10.750
-The training chart area has variation of about fourteen degrees west.
+00:00:07.450 --> 00:00:09.325
+Follow it on screen.
 
 4
-00:00:11.000 --> 00:00:18.200
-Going from true toward magnetic, add west: zero six eight plus fourteen is zero eight two magnetic.
+00:00:09.575 --> 00:00:12.500
+The plotted course is zero six eight, true.
 
 5
-00:00:18.450 --> 00:00:23.475
-Look up the deviation for that heading on the deviation card, two degrees east.
+00:00:12.750 --> 00:00:17.650
+Variation in the training chart’s area is about fourteen degrees west.
 
 6
-00:00:23.725 --> 00:00:30.725
-Going from magnetic toward compass, subtract east: zero eight two minus two gives zero eight zero.
+00:00:17.900 --> 00:00:21.700
+We’re going down the chain, toward compass, so we add west.
 
 7
-00:00:30.975 --> 00:00:33.000
-That’s the course you steer.
+00:00:21.950 --> 00:00:26.350
+Zero six eight plus fourteen is zero eight two, magnetic.
+
+8
+00:00:26.600 --> 00:00:28.475
+Now deviation.
+
+9
+00:00:28.725 --> 00:00:31.700
+Which heading do you look up on the deviation card?
+
+10
+00:00:32.700 --> 00:00:36.300
+Zero eight two, the magnetic heading you just found.
+
+11
+00:00:36.550 --> 00:00:38.875
+The card says two degrees east.
+
+12
+00:00:39.125 --> 00:00:42.400
+Still going down the chain, so subtract east.
+
+13
+00:00:42.650 --> 00:00:46.200
+Zero eight two minus two is zero eight zero.
+
+14
+00:00:46.450 --> 00:00:48.450
+Steer zero eight zero.

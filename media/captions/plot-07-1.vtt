@@ -1,25 +1,57 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:02.550
-Plotting uses standard symbols.
+00:00:00.150 --> 00:00:04.700
+Before satellites, every ship crossed every ocean on one idea.
 
 2
-00:00:02.800 --> 00:00:07.525
-A fix, from two or more good lines of position, is a small circle.
+00:00:04.950 --> 00:00:10.625
+If I know where I started, which way I went, how fast, and for how long, I know where I am.
 
 3
-00:00:07.775 --> 00:00:13.975
-A dead reckoning position, from course and speed alone, is a half circle drawn on the course line.
+00:00:10.875 --> 00:00:17.400
+That’s dead reckoning, and it’s still on the exam, and it’s still what gets you home when the screen goes dark.
 
 4
-00:00:14.225 --> 00:00:22.975
-An estimated position, a DR improved with other information such as current or a single line of position, is a small square.
+00:00:17.650 --> 00:00:19.550
+First, the symbols.
 
 5
-00:00:23.225 --> 00:00:28.575
-An electronic fix, such as from GPS, is often shown as a triangle.
+00:00:19.800 --> 00:00:21.625
+Look at the diagram.
 
 6
-00:00:28.825 --> 00:00:33.925
-Write the time beside every position, followed by fix, D R or E P.
+00:00:21.875 --> 00:00:26.600
+A fix, from two or more good lines of position, is a small circle.
+
+7
+00:00:26.850 --> 00:00:32.600
+A dead reckoning position, from course and speed alone, is a half circle on the course line.
+
+8
+00:00:32.850 --> 00:00:39.100
+An estimated position, which is a DR improved with other information, is a small square.
+
+9
+00:00:39.350 --> 00:00:43.800
+And an electronic fix, from GPS, is often a triangle.
+
+10
+00:00:44.050 --> 00:00:46.575
+Write the time beside every one.
+
+11
+00:00:47.575 --> 00:00:51.300
+So which do you trust more: the circle, or the half circle?
+
+12
+00:00:51.550 --> 00:00:53.075
+The circle.
+
+13
+00:00:53.325 --> 00:00:55.175
+A fix is measured.
+
+14
+00:00:55.425 --> 00:00:57.575
+A DR is calculated.

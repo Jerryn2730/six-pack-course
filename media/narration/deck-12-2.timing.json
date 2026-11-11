@@ -3,66 +3,106 @@
  "lessonId": "deck-12",
  "n": 2,
  "audio": "deck-12-2.mp3",
- "duration": 42.125,
+ "duration": 60.6,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.475,
+   "end": 4.1,
    "builds": 0,
-   "text": "A VHF radio with digital selective calling has a red distress button."
+   "text": "Modern equipment can call for help faster than you can talk."
   },
   {
    "i": 1,
-   "start": 5.725,
-   "speechStart": 5.725,
-   "end": 17.075,
-   "builds": 0,
-   "text": "Pressing it sends an automatic alert with your MMSI number and GPS position on channel seventy, which the Coast Guard and nearby DSC radios receive."
+   "start": 4.35,
+   "speechStart": 4.35,
+   "end": 9.675,
+   "builds": 1,
+   "text": "A VHF radio with digital selective calling has a red distress button."
   },
   {
    "i": 2,
-   "start": 17.325,
-   "speechStart": 17.325,
-   "end": 20.4,
+   "start": 9.925,
+   "speechStart": 9.925,
+   "end": 17.975,
    "builds": 0,
-   "text": "Then follow up by voice on channel sixteen."
+   "text": "Press it, and it sends an automatic alert, with your MMSI number and your GPS position, on channel seventy."
   },
   {
    "i": 3,
-   "start": 20.65,
-   "speechStart": 20.65,
-   "end": 29.25,
-   "builds": 0,
-   "text": "An EPIRB sends a distress signal on four hundred six megahertz to satellites, which relay your identity and position to rescuers."
+   "start": 18.225,
+   "speechStart": 18.225,
+   "end": 21.3,
+   "builds": 1,
+   "text": "Then follow up by voice on channel sixteen."
   },
   {
    "i": 4,
-   "start": 29.5,
-   "speechStart": 29.5,
-   "end": 32.125,
+   "start": 21.55,
+   "speechStart": 21.55,
+   "end": 23.225,
+   "builds": 0,
+   "text": "Here’s the catch."
+  },
+  {
+   "i": 5,
+   "start": 23.475,
+   "speechStart": 23.475,
+   "end": 32.725,
+   "builds": 0,
+   "text": "That button only sends your position if the radio is connected to a GPS, and it only identifies you if you registered an MMSI."
+  },
+  {
+   "i": 6,
+   "start": 32.975,
+   "speechStart": 32.975,
+   "end": 34.7,
+   "builds": 0,
+   "text": "Have you done both?"
+  },
+  {
+   "i": 7,
+   "start": 34.95,
+   "speechStart": 35.7,
+   "end": 37.3,
+   "builds": 0,
+   "text": "Check tonight."
+  },
+  {
+   "i": 8,
+   "start": 37.55,
+   "speechStart": 37.55,
+   "end": 46.1,
+   "builds": 1,
+   "text": "An EPIRB sends a distress signal on four hundred six megahertz to satellites, which pass your identity and position to the rescuers."
+  },
+  {
+   "i": 9,
+   "start": 46.35,
+   "speechStart": 46.35,
+   "end": 48.975,
    "builds": 0,
    "text": "It must be registered with NOAA."
   },
   {
-   "i": 5,
-   "start": 32.375,
-   "speechStart": 32.375,
-   "end": 36.55,
-   "builds": 0,
-   "text": "A personal locator beacon does the same for an individual."
+   "i": 10,
+   "start": 49.225,
+   "speechStart": 49.225,
+   "end": 54.275,
+   "builds": 1,
+   "text": "A personal locator beacon does the same thing for one person, and you wear it."
   },
   {
-   "i": 6,
-   "start": 36.8,
-   "speechStart": 36.8,
-   "end": 41.825,
-   "builds": 0,
-   "text": "Keep beacon registrations, batteries and hydrostatic releases current."
+   "i": 11,
+   "start": 54.525,
+   "speechStart": 54.525,
+   "end": 60.3,
+   "builds": 1,
+   "text": "And keep all of it current: the registrations, the batteries, and the hydrostatic release."
   }
  ]
 }

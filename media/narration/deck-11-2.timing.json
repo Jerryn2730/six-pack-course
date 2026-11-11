@@ -3,7 +3,7 @@
  "lessonId": "deck-11",
  "n": 2,
  "audio": "deck-11-2.mp3",
- "duration": 35.325,
+ "duration": 55.25,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,49 +12,113 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.725,
+   "end": 2.425,
    "builds": 0,
-   "text": "Several recovery turns exist."
+   "text": "Now you have to get back to him."
   },
   {
    "i": 1,
-   "start": 2.975,
-   "speechStart": 2.975,
-   "end": 10.8,
+   "start": 2.675,
+   "speechStart": 2.675,
+   "end": 8.575,
    "builds": 0,
-   "text": "The Williamson turn brings you back down your own track, which makes it the best choice at night or when you’ve lost sight of the person."
+   "text": "There are several recovery turns, and the one the exam asks about is the Williamson turn."
   },
   {
    "i": 2,
-   "start": 11.05,
-   "speechStart": 11.05,
-   "end": 15.15,
+   "start": 8.825,
+   "speechStart": 8.825,
+   "end": 10.65,
    "builds": 0,
-   "text": "Put the rudder hard over toward the side the person fell from."
+   "text": "Look at the diagram."
   },
   {
    "i": 3,
-   "start": 15.4,
-   "speechStart": 15.4,
-   "end": 21.225,
+   "start": 10.9,
+   "speechStart": 10.9,
+   "end": 19.0,
    "builds": 0,
-   "text": "When you’re about sixty degrees off your original course, shift the rudder hard over the other way."
+   "text": "Its whole purpose is to bring you back down your own track, so it’s the right turn at night, or any time you’ve lost sight of the person."
   },
   {
    "i": 4,
-   "start": 21.475,
-   "speechStart": 21.475,
-   "end": 27.725,
+   "start": 19.25,
+   "speechStart": 19.25,
+   "end": 21.025,
    "builds": 0,
-   "text": "Steady up on the reciprocal of your original course, and you’ll be running back down your track toward the person."
+   "text": "Here’s how it goes."
   },
   {
    "i": 5,
-   "start": 27.975,
-   "speechStart": 27.975,
-   "end": 35.025,
+   "start": 21.275,
+   "speechStart": 21.275,
+   "end": 25.05,
    "builds": 0,
-   "text": "When the person is in sight and close, a quicker single turn, like the Anderson turn, brings you back faster."
+   "text": "One: rudder hard over, toward the side he fell from."
+  },
+  {
+   "i": 6,
+   "start": 25.3,
+   "speechStart": 25.3,
+   "end": 31.675,
+   "builds": 0,
+   "text": "Two: when you’re about sixty degrees off your original course, shift the rudder hard over the other way."
+  },
+  {
+   "i": 7,
+   "start": 31.925,
+   "speechStart": 31.925,
+   "end": 35.725,
+   "builds": 0,
+   "text": "Three: steady up on the reciprocal of your original course."
+  },
+  {
+   "i": 8,
+   "start": 35.975,
+   "speechStart": 35.975,
+   "end": 39.125,
+   "builds": 0,
+   "text": "Now you’re running back down your own wake, toward him."
+  },
+  {
+   "i": 9,
+   "start": 39.375,
+   "speechStart": 40.125,
+   "end": 42.075,
+   "builds": 0,
+   "text": "So when wouldn’t you use it?"
+  },
+  {
+   "i": 10,
+   "start": 42.325,
+   "speechStart": 42.325,
+   "end": 44.525,
+   "builds": 0,
+   "text": "When he’s in sight and close."
+  },
+  {
+   "i": 11,
+   "start": 44.775,
+   "speechStart": 44.775,
+   "end": 49.625,
+   "builds": 0,
+   "text": "Then a quicker single turn, like the Anderson turn, gets you back faster."
+  },
+  {
+   "i": 12,
+   "start": 49.875,
+   "speechStart": 49.875,
+   "end": 52.25,
+   "builds": 0,
+   "text": "Williamson when you’ve lost him."
+  },
+  {
+   "i": 13,
+   "start": 52.5,
+   "speechStart": 52.5,
+   "end": 54.95,
+   "builds": 0,
+   "text": "A simple turn when you can see him."
   }
  ]
 }

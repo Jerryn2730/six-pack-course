@@ -3,58 +3,162 @@
  "lessonId": "deck-13",
  "n": 4,
  "audio": "deck-13-4.mp3",
- "duration": 47.275,
+ "duration": 63.825,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.05,
+   "end": 2.775,
    "builds": 0,
-   "text": "Fishing charters bring their own injuries."
+   "text": "Now the injuries that come with fishing."
   },
   {
    "i": 1,
-   "start": 3.3,
-   "speechStart": 3.3,
-   "end": 9.85,
-   "builds": 0,
-   "text": "A fish hook in or near the eye, or deep in a joint, should be left in place, secured, and treated ashore."
+   "start": 3.025,
+   "speechStart": 3.025,
+   "end": 4.625,
+   "builds": 1,
+   "text": "Fish hooks."
   },
   {
    "i": 2,
-   "start": 10.1,
-   "speechStart": 10.1,
-   "end": 21.825,
+   "start": 4.875,
+   "speechStart": 4.875,
+   "end": 6.85,
    "builds": 0,
-   "text": "Venomous spines from stingrays, catfish and lionfish cause intense pain, and soaking the wound in water as hot as the person can tolerate without burning breaks down the venom."
+   "text": "Most you can deal with."
   },
   {
    "i": 3,
-   "start": 22.075,
-   "speechStart": 22.075,
-   "end": 28.175,
+   "start": 7.1,
+   "speechStart": 7.1,
+   "end": 11.575,
    "builds": 0,
-   "text": "Rinse jellyfish stings with seawater, not fresh water, which can trigger more stinging cells."
+   "text": "But a hook in or near the eye, or deep in a joint, stays where it is."
   },
   {
    "i": 4,
-   "start": 28.425,
-   "speechStart": 28.425,
-   "end": 41.675,
+   "start": 11.825,
+   "speechStart": 11.825,
+   "end": 13.75,
    "builds": 0,
-   "text": "Clean cuts from fish, shells and coral well, because warm Florida waters carry Vibrio bacteria, which can cause serious infection, especially in people with liver disease or weak immune systems."
+   "text": "Secure it and go in."
   },
   {
    "i": 5,
-   "start": 41.925,
-   "speechStart": 41.925,
-   "end": 46.975,
+   "start": 14.0,
+   "speechStart": 14.0,
+   "end": 17.875,
+   "builds": 1,
+   "text": "Venomous spines: stingrays, catfish, lionfish."
+  },
+  {
+   "i": 6,
+   "start": 18.125,
+   "speechStart": 18.125,
+   "end": 20.025,
    "builds": 0,
-   "text": "For seasickness, keep the person on deck in fresh air, looking at the horizon."
+   "text": "The pain is fierce."
+  },
+  {
+   "i": 7,
+   "start": 20.275,
+   "speechStart": 20.275,
+   "end": 25.2,
+   "builds": 0,
+   "text": "Soak the wound in water as hot as the person can stand without burning."
+  },
+  {
+   "i": 8,
+   "start": 25.45,
+   "speechStart": 25.45,
+   "end": 27.2,
+   "builds": 0,
+   "text": "Why hot water?"
+  },
+  {
+   "i": 9,
+   "start": 27.45,
+   "speechStart": 28.2,
+   "end": 30.3,
+   "builds": 0,
+   "text": "Heat breaks down the venom."
+  },
+  {
+   "i": 10,
+   "start": 30.55,
+   "speechStart": 30.55,
+   "end": 32.4,
+   "builds": 1,
+   "text": "Jellyfish stings."
+  },
+  {
+   "i": 11,
+   "start": 32.65,
+   "speechStart": 32.65,
+   "end": 35.475,
+   "builds": 0,
+   "text": "Rinse with seawater, not fresh water."
+  },
+  {
+   "i": 12,
+   "start": 35.725,
+   "speechStart": 35.725,
+   "end": 40.15,
+   "builds": 0,
+   "text": "Fresh water fires off the stinging cells that haven’t gone off yet."
+  },
+  {
+   "i": 13,
+   "start": 40.4,
+   "speechStart": 40.4,
+   "end": 43.025,
+   "builds": 1,
+   "text": "Cuts from fish, shells and coral."
+  },
+  {
+   "i": 14,
+   "start": 43.275,
+   "speechStart": 43.275,
+   "end": 44.875,
+   "builds": 0,
+   "text": "Clean them well."
+  },
+  {
+   "i": 15,
+   "start": 45.125,
+   "speechStart": 45.125,
+   "end": 55.15,
+   "builds": 0,
+   "text": "Warm Florida water carries Vibrio bacteria, which can cause a serious infection, especially in people with liver disease or weak immune systems."
+  },
+  {
+   "i": 16,
+   "start": 55.4,
+   "speechStart": 55.4,
+   "end": 57.15,
+   "builds": 1,
+   "text": "And seasickness."
+  },
+  {
+   "i": 17,
+   "start": 57.4,
+   "speechStart": 57.4,
+   "end": 61.15,
+   "builds": 0,
+   "text": "Keep them on deck, in fresh air, looking at the horizon."
+  },
+  {
+   "i": 18,
+   "start": 61.4,
+   "speechStart": 61.4,
+   "end": 63.525,
+   "builds": 0,
+   "text": "Below decks makes it worse."
   }
  ]
 }

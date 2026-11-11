@@ -3,74 +3,114 @@
  "lessonId": "deck-02",
  "n": 2,
  "audio": "deck-02-2.mp3",
- "duration": 44.875,
+ "duration": 56.3,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.55,
+   "end": 4.825,
    "builds": 0,
-   "text": "Required portable fire extinguishers depend on boat length."
+   "text": "Fire extinguishers go by boat length, and the exam loves the table."
   },
   {
    "i": 1,
-   "start": 4.8,
-   "speechStart": 4.8,
-   "end": 8.725,
+   "start": 5.075,
+   "speechStart": 5.075,
+   "end": 8.15,
    "builds": 0,
-   "text": "Under twenty-six feet, you need one B-one extinguisher."
+   "text": "Assume no fixed system in the engine room."
   },
   {
    "i": 2,
-   "start": 8.975,
-   "speechStart": 8.975,
-   "end": 13.45,
-   "builds": 0,
-   "text": "From twenty-six to under forty feet, two B-ones or one B-two."
+   "start": 8.4,
+   "speechStart": 8.4,
+   "end": 11.325,
+   "builds": 1,
+   "text": "Under twenty-six feet: one B-one."
   },
   {
    "i": 3,
-   "start": 13.7,
-   "speechStart": 13.7,
-   "end": 19.125,
-   "builds": 0,
-   "text": "From forty to sixty-five feet, three B-ones, or one B-two plus one B-one."
+   "start": 11.575,
+   "speechStart": 11.575,
+   "end": 15.95,
+   "builds": 1,
+   "text": "Twenty-six to under forty feet: two B-ones, or one B-two."
   },
   {
    "i": 4,
-   "start": 19.375,
-   "speechStart": 19.375,
-   "end": 24.975,
-   "builds": 0,
-   "text": "An approved fixed system in the engine room reduces the requirement by one B-one."
+   "start": 16.2,
+   "speechStart": 16.2,
+   "end": 21.4,
+   "builds": 1,
+   "text": "Forty to sixty-five feet: three B-ones, or one B-two plus one B-one."
   },
   {
    "i": 5,
-   "start": 25.225,
-   "speechStart": 25.225,
-   "end": 34.05,
+   "start": 21.65,
+   "speechStart": 21.65,
+   "end": 23.3,
    "builds": 0,
-   "text": "Newer extinguishers are labeled five-B and twenty-B instead of B-one and B-two, and boats built in recent years must carry those."
+   "text": "See the pattern?"
   },
   {
    "i": 6,
-   "start": 34.3,
-   "speechStart": 34.3,
-   "end": 40.425,
+   "start": 23.55,
+   "speechStart": 23.55,
+   "end": 27.15,
    "builds": 0,
-   "text": "Disposable extinguishers must be replaced twelve years after their date of manufacture."
+   "text": "One, two, three, and a B-two is worth two B-ones."
   },
   {
    "i": 7,
-   "start": 40.675,
-   "speechStart": 40.675,
-   "end": 44.575,
+   "start": 27.4,
+   "speechStart": 27.4,
+   "end": 32.55,
+   "builds": 1,
+   "text": "If you have an approved fixed system in the engine room, you need one fewer B-one."
+  },
+  {
+   "i": 8,
+   "start": 32.8,
+   "speechStart": 32.8,
+   "end": 35.625,
+   "builds": 1,
+   "text": "And disposable extinguishers expire."
+  },
+  {
+   "i": 9,
+   "start": 35.875,
+   "speechStart": 35.875,
+   "end": 39.75,
    "builds": 0,
-   "text": "Mount them where you can reach them quickly, and check the gauges."
+   "text": "Replace them twelve years after the date of manufacture."
+  },
+  {
+   "i": 10,
+   "start": 40.0,
+   "speechStart": 40.75,
+   "end": 42.65,
+   "builds": 0,
+   "text": "One labeling note."
+  },
+  {
+   "i": 11,
+   "start": 42.9,
+   "speechStart": 42.9,
+   "end": 50.1,
+   "builds": 0,
+   "text": "Newer extinguishers are marked five-B and twenty-B instead of B-one and B-two, and newer boats must carry those."
+  },
+  {
+   "i": 12,
+   "start": 50.35,
+   "speechStart": 50.35,
+   "end": 56.0,
+   "builds": 0,
+   "text": "Mount them where you can grab one without reaching over the thing that’s likely to be on fire."
   }
  ]
 }

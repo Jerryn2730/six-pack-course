@@ -3,50 +3,122 @@
  "lessonId": "deck-05",
  "n": 4,
  "audio": "deck-05-4.mp3",
- "duration": 32.75,
+ "duration": 53.4,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 1.875,
+   "end": 5.4,
    "builds": 0,
-   "text": "A few terms."
+   "text": "Five words you need for the exam, and for talking to the Coast Guard on the radio."
   },
   {
    "i": 1,
-   "start": 2.125,
-   "speechStart": 2.125,
-   "end": 6.375,
-   "builds": 0,
-   "text": "Heel is a temporary lean caused by wind, waves or a turn."
+   "start": 5.65,
+   "speechStart": 5.65,
+   "end": 9.775,
+   "builds": 1,
+   "text": "Heel is a temporary lean, from wind, waves or a turn."
   },
   {
    "i": 2,
-   "start": 6.625,
-   "speechStart": 6.625,
-   "end": 15.375,
-   "builds": 0,
-   "text": "List is a steady lean caused by off-center weight or by flooding, and an unexplained list is a warning that water may be getting in."
+   "start": 10.025,
+   "speechStart": 10.025,
+   "end": 14.6,
+   "builds": 1,
+   "text": "List is a steady lean, caused by weight off-center, or by flooding."
   },
   {
    "i": 3,
-   "start": 15.625,
-   "speechStart": 15.625,
-   "end": 21.325,
+   "start": 14.85,
+   "speechStart": 14.85,
+   "end": 19.55,
    "builds": 0,
-   "text": "Trim is the fore-and-aft balance, described as down by the bow or down by the stern."
+   "text": "So if your boat develops a list and nobody moved anything, what do you check?"
   },
   {
    "i": 4,
-   "start": 21.575,
-   "speechStart": 21.575,
-   "end": 32.45,
+   "start": 19.8,
+   "speechStart": 20.55,
+   "end": 22.1,
    "builds": 0,
-   "text": "Freeboard is the height from the waterline to the deck edge, and reserve buoyancy is the watertight volume above the waterline that keeps you afloat as you take on water or load."
+   "text": "The bilge."
+  },
+  {
+   "i": 5,
+   "start": 22.35,
+   "speechStart": 22.35,
+   "end": 25.75,
+   "builds": 0,
+   "text": "An unexplained list means water is getting in."
+  },
+  {
+   "i": 6,
+   "start": 26.0,
+   "speechStart": 26.0,
+   "end": 28.525,
+   "builds": 1,
+   "text": "Trim is the fore-and-aft balance."
+  },
+  {
+   "i": 7,
+   "start": 28.775,
+   "speechStart": 28.775,
+   "end": 31.825,
+   "builds": 0,
+   "text": "We say down by the bow or down by the stern."
+  },
+  {
+   "i": 8,
+   "start": 32.075,
+   "speechStart": 32.075,
+   "end": 35.875,
+   "builds": 1,
+   "text": "Freeboard is the height from the waterline up to the deck edge."
+  },
+  {
+   "i": 9,
+   "start": 36.125,
+   "speechStart": 36.125,
+   "end": 40.825,
+   "builds": 1,
+   "text": "And reserve buoyancy is the watertight volume above the waterline."
+  },
+  {
+   "i": 10,
+   "start": 41.075,
+   "speechStart": 41.075,
+   "end": 46.125,
+   "builds": 0,
+   "text": "It’s your margin, the thing that keeps you afloat as you take on load or water."
+  },
+  {
+   "i": 11,
+   "start": 46.375,
+   "speechStart": 46.375,
+   "end": 48.95,
+   "builds": 0,
+   "text": "Here’s how I keep the first two apart."
+  },
+  {
+   "i": 12,
+   "start": 49.2,
+   "speechStart": 49.2,
+   "end": 51.075,
+   "builds": 0,
+   "text": "Heel heals itself."
+  },
+  {
+   "i": 13,
+   "start": 51.325,
+   "speechStart": 51.325,
+   "end": 53.1,
+   "builds": 0,
+   "text": "A list lasts."
   }
  ]
 }

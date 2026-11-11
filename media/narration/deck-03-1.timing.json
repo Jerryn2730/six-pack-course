@@ -3,7 +3,7 @@
  "lessonId": "deck-03",
  "n": 1,
  "audio": "deck-03-1.mp3",
- "duration": 44.7,
+ "duration": 66.0,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,73 +12,145 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.1,
+   "end": 3.575,
    "builds": 0,
-   "text": "Fire is the emergency every captain dreads, so start with how it works."
+   "text": "Fire is the emergency every captain dreads."
   },
   {
    "i": 1,
-   "start": 5.35,
-   "speechStart": 5.35,
-   "end": 11.55,
+   "start": 3.825,
+   "speechStart": 3.825,
+   "end": 7.825,
    "builds": 0,
-   "text": "A fire needs heat, fuel and oxygen, plus the chemical chain reaction that keeps it going."
+   "text": "On the water there’s no fire department and nowhere to run."
   },
   {
    "i": 2,
-   "start": 11.8,
-   "speechStart": 11.8,
-   "end": 14.575,
+   "start": 8.075,
+   "speechStart": 8.075,
+   "end": 12.775,
    "builds": 0,
-   "text": "Remove any one and the fire goes out."
+   "text": "So today we learn how a fire works, because that tells you how to kill it."
   },
   {
    "i": 3,
-   "start": 14.825,
-   "speechStart": 14.825,
-   "end": 24.325,
+   "start": 13.025,
+   "speechStart": 13.025,
+   "end": 14.85,
    "builds": 0,
-   "text": "Cooling removes heat, smothering removes oxygen, shutting off the fuel removes fuel, and dry chemical agents interrupt the chain reaction."
+   "text": "Look at the diagram."
   },
   {
    "i": 4,
-   "start": 24.575,
-   "speechStart": 24.575,
-   "end": 27.1,
+   "start": 15.1,
+   "speechStart": 15.1,
+   "end": 19.15,
    "builds": 0,
-   "text": "Fires are classed by what’s burning."
+   "text": "A fire needs three things: heat, fuel and oxygen."
   },
   {
    "i": 5,
-   "start": 27.35,
-   "speechStart": 27.35,
-   "end": 32.05,
+   "start": 19.4,
+   "speechStart": 19.4,
+   "end": 23.425,
    "builds": 0,
-   "text": "Class A is ordinary combustibles like wood, cushions and line."
+   "text": "Plus a fourth, the chemical chain reaction that keeps it going."
   },
   {
    "i": 6,
-   "start": 32.3,
-   "speechStart": 32.3,
-   "end": 37.7,
+   "start": 23.675,
+   "speechStart": 23.675,
+   "end": 26.575,
    "builds": 0,
-   "text": "Class B is flammable liquids like gasoline and oil, the most common boat fire."
+   "text": "Take away any one, and the fire goes out."
   },
   {
    "i": 7,
-   "start": 37.95,
-   "speechStart": 37.95,
-   "end": 41.425,
+   "start": 26.825,
+   "speechStart": 27.575,
+   "end": 29.6,
    "builds": 0,
-   "text": "Class C is energized electrical equipment."
+   "text": "Cooling removes the heat."
   },
   {
    "i": 8,
-   "start": 41.675,
-   "speechStart": 41.675,
-   "end": 44.4,
+   "start": 29.85,
+   "speechStart": 29.85,
+   "end": 32.3,
    "builds": 0,
-   "text": "Class D is combustible metals."
+   "text": "Smothering removes the oxygen."
+  },
+  {
+   "i": 9,
+   "start": 32.55,
+   "speechStart": 32.55,
+   "end": 35.025,
+   "builds": 0,
+   "text": "Shutting a valve removes the fuel."
+  },
+  {
+   "i": 10,
+   "start": 35.275,
+   "speechStart": 35.275,
+   "end": 38.2,
+   "builds": 0,
+   "text": "And dry chemical breaks the chain reaction."
+  },
+  {
+   "i": 11,
+   "start": 38.45,
+   "speechStart": 38.45,
+   "end": 42.25,
+   "builds": 0,
+   "text": "Fires are also sorted into classes by what’s burning."
+  },
+  {
+   "i": 12,
+   "start": 42.5,
+   "speechStart": 42.5,
+   "end": 47.375,
+   "builds": 0,
+   "text": "Class A is ordinary stuff that leaves ash: wood, cushions, line."
+  },
+  {
+   "i": 13,
+   "start": 47.625,
+   "speechStart": 47.625,
+   "end": 52.0,
+   "builds": 0,
+   "text": "Class B is flammable liquids that boil: gasoline and oil."
+  },
+  {
+   "i": 14,
+   "start": 52.25,
+   "speechStart": 52.25,
+   "end": 54.65,
+   "builds": 0,
+   "text": "That’s the most common boat fire."
+  },
+  {
+   "i": 15,
+   "start": 54.9,
+   "speechStart": 54.9,
+   "end": 59.2,
+   "builds": 0,
+   "text": "Class C is energized electrical equipment, think current."
+  },
+  {
+   "i": 16,
+   "start": 59.45,
+   "speechStart": 59.45,
+   "end": 62.475,
+   "builds": 0,
+   "text": "And Class D is combustible metals."
+  },
+  {
+   "i": 17,
+   "start": 62.725,
+   "speechStart": 62.725,
+   "end": 65.7,
+   "builds": 0,
+   "text": "A for ash, B for boil, C for current."
   }
  ]
 }

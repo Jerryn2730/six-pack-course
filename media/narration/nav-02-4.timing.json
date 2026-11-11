@@ -3,58 +3,106 @@
  "lessonId": "nav-02",
  "n": 4,
  "audio": "nav-02-4.mp3",
- "duration": 43.525,
+ "duration": 54.05,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 4.475,
+   "end": 4.4,
    "builds": 0,
-   "text": "Charts also show regulated areas, usually in magenta."
+   "text": "Charts also show where the rules change, usually in magenta."
   },
   {
    "i": 1,
-   "start": 4.725,
-   "speechStart": 4.725,
-   "end": 14.9,
-   "builds": 0,
-   "text": "Anchorage areas and special anchorage areas are outlined, and in a special anchorage area small vessels may anchor without anchor lights under Inland rules."
+   "start": 4.65,
+   "speechStart": 4.65,
+   "end": 6.95,
+   "builds": 1,
+   "text": "Anchorage areas are outlined."
   },
   {
    "i": 2,
-   "start": 15.15,
-   "speechStart": 15.15,
-   "end": 19.35,
+   "start": 7.2,
+   "speechStart": 7.2,
+   "end": 14.4,
    "builds": 0,
-   "text": "Cable and pipeline areas mean don’t anchor or drag gear."
+   "text": "In a special anchorage area, remember, small vessels can anchor without an anchor light under the Inland rules."
   },
   {
    "i": 3,
-   "start": 19.6,
-   "speechStart": 19.6,
-   "end": 27.4,
-   "builds": 0,
-   "text": "Restricted areas, danger zones and security zones each have rules explained in the chart notes and the Coast Pilot."
+   "start": 14.65,
+   "speechStart": 14.65,
+   "end": 16.875,
+   "builds": 1,
+   "text": "Cable and pipeline areas."
   },
   {
    "i": 4,
-   "start": 27.65,
-   "speechStart": 27.65,
-   "end": 32.2,
+   "start": 17.125,
+   "speechStart": 17.125,
+   "end": 18.8,
    "builds": 0,
-   "text": "Bridges show their type and their horizontal and vertical clearances."
+   "text": "What don’t you do there?"
   },
   {
    "i": 5,
-   "start": 32.45,
-   "speechStart": 32.45,
-   "end": 43.225,
+   "start": 19.05,
+   "speechStart": 19.8,
+   "end": 22.9,
    "builds": 0,
-   "text": "Conspicuous landmarks like water tanks, radio towers, stacks and spires are useful for bearings, and a small circle on the symbol marks the exact position."
+   "text": "Anchor, or drag any gear along the bottom."
+  },
+  {
+   "i": 6,
+   "start": 23.15,
+   "speechStart": 23.15,
+   "end": 31.5,
+   "builds": 1,
+   "text": "Restricted areas, danger zones and security zones each have their own rules, explained in the chart notes and the Coast Pilot."
+  },
+  {
+   "i": 7,
+   "start": 31.75,
+   "speechStart": 31.75,
+   "end": 39.15,
+   "builds": 1,
+   "text": "Bridges are shown with their type and two clearances: horizontal, the width between the piers, and vertical, the height."
+  },
+  {
+   "i": 8,
+   "start": 39.4,
+   "speechStart": 39.4,
+   "end": 43.05,
+   "builds": 1,
+   "text": "And landmarks: tanks, towers, stacks, spires."
+  },
+  {
+   "i": 9,
+   "start": 43.3,
+   "speechStart": 43.3,
+   "end": 45.875,
+   "builds": 0,
+   "text": "They’re there for you to take bearings on."
+  },
+  {
+   "i": 10,
+   "start": 46.125,
+   "speechStart": 46.125,
+   "end": 49.875,
+   "builds": 0,
+   "text": "A small circle with a dot marks the exact position."
+  },
+  {
+   "i": 11,
+   "start": 50.125,
+   "speechStart": 50.125,
+   "end": 53.75,
+   "builds": 0,
+   "text": "Capital letters mean the landmark is conspicuous."
   }
  ]
 }

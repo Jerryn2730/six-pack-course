@@ -1,21 +1,45 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:05.275
-Every line you draw gets a label, so you and an examiner can follow your work.
+00:00:00.150 --> 00:00:06.250
+A chart covered in unlabeled pencil lines is a puzzle, even to the person who drew it.
 
 2
-00:00:05.525 --> 00:00:12.375
-Write the course above the line, with a C, the three-digit direction, and T for true or M for magnetic.
+00:00:06.500 --> 00:00:10.850
+So navigators label everything, the same way every time.
 
 3
-00:00:12.625 --> 00:00:15.250
-Write the speed below the line with an S.
+00:00:11.100 --> 00:00:12.925
+Look at the diagram.
 
 4
-00:00:15.500 --> 00:00:26.575
-Mark each position along the track with its symbol, a circle for a fix and a half circle for a dead reckoning position, and write the time beside it, using the twenty-four hour clock.
+00:00:13.175 --> 00:00:19.475
+The course goes above the line: a C, then three digits, then T for true or M for magnetic.
 
 5
-00:00:26.825 --> 00:00:35.425
-Here, a boat leaves an eight hundred fix on course zero six eight true at twelve knots, with DR positions at nine and ten hundred.
+00:00:19.725 --> 00:00:22.575
+The speed goes below the line, with an S.
+
+6
+00:00:22.825 --> 00:00:30.050
+Each position along the track gets its symbol: a circle for a fix, a half circle for a dead reckoning position.
+
+7
+00:00:30.300 --> 00:00:34.300
+And beside each one, the time, on the twenty-four hour clock.
+
+8
+00:00:34.550 --> 00:00:43.700
+Here, a boat leaves her eight hundred fix on course zero six eight true, at twelve knots, with DR positions at nine hundred and ten hundred.
+
+9
+00:00:44.700 --> 00:00:48.125
+Why three digits, even for a course like sixty-eight?
+
+10
+00:00:48.375 --> 00:00:51.900
+So nobody ever wonders whether a digit is missing.
+
+11
+00:00:52.150 --> 00:00:55.750
+Zero six eight can’t be mistaken for anything else.

@@ -1,21 +1,57 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:06.450
-To find an estimated time of arrival, work out the running time and add it to your departure time.
+00:00:00.150 --> 00:00:05.550
+Now put the formula and the clock together to find an estimated time of arrival.
 
 2
-00:00:06.700 --> 00:00:19.100
-Departing at eight fifteen, running twenty-two miles at sixteen knots takes sixty times twenty-two, divided by sixteen, about eighty-two and a half minutes, or one hour twenty-three minutes.
+00:00:05.800 --> 00:00:07.675
+Follow it on screen.
 
 3
-00:00:19.350 --> 00:00:21.825
-Your ETA is nine thirty-eight.
+00:00:07.925 --> 00:00:09.975
+You leave at eight fifteen.
 
 4
-00:00:22.075 --> 00:00:26.075
-If your speed changes, recompute from your latest position.
+00:00:10.225 --> 00:00:13.800
+You have twenty-two miles to run, at sixteen knots.
 
 5
-00:00:26.325 --> 00:00:31.975
-And remember that current changes your speed over the ground, so a head current makes you late.
+00:00:14.050 --> 00:00:19.625
+Sixty times twenty-two, divided by sixteen, is eighty-two and a half minutes.
+
+6
+00:00:19.875 --> 00:00:22.575
+About one hour and twenty-three minutes.
+
+7
+00:00:22.825 --> 00:00:24.775
+Add it to eight fifteen.
+
+8
+00:00:25.025 --> 00:00:27.750
+Your arrival time is nine thirty-eight.
+
+9
+00:00:28.000 --> 00:00:32.200
+If your speed changes along the way, don’t patch the old answer.
+
+10
+00:00:32.450 --> 00:00:35.025
+Start again from your latest position.
+
+11
+00:00:35.275 --> 00:00:37.050
+And one caution.
+
+12
+00:00:37.300 --> 00:00:39.300
+Which speed gets you there?
+
+13
+00:00:40.300 --> 00:00:42.325
+Your speed over the ground.
+
+14
+00:00:42.575 --> 00:00:47.800
+A two-knot current on the nose makes you late, however fast you’re going through the water.

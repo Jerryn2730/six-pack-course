@@ -1,21 +1,57 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:10.050
-The Automatic Identification System, or AIS, broadcasts a vessel’s identity, position, course and speed over VHF data channels.
+00:00:00.150 --> 00:00:04.925
+AIS is the tool that lets you put a name to that ship on the horizon.
 
 2
-00:00:10.300 --> 00:00:18.675
-With an AIS receiver you can see a ship’s name and call her directly, and your plotter can calculate the closest point of approach.
+00:00:05.175 --> 00:00:11.550
+It stands for Automatic Identification System, and it broadcasts over VHF data channels.
 
 3
-00:00:18.925 --> 00:00:26.450
-Class A transponders are required on many commercial vessels, and Class B units are designed for smaller boats.
+00:00:11.800 --> 00:00:17.225
+Each vessel sends her name, her MMSI number, position, course and speed.
 
 4
-00:00:26.700 --> 00:00:32.225
-Many vessels carry no AIS at all, so it never replaces a proper lookout.
+00:00:17.475 --> 00:00:23.750
+With a receiver, you can call a ship by name, and your plotter can work out the closest point of approach.
 
 5
-00:00:32.475 --> 00:00:38.325
-And seeing a vessel on AIS doesn’t mean you’re in sight of her under the Navigation Rules.
+00:00:24.000 --> 00:00:28.675
+Class A units are the ones required on many commercial vessels.
+
+6
+00:00:28.925 --> 00:00:31.925
+Class B units are made for smaller boats.
+
+7
+00:00:32.175 --> 00:00:33.850
+Now the limits.
+
+8
+00:00:34.100 --> 00:00:37.075
+Does every boat out there show up on AIS?
+
+9
+00:00:38.075 --> 00:00:39.825
+Not even close.
+
+10
+00:00:40.075 --> 00:00:42.375
+Most small boats don’t carry it.
+
+11
+00:00:42.625 --> 00:00:45.075
+So it never replaces a lookout.
+
+12
+00:00:45.325 --> 00:00:47.650
+And the one for the Rules exam.
+
+13
+00:00:47.900 --> 00:00:51.875
+Seeing a vessel on AIS doesn’t put you in sight of her.
+
+14
+00:00:52.125 --> 00:00:54.375
+In sight still means your eyes.

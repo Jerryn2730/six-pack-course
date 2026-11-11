@@ -1,21 +1,53 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:03.875
-Most nautical charts use the Mercator projection.
+00:00:00.150 --> 00:00:04.925
+The earth is round and your chart is flat, so every chart cheats a little.
 
 2
-00:00:04.125 --> 00:00:14.200
-Its big advantage is that a straight line on the chart is a rhumb line, a line of constant direction, so you can lay a course with parallel rulers and steer it.
+00:00:05.175 --> 00:00:07.025
+The question is how.
 
 3
-00:00:14.450 --> 00:00:16.675
-The trade-off is distortion.
+00:00:07.275 --> 00:00:11.000
+Most nautical charts use the Mercator projection.
 
 4
-00:00:16.925 --> 00:00:27.925
-The latitude scale gets longer as you move away from the equator, so on a small-scale chart a nautical mile measured near the top is longer than one measured near the bottom.
+00:00:11.250 --> 00:00:18.200
+Its great gift is this: a straight line on the chart is a rhumb line, a line of one constant direction.
 
 5
-00:00:28.175 --> 00:00:34.450
-That’s why you always measure distance on the part of the latitude scale beside where you’re working.
+00:00:18.450 --> 00:00:21.775
+You draw a line, read its direction, and steer it.
+
+6
+00:00:22.025 --> 00:00:24.400
+That’s why navigators love it.
+
+7
+00:00:24.650 --> 00:00:26.500
+The price is stretch.
+
+8
+00:00:26.750 --> 00:00:32.550
+To keep directions true, the latitude scale gets longer as you move away from the equator.
+
+9
+00:00:32.800 --> 00:00:40.350
+So on a chart that covers a lot of latitude, a mile measured near the top is drawn longer than a mile near the bottom.
+
+10
+00:00:40.600 --> 00:00:42.450
+What do you do about that?
+
+11
+00:00:43.450 --> 00:00:48.825
+Measure distance on the part of the latitude scale that’s level with where you’re working.
+
+12
+00:00:49.075 --> 00:00:52.275
+Not at the top of the chart, and not at the bottom.
+
+13
+00:00:52.525 --> 00:00:54.500
+Right beside your line.

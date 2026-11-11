@@ -3,50 +3,162 @@
  "lessonId": "deck-10",
  "n": 5,
  "audio": "deck-10-5.mp3",
- "duration": 34.7,
+ "duration": 67.2,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 6.125,
+   "end": 2.575,
    "builds": 0,
-   "text": "After a collision, your first concern is people: check your passengers and crew for injuries."
+   "text": "And the worst one: a collision."
   },
   {
    "i": 1,
-   "start": 6.375,
-   "speechStart": 6.375,
-   "end": 9.675,
+   "start": 2.825,
+   "speechStart": 2.825,
+   "end": 5.825,
    "builds": 0,
-   "text": "Next, check your own boat for damage and flooding."
+   "text": "The order matters, so learn it as a list."
   },
   {
    "i": 2,
-   "start": 9.925,
-   "speechStart": 9.925,
-   "end": 25.125,
-   "builds": 0,
-   "text": "Federal law requires the operator of a vessel involved in a collision to render assistance to people affected, as far as possible without serious danger to their own vessel, and to give their name, address and vessel identification."
+   "start": 6.075,
+   "speechStart": 6.075,
+   "end": 7.775,
+   "builds": 1,
+   "text": "First, people."
   },
   {
    "i": 3,
-   "start": 25.375,
-   "speechStart": 25.375,
-   "end": 28.1,
+   "start": 8.025,
+   "speechStart": 8.025,
+   "end": 11.0,
    "builds": 0,
-   "text": "Never leave the scene without doing so."
+   "text": "Check your passengers and crew for injuries."
   },
   {
    "i": 4,
-   "start": 28.35,
-   "speechStart": 28.35,
-   "end": 34.4,
+   "start": 11.25,
+   "speechStart": 11.25,
+   "end": 12.975,
+   "builds": 1,
+   "text": "Second, your boat."
+  },
+  {
+   "i": 5,
+   "start": 13.225,
+   "speechStart": 13.225,
+   "end": 15.4,
    "builds": 0,
-   "text": "Then report the collision as required, to the Coast Guard for a commercial marine casualty."
+   "text": "Check for damage and flooding."
+  },
+  {
+   "i": 6,
+   "start": 15.65,
+   "speechStart": 15.65,
+   "end": 17.625,
+   "builds": 1,
+   "text": "Third, the other vessel."
+  },
+  {
+   "i": 7,
+   "start": 17.875,
+   "speechStart": 17.875,
+   "end": 26.25,
+   "builds": 0,
+   "text": "Federal law requires you to render assistance to the people affected, as far as you can without serious danger to your own vessel."
+  },
+  {
+   "i": 8,
+   "start": 26.5,
+   "speechStart": 26.5,
+   "end": 32.225,
+   "builds": 1,
+   "text": "Fourth, exchange information: names, addresses, and vessel identification."
+  },
+  {
+   "i": 9,
+   "start": 32.475,
+   "speechStart": 32.475,
+   "end": 35.175,
+   "builds": 0,
+   "text": "Never leave the scene without doing that."
+  },
+  {
+   "i": 10,
+   "start": 35.425,
+   "speechStart": 35.425,
+   "end": 38.15,
+   "builds": 1,
+   "text": "And fifth, report it as required."
+  },
+  {
+   "i": 11,
+   "start": 38.4,
+   "speechStart": 38.4,
+   "end": 42.825,
+   "builds": 0,
+   "text": "For you, that’s the Coast Guard, as a commercial marine casualty."
+  },
+  {
+   "i": 12,
+   "start": 43.075,
+   "speechStart": 43.825,
+   "end": 45.75,
+   "builds": 0,
+   "text": "That’s lesson ten."
+  },
+  {
+   "i": 13,
+   "start": 46.0,
+   "speechStart": 46.0,
+   "end": 47.875,
+   "builds": 0,
+   "text": "When in doubt, don’t go."
+  },
+  {
+   "i": 14,
+   "start": 48.125,
+   "speechStart": 48.125,
+   "end": 51.925,
+   "builds": 0,
+   "text": "Ebb against an onshore wind is the dangerous inlet."
+  },
+  {
+   "i": 15,
+   "start": 52.175,
+   "speechStart": 52.175,
+   "end": 54.775,
+   "builds": 0,
+   "text": "Tow with a bridle and a long line."
+  },
+  {
+   "i": 16,
+   "start": 55.025,
+   "speechStart": 55.025,
+   "end": 58.0,
+   "builds": 0,
+   "text": "Aground: check for leaks before you move."
+  },
+  {
+   "i": 17,
+   "start": 58.25,
+   "speechStart": 58.25,
+   "end": 60.95,
+   "builds": 0,
+   "text": "And after a collision, people first."
+  },
+  {
+   "i": 18,
+   "start": 61.2,
+   "speechStart": 61.2,
+   "end": 66.9,
+   "builds": 0,
+   "text": "Next time: the emergency you practice for and hope never to have, man overboard."
   }
  ]
 }

@@ -1,25 +1,61 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:03.100
-Fixes don’t have to come from two bearings.
+00:00:00.150 --> 00:00:03.300
+Two bearings aren’t the only way to get a fix.
 
 2
-00:00:03.350 --> 00:00:10.850
-A bearing and a radar range on the same object make an excellent fix, because the two lines cross at right angles.
+00:00:03.550 --> 00:00:08.250
+A bearing and a radar range on the same object make an excellent one.
 
 3
-00:00:11.100 --> 00:00:15.775
-Radar ranges to two separate objects give two circles that cross.
+00:00:08.500 --> 00:00:13.575
+The line and the circle cross at a right angle, and you only need one landmark.
 
 4
-00:00:16.025 --> 00:00:20.075
-A range line plus a bearing on another object works well.
+00:00:13.825 --> 00:00:18.650
+Radar ranges to two different objects give two circles, and they cross.
 
 5
-00:00:20.325 --> 00:00:25.075
-An electronic fix from GPS is marked with a small triangle.
+00:00:18.900 --> 00:00:23.150
+A range line, plus a bearing on something else, works very well.
 
 6
-00:00:25.325 --> 00:00:31.750
-Whatever the method, cross-check every fix against another source, like the depth, before you trust it.
+00:00:23.400 --> 00:00:29.100
+A GPS fix is marked with a small triangle, so you can tell it from a visual fix.
+
+7
+00:00:29.350 --> 00:00:33.575
+And whatever method you use, cross-check it against another source.
+
+8
+00:00:33.825 --> 00:00:36.100
+What’s the easiest check you have?
+
+9
+00:00:37.100 --> 00:00:38.825
+The depth sounder.
+
+10
+00:00:39.075 --> 00:00:43.800
+If the fix says twenty feet and the sounder says six, believe the sounder.
+
+11
+00:00:44.050 --> 00:00:45.950
+That’s lesson six.
+
+12
+00:00:46.200 --> 00:00:48.700
+Draw bearings back from the object.
+
+13
+00:00:48.950 --> 00:00:51.350
+Cross them near ninety degrees.
+
+14
+00:00:51.600 --> 00:00:53.975
+A big cocked hat means a mistake.
+
+15
+00:00:54.225 --> 00:00:56.525
+Next time: dead reckoning.

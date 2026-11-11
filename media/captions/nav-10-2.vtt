@@ -1,17 +1,77 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:12.425
-A relative bearing is measured clockwise from the bow: zero zero zero dead ahead, zero nine zero on the starboard beam, one eight zero astern, and two seven zero on the port beam.
+00:00:00.150 --> 00:00:03.550
+A relative bearing ignores north altogether.
 
 2
-00:00:12.675 --> 00:00:22.575
-To convert a relative bearing to a true bearing, add it to your true heading, and subtract three hundred sixty if the total goes over three hundred sixty.
+00:00:03.800 --> 00:00:06.050
+It’s measured from your own bow.
 
 3
-00:00:22.825 --> 00:00:31.100
-For example, with a true heading of three hundred, an object bearing zero nine zero relative is at zero three zero true.
+00:00:06.300 --> 00:00:08.125
+Look at the diagram.
 
 4
-00:00:31.350 --> 00:00:37.900
-Lookouts often report this way: broad on the starboard bow means about forty-five degrees relative.
+00:00:08.375 --> 00:00:10.900
+Zero zero zero is dead ahead.
+
+5
+00:00:11.150 --> 00:00:14.425
+Zero nine zero is on your starboard beam.
+
+6
+00:00:14.675 --> 00:00:17.075
+One eight zero is dead astern.
+
+7
+00:00:17.325 --> 00:00:20.300
+Two seven zero is on your port beam.
+
+8
+00:00:20.550 --> 00:00:23.325
+It always runs clockwise from the bow.
+
+9
+00:00:23.575 --> 00:00:28.200
+To turn a relative bearing into a true bearing, add it to your true heading.
+
+10
+00:00:28.450 --> 00:00:33.475
+If the total goes over three hundred sixty, subtract three hundred sixty.
+
+11
+00:00:33.725 --> 00:00:35.250
+Try one.
+
+12
+00:00:35.500 --> 00:00:37.900
+Your true heading is three hundred.
+
+13
+00:00:38.150 --> 00:00:41.050
+A buoy bears zero nine zero relative.
+
+14
+00:00:41.300 --> 00:00:43.150
+What’s its true bearing?
+
+15
+00:00:44.150 --> 00:00:47.200
+Three hundred plus ninety is three ninety.
+
+16
+00:00:47.450 --> 00:00:49.475
+Take away three sixty.
+
+17
+00:00:49.725 --> 00:00:51.900
+Zero three zero true.
+
+18
+00:00:52.150 --> 00:00:54.825
+Lookouts report this way all the time.
+
+19
+00:00:55.075 --> 00:00:59.500
+Broad on the starboard bow means about forty-five degrees relative.

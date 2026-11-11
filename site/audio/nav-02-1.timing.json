@@ -3,58 +3,122 @@
  "lessonId": "nav-02",
  "n": 1,
  "audio": "nav-02-1.mp3",
- "duration": 41.475,
+ "duration": 56.45,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 12.3,
+   "end": 2.9,
    "builds": 0,
-   "text": "Chart Number One, published by NOAA and the National Geospatial-Intelligence Agency, explains every symbol and abbreviation on nautical charts, and the exam draws on it."
+   "text": "A chart is a picture written in code."
   },
   {
    "i": 1,
-   "start": 12.55,
-   "speechStart": 12.55,
-   "end": 14.2,
+   "start": 3.15,
+   "speechStart": 3.15,
+   "end": 5.125,
    "builds": 0,
-   "text": "Start with color."
+   "text": "Today we learn the code."
   },
   {
    "i": 2,
-   "start": 14.45,
-   "speechStart": 14.45,
-   "end": 16.625,
+   "start": 5.375,
+   "speechStart": 5.375,
+   "end": 14.275,
    "builds": 0,
-   "text": "Land is buff or tan."
+   "text": "The key to all of it is a booklet called Chart Number One, which explains every symbol and abbreviation, and the exam draws straight from it."
   },
   {
    "i": 3,
-   "start": 16.875,
-   "speechStart": 16.875,
-   "end": 24.375,
+   "start": 14.525,
+   "speechStart": 14.525,
+   "end": 18.45,
    "builds": 0,
-   "text": "Green marks areas that cover and uncover with the tide, like mud flats and oyster bars that dry at low water."
+   "text": "Start with color, because color tells you the most at a glance."
   },
   {
    "i": 4,
-   "start": 24.625,
-   "speechStart": 24.625,
-   "end": 31.5,
-   "builds": 0,
-   "text": "Blue tints show shallower water, usually inside a chosen depth contour, and white shows deeper water."
+   "start": 18.7,
+   "speechStart": 18.7,
+   "end": 20.75,
+   "builds": 1,
+   "text": "Buff or tan is land."
   },
   {
    "i": 5,
-   "start": 31.75,
-   "speechStart": 31.75,
-   "end": 41.175,
+   "start": 21.0,
+   "speechStart": 21.0,
+   "end": 28.575,
+   "builds": 1,
+   "text": "Green marks areas that cover and uncover with the tide: mud flats and oyster bars that are dry at low water."
+  },
+  {
+   "i": 6,
+   "start": 28.825,
+   "speechStart": 28.825,
+   "end": 30.825,
+   "builds": 1,
+   "text": "Blue is shallower water."
+  },
+  {
+   "i": 7,
+   "start": 31.075,
+   "speechStart": 31.075,
+   "end": 33.125,
+   "builds": 1,
+   "text": "White is deeper water."
+  },
+  {
+   "i": 8,
+   "start": 33.375,
+   "speechStart": 33.375,
+   "end": 35.775,
    "builds": 0,
-   "text": "Magenta is used for lights, aids to navigation, cables, and restricted or regulated areas, so it draws your eye to things that matter."
+   "text": "That one feels backward, doesn’t it?"
+  },
+  {
+   "i": 9,
+   "start": 36.025,
+   "speechStart": 36.025,
+   "end": 39.1,
+   "builds": 0,
+   "text": "On a chart, the blue is where you run aground."
+  },
+  {
+   "i": 10,
+   "start": 39.35,
+   "speechStart": 39.35,
+   "end": 46.775,
+   "builds": 1,
+   "text": "And magenta, that purplish red, is used for lights, aids to navigation, cables, and restricted areas."
+  },
+  {
+   "i": 11,
+   "start": 47.025,
+   "speechStart": 47.025,
+   "end": 48.725,
+   "builds": 0,
+   "text": "Why magenta?"
+  },
+  {
+   "i": 12,
+   "start": 48.975,
+   "speechStart": 49.725,
+   "end": 53.3,
+   "builds": 0,
+   "text": "It stands out, even under a red night-light at the helm."
+  },
+  {
+   "i": 13,
+   "start": 53.55,
+   "speechStart": 53.55,
+   "end": 56.15,
+   "builds": 0,
+   "text": "When you see it, something there matters."
   }
  ]
 }

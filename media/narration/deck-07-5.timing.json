@@ -3,50 +3,138 @@
  "lessonId": "deck-07",
  "n": 5,
  "audio": "deck-07-5.mp3",
- "duration": 36.125,
+ "duration": 61.75,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 4,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.8,
+   "end": 3.75,
    "builds": 0,
-   "text": "Wind and current change everything."
+   "text": "Wind and current decide which docking plan you use."
   },
   {
    "i": 1,
-   "start": 3.05,
-   "speechStart": 3.05,
-   "end": 10.125,
-   "builds": 0,
-   "text": "With the wind blowing onto the dock, stop parallel a few feet off and let the wind set you gently alongside."
+   "start": 4.0,
+   "speechStart": 4.0,
+   "end": 7.825,
+   "builds": 1,
+   "text": "If the wind is blowing onto the dock, it’s the easy one."
   },
   {
    "i": 2,
-   "start": 10.375,
-   "speechStart": 10.375,
-   "end": 18.875,
+   "start": 8.075,
+   "speechStart": 8.075,
+   "end": 13.15,
    "builds": 0,
-   "text": "With the wind blowing off the dock, approach at a steeper angle, get a bow line or spring line on quickly, and use it to pull the boat in."
+   "text": "Stop parallel, a few feet off, and let the wind set you gently alongside."
   },
   {
    "i": 3,
-   "start": 19.125,
-   "speechStart": 19.125,
-   "end": 27.725,
-   "builds": 0,
-   "text": "A current from ahead is easiest to dock against, while a current from astern pushes you faster than you think, so turn around if you can."
+   "start": 13.4,
+   "speechStart": 13.4,
+   "end": 21.625,
+   "builds": 1,
+   "text": "If the wind is blowing off the dock, come in at a steeper angle, get a bow line or a spring on quickly, and use it to work her in."
   },
   {
    "i": 4,
-   "start": 27.975,
-   "speechStart": 27.975,
-   "end": 35.825,
+   "start": 21.875,
+   "speechStart": 21.875,
+   "end": 24.85,
+   "builds": 1,
+   "text": "Current from ahead is the easiest of all."
+  },
+  {
+   "i": 5,
+   "start": 25.1,
+   "speechStart": 25.1,
+   "end": 30.175,
    "builds": 0,
-   "text": "To leave, motor gently ahead against a bow spring with the wheel turned toward the dock to swing the stern out, then back away."
+   "text": "Current from astern is the hard one, because it’s pushing you faster than you think."
+  },
+  {
+   "i": 6,
+   "start": 30.425,
+   "speechStart": 30.425,
+   "end": 32.425,
+   "builds": 0,
+   "text": "What should you do if you can?"
+  },
+  {
+   "i": 7,
+   "start": 32.675,
+   "speechStart": 33.425,
+   "end": 36.075,
+   "builds": 0,
+   "text": "Turn around, and come in against it."
+  },
+  {
+   "i": 8,
+   "start": 36.325,
+   "speechStart": 36.325,
+   "end": 37.9,
+   "builds": 1,
+   "text": "And leaving."
+  },
+  {
+   "i": 9,
+   "start": 38.15,
+   "speechStart": 38.15,
+   "end": 43.025,
+   "builds": 0,
+   "text": "Motor gently ahead against a bow spring with the wheel turned toward the dock."
+  },
+  {
+   "i": 10,
+   "start": 43.275,
+   "speechStart": 43.275,
+   "end": 46.525,
+   "builds": 0,
+   "text": "The stern swings out, and then you back away clear."
+  },
+  {
+   "i": 11,
+   "start": 46.775,
+   "speechStart": 46.775,
+   "end": 48.7,
+   "builds": 0,
+   "text": "That’s lesson seven."
+  },
+  {
+   "i": 12,
+   "start": 48.95,
+   "speechStart": 48.95,
+   "end": 52.7,
+   "builds": 0,
+   "text": "Prop walk: a right-hand prop walks to port in reverse."
+  },
+  {
+   "i": 13,
+   "start": 52.95,
+   "speechStart": 52.95,
+   "end": 54.9,
+   "builds": 0,
+   "text": "The stern swings wide."
+  },
+  {
+   "i": 14,
+   "start": 55.15,
+   "speechStart": 55.15,
+   "end": 58.525,
+   "builds": 0,
+   "text": "Slow, into the wind or current, lines ready."
+  },
+  {
+   "i": 15,
+   "start": 58.775,
+   "speechStart": 58.775,
+   "end": 61.45,
+   "builds": 0,
+   "text": "Next time: the lines themselves."
   }
  ]
 }

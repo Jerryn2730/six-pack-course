@@ -3,7 +3,7 @@
  "lessonId": "nav-04",
  "n": 1,
  "audio": "nav-04-1.mp3",
- "duration": 42.825,
+ "duration": 60.35,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -12,57 +12,113 @@
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 3.85,
+   "end": 3.8,
    "builds": 0,
-   "text": "Some marks don’t tell you which side of a channel to pass."
+   "text": "Not every mark is telling you which side to pass on."
   },
   {
    "i": 1,
-   "start": 4.1,
-   "speechStart": 4.1,
-   "end": 12.325,
+   "start": 4.05,
+   "speechStart": 4.05,
+   "end": 7.8,
    "builds": 0,
-   "text": "A safe water mark has red and white vertical stripes, often a red ball topmark, and a white light flashing Morse code A."
+   "text": "Some are saying something else, and you need to read those too."
   },
   {
    "i": 2,
-   "start": 12.575,
-   "speechStart": 12.575,
-   "end": 16.85,
+   "start": 8.05,
+   "speechStart": 8.05,
+   "end": 10.1,
    "builds": 0,
-   "text": "It means open water all around, often the start of a channel."
+   "text": "Look at the three on screen."
   },
   {
    "i": 3,
-   "start": 17.1,
-   "speechStart": 17.1,
-   "end": 25.225,
+   "start": 10.35,
+   "speechStart": 10.35,
+   "end": 19.875,
    "builds": 0,
-   "text": "An isolated danger mark is black with red bands, with two black balls on top and a white light flashing in groups of two."
+   "text": "The safe water mark has red and white vertical stripes, often a red ball on top, and a white light flashing Morse code A: short, long."
   },
   {
    "i": 4,
-   "start": 25.475,
-   "speechStart": 25.475,
-   "end": 30.1,
+   "start": 20.125,
+   "speechStart": 20.125,
+   "end": 22.925,
    "builds": 0,
-   "text": "It sits right on a small hazard with navigable water around it."
+   "text": "It means there’s good water all around it."
   },
   {
    "i": 5,
-   "start": 30.35,
-   "speechStart": 30.35,
-   "end": 36.4,
+   "start": 23.175,
+   "speechStart": 23.175,
+   "end": 26.6,
    "builds": 0,
-   "text": "A preferred channel mark has horizontal bands, and you treat it as the color of its top band."
+   "text": "You’ll often find one at the seaward end of a channel."
   },
   {
    "i": 6,
-   "start": 36.65,
-   "speechStart": 36.65,
-   "end": 42.525,
+   "start": 26.85,
+   "speechStart": 26.85,
+   "end": 30.05,
    "builds": 0,
-   "text": "Yellow special marks show anchorages, cable areas, spoil areas and similar features."
+   "text": "The isolated danger mark is the opposite."
+  },
+  {
+   "i": 7,
+   "start": 30.3,
+   "speechStart": 30.3,
+   "end": 36.8,
+   "builds": 0,
+   "text": "It’s black with red bands, with two black balls on top, and a white light flashing in groups of two."
+  },
+  {
+   "i": 8,
+   "start": 37.05,
+   "speechStart": 37.05,
+   "end": 41.6,
+   "builds": 0,
+   "text": "It sits right on top of a small hazard, with safe water around it."
+  },
+  {
+   "i": 9,
+   "start": 41.85,
+   "speechStart": 41.85,
+   "end": 44.075,
+   "builds": 0,
+   "text": "Two balls, two flashes."
+  },
+  {
+   "i": 10,
+   "start": 44.325,
+   "speechStart": 44.325,
+   "end": 50.25,
+   "builds": 0,
+   "text": "And the yellow special marks show things like anchorages, cable areas and spoil areas."
+  },
+  {
+   "i": 11,
+   "start": 50.5,
+   "speechStart": 51.25,
+   "end": 56.1,
+   "builds": 0,
+   "text": "One more: a preferred channel mark has horizontal red and green bands."
+  },
+  {
+   "i": 12,
+   "start": 56.35,
+   "speechStart": 56.35,
+   "end": 58.2,
+   "builds": 0,
+   "text": "Which color do you obey?"
+  },
+  {
+   "i": 13,
+   "start": 58.45,
+   "speechStart": 58.45,
+   "end": 60.05,
+   "builds": 0,
+   "text": "The top one."
   }
  ]
 }

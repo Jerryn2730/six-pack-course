@@ -3,50 +3,130 @@
  "lessonId": "deck-14",
  "n": 1,
  "audio": "deck-14-1.mp3",
- "duration": 35.475,
+ "duration": 56.9,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 10.05,
+   "end": 5.15,
    "builds": 0,
-   "text": "The Clean Water Act prohibits discharging oil or oily waste in any amount that causes a film or sheen on the water or sludge below the surface."
+   "text": "You make your living from clean water, and the law expects you to keep it that way."
   },
   {
    "i": 1,
-   "start": 10.3,
-   "speechStart": 10.3,
-   "end": 18.675,
+   "start": 5.4,
+   "speechStart": 5.4,
+   "end": 7.025,
    "builds": 0,
-   "text": "If a spill happens, report it right away to the National Response Center at one, eight hundred, four two four, eight eight zero two."
+   "text": "Start with oil."
   },
   {
    "i": 2,
-   "start": 18.925,
-   "speechStart": 18.925,
-   "end": 23.825,
-   "builds": 0,
-   "text": "Never use dish soap or chemical dispersants to make a sheen disappear."
+   "start": 7.275,
+   "speechStart": 7.275,
+   "end": 16.4,
+   "builds": 1,
+   "text": "The Clean Water Act prohibits discharging oil or oily waste in any amount that causes a film or sheen on the water, or sludge beneath it."
   },
   {
    "i": 3,
-   "start": 24.075,
-   "speechStart": 24.075,
-   "end": 27.775,
+   "start": 16.65,
+   "speechStart": 16.65,
+   "end": 18.225,
    "builds": 0,
-   "text": "That just sinks the oil, and it’s a violation itself."
+   "text": "Any sheen."
   },
   {
    "i": 4,
-   "start": 28.025,
-   "speechStart": 28.025,
-   "end": 35.175,
+   "start": 18.475,
+   "speechStart": 18.475,
+   "end": 20.175,
    "builds": 0,
-   "text": "Carry absorbent pads to soak up spills and oil in the bilge, and never pump oily bilge water overboard."
+   "text": "That’s the test."
+  },
+  {
+   "i": 5,
+   "start": 20.425,
+   "speechStart": 20.425,
+   "end": 25.2,
+   "builds": 1,
+   "text": "If a spill happens, report it right away to the National Response Center."
+  },
+  {
+   "i": 6,
+   "start": 25.45,
+   "speechStart": 25.45,
+   "end": 29.825,
+   "builds": 1,
+   "text": "The number is one, eight hundred, four two four, eight eight zero two."
+  },
+  {
+   "i": 7,
+   "start": 30.075,
+   "speechStart": 30.075,
+   "end": 32.225,
+   "builds": 1,
+   "text": "Now the mistake people make."
+  },
+  {
+   "i": 8,
+   "start": 32.475,
+   "speechStart": 32.475,
+   "end": 37.85,
+   "builds": 0,
+   "text": "You see a rainbow sheen behind the boat, and there’s a bottle of dish soap in the galley."
+  },
+  {
+   "i": 9,
+   "start": 38.1,
+   "speechStart": 38.1,
+   "end": 39.8,
+   "builds": 0,
+   "text": "Do you squirt it on?"
+  },
+  {
+   "i": 10,
+   "start": 40.05,
+   "speechStart": 40.8,
+   "end": 42.2,
+   "builds": 0,
+   "text": "Never."
+  },
+  {
+   "i": 11,
+   "start": 42.45,
+   "speechStart": 42.45,
+   "end": 44.65,
+   "builds": 0,
+   "text": "Soap doesn’t remove the oil."
+  },
+  {
+   "i": 12,
+   "start": 44.9,
+   "speechStart": 44.9,
+   "end": 46.475,
+   "builds": 0,
+   "text": "It sinks it."
+  },
+  {
+   "i": 13,
+   "start": 46.725,
+   "speechStart": 46.725,
+   "end": 49.825,
+   "builds": 0,
+   "text": "And doing that is a violation in its own right."
+  },
+  {
+   "i": 14,
+   "start": 50.075,
+   "speechStart": 50.075,
+   "end": 56.6,
+   "builds": 1,
+   "text": "So carry absorbent pads for spills and for the bilge, and never pump oily bilge water overboard."
   }
  ]
 }

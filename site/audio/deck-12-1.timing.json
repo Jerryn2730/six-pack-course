@@ -3,58 +3,146 @@
  "lessonId": "deck-12",
  "n": 1,
  "audio": "deck-12-1.mp3",
- "duration": 40.75,
+ "duration": 65.725,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.7,
+   "end": 8.75,
+   "builds": 0,
+   "text": "When things go wrong offshore, the radio is the most important tool on the boat, and most people have never practiced using it for real."
+  },
+  {
+   "i": 1,
+   "start": 9.0,
+   "speechStart": 9.0,
+   "end": 11.55,
    "builds": 0,
    "text": "There are three levels of urgent call."
   },
   {
-   "i": 1,
-   "start": 2.95,
-   "speechStart": 2.95,
-   "end": 10.2,
-   "builds": 0,
-   "text": "Mayday means grave and imminent danger to life or the vessel, such as sinking, fire or a man overboard."
-  },
-  {
    "i": 2,
-   "start": 10.45,
-   "speechStart": 10.45,
-   "end": 18.35,
+   "start": 11.8,
+   "speechStart": 11.8,
+   "end": 18.65,
    "builds": 0,
-   "text": "Pan-pan means an urgent situation without immediate danger to life, like a disabled engine drifting offshore."
+   "text": "Mayday means grave and imminent danger to life or to the vessel: sinking, fire, a man overboard."
   },
   {
    "i": 3,
-   "start": 18.6,
-   "speechStart": 18.6,
-   "end": 23.25,
+   "start": 18.9,
+   "speechStart": 18.9,
+   "end": 23.65,
    "builds": 0,
-   "text": "Securité is a safety message, such as a navigation hazard."
+   "text": "Pan-pan means it’s urgent, but nobody’s life is in immediate danger."
   },
   {
    "i": 4,
-   "start": 23.5,
-   "speechStart": 23.5,
-   "end": 37.825,
+   "start": 23.9,
+   "speechStart": 23.9,
+   "end": 26.55,
    "builds": 0,
-   "text": "A Mayday is sent on VHF channel sixteen, following the script on screen: Mayday three times, your boat’s name three times, your position, the problem, the help you need, the number aboard and a description of the boat."
+   "text": "A dead engine, drifting offshore."
   },
   {
    "i": 5,
-   "start": 38.075,
-   "speechStart": 38.075,
-   "end": 40.45,
+   "start": 26.8,
+   "speechStart": 26.8,
+   "end": 31.625,
    "builds": 0,
-   "text": "Then release the button and listen."
+   "text": "And securité is a safety message, like a hazard to navigation."
+  },
+  {
+   "i": 6,
+   "start": 31.875,
+   "speechStart": 31.875,
+   "end": 33.8,
+   "builds": 0,
+   "text": "Now the Mayday itself."
+  },
+  {
+   "i": 7,
+   "start": 34.05,
+   "speechStart": 34.05,
+   "end": 36.2,
+   "builds": 0,
+   "text": "Follow the script on screen."
+  },
+  {
+   "i": 8,
+   "start": 36.45,
+   "speechStart": 36.45,
+   "end": 38.275,
+   "builds": 1,
+   "text": "Channel sixteen."
+  },
+  {
+   "i": 9,
+   "start": 38.525,
+   "speechStart": 38.525,
+   "end": 41.325,
+   "builds": 0,
+   "text": "Or press the red DSC button first."
+  },
+  {
+   "i": 10,
+   "start": 41.575,
+   "speechStart": 41.575,
+   "end": 43.85,
+   "builds": 1,
+   "text": "Say Mayday, three times."
+  },
+  {
+   "i": 11,
+   "start": 44.1,
+   "speechStart": 44.1,
+   "end": 47.525,
+   "builds": 1,
+   "text": "Then, this is, and your boat’s name, three times."
+  },
+  {
+   "i": 12,
+   "start": 47.775,
+   "speechStart": 47.775,
+   "end": 51.125,
+   "builds": 1,
+   "text": "Your position, what’s wrong, and what help you need."
+  },
+  {
+   "i": 13,
+   "start": 51.375,
+   "speechStart": 51.375,
+   "end": 53.375,
+   "builds": 0,
+   "text": "Why position first?"
+  },
+  {
+   "i": 14,
+   "start": 53.625,
+   "speechStart": 54.375,
+   "end": 58.5,
+   "builds": 0,
+   "text": "If the radio dies ten seconds in, they still know where to look."
+  },
+  {
+   "i": 15,
+   "start": 58.75,
+   "speechStart": 58.75,
+   "end": 62.625,
+   "builds": 1,
+   "text": "Then how many people are aboard, and a description of the boat."
+  },
+  {
+   "i": 16,
+   "start": 62.875,
+   "speechStart": 62.875,
+   "end": 65.425,
+   "builds": 0,
+   "text": "And then stop talking, and listen."
   }
  ]
 }

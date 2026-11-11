@@ -3,58 +3,106 @@
  "lessonId": "nav-12",
  "n": 3,
  "audio": "nav-12-3.mp3",
- "duration": 40.8,
+ "duration": 49.95,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.075,
+   "end": 2.875,
    "builds": 0,
-   "text": "Know radar’s limits."
+   "text": "Radar feels like it sees everything."
   },
   {
    "i": 1,
-   "start": 2.325,
-   "speechStart": 2.325,
-   "end": 9.35,
+   "start": 3.125,
+   "speechStart": 3.125,
+   "end": 6.75,
    "builds": 0,
-   "text": "The radar horizon is only a little farther than the visual horizon, so a low target beyond it won’t show."
+   "text": "It doesn’t, and each blind spot has put a boat ashore."
   },
   {
    "i": 2,
-   "start": 9.6,
-   "speechStart": 9.6,
-   "end": 20.175,
-   "builds": 0,
-   "text": "A low sandy beach may give little return, and the first strong echo may come from higher land or buildings well inland, which can make you think you’re farther off than you are."
+   "start": 7.0,
+   "speechStart": 7.0,
+   "end": 11.325,
+   "builds": 1,
+   "text": "The radar horizon is only a little beyond the visual horizon."
   },
   {
    "i": 3,
-   "start": 20.425,
-   "speechStart": 20.425,
-   "end": 28.15,
+   "start": 11.575,
+   "speechStart": 11.575,
+   "end": 13.95,
    "builds": 0,
-   "text": "Small fiberglass, wooden or rubber boats return weak echoes, which is why a radar reflector is worth carrying."
+   "text": "A low target past it won’t show."
   },
   {
    "i": 4,
-   "start": 28.4,
-   "speechStart": 28.4,
-   "end": 32.9,
-   "builds": 0,
-   "text": "Large ships and islands cast shadows that hide targets behind them."
+   "start": 14.2,
+   "speechStart": 14.2,
+   "end": 17.625,
+   "builds": 1,
+   "text": "A low, sandy beach may barely return an echo."
   },
   {
    "i": 5,
-   "start": 33.15,
-   "speechStart": 33.15,
-   "end": 40.5,
+   "start": 17.875,
+   "speechStart": 17.875,
+   "end": 21.525,
    "builds": 0,
-   "text": "And radar can show false echoes, such as side-lobe echoes or multiple echoes between you and a nearby ship."
+   "text": "So what’s the first strong echo you see as you close the coast?"
+  },
+  {
+   "i": 6,
+   "start": 21.775,
+   "speechStart": 22.525,
+   "end": 26.3,
+   "builds": 0,
+   "text": "It may be the condos, or higher ground well inland."
+  },
+  {
+   "i": 7,
+   "start": 26.55,
+   "speechStart": 26.55,
+   "end": 29.325,
+   "builds": 0,
+   "text": "You think you’re two miles off, and you’re one."
+  },
+  {
+   "i": 8,
+   "start": 29.575,
+   "speechStart": 29.575,
+   "end": 33.875,
+   "builds": 1,
+   "text": "Small fiberglass, wooden and rubber boats return weak echoes."
+  },
+  {
+   "i": 9,
+   "start": 34.125,
+   "speechStart": 34.125,
+   "end": 37.325,
+   "builds": 0,
+   "text": "That’s why a radar reflector is worth having."
+  },
+  {
+   "i": 10,
+   "start": 37.575,
+   "speechStart": 37.575,
+   "end": 42.225,
+   "builds": 1,
+   "text": "Big ships and islands cast shadows, and hide whatever’s behind them."
+  },
+  {
+   "i": 11,
+   "start": 42.475,
+   "speechStart": 42.475,
+   "end": 49.65,
+   "builds": 1,
+   "text": "And radar shows false echoes: side lobes, and multiple echoes bouncing between you and a nearby ship."
   }
  ]
 }

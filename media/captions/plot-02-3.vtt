@@ -1,21 +1,57 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:02.425
-Each degree has sixty minutes.
+00:00:00.150 --> 00:00:04.575
+A word on the numbers themselves, because the format trips people up.
 
 2
-00:00:02.675 --> 00:00:15.525
-The training chart’s scales divide each minute into tenths, so positions are written in degrees, minutes and tenths of a minute: forty-one degrees, eighteen point five minutes means eighteen and a half minutes.
+00:00:04.825 --> 00:00:07.150
+One degree is sixty minutes.
 
 3
-00:00:15.775 --> 00:00:20.675
-Don’t confuse that with eighteen minutes, fifty seconds, an older format.
+00:00:07.400 --> 00:00:09.050
+Not a hundred.
 
 4
-00:00:20.925 --> 00:00:27.200
-Count the small tick marks carefully, since scales at different latitudes may be divided differently.
+00:00:09.300 --> 00:00:13.250
+The training chart’s scales divide each minute into tenths.
 
 5
-00:00:27.450 --> 00:00:33.250
-Always write latitude first, with north or south, then longitude, with east or west.
+00:00:13.500 --> 00:00:17.875
+So a position reads in degrees, minutes, and tenths of a minute.
+
+6
+00:00:18.125 --> 00:00:23.100
+Forty-one degrees, eighteen point five minutes means eighteen and a half minutes.
+
+7
+00:00:23.350 --> 00:00:27.575
+Don’t confuse that with the older format of minutes and seconds.
+
+8
+00:00:27.825 --> 00:00:32.200
+Eighteen point five minutes is eighteen minutes and how many seconds?
+
+9
+00:00:33.200 --> 00:00:34.625
+Thirty.
+
+10
+00:00:34.875 --> 00:00:36.425
+Half a minute.
+
+11
+00:00:36.675 --> 00:00:38.350
+Not fifty.
+
+12
+00:00:38.600 --> 00:00:41.450
+Count the small tick marks carefully, too.
+
+13
+00:00:41.700 --> 00:00:46.025
+The scale isn’t always divided the same way all over the chart.
+
+14
+00:00:46.275 --> 00:00:52.225
+And always write latitude first, with north or south, then longitude, with east or west.

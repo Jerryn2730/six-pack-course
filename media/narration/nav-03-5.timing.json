@@ -3,66 +3,154 @@
  "lessonId": "nav-03",
  "n": 5,
  "audio": "nav-03-5.mp3",
- "duration": 38.85,
+ "duration": 64.575,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 2.725,
+   "end": 3.75,
    "builds": 0,
-   "text": "Buoys are anchored floating objects."
+   "text": "After all that, a warning from the Coast Guard itself."
   },
   {
    "i": 1,
-   "start": 2.975,
-   "speechStart": 2.975,
-   "end": 9.0,
+   "start": 4.0,
+   "speechStart": 4.0,
+   "end": 6.25,
    "builds": 0,
-   "text": "They can drag off station in storms, be struck by vessels, sink, or have their lights fail."
+   "text": "Don’t trust buoys blindly."
   },
   {
    "i": 2,
-   "start": 9.25,
-   "speechStart": 9.25,
-   "end": 14.475,
-   "builds": 0,
-   "text": "The Light List warns mariners not to rely on buoys alone for position."
+   "start": 6.5,
+   "speechStart": 6.5,
+   "end": 9.35,
+   "builds": 1,
+   "text": "A buoy is a floating object on a chain."
   },
   {
    "i": 3,
-   "start": 14.725,
-   "speechStart": 14.725,
-   "end": 20.0,
+   "start": 9.6,
+   "speechStart": 9.6,
+   "end": 14.075,
    "builds": 0,
-   "text": "Use them as a guide, and cross-check with charted features, depths and GPS."
+   "text": "It can drag in a storm, get hit by a barge, capsize, or sink."
   },
   {
    "i": 4,
-   "start": 20.25,
-   "speechStart": 20.25,
-   "end": 25.15,
-   "builds": 0,
-   "text": "If you find an aid off station or not working, report it to the Coast Guard."
+   "start": 14.325,
+   "speechStart": 14.325,
+   "end": 16.725,
+   "builds": 1,
+   "text": "Lights fail, and colors fade."
   },
   {
    "i": 5,
-   "start": 25.4,
-   "speechStart": 25.4,
-   "end": 31.875,
-   "builds": 0,
-   "text": "Private aids to navigation, called PATONs, are placed by private owners like marinas."
+   "start": 16.975,
+   "speechStart": 16.975,
+   "end": 21.0,
+   "builds": 1,
+   "text": "So use buoys as a guide, never as a fixed position."
   },
   {
    "i": 6,
-   "start": 32.125,
-   "speechStart": 32.125,
-   "end": 38.55,
+   "start": 21.25,
+   "speechStart": 21.25,
+   "end": 23.225,
    "builds": 0,
-   "text": "They must follow the same color and shape rules, but they may not be maintained to Coast Guard standards."
+   "text": "What do you check them against?"
+  },
+  {
+   "i": 7,
+   "start": 23.475,
+   "speechStart": 24.225,
+   "end": 27.45,
+   "builds": 0,
+   "text": "The chart, the depth sounder, and your GPS."
+  },
+  {
+   "i": 8,
+   "start": 27.7,
+   "speechStart": 27.7,
+   "end": 31.725,
+   "builds": 0,
+   "text": "If the buoy and the chart disagree, believe the water depth."
+  },
+  {
+   "i": 9,
+   "start": 31.975,
+   "speechStart": 31.975,
+   "end": 36.875,
+   "builds": 1,
+   "text": "If you find an aid off station or not working, report it to the Coast Guard."
+  },
+  {
+   "i": 10,
+   "start": 37.125,
+   "speechStart": 37.125,
+   "end": 43.25,
+   "builds": 1,
+   "text": "And know about private aids, called PATONs, put out by marinas and property owners."
+  },
+  {
+   "i": 11,
+   "start": 43.5,
+   "speechStart": 43.5,
+   "end": 49.125,
+   "builds": 0,
+   "text": "They follow the same colors and shapes, but they may not be maintained to the same standard."
+  },
+  {
+   "i": 12,
+   "start": 49.375,
+   "speechStart": 49.375,
+   "end": 51.3,
+   "builds": 0,
+   "text": "That’s lesson three."
+  },
+  {
+   "i": 13,
+   "start": 51.55,
+   "speechStart": 51.55,
+   "end": 53.65,
+   "builds": 0,
+   "text": "Red, right, returning."
+  },
+  {
+   "i": 14,
+   "start": 53.9,
+   "speechStart": 53.9,
+   "end": 56.0,
+   "builds": 0,
+   "text": "Nuns even, cans odd."
+  },
+  {
+   "i": 15,
+   "start": 56.25,
+   "speechStart": 56.25,
+   "end": 58.075,
+   "builds": 0,
+   "text": "Follow the rear mark."
+  },
+  {
+   "i": 16,
+   "start": 58.325,
+   "speechStart": 58.325,
+   "end": 60.8,
+   "builds": 0,
+   "text": "And trust the water, not the buoy."
+  },
+  {
+   "i": 17,
+   "start": 61.05,
+   "speechStart": 61.05,
+   "end": 64.275,
+   "builds": 0,
+   "text": "Next time: the marks that aren’t red or green."
   }
  ]
 }

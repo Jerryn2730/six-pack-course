@@ -1,29 +1,49 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:05.050
-Current sailing means finding a course to steer that cancels a known current.
+00:00:00.150 --> 00:00:05.975
+If a current is pushing you sideways and you point straight at your destination, you’ll miss it.
 
 2
-00:00:05.300 --> 00:00:09.525
-Draw your intended track from your position to your destination.
+00:00:06.225 --> 00:00:09.650
+So you aim off, upstream, by just the right amount.
 
 3
-00:00:09.775 --> 00:00:15.050
-From your starting point, draw the current vector, its set and its drift for one hour.
+00:00:09.900 --> 00:00:12.800
+Finding that amount is called current sailing.
 
 4
-00:00:15.300 --> 00:00:22.600
-Then, from the end of the current vector, swing an arc equal to your boat speed until it crosses the intended track.
+00:00:13.050 --> 00:00:16.200
+Look at the diagram, and follow the three steps.
 
 5
-00:00:22.850 --> 00:00:28.400
-The line from the end of the current vector to that crossing point is your course to steer.
+00:00:16.450 --> 00:00:20.950
+First, draw your intended track, from where you are to where you want to go.
 
 6
-00:00:28.650 --> 00:00:33.850
-The distance from your start to the crossing point along the track is your speed made good.
+00:00:21.200 --> 00:00:26.775
+Second, from your starting point, draw the current: its set, and its drift for one hour.
 
 7
-00:00:34.100 --> 00:00:36.850
-You’ll practice this in the plotting module.
+00:00:27.025 --> 00:00:34.825
+Third, from the end of that current line, swing an arc equal to your boat speed for one hour, until it cuts your intended track.
+
+8
+00:00:35.825 --> 00:00:38.000
+Now read off two answers.
+
+9
+00:00:38.250 --> 00:00:43.325
+The line from the end of the current to that crossing point is your course to steer.
+
+10
+00:00:43.575 --> 00:00:49.400
+And the distance from your start to that crossing point, along the track, is your speed made good.
+
+11
+00:00:49.650 --> 00:00:51.900
+Current first, then your speed.
+
+12
+00:00:52.150 --> 00:00:55.150
+We’ll draw these for real in the plotting module.

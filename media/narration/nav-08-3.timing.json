@@ -3,50 +3,114 @@
  "lessonId": "nav-08",
  "n": 3,
  "audio": "nav-08-3.mp3",
- "duration": 39.7,
+ "duration": 62.475,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 5.025,
+   "end": 6.15,
    "builds": 0,
-   "text": "Florida captains deal with one of the strongest ocean currents in the world."
+   "text": "Florida has one of the strongest ocean currents in the world running right past the front door."
   },
   {
    "i": 1,
-   "start": 5.275,
-   "speechStart": 5.275,
-   "end": 17.35,
+   "start": 6.4,
+   "speechStart": 6.4,
+   "end": 7.975,
    "builds": 0,
-   "text": "The Florida Current, the beginning of the Gulf Stream, flows north along the east coast, often at two to four knots and sometimes more, and it comes closest to shore off Palm Beach County."
+   "text": "Look at the map."
   },
   {
    "i": 2,
-   "start": 17.6,
-   "speechStart": 17.6,
-   "end": 27.55,
-   "builds": 0,
-   "text": "When a strong north wind blows against the northbound Stream, seas become short, steep and dangerous, so experienced captains don’t cross in a norther."
+   "start": 8.225,
+   "speechStart": 8.225,
+   "end": 13.55,
+   "builds": 1,
+   "text": "The Florida Current, the start of the Gulf Stream, flows north along the east coast."
   },
   {
    "i": 3,
-   "start": 27.8,
-   "speechStart": 27.8,
-   "end": 31.325,
-   "builds": 0,
-   "text": "In the Gulf, the Loop Current feeds the Florida Current."
+   "start": 13.8,
+   "speechStart": 13.8,
+   "end": 20.5,
+   "builds": 1,
+   "text": "It often runs two to four knots, sometimes more, and it comes closest to shore off Palm Beach County."
   },
   {
    "i": 4,
-   "start": 31.575,
-   "speechStart": 31.575,
-   "end": 39.4,
+   "start": 20.75,
+   "speechStart": 20.75,
+   "end": 22.825,
    "builds": 0,
-   "text": "Closer in, a strong ebb running out of an inlet against an onshore wind can produce breaking seas right in the entrance."
+   "text": "Think about what that means."
+  },
+  {
+   "i": 5,
+   "start": 23.075,
+   "speechStart": 23.075,
+   "end": 29.75,
+   "builds": 0,
+   "text": "If your boat cruises at twenty knots, four knots of current is a fifth of your speed, for or against you."
+  },
+  {
+   "i": 6,
+   "start": 30.0,
+   "speechStart": 30.0,
+   "end": 31.975,
+   "builds": 1,
+   "text": "Now the dangerous part."
+  },
+  {
+   "i": 7,
+   "start": 32.225,
+   "speechStart": 32.225,
+   "end": 37.05,
+   "builds": 0,
+   "text": "What happens when a strong north wind blows against that northbound current?"
+  },
+  {
+   "i": 8,
+   "start": 37.3,
+   "speechStart": 38.05,
+   "end": 40.9,
+   "builds": 0,
+   "text": "The seas turn short, steep and ugly."
+  },
+  {
+   "i": 9,
+   "start": 41.15,
+   "speechStart": 41.15,
+   "end": 45.0,
+   "builds": 0,
+   "text": "Experienced captains don’t cross the Stream in a norther."
+  },
+  {
+   "i": 10,
+   "start": 45.25,
+   "speechStart": 45.25,
+   "end": 50.625,
+   "builds": 1,
+   "text": "On the Gulf side, the Loop Current comes up into the Gulf and feeds the Florida Current."
+  },
+  {
+   "i": 11,
+   "start": 50.875,
+   "speechStart": 50.875,
+   "end": 58.925,
+   "builds": 1,
+   "text": "And closer to home, a strong ebb pouring out of an inlet against an onshore wind makes breaking seas right in the entrance."
+  },
+  {
+   "i": 12,
+   "start": 59.175,
+   "speechStart": 59.175,
+   "end": 62.175,
+   "builds": 0,
+   "text": "Wind against current is trouble everywhere."
   }
  ]
 }

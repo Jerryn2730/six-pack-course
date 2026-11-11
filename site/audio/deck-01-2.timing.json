@@ -3,42 +3,130 @@
  "lessonId": "deck-01",
  "n": 2,
  "audio": "deck-01-2.mp3",
- "duration": 41.325,
+ "duration": 67.075,
  "voice": "af_heart",
  "speed": 0.97,
- "buildCount": 0,
+ "buildCount": 5,
  "sentences": [
   {
    "i": 0,
    "start": 0.15,
    "speechStart": 0.15,
-   "end": 10.075,
+   "end": 5.25,
    "builds": 0,
-   "text": "The key legal term is passenger for hire: a passenger for whom consideration is contributed as a condition of carriage, directly or indirectly."
+   "text": "Everything in this lesson turns on one legal phrase: passenger for hire."
   },
   {
    "i": 1,
-   "start": 10.325,
-   "speechStart": 10.325,
-   "end": 16.625,
+   "start": 5.5,
+   "speechStart": 5.5,
+   "end": 8.825,
    "builds": 0,
-   "text": "Consideration means money or any other economic benefit, inducement, right or profit."
+   "text": "Get it wrong and you’re running an illegal charter."
   },
   {
    "i": 2,
-   "start": 16.875,
-   "speechStart": 16.875,
-   "end": 25.025,
-   "builds": 0,
-   "text": "Federal law specifically excludes the voluntary sharing of a trip’s actual expenses, like friends splitting fuel and bait."
+   "start": 9.075,
+   "speechStart": 9.075,
+   "end": 16.075,
+   "builds": 1,
+   "text": "A passenger for hire is a passenger for whom consideration is contributed as a condition of carriage."
   },
   {
    "i": 3,
-   "start": 25.275,
-   "speechStart": 25.275,
-   "end": 41.025,
+   "start": 16.325,
+   "speechStart": 16.325,
+   "end": 22.925,
+   "builds": 1,
+   "text": "Consideration means money, or any other economic benefit, given directly or indirectly."
+  },
+  {
+   "i": 4,
+   "start": 23.175,
+   "speechStart": 23.175,
+   "end": 29.025,
+   "builds": 1,
+   "text": "But federal law carves out one thing: the voluntary sharing of a trip’s actual expenses."
+  },
+  {
+   "i": 5,
+   "start": 29.275,
+   "speechStart": 29.275,
+   "end": 32.925,
    "builds": 0,
-   "text": "But the moment payment becomes a condition of going, even disguised as a donation, a club membership or a mandatory fuel charge, those people are passengers for hire, and you need a licensed captain and a properly documented or registered boat."
+   "text": "Friends splitting fuel and bait isn’t consideration."
+  },
+  {
+   "i": 6,
+   "start": 33.175,
+   "speechStart": 33.175,
+   "end": 38.425,
+   "builds": 1,
+   "text": "And owners, crew, and true non-paying guests aren’t passengers for hire either."
+  },
+  {
+   "i": 7,
+   "start": 38.675,
+   "speechStart": 38.675,
+   "end": 40.5,
+   "builds": 0,
+   "text": "So here’s a test."
+  },
+  {
+   "i": 8,
+   "start": 40.75,
+   "speechStart": 40.75,
+   "end": 46.575,
+   "builds": 0,
+   "text": "Your neighbor says, take me and my buddies out Saturday, and we’ll each give you a hundred dollars."
+  },
+  {
+   "i": 9,
+   "start": 46.825,
+   "speechStart": 46.825,
+   "end": 48.6,
+   "builds": 0,
+   "text": "Is that a charter?"
+  },
+  {
+   "i": 10,
+   "start": 48.85,
+   "speechStart": 49.6,
+   "end": 51.0,
+   "builds": 0,
+   "text": "Yes."
+  },
+  {
+   "i": 11,
+   "start": 51.25,
+   "speechStart": 51.25,
+   "end": 53.925,
+   "builds": 0,
+   "text": "The payment is a condition of going."
+  },
+  {
+   "i": 12,
+   "start": 54.175,
+   "speechStart": 54.175,
+   "end": 56.525,
+   "builds": 1,
+   "text": "And it doesn’t matter what you call it."
+  },
+  {
+   "i": 13,
+   "start": 56.775,
+   "speechStart": 56.775,
+   "end": 64.275,
+   "builds": 0,
+   "text": "A donation, a club membership, a required fuel charge: if they have to pay to come, they’re passengers for hire."
+  },
+  {
+   "i": 14,
+   "start": 64.525,
+   "speechStart": 64.525,
+   "end": 66.775,
+   "builds": 0,
+   "text": "The key word is voluntary."
   }
  ]
 }
