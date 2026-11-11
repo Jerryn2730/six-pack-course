@@ -40,7 +40,7 @@ CAPS = ROOT / "media" / "captions"
 AUDITION = ROOT / "media" / "auditions"
 SITE_AUDIO = ROOT / "site" / "audio"
 MANIFEST = NARR / "manifest.json"
-PIPELINE_VERSION = 1  # bump to force regeneration after changing how audio is assembled
+PIPELINE_VERSION = 2  # bump to force regeneration after changing how audio is assembled
 KOKORO_RATE = 24000
 PILOT = ["rules-01", "rules-02", "rules-03"]
 DEFAULT_CHARS_PER_SEC = 25.0  # used for --dry-run estimates until a real run measures this machine
@@ -107,6 +107,9 @@ def prepare(script, apply_dict):
         text = shown
         for a, b in SYMBOLS:
             text = text.replace(a, b)
+        # Kokoro (misaki) can misread the typographic apostrophe ("Here’s" -> "here s"); send a plain one.
+        # The screen and captions keep ’ (display text is unchanged).
+        text = re.sub(r"(?<=\w)’(?=\w)|(?<=s)’(?=[\s,.;:!?]|$)", "'", text)
         text = re.sub(r"\s{2,}", " ", apply_dict(text)).strip()
         out.append({
             "raw": raw,

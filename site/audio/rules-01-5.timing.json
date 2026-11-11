@@ -3,7 +3,7 @@
  "lessonId": "rules-01",
  "n": 5,
  "audio": "rules-01-5.mp3",
- "duration": 61.975,
+ "duration": 61.7,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 4,
@@ -68,47 +68,47 @@
    "i": 7,
    "start": 34.45,
    "speechStart": 35.2,
-   "end": 37.5,
+   "end": 37.225,
    "builds": 0,
    "text": "Here’s how I think about it."
   },
   {
    "i": 8,
-   "start": 37.75,
-   "speechStart": 37.75,
-   "end": 44.5,
+   "start": 37.475,
+   "speechStart": 37.475,
+   "end": 44.225,
    "builds": 0,
    "text": "Picture yourself as the stand-on boat, holding your course, while a tug pushing a barge clearly isn’t turning."
   },
   {
    "i": 9,
-   "start": 44.75,
-   "speechStart": 44.75,
-   "end": 50.775,
+   "start": 44.475,
+   "speechStart": 44.475,
+   "end": 50.5,
    "builds": 0,
    "text": "If you hold your course right into that barge, you followed the rules, and you’ll still be found at fault."
   },
   {
    "i": 10,
-   "start": 51.025,
-   "speechStart": 51.025,
-   "end": 55.025,
+   "start": 50.75,
+   "speechStart": 50.75,
+   "end": 54.75,
    "builds": 1,
    "text": "Notice too that the rules almost never say right of way."
   },
   {
    "i": 11,
-   "start": 55.275,
-   "speechStart": 55.275,
-   "end": 58.825,
+   "start": 55.0,
+   "speechStart": 55.0,
+   "end": 58.55,
    "builds": 0,
    "text": "They say who keeps out of the way, and who stands on."
   },
   {
    "i": 12,
-   "start": 59.075,
-   "speechStart": 59.075,
-   "end": 61.675,
+   "start": 58.8,
+   "speechStart": 58.8,
+   "end": 61.4,
    "builds": 0,
    "text": "That’s a mindset, not a privilege."
   }

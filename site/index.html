@@ -184,6 +184,7 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .callout li{margin-bottom:.45rem}
 @media (prefers-reduced-motion: no-preference){.opt,.btn,.chip{transition:background-color .15s,border-color .15s}}
 .site-foot{max-width:900px;margin:40px auto 0;padding:16px 16px 28px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text-align:center}
+.narr-src{align-self:center;color:var(--muted);font-size:.9rem}
 </style>
 </head>
 <body>
@@ -617,7 +618,7 @@ function player(id){
   main.innerHTML=`<section class="player"><a class="back-link" href="#lessons">All lessons</a><p class="tag" style="margin-top:.8rem">${MODS[les.m].name}, lesson ${n}</p><h1 class="les-title">${les.t}</h1>
   <div id="slide"></div>
   <div class="controls"><button class="btn ghost ctl" id="pv">Previous</button><button class="btn ctl" id="pp">Play</button><button class="btn ghost ctl" id="nx">Next</button><span class="count" id="cnt"></span></div>
-  <div class="opts-row" id="vopts"><label>Speed<select id="rate">${[0.8,0.9,1,1.1,1.25,1.5].map(r=>`<option value="${r}" ${r==PL.rate?"selected":""}>${r}×</option>`).join("")}</select></label><label>Voice<select id="voice"><option value="">Device default</option></select></label><label>Mode<select id="mode"><option value="voice">Read aloud</option><option value="silent" ${PL.silent?"selected":""}>Silent, timed</option></select></label></div>
+  <div class="opts-row" id="vopts"><label>Speed<select id="rate">${[0.8,0.9,1,1.1,1.25,1.5].map(r=>`<option value="${r}" ${r==PL.rate?"selected":""}>${r}×</option>`).join("")}</select></label><label title="Used only for slides that don’t have recorded narration yet">Device voice<select id="voice"><option value="">Device default</option></select></label><span id="narrsrc" class="narr-src" aria-live="polite"></span><label>Mode<select id="mode"><option value="voice">Read aloud</option><option value="silent" ${PL.silent?"selected":""}>Silent, timed</option></select></label></div>
   <p class="muted" id="nospeech" hidden>This browser can’t read aloud. Read the transcript below instead.</p>
   <h2 class="tr-h">Transcript</h2><div id="tr" class="transcript"></div><div id="endbox"></div></section>`;
   if(!synth){notice("This browser can’t read aloud, so Play steps through the slides with the transcript highlighted at reading pace.");document.getElementById("voice").disabled=true;document.getElementById("mode").disabled=true;}
@@ -683,10 +684,13 @@ function playFile(tok,ss){const a=PL.audio||(PL.audio=new Audio());const key=`${
  a.onended=()=>{if(tok!==PL.tok)return;hl(-1);reveal(999);if(PL.i<PL.les.slides.length-1){setTimeout(()=>{if(tok!==PL.tok||!PL.playing)return;PL.i++;PL.sent=0;renderSlide();speak();},900);}else{PL.playing=false;setPP();}};
  // A missing file falls back to browser speech for that slide only, so lessons can be narrated one module at a time.
  a.onerror=()=>{if(tok!==PL.tok)return;(PL.missing||(PL.missing={}))[key]=true;speak(true);};PL.sent=0;hl(0);reveal(0);a.play().catch(e=>{if(tok!==PL.tok||(e&&e.name==="AbortError"))return;speak(true);});}
+function narrSrc(t){const e=document.getElementById("narrsrc");if(e)e.textContent=t;}
 function speak(noFile){
   if(!PL.les)return;const tok=++PL.tok;if(synth)synth.cancel();if(PL.audio)try{PL.audio.pause();}catch(e){}
   const ss=splitS(cur().say);
-  if(AUDIO_BASE&&!noFile&&!PL.silent&&!(PL.missing&&PL.missing[`${PL.les.id}-${PL.i+1}`])){playFile(tok,ss);return;}
+  const useFile=AUDIO_BASE&&!noFile&&!PL.silent&&!(PL.missing&&PL.missing[`${PL.les.id}-${PL.i+1}`]);
+  narrSrc(PL.silent?"":useFile?"Recorded narration":"Device voice");
+  if(useFile){playFile(tok,ss);return;}
   const next=()=>{if(tok!==PL.tok)return;PL.sent++;step();};
   const step=()=>{
     if(tok!==PL.tok||!PL.playing)return;
