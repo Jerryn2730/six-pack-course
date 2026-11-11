@@ -3,7 +3,7 @@
  "lessonId": "rules-01",
  "n": 6,
  "audio": "rules-01-6.mp3",
- "duration": 43.725,
+ "duration": 53.675,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 5,
@@ -44,33 +44,49 @@
    "i": 4,
    "start": 21.45,
    "speechStart": 21.45,
-   "end": 26.025,
+   "end": 24.225,
+   "builds": 0,
+   "text": "That annex is International only."
+  },
+  {
+   "i": 5,
+   "start": 24.475,
+   "speechStart": 24.475,
+   "end": 31.75,
+   "builds": 0,
+   "text": "In the Inland rules, the same signals now sit inside Rule twenty-six, and Annex two is left empty."
+  },
+  {
+   "i": 6,
+   "start": 32.0,
+   "speechStart": 32.0,
+   "end": 36.575,
    "builds": 1,
    "text": "Annex three is the technical spec for whistles, bells and gongs."
   },
   {
-   "i": 5,
-   "start": 26.275,
-   "speechStart": 26.275,
-   "end": 29.9,
+   "i": 7,
+   "start": 36.825,
+   "speechStart": 36.825,
+   "end": 40.45,
    "builds": 1,
    "text": "Annex four is the big one for you: distress signals."
   },
   {
-   "i": 6,
-   "start": 30.15,
-   "speechStart": 30.15,
-   "end": 33.575,
+   "i": 8,
+   "start": 40.7,
+   "speechStart": 40.7,
+   "end": 44.125,
    "builds": 0,
    "text": "We’ll spend real time on those in lesson fourteen."
   },
   {
-   "i": 7,
-   "start": 33.825,
-   "speechStart": 33.825,
-   "end": 43.425,
+   "i": 9,
+   "start": 44.375,
+   "speechStart": 44.375,
+   "end": 53.375,
    "builds": 1,
-   "text": "And the Inland rules add Annex five, the pilot rules, which cover things like the blue lights on law enforcement boats and special anchorage areas."
+   "text": "And the Inland rules add Annex five, the pilot rules, which cover the blue lights on law enforcement boats and public safety activities."
   }
  ]
 }

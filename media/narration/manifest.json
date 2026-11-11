@@ -1359,10 +1359,10 @@
    "voice": "af_heart"
   },
   "rules-01-1": {
-   "chars": 650,
-   "duration": 47.15,
-   "generated": "2026-11-11T02:20:03Z",
-   "hash": "550b418eb6472aa24d0de84d7a3ff34340691d3ce0ffe5090e3c1feb9d01bea8",
+   "chars": 679,
+   "duration": 48.525,
+   "generated": "2026-11-11T14:19:21Z",
+   "hash": "4fd98c64c1243838c855654e1b255615f898182acf6d783ac1c8455127390322",
    "voice": "af_heart"
   },
   "rules-01-2": {
@@ -1380,10 +1380,10 @@
    "voice": "af_heart"
   },
   "rules-01-4": {
-   "chars": 819,
-   "duration": 57.675,
-   "generated": "2026-11-11T02:20:36Z",
-   "hash": "40de53c9b7fab832227b46e95da3c54ba443b8603afe709972387d4db07cde0d",
+   "chars": 856,
+   "duration": 59.65,
+   "generated": "2026-11-11T14:19:38Z",
+   "hash": "d9be4ec014c9410c1486e64e94826f713b788d3ed6c9cda3077fc05ae37b0817",
    "voice": "af_heart"
   },
   "rules-01-5": {
@@ -1394,10 +1394,10 @@
    "voice": "af_heart"
   },
   "rules-01-6": {
-   "chars": 602,
-   "duration": 43.725,
-   "generated": "2026-11-11T02:20:59Z",
-   "hash": "989f3472d39cdcdcfc88d4f147a3f3cfe3bb918dd7a2f9aed00bf50e22cb64a4",
+   "chars": 722,
+   "duration": 53.675,
+   "generated": "2026-11-11T14:19:53Z",
+   "hash": "71d5cdcf6bb1ff965d07e8390f6f23c0d477a6d3daee190751096a8099f93247",
    "voice": "af_heart"
   },
   "rules-01-7": {
@@ -1941,6 +1941,6 @@
   }
  },
  "stats": {
-  "charsPerSec": 48.1
+  "charsPerSec": 47.7
  }
 }

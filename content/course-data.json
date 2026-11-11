@@ -38,14 +38,14 @@
       "tag": "Welcome aboard",
       "lines": [
        "Rules of the Road: the module that needs 90%",
-       "15 lessons, Rules 1 through 37 and the annexes",
+       "15 lessons, Rules 1 through 38 and the annexes",
        "A short lesson check after every lesson"
       ],
       "fig": "passmark"
      },
      "video": "Instructor on a charter boat’s flybridge at the dock, early morning.",
-     "script": "Welcome aboard. I’m glad you’re here. Over the next fifteen lessons, we’re going to work through the Navigation Rules together, the part of the captain’s exam that trips up more people than any other. [+] Here’s why. Every other module needs seventy percent to pass. This one needs ninety. Out of fifty questions, you can miss only about five. [+] So we’ll cover all thirty-seven rules, plus the annexes the exam pulls from, [+] and after each lesson there’s a short check so you can make sure it stuck. [pause] Don’t worry about memorizing everything today. Just get comfortable with how the rules are built. The memorizing comes later, and I’ll give you plenty of tricks for it.",
-     "spoken": "Welcome aboard. I’m glad you’re here. Over the next fifteen lessons, we’re going to work through the Navigation Rules together, the part of the captain’s exam that trips up more people than any other. Here’s why. Every other module needs seventy percent to pass. This one needs ninety. Out of fifty questions, you can miss only about five. So we’ll cover all thirty-seven rules, plus the annexes the exam pulls from, and after each lesson there’s a short check so you can make sure it stuck. Don’t worry about memorizing everything today. Just get comfortable with how the rules are built. The memorizing comes later, and I’ll give you plenty of tricks for it."
+     "script": "Welcome aboard. I’m glad you’re here. Over the next fifteen lessons, we’re going to work through the Navigation Rules together, the part of the captain’s exam that trips up more people than any other. [+] Here’s why. Every other module needs seventy percent to pass. This one needs ninety. Out of fifty questions, you can miss only about five. [+] So we’ll cover every rule, from Rule one through Rule thirty-eight, plus the annexes the exam pulls from, [+] and after each lesson there’s a short check so you can make sure it stuck. [pause] Don’t worry about memorizing everything today. Just get comfortable with how the rules are built. The memorizing comes later, and I’ll give you plenty of tricks for it.",
+     "spoken": "Welcome aboard. I’m glad you’re here. Over the next fifteen lessons, we’re going to work through the Navigation Rules together, the part of the captain’s exam that trips up more people than any other. Here’s why. Every other module needs seventy percent to pass. This one needs ninety. Out of fifty questions, you can miss only about five. So we’ll cover every rule, from Rule one through Rule thirty-eight, plus the annexes the exam pulls from, and after each lesson there’s a short check so you can make sure it stuck. Don’t worry about memorizing everything today. Just get comfortable with how the rules are built. The memorizing comes later, and I’ll give you plenty of tricks for it."
     },
     {
      "n": 2,
@@ -114,8 +114,8 @@
       "fig": "rule1"
      },
      "video": "Navy ship at a Florida port at dusk, showing unusual extra lights.",
-     "script": "Rule one also tells you what can sit alongside these rules, and there are four things to know. [+] First, local authorities can make special rules for a particular harbor, river or lake. But those rules must conform as closely as possible to the Navigation Rules. They can add to them, not throw them out. [+] Second, governments can allow extra lights, shapes or whistle signals for warships, convoys, or fishing fleets working together. So if you see an odd light on a Navy ship, that’s why. [+] Third, traffic separation schemes, the highway lanes for big ships, are adopted internationally. We’ll cover them in lesson four. [+] And fourth, a vessel of unusual construction that can’t place her lights exactly as required may use the closest alternative her government approves. Inland, that’s called a certificate of alternative compliance.",
-     "spoken": "Rule one also tells you what can sit alongside these rules, and there are four things to know. First, local authorities can make special rules for a particular harbor, river or lake. But those rules must conform as closely as possible to the Navigation Rules. They can add to them, not throw them out. Second, governments can allow extra lights, shapes or whistle signals for warships, convoys, or fishing fleets working together. So if you see an odd light on a Navy ship, that’s why. Third, traffic separation schemes, the highway lanes for big ships, are adopted internationally. We’ll cover them in lesson four. And fourth, a vessel of unusual construction that can’t place her lights exactly as required may use the closest alternative her government approves. Inland, that’s called a certificate of alternative compliance."
+     "script": "Rule one also tells you what can sit alongside these rules, and there are four things to know. [+] First, local authorities can make special rules for a particular harbor, river or lake. But those rules must conform as closely as possible to the Navigation Rules. They can add to them, not throw them out. [+] Second, governments can allow extra lights and shapes for warships, convoys, and fishing fleets working together, and extra whistle signals for warships and convoys. So if you see an odd light on a Navy ship, that’s why. [+] Third, traffic separation schemes, the highway lanes for big ships, are adopted internationally. We’ll cover them in lesson four. [+] And fourth, a vessel of unusual construction that can’t place her lights exactly as required may use the closest alternative her government approves. Inland, that’s called a certificate of alternative compliance.",
+     "spoken": "Rule one also tells you what can sit alongside these rules, and there are four things to know. First, local authorities can make special rules for a particular harbor, river or lake. But those rules must conform as closely as possible to the Navigation Rules. They can add to them, not throw them out. Second, governments can allow extra lights and shapes for warships, convoys, and fishing fleets working together, and extra whistle signals for warships and convoys. So if you see an odd light on a Navy ship, that’s why. Third, traffic separation schemes, the highway lanes for big ships, are adopted internationally. We’ll cover them in lesson four. And fourth, a vessel of unusual construction that can’t place her lights exactly as required may use the closest alternative her government approves. Inland, that’s called a certificate of alternative compliance."
     },
     {
      "n": 5,
@@ -152,7 +152,7 @@
        ],
        [
         "II",
-        "Extra signals for fishing vessels fishing close together"
+        "International: extra signals for fishing vessels fishing close together. Inland: now in Rule 26"
        ],
        [
         "III",
@@ -164,14 +164,14 @@
        ],
        [
         "V",
-        "Inland only: pilot rules, such as law enforcement lights and special anchorage areas"
+        "Inland only: pilot rules, covering law enforcement lights and public safety activities"
        ]
       ],
       "fig": "annexes"
      },
      "video": "Montage: a masthead light being mounted, a ship’s whistle, a red hand flare, a law enforcement boat’s blue light.",
-     "script": "The rules end with annexes, and yes, the exam asks about them. Let me give you a one-line handle on each. [+] Annex one is the engineering annex: exactly where lights go, how far apart, how bright. [+] Annex two covers extra signals for fishing boats working close together, like trawlers in a fleet. [+] Annex three is the technical spec for whistles, bells and gongs. [+] Annex four is the big one for you: distress signals. We’ll spend real time on those in lesson fourteen. [+] And the Inland rules add Annex five, the pilot rules, which cover things like the blue lights on law enforcement boats and special anchorage areas.",
-     "spoken": "The rules end with annexes, and yes, the exam asks about them. Let me give you a one-line handle on each. Annex one is the engineering annex: exactly where lights go, how far apart, how bright. Annex two covers extra signals for fishing boats working close together, like trawlers in a fleet. Annex three is the technical spec for whistles, bells and gongs. Annex four is the big one for you: distress signals. We’ll spend real time on those in lesson fourteen. And the Inland rules add Annex five, the pilot rules, which cover things like the blue lights on law enforcement boats and special anchorage areas."
+     "script": "The rules end with annexes, and yes, the exam asks about them. Let me give you a one-line handle on each. [+] Annex one is the engineering annex: exactly where lights go, how far apart, how bright. [+] Annex two covers extra signals for fishing boats working close together, like trawlers in a fleet. That annex is International only. In the Inland rules, the same signals now sit inside Rule twenty-six, and Annex two is left empty. [+] Annex three is the technical spec for whistles, bells and gongs. [+] Annex four is the big one for you: distress signals. We’ll spend real time on those in lesson fourteen. [+] And the Inland rules add Annex five, the pilot rules, which cover the blue lights on law enforcement boats and public safety activities.",
+     "spoken": "The rules end with annexes, and yes, the exam asks about them. Let me give you a one-line handle on each. Annex one is the engineering annex: exactly where lights go, how far apart, how bright. Annex two covers extra signals for fishing boats working close together, like trawlers in a fleet. That annex is International only. In the Inland rules, the same signals now sit inside Rule twenty-six, and Annex two is left empty. Annex three is the technical spec for whistles, bells and gongs. Annex four is the big one for you: distress signals. We’ll spend real time on those in lesson fourteen. And the Inland rules add Annex five, the pilot rules, which cover the blue lights on law enforcement boats and public safety activities."
     },
     {
      "n": 7,

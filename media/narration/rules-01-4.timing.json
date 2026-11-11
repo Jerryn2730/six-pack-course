@@ -3,7 +3,7 @@
  "lessonId": "rules-01",
  "n": 4,
  "audio": "rules-01-4.mp3",
- "duration": 57.675,
+ "duration": 59.65,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 4,
@@ -44,47 +44,47 @@
    "i": 4,
    "start": 20.725,
    "speechStart": 20.725,
-   "end": 29.175,
+   "end": 31.15,
    "builds": 1,
-   "text": "Second, governments can allow extra lights, shapes or whistle signals for warships, convoys, or fishing fleets working together."
+   "text": "Second, governments can allow extra lights and shapes for warships, convoys, and fishing fleets working together, and extra whistle signals for warships and convoys."
   },
   {
    "i": 5,
-   "start": 29.425,
-   "speechStart": 29.425,
-   "end": 33.0,
+   "start": 31.4,
+   "speechStart": 31.4,
+   "end": 34.975,
    "builds": 0,
    "text": "So if you see an odd light on a Navy ship, that’s why."
   },
   {
    "i": 6,
-   "start": 33.25,
-   "speechStart": 33.25,
-   "end": 39.675,
+   "start": 35.225,
+   "speechStart": 35.225,
+   "end": 41.65,
    "builds": 1,
    "text": "Third, traffic separation schemes, the highway lanes for big ships, are adopted internationally."
   },
   {
    "i": 7,
-   "start": 39.925,
-   "speechStart": 39.925,
-   "end": 42.325,
+   "start": 41.9,
+   "speechStart": 41.9,
+   "end": 44.3,
    "builds": 0,
    "text": "We’ll cover them in lesson four."
   },
   {
    "i": 8,
-   "start": 42.575,
-   "speechStart": 42.575,
-   "end": 53.0,
+   "start": 44.55,
+   "speechStart": 44.55,
+   "end": 54.975,
    "builds": 1,
    "text": "And fourth, a vessel of unusual construction that can’t place her lights exactly as required may use the closest alternative her government approves."
   },
   {
    "i": 9,
-   "start": 53.25,
-   "speechStart": 53.25,
-   "end": 57.375,
+   "start": 55.225,
+   "speechStart": 55.225,
+   "end": 59.35,
    "builds": 0,
    "text": "Inland, that’s called a certificate of alternative compliance."
   }

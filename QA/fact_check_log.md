@@ -6,7 +6,9 @@ Status words: **Supported** (the source says this), **Supported, simplified** (a
 
 Checked by: Claude (AI assistant), 2026-11-11. This is a source comparison, not a review by a maritime subject-matter expert. Lessons stay `draft-unverified` until a human reviewer signs off.
 
-## Findings that need the owner's decision
+## Findings (F1 to F4 fixed on 2026-11-11 at the owner’s direction)
+
+Fixed in `rules-01` slides 1, 4 and 6, and the audio re-recorded. F2 also notes that the Inland signals now sit in Rule 26(f) (33 CFR 83.26(f)). Lesson `rules-11` slide 5 still calls these signals “Annex II” and should be reviewed when that lesson is checked.
 
 | # | Where | What the course says | What the source says | Suggested fix |
 | --- | --- | --- | --- | --- |

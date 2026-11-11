@@ -3,7 +3,7 @@
  "lessonId": "rules-01",
  "n": 1,
  "audio": "rules-01-1.mp3",
- "duration": 47.15,
+ "duration": 48.525,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 3,
@@ -68,31 +68,31 @@
    "i": 7,
    "start": 25.275,
    "speechStart": 25.275,
-   "end": 34.925,
+   "end": 36.3,
    "builds": 2,
-   "text": "So we’ll cover all thirty-seven rules, plus the annexes the exam pulls from, and after each lesson there’s a short check so you can make sure it stuck."
+   "text": "So we’ll cover every rule, from Rule one through Rule thirty-eight, plus the annexes the exam pulls from, and after each lesson there’s a short check so you can make sure it stuck."
   },
   {
    "i": 8,
-   "start": 35.175,
-   "speechStart": 35.925,
-   "end": 39.125,
+   "start": 36.55,
+   "speechStart": 37.3,
+   "end": 40.5,
    "builds": 0,
    "text": "Don’t worry about memorizing everything today."
   },
   {
    "i": 9,
-   "start": 39.375,
-   "speechStart": 39.375,
-   "end": 42.425,
+   "start": 40.75,
+   "speechStart": 40.75,
+   "end": 43.8,
    "builds": 0,
    "text": "Just get comfortable with how the rules are built."
   },
   {
    "i": 10,
-   "start": 42.675,
-   "speechStart": 42.675,
-   "end": 46.85,
+   "start": 44.05,
+   "speechStart": 44.05,
+   "end": 48.225,
    "builds": 0,
    "text": "The memorizing comes later, and I’ll give you plenty of tricks for it."
   }
