@@ -76,3 +76,29 @@ One-time setup:
 3. First deploy: `npm run deploy -- --site-name <name>` creates `https://<name>.netlify.app`. Commit `config/deploy.json` afterwards.
 
 Every page shows the footer “Personal study material. Not an official U.S. Coast Guard examination or approved course.” The site asks search engines not to index it (`noindex`), but anyone with the link can open it.
+
+## Slide pictures
+
+Every slide has a picture. A slide's `visual` in `content/course-data.json` can carry `"fig"`:
+- a name, for a hand-drawn figure in `FIG` (or a lesson diagram in `DG`) in `src/app.html`, for example `"fig": "tampabay"`;
+- or a short description built from the icon kit, for example `{"t":"rows","items":[["anchor","Title","Detail"]]}`. Layouts: `rows`, `tiles`, `cmp` (two panels), `steps`, `big`, `band` (a strip above a table) and `td` (a free scene of boats, arrows and labels).
+
+`npm run build` stops if a slide names a figure, layout or icon that doesn't exist. Maps use public-domain Census Bureau outlines and are marked “Schematic, not for navigation”.
+
+## Videos (Task 3)
+
+`npm run video -- --lesson rules-01` (or `--module R`, or `--all`) makes `media/video/<lesson>.mp4` at 1080p from the slides and the recorded narration, with captions in `media/captions/<lesson>.vtt` and `.srt` and a YouTube chapter list in `media/video/<lesson>.chapters.txt`. A lesson needs its narration first (`npm run audio`). Unchanged lessons are skipped. It needs Playwright and FFmpeg, both free: `npm install --no-save playwright`, then `npx playwright install chromium`. Videos aren't committed to git; upload them to YouTube yourself.
+
+## Progress, backup and offline use (Task 5)
+
+The site's **My progress** page shows lessons finished, lesson-check scores, practice-test history, weakest topics and most-missed questions. From there you can back up progress to a file and restore it on another device, print a personal study record, and save the narration for offline use (on the website address only). Nothing leaves the browser.
+
+`npm run export:moodle` writes the question bank as `media/export/questions.gift` for a Moodle site, if you're ever given one.
+
+## Ask a question
+
+In a lesson, **Ask a question** opens your question, with the current slide attached, in Claude or Google in a new tab. No AI runs inside the site.
+
+## Fact checking (Task 7)
+
+`SOURCES/source_register.md` lists the primary sources used. `QA/fact_check_log.md` records each claim checked and any findings waiting for your decision.
