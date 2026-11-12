@@ -86,6 +86,25 @@ if (viaApi) {
     if (c.status !== 0) { console.error(`Netlify API call failed: ${(c.stderr || "").trim()} ${(c.stdout || "").slice(0, 300)}`); process.exit(1); }
     return c.stdout ? JSON.parse(c.stdout) : {};
   };
+  // Credit guard (Netlify free plan: 300 credits a month, 15 per production deploy, and when they run out
+  // the site is paused until the next cycle). Count this calendar month's production deploys and stop at
+  // the limit unless --force. Limit: config/deploy.json "maxDeploysPerMonth" (default 12 = 180 credits,
+  // leaving room for bandwidth and requests). The calendar month is an approximation of the billing cycle.
+  {
+    const max = cfg.maxDeploysPerMonth || 12;
+    const month = new Date().toISOString().slice(0, 7);
+    let n = 0;
+    for (let page = 1; page < 10; page++) {
+      const list = curl([`${API}/sites/${cfg.siteId}/deploys?per_page=100&page=${page}`]);
+      n += list.filter((x) => x.state === "ready" && x.context === "production" && String(x.created_at).startsWith(month)).length;
+      if (list.length < 100 || String(list[list.length - 1].created_at) < month) break;
+    }
+    console.log(`  This month: ${n} production deploy(s) = ${n * 15} credits of 300. This one makes ${n + 1} (limit ${max}).`);
+    if (n + 1 > max && !args.includes("--force")) {
+      console.error(`Stopped: this deploy would pass the monthly limit of ${max} deploys (${max * 15} credits). Batch changes and deploy later, or pass --force if the owner approves.`);
+      process.exit(1);
+    }
+  }
   const files = {}, bySha = {};
   const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
     const p = path.join(d, e.name);

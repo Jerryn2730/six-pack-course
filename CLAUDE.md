@@ -62,6 +62,7 @@ Act as an instructional-design, automation and course-production assistant for a
 - After each change, run `npm run validate` and `npm run build`, and report results.
 - When editing, list changed files and flag anything requiring human review.
 - Commit to git in small, described steps.
+- Deploys cost Netlify credits (free plan: 300 a month, 15 per production deploy; at zero the site is paused until the next cycle). Commit freely, but deploy at most once per work session, after batching changes, or when the owner asks. `scripts/deploy.js` stops at `maxDeploysPerMonth` (default 12) unless the owner approves `--force`.
 
 ## Copyright and ethics
 - Do not copy proprietary question banks, paid study guides or copyrighted material.
