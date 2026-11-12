@@ -36,30 +36,30 @@
    "i": 3,
    "start": 10.05,
    "speechStart": 10.05,
-   "end": 15.225,
+   "end": 15.2,
    "builds": 0,
    "text": "The bow line leads forward from the bow, and the stern line leads aft from the stern."
   },
   {
    "i": 4,
-   "start": 15.475,
-   "speechStart": 15.475,
-   "end": 17.95,
+   "start": 15.45,
+   "speechStart": 15.45,
+   "end": 17.925,
    "builds": 0,
    "text": "Those two hold her in to the dock."
   },
   {
    "i": 5,
-   "start": 18.2,
-   "speechStart": 18.2,
-   "end": 21.2,
+   "start": 18.175,
+   "speechStart": 18.175,
+   "end": 21.175,
    "builds": 0,
    "text": "The spring lines stop her moving along it."
   },
   {
    "i": 6,
-   "start": 21.45,
-   "speechStart": 21.45,
+   "start": 21.425,
+   "speechStart": 21.425,
    "end": 27.275,
    "builds": 0,
    "text": "The bow spring runs from near the bow, aft to the dock, and it stops the boat surging forward."

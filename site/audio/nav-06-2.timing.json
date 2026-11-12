@@ -3,7 +3,7 @@
  "lessonId": "nav-06",
  "n": 2,
  "audio": "nav-06-2.mp3",
- "duration": 57.175,
+ "duration": 57.125,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 4,
@@ -68,31 +68,31 @@
    "i": 7,
    "start": 40.8,
    "speechStart": 40.8,
-   "end": 46.075,
+   "end": 46.025,
    "builds": 0,
    "text": "They’re announced on channel sixteen, and then read on channel twenty-two alpha."
   },
   {
    "i": 8,
-   "start": 46.325,
-   "speechStart": 46.325,
-   "end": 51.325,
+   "start": 46.275,
+   "speechStart": 46.275,
+   "end": 51.275,
    "builds": 0,
    "text": "So when you hear the Coast Guard say, switch to twenty-two alpha, what should you do?"
   },
   {
    "i": 9,
-   "start": 51.575,
-   "speechStart": 52.325,
-   "end": 54.15,
+   "start": 51.525,
+   "speechStart": 52.275,
+   "end": 54.1,
    "builds": 0,
    "text": "Switch, and listen."
   },
   {
    "i": 10,
-   "start": 54.4,
-   "speechStart": 54.4,
-   "end": 56.875,
+   "start": 54.35,
+   "speechStart": 54.35,
+   "end": 56.825,
    "builds": 0,
    "text": "It may be about the channel you’re in."
   }

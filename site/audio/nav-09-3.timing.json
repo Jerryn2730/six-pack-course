@@ -3,7 +3,7 @@
  "lessonId": "nav-09",
  "n": 3,
  "audio": "nav-09-3.mp3",
- "duration": 52.525,
+ "duration": 52.575,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 5,
@@ -60,47 +60,47 @@
    "i": 6,
    "start": 17.825,
    "speechStart": 17.825,
-   "end": 22.375,
+   "end": 22.425,
    "builds": 1,
    "text": "You read it from the center of the nearest compass rose on your chart."
   },
   {
    "i": 7,
-   "start": 22.625,
-   "speechStart": 22.625,
-   "end": 27.125,
+   "start": 22.675,
+   "speechStart": 22.675,
+   "end": 27.175,
    "builds": 1,
    "text": "The rose also gives the year it was measured and the annual change."
   },
   {
    "i": 8,
-   "start": 27.375,
-   "speechStart": 27.375,
-   "end": 30.675,
+   "start": 27.425,
+   "speechStart": 27.425,
+   "end": 30.725,
    "builds": 0,
    "text": "So what do you do with a rose that’s fifteen years old?"
   },
   {
    "i": 9,
-   "start": 30.925,
-   "speechStart": 31.675,
-   "end": 36.175,
+   "start": 30.975,
+   "speechStart": 31.725,
+   "end": 36.225,
    "builds": 0,
    "text": "Multiply the annual change by the years, and bring it up to date."
   },
   {
    "i": 10,
-   "start": 36.425,
-   "speechStart": 36.425,
-   "end": 45.275,
+   "start": 36.475,
+   "speechStart": 36.475,
+   "end": 45.325,
    "builds": 1,
    "text": "In Florida, variation is a few degrees west, from roughly two degrees in the western Panhandle to around eight on the Atlantic coast."
   },
   {
    "i": 11,
-   "start": 45.525,
-   "speechStart": 45.525,
-   "end": 52.225,
+   "start": 45.575,
+   "speechStart": 45.575,
+   "end": 52.275,
    "builds": 1,
    "text": "And westerly variation means just what it says: magnetic north lies to the west of true north."
   }

@@ -162,17 +162,17 @@
    "voice": "af_heart"
   },
   "deck-05-4": {
-   "chars": 689,
+   "chars": 698,
    "duration": 53.4,
-   "generated": "2026-11-11T17:50:30Z",
-   "hash": "d2794cee2b7f99513b7b94d518c854df8e9e0efa3f59d64de76f9abcca918b76",
+   "generated": "2026-11-12T00:01:41Z",
+   "hash": "76341158869f8b060ca39d45b970ff6b738b6f8695bef2e305fc0935dc1ca6f9",
    "voice": "af_heart"
   },
   "deck-05-5": {
-   "chars": 737,
+   "chars": 746,
    "duration": 61.2,
-   "generated": "2026-11-11T17:50:48Z",
-   "hash": "3e54b87752153b068aac7826c4af48dd90ac448e037286534074fd4c0004eef0",
+   "generated": "2026-11-12T00:01:58Z",
+   "hash": "20a37ebbf5e4dcc6b7733907d822597807c51c352518dbed0786309512bfc624",
    "voice": "af_heart"
   },
   "deck-06-1": {
@@ -204,10 +204,10 @@
    "voice": "af_heart"
   },
   "deck-06-5": {
-   "chars": 764,
+   "chars": 782,
    "duration": 58.35,
-   "generated": "2026-11-11T18:14:57Z",
-   "hash": "9b7a3823483d8464fca3b309f9f3094c3f2809bd0edd84efcd7dfbd46f596dfc",
+   "generated": "2026-11-12T00:02:14Z",
+   "hash": "d685d4165690afd517f27c35251b97c66f7749198d91ff872b43910fa3374153",
    "voice": "af_heart"
   },
   "deck-07-1": {
@@ -218,17 +218,17 @@
    "voice": "af_heart"
   },
   "deck-07-2": {
-   "chars": 793,
-   "duration": 58.55,
-   "generated": "2026-11-11T18:15:30Z",
-   "hash": "e11cd953deaf99b4feb74271562105f6d28790f043e995c811bc7c8745b10a60",
+   "chars": 802,
+   "duration": 58.525,
+   "generated": "2026-11-12T00:02:31Z",
+   "hash": "240f038d686b58c4832e11fe7dd1fb56f1c82d4bbda23b9f5fb340a40089be10",
    "voice": "af_heart"
   },
   "deck-07-3": {
-   "chars": 704,
-   "duration": 52.625,
-   "generated": "2026-11-11T18:15:44Z",
-   "hash": "af2d10981ed5b1c535474e16162604f85978436426e888337bded7822080911f",
+   "chars": 713,
+   "duration": 52.65,
+   "generated": "2026-11-12T00:02:45Z",
+   "hash": "10d082d5a6f36d4979ea36d449ef3808ee3476bf6b040bde1f844c040c1d925f",
    "voice": "af_heart"
   },
   "deck-07-4": {
@@ -239,10 +239,10 @@
    "voice": "af_heart"
   },
   "deck-07-5": {
-   "chars": 814,
-   "duration": 61.75,
-   "generated": "2026-11-11T18:16:18Z",
-   "hash": "28b44f5393b6c3f16cf799fa9fa187531384e8a2993ac55db77896c11201b436",
+   "chars": 832,
+   "duration": 61.725,
+   "generated": "2026-11-12T00:03:04Z",
+   "hash": "6de9422b8a2592cba46381ce1777a3fe6d401454ef175fe4c7fb58ac215b78e1",
    "voice": "af_heart"
   },
   "deck-08-1": {
@@ -260,17 +260,17 @@
    "voice": "af_heart"
   },
   "deck-08-3": {
-   "chars": 717,
+   "chars": 753,
    "duration": 52.475,
-   "generated": "2026-11-11T18:17:03Z",
-   "hash": "ce7360feb286345182da2fb00c040e678e0aca6e756b46ea8d8e864c27eb551f",
+   "generated": "2026-11-12T00:03:19Z",
+   "hash": "d29490993ff4a13b04835eb4308c46694d0b6c842147fcd2e7a2619d4b3610b5",
    "voice": "af_heart"
   },
   "deck-08-4": {
-   "chars": 764,
+   "chars": 774,
    "duration": 54.8,
-   "generated": "2026-11-11T18:17:18Z",
-   "hash": "649273892373d0e1f4e9197e0ac309ee80fbae71fe356e2a0fbae10310375140",
+   "generated": "2026-11-12T00:03:35Z",
+   "hash": "a143bac64d9d75ed387849349831edec7c8274808aafce237f9f1e926c9acf13",
    "voice": "af_heart"
   },
   "deck-08-5": {
@@ -288,10 +288,10 @@
    "voice": "af_heart"
   },
   "deck-09-2": {
-   "chars": 754,
+   "chars": 781,
    "duration": 58.375,
-   "generated": "2026-11-11T18:18:08Z",
-   "hash": "fd79069ceaf3ed37b78595206941fd25304fd41f45d87ab69d6b01cb9262b09c",
+   "generated": "2026-11-12T00:03:52Z",
+   "hash": "39326999f3cb52d6c11c6bcef3a30f5786ee6140bfd649d59b8c54dd5768f843",
    "voice": "af_heart"
   },
   "deck-09-3": {
@@ -302,24 +302,24 @@
    "voice": "af_heart"
   },
   "deck-09-4": {
-   "chars": 676,
+   "chars": 685,
    "duration": 50.75,
-   "generated": "2026-11-11T18:18:38Z",
-   "hash": "c20998d852fd727d83f83e90a34184d4c76d8c77756c294584b5401e5837b15b",
+   "generated": "2026-11-12T00:04:06Z",
+   "hash": "a23eabd4376724ef8b8524447b6c6444caed4f64211ebb6163c0bc1dd0197187",
    "voice": "af_heart"
   },
   "deck-09-5": {
-   "chars": 767,
-   "duration": 59.05,
-   "generated": "2026-11-11T18:18:55Z",
-   "hash": "9e6c8f028379fe136d33a53c3dca7dc634890d55bf96789941c9b780d86976cb",
+   "chars": 785,
+   "duration": 59.025,
+   "generated": "2026-11-12T00:04:23Z",
+   "hash": "75a0444f5fbdce46a6e966934ddfaf50352217dc245281a34bab2e0c12f87d9f",
    "voice": "af_heart"
   },
   "deck-10-1": {
-   "chars": 692,
+   "chars": 701,
    "duration": 52.3,
-   "generated": "2026-11-11T18:19:10Z",
-   "hash": "c3757ef6e45072afd549f9dd2fee3ec4cf6ca4eca4b2f78095b379043d900513",
+   "generated": "2026-11-12T00:04:38Z",
+   "hash": "c6df56340a13dbdecedc00b3ede4c198da121f2152b123e08eb9169fc1ff4dfb",
    "voice": "af_heart"
   },
   "deck-10-2": {
@@ -463,10 +463,10 @@
    "voice": "af_heart"
   },
   "deck-14-2": {
-   "chars": 720,
+   "chars": 730,
    "duration": 51.95,
-   "generated": "2026-11-11T18:24:52Z",
-   "hash": "c567515f7bd4cbc53db5a2cad285bbca8dc63aae8ee38fdd1d57b94afca2c371",
+   "generated": "2026-11-12T00:04:52Z",
+   "hash": "f0ef5f433c582c643841c97f50810947bf5767cadf8f395d7faba75cf80deb7a",
    "voice": "af_heart"
   },
   "deck-14-3": {
@@ -526,10 +526,10 @@
    "voice": "af_heart"
   },
   "nav-01-1": {
-   "chars": 823,
+   "chars": 836,
    "duration": 66.05,
-   "generated": "2026-11-11T17:53:23Z",
-   "hash": "66313e9c32f12a4b49390dc1addb7de17a8af3157d609260c3db1f5974dcce0a",
+   "generated": "2026-11-11T23:56:28Z",
+   "hash": "702e09db84a44a76b86a8c6b32ebd4914be5fed632efe04c64c4ca8cbc7c2d55",
    "voice": "af_heart"
   },
   "nav-01-2": {
@@ -540,10 +540,10 @@
    "voice": "af_heart"
   },
   "nav-01-3": {
-   "chars": 745,
-   "duration": 54.8,
-   "generated": "2026-11-11T17:53:55Z",
-   "hash": "f0a409d958c3b345fc268ff13ba008dea6ce90dbfbf5c17d7cfce59ad43c5393",
+   "chars": 755,
+   "duration": 54.85,
+   "generated": "2026-11-11T23:56:43Z",
+   "hash": "c9161eca31dcf7926d7564a7f46fdbf489dd1819ae2f3b3a16d665b9684ddbcb",
    "voice": "af_heart"
   },
   "nav-01-4": {
@@ -554,10 +554,10 @@
    "voice": "af_heart"
   },
   "nav-01-5": {
-   "chars": 915,
-   "duration": 72.925,
-   "generated": "2026-11-11T17:54:36Z",
-   "hash": "39f8a10df2950c88459156be8dfb79315bc72c2664431f972876b035fb7a024f",
+   "chars": 925,
+   "duration": 72.9,
+   "generated": "2026-11-11T23:57:04Z",
+   "hash": "0d0aeb210b4d4f97bd805397d5a1d47fb0efd00391c9c7e4e632ecd106827794",
    "voice": "af_heart"
   },
   "nav-02-1": {
@@ -589,10 +589,10 @@
    "voice": "af_heart"
   },
   "nav-02-5": {
-   "chars": 827,
+   "chars": 837,
    "duration": 67.675,
-   "generated": "2026-11-11T17:56:14Z",
-   "hash": "e6f59920367f1e725b7d8b7c0cfba0301da62ece43b6c2cfcf017d9d3b40ac58",
+   "generated": "2026-11-11T23:57:23Z",
+   "hash": "48c845dcceaf797d20c7e093f5790d895bd32b2a95bf853cec6c5e214cf8a48a",
    "voice": "af_heart"
   },
   "nav-03-1": {
@@ -631,10 +631,10 @@
    "voice": "af_heart"
   },
   "nav-04-1": {
-   "chars": 795,
+   "chars": 805,
    "duration": 60.35,
-   "generated": "2026-11-11T17:58:04Z",
-   "hash": "f17b3eb273113de6c400b06a4699c3d7fbf99d80831bdf4171c8a3ac7dd630fe",
+   "generated": "2026-11-11T23:57:39Z",
+   "hash": "94804d0876f8441377691284e263f1b66cf4301b134d9f44fcfe629eac944666",
    "voice": "af_heart"
   },
   "nav-04-2": {
@@ -666,10 +666,10 @@
    "voice": "af_heart"
   },
   "nav-05-1": {
-   "chars": 826,
+   "chars": 836,
    "duration": 61.625,
-   "generated": "2026-11-11T17:59:33Z",
-   "hash": "f500b6e2ceef289cdb8081c1e55801bdb579709ec7e118860fd2f8ad8e4d8a6a",
+   "generated": "2026-11-11T23:57:56Z",
+   "hash": "0f1f177c7d1ba838dfe5503026720a6eeda867d57a169738dcc41026fe734e56",
    "voice": "af_heart"
   },
   "nav-05-2": {
@@ -708,17 +708,17 @@
    "voice": "af_heart"
   },
   "nav-06-1": {
-   "chars": 848,
-   "duration": 63.375,
-   "generated": "2026-11-11T18:01:14Z",
-   "hash": "533263c082d8fd5d5e39e64f6c70476b28ac58dfe729693e612d1c099bbcedd8",
+   "chars": 858,
+   "duration": 63.475,
+   "generated": "2026-11-11T23:58:13Z",
+   "hash": "64bcd4cd45f3869eb0ef3084f485ad8497d4ac193f0d4a0d4b3bb8d15c260d04",
    "voice": "af_heart"
   },
   "nav-06-2": {
-   "chars": 812,
-   "duration": 57.175,
-   "generated": "2026-11-11T18:01:31Z",
-   "hash": "d983bc8ef80a614c79284ef659b9e078fb15d4a12cccf49eb07af6ceca03b9c5",
+   "chars": 831,
+   "duration": 57.125,
+   "generated": "2026-11-11T23:58:30Z",
+   "hash": "a01689df3bfca45d057b606d140270ffff395e23bb67f2c9ed2486272d197c84",
    "voice": "af_heart"
   },
   "nav-06-3": {
@@ -799,10 +799,10 @@
    "voice": "af_heart"
   },
   "nav-08-4": {
-   "chars": 820,
+   "chars": 830,
    "duration": 55.45,
-   "generated": "2026-11-11T18:05:03Z",
-   "hash": "5d18f6d3cf832dcb4db26b664ec9c22f8ec5da141527ab9a5224068e47ff4ab3",
+   "generated": "2026-11-11T23:58:44Z",
+   "hash": "6fae6b34e18f5215cfb4251e0887dc351548d878333dd5afffa381ac2f83e8dc",
    "voice": "af_heart"
   },
   "nav-08-5": {
@@ -820,17 +820,17 @@
    "voice": "af_heart"
   },
   "nav-09-2": {
-   "chars": 863,
-   "duration": 63.75,
-   "generated": "2026-11-11T18:05:59Z",
-   "hash": "1a1ae49e975a8a7ed69e23d98f5602a40022887779fac3be246f8072a028d497",
+   "chars": 873,
+   "duration": 63.65,
+   "generated": "2026-11-11T23:59:03Z",
+   "hash": "528247d1f00d8b5b7a38ebda608a4dbcac3f8bcb691bc8a9c7ab9964530aebd9",
    "voice": "af_heart"
   },
   "nav-09-3": {
-   "chars": 701,
-   "duration": 52.525,
-   "generated": "2026-11-11T18:06:14Z",
-   "hash": "1580ec2b03754fb0cf6a3ffb47db282ce4daed9629e49bf0943aa0fd9c0185e2",
+   "chars": 711,
+   "duration": 52.575,
+   "generated": "2026-11-11T23:59:19Z",
+   "hash": "314ba8ec1004e3eb0ede42f91035d56a95af68a55e2d6adae82700286e1e4720",
    "voice": "af_heart"
   },
   "nav-09-4": {
@@ -848,17 +848,17 @@
    "voice": "af_heart"
   },
   "nav-10-1": {
-   "chars": 741,
+   "chars": 750,
    "duration": 53.8,
-   "generated": "2026-11-11T18:07:07Z",
-   "hash": "55386e2de89f00d6470bfa7bf9462bf0892d326ee1e153074f1a3be26ed7b935",
+   "generated": "2026-11-11T23:59:35Z",
+   "hash": "dee2265c219f61ae06f1941a085c911a4bfa16e1c23a132a7a982c0d303afd97",
    "voice": "af_heart"
   },
   "nav-10-2": {
-   "chars": 713,
-   "duration": 59.8,
-   "generated": "2026-11-11T18:07:25Z",
-   "hash": "02b3c17fc8a223065193e90d16fa39832ba63faf4683d89c3d185f3e3148a120",
+   "chars": 740,
+   "duration": 59.65,
+   "generated": "2026-11-11T23:59:53Z",
+   "hash": "38def339d9a91cdb1835c0283d61c5f4d8229d8818437ac074bbe7b60e34a922",
    "voice": "af_heart"
   },
   "nav-10-3": {
@@ -876,17 +876,17 @@
    "voice": "af_heart"
   },
   "nav-10-5": {
-   "chars": 691,
+   "chars": 700,
    "duration": 56.3,
-   "generated": "2026-11-11T18:08:13Z",
-   "hash": "198f4753268a7613af4c617afc4bd88c0d45f035c759c51a1acfbfae7ce5f866",
+   "generated": "2026-11-12T00:00:11Z",
+   "hash": "3f9e18b090efe744b570554d547c9f1929b7078218529714c6166f0e1f1ab9c7",
    "voice": "af_heart"
   },
   "nav-11-1": {
-   "chars": 923,
-   "duration": 69.325,
-   "generated": "2026-11-11T18:08:34Z",
-   "hash": "d9519f7261a3b29e52d7a3e60a771c0cdb328361117cf4f3fefe34eb6ba240e2",
+   "chars": 938,
+   "duration": 69.3,
+   "generated": "2026-11-12T00:00:31Z",
+   "hash": "b9f0b9f2e64fe291728cd60baac0e672c17fd4c1d78712899f9a066dfabbea0f",
    "voice": "af_heart"
   },
   "nav-11-2": {
@@ -918,10 +918,10 @@
    "voice": "af_heart"
   },
   "nav-12-1": {
-   "chars": 863,
+   "chars": 883,
    "duration": 67.3,
-   "generated": "2026-11-11T18:10:01Z",
-   "hash": "648d7d87f31a22abf647528bb6b60ccb0c9adff85b2ec3b6b8aec5a94c4af360",
+   "generated": "2026-11-12T00:00:50Z",
+   "hash": "a0c1c6489641eaf05496d5b5dbe0105e6fd3c88bada696ef45e9e898f6f5b306",
    "voice": "af_heart"
   },
   "nav-12-2": {
@@ -946,17 +946,17 @@
    "voice": "af_heart"
   },
   "nav-12-5": {
-   "chars": 758,
+   "chars": 768,
    "duration": 61.725,
-   "generated": "2026-11-11T18:11:01Z",
-   "hash": "286d2e2b5e91923d49741db9943b0ea37d407ab3052f693239b09d4e6da246df",
+   "generated": "2026-11-12T00:01:08Z",
+   "hash": "d5dafbeeac382dd7d68d6615b7f4e97fcc575ada5bb45fa2911080d21462df90",
    "voice": "af_heart"
   },
   "nav-13-1": {
-   "chars": 886,
+   "chars": 896,
    "duration": 68.475,
-   "generated": "2026-11-11T18:11:20Z",
-   "hash": "bc0e5f6c7aa2b9b201f0e671f5ee5ac46edbadbc923d81582243bc97b627a6c9",
+   "generated": "2026-11-12T00:01:27Z",
+   "hash": "035470040d10869ee63126207f2d4b27966c7f1e3175c456509cbf6aa8741118",
    "voice": "af_heart"
   },
   "nav-13-2": {
@@ -1030,10 +1030,10 @@
    "voice": "af_heart"
   },
   "plot-01-2": {
-   "chars": 792,
+   "chars": 812,
    "duration": 56.925,
-   "generated": "2026-11-11T18:27:37Z",
-   "hash": "215cf04777c25ad3520c9830981ccb61fc74fe35ce84977f426956d444c09686",
+   "generated": "2026-11-12T00:05:08Z",
+   "hash": "07610ff03607fd7e356505c98183a69b994ac1a308bd99205baff48879c1c5b1",
    "voice": "af_heart"
   },
   "plot-01-3": {
@@ -1058,10 +1058,10 @@
    "voice": "af_heart"
   },
   "plot-02-1": {
-   "chars": 751,
-   "duration": 53.625,
-   "generated": "2026-11-11T18:28:34Z",
-   "hash": "c248e28868140232a445d58587556db24c21c101df897451352eb74a25fd8d3c",
+   "chars": 781,
+   "duration": 53.525,
+   "generated": "2026-11-12T00:05:22Z",
+   "hash": "df968f0ddbbccf2cc86aa1c95cc00f2b424417c813d18dc6a949b5cf6632147c",
    "voice": "af_heart"
   },
   "plot-02-2": {
@@ -1079,10 +1079,10 @@
    "voice": "af_heart"
   },
   "plot-02-4": {
-   "chars": 876,
+   "chars": 886,
    "duration": 70.725,
-   "generated": "2026-11-11T18:29:23Z",
-   "hash": "d858617545a36cea0568f0f60e9954018f53c439ec3bd342f33c3425ce10109e",
+   "generated": "2026-11-12T00:05:42Z",
+   "hash": "8dd062cd327f0248f2c7f55eb7fb9a552cb1eceee86b9f9e141623ebae03c06e",
    "voice": "af_heart"
   },
   "plot-03-1": {
@@ -1093,10 +1093,10 @@
    "voice": "af_heart"
   },
   "plot-03-2": {
-   "chars": 673,
-   "duration": 48.975,
-   "generated": "2026-11-11T18:29:51Z",
-   "hash": "f58f9171cc408584e8af91aa467290a87ed266af888731075388f6f25fdc7522",
+   "chars": 683,
+   "duration": 48.875,
+   "generated": "2026-11-12T00:05:54Z",
+   "hash": "cff29d095a039f7801dddc4cc7722ed66f1af6d250b521a33b96726015bc532e",
    "voice": "af_heart"
   },
   "plot-03-3": {
@@ -1107,10 +1107,10 @@
    "voice": "af_heart"
   },
   "plot-03-4": {
-   "chars": 664,
-   "duration": 56.7,
-   "generated": "2026-11-11T18:30:17Z",
-   "hash": "01ca42b6c4c7155144cadda7b24b8b642b30c00f89c7702cfdf972d07b86e86e",
+   "chars": 674,
+   "duration": 56.675,
+   "generated": "2026-11-12T00:06:11Z",
+   "hash": "8519d3cf52893e5bd72721a8dcc8f36dda8a42e7c65a4cd155c99902406528a5",
    "voice": "af_heart"
   },
   "plot-04-1": {
@@ -1177,10 +1177,10 @@
    "voice": "af_heart"
   },
   "plot-05-5": {
-   "chars": 705,
+   "chars": 715,
    "duration": 59.475,
-   "generated": "2026-11-11T18:32:41Z",
-   "hash": "dc08c2460884bf853b914d70605a345e6cc46d54db44b0b286203c129bacb007",
+   "generated": "2026-11-12T00:06:27Z",
+   "hash": "74f88472fbc206bc6e24ace030a5ed1cb8aa65c7675c1e502f5b0ff514198b8d",
    "voice": "af_heart"
   },
   "plot-06-1": {
@@ -1205,10 +1205,10 @@
    "voice": "af_heart"
   },
   "plot-06-4": {
-   "chars": 654,
+   "chars": 664,
    "duration": 51.8,
-   "generated": "2026-11-11T18:33:35Z",
-   "hash": "ae83b3e178d685834b74337f7b5d7d5ae6d94839b8858b79e096bf4932abe1b5",
+   "generated": "2026-11-12T00:06:42Z",
+   "hash": "5cf05a771b07657190917f2d0b4cd33ef177c41cfc22149253c564273dd68e0a",
    "voice": "af_heart"
   },
   "plot-06-5": {
@@ -1268,24 +1268,24 @@
    "voice": "af_heart"
   },
   "plot-08-3": {
-   "chars": 696,
+   "chars": 723,
    "duration": 53.15,
-   "generated": "2026-11-11T18:35:43Z",
-   "hash": "4ee119b5907195abe1be792032c62566c17ab56e2641833b03a79feea391e823",
+   "generated": "2026-11-12T00:06:57Z",
+   "hash": "7c105c0212e1f99eef1a3d20f10a591fa4077f499a625eb0f78b2ac6ee515f04",
    "voice": "af_heart"
   },
   "plot-08-4": {
-   "chars": 784,
-   "duration": 59.3,
-   "generated": "2026-11-11T18:35:59Z",
-   "hash": "b195290a89b4c3ad4eb4ff62aecb05161a34495236b31f0308559e29a55c7645",
+   "chars": 820,
+   "duration": 59.275,
+   "generated": "2026-11-12T00:07:15Z",
+   "hash": "cf22db3bb5175ba73b2690db6390509b6ed822029d4b83f0ca86871d609bca73",
    "voice": "af_heart"
   },
   "plot-08-5": {
-   "chars": 677,
+   "chars": 704,
    "duration": 55.275,
-   "generated": "2026-11-11T18:36:13Z",
-   "hash": "49ee3e6e942cff5b78ccf2d7bf9e6770b8041fb62eec48a5c79c88a8b76eb611",
+   "generated": "2026-11-12T00:07:30Z",
+   "hash": "5fd1b2bfe686c95eb800cf5727b083bcf7e59bb970a993dacfdd5c3bad53f8a9",
    "voice": "af_heart"
   },
   "plot-09-1": {
@@ -1303,10 +1303,10 @@
    "voice": "af_heart"
   },
   "plot-09-3": {
-   "chars": 773,
+   "chars": 783,
    "duration": 58.975,
-   "generated": "2026-11-11T18:36:58Z",
-   "hash": "9ef17a9fe3077b40c50f4b1f2c4a89d488672e87af0ea59a2ce4312ffc3291fb",
+   "generated": "2026-11-12T00:07:46Z",
+   "hash": "9b8f970e4b8b21d3a44e051fcbf42ef187a12cb4e70600989c2d25ff43a00d2d",
    "voice": "af_heart"
   },
   "plot-09-4": {
@@ -1331,10 +1331,10 @@
    "voice": "af_heart"
   },
   "plot-10-2": {
-   "chars": 678,
-   "duration": 53.45,
-   "generated": "2026-11-11T18:37:56Z",
-   "hash": "a3c8d9514938327e14032d38b899324e1dfab4d065b489db72bf024148b5d29d",
+   "chars": 698,
+   "duration": 53.275,
+   "generated": "2026-11-12T00:08:00Z",
+   "hash": "fbbb0aab18b1f45b4eca7a81504e8377024fecd78cef3c0d0849f0496b98811a",
    "voice": "af_heart"
   },
   "plot-10-3": {
@@ -1345,17 +1345,17 @@
    "voice": "af_heart"
   },
   "plot-10-4": {
-   "chars": 652,
+   "chars": 662,
    "duration": 47.9,
-   "generated": "2026-11-11T18:38:24Z",
-   "hash": "a15628c5314f6f7bd9a9b4335f301641212733769f3da215227d0d8b92b79a60",
+   "generated": "2026-11-12T00:08:13Z",
+   "hash": "bc9410893067522e68a96e4f4d382e75cb49a2f0020c525af01e21e48a89ec74",
    "voice": "af_heart"
   },
   "plot-10-5": {
-   "chars": 756,
-   "duration": 53.15,
-   "generated": "2026-11-11T18:38:38Z",
-   "hash": "c5a0448fc573cda1e1f0bacb658d002a38dc476752fbb2e91be61f419e4a5880",
+   "chars": 766,
+   "duration": 53.25,
+   "generated": "2026-11-12T00:08:28Z",
+   "hash": "929ef9b52d44b1b8b3cc714be7578503946d586dc0e60484261bded2bf125c1a",
    "voice": "af_heart"
   },
   "rules-01-1": {
@@ -1408,10 +1408,10 @@
    "voice": "af_heart"
   },
   "rules-02-1": {
-   "chars": 459,
-   "duration": 34.125,
-   "generated": "2026-11-11T02:21:19Z",
-   "hash": "a81b893aabfebd9fce3e21d1a9adc4a28cf5d1438e62dc2a4fcdc5c299f50fa5",
+   "chars": 476,
+   "duration": 34.075,
+   "generated": "2026-11-11T23:53:17Z",
+   "hash": "ec47db2c5dff7ad7a36462f59e99d331625071d225ae3ef0b810e3c1d62b638b",
    "voice": "af_heart"
   },
   "rules-02-2": {
@@ -1513,10 +1513,10 @@
    "voice": "af_heart"
   },
   "rules-04-2": {
-   "chars": 947,
-   "duration": 69.35,
-   "generated": "2026-11-11T14:01:00Z",
-   "hash": "188882b1d8bc31a1ff959e563b6c9b5b44be766362ae151eec3664942a42d2b1",
+   "chars": 956,
+   "duration": 69.375,
+   "generated": "2026-11-11T23:53:37Z",
+   "hash": "5d5119dd9c56d26e3f4f61de3e9721af196cd44b5d4f5d5bf2ae0a9b442be2bb",
    "voice": "af_heart"
   },
   "rules-04-3": {
@@ -1569,10 +1569,10 @@
    "voice": "af_heart"
   },
   "rules-05-4": {
-   "chars": 886,
-   "duration": 64.85,
-   "generated": "2026-11-11T14:03:46Z",
-   "hash": "0ed35f83e8aa7e7f18adb660a032c8efb24a578eadb88c8ae8dff7f7bd1951e6",
+   "chars": 895,
+   "duration": 64.825,
+   "generated": "2026-11-11T23:53:55Z",
+   "hash": "44ceb1621e437ebe774e6e63040fef9f8c2080baa6e6abd2cde20ec8106ef25d",
    "voice": "af_heart"
   },
   "rules-05-5": {
@@ -1618,10 +1618,10 @@
    "voice": "af_heart"
   },
   "rules-07-1": {
-   "chars": 831,
-   "duration": 57.55,
-   "generated": "2026-11-11T17:04:15Z",
-   "hash": "4bae01d7ea67f82ce6518a9c67d22c420773a921b28d244942f5ec7a7bd2b0f3",
+   "chars": 841,
+   "duration": 57.575,
+   "generated": "2026-11-11T23:54:12Z",
+   "hash": "454ced0a34c51ea6db6be2d86a59d29c7be7cb99106fd04f75379b4b38072f8b",
    "voice": "af_heart"
   },
   "rules-07-2": {
@@ -1653,10 +1653,10 @@
    "voice": "af_heart"
   },
   "rules-08-1": {
-   "chars": 881,
+   "chars": 890,
    "duration": 66.15,
-   "generated": "2026-11-11T17:05:55Z",
-   "hash": "2324200c90a9153d33d399df28d9c2eb1301c2a71988bce905cf488b3220d0ad",
+   "generated": "2026-11-11T23:54:31Z",
+   "hash": "b0d7ee5f33ce85728551ebface034a3f51f41f0012e040b33ffa279f59917da8",
    "voice": "af_heart"
   },
   "rules-08-2": {
@@ -1681,24 +1681,24 @@
    "voice": "af_heart"
   },
   "rules-08-5": {
-   "chars": 892,
-   "duration": 64.8,
-   "generated": "2026-11-11T17:07:22Z",
-   "hash": "70aee0785cf69f73e5246f61707a46434b99fa5de0363f4895f58df6700384a6",
+   "chars": 901,
+   "duration": 64.825,
+   "generated": "2026-11-11T23:54:49Z",
+   "hash": "dcec9496b4911c945736bfc52f99f80a4bdb7ffef3e5fdd2b811702e6b49e47b",
    "voice": "af_heart"
   },
   "rules-09-1": {
-   "chars": 961,
+   "chars": 971,
    "duration": 64.825,
-   "generated": "2026-11-11T17:07:41Z",
-   "hash": "f8552897420301b2a985715d9b0e3489da1f2b7725edddf347e07760eeebaf11",
+   "generated": "2026-11-11T23:55:08Z",
+   "hash": "8218a10f2af094f99f18d36c47f92cd012620dacb3cff4c29cb52f5bfc39c3ce",
    "voice": "af_heart"
   },
   "rules-09-2": {
-   "chars": 1135,
-   "duration": 78.225,
-   "generated": "2026-11-11T17:08:03Z",
-   "hash": "5160e747f394300584e117dde507d6811f0cd14e6db648a3c9e7bfd9bf2e2365",
+   "chars": 1145,
+   "duration": 78.275,
+   "generated": "2026-11-11T23:55:30Z",
+   "hash": "ef9ff6328410d47b34eefdfa69ef2dd214751cb3a1cd7aa98374a7774596f947",
    "voice": "af_heart"
   },
   "rules-09-3": {
@@ -1786,10 +1786,10 @@
    "voice": "af_heart"
   },
   "rules-12-1": {
-   "chars": 957,
+   "chars": 967,
    "duration": 71.325,
-   "generated": "2026-11-11T17:12:51Z",
-   "hash": "8c576fb3becd2c4759326e158a8dc5f13154c94c68a951c56fc5a0b0479bef93",
+   "generated": "2026-11-11T23:55:50Z",
+   "hash": "e529efda383e354b17be610ca37f80d63b081a6557647d73f74830984f1ab86b",
    "voice": "af_heart"
   },
   "rules-12-2": {
@@ -1933,14 +1933,14 @@
    "voice": "af_heart"
   },
   "rules-15-4": {
-   "chars": 923,
-   "duration": 66.875,
-   "generated": "2026-11-11T17:20:24Z",
-   "hash": "0fecf084d69534b0eba24456ba9eeda5538bab8be6464e6a6a092bb36e6d671e",
+   "chars": 933,
+   "duration": 66.975,
+   "generated": "2026-11-11T23:56:09Z",
+   "hash": "1ce0f9a2c84796fde55a8873811ca263bc0d236a2f379524c410034979f6ecc5",
    "voice": "af_heart"
   }
  },
  "stats": {
-  "charsPerSec": 46.1
+  "charsPerSec": 47.6
  }
 }

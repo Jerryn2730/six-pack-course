@@ -3,7 +3,7 @@
  "lessonId": "deck-07",
  "n": 2,
  "audio": "deck-07-2.mp3",
- "duration": 58.55,
+ "duration": 58.525,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 5,
@@ -84,47 +84,47 @@
    "i": 9,
    "start": 34.975,
    "speechStart": 34.975,
-   "end": 40.4,
+   "end": 40.375,
    "builds": 0,
    "text": "Going ahead, she pivots about a point roughly a third of her length back from the bow."
   },
   {
    "i": 10,
-   "start": 40.65,
-   "speechStart": 40.65,
-   "end": 42.725,
+   "start": 40.625,
+   "speechStart": 40.625,
+   "end": 42.7,
    "builds": 0,
    "text": "So which end swings wide?"
   },
   {
    "i": 11,
-   "start": 42.975,
-   "speechStart": 43.725,
-   "end": 45.325,
+   "start": 42.95,
+   "speechStart": 43.7,
+   "end": 45.3,
    "builds": 0,
    "text": "The stern."
   },
   {
    "i": 12,
-   "start": 45.575,
-   "speechStart": 45.575,
-   "end": 49.75,
+   "start": 45.55,
+   "speechStart": 45.55,
+   "end": 49.725,
    "builds": 0,
    "text": "Turn away from a dock too sharply, and your stern swings into it."
   },
   {
    "i": 13,
-   "start": 50.0,
-   "speechStart": 50.0,
-   "end": 52.75,
+   "start": 49.975,
+   "speechStart": 49.975,
+   "end": 52.725,
    "builds": 1,
    "text": "Outboards and sterndrives are different."
   },
   {
    "i": 14,
-   "start": 53.0,
-   "speechStart": 53.0,
-   "end": 58.25,
+   "start": 52.975,
+   "speechStart": 52.975,
+   "end": 58.225,
    "builds": 0,
    "text": "They steer by aiming the propeller’s thrust, so they answer well even at low speed."
   }

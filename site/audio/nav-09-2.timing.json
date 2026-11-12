@@ -3,7 +3,7 @@
  "lessonId": "nav-09",
  "n": 2,
  "audio": "nav-09-2.mp3",
- "duration": 63.75,
+ "duration": 63.65,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -116,7 +116,7 @@
    "i": 13,
    "start": 57.875,
    "speechStart": 57.875,
-   "end": 63.45,
+   "end": 63.35,
    "builds": 0,
    "text": "Write that at the top of your scratch paper on exam day, before you read a single question."
   }

@@ -1,65 +1,65 @@
 WEBVTT
 
 1
-00:00:00.150 --> 00:00:04.850
+00:00:00.150 --> 00:00:04.825
 Your grandfather navigated with a compass, a watch and a lead line.
 
 2
-00:00:05.100 --> 00:00:08.275
+00:00:05.075 --> 00:00:08.250
 You have a screen that shows a little boat on a chart.
 
 3
-00:00:08.525 --> 00:00:12.475
+00:00:08.500 --> 00:00:12.450
 That’s a wonderful thing, right up to the moment it goes blank.
 
 4
-00:00:12.725 --> 00:00:17.975
+00:00:12.700 --> 00:00:17.950
 So today we learn what the electronics really tell you, and where each one can fool you.
 
 5
-00:00:18.225 --> 00:00:20.125
+00:00:18.200 --> 00:00:20.100
 Start with GPS.
 
 6
-00:00:20.375 --> 00:00:25.375
+00:00:20.350 --> 00:00:25.350
 It fixes your position from satellite signals, typically within a few meters.
 
 7
-00:00:25.625 --> 00:00:32.100
+00:00:25.600 --> 00:00:32.075
 A correction system called WAAS, available across North America, makes it better still.
 
 8
-00:00:32.350 --> 00:00:36.275
+00:00:32.325 --> 00:00:36.250
 It also gives you speed over ground and course over ground.
 
 9
-00:00:36.525 --> 00:00:38.325
+00:00:36.500 --> 00:00:38.300
 Where do those come from?
 
 10
-00:00:39.325 --> 00:00:41.700
+00:00:39.300 --> 00:00:41.675
 From how your position changes.
 
 11
-00:00:41.950 --> 00:00:43.800
+00:00:41.925 --> 00:00:43.775
 Not from the compass.
 
 12
-00:00:44.050 --> 00:00:48.275
+00:00:44.025 --> 00:00:48.250
 So sitting still at the dock, your GPS heading means nothing.
 
 13
-00:00:48.525 --> 00:00:56.475
+00:00:48.500 --> 00:00:56.450
 Set the receiver’s datum to match your chart: WGS eighty-four, which matches the North American Datum on the chart.
 
 14
-00:00:56.725 --> 00:01:00.350
+00:00:56.700 --> 00:01:00.325
 And GPS can fail, lose power, or be jammed.
 
 15
-00:01:00.600 --> 00:01:04.125
+00:01:00.575 --> 00:01:04.100
 The old Loran backup was shut down in twenty ten.
 
 16
-00:01:04.375 --> 00:01:09.025
+00:01:04.350 --> 00:01:09.000
 Your backup now is you: dead reckoning, a paper chart and a compass.

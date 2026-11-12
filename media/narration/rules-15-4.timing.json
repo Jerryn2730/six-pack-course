@@ -3,7 +3,7 @@
  "lessonId": "rules-15",
  "n": 4,
  "audio": "rules-15-4.mp3",
- "duration": 66.875,
+ "duration": 66.975,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 4,
@@ -92,31 +92,31 @@
    "i": 10,
    "start": 43.025,
    "speechStart": 43.025,
-   "end": 54.325,
+   "end": 54.425,
    "builds": 1,
    "text": "And fourth, in the week before your exam, read the rules once more in the Coast Guard handbook, Inland and International side by side, watching for the differences we just covered."
   },
   {
    "i": 11,
-   "start": 54.575,
-   "speechStart": 55.325,
-   "end": 60.5,
+   "start": 54.675,
+   "speechStart": 55.425,
+   "end": 60.6,
    "builds": 0,
    "text": "You started this module wondering where the rules change on a run out of Tampa Bay."
   },
   {
    "i": 12,
-   "start": 60.75,
-   "speechStart": 60.75,
-   "end": 64.45,
+   "start": 60.85,
+   "speechStart": 60.85,
+   "end": 64.55,
    "builds": 0,
    "text": "Now you know exactly where, and why, and what changes."
   },
   {
    "i": 13,
-   "start": 64.7,
-   "speechStart": 64.7,
-   "end": 66.575,
+   "start": 64.8,
+   "speechStart": 64.8,
+   "end": 66.675,
    "builds": 0,
    "text": "Good luck, Captain."
   }

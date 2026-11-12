@@ -3,7 +3,7 @@
  "lessonId": "plot-10",
  "n": 5,
  "audio": "plot-10-5.mp3",
- "duration": 53.15,
+ "duration": 53.25,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 5,
@@ -44,47 +44,47 @@
    "i": 4,
    "start": 20.0,
    "speechStart": 20.0,
-   "end": 27.8,
+   "end": 27.9,
    "builds": 1,
    "text": "If your answer is off by exactly one hundred eighty degrees, you read the wrong side of the rose, or you reversed a set."
   },
   {
    "i": 5,
-   "start": 28.05,
-   "speechStart": 28.05,
-   "end": 33.625,
+   "start": 28.15,
+   "speechStart": 28.15,
+   "end": 33.725,
    "builds": 1,
    "text": "And use the plotting drills in this app every day, until the arithmetic is automatic."
   },
   {
    "i": 6,
-   "start": 33.875,
-   "speechStart": 34.625,
-   "end": 39.875,
+   "start": 33.975,
+   "speechStart": 34.725,
+   "end": 39.975,
    "builds": 0,
    "text": "You began this course leaving the dock in Tampa Bay, not knowing where the rules changed."
   },
   {
    "i": 7,
-   "start": 40.125,
-   "speechStart": 40.125,
-   "end": 48.975,
+   "start": 40.225,
+   "speechStart": 40.225,
+   "end": 49.075,
    "builds": 0,
    "text": "Now you know the rules, the lights, the buoys, the tides, the weather, how to keep your passengers safe, and how to find your way home with a pencil."
   },
   {
    "i": 8,
-   "start": 49.225,
-   "speechStart": 49.225,
-   "end": 50.725,
+   "start": 49.325,
+   "speechStart": 49.325,
+   "end": 50.825,
    "builds": 0,
    "text": "You’re ready."
   },
   {
    "i": 9,
-   "start": 50.975,
-   "speechStart": 50.975,
-   "end": 52.85,
+   "start": 51.075,
+   "speechStart": 51.075,
+   "end": 52.95,
    "builds": 0,
    "text": "Good luck, Captain."
   }

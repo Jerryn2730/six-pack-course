@@ -3,7 +3,7 @@
  "lessonId": "rules-07",
  "n": 1,
  "audio": "rules-07-1.mp3",
- "duration": 57.55,
+ "duration": 57.575,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -44,55 +44,55 @@
    "i": 4,
    "start": 17.25,
    "speechStart": 17.25,
-   "end": 20.325,
+   "end": 20.35,
    "builds": 0,
    "text": "Look at the screen, and read it from the bottom up."
   },
   {
    "i": 5,
-   "start": 20.575,
-   "speechStart": 21.325,
-   "end": 24.825,
+   "start": 20.6,
+   "speechStart": 21.35,
+   "end": 24.85,
    "builds": 0,
    "text": "Each vessel keeps out of the way of the vessels above her."
   },
   {
    "i": 6,
-   "start": 25.075,
-   "speechStart": 25.075,
-   "end": 37.7,
+   "start": 25.1,
+   "speechStart": 25.1,
+   "end": 37.725,
    "builds": 0,
    "text": "A power-driven vessel underway keeps out of the way of four kinds of vessel: one not under command, one restricted in her ability to maneuver, one engaged in fishing, and a sailing vessel."
   },
   {
    "i": 7,
-   "start": 37.95,
-   "speechStart": 37.95,
-   "end": 42.7,
+   "start": 37.975,
+   "speechStart": 37.975,
+   "end": 42.725,
    "builds": 0,
    "text": "Power-driven sits on the bottom rung, and that’s where your charter boat lives."
   },
   {
    "i": 8,
-   "start": 42.95,
-   "speechStart": 42.95,
-   "end": 45.025,
+   "start": 42.975,
+   "speechStart": 42.975,
+   "end": 45.05,
    "builds": 0,
    "text": "So here’s the plain truth."
   },
   {
    "i": 9,
-   "start": 45.275,
-   "speechStart": 45.275,
-   "end": 51.45,
+   "start": 45.3,
+   "speechStart": 45.3,
+   "end": 51.475,
    "builds": 0,
    "text": "Most days, almost everything out there that isn’t another powerboat has priority over you."
   },
   {
    "i": 10,
-   "start": 51.7,
-   "speechStart": 51.7,
-   "end": 57.25,
+   "start": 51.725,
+   "speechStart": 51.725,
+   "end": 57.275,
    "builds": 0,
    "text": "The logic of the ladder is simple: the less a vessel can maneuver, the higher she stands."
   }

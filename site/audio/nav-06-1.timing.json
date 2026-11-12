@@ -3,7 +3,7 @@
  "lessonId": "nav-06",
  "n": 1,
  "audio": "nav-06-1.mp3",
- "duration": 63.375,
+ "duration": 63.475,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 5,
@@ -108,7 +108,7 @@
    "i": 12,
    "start": 59.3,
    "speechStart": 59.3,
-   "end": 63.075,
+   "end": 63.175,
    "builds": 0,
    "text": "Before you run any inlet for the first time, read its page."
   }

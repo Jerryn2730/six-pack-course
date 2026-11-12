@@ -3,7 +3,7 @@
  "lessonId": "rules-04",
  "n": 2,
  "audio": "rules-04-2.mp3",
- "duration": 69.35,
+ "duration": 69.375,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 4,
@@ -76,55 +76,55 @@
    "i": 8,
    "start": 38.35,
    "speechStart": 38.35,
-   "end": 40.45,
+   "end": 40.475,
    "builds": 0,
    "text": "Do you dart across her bow?"
   },
   {
    "i": 9,
-   "start": 40.7,
-   "speechStart": 41.45,
-   "end": 42.825,
+   "start": 40.725,
+   "speechStart": 41.475,
+   "end": 42.85,
    "builds": 0,
    "text": "No."
   },
   {
    "i": 10,
-   "start": 43.075,
-   "speechStart": 43.075,
-   "end": 44.575,
+   "start": 43.1,
+   "speechStart": 43.1,
+   "end": 44.6,
    "builds": 0,
    "text": "You wait."
   },
   {
    "i": 11,
-   "start": 44.825,
-   "speechStart": 44.825,
-   "end": 52.5,
+   "start": 44.85,
+   "speechStart": 44.85,
+   "end": 52.525,
    "builds": 1,
    "text": "And if that ship’s captain is in doubt about what you’re doing, he’ll tell you with the danger signal: at least five short blasts."
   },
   {
    "i": 12,
-   "start": 52.75,
-   "speechStart": 52.75,
-   "end": 57.45,
+   "start": 52.775,
+   "speechStart": 52.775,
+   "end": 57.475,
    "builds": 0,
    "text": "If you ever hear five short blasts from a ship, assume they’re meant for you."
   },
   {
    "i": 13,
-   "start": 57.7,
-   "speechStart": 57.7,
-   "end": 63.625,
+   "start": 57.725,
+   "speechStart": 57.725,
+   "end": 63.65,
    "builds": 1,
    "text": "Third, every vessel shall avoid anchoring in a narrow channel, if the circumstances allow."
   },
   {
    "i": 14,
-   "start": 63.875,
-   "speechStart": 63.875,
-   "end": 69.05,
+   "start": 63.9,
+   "speechStart": 63.9,
+   "end": 69.075,
    "builds": 0,
    "text": "Anchoring up to fish in the ship channel is exactly what this rule is written for."
   }

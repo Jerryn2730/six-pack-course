@@ -3,7 +3,7 @@
  "lessonId": "plot-02",
  "n": 1,
  "audio": "plot-02-1.mp3",
- "duration": 53.625,
+ "duration": 53.525,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 0,
@@ -68,39 +68,39 @@
    "i": 7,
    "start": 30.7,
    "speechStart": 30.7,
-   "end": 37.425,
+   "end": 37.325,
    "builds": 0,
    "text": "For longitude, measure from the nearest meridian to your point, and read that on the top or bottom scale."
   },
   {
    "i": 8,
-   "start": 37.675,
-   "speechStart": 37.675,
-   "end": 40.225,
+   "start": 37.575,
+   "speechStart": 37.575,
+   "end": 40.125,
    "builds": 0,
    "text": "Now, which way do the numbers grow?"
   },
   {
    "i": 9,
-   "start": 40.475,
-   "speechStart": 41.225,
-   "end": 44.4,
+   "start": 40.375,
+   "speechStart": 41.125,
+   "end": 44.3,
    "builds": 0,
    "text": "In north latitude, they increase going up."
   },
   {
    "i": 10,
-   "start": 44.65,
-   "speechStart": 44.65,
-   "end": 48.05,
+   "start": 44.55,
+   "speechStart": 44.55,
+   "end": 47.95,
    "builds": 0,
    "text": "In west longitude, they increase going left."
   },
   {
    "i": 11,
-   "start": 48.3,
-   "speechStart": 48.3,
-   "end": 53.325,
+   "start": 48.2,
+   "speechStart": 48.2,
+   "end": 53.225,
    "builds": 0,
    "text": "That second one feels backward, and it’s the commonest mistake in this lesson."
   }

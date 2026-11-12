@@ -3,7 +3,7 @@
  "lessonId": "rules-05",
  "n": 4,
  "audio": "rules-05-4.mp3",
- "duration": 64.85,
+ "duration": 64.825,
  "voice": "af_heart",
  "speed": 0.97,
  "buildCount": 4,
@@ -124,15 +124,15 @@
    "i": 14,
    "start": 55.0,
    "speechStart": 55.0,
-   "end": 58.175,
+   "end": 58.15,
    "builds": 0,
    "text": "Getting your bow just ahead of hers isn’t enough."
   },
   {
    "i": 15,
-   "start": 58.425,
-   "speechStart": 58.425,
-   "end": 64.55,
+   "start": 58.4,
+   "speechStart": 58.4,
+   "end": 64.525,
    "builds": 1,
    "text": "And remember the opening phrase: overtaking overrides everything in Rules four through eighteen."
   }

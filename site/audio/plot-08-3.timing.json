@@ -20,22 +20,22 @@
    "i": 1,
    "start": 5.9,
    "speechStart": 5.9,
-   "end": 8.775,
+   "end": 8.75,
    "builds": 0,
    "text": "The easiest is the bow and beam bearing."
   },
   {
    "i": 2,
-   "start": 9.025,
-   "speechStart": 9.025,
-   "end": 10.85,
+   "start": 9.0,
+   "speechStart": 9.0,
+   "end": 10.825,
    "builds": 0,
    "text": "Look at the diagram."
   },
   {
    "i": 3,
-   "start": 11.1,
-   "speechStart": 11.1,
+   "start": 11.075,
+   "speechStart": 11.075,
    "end": 14.975,
    "builds": 0,
    "text": "Note the time when the light is forty-five degrees off your bow."
