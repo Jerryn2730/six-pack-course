@@ -861,6 +861,24 @@ const FIG={
   s+=MAPDOT(P.miami,"Miami","end")+MAPDOT(P.keylargo,"Key Largo","end",16,-10)+MAPDOT(P.marathon,"Marathon","start",0,12)+MAPDOT(P.keywest,"Key West","middle",26)+MAPDOT(P.tortugas,"Dry Tortugas","start",-14);
   s+=MAPLAB(220,350,"Florida Keys National Marine Sanctuary","s-ink","middle",0,"#1e8a4c")+`<text x="220" y="370" text-anchor="middle" font-size="13" font-weight="500" class="s-mut">Coral: never anchor on it. Use the mooring buoys.</text>`+MAPLAB(180,60,"Everglades","s-mut","middle",1);
   return FV(s+`<text x="10" y="392" font-size="11" font-weight="500" class="s-mut">Schematic, not for navigation. Sanctuary outline approximate.</text>`);},
+ rule12(){
+  // Sailboats seen from above. b: boom side (+1 starboard, -1 port). The boom swings away from the wind,
+  // so the tack shows at a glance: wind over the port side, boom to starboard = port tack.
+  const boat=(b,give)=>{const c=give?"var(--mag)":"var(--ink)";return `<g transform="scale(1.5)"><path d="M0,-30 C10,-18 12,4 9,22 L-9,22 C-12,4 -10,-18 0,-30Z" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.6"/><path d="M0,-28 Q${b*11},-20 ${b*8},-8 Q${b*4},-16 0,-28Z" fill="${c}" opacity=".55"/><path d="M0,-6 Q${b*22},2 ${b*15},24 Q${b*7},10 0,-6Z" fill="${c}" opacity=".85"/><path d="M0,-6 L${b*15},24" stroke="var(--ink)" stroke-width="2.2" stroke-linecap="round"/><circle cx="0" cy="-6" r="2.4" fill="var(--ink)"/></g>`;};
+  const at=(x,y,h,b,give)=>`<g transform="translate(${x} ${y}) rotate(${h})">${boat(b,give)}</g>`;
+  const wind=(x0,y0,n,gap)=>{let s="";for(let i=0;i<n;i++){const x=x0+i*gap;s+=`<path d="M${x},${y0} V${y0+20}" stroke="var(--ink)" stroke-width="3"/><path d="M${x-7},${y0+18} L${x+7},${y0+18} L${x},${y0+30}Z" fill="var(--ink)"/>`;}return s+TX(x0+(n-1)*gap+14,y0+20,"Wind",{a:"start",z:15,w:700});};
+  const P="M95,168 C125,134 160,118 200,132 C250,152 320,206 410,200";
+  let s=TX(20,26,"Wind on different sides",{a:"start",z:16,w:700})+wind(30,40,3,30);
+  s+=at(330,150,-45,-1,false)+TX(430,64,"Starboard tack: stands on",{a:"end",z:15,w:700})+`<text x="430" y="82" text-anchor="end" font-size="13" font-weight="500" class="s-mut">wind over her starboard side, boom to port</text>`;
+  s+=`<path d="${P}" class="s-magst" stroke-width="2.2" stroke-dasharray="6 5" marker-end="url(#ah)" opacity=".75"/>`;
+  s+=`<g><g transform="rotate(90)">${boat(1,true)}</g><animateMotion dur="9s" repeatCount="indefinite" rotate="auto" path="${P}" keyPoints="0;0;1;1" keyTimes="0;0.2;0.85;1" calcMode="linear"/></g>`;
+  s+=TX(20,236,"Port tack: keeps clear",{a:"start",z:15,c:"s-mag",w:700})+`<text x="20" y="253" font-size="13" font-weight="500" class="s-mut">wind over her port side, boom to starboard; passes astern</text>`;
+  s+=`<path d="M10,264 H430" class="s-lst" stroke-width="1.5"/>`;
+  s+=TX(20,290,"Wind on the same side",{a:"start",z:16,w:700})+wind(20,302,3,30);
+  s+=at(230,306,-90,-1,true)+at(150,360,-90,-1,false);
+  s+=TX(300,304,"Windward: keeps clear",{a:"start",z:15,c:"s-mag",w:700})+`<text x="300" y="321" font-size="13" font-weight="500" class="s-mut">closer to the wind</text>`;
+  s+=TX(220,366,"Leeward: stands on",{a:"start",z:15,w:700});
+  return FV(s);},
  westernrivers(){
   let s=`<rect width="440" height="400" class="s-bg"/><path d="${WR.land}" class="s-land"/><path d="${WR.trib}" class="s-magst" stroke-width="1.6" opacity=".55" stroke-linejoin="round"/><path d="${WR.main}" class="s-magst" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/><path d="${WR.atch}" stroke="#e8762b" stroke-width="3.4" fill="none" stroke-linecap="round"/>`;
   const lab=(x,y,t,a,c)=>`<text x="${x}" y="${y}" text-anchor="${a||"start"}" font-size="14" font-weight="700" class="${c||"s-ink"}" style="paint-order:stroke;stroke:var(--land);stroke-width:3px">${t}</text>`;
