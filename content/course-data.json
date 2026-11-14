@@ -1989,7 +1989,9 @@
           95
          ]
         ],
-        "From astern"
+        "From astern",
+        "none",
+        "Diamond only if the tow is over 200 m"
        ],
        [
         [
@@ -2009,7 +2011,8 @@
           118
          ]
         ],
-        "Tow 200 m or less"
+        "Tow 200 m or less",
+        "none"
        ],
        [
         [
@@ -2034,7 +2037,11 @@
           118
          ]
         ],
-        "Tow over 200 m"
+        "Tow over 200 m",
+        [
+         "diamond"
+        ],
+        "Tug and tow"
        ]
       ]
      },
@@ -2130,7 +2137,8 @@
           112
          ]
         ],
-        "Inland: barge pushed ahead, head-on"
+        "Inland: barge pushed ahead, head-on",
+        "none"
        ],
        [
         [
@@ -2145,7 +2153,11 @@
           104
          ]
         ],
-        "Vessel towed astern, starboard side"
+        "Vessel towed astern, starboard side",
+        [
+         "diamond"
+        ],
+        "If the tow is over 200 m"
        ]
       ]
      },
@@ -2347,7 +2359,11 @@
           115
          ]
         ],
-        "Trawling, head-on"
+        "Trawling, head-on",
+        [
+         "coneDown",
+         "coneUp"
+        ]
        ],
        [
         [
@@ -2367,7 +2383,11 @@
           115
          ]
         ],
-        "Other fishing, port side"
+        "Other fishing, port side",
+        [
+         "coneDown",
+         "coneUp"
+        ]
        ],
        [
         [
@@ -2387,7 +2407,13 @@
           92
          ]
         ],
-        "Gear out over 150 m"
+        "Gear out over 150 m",
+        [
+         "coneDown",
+         "coneUp",
+         "gearUp"
+        ],
+        "Extra cone toward the gear"
        ]
       ]
      },
@@ -2519,7 +2545,11 @@
           68
          ]
         ],
-        "NUC, not making way"
+        "NUC, not making way",
+        [
+         "ball",
+         "ball"
+        ]
        ],
        [
         [
@@ -2539,7 +2569,11 @@
           115
          ]
         ],
-        "NUC, making way"
+        "NUC, making way",
+        [
+         "ball",
+         "ball"
+        ]
        ],
        [
         [
@@ -2574,7 +2608,12 @@
           122
          ]
         ],
-        "RAM, making way"
+        "RAM, making way",
+        [
+         "ball",
+         "diamond",
+         "ball"
+        ]
        ]
       ]
      },
@@ -2627,7 +2666,8 @@
           86
          ]
         ],
-        "Dredge: pass on the green side"
+        "Dredge: pass on the green side",
+        "dredge"
        ]
       ]
      },
@@ -2697,7 +2737,11 @@
           81
          ]
         ],
-        "Constrained by draft"
+        "Constrained by draft",
+        [
+         "cyl"
+        ],
+        "International only"
        ],
        [
         [
@@ -2722,7 +2766,8 @@
           115
          ]
         ],
-        "Pilot, underway"
+        "Pilot, underway",
+        "none"
        ],
        [
         [
@@ -2742,7 +2787,11 @@
           92
          ]
         ],
-        "Pilot, at anchor"
+        "Pilot, at anchor",
+        [
+         "ball"
+        ],
+        "Anchor ball"
        ]
       ]
      },
@@ -2765,7 +2814,10 @@
           96
          ]
         ],
-        "Under 50 m at anchor"
+        "Under 50 m at anchor",
+        [
+         "ball"
+        ]
        ],
        [
         [
@@ -2780,7 +2832,10 @@
           85
          ]
         ],
-        "50 m and over at anchor"
+        "50 m and over at anchor",
+        [
+         "ball"
+        ]
        ],
        [
         [
@@ -2805,7 +2860,12 @@
           82
          ]
         ],
-        "Aground"
+        "Aground",
+        [
+         "ball",
+         "ball",
+         "ball"
+        ]
        ]
       ]
      },

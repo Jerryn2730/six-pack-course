@@ -155,6 +155,12 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .vpoints li::marker,.vscript li::marker{color:var(--mag);font-weight:700}
 .vrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.8rem;width:100%}
 .vrow figure{margin:0}
+.ldpair{display:grid;grid-template-columns:3fr 2fr;gap:.3rem}
+.vrow:has(.ldpair){grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.ldpair .stage.day{flex-direction:column;justify-content:flex-start;padding:.3rem .3rem .4rem}
+.ldpair .stage.day svg{max-height:150px;width:100%}
+.bd{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#1d2a35}
+.bdn{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-size:.78rem;color:#1d2a35;text-align:center;line-height:1.15}
 .hear{margin-top:.35rem;font:inherit;font-size:.85rem;font-weight:600;color:var(--mag);background:var(--surface);border:1.5px solid var(--mag);border-radius:999px;padding:.15rem .7rem;cursor:pointer}
 .hookq{color:#fff;font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;font-size:clamp(1.3rem,4vw,1.8rem);text-align:center;padding:1.6rem 1rem;line-height:1.25}
 .due{margin:0 0 1.6rem;padding:1rem 1.2rem;border:1px solid var(--line);border-left:6px solid var(--mag);border-radius:12px;background:var(--surface);display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;justify-content:space-between}.due p{margin:0}
@@ -543,6 +549,20 @@ function drawShapes(c){
   const n=c.s.length,h=Math.max(150,46+n*38);let y=36,out="";
   c.s.forEach(s=>{out+=shp(s,100,y);y+=(s==="coneDown"&&c.s.length===2&&c.s[1]==="coneUp")?30:38;});
   return `<svg viewBox="0 0 200 ${h}" role="img" aria-label="Day shapes on a mast"><line x1="100" y1="6" x2="100" y2="${h}" stroke="#4a5864" stroke-width="2.5"/><line x1="70" y1="12" x2="130" y2="12" stroke="#4a5864" stroke-width="2"/>${out}</svg>`;
+}
+// Day shapes beside a night view. "dredge": the three hoists of a dredge; "gearUp": the extra cone,
+// point up, hoisted toward fishing gear that extends more than 150 m.
+function dayArt(s){
+  const mast=(x,h)=>`<line x1="${x}" y1="6" x2="${x}" y2="${h}" stroke="#4a5864" stroke-width="2.5"/><line x1="${x-24}" y1="12" x2="${x+24}" y2="12" stroke="#4a5864" stroke-width="2"/>`;
+  if(s==="none")return `<svg viewBox="62 0 76 112" role="img" aria-label="No day shape">${mast(100,112)}<text x="100" y="66" text-anchor="middle" font-size="13" font-weight="700" fill="#101418" font-family="Barlow Semi Condensed, Arial, sans-serif" style="paint-order:stroke;stroke:#cfe0ea;stroke-width:5px">No shape</text></svg>`;
+  if(s==="dredge"){const lab=(x,tx)=>`<text x="${x}" y="146" text-anchor="middle" font-size="13" font-weight="700" fill="#101418" font-family="Barlow Semi Condensed, Arial, sans-serif">${tx}</text>`;
+    return `<svg viewBox="0 0 200 152" role="img" aria-label="Dredge by day: two balls on the obstructed side, ball diamond ball in the middle, two diamonds on the side to pass">${mast(40,128)+mast(100,128)+mast(160,128)}${shp("ball",40,44)+shp("ball",40,80)+shp("ball",100,34)+shp("diamond",100,70)+shp("ball",100,106)+shp("diamond",160,44)+shp("diamond",160,82)}${lab(40,"Don’t pass")+lab(160,"Pass")}</svg>`;}
+  const main=s.filter(x=>x!=="gearUp"),gear=s.includes("gearUp");
+  const together=main.length===2&&main[0]==="coneDown"&&main[1]==="coneUp";
+  const h=Math.max(112,30+main.length*38);let y=34,out="";
+  main.forEach(x=>{out+=shp(x,100,y);y+=together?30:38;});
+  if(gear)out+=`<line x1="100" y1="88" x2="140" y2="88" stroke="#4a5864" stroke-width="2"/>`+shp("coneUp",146,100);
+  return `<svg viewBox="${gear?"58 0 112":"62 0 76"} ${h}" role="img" aria-label="Day shapes: ${s.join(", ")}">${mast(100,h)}${out}</svg>`;
 }
 function drawSound(c){
   const parts=c.p.split(""),W={P:56,S:18},gap=11,w=parts.reduce((t,p)=>t+W[p],0)+gap*(parts.length-1);let x=(200-w)/2,out="";
@@ -1039,7 +1059,9 @@ function visualBody(v){
   if(v.k==="dg")return DG[v.f]();
   if(v.k==="formula")return `<div class="vformula"><p class="big">${v.f}</p>${v.rows.map(r=>`<p>${r}</p>`).join("")}<p class="ex">${v.ex}</p></div>`;
   const fig=(art,l,day)=>`<figure class="rv-item"><div class="stage${day?" day":""}">${art}</div><figcaption>${l}</figcaption></figure>`;
-  if(v.k==="lights")return `<div class="vrow">${v.items.map(([d,l])=>fig(drawLights({d}),l)).join("")}</div>`;
+  // A lights item may carry the day shapes for the same vessel as a third element (and a short note as a fourth),
+  // drawn beside the night view so lights and shapes are learned together.
+  if(v.k==="lights")return `<div class="vrow">${v.items.map(([d,l,day,note])=>day?`<figure class="rv-item"><div class="ldpair"><div class="stage">${drawLights({d})}</div><div class="stage day"><span class="bd">By day</span>${dayArt(day)}${note?`<span class="bdn">${note}</span>`:""}</div></div><figcaption>${l}</figcaption></figure>`:fig(drawLights({d}),l)).join("")}</div>`;
   if(v.k==="shapes")return `<div class="vrow">${v.items.map(([s,l])=>fig(drawShapes({s}),l,true)).join("")}</div>`;
   if(v.k==="sounds")return `<div class="vrow">${v.items.map(([p,l])=>fig(drawSound({p}),`${l}<br><button class="hear" data-p="${p}">Hear it</button>`)).join("")}</div>`;
   return "";
