@@ -216,6 +216,7 @@ th{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600;color:va
 .vtable td:first-child{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:600}
 .rv-item{transition:opacity .45s ease}
 .rv-item.dim{opacity:.12}
+.stage.day.dayhide{opacity:0}.ldpair .stage.day{transition:opacity .45s ease}
 .callout{align-self:stretch;display:flex;flex-direction:column;justify-content:center;padding:1rem 1.4rem;border-left:5px solid var(--mag);background:var(--mag-soft);border-radius:10px}
 .ctag{font-family:"Barlow Semi Condensed",Arial,sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--mag);font-size:.95rem;margin:0 0 .7rem}
 .callout ul{margin:0;padding-left:1.2rem;font-size:clamp(1.1rem,2.4vw,1.5rem);line-height:1.5}
@@ -1176,7 +1177,11 @@ function speechFailed(why){
 const AUDIO_BASE="audio/"; // Narration MP3s + timing files from `npm run audio`, named like rules-01-1.mp3. Slides without a file use browser speech.
 function strip(t){return t.replace(/\s*\[(\+|pause)\]\s*/g," ").replace(/\s{2,}/g," ").trim();}
 function clean(t){return strip(t).replace(/°/g," degrees").replace(/×/g," times ").replace(/÷/g," divided by ");}
-function reveal(k){const items=[...document.querySelectorAll("#slide .rv-item")];if(!PL.les)return;const say=cur().say;if(!/\[\+\]/.test(say)){items.forEach(el=>el.classList.remove("dim"));return;}const ss=splitS(say);let n=0;if(k>=ss.length)n=items.length;else for(let i=0;i<=k&&i<ss.length;i++)n+=(ss[i].match(/\[\+\]/g)||[]).length;items.forEach((el,i)=>el.classList.toggle("dim",i>=n));}
+function reveal(k){const items=[...document.querySelectorAll("#slide .rv-item")];if(!PL.les)return;const say=cur().say;if(!/\[\+\]/.test(say)){items.forEach(el=>el.classList.remove("dim"));dayShow(true);return;}const ss=splitS(say);let n=0;if(k>=ss.length)n=items.length;else for(let i=0;i<=k&&i<ss.length;i++)n+=(ss[i].match(/\[\+\]/g)||[]).length;items.forEach((el,i)=>el.classList.toggle("dim",i>=n));
+  // "By day" panels beside night lights wait until the narration first mentions day shapes (or the slide ends).
+  let said=k>=ss.length;for(let i=0;i<=k&&i<ss.length&&!said;i++)said=DAYRX.test(strip(ss[i]));dayShow(said);}
+const DAYRX=/\b(by day|day shapes?|balls?|diamonds?|cylinder|cones?)\b/i;
+function dayShow(on){document.querySelectorAll("#slide .ldpair .stage.day").forEach(el=>el.classList.toggle("dayhide",!on));}
 function playFile(tok,ss){const a=PL.audio||(PL.audio=new Audio());const key=`${PL.les.id}-${PL.i+1}`;const words=ss.map(s=>strip(s).split(/\s+/).length),tot=words.reduce((x,y)=>x+y,0);const av=cur().av?`?v=${cur().av}`:"";a.src=`${AUDIO_BASE}${key}.mp3${av}`;a.playbackRate=PL.rate;
  // Exact sync: scripts/narrate.py writes {key}.timing.json with each sentence's start time. Without it (or when it
  // can't be fetched, e.g. opened from file://), fall back to splitting the audio by word count.
